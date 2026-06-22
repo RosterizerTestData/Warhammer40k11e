@@ -42,7 +42,7 @@ const fileList = [
   'Thousand_Sons.rulebook',
   'Titanicus_Traitoris.rulebook',
   'Tyranids.rulebook',
-  'Warhammer_40k_10e.rulebook',
+  'Warhammer_40k_11e.rulebook',
   'World_Eaters.rulebook',
   'Combat_Patrol.rulebook',
 ];

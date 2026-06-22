@@ -53,7 +53,7 @@ async function processFiles() {
 
       // console.log(JSON.parse(JSON.stringify(data.name)));
       let rulebook = {
-        revision: '10.11.0',
+        revision: '11.0.0',
         name: 'Combat Patrol',
         game: 'Warhammer 40k',
         genre: 'sci-fi',
@@ -64,9 +64,9 @@ async function processFiles() {
         dependencies: [
           {
             slug: '123456',
-            name: '40k10e',
+            name: '40k11e',
             game: 'Warhammer 40k',
-            source: 'https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k10e/main/Warhammer_40k_10e.rulebook'
+            source: 'https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k11e/main/Warhammer_40k_11e.rulebook'
           }
         ],
         rulebook: {
