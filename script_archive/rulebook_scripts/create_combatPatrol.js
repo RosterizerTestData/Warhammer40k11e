@@ -64,7 +64,7 @@ async function processFiles() {
         dependencies: [
           {
             slug: '123456',
-            name: '40k11e',
+            name: '40k 11e',
             game: 'Warhammer 40k',
             source: 'https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k11e/main/Warhammer_40k_11e.rulebook'
           }
