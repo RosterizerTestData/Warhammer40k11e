@@ -1,6 +1,6 @@
 {
   "name": "40k 11e",
-  "revision": "11.0.0",
+  "revision": "11.0.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -2444,6 +2444,20 @@
       "Detachment": {
         "aspects": {
           "Visibility": "active"
+        },
+        "keywords": {
+          "Role": []
+        },
+        "stats": {
+          "Detachment Points": {
+            "group": "Cost",
+            "groupOrder": -1,
+            "label": "DPs",
+            "statType": "numeric",
+            "tracked": true,
+            "value": 0,
+            "visibility": "normal"
+          }
         }
       },
       "Enhancement": {
@@ -5110,6 +5124,68 @@
             "failState": "pass",
             "order": 42
           },
+          "applyUnitDiscount": {
+            "actions": [
+              {
+                "actionType": "modify",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Points",
+                    "value"
+                  ]
+                ],
+                "value": [
+                  "{this}",
+                  "evals",
+                  "1",
+                  "result",
+                  "integer"
+                ]
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "rules",
+                    "trackUnitDiscount",
+                    "evals",
+                    "2",
+                    "result",
+                    "truthy"
+                  ]
+                ],
+                "value": true
+              },
+              {
+                "actionable": true,
+                "equation": {
+                  "operator": "T*O",
+                  "value": -1
+                },
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "unitDiscount",
+                    "value"
+                  ]
+                ]
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 61
+          },
           "cheatUnitNameTally": {
             "actions": [
               {
@@ -6321,6 +6397,80 @@
             "evaluate": "OR",
             "failState": "error"
           },
+          "trackUnitDiscount": {
+            "actions": [
+              {
+                "actionType": "modify",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "tracked",
+                    "{0string}"
+                  ]
+                ],
+                "value": [
+                  "{self}",
+                  "quantity"
+                ]
+              }
+            ],
+            "evals": [
+              {
+                "actionable": false,
+                "not": false,
+                "note": "Get the unit ID",
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "unitID",
+                    "value"
+                  ]
+                ]
+              },
+              {
+                "actionable": false,
+                "equation": {
+                  "operator": "T+O",
+                  "value": 2
+                },
+                "not": false,
+                "note": "current tally + 1 for this unit + 1 for the threshold barrier",
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{roster}",
+                    "tracked",
+                    "{0string}"
+                  ]
+                ]
+              },
+              {
+                "actionable": false,
+                "max": [
+                  "{self}",
+                  "stats",
+                  "unitDiscountThreshold"
+                ],
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{this}",
+                    "evals",
+                    "1",
+                    "result",
+                    "integer"
+                  ]
+                ]
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 60
+          },
           "trueModelTally": {
             "evals": [
               {
@@ -6626,6 +6776,16 @@
             "statType": "numeric",
             "value": null,
             "visibility": "normal"
+          },
+          "unitDiscount": {
+            "statType": "numeric",
+            "value": 0,
+            "visibility": "hidden"
+          },
+          "unitDiscountThreshold": {
+            "statType": "numeric",
+            "value": 0,
+            "visibility": "hidden"
           },
           "unitID": {
             "statType": "term",
@@ -7386,6 +7546,14 @@
             "tracked": true,
             "value": null,
             "visibility": "normal"
+          },
+          "Points": {
+            "group": "Cost",
+            "groupOrder": -1,
+            "statType": "numeric",
+            "tracked": true,
+            "value": null,
+            "visibility": "always"
           },
           "Range": {
             "format": "{v}″",
@@ -12673,6 +12841,23 @@
                   "tracked",
                   "maxPoints"
                 ]
+              },
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Detachment Points",
+                    "max"
+                  ]
+                ],
+                "value": [
+                  "{self}",
+                  "tracked",
+                  "maxDP"
+                ]
               }
             ],
             "evals": [
@@ -12953,19 +13138,15 @@
               "Incursion": {
                 "order": 1,
                 "tracking": {
+                  "maxDP": 3,
                   "maxPoints": 1000
                 }
               },
               "Strike Force": {
                 "order": 2,
                 "tracking": {
+                  "maxDP": 4,
                   "maxPoints": 2000
-                }
-              },
-              "Onslaught": {
-                "order": 3,
-                "tracking": {
-                  "maxPoints": 3000
                 }
               }
             },
@@ -13015,15 +13196,22 @@
           },
           "Detachment": {
             "dynamic": true,
-            "ranks": {
-              "-": {
-                "order": 0
-              }
-            },
+            "multiSelect": 0,
             "statOrder": 4,
             "statType": "rank",
-            "value": "-",
+            "value": [],
             "visibility": "always"
+          },
+          "Detachment Points": {
+            "group": "Cost",
+            "groupOrder": 0,
+            "label": "DPs",
+            "max": 3,
+            "statOrder": 2,
+            "statType": "numeric",
+            "tracked": true,
+            "value": 0,
+            "visibility": "normal"
           },
           "Enhancement": {
             "max": 3,
@@ -13127,7 +13315,7 @@
             "statOrder": 2,
             "statType": "rank",
             "value": "Matched",
-            "visibility": "normal"
+            "visibility": "hidden"
           },
           "Points": {
             "group": "Cost",

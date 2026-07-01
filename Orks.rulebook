@@ -1,6 +1,6 @@
 {
   "name": "Orks 11e",
-  "revision": "11.0.0",
+  "revision": "11.0.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -1948,6 +1948,12 @@
           "T": {
             "value": 5
           },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 2
+          },
           "W": {
             "value": 5
           }
@@ -3707,6 +3713,11 @@
       "Crusade Badge§Grand Warlord": {},
       "Crusade Badge§Rampaging Bigboss": {},
       "Detachment§Blitz Brigade": {
+        "keywords": {
+          "Role": [
+            "Reconnaissance"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -3800,9 +3811,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## EAGER FOR THE FIGHT\n\nEach time an Orks unit from your army disembarks from a Transport, until the end of the turn, you can re‑roll Advance and Charge rolls made for that Orks unit."
       },
       "Detachment§Bully Boyz": {
+        "keywords": {
+          "Role": [
+            "Purge the Foe"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -3896,9 +3917,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "**DA BOSS IS WATCHIN’**\n\nAt the start of your Command phase, in a turn in which you have not called a Waaagh!, if you have one or more WARBOSS models on the battlefield (or embarked within a TRANSPORT that is on the battlefield), you can call a Waaagh! for a second time this battle. When doing so, that second Waaagh! only counts as having been\ncalled for WARBOSS, NOBZ and MEGANOBZ units from your army."
       },
       "Detachment§Da Big Hunt": {
+        "keywords": {
+          "Role": [
+            "Purge the Foe"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -3992,9 +4023,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "**ADRENALINE JUNKIES**\n\nAt the start of your Command phase, select one MONSTER, VEHICLE or CHARACTER unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Prey:\n\n- Each time a BEAST SNAGGA unit from\nyour army declares a charge that\nincludes your Prey as one of the\ntargets, you can re-roll the Charge roll.\n\n- Each time a BEAST SNAGGA model\nfrom your army makes an attack that\ntargets your Prey, improve the Armour\nPenetration characteristic of that attack\nby 1."
       },
       "Detachment§Dread Mob": {
+        "keywords": {
+          "Role": [
+            "Purge the Foe"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -4088,12 +4129,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "**TRY DAT BUTTON!**\n\nEach time a MEK, ORKS WALKER or GROTS VEHICLE unit from your army is selected to shoot or fight, roll one D6. Until the end of the phase, weapons equipped by models in that unit have the corresponding ability shown in the table below.\n\n|||\n|---|---|\n|1 - 2| [SUSTAINED HITS 1] ability. |\n|3 - 4| [LETHAL HITS 1] |\n|5 - 6| Each time an attack is made with this weapon, ona Critical Wound, improve the Armour Penetration characteristic of that attack by 2.\n\n\nAlternatively, when such a unit is selected to shoot or fight, you can select one of the abilities above instead of rolling the D6. If you do, until the end of the phase, weapons equipped by models in that unit have the [HAZARDOUS] ability as well. If a weapon equipped by a model from you army has the [HAZARDOUS] ability from multiple sources, each time you take a Hazardous test for that weapon, it is failed on a roll ofa 1 or a 2.\n\n**KEYWORDS**\n\nGRETCHIN units from your army gain the BATTLELINE keyword."
       },
       "Detachment§Freebooter Krew": {
         "keywords": {
           "Keywords": [
             "Freebooter Krew"
+          ],
+          "Role": [
+            "Take and Hold"
           ]
         },
         "rules": {
@@ -4189,9 +4238,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## HERE BE LOOT\n\nAt the start of your Command phase,\nselect one objective marker. Until the\nstart of your next Command phase, that\nobjective marker is your loot objective.\n\nEach time a model in an Orks Infantry, Orks Mounted or Orks Walker unit from your army makes an attack, that attack has the [SUSTAINED HITS 1] ability if either or both of the following are true:\n\n■ That model’s unit is within range of\nyour loot objective.\n\n■ That attack targets a unit within range\nof your loot objective."
       },
       "Detachment§Green Tide": {
+        "keywords": {
+          "Role": [
+            "Take and Hold"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -4285,9 +4344,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "**MOB MENTALITY**\n\nEach time an attack targets a Boyz unit from your army, models in that unit have\na 6+ invulnerable save against that attack. Each time an attack targets a Boys unit from your army that contains 10 or more models, models in that unit have a 5+ invulnerable save against that attack."
       },
       "Detachment§Kult of Speed": {
+        "keywords": {
+          "Role": [
+            "Disruption"
+          ]
+        },
         "rules": {
           "assignStratagem": {
             "actions": [
@@ -4381,11 +4450,18 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "**ADRENALINE JUNKIES**\n\n- SPEED FREEKS units from your army are eligible to shoot and declare a charge in a turn in which they Advanced or Fell Back."
       },
       "Detachment§More Dakka!": {
         "keywords": {
-          "Keywords": []
+          "Role": [
+            "Purge the Foe"
+          ]
         },
         "rules": {
           "assignStratagems": {
@@ -4480,9 +4556,31 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
         "text": "**DAKKA! DAKKA! DAKKA!**\n\nDuring your Shooting phase, ranged weapons equipped by **Orks Infantry** and **Orks Walker** models from your army have the **[ASSAULT]** ability. While the Waaagh! is active for your army, ranged weapons equipped by **Orks Infantry** and **Orks Walker** models from your army have the **[SUSTAINED HITS 1]** ability."
       },
+      "Detachment§Rollin’ Deff": {
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        }
+      },
       "Detachment§Speedwaaagh!": {
+        "keywords": {
+          "Role": [
+            "Reconnaissance"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -4576,11 +4674,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## TURBO BOOSTAS\n\nEach time a Speed Freeks or Trukk unit (excluding Aircraft) from your army Advances, it can use its turbo. If it does, do not make an Advance roll for it; instead, until the end of the phase, models in that unit have a Move characteristic of 24\" but can only move in one straight line, and until the end of the turn, ranged weapons equipped by those models have the [ASSAULT] ability and that unit cannot declare a charge.\n\nDesigner’s Note: When a unit uses its turbo, the models in that unit cannot pivot, and they cannot make a move of two or more straight lines (e.g. to navigate around obstacles). That unit also cannot declare a charge, even if another rule would let it declare a charge in a turn in which it Advanced."
       },
       "Detachment§Taktikal Brigade": {
         "keywords": {
-          "Keywords": []
+          "Keywords": [],
+          "Role": [
+            "Disruption"
+          ]
         },
         "rules": {
           "assignStratagems": {
@@ -4675,9 +4781,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
         "text": "**LISSEN ’ERE**\n\nOnce per battle round, in your Command\nphase or after being set up on the\nbattlefield in your Movement phase, each\n**Boss Snikrot, Mek** and **Warboss** model in\nyour army can issue Taktiks abilities.\n\nTo do so, select one or two of the Taktiks\nabilities below and select one friendly\n**Orks** unit within 6\" of that model to issue\nthem to. If you selected two Taktiks,\nthat model must take a Leadership test:\nif failed, the selected unit suffers D3\nmortal wounds. Until the start of your\nnext Command phase, the selected unit\nis affected by the selected Taktiks. A unit\ncannot have Taktiks issued to it in this\nway more than once per battle round.\n\nTaktiks abilities cannot be issued\nto Battle‑shocked units, and if a\nunit affected by Taktiks becomes\nBattle‑shocked, all Taktiks cease to affect\nthat unit while it is Battle‑shocked.\n\n**Get Stuck In:** You can re‑roll Charge rolls\nmade for this unit.\n\n**Get On Wiv It:** Add 1 to the Strength\ncharacteristic of melee weapons equipped\nby models in this unit.\n\n**Sneaky Stalkin’:** Infantry and Mounted\nmodels (excluding Meganobz) in this unit\nhave the Stealth ability and each time\na ranged attack targets this unit, those\nmodels have the Benefit of Cover against\nthat attack.\n\n**Shoota Drills:** Each time an Infantry\nor Mounted model in this unit makes a\nranged attack, add 1 to the Hit roll.\n\nKEYWORDS\n\n**Stormboyz** units from your army gain the\n**Battleline** keyword."
       },
       "Detachment§War Horde": {
+        "keywords": {
+          "Role": [
+            "Take and Hold"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -4769,6 +4885,11 @@
             "evals": [],
             "evaluate": "AND",
             "failState": "pass"
+          }
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
           }
         },
         "text": "**GET STUCK IN**\n\nMelee weapons equipped by Orks models from your army have the [SUSTAINED HITS 1] ability"
