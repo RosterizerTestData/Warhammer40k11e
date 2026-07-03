@@ -1295,7 +1295,7 @@
             "value": 3
           },
           "Points": {
-            "value": 110
+            "value": 95
           },
           "Sv": {
             "value": 3
@@ -1567,7 +1567,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 90
+            "value": 80
           },
           "Sv": {
             "value": 2
@@ -1952,7 +1952,7 @@
             "value": 10
           },
           "unitDiscountThreshold": {
-            "value": 2
+            "value": 3
           },
           "W": {
             "value": 5
@@ -2292,7 +2292,7 @@
             "value": 3
           },
           "Points": {
-            "value": 80
+            "value": 70
           },
           "Sv": {
             "value": 4
@@ -2713,7 +2713,7 @@
             "value": 3
           },
           "Points": {
-            "value": 145
+            "value": 125
           },
           "Sv": {
             "value": 3
@@ -2850,7 +2850,7 @@
             "value": 1
           },
           "Points": {
-            "value": 70
+            "value": 60
           },
           "Sv": {
             "value": 4
@@ -3696,7 +3696,7 @@
             "value": 1
           },
           "Points": {
-            "value": 90
+            "value": 80
           },
           "Sv": {
             "value": 5
@@ -3821,7 +3821,7 @@
       "Detachment§Bully Boyz": {
         "keywords": {
           "Role": [
-            "Purge the Foe"
+            "Purge The Foe"
           ]
         },
         "rules": {
@@ -3927,7 +3927,7 @@
       "Detachment§Da Big Hunt": {
         "keywords": {
           "Role": [
-            "Purge the Foe"
+            "Purge The Foe"
           ]
         },
         "rules": {
@@ -4033,7 +4033,7 @@
       "Detachment§Dread Mob": {
         "keywords": {
           "Role": [
-            "Purge the Foe"
+            "Purge The Foe"
           ]
         },
         "rules": {
@@ -4142,7 +4142,7 @@
             "Freebooter Krew"
           ],
           "Role": [
-            "Take and Hold"
+            "Take And Hold"
           ]
         },
         "rules": {
@@ -4248,7 +4248,7 @@
       "Detachment§Green Tide": {
         "keywords": {
           "Role": [
-            "Take and Hold"
+            "Take And Hold"
           ]
         },
         "rules": {
@@ -4460,7 +4460,7 @@
       "Detachment§More Dakka!": {
         "keywords": {
           "Role": [
-            "Purge the Foe"
+            "Purge The Foe"
           ]
         },
         "rules": {
@@ -4571,7 +4571,7 @@
         },
         "stats": {
           "Detachment Points": {
-            "value": 2
+            "value": 1
           }
         }
       },
@@ -4791,7 +4791,7 @@
       "Detachment§War Horde": {
         "keywords": {
           "Role": [
-            "Take and Hold"
+            "Take And Hold"
           ]
         },
         "rules": {
@@ -4894,7 +4894,7 @@
         },
         "text": "**GET STUCK IN**\n\nMelee weapons equipped by Orks models from your army have the [SUSTAINED HITS 1] ability"
       },
-      "Enhancement§’Eadstompa": {
+      "Enhancement§’eadstompa": {
         "keywords": {
           "Keywords": [
             "Bully Boyz"
@@ -5088,6 +5088,19 @@
           }
         },
         "text": "ORKS INFANTRY model only. While the bearer is leading a unit, you can re-roll Advance rolls made for that unit. While that unit contains 10 or more models, you can re-roll Charge rolls made for that unit as well."
+      },
+      "Enhancement§Boarding Ramps (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Rollin' Deff"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Brutal But Kunnin’": {
         "keywords": {
@@ -5313,11 +5326,6 @@
         "text": "**MEK** model only. Each time the bearer uses its Mekaniak ability, until the start of your next Command phase, ranged weapons equipped by the selected **VEHICLE** model have the **[RAPID FIRE 1]** ability."
       },
       "Enhancement§Dead Shiny Shootas": {
-        "keywords": {
-          "Keywords": [
-            "More Dakka!"
-          ]
-        },
         "rules": {
           "apply": {
             "actions": [
@@ -5391,10 +5399,23 @@
         },
         "text": "Orks model only. Ranged weapons equipped by models in the bearer’s unit have the **[RAPID FIRE 1]** ability"
       },
+      "Enhancement§Dead Shiny Shootas (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "More Dakka!"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Fasta Than Yooz": {
         "keywords": {
           "Keywords": [
-            "Kult of Speed"
+            "Kult Of Speed"
           ]
         },
         "rules": {
@@ -5513,7 +5534,7 @@
         },
         "text": "Orks model only. While the bearer is leading a unit, add 2″ to the Move characteristic of models in that unit."
       },
-      "Enhancement§Git-spotter Squig": {
+      "Enhancement§Git-Spotter Squig": {
         "keywords": {
           "Keywords": [
             "Freebooter Krew"
@@ -5579,12 +5600,20 @@
         },
         "text": "**ORKS** model only. Ranged weapons equipped by models in the bearer's unit have the **[IGNORES COVER]** ability."
       },
-      "Enhancement§Gitfinder Googlez": {
+      "Enhancement§Gitfinder Gogglez": {
         "keywords": {
           "Keywords": [
             "Dread Mob"
           ]
         },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Gitfinder Googlez": {
         "rules": {
           "Mek model only.": {
             "evals": [
@@ -5692,11 +5721,6 @@
         "text": "BEASTBOSS ON SQUIGOSAUR model only. Models in the bearer’s unit have the Scouts 9″ ability."
       },
       "Enhancement§Gob Boomer": {
-        "keywords": {
-          "Keywords": [
-            "Taktikal Brigade"
-          ]
-        },
         "rules": {
           "Warboss or Mek model only.": {
             "evals": [
@@ -5879,11 +5903,6 @@
         "text": "**BIG MEK** model only. Improve the Ballistic Skill characteristic of the bearer's ranged weapons by 1."
       },
       "Enhancement§Mek Kaptin": {
-        "keywords": {
-          "Keywords": [
-            "Taktikal Brigade"
-          ]
-        },
         "rules": {
           "Big Mek, Big Mek in Mega Armour or Big Mek with Shokk Attack Gun model only.": {
             "evals": [
@@ -5942,11 +5961,6 @@
         "text": "**Big Mek, Big Mek in Mega Armour** or **Big Mek with\nShokk Attack Gun** model only. During the Declare\nBattle Formations step, the bearer can be attached to a\n**Flash Gitz** unit. Each time a model in the bearer’s unit\nmakes a ranged attack, you can re‑roll the Hit roll."
       },
       "Enhancement§Mork's Kunnin'": {
-        "keywords": {
-          "Keywords": [
-            "Taktikal Brigade"
-          ]
-        },
         "stats": {
           "Points": {
             "value": 15
@@ -5954,7 +5968,20 @@
         },
         "text": "**Orks** model only. After both players have deployed\ntheir armies, select up to three **Orks** units from your\narmy and redeploy them. When doing so, you can set\nthose units up in Strategic Reserves, regardless of how\nmany units are already in Strategic Reserves."
       },
-      "Enhancement§Press It Fasta": {
+      "Enhancement§Mork’s Kunnin’": {
+        "keywords": {
+          "Keywords": [
+            "Taktikal Brigade"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Press It Fasta!": {
         "keywords": {
           "Keywords": [
             "Dread Mob"
@@ -6096,6 +6123,14 @@
         "text": "ORKS INFANTRY model only. While the bearer is leading a unit, that unit always counts as containing 10 or more models for the purposes of your Detachment rule and any Stratagems you use."
       },
       "Enhancement§Razgit's Magik Map": {
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "**ORKS** model only. After both players have deployed their armies, select up to three **ORKS INFANTRY** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+      },
+      "Enhancement§Razgit’s Magik Map": {
         "keywords": {
           "Keywords": [
             "Freebooter Krew"
@@ -6106,9 +6141,9 @@
             "value": 25
           }
         },
-        "text": "**ORKS** model only. After both players have deployed their armies, select up to three **ORKS INFANTRY** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
-      "Enhancement§Runnin' Boots": {
+      "Enhancement§Runnin’ Boots": {
         "keywords": {
           "Keywords": [
             "Blitz Brigade"
@@ -6179,11 +6214,6 @@
         "text": "BEAST SNAGGA model only. At the end of your\nCommand phase, if the bearer is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
       },
       "Enhancement§Skwad Leader": {
-        "keywords": {
-          "Keywords": [
-            "Taktikal Brigade"
-          ]
-        },
         "rules": {
           "Warboss model only.": {
             "evals": [
@@ -6226,6 +6256,19 @@
           }
         },
         "text": "**Warboss Infantry** model only. During the Declare Battle\nFormations step, the bearer can be attached to a\n**Kommandos** unit. While leading a **Kommandos** unit, it\nhas the Infiltrators and Stealth abilities."
+      },
+      "Enhancement§Slippery Git": {
+        "keywords": {
+          "Keywords": [
+            "Taktikal Brigade"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Smoky Gubbinz": {
         "keywords": {
@@ -6287,7 +6330,7 @@
       "Enhancement§Speed Makes Right": {
         "keywords": {
           "Keywords": [
-            "Kult of Speed"
+            "Kult Of Speed"
           ]
         },
         "stats": {
@@ -6297,10 +6340,10 @@
         },
         "text": "ORKS model only. In your Command phase, if the bearer (or a TRANSPORT the bearer is embarked within) is within 9″ of one or more enemy units, roll one D6: on a 3+, you gain 1CP."
       },
-      "Enhancement§Squig-Hide Tyres": {
+      "Enhancement§Squig-hide Tyres": {
         "keywords": {
           "Keywords": [
-            "Kult of Speed"
+            "Kult Of Speed"
           ]
         },
         "rules": {
@@ -6493,12 +6536,20 @@
         },
         "text": "BEASTBOSS ON SQUIGOSAUR model only. While the bearer is leading a unit, each time an attack targets that unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll."
       },
-      "Enhancement§Targetin’ Squigs": {
+      "Enhancement§Targetin’ Gizmos (Upgrade)": {
         "keywords": {
           "Keywords": [
-            "More Dakka!"
+            "Rollin' Deff"
           ]
         },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Targetin’ Squigs": {
         "stats": {
           "Points": {
             "value": 15
@@ -6614,7 +6665,7 @@
       "Enhancement§Wazblasta": {
         "keywords": {
           "Keywords": [
-            "Kult of Speed"
+            "Kult Of Speed"
           ]
         },
         "rules": {
@@ -6647,11 +6698,6 @@
         "text": "DEFFKILLA WARTRIKE model only. In your Shooting phase, after the bearer’s unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6”. If it does, until the end of the turn, it is not eligible to declare a charge."
       },
       "Enhancement§Zog Off and Eat Dakka!": {
-        "keywords": {
-          "Keywords": [
-            "More Dakka!"
-          ]
-        },
         "stats": {
           "Points": {
             "value": 10
@@ -9093,7 +9139,7 @@
           }
         }
       },
-      "Melee Weapon§Mad Dok Grotsnik—’Urty syringe": {
+      "Melee Weapon§Mad Dok Grotsnik—’urty syringe": {
         "aspects": {
           "Label": "’Urty syringe"
         },
@@ -10069,7 +10115,7 @@
           }
         }
       },
-      "Melee Weapon§Painboy on Warbike—’Urty syringe": {
+      "Melee Weapon§Painboy on Warbike—’urty syringe": {
         "aspects": {
           "Label": "’Urty syringe"
         },
@@ -10164,7 +10210,7 @@
           }
         }
       },
-      "Melee Weapon§Painboy—’Urty syringe": {
+      "Melee Weapon§Painboy—’urty syringe": {
         "aspects": {
           "Label": "’Urty syringe"
         },
@@ -11011,7 +11057,7 @@
           }
         }
       },
-      "Melee Weapon§Warboss in Mega Armour—’Uge choppa": {
+      "Melee Weapon§Warboss in Mega Armour—’uge choppa": {
         "aspects": {
           "Label": "’Uge choppa"
         },
@@ -17652,7 +17698,7 @@
           }
         }
       },
-      "Ranged Weapon§Hunta Rig—’Eavy lobba": {
+      "Ranged Weapon§Hunta Rig—’eavy lobba": {
         "aspects": {
           "Label": "’Eavy lobba"
         },
@@ -18148,7 +18194,7 @@
           }
         }
       },
-      "Ranged Weapon§Kill Rig—’Eavy lobba": {
+      "Ranged Weapon§Kill Rig—’eavy lobba": {
         "aspects": {
           "Label": "’Eavy lobba"
         },
@@ -21248,7 +21294,7 @@
           }
         }
       },
-      "Ranged Weapon§Weirdboy—’Eadbanger": {
+      "Ranged Weapon§Weirdboy—’eadbanger": {
         "aspects": {
           "Label": "’Eadbanger"
         },
@@ -21460,7 +21506,7 @@
           }
         }
       },
-      "Stratagem§’Ard As Nails": {
+      "Stratagem§’ard As Nails": {
         "keywords": {
           "Keywords": [
             "Orks",
@@ -21480,7 +21526,7 @@
         },
         "text": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One Orks unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Wound roll.\n\nRESTRICTIONS: You cannot select a Vehicle or Gretchin unit for this Stratagem."
       },
-      "Stratagem§’Ere We Go": {
+      "Stratagem§’ere We Go": {
         "keywords": {
           "Keywords": [
             "Orks",
@@ -21764,7 +21810,7 @@
         },
         "text": "WHEN: Your Charge phase, just after a NOBZ or MEGANOBZ unit from your army ends a Charge move.\n\nTARGET: That NOBZ or MEGANOBZ unit.\n\nEFFECT: Select one enemy unit within Engagement Range of your unit, then roll one D6 for each model in your unit that is within Engagement Range of that enemy unit: for each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds). If a Waaagh! is active for your unit, that enemy unit suffers 1 mortal wound for each 4+ instead."
       },
-      "Stratagem§Cut ’Em Down": {
+      "Stratagem§Cut ’em Down": {
         "keywords": {
           "Keywords": [
             "Bully Boyz",
@@ -22052,7 +22098,7 @@
         },
         "text": "**WHEN:** Your Command phase.\n\n**TARGET:** One **Orks** unit from your army (excluding\n**Gretchin** units).\n\n**EFFECT:** Until the start of your next Command phase, the Waaagh! is active for your unit, even if you have already called a Waaagh! this battle."
       },
-      "Stratagem§Go Get ’Em!": {
+      "Stratagem§Go Get ’em!": {
         "keywords": {
           "Category": [
             "Strategic Ploy"
@@ -22260,7 +22306,7 @@
         },
         "text": "**WHEN**: Your Shooting phase, just after a SPEED FREEKS or TRUKK unit from your army has shot.\n\n**TARGET**: That SPEED FREEKS or TRUKK unit.\n\n**EFFECT**: Select one enemy unit hit by one or more of those attacks (excluding attacks made with Indirect Fire weapons). Until the end of the phase, each time a model in a SPEED FREEKS or TRUKK unit from your army makes an attack that targets that unit, improve the Strength characteristic of that attack by 2."
       },
-      "Stratagem§More Gitz Over ’Ere!": {
+      "Stratagem§More Gitz Over ’ere!": {
         "keywords": {
           "Category": [
             "Strategic Ploy"
@@ -22695,6 +22741,14 @@
           }
         }
       },
+      "Unit§Bannernob": {
+        "stats": {
+          "Points": {
+            "value": 50
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
+      },
       "Unit§Battlewagon": {
         "aspects": {
           "Type": "game piece"
@@ -22989,7 +23043,7 @@
             "value": 5
           },
           "Points": {
-            "value": 160
+            "value": 145
           },
           "Sv": {
             "value": 3
@@ -23232,7 +23286,7 @@
             "value": 10
           },
           "model2ndCost": {
-            "value": 190
+            "value": 170
           },
           "model2ndTally": {
             "value": 20
@@ -23250,7 +23304,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 95
+            "value": 90
           },
           "Thump Gun": {
             "dynamic": true,
@@ -23327,6 +23381,20 @@
             "value": 20
           }
         }
+      },
+      "Unit§Big Mek Dakkarig": {
+        "stats": {
+          "Points": {
+            "value": 110
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
       },
       "Unit§Big Trakk": {
         "aspects": {
@@ -23569,6 +23637,14 @@
           }
         }
       },
+      "Unit§Bigboss": {
+        "stats": {
+          "Points": {
+            "value": 55
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
+      },
       "Unit§Blitza-bommer": {
         "aspects": {
           "Type": "game piece"
@@ -23636,7 +23712,7 @@
             "value": 0
           },
           "Points": {
-            "value": 115
+            "value": 105
           },
           "Sv": {
             "value": 3
@@ -23902,7 +23978,7 @@
             "value": 10
           },
           "model2ndCost": {
-            "value": 170
+            "value": 150
           },
           "model2ndTally": {
             "value": 20
@@ -23920,7 +23996,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 80
+            "value": 75
           }
         }
       },
@@ -24036,6 +24112,20 @@
             "value": 140
           }
         }
+      },
+      "Unit§Breaka Boyz": {
+        "stats": {
+          "Points": {
+            "value": 135
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
       },
       "Unit§Burna Boyz": {
         "allowed": {
@@ -24586,8 +24676,6 @@
           "model2ndTally": {
             "value": 10
           },
-          "model3rdCost": {},
-          "model3rdTally": {},
           "Models": {
             "increment": {
               "value": 5
@@ -24677,7 +24765,7 @@
             "value": 0
           },
           "Points": {
-            "value": 125
+            "value": 115
           },
           "Skorcha Missile Rack": {
             "dynamic": true,
@@ -24999,7 +25087,7 @@
             "value": 0
           },
           "Points": {
-            "value": 135
+            "value": 125
           },
           "Sv": {
             "value": 3
@@ -25334,6 +25422,12 @@
           },
           "T": {
             "value": 9
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 8
@@ -25867,7 +25961,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 160
+            "value": 140
           },
           "model2ndTally": {
             "value": 6
@@ -25885,7 +25979,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 80
+            "value": 75
           }
         }
       },
@@ -26167,7 +26261,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 80
+            "value": 85
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -26270,13 +26370,19 @@
             "value": 12
           },
           "Points": {
-            "value": 440
+            "value": 490
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 13
+          },
+          "unitDiscount": {
+            "value": 50
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 30
@@ -26359,13 +26465,19 @@
             "value": 8
           },
           "Points": {
-            "value": 265
+            "value": 275
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 12
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 20
@@ -26966,7 +27078,7 @@
             "value": null
           },
           "Points": {
-            "value": 40
+            "value": 45
           },
           "Runtherds": {
             "dynamic": true,
@@ -27441,7 +27553,7 @@
             "value": 5
           },
           "Points": {
-            "value": 135
+            "value": 125
           },
           "Sv": {
             "value": 3
@@ -27860,7 +27972,7 @@
             "value": 5
           },
           "Points": {
-            "value": 155
+            "value": 145
           },
           "Sv": {
             "value": 3
@@ -28053,7 +28165,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 125
+            "value": 130
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -29057,13 +29175,11 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 100
+            "value": 110
           },
           "model2ndTally": {
             "value": 10
           },
-          "model3rdCost": {},
-          "model3rdTally": {},
           "Models": {
             "increment": {
               "value": 5
@@ -29074,7 +29190,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 50
+            "value": 60
           },
           "Spanner": {
             "max": 2,
@@ -29083,6 +29199,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -29385,19 +29507,19 @@
             "value": 2
           },
           "model2ndCost": {
-            "value": 95
+            "value": 110
           },
           "model2ndTally": {
             "value": 3
           },
           "model3rdCost": {
-            "value": 160
+            "value": 170
           },
           "model3rdTally": {
             "value": 5
           },
           "model4thCost": {
-            "value": 190
+            "value": 200
           },
           "model4thTally": {
             "value": 6
@@ -29415,7 +29537,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 65
+            "value": 80
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -29553,7 +29681,7 @@
             "value": 2
           },
           "model3rdCost": {
-            "value": 150
+            "value": 145
           },
           "model3rdTally": {
             "value": 3
@@ -29571,7 +29699,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 50
+            "value": 55
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         },
         "text": "Designer’s Note: Place five Grot Crew tokens next to each Mek Gun model when this unit is first set up, removing one each time its Mek Gun model loses a wound (a Mek Gun model itself is considered to represent its final wound)."
@@ -29960,13 +30094,19 @@
             "value": 8
           },
           "Points": {
-            "value": 280
+            "value": 290
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 12
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 20
@@ -30101,7 +30241,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 210
+            "value": 220
           },
           "model2ndTally": {
             "value": 10
@@ -30127,7 +30267,13 @@
             "visibility": "hidden"
           },
           "Points": {
-            "value": 105
+            "value": 115
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -30257,7 +30403,7 @@
             "value": 3
           },
           "Points": {
-            "value": 95
+            "value": 85
           },
           "Sv": {
             "value": 4
@@ -30640,7 +30786,7 @@
             "value": 4
           },
           "model2ndCost": {
-            "value": 300
+            "value": 270
           },
           "model2ndTally": {
             "value": 8
@@ -30701,7 +30847,7 @@
             "visibility": "hidden"
           },
           "Points": {
-            "value": 150
+            "value": 140
           },
           "Squighog Boy": {
             "max": 6,
@@ -30791,13 +30937,19 @@
             "value": 12
           },
           "Points": {
-            "value": 800
+            "value": 700
           },
           "Sv": {
             "value": 2
           },
           "T": {
             "value": 14
+          },
+          "unitDiscount": {
+            "value": 100
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 30
@@ -31024,7 +31176,7 @@
             "value": 6
           },
           "Points": {
-            "value": 140
+            "value": 135
           },
           "Tankbusta": {
             "max": 5,
@@ -31033,6 +31185,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -31104,7 +31262,7 @@
             "value": 2
           },
           "Points": {
-            "value": 70
+            "value": 65
           },
           "Sv": {
             "value": 4
@@ -31189,7 +31347,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 130
+            "value": 120
           },
           "model2ndTally": {
             "value": 6
@@ -31207,7 +31365,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 65
+            "value": 60
           },
           "Warbiker": {
             "max": 5,
@@ -31294,6 +31452,14 @@
             "visibility": "hidden"
           }
         }
+      },
+      "Unit§Wartrakk": {
+        "stats": {
+          "Points": {
+            "value": 60
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
       },
       "Unit§Wartrakks": {
         "allowed": {
@@ -31485,7 +31651,7 @@
             "value": 0
           },
           "Points": {
-            "value": 175
+            "value": 165
           },
           "Sv": {
             "value": 3

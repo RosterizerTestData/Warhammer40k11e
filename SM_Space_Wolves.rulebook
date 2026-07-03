@@ -1,6 +1,6 @@
 {
   "name": "Space Wolves 11e",
-  "revision": "11.0.0",
+  "revision": "11.0.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -9,7 +9,7 @@
   "wip": false,
   "dependencies": [
     {
-      "slug": "QUYAB6",
+      "slug": "",
       "name": "Space Marines 11e",
       "game": "Warhammer 40k",
       "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k11e/main/Space_Marines.rulebook"
@@ -4875,6 +4875,11 @@
         }
       },
       "Detachment§Champions of Fenris": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -5095,12 +5100,33 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
         "text": "## THE GREAT WOLF WATCHES\n\nAt the end of your opponent’s Charge phase, each **Adeptus Astartes Infantry** and **Adeptus Astartes Walker** unit from your army that is within 3\" of one or more enemy units and would be eligible to declare a charge against one or more of those units can declare a charge against one or more of those units, and you resolve that charge as if it were your Charge phase. If that charge is successful, your unit does not receive any Charge bonus this turn.\n\nWhile **Adeptus Astartes Terminator** units from your army are not Battle‑shocked, add 1 to the Objective Control characteristic of models in those units.\n\n## RESTRICTIONS\n\nYour army can include **Space Wolves** units, but it cannot include any **Adeptus Astartes** units drawn from any other Chapter."
+      },
+      "Detachment§Legends Of Saga And Song": {
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
       },
       "Detachment§Saga of the Beastslayer": {
         "keywords": {
           "Keywords": [
             "Saga of the Beastslayer"
+          ],
+          "Role": [
+            "Purge The Foe"
           ]
         },
         "rules": {
@@ -5323,12 +5349,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## LEGENDARY SLAYERS\n\n\nEach time an ADEPTUS ASTARTES model from your army makes an attack, if that attack targets a CHARACTER, MONSTER, or VEHICLE unit, or if your Saga is completed (see below), that attack has the [LETHAL HITS] ability.\n\n\n## Saga of the Beastslayer\n\nAt the start of the first battle round, your Beastslayer tally is 0, and you determine your Beastslayer target by halving the number of units from your opponent’s army that have one or more of the following keywords (rounding up): CHARACTER, MONSTER, VEHICLE.\n\nEach time an ADEPTUS ASTARTES unit from your army shoots or fights, after all of those attacks have been resolved, add 1 to your Beastslayer tally for each enemy unit with one or more of the following keywords destroyed by those attacks: CHARACTER, MONSTER, VEHICLE.\n\nOnce your Beastslayer tally is equal to or greater than your Beastslayer target, your Saga is completed."
       },
       "Detachment§Saga of the Bold": {
         "keywords": {
           "Keywords": [
             "Saga of the Bold"
+          ],
+          "Role": [
+            "Priority Assets"
           ]
         },
         "rules": {
@@ -5551,12 +5585,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## HEROES ALL\n\nEach time an ADEPTUS ASTARTES unit from your army is selected to shoot or fight, apply one of the following when resolving those attacks:\n\n- If your Saga is completed (see below), you can re-roll one Hit roll, one Wound roll and one Damage roll.\n\n- Otherwise, if that unit is a SPACE WOLVES CHARACTER unit, you can re-roll one Hit roll, one Wound roll or one Damage roll.\n\n## Saga of the Bold\n\nEach time a SPACE WOLVES CHARACTER unit from your army does one of the following, that unit achieves that Boast. Once three or more different Boasts have been achieved by units from your army, your Saga is completed.\n\n- **Take a Trophy**: That unit destroys your Oath of Moment target.\n\n- **Slay Them All**: That unit destroys your Oath of Moment target, and that is the second Oath of Moment target destroyed by that unit in this battle.\n\n- **Overrun Their Position**: At the end of either player’s turn, that unit is wholly within your opponent’s deployment zone.\n\n- **Hold the Line**: From the second battle round onwards, at the end of your Command phase, that unit is within range of an objective marker you control that is not within your deployment zone."
       },
       "Detachment§Saga of the Great Wolf": {
         "keywords": {
           "Keywords": [
             "Saga of the Great Wolf"
+          ],
+          "Role": [
+            "Take And Hold"
           ]
         },
         "rules": {
@@ -5652,12 +5694,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## MASTER OF WOLVES\n\nAt the start of your Command phase, you can select one of the Hunting Packs listed below. Until the start of your next Command phase, that Hunting Pack is active and its effects apply to all Adeptus Astartes units from your army. You can only select each Hunting Pack once per battle.\n\n■ Encircling Jaws: This unit can re‑roll Advance rolls and Charge rolls.\n\n■ Hunter’s Eye: Each time a model in this unit makes a ranged attack, add 1 to the Hit roll.\n\n■ Ferocious Strike: Each time this unit is selected to fight, select either the [LETHAL HITS] or [SUSTAINED HITS 1] ability. Until the end of the phase, weapons equipped by models in this unit have the selected ability.\n\n## HOWLING ONSLAUGHT\n\n\nWhen the Great Wolf gives the command, his packs descend upon the foe in a coordinated and utterly devastating strike. Once per battle, when selecting a Hunting Pack for the Master of Wolves Detachment rule (see above), if a Logan Grimnar model from your army is on the battlefield, you can select a Hunting Pack you have already selected this battle.\n\n**RESTRICTIONS**\nYour army can include Space Wolves\nunits, but it cannot include any\nAdeptus Astartes units drawn from any\nother Chapter."
       },
       "Detachment§Saga of the Hunter": {
         "keywords": {
           "Keywords": [
             "Saga of the Hunter"
+          ],
+          "Role": [
+            "Disruption"
           ]
         },
         "rules": {
@@ -5880,7 +5930,38 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## PACK'S QUARRY\n\n\nEach time a model in a Space Wolves unit from your army makes a melee attack that targets an enemy unit, if that enemy unit is within Engagement Range of one or more other Adeptus Astartes units from your army, or if the attacking unit contains more models than that enemy unit:\n\n- Add 1 to the Hit roll.\n\n- If your Saga is completed (see below), add 1 to the Wound roll as well.\n\n\n---\n## Saga of the Hunter\n\nAt the start of the first battle round, your Quarry tally is 0. Each time an Adeptus Astartes unit from your army fights, after all of those attacks have been resolved, add 1 to your Quarry tally for each enemy unit destroyed by those attacks.\n\nOnce your Quarry tally is equal to or greater than the number shown in the table below (depending on the battle size), your Saga is completed.\n\n|||\n|---|---|\n|BATTLE SIZE|QUARRY TALLY|\nIncursion|\t2\nStrike Force\t|3\nOnslaught\t|4"
+      },
+      "Detachment§Veterans Of The Fang": {
+        "keywords": {
+          "Role": [
+            "Disruption"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
+      "Enhancement§A Giant Amongst Giants": {
+        "keywords": {
+          "Keywords": [
+            "Champions Of Fenris"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Braggart's Steel": {
         "keywords": {
@@ -5933,10 +6014,23 @@
         },
         "text": "Space Wolves model only. Add 2 to the Strength characteristic of melee weapons equipped by the bearer. If the bearer’s unit has achieved one or more Boasts, add 1 to the Damage characteristic of those weapons as well."
       },
+      "Enhancement§Braggart’s Steel": {
+        "keywords": {
+          "Keywords": [
+            "Saga Of The Bold"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Chariots of the Storm": {
         "keywords": {
           "Keywords": [
-            "Saga of the Great Wolf"
+            "Saga Of The Great Wolf"
           ]
         },
         "rules": {
@@ -5971,7 +6065,7 @@
       "Enhancement§Elder’s Guidance": {
         "keywords": {
           "Keywords": [
-            "Saga of the Beastslayer"
+            "Saga Of The Beastslayer"
           ]
         },
         "stats": {
@@ -5980,6 +6074,19 @@
           }
         },
         "text": "Space Wolves model only. Once per battle, at the start of the Fight phase, if the bearer is leading a Blood Claws unit, the bearer can use this Enhancement. If it does, until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1."
+      },
+      "Enhancement§Eye of the Hunter": {
+        "keywords": {
+          "Keywords": [
+            "Veterans Of The Fang"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Fangrune Pendant": {
         "keywords": {
@@ -6060,10 +6167,23 @@
         },
         "text": "Adeptus Astartes model only. The bearer has the Feel No Pain 4+ ability."
       },
+      "Enhancement§Fenrisian Grit": {
+        "keywords": {
+          "Keywords": [
+            "Saga Of The Hunter"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Feral Rage": {
         "keywords": {
           "Keywords": [
-            "Saga of the Hunter"
+            "Saga Of The Hunter"
           ]
         },
         "rules": {
@@ -6110,6 +6230,19 @@
           }
         },
         "text": "Adeptus Astartes model only. Add 1 to the Attacks characteristic of melee weapons equipped by the bearer. Each time the bearer ends a Charge move, until the end of the turn, add an additional 1 to the Attacks characteristic of those weapons."
+      },
+      "Enhancement§Fierce Example (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Legends Of Saga And Song"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Foes' Fate": {
         "keywords": {
@@ -6212,10 +6345,23 @@
         },
         "text": "**ADEPTUS ASTARTES TERMINATOR CAPTAIN** model only. Once per battle round, from the second battle round onwards, you can target the bearer's unit with the Rapid Ingress or Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this turn. In the Declare Battle Formations step, the bearer can be attached to a **WOLF GUARD TERMINATORS** unit."
       },
+      "Enhancement§Grimnar’s Mark": {
+        "keywords": {
+          "Keywords": [
+            "Saga Of The Great Wolf"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Helm of the Beastslayer": {
         "keywords": {
           "Keywords": [
-            "Saga of the Beastslayer"
+            "Saga Of The Beastslayer"
           ]
         },
         "stats": {
@@ -6228,7 +6374,7 @@
       "Enhancement§Hordeslayer": {
         "keywords": {
           "Keywords": [
-            "Saga of the Bold"
+            "Saga Of The Bold"
           ]
         },
         "stats": {
@@ -6241,7 +6387,7 @@
       "Enhancement§Howlmaw": {
         "keywords": {
           "Keywords": [
-            "Saga of the Great Wolf"
+            "Saga Of The Great Wolf"
           ]
         },
         "rules": {
@@ -6276,7 +6422,7 @@
       "Enhancement§Hunter’s Guile": {
         "keywords": {
           "Keywords": [
-            "Saga of the Beastslayer"
+            "Saga Of The Beastslayer"
           ]
         },
         "stats": {
@@ -6302,10 +6448,23 @@
         },
         "text": "**Adeptus Astartes** model only. You can re‑roll Charge rolls made for the bearer’s unit."
       },
+      "Enhancement§Preyslayer": {
+        "keywords": {
+          "Keywords": [
+            "Champions Of Fenris"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Skjald": {
         "keywords": {
           "Keywords": [
-            "Saga of the Bold"
+            "Saga Of The Bold"
           ]
         },
         "stats": {
@@ -6399,10 +6558,23 @@
         },
         "text": "**WOLF GUARD BATTLE LEADER** model only. While the bearer is leading a unit, weapons equipped by models in that unit have the **[LANCE]** ability."
       },
+      "Enhancement§Skjald’s Foretelling": {
+        "keywords": {
+          "Keywords": [
+            "Saga Of The Great Wolf"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Swift Hunter": {
         "keywords": {
           "Keywords": [
-            "Saga of the Hunter"
+            "Saga Of The Hunter"
           ]
         },
         "rules": {
@@ -6445,10 +6617,23 @@
         },
         "text": "Space Wolves model only. Models in the bearer's unit have the Scouts 7\" ability."
       },
+      "Enhancement§Thirst for Glory (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Legends Of Saga And Song"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Thunderwolf’s Fortitude": {
         "keywords": {
           "Keywords": [
-            "Saga of the Bold"
+            "Saga Of The Bold"
           ]
         },
         "stats": {
@@ -6458,10 +6643,23 @@
         },
         "text": "Adeptus Astartes model only. The first time the bearer is destroyed, remove it from play, then, at the end of the phase, roll one D6: on a 2+, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with 3 wounds remaining."
       },
+      "Enhancement§Weaver of Sagas": {
+        "keywords": {
+          "Keywords": [
+            "Veterans Of The Fang"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Wolf Master": {
         "keywords": {
           "Keywords": [
-            "Saga of the Hunter"
+            "Saga Of The Hunter"
           ]
         },
         "stats": {
@@ -6474,7 +6672,7 @@
       "Enhancement§Wolf-touched": {
         "keywords": {
           "Keywords": [
-            "Saga of the Beastslayer"
+            "Saga Of The Beastslayer"
           ]
         },
         "rules": {
@@ -6627,7 +6825,7 @@
             "value": 10
           },
           "model2ndCost": {
-            "value": 285
+            "value": 270
           },
           "model2ndTally": {
             "value": 20
@@ -6722,7 +6920,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 40
+            "value": 50
+          },
+          "unitDiscount": {
+            "value": 5
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -6805,8 +7009,6 @@
           "model1stTally": {
             "value": 10
           },
-          "model2ndCost": {},
-          "model2ndTally": {},
           "modelKey": {
             "value": "Model§Grey Hunter"
           },
@@ -6901,7 +7103,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 160
+            "value": 190
           },
           "model2ndTally": {
             "value": 10
@@ -6919,7 +7121,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 80
+            "value": 95
           }
         }
       },
@@ -7237,7 +7439,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 230
+            "value": 210
           },
           "model2ndTally": {
             "value": 6
@@ -7255,7 +7457,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 115
+            "value": 110
           },
           "Thunderwolf Cavalry": {
             "max": 5,
@@ -7264,6 +7466,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -7979,10 +8187,22 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 170
+            "value": 125
           },
           "model2ndTally": {
             "value": 6
+          },
+          "model3rdCost": {
+            "value": 180
+          },
+          "model3rdTally": {
+            "value": 6
+          },
+          "model4thCost": {
+            "value": 240
+          },
+          "model4thTally": {
+            "value": 12
           },
           "Models": {
             "dynamic": true,
@@ -8000,7 +8220,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 85
+            "value": 95
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "Wolf Guard Headtaker": {
             "max": 6,
@@ -8109,7 +8335,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 340
+            "value": 310
           },
           "model2ndTally": {
             "value": 10
@@ -8127,7 +8353,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 170
+            "value": 160
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "Wolf Guard Terminator": {
             "max": 9,
@@ -8467,7 +8699,7 @@
             "value": 6
           },
           "model2ndCost": {
-            "value": 210
+            "value": 200
           },
           "model2ndTally": {
             "value": 12
@@ -8537,6 +8769,12 @@
             "statType": "rank",
             "value": "1 Pack Leader, 4 Scouts and 1 Wolf",
             "visibility": "normal"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "Wolf Scout": {
             "max": 0,
@@ -8716,7 +8954,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 170
+            "value": 180
           },
           "model2ndTally": {
             "value": 10
@@ -8734,7 +8972,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 85
+            "value": 95
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "Wulfen": {
             "max": 10,
@@ -8794,7 +9038,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 200
+            "value": 210
           },
           "model2ndTally": {
             "value": 10
@@ -8812,7 +9056,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 100
+            "value": 110
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "Wulfen with Storm Shield": {
             "max": 10,
@@ -21593,6 +21843,12 @@
           },
           "T": {
             "value": 9
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 8

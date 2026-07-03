@@ -1,6 +1,6 @@
 {
   "name": "Genestealer Cults 11e",
-  "revision": "11.0.0",
+  "revision": "11.0.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -15,7 +15,7 @@
       "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k11e/main/Astra_Militarum.rulebook"
     },
     {
-      "slug": "U3FR7G",
+      "slug": "",
       "name": "Tyranids 11e",
       "game": "Warhammer 40k",
       "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k11e/main/Tyranids.rulebook"
@@ -964,13 +964,19 @@
             "value": 1
           },
           "Points": {
-            "value": 85
+            "value": 95
           },
           "Sv": {
             "value": 5
           },
           "T": {
             "value": 6
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 5
@@ -1092,7 +1098,7 @@
             "value": 1
           },
           "Points": {
-            "value": 70
+            "value": 75
           },
           "Sv": {
             "value": 5
@@ -1735,7 +1741,7 @@
             "value": 1
           },
           "Points": {
-            "value": 45
+            "value": 35
           },
           "Sv": {
             "value": 5
@@ -2028,7 +2034,7 @@
             "value": 1
           },
           "Points": {
-            "value": 75
+            "value": 80
           },
           "Sv": {
             "value": 4
@@ -2158,7 +2164,7 @@
             "value": 1
           },
           "Points": {
-            "value": 65
+            "value": 70
           },
           "Sv": {
             "value": 5
@@ -2248,7 +2254,7 @@
             "value": 1
           },
           "Points": {
-            "value": 50
+            "value": 65
           },
           "Sv": {
             "value": 5
@@ -2312,6 +2318,11 @@
         }
       },
       "Detachment§Biosanctic Broodsurge": {
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -2403,6 +2414,11 @@
             "evals": [],
             "evaluate": "AND",
             "failState": "pass"
+          }
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
           }
         },
         "text": "**HYPERMORPHIC FURY**\n\nAdd 1 to Charge rolls made for **Aberrants**, **Biophagus** and **Purestrain Genestealers** units from your army. In addition, each time such a unit is selected to fight, if it made a Charge move this turn, until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit."
@@ -2503,9 +2519,25 @@
         },
         "text": "**INTEGRATED AUXILIA**\n\nEach time an **Astra Militarum** unit from your army (see below) is selected to shoot, you can select one enemy unit within 18” of and visible to that unit. If you do, until the end of the phase, models in that **Astra Militarum** unit can only target that enemy unit (and only if it is an eligible target) and that enemy unit is caught in overlapping fire. While an enemy unit is caught in overlapping fire, each time a **Genestealer Cults** model from your army targets that enemy unit with a ranged attack, add 1 to the Hit roll.\n\n\n**Brood Brothers**\n\nYou can include **Astra Militarum** units in your army, even though they do not have the **Genestealer Cults** Faction keyword. The combined points cost of such units you can include in your army is:\n\n- Incursion: Up to 500 pts\n- Strike Force: Up to 1000 pts\n- Onslaught: Up to 1500 pts\n\nA Genestealer Cults model must be your Warlord, and Astra Militarum models from your army and they lose the Voice of Command ability if they have it. You cannot include units with any of the following keywords in your army using this rule: **Aircraft; Comissar; Epic Hero; Militarum Tempestus; Ogryn; Ratling; Tech-Priest Enginseer; Ministorum Priest."
       },
+      "Detachment§Brood Brothers Auxilia": {
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
       "Detachment§Final Day": {
         "keywords": {
-          "Keywords": []
+          "Keywords": [],
+          "Role": [
+            "Purge The Foe"
+          ]
         },
         "rules": {
           "assignStratagems": {
@@ -2600,9 +2632,32 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "**PSIONIC PARASITISM**\n\nAt the end of your Movement phase,\nfor each **Tyranids Synapse** unit from\nyour army, you can select one friendly\n**Genestealer Cults** unit (excluding\n**Purestrain Genestealer** and **Patriarch**\nunits) and one friendly **Tyranids** unit\neach within 9\" of and visible to that\n**Synapse** unit. If you do, that **Genestealer\nCults** unit from your army suffers D3+1\nmortal wounds and one model in the\nselected **Tyranids** unit regains up to that\nmany lost wounds and until the start of\nyour next Movement phase, each time\na model in the selected **Tyranids** unit\nmakes an attack, add 1 to the Hit roll.\n\n**Tyranids** units from your army have the\nfollowing ability:\n\nCatalyst (Aura): While an enemy unit is\nwithin 6\" of this unit, each time a friendly\n**Genestealer Cults** unit makes an attack\nthat targets that enemy unit, add 1 to the\nHit roll.\n\nTHE STAR CHILDREN’S BLESSINGS\n\nYou can include **Tyranids Vanguard\nInvader** units (excluding **Aircraft,\nBroodlord** and **Genestealers** units) in\nyour army. The combined points cost of\nsuch units depends on your battle size:\n\n■ Incursion: Up to 500 pts\n\n■ Strike Force: Up to 1000 pts\n\n■ Onslaught: Up to 1500 pts\n\n*No* **Tyranids** models from your army can\nbe your **Warlord**."
       },
+      "Detachment§Heroes Of The Uprising": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
       "Detachment§Host of Ascension": {
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -2696,9 +2751,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "**A PERFECT AMBUSH**\n\nEach time a Genestealer Cults unit from your army is set up on the battlefield as Reinforcements, until the end of your next Fight phase, weapons equipped by models in that unit have the [SUSTAINED HITS 1] and [IGNORES COVER] abilities."
       },
       "Detachment§Outlander Claw": {
+        "keywords": {
+          "Role": [
+            "Reconnaissance"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -2792,9 +2857,32 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "**RAPID TAKEOVER**\n\nWhile a Genestealer Cults Mounted or Genestealer Cults Vehicle model from your army is not Battle‑shocked, add 1 to its Objective Control characteristic. In addition, at the end of your Command phase, if one or more Atalan Jackals \nunits from your army are within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
       },
+      "Detachment§Purestrain Broodswarm": {
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
       "Detachment§Xenocreed Congregation": {
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -2888,12 +2976,30 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "**UNQUESTIONING FANATICISM**\n\nFor each ACOLYTE HYBRIDS, HYBRID METAMORPHS and NEOPHYTE HYBRIDS unit from your army, while one or more CHARACTER models are leading that unit, you can re-roll Advance and Charge rolls made for it. If that CHARACTER model is a\nMAGUS, PRIMUS or ACOLYTE ICONWARD, that\nmodel has the Feel No Pain 3+ ability\nwhile leading that unit."
       },
-      "Enhancement§A Chink in Their Armour": {
+      "Detachment§Xenocult Masses": {
+        "keywords": {
+          "Role": [
+            "Disruption"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
+      "Enhancement§A Chink In Their Armour": {
         "keywords": {
           "Keywords": [
-            "Host of Ascension"
+            "Host Of Ascension"
           ]
         },
         "stats": {
@@ -2906,7 +3012,7 @@
       "Enhancement§Adaptive Reprisal": {
         "keywords": {
           "Keywords": [
-            "Brood Brother Auxilia"
+            "Brood Brothers Auxilia"
           ]
         },
         "rules": {
@@ -3004,7 +3110,7 @@
       "Enhancement§Assassination Edict": {
         "keywords": {
           "Keywords": [
-            "Host of Ascension"
+            "Host Of Ascension"
           ]
         },
         "stats": {
@@ -3153,7 +3259,20 @@
         },
         "text": "**Genestealer Cults** model only. While the bearer is embarked within a **Transport**, each time a **Transport** is selected to shoot, until the end of the phase, improve the Ballistic Skill characteristic of ranged weapons equipped by that **Transport** as a result of the Firing Deck ability by 1."
       },
-      "Enhancement§Deeds That Speak to the Masses": {
+      "Enhancement§Contraband Munitions": {
+        "keywords": {
+          "Keywords": [
+            "Heroes Of The Uprising"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Deeds that Speak to the Masses": {
         "keywords": {
           "Keywords": [
             "Xenocreed Congregation"
@@ -3279,6 +3398,19 @@
         },
         "text": "**Magus**, **Primus** or **Acolyte Iconward** model only. Each time a model in the bearer's unit makes an attack that targets a **Character** unit, add 1 to the Hit roll and add\n1 to the Wound roll."
       },
+      "Enhancement§Devious Disguises (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Xenocult Masses"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Enraptured Damnation": {
         "keywords": {
           "Keywords": [
@@ -3313,6 +3445,19 @@
           }
         },
         "text": "**Genestealer Cults** model only. Enemy units cannot\nuse the Fire Overwatch Stratagem to shoot at the\nbearer’s unit."
+      },
+      "Enhancement§Fire-point Commander": {
+        "keywords": {
+          "Keywords": [
+            "Brood Brothers Auxilia"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Firepoint Commander": {
         "keywords": {
@@ -3350,11 +3495,6 @@
         "text": "**Genestealer Cults Infantry** model only. Each time you target the bearer’s unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+."
       },
       "Enhancement§Gene-sire's Reliquant": {
-        "keywords": {
-          "Keywords": [
-            "Xenocreed Congregation"
-          ]
-        },
         "rules": {
           "Magus, Primus or Acolyte Iconward model only.": {
             "evals": [
@@ -3411,6 +3551,32 @@
           }
         },
         "text": "**Magus**, **Primus** or **Acolyte Iconward** model only. You can re-roll Battle-shock tests taken for the beare's unit."
+      },
+      "Enhancement§Gene-sire’s Reliquant": {
+        "keywords": {
+          "Keywords": [
+            "Xenocreed Congregation"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 5
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Gene-tailored Toxins": {
+        "keywords": {
+          "Keywords": [
+            "Heroes Of The Uprising"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 35
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Incendiary Inspiration": {
         "keywords": {
@@ -3510,10 +3676,36 @@
         },
         "text": "**Genestealer Cults** model only. Weapons equipped by\nmodels in the bearer’s unit have the **[SUSTAINED HITS 1]**\nability while targeting an enemy unit within 6\" of one\nor more friendly **Tyranids** units."
       },
+      "Enhancement§Inspired to Greatness": {
+        "keywords": {
+          "Keywords": [
+            "Xenocult Masses"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Mark of the Star Children (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Purestrain Broodswarm"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 30
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Martial Espionage": {
         "keywords": {
           "Keywords": [
-            "Brood Brother Auxilia"
+            "Brood Brothers Auxilia"
           ]
         },
         "rules": {
@@ -3611,7 +3803,7 @@
       "Enhancement§Our Time is Nigh": {
         "keywords": {
           "Keywords": [
-            "Host of Ascension"
+            "Host Of Ascension"
           ]
         },
         "stats": {
@@ -3710,7 +3902,7 @@
       "Enhancement§Prowling Agitant": {
         "keywords": {
           "Keywords": [
-            "Host of Ascension"
+            "Host Of Ascension"
           ]
         },
         "stats": {
@@ -3825,10 +4017,23 @@
         },
         "text": "**Tyranids** model only. Each time the bearer would\nregain one or more lost wounds from the Psionic\nParasitism Detachment rule, it regains up to twice\nthat number of lost wounds instead."
       },
+      "Enhancement§Talons of the Sire": {
+        "keywords": {
+          "Keywords": [
+            "Purestrain Broodswarm"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§The Hero Returned": {
         "keywords": {
           "Keywords": [
-            "Brood Brother Auxilia"
+            "Brood Brothers Auxilia"
           ]
         },
         "rules": {
@@ -8993,7 +9198,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 300
+            "value": 310
           },
           "model2ndTally": {
             "value": 10
@@ -9011,7 +9216,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 135
+            "value": 160
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -9093,7 +9304,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 95
+            "value": 105
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -9318,7 +9535,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 65
+            "value": 70
           }
         }
       },
@@ -9549,7 +9766,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 140
+            "value": 150
           },
           "model2ndTally": {
             "value": 10
@@ -9567,7 +9784,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 70
+            "value": 75
           }
         }
       },
@@ -10230,13 +10447,19 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 150
+            "value": 170
           },
           "model2ndTally": {
             "value": 10
           },
           "Points": {
-            "value": 85
+            "value": 100
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "Wolfquads": {
             "dynamic": true,
@@ -10356,13 +10579,19 @@
             "value": 3
           },
           "Points": {
-            "value": 120
+            "value": 130
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 10
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 10
@@ -10633,7 +10862,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 140
+            "value": 160
           },
           "model2ndTally": {
             "value": 10
@@ -10651,7 +10880,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 70
+            "value": 85
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -11189,7 +11424,7 @@
             "visibility": "hidden"
           },
           "Points": {
-            "value": 65
+            "value": 70
           }
         }
       },
@@ -11241,7 +11476,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 140
+            "value": 150
           },
           "model2ndTally": {
             "value": 10
@@ -11259,7 +11494,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 75
+            "value": 90
           },
           "Purestrain Genestealer": {
             "max": 10,
@@ -11268,6 +11503,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },

@@ -1,6 +1,6 @@
 {
   "name": "Emperor's Children 11e",
-  "revision": "11.0.0",
+  "revision": "11.0.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -9,7 +9,7 @@
   "wip": false,
   "dependencies": [
     {
-      "slug": "G3CGS6",
+      "slug": "",
       "name": "Chaos 11e",
       "game": "Warhammer 40k",
       "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k11e/main/Chaos.rulebook"
@@ -350,13 +350,19 @@
             "value": 3
           },
           "Points": {
-            "value": 180
+            "value": 185
           },
           "Sv": {
             "value": 2
           },
           "T": {
             "value": 10
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 10
@@ -421,13 +427,19 @@
             "value": 3
           },
           "Points": {
-            "value": 215
+            "value": 235
           },
           "Sv": {
             "value": 2
           },
           "T": {
             "value": 9
+          },
+          "unitDiscount": {
+            "value": 30
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 10
@@ -509,7 +521,7 @@
             "value": 6
           },
           "Points": {
-            "value": 340
+            "value": 350
           },
           "Sv": {
             "value": 2
@@ -567,6 +579,12 @@
         "stats": {
           "Points": {
             "value": 270
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -691,13 +709,19 @@
             "value": 1
           },
           "Points": {
-            "value": 80
+            "value": 90
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 4
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 5
@@ -863,7 +887,9 @@
           "M": {
             "value": 8
           },
-          "model1stTally": {},
+          "model1stTally": {
+            "value": 1
+          },
           "Models": {
             "increment": {
               "value": 1
@@ -873,7 +899,7 @@
             "value": 1
           },
           "Points": {
-            "value": 150
+            "value": 130
           },
           "Sv": {
             "value": 2
@@ -918,6 +944,11 @@
               "Ability§The Shadow of Chaos",
               "Ability§Greater Daemon of Slaanesh (Aura)"
             ]
+          }
+        },
+        "stats": {
+          "Points": {
+            "value": 340
           }
         }
       },
@@ -981,6 +1012,11 @@
         }
       },
       "Detachment§Carnival of Excess": {
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -1074,9 +1110,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## DAEMONIC EMPOWERMENT\n\n■ While an **Emperor's Children** unit from your army is within 6\" of one or more friendly **Legion of Excess** units, it is Enpowered.\n■ While a **Legion of Excess** unit from your army is within 6\" of one or more friendly **Emperor's Children** units, it is Enpowered.\n\nWhile a unit from your army is Enpowered, weapons equipped by models in that unit have the [SUSTAINED HITS 1] abilty. If such weapon already has that ability, each time an attack is made with that weapon, an unmodified hit roll of 5+ scores a Critical Hit.\n\n**LEGION OF EXCESS**\n\nYou can include **Legion of Excess** units in your army, even though they do not have the **Emperor's Children** Faction keyword. The combined points cost of such units you can include in your army is:\n\n■ Incursion: Up to 500 pts\n\n■ Strike Force: Up to 1000 pts\n\n■ Onslaught: Up to 1500 pts\n\nNo **Legion of Excess** models from your army can be your **Warlord**."
       },
       "Detachment§Coterie of the Conceited": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -1170,12 +1216,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "At the start of the battle round, if your **Warlord** is on the battlefield, you must pledge a number to Slaanesh representing how many enemy units will be destroyed this battle round, if the number of enemy units destroyed this battle round is greater than or equal to your pledge, you gain a number of Pact points equal to your pledge. Otherwise, you do not gain any Pact points this battle round and your **Warlord** model suffers D3 mortal wounds.\n\n**Emperor's Children** units from your army gain a bonus depending on how many Pacts points you have gained during the battle, as shown below (these are all cumulative).\n\n|||\n|---|---|\n|Pact points|Bonus|\n|1+|Each time a model in this makes an attack, re-roll a Hit-roll of 1|\n|3+|Each time a model in this makes an attack, re-roll a Wound roll of 1|\n|5+|Melee weapons equipped by models in this unit have the [LETHAL HITS] and [SUSTAINED HITS 1] abilities.|\n|7+|Each time a model in this unit makes an attack, a Critical Hit is scored on an unmodified Hit roll of 5+"
       },
       "Detachment§Court of the Phoenician": {
         "keywords": {
           "Keywords": [
             "Court of the Phoenician"
+          ],
+          "Role": [
+            "Purge The Foe"
           ]
         },
         "rules": {
@@ -1271,9 +1325,45 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## SENSATIONAL PERFORMANCE\n\nEmperor’s Children units from your army have the following ability: \n\n**Sensational Performance**: Each time this unit is selected to fight, if this unit made a Charge move this turn, it can use this ability. If it does, until the end of the phase\n\n■ This unit cannot target a unit it was within Engagement Range of at the start of the turn.\n\n■ This unit cannot target a unit that\nwas the target of another unit’s attack\nthis phase\n\n■ Improve the Strength and Armour Penetration characteristics of this unit’s melee weapons by 1.\n\n## MASTER OF THE PAGEANT\n\nOnce per battle round, when you target a Fulgrim unit from your army with the Sinuous Breach or Prideful Superiority Stratagem, you can reduce the CP cost of that use of that Stratagem by 1CP"
       },
+      "Detachment§Elegant Brutes": {
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
+      "Detachment§Frenzied Host": {
+        "keywords": {
+          "Role": [
+            "Disruption"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
       "Detachment§Mercurial Host": {
+        "keywords": {
+          "Role": [
+            "Reconnaissance"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -1367,9 +1457,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## QUICKSILVER GRACE\n\nYou can re-roll Advance rolls made for **Emperor's Children** units from your army."
       },
       "Detachment§Peerless Bladesmen": {
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -1463,9 +1563,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## EXQUISITE SWORDSMANSHIP\n\n\nEach time an **Emperor's Children** unit from your army is selected to fight, if it made a Charge move this turn, select one of the abilities below. While resolving those attacks, melee weapons equipped by models in that unit have that ability:\n\n■ [LETHAL HITS]\n\n■ [SUSTAINED HITS 1]"
       },
       "Detachment§Rapid Evisceration": {
+        "keywords": {
+          "Role": [
+            "Disruption"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -1557,6 +1667,11 @@
             "evals": [],
             "evaluate": "AND",
             "failState": "pass"
+          }
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
           }
         },
         "text": "## MECHANISED MURDER\n\nEach time an Emperor’s Children model from your army makes an attack, if it is a Transport model or disembarked from a Transport this turn, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1."
@@ -1657,6 +1772,32 @@
         },
         "text": "## INTERNAL RIVALRIES\n\n**Emperor's Children Character** units from your army can ignore any or all modifiers to their Move characteristic and any or all modifiers to Advance and Charge rolls made for them.\n\nAt the start of the battle, your **Warlord's** unit is your army's Favoured Champions. The first time in each player's turn that an **Emperor's Children Character** unit from your army destroys an enemy unit, after resolving all of its attacks, that **Character** unit becomes your army's new Favoured Champions, replacing the old one.\n\nEach time a model in your army's Favoured Champion's unit makes an attack, you can re-roll the Wound roll."
       },
+      "Detachment§Slaanesh’s Chosen": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
+      "Detachment§Spectacle Of Slaughter": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
       "Enhancement§Accomplished Tactician": {
         "keywords": {
           "Keywords": [
@@ -1692,6 +1833,19 @@
         },
         "text": "**Emperor's Children Infantry** model only. Once per turn, in your opponent's Shooting phase, just after an enemy unit has shot, you can select one friendly **Emperor's Children** unit within 9\" of the bearer that was hit by one or more of those attacks, then select one friendly **Transport** that unit is wholly within 6\" of and is able to embark within."
       },
+      "Enhancement§Beguiling Grotesquerie (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Spectacle Of Slaughter"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Blinding Speed": {
         "keywords": {
           "Keywords": [
@@ -1705,10 +1859,23 @@
         },
         "text": "**Emperor's Children** model only. Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, models in the bearer's unit have the Fights First ability."
       },
+      "Enhancement§Cacophonic Accompaniment": {
+        "keywords": {
+          "Keywords": [
+            "Elegant Brutes"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Dark Blessings": {
         "keywords": {
           "Keywords": [
-            "Carnival of Excess"
+            "Carnival Of Excess"
           ]
         },
         "rules": {
@@ -1811,10 +1978,23 @@
         },
         "text": "**Emperor's Children** model only. Add 1 to the Attacks and Damage characteristics of melee weapons equipped by the bearer."
       },
+      "Enhancement§Eager Patrons (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Spectacle Of Slaughter"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Eager to Prove": {
         "keywords": {
           "Keywords": [
-            "Slaanesh's Chosen"
+            "Slaanesh’S Chosen"
           ]
         },
         "stats": {
@@ -1827,7 +2007,7 @@
       "Enhancement§Empyric Suffusion": {
         "keywords": {
           "Keywords": [
-            "Carnival of Excess"
+            "Carnival Of Excess"
           ]
         },
         "rules": {
@@ -1859,10 +2039,23 @@
         },
         "text": "**Emperor's Children** model only. Once per battle round, you can target one friendly **Slaanesh** unit within 6\" of the bearer with the Heroic Intervention Stratagem for 0CP."
       },
+      "Enhancement§Euphoric Crown": {
+        "keywords": {
+          "Keywords": [
+            "Frenzied Host"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Exalted Patron": {
         "keywords": {
           "Keywords": [
-            "Court of the Phoenician"
+            "Court Of The Phoenician"
           ]
         },
         "rules": {
@@ -1928,6 +2121,19 @@
         },
         "text": "**Emperor's Children** model only. You can target the bearer's unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
       },
+      "Enhancement§Frenzied Ferocity (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Elegant Brutes"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Heretek Adept": {
         "keywords": {
           "Keywords": [
@@ -1963,6 +2169,19 @@
         },
         "text": "**Emperor's Children Infantry** model only. Once per battle round, when a saving throw is failed for a friendly **Emperor's Children Vehicle** model within 6\" of the bearer, you can change the Damage characteristic of that attack to 0."
       },
+      "Enhancement§Howling Plate": {
+        "keywords": {
+          "Keywords": [
+            "Frenzied Host"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Intoxicating Musk": {
         "keywords": {
           "Keywords": [
@@ -1992,7 +2211,7 @@
       "Enhancement§Pledge of Dark Glory": {
         "keywords": {
           "Keywords": [
-            "Coterie of the Conceited"
+            "Coterie Of The Conceited"
           ]
         },
         "rules": {
@@ -2067,7 +2286,7 @@
       "Enhancement§Pledge of Eternal Servitude": {
         "keywords": {
           "Keywords": [
-            "Coterie of the Conceited"
+            "Coterie Of The Conceited"
           ]
         },
         "stats": {
@@ -2080,7 +2299,7 @@
       "Enhancement§Pledge of Mortal Pain": {
         "keywords": {
           "Keywords": [
-            "Coterie of the Conceited"
+            "Coterie Of The Conceited"
           ]
         },
         "stats": {
@@ -2093,7 +2312,7 @@
       "Enhancement§Pledge of Unholy Fortune": {
         "keywords": {
           "Keywords": [
-            "Coterie of the Conceited"
+            "Coterie Of The Conceited"
           ]
         },
         "stats": {
@@ -2106,7 +2325,7 @@
       "Enhancement§Possessed Blade": {
         "keywords": {
           "Keywords": [
-            "Carnival of Excess"
+            "Carnival Of Excess"
           ]
         },
         "rules": {
@@ -2141,7 +2360,7 @@
       "Enhancement§Proud and Vainglorious": {
         "keywords": {
           "Keywords": [
-            "Slaanesh's Chosen"
+            "Slaanesh’S Chosen"
           ]
         },
         "stats": {
@@ -2154,7 +2373,7 @@
       "Enhancement§Repulsed by Weakness": {
         "keywords": {
           "Keywords": [
-            "Slaanesh's Chosen"
+            "Slaanesh’S Chosen"
           ]
         },
         "stats": {
@@ -2202,7 +2421,7 @@
       "Enhancement§Slayer of Champions": {
         "keywords": {
           "Keywords": [
-            "Slaanesh's Chosen"
+            "Slaanesh’S Chosen"
           ]
         },
         "rules": {
@@ -2238,7 +2457,7 @@
       "Enhancement§Soulstain Made Manifest": {
         "keywords": {
           "Keywords": [
-            "Court of the Phoenician"
+            "Court Of The Phoenician"
           ]
         },
         "stats": {
@@ -2286,7 +2505,7 @@
       "Enhancement§Spiritsliver": {
         "keywords": {
           "Keywords": [
-            "Court of the Phoenician"
+            "Court Of The Phoenician"
           ]
         },
         "rules": {
@@ -2424,7 +2643,7 @@
       "Enhancement§Tears of the Phoenix": {
         "keywords": {
           "Keywords": [
-            "Court of the Phoenician"
+            "Court Of The Phoenician"
           ]
         },
         "stats": {
@@ -2437,7 +2656,7 @@
       "Enhancement§Warp Walker": {
         "keywords": {
           "Keywords": [
-            "Carnival of Excess"
+            "Carnival Of Excess"
           ]
         },
         "rules": {
@@ -6768,13 +6987,19 @@
             "value": 5
           },
           "Points": {
-            "value": 220
+            "value": 240
           },
           "Sv": {
             "value": 2
           },
           "T": {
             "value": 12
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 16
@@ -7169,8 +7394,6 @@
           "model1stTally": {
             "value": 5
           },
-          "model2ndCost": {},
-          "model2ndTally": {},
           "modelKey": {
             "value": "Model§Chaos Terminator"
           },
@@ -7448,13 +7671,19 @@
             "value": 5
           },
           "Points": {
-            "value": 250
+            "value": 320
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 30
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 18
@@ -7487,7 +7716,7 @@
             "value": 190
           },
           "Points": {
-            "value": 95
+            "value": 90
           }
         }
       },
@@ -7551,7 +7780,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 200
+            "value": 190
           },
           "model2ndTally": {
             "value": 6
@@ -7569,7 +7798,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 100
+            "value": 95
           }
         }
       },
@@ -7640,7 +7869,7 @@
             "value": 0
           },
           "Points": {
-            "value": 195
+            "value": 175
           },
           "Ranged Option": {
             "dynamic": true,
@@ -7875,13 +8104,19 @@
             "value": 3
           },
           "Points": {
-            "value": 130
+            "value": 140
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 10
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 12
@@ -7949,8 +8184,6 @@
           "model1stTally": {
             "value": 6
           },
-          "model2ndCost": {},
-          "model2ndTally": {},
           "modelKey": {
             "value": "Model§Noise Marine"
           },
@@ -7971,7 +8204,13 @@
             "visibility": "hidden"
           },
           "Points": {
-            "value": 145
+            "value": 160
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         },
         "text": ""
@@ -7995,6 +8234,11 @@
             "traits": [
               "Ability§The Shadow of Chaos"
             ]
+          }
+        },
+        "stats": {
+          "Points": {
+            "value": 80
           }
         }
       },
@@ -8142,7 +8386,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 85
+            "value": 80
           },
           "Tormentor": {
             "max": 9,

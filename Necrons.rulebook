@@ -1,6 +1,6 @@
 {
   "name": "Necrons 11e",
-  "revision": "11.0.0",
+  "revision": "11.0.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -9,7 +9,7 @@
   "wip": false,
   "dependencies": [
     {
-      "slug": "PCJ8SD",
+      "slug": "DGST2Y",
       "name": "40k 11e",
       "game": "Warhammer 40k",
       "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k11e/main/Warhammer_40k_11e.rulebook"
@@ -1482,6 +1482,9 @@
         },
         "text": "If your Army Faction is Necrons, at the end of your Command phase, each unit from your army with this ability activates its Reanimation Protocols and reanimates D3 wounds. Each time such a unit reanimates a wound: \n- If that unit contains one or more models with fewer than their starting number of wounds remaining, select one of those models; that model regains one lost wound.\n- If all models in that unit have their starting number of wounds, but that unit is not at its Starting Strength, one destroyed model is returned to that unit with one wound remaining.\n\nOnce such a unit is at its Starting Strength and all of its models have their starting number of wounds, nothing further happens."
       },
+      "Ability§Relativistic Tether": {
+        "text": "**Transcendent C’tan** model only. In your turn, each time this model is set up on the battlefield using the Deep Strike or Transdimensional Displacement abilities, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units. When doing so, if this model is set up within 9\" of one or more enemy units, until the end of the turn, it is not eligible to declare a charge"
+      },
       "Ability§Relentless Combatants": {
         "keywords": {
           "Keywords": [
@@ -1506,9 +1509,6 @@
           ]
         },
         "text": "While a friendly Necrons unit (excluding Monster units) is within 6\" of this unit’s Szarekh model, add 2\" to the Move characteristic of models in that unit."
-      },
-      "Ability§Reletavistic Tether": {
-        "text": "**Transcendent C’tan** model only. In your turn, each time this model is set up on the battlefield using the Deep Strike or Transdimensional Displacement abilities, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units. When doing so, if this model is set up within 9\" of one or more enemy units, until the end of the turn, it is not eligible to declare a charge"
       },
       "Ability§Remastered Deficiency": {
         "aspects": {
@@ -2766,7 +2766,7 @@
             "value": 4
           },
           "Points": {
-            "value": 310
+            "value": 330
           },
           "Sv": {
             "value": 3
@@ -2918,7 +2918,7 @@
             "value": 4
           },
           "Points": {
-            "value": 340
+            "value": 360
           },
           "Sv": {
             "value": 3
@@ -3070,7 +3070,7 @@
             "value": 4
           },
           "Points": {
-            "value": 330
+            "value": 345
           },
           "Sv": {
             "value": 3
@@ -3319,13 +3319,19 @@
             "value": 1
           },
           "Points": {
-            "value": 65
+            "value": 90
           },
           "Sv": {
             "value": 4
           },
           "T": {
             "value": 4
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 4
@@ -3548,7 +3554,7 @@
             "value": 3
           },
           "Points": {
-            "value": 165
+            "value": 175
           },
           "Sv": {
             "value": 2
@@ -3705,7 +3711,7 @@
             "value": 2
           },
           "Points": {
-            "value": 80
+            "value": 70
           },
           "Sv": {
             "value": 3
@@ -3899,7 +3905,7 @@
             "value": 3
           },
           "Points": {
-            "value": 185
+            "value": 175
           },
           "Sv": {
             "value": 3
@@ -4081,7 +4087,7 @@
             "value": 1
           },
           "Points": {
-            "value": 80
+            "value": 90
           },
           "Sv": {
             "value": 4
@@ -4237,7 +4243,7 @@
             "value": 1
           },
           "Points": {
-            "value": 85
+            "value": 90
           },
           "Resurrection Orb": {
             "dynamic": true,
@@ -4322,7 +4328,7 @@
             "value": 1
           },
           "Points": {
-            "value": 85
+            "value": 90
           },
           "Sv": {
             "value": 2
@@ -4750,13 +4756,19 @@
             "value": 1
           },
           "Points": {
-            "value": 80
+            "value": 90
           },
           "Sv": {
             "value": 4
           },
           "T": {
             "value": 4
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 4
@@ -4965,13 +4977,19 @@
             "value": 4
           },
           "Points": {
-            "value": 325
+            "value": 360
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 16
@@ -5031,7 +5049,7 @@
             "value": 1
           },
           "Points": {
-            "value": 75
+            "value": 65
           },
           "Sv": {
             "value": 2
@@ -5262,6 +5280,11 @@
         "text": "The bearer has the Deadly Demise D3 ability. In addition, select one of the bearer’s melee weapons; add 2 to the Strength and Attack characteristics of that weapon, and that weapon has the [LETHAL HITS] ability."
       },
       "Detachment§Annihilation Legion": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
         "rules": {
           "assignStratagem": {
             "actions": [
@@ -5355,9 +5378,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "Each time a Destroyer Cult or Flayed Ones unit from your army declares a charge, you can re-roll the Charge roll. If one or more targets of that charge are Below Half-strength, add 1 to the Charge roll as well.\n\nEach time a Destroyer Cult unit from your army makes a ranged attack that targets the closest eligible target, add 1 to the Armour Penetration characteristic of that attack."
       },
       "Detachment§Awakened Dynasty": {
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -5451,9 +5484,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "While a Necrons Character model is leading this unit, each time a model in this unit makes an attack, add 1 to the Hit roll."
       },
       "Detachment§Canoptek Court": {
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -5547,9 +5590,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "Certain areas of the battlefield are considered to be within your army’s Power Matrix, as follows:\n\n* Your deployment zone is always within your army’s Power Matrix.\n\n* At the start of any phase, if you control at least half of the objective markers within No Man’s Land, until the end of that phase, No Man’s Land is within your army’s Power Matrix.\n\n* At the start of any phase, if you control at least half of the objective markers within your opponent’s deployment zone, until the end of that phase, your opponent’s deployment zone is within your army’s Power Matrix.\n\nEach time a model in a Cryptek or Canoptek unit from your army makes an attack, re-roll a Hit roll of 1. If such a unit is wholly within your army’s Power Matrix, you can re-roll the Hit roll instead."
       },
       "Detachment§Cryptek Conclave": {
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -5643,9 +5696,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## TECHNOSORCEROUS AUGMENTATIONS\n\n■ Ranged weapons equipped by Cryptek models from your army have the [ASSAULT] ability.\n\n■ In your Shooting phase, each time a Cryptek unit from your army is selected to shoot, select one of the following abilities: [ANTI‑INFANTRY 3+], [ANTI‑MOUNTED 4+], [ASSAULT], [HEAVY], [IGNORES COVER]. Until the end of the phase, ranged weapons equipped by models in that unit have that ability."
       },
       "Detachment§Cursed Legion": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -5739,9 +5802,32 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## COLD FERVOUR\n\n■ Add 2 to the Strength characteristic of weapons equipped by Destroyer Cult models from your army.\n\n■ The first time each turn that a Destroyer Cult unit from your army makes attacks that destroy a unit or cause it to become Below Half‑strength, after that unit has finished resolving its attacks, until the end of the turn, add 2 to the Strength characteristic of weapons equipped by friendly Necrons models (excluding Destroyer Cult, Monster and Titanic models)."
       },
+      "Detachment§Hand Of The Dynasty": {
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
       "Detachment§Hypercrypt Legion": {
+        "keywords": {
+          "Role": [
+            "Reconnaissance"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -5835,9 +5921,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "At the end of your opponent’s turn, you can select a number of Necrons units from your army (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:\n\n| Battle Size | Number of Units |\n| ----------- | ----------- |\n| Incursion | Up to 1 units |\n| Strike Force | Up to 2 units |\n| Onslaught | Up to 3 units |\n\nOnce you have made your selections, remove those units from the battlefield and place them into Strategic Reserves."
       },
       "Detachment§Obeisance Phalanx": {
+        "keywords": {
+          "Role": [
+            "Disruption"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -5931,9 +6027,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "In your Command phase, select one enemy unit. Until the start of your next Command phase, each time an Noble, Lychguard or Triarch unit from your army makes an attack that targets that unit, add 1 to the Wound roll."
       },
       "Detachment§Pantheon of Woe": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -6027,9 +6133,32 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## COSMIC DISTORTION\n\nNecrons Monster units from your army have the following ability:\n\nDistortion Fields (Aura): While an enemy unit is within 6\" of this unit, it is unravelling. While an enemy unit is unravelling, each time an attack targets that unit, improve the Armour\nPenetration characteristic of that attack by 1.\n\nAt the start of each phase, for each Necrons Monster unit from your army, that unit can suffer 3 mortal wounds. If it does, until the end of the phase, the range of that unit’s Distortion Fields Aura ability is increased to 9\".\n\nDesigner’s Note: If your army contains more than one Transcendent C’tan unit, each of those units must take the Reletavistic Tether ability.\n\n**RESTRICTIONS**\n\nWhen mustering your army, each Necrons Monster unit from your army has the relevant Necrodermal Binding ability shown on the right, and you must increase the points cost of each of those units by the amount shown in the Munitorum Field Manual. If this causes your army to exceed the points limit for the battle you are playing, you cannot include that unit in your army."
       },
+      "Detachment§Skyshroud Spearhead": {
+        "keywords": {
+          "Role": [
+            "Reconnaissance"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
       "Detachment§Starshatter Arsenal": {
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -6123,7 +6252,38 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "**RELENTLESS ONSLAUGHT**\n\nEach time a Necrons model from your army makes an attack that targets a unit within range of one or more objective markers, add 1 to the Hit roll. In addition, ranged weapons equipped by Necrons Vehicle and Necrons Mounted models (excluding Titanic models) from your army have the [ASSAULT] ability."
+      },
+      "Detachment§The Phaeron's Armoury": {
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
+      "Enhancement§Animus Damper": {
+        "keywords": {
+          "Keywords": [
+            "Pantheon Of Woe"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 35
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Arisen Tyrant": {
         "keywords": {
@@ -6208,7 +6368,7 @@
         },
         "text": "Cryptek model only. Each time your opponent gains a CP as the result of an ability, roll one D6: on a 2+, you also gain 1CP"
       },
-      "Enhancement§Chrono-Impedance Fields": {
+      "Enhancement§Chrono-impedance Fields": {
         "keywords": {
           "Keywords": [
             "Starshatter Arsenal"
@@ -6255,6 +6415,19 @@
           }
         },
         "text": "**DESTROYER CULT** model only. Once per turn, in your opponent's Shooting phase, after a model in the bearer's unit is destroyed, the bearer's unit can make a Normal move of up to D6\"."
+      },
+      "Enhancement§Deepening Madness (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Skyshroud Spearhead"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Demanding Leader": {
         "keywords": {
@@ -6535,7 +6708,7 @@
         },
         "stats": {
           "Points": {
-            "value": 15
+            "value": 10
           }
         },
         "text": "Destroyer Cult model only. At the start of the Fight phase, each enemy unit within Engagement Range of the bearer must take a Battle-shock test."
@@ -6581,6 +6754,19 @@
         },
         "text": "Necrons model only. The bearer has the Feel No Pain 4+ ability."
       },
+      "Enhancement§Enlivened Sentinels (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Hand Of The Dynasty"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Eternal Conqueror": {
         "keywords": {
           "Keywords": [
@@ -6624,7 +6810,7 @@
         },
         "stats": {
           "Points": {
-            "value": 25
+            "value": 20
           }
         },
         "text": "Necrons model only. In the Fight phase, each time a model in the bearer’s unit is destroyed, if that model has not fought this phase, roll one D6: on a 4+, do not remove the destroyed model from play; it can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
@@ -6790,17 +6976,25 @@
         },
         "stats": {
           "Points": {
-            "value": 10
+            "value": 5
           }
         },
         "text": "Necrons model only. Each time a model in the bearer’s unit makes an attack, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1."
       },
-      "Enhancement§Mask of the Nekrosor": {
+      "Enhancement§Mark of the Nekrosor": {
         "keywords": {
           "Keywords": [
             "Cursed Legion"
           ]
         },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Mask of the Nekrosor": {
         "rules": {
           "Destroyer Cult model only": {
             "evals": [
@@ -6937,6 +7131,19 @@
         },
         "text": "**Necrons** model only. Ranged weapons equipped by models in the bearer’s unit have the **[IGNORES COVER]** ability"
       },
+      "Enhancement§Mortality Shroud (Aura) (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "The Phaeron'S Armoury"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Murdermind": {
         "keywords": {
           "Keywords": [
@@ -7005,7 +7212,7 @@
         },
         "text": "**CRYPTEK** model only. The bearer has the **DESTROYER CULT** keyword. In the Declare Battle Formations step, the bearer can be attached to a **DESTROYER CULT** unit (excluding **CHARACTER** units). If you do, the bearer's unit cannot contain any models without the **DESTROYER CULT** keyword. Add 3\" to the Move characteristic of the bearer."
       },
-      "Enhancement§Nether Realm Casket": {
+      "Enhancement§Nether-realm Casket": {
         "keywords": {
           "Keywords": [
             "Awakened Dynasty"
@@ -7104,7 +7311,7 @@
         },
         "text": "Necrons model only. Models in the bearer’s unit have the Deep Strike ability."
       },
-      "Enhancement§Phasal Subjugator (Aura)": {
+      "Enhancement§Phasal Subjugator": {
         "keywords": {
           "Keywords": [
             "Awakened Dynasty"
@@ -7116,6 +7323,19 @@
           }
         },
         "text": "Necrons model only. While a friendly Necrons unit (excluding Character units) is within 6″ of the bearer, each time a model in that unit makes an attack, add 1 to the Hit roll."
+      },
+      "Enhancement§Prelocational Optimiser": {
+        "keywords": {
+          "Keywords": [
+            "The Phaeron'S Armoury"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Quantum Abacus": {
         "keywords": {
@@ -7152,6 +7372,66 @@
         },
         "text": "**NECRONS** model only. Each time the bearer shoots, if the target is within range of an objective marker, roll one D6: on a 4+, you gain 1CP."
       },
+      "Enhancement§Quantum Goad": {
+        "keywords": {
+          "Keywords": [
+            "Pantheon Of Woe"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 45
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Recursive Reanimation (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Skyshroud Spearhead"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 5
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Relativistic Tether": {
+        "stats": {
+          "Points": {
+            "value": 40
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Reletavistic Tether": {
+        "keywords": {
+          "Keywords": [
+            "Pantheon Of Woe"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 40
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Singularity Matrix": {
+        "keywords": {
+          "Keywords": [
+            "Pantheon Of Woe"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 45
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Soulless Reaper": {
         "keywords": {
           "Keywords": [
@@ -7182,10 +7462,23 @@
         },
         "stats": {
           "Points": {
-            "value": 20
+            "value": 15
           }
         },
         "text": "Destroyer Cult model only. Each time an enemy unit within Engagement Range of the bearer’s unit is selected to Fall Back, roll one D6: on a 3+, that unit cannot Fall Back this phase and must Remain Stationary."
+      },
+      "Enhancement§Tools of Dominion (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Hand Of The Dynasty"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Unflinching Will": {
         "keywords": {
@@ -15280,7 +15573,7 @@
             "value": 3
           },
           "Points": {
-            "value": 105
+            "value": 95
           },
           "Ranged": {
             "dynamic": true,
@@ -15547,7 +15840,7 @@
             "visibility": "hidden"
           },
           "Points": {
-            "value": 85
+            "value": 70
           }
         }
       },
@@ -15600,7 +15893,7 @@
             "value": 3
           },
           "Points": {
-            "value": 75
+            "value": 70
           },
           "Sv": {
             "value": 3
@@ -15736,7 +16029,7 @@
             "value": 1
           },
           "model2ndCost": {
-            "value": 150
+            "value": 110
           },
           "model2ndTally": {
             "value": 2
@@ -15754,7 +16047,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 75
+            "value": 65
           }
         }
       },
@@ -16019,7 +16312,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 220
+            "value": 240
           },
           "model2ndTally": {
             "value": 6
@@ -16037,7 +16330,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 110
+            "value": 115
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           }
         }
       },
@@ -16223,7 +16522,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 120
+            "value": 130
           },
           "model2ndTally": {
             "value": 10
@@ -16241,7 +16540,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 60
+            "value": 70
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -16303,7 +16608,7 @@
             "value": 0
           },
           "Points": {
-            "value": 230
+            "value": 200
           },
           "Sv": {
             "value": 3
@@ -16381,13 +16686,19 @@
             "value": 5
           },
           "Points": {
-            "value": 200
+            "value": 220
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 9
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 14
@@ -16440,7 +16751,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 120
+            "value": 100
           },
           "model2ndTally": {
             "value": 10
@@ -16458,7 +16769,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 60
+            "value": 55
           }
         }
       },
@@ -16610,7 +16921,7 @@
             "value": 3
           },
           "Points": {
-            "value": 115
+            "value": 100
           },
           "Sv": {
             "value": 3
@@ -16729,7 +17040,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 150
+            "value": 140
           },
           "model2ndTally": {
             "value": 10
@@ -16814,7 +17125,7 @@
             "value": 1
           },
           "model2ndCost": {
-            "value": 60
+            "value": 65
           },
           "model2ndTally": {
             "value": 2
@@ -16829,7 +17140,7 @@
           },
           "model4thCost": {
             "statType": "numeric",
-            "value": 180,
+            "value": 170,
             "visibility": "hidden"
           },
           "model4thTally": {
@@ -16850,7 +17161,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 40
+            "value": 50
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -16907,7 +17224,7 @@
             "value": 2
           },
           "model3rdCost": {
-            "value": 165
+            "value": 160
           },
           "model3rdTally": {
             "value": 3
@@ -16925,7 +17242,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 55
+            "value": 60
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -17042,7 +17365,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 170
+            "value": 160
           },
           "model2ndTally": {
             "value": 10
@@ -17060,7 +17383,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 85
+            "value": 80
           }
         }
       },
@@ -17123,7 +17446,7 @@
             "value": 8
           },
           "Points": {
-            "value": 400
+            "value": 440
           },
           "Ranged": {
             "dynamic": true,
@@ -17174,6 +17497,12 @@
           },
           "T": {
             "value": 13
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 22
@@ -17231,7 +17560,7 @@
             "value": 10
           },
           "model2ndCost": {
-            "value": 200
+            "value": 190
           },
           "model2ndTally": {
             "value": 20
@@ -17257,7 +17586,7 @@
             "visibility": "hidden"
           },
           "Points": {
-            "value": 90
+            "value": 80
           }
         }
       },
@@ -17330,7 +17659,7 @@
             "value": 0
           },
           "Points": {
-            "value": 145
+            "value": 125
           },
           "Sv": {
             "value": 3
@@ -17478,13 +17807,19 @@
             "value": 8
           },
           "Points": {
-            "value": 300
+            "value": 310
           },
           "Sv": {
             "value": 2
           },
           "T": {
             "value": 13
+          },
+          "unitDiscount": {
+            "value": 30
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 24
@@ -17573,7 +17908,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 160
+            "value": 155
           },
           "model2ndTally": {
             "value": 6
@@ -17634,7 +17969,13 @@
             "visibility": "active"
           },
           "Points": {
-            "value": 80
+            "value": 90
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -17732,6 +18073,14 @@
           }
         }
       },
+      "Unit§Sentry Pylons": {
+        "stats": {
+          "Points": {
+            "value": 120
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
+      },
       "Unit§Seraptek Heavy Construct": {
         "aspects": {
           "Type": "game piece"
@@ -17798,7 +18147,7 @@
             "value": 10
           },
           "Points": {
-            "value": 540
+            "value": 570
           },
           "Ranged": {
             "dynamic": true,
@@ -17843,6 +18192,12 @@
           },
           "T": {
             "value": 12
+          },
+          "unitDiscount": {
+            "value": 30
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 24
@@ -17984,7 +18339,7 @@
             "visibility": "active"
           },
           "Points": {
-            "value": 90
+            "value": 95
           },
           "Skorpekh Destroyer": {
             "max": 6,
@@ -17993,6 +18348,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -18179,13 +18540,19 @@
             "value": 8
           },
           "Points": {
-            "value": 425
+            "value": 465
           },
           "Sv": {
             "value": 2
           },
           "T": {
             "value": 12
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 24
@@ -18255,7 +18622,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 75
+            "value": 80
           },
           "Tomb Blade": {
             "max": 6,
@@ -18264,6 +18631,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -18377,7 +18750,7 @@
             "value": 0
           },
           "Points": {
-            "value": 920
+            "value": 180
           },
           "Sv": {
             "value": 2
@@ -18444,7 +18817,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 180
+            "value": 160
           },
           "model2ndTally": {
             "value": 10
@@ -18462,7 +18835,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 90
+            "value": 80
           },
           "Triarch Praetorian": {
             "max": 10,
@@ -18536,7 +18909,7 @@
             "value": 4
           },
           "Points": {
-            "value": 110
+            "value": 120
           },
           "Ranged": {
             "dynamic": true,
@@ -18577,6 +18950,12 @@
           },
           "T": {
             "value": 8
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 12

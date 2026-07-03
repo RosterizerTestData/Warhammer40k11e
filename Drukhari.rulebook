@@ -1,6 +1,6 @@
 {
   "name": "Drukhari 11e",
-  "revision": "11.0.0",
+  "revision": "11.0.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -9,7 +9,7 @@
   "wip": false,
   "dependencies": [
     {
-      "slug": "F7XP3A",
+      "slug": "",
       "name": "Harlequins 11e",
       "game": "Warhammer 40k",
       "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k11e/main/Harlequins.rulebook"
@@ -788,7 +788,7 @@
             "value": 7
           },
           "Points": {
-            "value": 120
+            "value": 135
           },
           "Razorwing Flock": {
             "max": 3,
@@ -928,7 +928,7 @@
             "value": 1
           },
           "Points": {
-            "value": 60
+            "value": 50
           },
           "Sv": {
             "value": 5
@@ -1073,7 +1073,7 @@
             "value": 1
           },
           "Points": {
-            "value": 85
+            "value": 80
           },
           "Sv": {
             "value": 6
@@ -1232,6 +1232,9 @@
         "keywords": {
           "Keywords": [
             "Covenite Coterie"
+          ],
+          "Role": [
+            "Purge The Foe"
           ]
         },
         "rules": {
@@ -1327,12 +1330,46 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## STITCHFLESH ABOMINATIONS\nEach time an attack targets a HAEMONCULUS COVENS unit from your army, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll."
+      },
+      "Detachment§Exhibition Of Slaughter": {
+        "keywords": {
+          "Role": [
+            "Disruption"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
+      "Detachment§Kabalite Agonysts": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
       },
       "Detachment§Kabalite Cartel": {
         "keywords": {
           "Keywords": [
             "Kabalite Cartel"
+          ],
+          "Role": [
+            "Disruption"
           ]
         },
         "rules": {
@@ -1428,12 +1465,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "# MURDEROUS AGENDA\nAt the start of the first battle round, select one of the Contracts below, then select one unit from your opponent's army that matches the 'Contract' description. Until that Contract is completed, that unit is your Contract unit, and KABAL and BLADES FOR HIRE units from your army have the ability stated in that Contract. At the start of your Command phase, if your Contract unit is destroyed, that Contract is completed and you gain 3 Pain tokens.\n\n## Trophy Hunters:\n\n**Contract**: One CHARACTER unit.\n\n**Ability**: Each time a KABAL or BLADES FOR HIRE model in this unit makes an attack that targets the Contract unit, that attack has the [PRECISION] ability.\n\n## Sow Fear and Terror:\n\n**Contract**: One INFANTRY or MOUNTED unit (excluding units containing only CHARACTER models). At the start of your Command phase, this Contract is completed if all non-CHARACTER models in that unit are destroyed.\n\n**Ability**: Each time a KABAL or BLADES FOR HIRE model in this unit makes an attack that targets an INFANTRY or MOUNTED unit, that attack has the [SUSTAINED HITS 1] ability.\n\n## Show of Strength:\n\n**Contract**: One MONSTER or VEHICLE unit.\n\n**Ability**: Each time a KABAL or BLADES FOR HIRE model in this unit makes an attack that targets a MONSTER or VEHICLE unit, that attack has the [LETHAL HITS] ability."
       },
       "Detachment§Realspace Raiders": {
         "keywords": {
           "Keywords": [
             "Realspace Raiders"
+          ],
+          "Role": [
+            "Priority Assets"
           ]
         },
         "rules": {
@@ -1527,6 +1572,11 @@
             "evals": [],
             "evaluate": "AND",
             "failState": "pass"
+          }
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
           }
         },
         "text": "##  ALLIANCE OF AGONY\n\n\nAt the start of the battle, you gain 2 Pain tokens for each of the following combinations your army contains (these do not need to be in the same attached unit):\n\n- One or more ARCHON models and one or more KABALITE WARRIORS units.\n\n- One or more SUCCUBUS models and one or more WYCH units.\n\n- One or more HAEMONCULUS models and one or more WRACKS units.\n\nDesigner's Note: These are all cumulative, so if your army contains at least one of all of the combinations listed above, you start the battle with 6 Pain tokens."
@@ -1632,10 +1682,26 @@
         },
         "text": "CALLOUS COMPETITION\n\nAt the start of the battle, **Drukhari** units\nfrom your army are winning the wager.\n\nEach time a **Drukhari** unit from your\narmy destroys an enemy unit, **Drukhari**\nunits from your army are winning\nthe wager.\n\nEach time a **Harlequins** unit from your\narmy destroys an enemy unit, **Harlequin**\nunits from your army are winning\nthe wager.\n\nWhile **Drukhari** units from your army\nare winning the wager, **Harlequin** units\nfrom your army are losing the wager, and\nvice versa.\n\nEach time a **Drukhari** or **Harlequins**\nmodel from your army makes an attack,\nif that model’s unit is winning the wager, re‑roll a Hit roll of 1. If that model’s unit is losing the wager, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1 instead.\n\n**HARLEQUINS**\n\nYou can include **Harlequins** units in your\narmy (see *Index: Aeldari*). The combined\npoints cost of such units depends on your\nbattle size:\n\n■ Incursion: Up to 500 pts\n\n■ Strike Force: Up to 1000 pts\n\n■ Onslaught: Up to 1500 pts\n\nNo **Harlequins** models from your army\ncan be your Warlord."
       },
+      "Detachment§Reaper’s Wager": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
       "Detachment§Skysplinter Assault": {
         "keywords": {
           "Keywords": [
             "Skysplinter Assault"
+          ],
+          "Role": [
+            "Reconnaissance"
           ]
         },
         "rules": {
@@ -1731,12 +1797,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## RAIN OF CRUELTY\nEach time a DRUKHARI unit from your army disembarks from a TRANSPORT, until the end of the turn:\n\n- Ranged weapons equipped by models in that disembarking unit have the [IGNORES COVER] ability.\n\n- Melee weapons equipped by models in that disembarking unit have the [LANCE] ability."
       },
       "Detachment§Spectacle of Spite": {
         "keywords": {
           "Keywords": [
             "Spectacle of Spite"
+          ],
+          "Role": [
+            "Purge The Foe"
           ]
         },
         "rules": {
@@ -1832,12 +1906,30 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## COMBAT DRUGS\n\nAt the start of your Command phase, select which Combat Drugs will be active for your army until the start of your next Command phase. To do so, either select one from the list below (you cannot select the same Combat Drug more than once per battle), or randomly select two by rolling two D6. When doing so randomly, Combat Drugs you have previously selected can become active again, but if you randomly select one that is already active for your army, it has no additional effect.\n\n-1 Adrenalight: Add 1 to the Attacks characteristic of melee weapons equipped by WYCH CULT models from your army.\n\n-2 Hypex: Add 2\" to the Move characteristic of WYCH CULT models from your army.\n\n-3 Serpentin: Improve the Weapon Skill characteristic of melee weapons equipped by WYCH CULT models from your army by 1.\n\n-4 Painbringer: Add 1 to the Toughness characteristic of WYCH CULT models from your army.\n\n-5 Grave Lotus: Add 1 to the Strength characteristic of melee weapons equipped by WYCH CULT models from your army.\n\n-6 Splintermind: Improve the Leadership characteristic of WYCH CULT models from your army by 1, and improve the Ballistic Skill characteristic of ranged weapons equipped by WYCH CULT models from your army by 1."
+      },
+      "Detachment§Tools Of Torment": {
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
       },
       "Enhancement§Archraider": {
         "keywords": {
           "Keywords": [
-            "Reaper's Wager"
+            "Reaper’S Wager"
           ]
         },
         "rules": {
@@ -1886,7 +1978,7 @@
       "Enhancement§Chronoshard": {
         "keywords": {
           "Keywords": [
-            "Spectacle of Spite"
+            "Spectacle Of Spite"
           ]
         },
         "rules": {
@@ -1921,7 +2013,7 @@
       "Enhancement§Conductor of Torment": {
         "keywords": {
           "Keywords": [
-            "Reaper's Wager"
+            "Reaper’S Wager"
           ]
         },
         "rules": {
@@ -1953,6 +2045,19 @@
         },
         "text": "**Drukhari** model only. In your Command phase, you\ncan do one of the following:\n\n■ If your **Drukhari** units are currently losing the\nwager, you can gain 1 Pain token. If you do,\n**Drukhari** units from your army are now winning\nthe wager.\n\n■ If your **Drukhari** units are currently winning the\nwager, you can discard 1 Pain token. If you do,\n**Harlequins** units from your army are now winning\nthe wager."
       },
+      "Enhancement§Contempt for Rivals": {
+        "keywords": {
+          "Keywords": [
+            "Kabalite Agonysts"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Crucible of Malediction": {
         "keywords": {
           "Keywords": [
@@ -1981,7 +2086,7 @@
         },
         "stats": {
           "Points": {
-            "value": 20
+            "value": 15
           }
         },
         "text": "Haemonculus model only. Once per battle, in your Shooting phase, the bearer can use this Enhancement. If it does, you can spend 1 Pain token. Each enemy unit within 12\" of the bearer must take a Battle-shock test, subtracting 1 from that test if you spent 1 Pain token. Each time a PSYKER unit fails that test, it suffers 3 mortal wounds."
@@ -2016,10 +2121,23 @@
         },
         "stats": {
           "Points": {
-            "value": 25
+            "value": 20
           }
         },
         "text": "Drukhari model only. The bearer’s unit is always Empowered – you do not need to spend any Pain tokens to activate that unit’s Pain abilities."
+      },
+      "Enhancement§Elixir of the Corpse Courts (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Tools Of Torment"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Eye of Spite": {
         "keywords": {
@@ -2113,6 +2231,32 @@
           }
         },
         "text": "Succubus model only. Improve the Attacks and Armour Penetration characteristics of the bearer’s melee weapons by 1. While the bearer is Empowered, Improve the Attacks and Armour Penetration characteristics of the bearer’s melee weapons by 2 instead."
+      },
+      "Enhancement§Gnarlskin Experimentor": {
+        "keywords": {
+          "Keywords": [
+            "Tools Of Torment"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Hyperstimm Trafficker": {
+        "keywords": {
+          "Keywords": [
+            "Exhibition Of Slaughter"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Informant Network": {
         "keywords": {
@@ -2591,6 +2735,19 @@
         },
         "text": "Succubus model only. Improve the Armour Penetration and Damage characteristics of the bearer's melee weapons by 1."
       },
+      "Enhancement§Morghenna’s Curse": {
+        "keywords": {
+          "Keywords": [
+            "Spectacle Of Spite"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Nightmare Shroud": {
         "keywords": {
           "Keywords": [
@@ -2629,7 +2786,7 @@
       "Enhancement§Periapt of Torments": {
         "keywords": {
           "Keywords": [
-            "Spectacle of Spite"
+            "Spectacle Of Spite"
           ]
         },
         "rules": {
@@ -2699,7 +2856,7 @@
       "Enhancement§Pharmacophex": {
         "keywords": {
           "Keywords": [
-            "Spectacle of Spite"
+            "Spectacle Of Spite"
           ]
         },
         "rules": {
@@ -2805,6 +2962,19 @@
           }
         },
         "text": "**Harlequins** model only. Models in the bearer’s unit\nhave the *Stealth* and *Infiltrators* abilities."
+      },
+      "Enhancement§Reaper’s Cowl": {
+        "keywords": {
+          "Keywords": [
+            "Reaper’S Wager"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Sadistic Fulcrum": {
         "keywords": {
@@ -2945,7 +3115,7 @@
       "Enhancement§Webway Walker": {
         "keywords": {
           "Keywords": [
-            "Reaper's Wager"
+            "Reaper’S Wager"
           ]
         },
         "rules": {
@@ -11398,7 +11568,7 @@
             "value": 1
           },
           "model2ndCost": {
-            "value": 110
+            "value": 100
           },
           "model2ndTally": {
             "value": 2
@@ -11692,7 +11862,7 @@
             "value": 10
           },
           "Points": {
-            "value": 125
+            "value": 115
           }
         }
       },
@@ -11754,7 +11924,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 170
+            "value": 190
           },
           "model2ndTally": {
             "value": 10
@@ -11772,7 +11942,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 85
+            "value": 100
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -11878,7 +12054,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 180
+            "value": 190
           },
           "model2ndTally": {
             "value": 10
@@ -11896,7 +12072,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 90
+            "value": 100
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -12028,7 +12210,7 @@
             "value": 10
           },
           "Points": {
-            "value": 115
+            "value": 110
           }
         }
       },
@@ -12091,7 +12273,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 150
+            "value": 170
           },
           "model2ndTally": {
             "value": 10
@@ -12109,7 +12291,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 75
+            "value": 90
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -12362,6 +12550,12 @@
           },
           "T": {
             "value": 9
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 11
@@ -12786,7 +12980,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 140
+            "value": 160
           },
           "model2ndTally": {
             "value": 6
@@ -12804,7 +12998,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 70
+            "value": 85
           },
           "Reaver": {
             "max": 5,
@@ -12813,6 +13007,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -12868,8 +13068,6 @@
           "model1stTally": {
             "value": 5
           },
-          "model2ndCost": {},
-          "model2ndTally": {},
           "modelKey": {
             "value": "Model§Scourge (Heavy)"
           },
@@ -12880,7 +13078,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 130
+            "value": 120
           },
           "Scourge": {
             "max": 4,
@@ -12889,6 +13087,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -12965,8 +13169,6 @@
           "model1stTally": {
             "value": 5
           },
-          "model2ndCost": {},
-          "model2ndTally": {},
           "modelKey": {
             "value": "Model§Scourge (Shard)"
           },
@@ -12977,7 +13179,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 75
+            "value": 85
           },
           "Scourge": {
             "max": 4,
@@ -12986,6 +13188,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -13075,7 +13283,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 80
+            "value": 85
           },
           "Talos": {
             "max": 2,
@@ -13084,6 +13292,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },

@@ -1,6 +1,6 @@
 {
   "name": "Aeldari 11e",
-  "revision": "11.0.0",
+  "revision": "11.0.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -9,7 +9,7 @@
   "wip": false,
   "dependencies": [
     {
-      "slug": "S3SWPV",
+      "slug": "",
       "name": "Harlequins 11e",
       "game": "Warhammer 40k",
       "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k11e/main/Harlequins.rulebook"
@@ -3435,7 +3435,7 @@
             "value": 5
           },
           "Points": {
-            "value": 280
+            "value": 265
           },
           "Sv": {
             "value": 2
@@ -3508,7 +3508,7 @@
             "value": 1
           },
           "Points": {
-            "value": 115
+            "value": 125
           },
           "Sv": {
             "value": 2
@@ -3641,7 +3641,7 @@
             "value": 1
           },
           "Points": {
-            "value": 120
+            "value": 130
           },
           "Sv": {
             "value": 6
@@ -3861,7 +3861,7 @@
             "value": 2
           },
           "Points": {
-            "value": 80
+            "value": 70
           },
           "Sv": {
             "value": 6
@@ -3931,7 +3931,7 @@
             "value": 1
           },
           "Points": {
-            "value": 120
+            "value": 130
           },
           "Sv": {
             "value": 2
@@ -4143,7 +4143,7 @@
             "value": 1
           },
           "Points": {
-            "value": 120
+            "value": 105
           },
           "Sv": {
             "value": 2
@@ -4278,7 +4278,7 @@
             "value": 1
           },
           "Points": {
-            "value": 95
+            "value": 85
           },
           "Sv": {
             "value": 6
@@ -4546,7 +4546,7 @@
             "value": 1
           },
           "Points": {
-            "value": 65
+            "value": 55
           },
           "Sv": {
             "value": 6
@@ -4726,7 +4726,7 @@
             "value": 3
           },
           "Points": {
-            "value": 260
+            "value": 245
           },
           "Sv": {
             "value": 2
@@ -5108,6 +5108,9 @@
         "keywords": {
           "Keywords": [
             "Armoured Warhost"
+          ],
+          "Role": [
+            "Reconnaissance"
           ]
         },
         "rules": {
@@ -5203,12 +5206,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
         "text": "**SKILLED CREWS**\n\nRanged weapons equipped by **Aeldari\nVehicle** models from your army have\nthe [ASSAULT] ability and you can re‑roll\nAdvance rolls made for **Aeldari Vehicle Fly** units from your army."
       },
       "Detachment§Aspect Host": {
         "keywords": {
           "Keywords": [
             "Aspect Host"
+          ],
+          "Role": [
+            "Disruption"
           ]
         },
         "rules": {
@@ -5304,9 +5315,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "**PATH OF THE WARRIOR**\n\nEach time an ASPECT WARRIORS or AVATAR OF KHAINE unit from your army is selected to shoot or fight, select one of the following abilities for it to gain until the end of the phase:\n- Each time a model in this unit makes an attack, re-roll a Hit roll of 1.\n- Each time a model in this unit makes an attack, re-roll a Wound roll of 1."
       },
       "Detachment§Corsair Coterie": {
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -5400,12 +5421,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## RELENTLESS RAIDERS\n\nWhile an objective marker is under your control, each time an enemy unit ends a Normal, Advance, Fall Back or Charge move within range of that objective marker, roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds. Anhrathe units from your army have the following ability:\n\n\n**Void Thieves**: At the end of a phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.\n\n## VETERANS OF THE VOID\n\nEach time you add an Anhrathe unit to your army, it can be given up to one Corsair Enhancement (see right). Each Corsair Enhancement included in your army must be unique. If a unit is given a Corsair Enhancement, you must increase the points cost of that unit by the amount shown (see Munitorum Field Manual). If this causes your army to exceed the points limit for the battle you are playing, you cannot include that unit in your army."
       },
       "Detachment§Devoted of Ynnead": {
         "keywords": {
           "Keywords": [
             "Devoted of Ynnead"
+          ],
+          "Role": [
+            "Priority Assets"
           ]
         },
         "rules": {
@@ -5596,9 +5625,19 @@
             "failState": "error"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "**STRENGTH FROM DEATH**\n\nYou can use the following rules:\n\n**Lethal Intent**\n\n\nAt the end of your opponent’s Shooting phase, if one or more Ynnari units from your army were destroyed this phase, select one Ynnari Infantry or Ynnari Mounted unit from your army that was within 6\" of your destroyed unit. That unit can make a Normal move of up to D6+1\"\n\n**Lethal Surge**\n\n\nOnce per turn, when a YNNARI unit from your army performs the Fade Back Agile Manoeuvre (pg 101), it can make a Lethal Surge move instead of a Normal move. If it does, roll one D6 and add 1 to the result: that unit can be moved a number of inches up to the total. When doing so, those models can be moved within Engagement Range of the enemy unit that just triggered that Agile Manoeuvre.\n\n**Lethal Reprisal**\n\n\nAt the start of the Fight phase, select one YNNARI unit from your army (excluding TITANIC units) that is below its Starting Strength. Until the end of the phase, that unit has the Fights First ability.\n\n**SERVANTS OF THE WHISPERING GOD**\n\n- You can include YNNARI units in your army (pg 164-171), even though they do not have the ASURYANI Faction keyword.\n- ASURYANI units (excluding EPIC HEROES) from your army gain the YNNARI keyword.\n- You must include YVRAINE and/or THE YNCARNE in your army, and one of those models must be your WARLORD."
       },
       "Detachment§Eldritch Raiders": {
+        "keywords": {
+          "Role": [
+            "Disruption"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -5692,12 +5731,33 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## YRIEL’S OWN\n\nAeldari units in your army are eligible to declare a charge in a turn in which they Advanced. In addition, each time an Anhrathe, Rangers or Shroud Runners unit from your army Advances, you can re‑roll the Advance roll.\n\n## VETERANS OF THE VOID\n\nEach time you add an Anhrathe unit to your army, it can be given up to one Corsair Enhancement (see right). Each Corsair Enhancement included in your army must be unique. If a unit is given a Corsair Enhancement, you must increase the points cost of that unit by the amount shown (see Munitorum Field Manual). If this causes your army to exceed the points limit for the battle you are playing, you cannot include that unit in your army."
+      },
+      "Detachment§Fateful Performance": {
+        "keywords": {
+          "Role": [
+            "Disruption"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
       },
       "Detachment§Ghosts of the Webway": {
         "keywords": {
           "Keywords": [
             "Ghosts of the Webway"
+          ],
+          "Role": [
+            "Disruption"
           ]
         },
         "rules": {
@@ -5866,12 +5926,20 @@
             "order": 3
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "**ACROBATIC ONSLAUGHT**\n\nEach time a HARLEQUINS model from your army makes a Charge move, it can move through enemy models.\n\n**TRAVELLING PLAYERS**\n\n- TROUPE units from your army gain the BATTLELINE keyword and TROUPE models in those units have an Objective Control characteristic of 2.\n- You can include up to three of each of the following models in your army: DEATH JESTER, SHADOWSEER, TROUPE MASTER."
       },
       "Detachment§Guardian Battlehost": {
         "keywords": {
           "Keywords": [
             "Guardian Battlehost"
+          ],
+          "Role": [
+            "Take And Hold"
           ]
         },
         "rules": {
@@ -5967,12 +6035,33 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "**DEFEND AT ALL COSTS**\n\nEach time a DIRE AVENGER, GUARDIAN, SUPPORT WEAPON or WAR WALKER model from your army makes an attack, if that model's unit and/or the target unit are within range of one or more objective markers, add 1 to the Hit roll."
+      },
+      "Detachment§Path Of The Outcast": {
+        "keywords": {
+          "Role": [
+            "Reconnaissance"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
       },
       "Detachment§Seer Council": {
         "keywords": {
           "Keywords": [
             "Seer Council"
+          ],
+          "Role": [
+            "Priority Assets"
           ]
         },
         "rules": {
@@ -6066,6 +6155,11 @@
             "evals": [],
             "evaluate": "AND",
             "failState": "pass"
+          }
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
           }
         },
         "text": "**STRANDS OF FATE**\n\nAt the start of the first battle round, you generate Fate dice by rolling a number of D6 based on the battle size, as shown below. Keep your Fate dice to one side – this is your Fate dice pool.\n- Incursion – 3D6\n- Strike Force – 6D6\n- Onslaught – 9D6\n\nEach time you use one of the Stratagems opposite, if your Fate dice pool contains one or more Fate dice showing the corresponding value in the table below, you can discard one of those corresponding Fate dice. If you do, reduce the CP cost of that usage of that Stratagem by 1CP.\n- Presentiment of Dread – 1\n- Forewarned – 2\n- Unshrouded Truth – 3\n- Fate Inescapable – 4\n- Isha's Fury – 5\n- Psychic Shield – 6"
@@ -6244,10 +6338,26 @@
         },
         "text": "## BOONS OF THE BROOD\n\nWeapons equipped by Harlequins Mounted and Harlequins Vehicle models from your army have the [SUSTAINED HITS 1] ability.\n\nEach time a Harlequins unit from your army disembarks from a Transport, until the end of the turn, that unit’s weapons have the [SUSTAINED HITS 1] ability.\n\n**TRAVELLING PLAYERS**\n\n■ Troupe units from your army gain the Battleline keyword, and Troupe models in those units have an Objective Control characteristic of 2.\n\n■ You can include up to three of each of the following models in your army: Death Jester, Shadowseer, Troupe Master"
       },
+      "Detachment§Serpent’s Brood": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
       "Detachment§Spirit Conclave": {
         "keywords": {
           "Keywords": [
             "Spirit Conclave"
+          ],
+          "Role": [
+            "Take And Hold"
           ]
         },
         "rules": {
@@ -6369,12 +6479,33 @@
             "order": 3
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "**SHEPHERDS OF THE DEAD**\n\nEach time an ASURYANI PSYKER model from your army is destroyed by an enemy unit, that enemy unit gains a Vengeful Dead token. Each time a WRAITH CONSTRUCT model from your army makes an attack that targets a unit with one or more Vengeful Dead tokens, add 1 to the Hit roll and add 1 to the Wound roll.\n\nASURYANI PSYKER models from your army have the following ability:\nSpirit Guides (Aura): While a WRAITHBLADES, WRAITHGUARD or WRAITHLORD unit from your army is within 12\" of this model, that unit has the Battle Focus ability.\n\n**KEYWORDS**\n\nWRAITHBLADES and WRAITHGUARD units from your army gain the BATTLELINE keyword."
+      },
+      "Detachment§Twilight Flickers": {
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
       },
       "Detachment§Warhost": {
         "keywords": {
           "Keywords": [
             "Warhost"
+          ],
+          "Role": [
+            "Purge The Foe"
           ]
         },
         "rules": {
@@ -6470,12 +6601,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "**MARTIAL GRACE**\n\n- At the start of the battle round, you receive 1 additional Battle Focus token.\n- Each time a unit from your army performs the Swift as the Wind Agile Manoeuvre (pg 101), until the end of the phase, add an additional 1\" to the Move characteristic of models in that unit.\n- Each time a unit from your army performs an Agile Manoeuvre that involves rolling a D6, add 1 to the result."
       },
       "Detachment§Windrider Host": {
         "keywords": {
           "Keywords": [
             "Windrider Host"
+          ],
+          "Role": [
+            "Disruption"
           ]
         },
         "rules": {
@@ -6594,7 +6733,64 @@
             "order": 3
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "**RIDE THE WIND**\n\nIn the Declare Battle Formations step you can set up ASURYANI MOUNTED and VYPER units from your army in Reserves. During the battle, such units can be set up on the battlefield as if they were arriving from Strategic Reserves. For the purposes of setting up ASURYANI MOUNTED or VYPER units from your army on the battlefield, treat the current battle round number as being one higher than it actually is.\n\nIn addition, at the end of your opponent's turn, you can select a number of ASURYANI MOUNTED or VYPER units from your army (excluding units within Engagement Range of one or more enemy units), then remove those units from the battlefield and place them into Strategic Reserves. The maximum number of units you can select depends on the battle size, as shown below.\n- Incursion – 1 unit\n- Strike Force – 2 units\n- Onslaught – 3 units\n\n**KEYWORDS**\n\nWINDRIDERS units from your army gain the BATTLELINE keyword."
+      },
+      "Enhancement§A Foot in the Future": {
+        "keywords": {
+          "Keywords": [
+            "Fateful Performance"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Adrenal Infusions": {
+        "keywords": {
+          "Keywords": [
+            "Eldritch Raiders"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Alacritous Assault": {
+        "keywords": {
+          "Keywords": [
+            "Eldritch Raiders"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Archraider": {
+        "keywords": {
+          "Keywords": [
+            "Corsair Coterie"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 35
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Aspect of Murder": {
         "keywords": {
@@ -6677,15 +6873,28 @@
         },
         "stats": {
           "Points": {
-            "value": 25
+            "value": 15
           }
         },
         "text": "AUTARCH or AUTARCH WAYLEAPER model only. Add 1 to the Damage characteristic of melee weapons equipped by the bearer, and those weapons have the [PRECISION] ability."
       },
+      "Enhancement§Assassins' Eye (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Path Of The Outcast"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Borrowed Vigour": {
         "keywords": {
           "Keywords": [
-            "Devoted of Ynnead"
+            "Devoted Of Ynnead"
           ]
         },
         "rules": {
@@ -6775,6 +6984,19 @@
         },
         "text": "ASURYANI model only. While the bearer is leading a STORM GUARDIANS unit, each time you roll to determine the number of attacks made with a flamer equipped by a model in that unit, you can re-roll the result, and each time you make a Damage roll for a model equipped with with a\nfusion gun in that unit, you can re-roll the result."
       },
+      "Enhancement§Camouflaged Snipers (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Path Of The Outcast"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Cegorach's Coil": {
         "keywords": {
           "Keywords": [
@@ -6810,12 +7032,20 @@
         },
         "text": "TROUPE MASTER model only. Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer's unit, then roll one D6 for each model in the bearer's unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
       },
-      "Enhancement§Craftworld's Champion": {
+      "Enhancement§Cegorach’s Coil": {
         "keywords": {
           "Keywords": [
-            "Guardian Battlehost"
+            "Ghosts Of The Webway"
           ]
         },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Craftworld's Champion": {
         "rules": {
           "applyEffects": {
             "actions": [
@@ -6864,6 +7094,19 @@
           }
         },
         "text": "ASURYANI model only. The bearer has an Objective Control characteristic of 5."
+      },
+      "Enhancement§Craftworld’s Champion": {
+        "keywords": {
+          "Keywords": [
+            "Guardian Battlehost"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Echoes of Ulthanesh": {
         "keywords": {
@@ -6949,10 +7192,23 @@
         },
         "text": "ASURYANI model only. In the Deploy Armies step, select up to two GUARDIANS units from your army. Models in the selected units have the Infiltrators ability."
       },
+      "Enhancement§Exotic Munitions": {
+        "keywords": {
+          "Keywords": [
+            "Eldritch Raiders"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Fanged Leer": {
         "keywords": {
           "Keywords": [
-            "Serpent's Brood"
+            "Serpent’S Brood"
           ]
         },
         "rules": {
@@ -7062,7 +7318,7 @@
       "Enhancement§Gaze of Ynnead": {
         "keywords": {
           "Keywords": [
-            "Devoted of Ynnead"
+            "Devoted Of Ynnead"
           ]
         },
         "rules": {
@@ -7200,11 +7456,6 @@
         "text": "**Aeldari Psyker** model only. At the start of your\nShooting phase, select one friendly **Aeldari Vehicle**\nmodel within 9\" of the bearer. Until the end of the\nphase, each time that model makes an attack, add 1 to\nthe Hit roll."
       },
       "Enhancement§Guileful Strategist": {
-        "keywords": {
-          "Keywords": [
-            "Armoured Warhost"
-          ]
-        },
         "stats": {
           "Points": {
             "value": 15
@@ -7213,11 +7464,6 @@
         "text": "**Aeldari** model only. If your army includes the bearer,\nafter both players have deployed their armies, select\nup to three **Aeldari Vehicle** units from your army and\nredeploy them. When doing so, any of those units can\nbe placed into Strategic Reserves, regardless of how\nmany units are already in Strategic Reserves."
       },
       "Enhancement§Harmonisation Matrix": {
-        "keywords": {
-          "Keywords": [
-            "Armoured Warhost"
-          ]
-        },
         "stats": {
           "Points": {
             "value": 30
@@ -7260,10 +7506,23 @@
         },
         "text": "SPIRITSEER model only. Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of the bearer, the bearer's unit can make a Normal move of up to 6\"."
       },
+      "Enhancement§Infamy": {
+        "keywords": {
+          "Keywords": [
+            "Corsair Coterie"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Key of Ghosts": {
         "keywords": {
           "Keywords": [
-            "Serpent's Brood"
+            "Serpent’S Brood"
           ]
         },
         "rules": {
@@ -7468,7 +7727,7 @@
         },
         "stats": {
           "Points": {
-            "value": 30
+            "value": 20
           }
         },
         "text": "AUTARCH or AUTARCH WAYLEAPER model only. While the bearer is leading an ASPECT WARRIORS unit, each time that unit is selected to shoot or fight, until the end of the phase, models in that unit gain both of the abilities from the Path of the Warrior Detachment rule."
@@ -7476,7 +7735,7 @@
       "Enhancement§Mask of Secrets": {
         "keywords": {
           "Keywords": [
-            "Ghosts of the Webway"
+            "Ghosts Of The Webway"
           ]
         },
         "rules": {
@@ -7560,7 +7819,7 @@
       "Enhancement§Mistweave": {
         "keywords": {
           "Keywords": [
-            "Ghosts of the Webway"
+            "Ghosts Of The Webway"
           ]
         },
         "rules": {
@@ -7640,7 +7899,7 @@
       "Enhancement§Morbid Might": {
         "keywords": {
           "Keywords": [
-            "Devoted of Ynnead"
+            "Devoted Of Ynnead"
           ]
         },
         "rules": {
@@ -7707,6 +7966,19 @@
         },
         "text": "DEATH JESTER model only. Each time the bearer makes an attack that targets a unit that is Below Half-strength, each successful Hit roll scores a Critical Hit."
       },
+      "Enhancement§Murder’s Jest": {
+        "keywords": {
+          "Keywords": [
+            "Ghosts Of The Webway"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Phoenix Gem": {
         "keywords": {
           "Keywords": [
@@ -7741,6 +8013,32 @@
           }
         },
         "text": "ASURYANI model only. The first time the bearer is destroyed, remove it from play, then, at the end of the phase, roll one D6: on a 2+, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with its full wounds remaining."
+      },
+      "Enhancement§Pirate Prince": {
+        "keywords": {
+          "Keywords": [
+            "Eldritch Raiders"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Prelude Performer": {
+        "keywords": {
+          "Keywords": [
+            "Twilight Flickers"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Protector of the Paths": {
         "keywords": {
@@ -7973,10 +8271,23 @@
         },
         "text": "ASURYANI MOUNTED PSYKER model only. Psychic weapons equipped by the bearer have the [ANTI-MONSTER 2+] and [ANTI-VEHICLE 2+] abilities."
       },
+      "Enhancement§Shadowfall Masks (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Twilight Flickers"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Shedskin Raiment": {
         "keywords": {
           "Keywords": [
-            "Serpent's Brood"
+            "Serpent’S Brood"
           ]
         },
         "rules": {
@@ -8052,7 +8363,7 @@
         },
         "stats": {
           "Points": {
-            "value": 15
+            "value": 10
           }
         },
         "text": "AUTARCH or AUTARCH WAYLEAPER model only. While the bearer is leading an ASPECT WARRIORS unit, each time a ranged attack targets that unit, subtract 1 from the Wound roll."
@@ -8182,7 +8493,7 @@
       "Enhancement§Storm of Whispers": {
         "keywords": {
           "Keywords": [
-            "Devoted of Ynnead"
+            "Devoted Of Ynnead"
           ]
         },
         "rules": {
@@ -8258,7 +8569,7 @@
         },
         "stats": {
           "Points": {
-            "value": 15
+            "value": 10
           }
         },
         "text": "AUTARCH or AUTARCH WAYLEAPER model only. While the bearer is leading an ASPECT WARRIORS unit, add 1 to the Objective Control characteristic of models in that unit."
@@ -8347,10 +8658,23 @@
         },
         "text": "ASURYANI PSYKER model only. Once per turn, when your opponent targets a unit from their army within 12\" of the bearer with a Stratagem, the bearer can use this Enhancement. If it does, increase the CP cost of that usage of that Stratagem by 1CP."
       },
+      "Enhancement§Voidstone": {
+        "keywords": {
+          "Keywords": [
+            "Corsair Coterie"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Weavers' Wail": {
         "keywords": {
           "Keywords": [
-            "Serpent's Brood"
+            "Serpent’S Brood"
           ]
         },
         "rules": {
@@ -8445,6 +8769,19 @@
           }
         },
         "text": "**TROUPE MASTER** model only. Add 3 to the Strength and add 1 to the Attacks characteristics of the bearer's melee weapons."
+      },
+      "Enhancement§Webway Pathstone": {
+        "keywords": {
+          "Keywords": [
+            "Corsair Coterie"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Melee Weapon§Amallyn Shadowguide—Power blade": {
         "aspects": {
@@ -29135,7 +29472,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 140
+            "value": 150
           },
           "model2ndTally": {
             "value": 4
@@ -29165,7 +29502,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 105
+            "value": 125
           }
         }
       },
@@ -29637,7 +29974,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 150
+            "value": 160
           },
           "model2ndTally": {
             "value": 10
@@ -29655,7 +29992,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 75
+            "value": 90
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -30257,6 +30600,12 @@
           "T": {
             "value": 6
           },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 2
+          },
           "W": {
             "value": 5
           }
@@ -30342,7 +30691,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 195
+            "value": 210
           },
           "model2ndTally": {
             "value": 10
@@ -30360,7 +30709,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 90
+            "value": 100
           }
         }
       },
@@ -30719,7 +31068,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 240
+            "value": 250
           },
           "model2ndTally": {
             "value": 10
@@ -30737,7 +31086,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 120
+            "value": 130
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -31160,7 +31515,7 @@
             "value": 11
           },
           "Points": {
-            "value": 100
+            "value": 90
           },
           "Support Weapons": {
             "statType": "numeric",
@@ -31494,7 +31849,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 190
+            "value": 165
           },
           "model2ndTally": {
             "value": 10
@@ -31512,7 +31867,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 95
+            "value": 85
           }
         }
       },
@@ -31698,7 +32053,7 @@
             "value": 3
           },
           "Points": {
-            "value": 180
+            "value": 190
           },
           "Secondary": {
             "dynamic": true,
@@ -31731,6 +32086,12 @@
           },
           "T": {
             "value": 9
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 12
@@ -32197,7 +32558,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 55
+            "value": 60
           },
           "Ranger": {
             "max": 10,
@@ -32524,12 +32885,18 @@
         },
         "stats": {
           "model1stTally": {
-            "value": 5
+            "value": 1
           },
           "model2ndCost": {
-            "value": 230
+            "value": 115
           },
           "model2ndTally": {
+            "value": 5
+          },
+          "model3rdCost": {
+            "value": 230
+          },
+          "model3rdTally": {
             "value": 10
           },
           "modelKey": {
@@ -32545,7 +32912,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 115
+            "value": 30
           },
           "Shadow Spectre": {
             "max": 10,
@@ -32621,7 +32988,7 @@
             "value": 1
           },
           "Points": {
-            "value": 75
+            "value": 60
           },
           "Support Weapons": {
             "statType": "numeric",
@@ -32742,7 +33109,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 220
+            "value": 210
           },
           "model2ndTally": {
             "value": 6
@@ -32760,7 +33127,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 110
+            "value": 105
           },
           "Shining Spear": {
             "max": 5,
@@ -32830,7 +33197,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 160
+            "value": 175
           },
           "model2ndTally": {
             "value": 6
@@ -32848,7 +33215,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 80
+            "value": 95
           },
           "Shroud Runner": {
             "max": 6,
@@ -33122,7 +33489,7 @@
             "value": 1
           },
           "model2ndCost": {
-            "value": 150
+            "value": 140
           },
           "model2ndTally": {
             "value": 2
@@ -33139,7 +33506,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 75
+            "value": 70
           },
           "Starfang": {
             "max": 2,
@@ -33466,7 +33833,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 150
+            "value": 145
           },
           "model2ndTally": {
             "value": 10
@@ -33484,7 +33851,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 85
+            "value": 75
           },
           "Striking Scorpion": {
             "max": 9,
@@ -33572,7 +33939,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 170
+            "value": 205
           },
           "model2ndTally": {
             "value": 10
@@ -33590,7 +33957,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 95
+            "value": 115
           },
           "Swooping Hawk": {
             "max": 9,
@@ -33599,6 +33966,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -33839,6 +34212,14 @@
           }
         }
       },
+      "Unit§Vyper": {
+        "stats": {
+          "Points": {
+            "value": 75
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
+      },
       "Unit§Vypers": {
         "allowed": {
           "items": [
@@ -33996,7 +34377,9 @@
           "items": [
             "Model§Warlock",
             "Character§Eldrad Ulthran",
-            "Character§Farseer"
+            "Character§Farseer",
+            "Unit§Guardian Defenders",
+            "Unit§Storm Guardians"
           ]
         },
         "assets": {
@@ -34134,7 +34517,7 @@
             "value": 2
           },
           "model2ndCost": {
-            "value": 130
+            "value": 120
           },
           "model2ndTally": {
             "value": 4
@@ -34168,7 +34551,8 @@
         "allowed": {
           "items": [
             "Model§Warlock Skyrunner",
-            "Character§Farseer Skyrunner"
+            "Character§Farseer Skyrunner",
+            "Unit§Windriders"
           ]
         },
         "assets": {
@@ -34497,7 +34881,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 190
+            "value": 215
           },
           "model2ndTally": {
             "value": 10
@@ -34515,7 +34899,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 105
+            "value": 130
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "Warp Spider": {
             "max": 9,
@@ -34965,8 +35355,6 @@
           "model2ndTally": {
             "value": 6
           },
-          "model3rdCost": {},
-          "model3rdTally": {},
           "modelKey": {
             "value": "Model§Windrider"
           },
@@ -35147,7 +35535,7 @@
             "visibility": "hidden"
           },
           "Points": {
-            "value": 150
+            "value": 140
           },
           "Wraithblade": {
             "max": 5,
@@ -35300,7 +35688,7 @@
             "visibility": "hidden"
           },
           "Points": {
-            "value": 160
+            "value": 145
           },
           "Wraithguard": {
             "max": 10,
@@ -35507,6 +35895,12 @@
           "T": {
             "value": 12
           },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
+          },
           "W": {
             "value": 18
           }
@@ -35597,7 +35991,7 @@
             "value": 10
           },
           "Points": {
-            "value": 420
+            "value": 425
           },
           "Shoulder 1": {
             "dynamic": true,
@@ -35679,6 +36073,12 @@
           },
           "T": {
             "value": 12
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 18
@@ -35811,7 +36211,7 @@
             "value": 3
           },
           "Points": {
-            "value": 130
+            "value": 125
           },
           "Shoulder 1": {
             "dynamic": true,
@@ -36158,7 +36558,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 85
+            "value": 90
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },

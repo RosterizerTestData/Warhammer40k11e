@@ -1,6 +1,6 @@
 {
   "name": "Blood Angels 11e",
-  "revision": "11.0.0",
+  "revision": "11.0.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -9,7 +9,7 @@
   "wip": false,
   "dependencies": [
     {
-      "slug": "HTRPJK",
+      "slug": "",
       "name": "Space Marines 11e",
       "game": "Warhammer 40k",
       "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k11e/main/Space_Marines.rulebook"
@@ -821,7 +821,7 @@
             "value": 1
           },
           "Points": {
-            "value": 120
+            "value": 110
           },
           "Sv": {
             "value": 2
@@ -895,7 +895,7 @@
             "value": 1
           },
           "Points": {
-            "value": 120
+            "value": 125
           },
           "Sv": {
             "value": 2
@@ -1522,13 +1522,19 @@
             "value": 1
           },
           "Points": {
-            "value": 75
+            "value": 85
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 4
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 4
@@ -2008,7 +2014,10 @@
       },
       "Detachment§Angelic Inheritors": {
         "keywords": {
-          "Keywords": []
+          "Keywords": [],
+          "Role": [
+            "Priority Assets"
+          ]
         },
         "rules": {
           "assignStratagems": {
@@ -2103,9 +2112,45 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "LEGACY OF THE ANGEL\n\nAt the start of the first battle round, select\ntwo of the Angelic Legacy abilities listed\nbelow. Until the end of the battle, those\nAngelic Legacy abilities are active and\ntheir effects apply to all **Adeptus Astartes\nCharacter** units from your army.\n\n**Sanguinary Grace:** This unit is eligible\nto shoot and declare a charge in a turn in\nwhich it Fell Back.\n\n**Carmine Wrath:** Each time a model in\nthis unit makes an attack, re‑roll a Hit roll\nof 1 and re‑roll a Wound roll of 1.\n\n**Their Appointed Hour:** You can re‑roll\nAdvance and Charge rolls made for\nthis unit.\n\nRESTRICTIONS\n\nYour army can include **Blood Angels**\nunits, but it *cannot* include **Adeptus\nAstartes** units drawn from *any\nother Chapter.*"
       },
+      "Detachment§Encarmine Speartip": {
+        "keywords": {
+          "Role": [
+            "Disruption"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
+      "Detachment§Legacy Of Grace": {
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
       "Detachment§Liberator Assault Group": {
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -2199,9 +2244,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "**Red Thirst**\n\nEach time an ADEPTUS ASTARTES unit from your army is selected to fight, if that unit made a Charge move this turn, until the end of the phase, add 1 to the Attacks characteristic and add 2 to the Strength characteristic of melee weapons equipped by models in that unit.\n\n**RESTRICTIONS**\n\nYour army can include Blood Angels units, but it cannot include any Adeptus Astartes units drawn from any other Chapter."
       },
       "Detachment§Rage-cursed Onslaught": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -2295,9 +2350,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "## MADDENED FEROCITY\n\nEach time an Adeptus Astartes model from your army makes a melee attack, re‑roll a Wound roll of 1.\n\nEach time an Adeptus Astartes unit from your army is selected to fight, if that unit made a Charge move this turn, until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit. If your unit is Battle‑shocked, add 2 to the Attacks characteristic of melee weapons equipped by models in that unit instead.\n\n## RESTRICTIONS\n\nYour army can include Blood Angels units, but it cannot include Adeptus Astartes units drawn from any other Chapter."
       },
       "Detachment§The Angelic Host": {
+        "keywords": {
+          "Role": [
+            "Disruption"
+          ]
+        },
         "rules": {
           "assignstratagems": {
             "actions": [
@@ -2391,9 +2456,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "**Upon Wings of Fire**\n\nAt the end of your opponent s turn, you can select a number of ADEPTUS ASTARTES JUMP PACK units from your army (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:\n\n|||\n|---|---|\n|BATTLE SIZE| UNITS|\n|INCURSION|Up to 1 units|\n|STRIKE FORCE|Up to 2 units|\n|ONSLAUGHT|Up to 3 units|\n\n\nOnce you have made your selections, remove those units from the battlefield and place them into Strategic Reserves. In the Reinforcements step of your next Movement phase, set each of those units up using their Deep Strike ability.\n\n**RESTRICTIONS**\n\nYour army can include Blood Angels units, but it cannot include any Adeptus Astartes units drawn from any other Chapter."
       },
       "Detachment§The Lost Brethren": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -2487,7 +2562,25 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "**A Noble Death in Combat**\n\nEach time a DEATH COMPANY model from your army makes a melee attack, re-roll a Wound roll of 1 if that model’s unit is below its Starting Strength; if that model’s unit is Below Half-strength, you can re-roll the Wound roll instead.\n\n**KEYWORDS**\n\n\nIf you select this Detachment, DEATH COMPANY MARINES and DEATH COMPANY MARINES WITH BOLT RIFLES units from your army have the BATTLELINE keyword.\n\n**RESTRICTIONS**\n\nYour army can include Blood Angels units, but it cannot include any Adeptus Astartes units drawn from any other Chapter."
+      },
+      "Detachment§Wrath Of The Doomed": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
       },
       "Enhancement§Angel's Fang": {
         "keywords": {
@@ -2523,6 +2616,32 @@
           }
         },
         "text": "**ADEPTUS ASTARTES** model only. Each time the bearer makes a melee attack that targets a **CHARACTER**, **MONSTER** or **VEHICLE** unit, that attack has the **[SUSTAINED HITS 2]** ability."
+      },
+      "Enhancement§Angel’s Fang": {
+        "keywords": {
+          "Keywords": [
+            "Rage-Cursed Onslaught"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Angelic Executioner": {
+        "keywords": {
+          "Keywords": [
+            "Encarmine Speartip"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Archangel’s Shard": {
         "keywords": {
@@ -2708,6 +2827,19 @@
         },
         "text": "ADEPTUS ASTARTES JUMP PACK model only. Improve the Armour Penetration characteristic of the bearers weapons by 1, and the bearer has a Save characteristic of 2+."
       },
+      "Enhancement§Aureole of the Angel": {
+        "keywords": {
+          "Keywords": [
+            "Legacy Of Grace"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Blazing Icon": {
         "keywords": {
           "Keywords": [
@@ -2742,6 +2874,19 @@
           }
         },
         "text": "**Adeptus Astartes Infantry** model only. Enemy units\ncannot use the Fire Overwatch Stratagem to shoot at\nthe bearer’s unit."
+      },
+      "Enhancement§Blood Boil": {
+        "keywords": {
+          "Keywords": [
+            "Legacy Of Grace"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Blood Shard": {
         "keywords": {
@@ -2781,7 +2926,7 @@
       "Enhancement§Carmine Reliquary": {
         "keywords": {
           "Keywords": [
-            "Rage-cursed Onslaught"
+            "Rage-Cursed Onslaught"
           ]
         },
         "rules": {
@@ -2889,10 +3034,23 @@
         },
         "text": "ADEPTUS ASTARTES model only. Each time an enemy unit (excluding MONSTERS and VEHICLES) within Engagement Range of the bearer’s unit is selected to Fall Back, models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests."
       },
+      "Enhancement§Instinctive Interception": {
+        "keywords": {
+          "Keywords": [
+            "Wrath Of The Doomed"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Master of the Red Thirst": {
         "keywords": {
           "Keywords": [
-            "Rage-cursed Onslaught"
+            "Rage-Cursed Onslaught"
           ]
         },
         "rules": {
@@ -2923,6 +3081,19 @@
           }
         },
         "text": "**ADEPTUS ASTARTES** model only. Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, models in the bearer's unit have the Fights First ability."
+      },
+      "Enhancement§On the Archtraitor's Bridge": {
+        "keywords": {
+          "Keywords": [
+            "Wrath Of The Doomed"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Ordained Sacrifice": {
         "keywords": {
@@ -2981,7 +3152,7 @@
         },
         "text": "**Adeptus Astartes** model only. Models in the bearer’s\nunit have the Scouts 6\" ability."
       },
-      "Enhancement§Rage-Fuelled Warrior": {
+      "Enhancement§Rage-fuelled Warrior": {
         "keywords": {
           "Keywords": [
             "Liberator Assault Group"
@@ -2997,10 +3168,10 @@
         },
         "text": "ADEPTUS ASTARTES model only. Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, the bearers melee weapons have the [sustained hits 3] ability."
       },
-      "Enhancement§Sanguinary Tear (Aura)": {
+      "Enhancement§Sanguinary Tear": {
         "keywords": {
           "Keywords": [
-            "Rage-cursed Onslaught"
+            "Rage-Cursed Onslaught"
           ]
         },
         "rules": {
@@ -3067,6 +3238,19 @@
         },
         "text": "DEATH COMPANY model only. Once per battle, at the end of the Fight phase, if the bearer is within Engagement Range of three or more enemy models, the bearer can fight one additional time."
       },
+      "Enhancement§Shadow of Abomination": {
+        "keywords": {
+          "Keywords": [
+            "Encarmine Speartip"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Speed of the Primarch": {
         "keywords": {
           "Keywords": [
@@ -3083,7 +3267,7 @@
         },
         "text": "ADEPTUS ASTARTES model only. Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, models in the bearer’s unit have the Fights First ability."
       },
-      "Enhancement§To Slay the Warmaster": {
+      "Enhancement§To Slay The Warmaster": {
         "keywords": {
           "Keywords": [
             "The Lost Brethren"
@@ -3378,7 +3562,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 160
+            "value": 170
           },
           "model2ndTally": {
             "value": 10
@@ -3396,7 +3580,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 85
+            "value": 95
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -3605,7 +3795,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 160
+            "value": 165
           },
           "model2ndTally": {
             "value": 10
@@ -3623,7 +3813,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 85
+            "value": 90
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -3965,7 +4161,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 230
+            "value": 245
           },
           "model2ndTally": {
             "value": 10
@@ -3983,7 +4179,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 120
+            "value": 135
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -4090,7 +4292,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 260
+            "value": 280
           },
           "model2ndTally": {
             "value": 6
@@ -4108,7 +4310,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 125
+            "value": 145
           },
           "Sanguinary Guard": {
             "max": 6,
@@ -4117,6 +4319,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -10629,14 +10837,6 @@
           },
           "Detachment": {
             "ranks": {
-              "Rage-cursed Onslaught": {
-                "order": 19,
-                "traits": [
-                  {
-                    "trait": "Detachment§Rage-cursed Onslaught"
-                  }
-                ]
-              },
               "Liberator Assault Group": {
                 "order": 15,
                 "traits": [
@@ -10666,6 +10866,14 @@
                 "traits": [
                   {
                     "trait": "Detachment§Angelic Inheritors"
+                  }
+                ]
+              },
+              "Rage-cursed Onslaught": {
+                "order": 19,
+                "traits": [
+                  {
+                    "trait": "Detachment§Rage-cursed Onslaught"
                   }
                 ]
               }
@@ -11274,7 +11482,7 @@
             "value": 3
           },
           "Points": {
-            "value": 125
+            "value": 135
           },
           "Ranged Options": {
             "dynamic": true,
@@ -11339,6 +11547,12 @@
           },
           "T": {
             "value": 10
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 11
@@ -11469,6 +11683,12 @@
           },
           "T": {
             "value": 10
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 12

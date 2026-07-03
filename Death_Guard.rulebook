@@ -1,6 +1,6 @@
 {
   "name": "Death Guard 11e",
-  "revision": "11.0.0",
+  "revision": "11.0.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -9,7 +9,7 @@
   "wip": false,
   "dependencies": [
     {
-      "slug": "G3CGS6",
+      "slug": "32FGBD",
       "name": "Chaos 11e",
       "game": "Warhammer 40k",
       "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k11e/main/Chaos.rulebook"
@@ -1726,7 +1726,7 @@
             "value": 1
           },
           "Points": {
-            "value": 75
+            "value": 65
           },
           "Sv": {
             "value": 3
@@ -1772,6 +1772,17 @@
               "Ability§Daemon Lord of Nurgle (aura)",
               "Ability§Greater Daemon of Nurgle (Aura)"
             ]
+          }
+        },
+        "stats": {
+          "Points": {
+            "value": 280
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -1985,7 +1996,7 @@
             "value": 1
           },
           "Points": {
-            "value": 75
+            "value": 65
           },
           "Sv": {
             "value": 3
@@ -2205,7 +2216,7 @@
             "value": 6
           },
           "Points": {
-            "value": 380
+            "value": 400
           },
           "Sv": {
             "value": 2
@@ -2322,7 +2333,7 @@
             "value": 1
           },
           "Points": {
-            "value": 50
+            "value": 60
           },
           "Sv": {
             "value": 3
@@ -2460,6 +2471,11 @@
               "10th Edition Codex"
             ]
           }
+        },
+        "stats": {
+          "Points": {
+            "value": 280
+          }
         }
       },
       "Character§Tallyman": {
@@ -2555,7 +2571,7 @@
             "value": 1
           },
           "Points": {
-            "value": 50
+            "value": 60
           },
           "Sv": {
             "value": 3
@@ -2642,6 +2658,9 @@
         "keywords": {
           "Keywords": [
             "Champions of Contagion"
+          ],
+          "Role": [
+            "Take And Hold"
           ]
         },
         "rules": {
@@ -2737,12 +2756,33 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## Manifold Maladies\n\nAt the start of the battle round, you can select one of the Plagues listed in Nurgle's Gift. Until the end of the battle, that is your chosen Plague instead of any previously chosen Plague."
+      },
+      "Detachment§Contagion Engines": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
       },
       "Detachment§Death Lord’s Chosen": {
         "keywords": {
           "Keywords": [
             "Death Lord’s Chosen"
+          ],
+          "Role": [
+            "Priority Assets"
           ]
         },
         "rules": {
@@ -2838,9 +2878,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## DEADLY VECTORS\n\nIn your opponent’s Command phase, roll 2D6 for each Afflicted enemy unit, subtracting 1 from the result if that unit is Below Half-strength. If the result is 6 or less, that enemy unit suffers D3 mortal wounds."
       },
       "Detachment§Flyblown Host": {
+        "keywords": {
+          "Role": [
+            "Reconnaissance"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -2934,12 +2984,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
         "text": "## VERMINOUS HAZE ##\n\n**Death Guard Infantry** (excluding Poxwalkers units) units from your army that are not embarked within a Transport have the Scouts 5\" and Stealth abilities."
       },
       "Detachment§Mortarion’s Hammer": {
         "keywords": {
           "Keywords": [
             "Mortarion’s Hammer"
+          ],
+          "Role": [
+            "Purge The Foe"
           ]
         },
         "rules": {
@@ -3035,12 +3093,33 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## Miasmic Bombardment\n\nAt the start of the battle round, select a number of enemy units more than 12\" away from every model from your army that is on the battlefield. Until the end of the battle round, those enemy units are Afflicted. The maximum number of units you can select in this way depends on the battle size, as shown below:\n\n- Incursion: 1\n- Strike Force: 2\n- Onslaught: 3"
+      },
+      "Detachment§Paragons Of Putrescence": {
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
       },
       "Detachment§Shamblerot Vectorium": {
         "keywords": {
           "Keywords": [
             "Shamblerot Vectorium"
+          ],
+          "Role": [
+            "Disruption"
           ]
         },
         "rules": {
@@ -3159,12 +3238,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "In your Command phase in each of the following battle rounds, depending on your chosen battle size, add a new **Poxwalkers** unit with a Starting Strength of 10 to your army, in Strategic Reserves:\n\n- Incursion: Battle Rounds 2, 3\n- Strike Force: Battle Rounds 2, 3, 4\n- Onslaught: Battle Rounds 2, 3, 4, 5\n\n---\n## KEYWORDS\n**Poxwalkers** units from your army gain the **Battleline** keyword."
       },
       "Detachment§Tallyband Summoners": {
         "keywords": {
           "Keywords": [
             "Tallyband Summoners"
+          ],
+          "Role": [
+            "Disruption"
           ]
         },
         "rules": {
@@ -3260,12 +3347,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "While a **Plague Legions** unit from your army is within 7\" of one or more **Death Guard** units from your army, that **Plague Legions** unit has the Nurgle&apos;s Gift ability.\n\nWhile a **Death Guard** unit from your army is within 7\" of one or more **Plague Legions** units from your army, add 3\" to that **Death Guard** unit&apos;s Contagion Range.\n\nYou can include **Plague Legions** units in your army, even though they do not have the **Death Guard** Faction keyword. The combined points cost of such units you can include in your army is:\n- **Incursion**: Up to 500pts\n- **Strike Force**: Up to 1000pts\n- **Onslaught**: Up to 1500pts\n\nNo **Plague Legions** models from your army can be your **Warlord**."
       },
       "Detachment§Virulent Vectorium": {
         "keywords": {
           "Keywords": [
             "Virulent Vectorium"
+          ],
+          "Role": [
+            "Take And Hold"
           ]
         },
         "rules": {
@@ -3361,6 +3456,11 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "## Worldblight\n\nIf you control an objective marker at the end of your Command phase and a **Death Guard** unit from your army (excluding Battle-shocked units) is within range of that objective marker, that objective marker remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase.\n\n\nIn addition, until you lose control of that objective marker, it has the Nurgle's Gift ability as if it were a **Death Guard** model from your army."
       },
       "Enhancement§Arch Contaminator": {
@@ -3414,7 +3514,7 @@
       "Enhancement§Bilemaw Blight": {
         "keywords": {
           "Keywords": [
-            "Mortarion’s Hammer"
+            "Mortarion’S Hammer"
           ]
         },
         "rules": {
@@ -3449,7 +3549,7 @@
       "Enhancement§Cornucophagus": {
         "keywords": {
           "Keywords": [
-            "Champions of Contagion"
+            "Champions Of Contagion"
           ]
         },
         "rules": {
@@ -3495,11 +3595,6 @@
         "text": "**Death Guard** model only. Each time the bearer makes a melee attack, an unmodified Hit roll of 5+ scores a Critical Hit."
       },
       "Enhancement§Droning Chorus": {
-        "keywords": {
-          "Keywords": [
-            "Flyblown Host"
-          ]
-        },
         "rules": {
           "apply": {
             "actions": [
@@ -3624,7 +3719,7 @@
       "Enhancement§Eye of Affliction": {
         "keywords": {
           "Keywords": [
-            "Mortarion’s Hammer"
+            "Mortarion’S Hammer"
           ]
         },
         "stats": {
@@ -3637,7 +3732,7 @@
       "Enhancement§Face of Death": {
         "keywords": {
           "Keywords": [
-            "Death Lord’s Chosen"
+            "Death Lord’S Chosen"
           ]
         },
         "rules": {
@@ -3735,7 +3830,7 @@
         },
         "stats": {
           "Points": {
-            "value": 20
+            "value": 10
           }
         },
         "text": "**Death Guard** model only. Add 2 to the Attacks characteristic of the bearer&apos;s melee weapons."
@@ -3743,7 +3838,7 @@
       "Enhancement§Final Ingredient": {
         "keywords": {
           "Keywords": [
-            "Champions of Contagion"
+            "Champions Of Contagion"
           ]
         },
         "rules": {
@@ -3857,10 +3952,10 @@
         },
         "text": "**Death Guard** model only. Add 1 to the Strength and Attacks characteristics of the bearer's melee weapons, and the bearer's melee weapons have the [Devastating Wounds] ability."
       },
-      "Enhancement§Helm of the Fly King": {
+      "Enhancement§Helm of The Fly King": {
         "keywords": {
           "Keywords": [
-            "Death Lord’s Chosen"
+            "Death Lord’S Chosen"
           ]
         },
         "rules": {
@@ -3887,17 +3982,25 @@
         },
         "stats": {
           "Points": {
-            "value": 10
+            "value": 20
           }
         },
         "text": "**Terminator** model only. While the bearer is leading a unit, models in that unit cannot be targeted by ranged attacks unless the attacking model is within 18\"."
       },
-      "Enhancement§Insectile Murmuration": {
+      "Enhancement§Host of the Hybridised Pox": {
         "keywords": {
           "Keywords": [
-            "Flyblown Host"
+            "Paragons Of Putrescence"
           ]
         },
+        "stats": {
+          "Points": {
+            "value": 40
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Insectile Murmuration": {
         "rules": {
           "Infantry model only.": {
             "evals": [
@@ -3927,6 +4030,32 @@
         },
         "text": "**Death Guard Infantry** model only. Each time a model in the bearer’s unit makes an attack that targets a unit that is within Contagion Range of one or more **Death Guard** units from your army, re‑roll a Wound roll of 1."
       },
+      "Enhancement§Insectile Murmuration (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Flyblown Host"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Lancet of the Worldsore (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Contagion Engines"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Lord of the Walking Pox": {
         "keywords": {
           "Keywords": [
@@ -3943,7 +4072,7 @@
       "Enhancement§Needle of Nurgle": {
         "keywords": {
           "Keywords": [
-            "Champions of Contagion"
+            "Champions Of Contagion"
           ]
         },
         "rules": {
@@ -3975,12 +4104,20 @@
         },
         "text": "**Plague Surgeon** only. Each time the bearer uses its Tainted Narthecium ability, you can return up to D3 destroyed models to the bearer's unit (instead of 1)."
       },
-      "Enhancement§Plagueveil": {
+      "Enhancement§Parasitic Woe‑reaper (Upgrade)": {
         "keywords": {
           "Keywords": [
-            "Flyblown Host"
+            "Contagion Engines"
           ]
         },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Plagueveil": {
         "rules": {
           "Infantry model only.": {
             "evals": [
@@ -4010,10 +4147,23 @@
         },
         "text": "**Death Guard Infantry** model only. While the bearer’s unit is within range of one or more objective markers that you control, that unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
       },
-      "Enhancement§Rejuvenating Swarm": {
+      "Enhancement§Plagueveil (Upgrade)": {
         "keywords": {
           "Keywords": [
             "Flyblown Host"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Rejuvenating Swarm": {
+        "keywords": {
+          "Keywords": [
+            "Paragons Of Putrescence"
           ]
         },
         "rules": {
@@ -4040,7 +4190,7 @@
         },
         "stats": {
           "Points": {
-            "value": 10
+            "value": 20
           }
         },
         "text": "**Death Guard Infantry** model only. At the end of each phase, the bearer regains all of its lost wounds."
@@ -4081,7 +4231,7 @@
         },
         "stats": {
           "Points": {
-            "value": 20
+            "value": 30
           }
         },
         "text": "**Death Guard** model only. The bearer has the Feel No Pain 5+ ability."
@@ -4089,7 +4239,7 @@
       "Enhancement§Shriekworm Familiar": {
         "keywords": {
           "Keywords": [
-            "Mortarion’s Hammer"
+            "Mortarion’S Hammer"
           ]
         },
         "stats": {
@@ -4150,7 +4300,7 @@
       "Enhancement§Tendrilous Emissions": {
         "keywords": {
           "Keywords": [
-            "Mortarion’s Hammer"
+            "Mortarion’S Hammer"
           ]
         },
         "rules": {
@@ -4212,7 +4362,7 @@
         },
         "stats": {
           "Points": {
-            "value": 15
+            "value": 20
           }
         },
         "text": "**Malignant Plaguecaster** only. Each time a **Plague Legions** unit within 12\" of the bearer takes a Battle-shock test, add 1 to that test and, if that test is passed, one model in that unit regains up to D3 lost wounds (if that unit is a **Battleline** unit and that test is passed, up to D3 destroyed models can be returned to that unit instead)."
@@ -4220,7 +4370,7 @@
       "Enhancement§Vile Vigour": {
         "keywords": {
           "Keywords": [
-            "Death Lord’s Chosen"
+            "Death Lord’S Chosen"
           ]
         },
         "rules": {
@@ -4255,7 +4405,7 @@
       "Enhancement§Visions of Virulence": {
         "keywords": {
           "Keywords": [
-            "Champions of Contagion"
+            "Champions Of Contagion"
           ]
         },
         "rules": {
@@ -4290,7 +4440,7 @@
       "Enhancement§Warprot Talisman": {
         "keywords": {
           "Keywords": [
-            "Death Lord’s Chosen"
+            "Death Lord’S Chosen"
           ]
         },
         "rules": {
@@ -12500,6 +12650,11 @@
               "Ability§The Shadow of Chaos"
             ]
           }
+        },
+        "stats": {
+          "Points": {
+            "value": 70
+          }
         }
       },
       "Unit§Blightlord Terminators": {
@@ -12748,6 +12903,30 @@
             "value": 115
           }
         }
+      },
+      "Unit§Chaos Spawn": {
+        "stats": {
+          "Points": {
+            "value": 80
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
+      },
+      "Unit§Daemon Prince Of Nurgle": {
+        "stats": {
+          "Points": {
+            "value": 195
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
+      },
+      "Unit§Daemon Prince Of Nurgle With Wings": {
+        "stats": {
+          "Points": {
+            "value": 170
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
       },
       "Unit§Death Guard Chaos Spawn": {
         "allowed": {
@@ -14071,7 +14250,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 320
+            "value": 330
           },
           "model2ndTally": {
             "value": 6
@@ -14089,7 +14268,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 160
+            "value": 170
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -14328,13 +14513,19 @@
             "value": 5
           },
           "Points": {
-            "value": 250
+            "value": 320
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 30
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 18
@@ -14427,13 +14618,19 @@
             "value": 3
           },
           "Points": {
-            "value": 100
+            "value": 110
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 9
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 10
@@ -14498,7 +14695,7 @@
             "value": 3
           },
           "Points": {
-            "value": 120
+            "value": 135
           },
           "Sv": {
             "value": 3
@@ -14506,10 +14703,24 @@
           "T": {
             "value": 9
           },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          },
           "W": {
             "value": 10
           }
         }
+      },
+      "Unit§Helbrute": {
+        "stats": {
+          "Points": {
+            "value": 110
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
       },
       "Unit§Hell Blade": {
         "keywords": {
@@ -14575,7 +14786,7 @@
             "value": 0
           },
           "Points": {
-            "value": 115
+            "value": 105
           },
           "Sv": {
             "value": 3
@@ -14649,8 +14860,6 @@
           "model2ndTally": {
             "value": 2
           },
-          "model3rdCost": {},
-          "model3rdTally": {},
           "modelKey": {
             "value": "Model§Myphitic Blight-hauler"
           },
@@ -14730,7 +14939,7 @@
             "max": 6
           },
           "Points": {
-            "value": 40
+            "value": 45
           }
         }
       },
@@ -14760,6 +14969,11 @@
               "Ability§The Shadow of Chaos",
               "Ability§Death’s Heads"
             ]
+          }
+        },
+        "stats": {
+          "Points": {
+            "value": 110
           }
         }
       },
@@ -14969,7 +15183,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 130
+            "value": 125
           },
           "model2ndTally": {
             "value": 7
@@ -15001,7 +15215,7 @@
             "visibility": "hidden"
           },
           "Points": {
-            "value": 95
+            "value": 90
           }
         }
       },
@@ -15037,6 +15251,11 @@
               "Ability§The Shadow of Chaos",
               "Ability§Infected Outbreak"
             ]
+          }
+        },
+        "stats": {
+          "Points": {
+            "value": 115
           }
         }
       },
@@ -15170,6 +15389,12 @@
           },
           "T": {
             "value": 10
+          },
+          "unitDiscount": {
+            "value": 25
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 12

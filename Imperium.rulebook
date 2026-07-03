@@ -1,6 +1,6 @@
 {
   "name": "Imperium 11e",
-  "revision": "11.0.0",
+  "revision": "11.0.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -10,7 +10,7 @@
   "isModule": true,
   "dependencies": [
     {
-      "slug": "PCJ8SD",
+      "slug": "DGST2Y",
       "name": "40k 11e",
       "game": "Warhammer 40k",
       "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k11e/main/Warhammer_40k_11e.rulebook"
@@ -1865,6 +1865,12 @@
           "T": {
             "value": 11
           },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 2
+          },
           "W": {
             "value": 28
           }
@@ -1938,13 +1944,19 @@
             "value": 10
           },
           "Points": {
-            "value": 405
+            "value": 425
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 28
@@ -2030,6 +2042,12 @@
           "T": {
             "value": 11
           },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 2
+          },
           "W": {
             "value": 28
           }
@@ -2102,13 +2120,19 @@
             "value": 10
           },
           "Points": {
-            "value": 395
+            "value": 435
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 28
@@ -2336,7 +2360,7 @@
             "value": 1
           },
           "Points": {
-            "value": 110
+            "value": 120
           },
           "Sv": {
             "value": 6
@@ -2487,7 +2511,7 @@
             "value": 1
           },
           "Points": {
-            "value": 55
+            "value": 65
           },
           "Psychic Options": {
             "dynamic": true,
@@ -2655,7 +2679,7 @@
             "value": 1
           },
           "Points": {
-            "value": 75
+            "value": 95
           },
           "Sv": {
             "value": 2
@@ -2800,7 +2824,7 @@
             "value": 1
           },
           "Points": {
-            "value": 75
+            "value": 110
           },
           "Sv": {
             "value": 3
@@ -3271,7 +3295,7 @@
             "value": 3
           },
           "Points": {
-            "value": 130
+            "value": 140
           },
           "Sv": {
             "value": 3
@@ -3692,7 +3716,7 @@
             "value": 10
           },
           "Points": {
-            "value": 410
+            "value": 420
           },
           "Sponson Weapons": {
             "dynamic": true,
@@ -3737,6 +3761,12 @@
           },
           "T": {
             "value": 12
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 28
@@ -3844,7 +3874,7 @@
             "visibility": "active"
           },
           "Points": {
-            "value": 385
+            "value": 415
           },
           "Ranged Weapon": {
             "dynamic": true,
@@ -3917,6 +3947,12 @@
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 26
@@ -3997,13 +4033,19 @@
             "value": 10
           },
           "Points": {
-            "value": 415
+            "value": 420
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 26
@@ -4202,13 +4244,19 @@
             "value": 8
           },
           "Points": {
-            "value": 250
+            "value": 280
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 10
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 18
@@ -4340,7 +4388,7 @@
             "visibility": "active"
           },
           "Points": {
-            "value": 355
+            "value": 370
           },
           "Sponson Weapon": {
             "dynamic": true,
@@ -4384,6 +4432,12 @@
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 26
@@ -4490,7 +4544,7 @@
             "visibility": "active"
           },
           "Points": {
-            "value": 355
+            "value": 370
           },
           "Sponson Weapon": {
             "dynamic": true,
@@ -4534,6 +4588,12 @@
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 26
@@ -4666,7 +4726,7 @@
             "visibility": "active"
           },
           "Points": {
-            "value": 365
+            "value": 390
           },
           "Sponson Weapon": {
             "dynamic": true,
@@ -4710,6 +4770,12 @@
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 26
@@ -4850,7 +4916,7 @@
             "visibility": "active"
           },
           "Points": {
-            "value": 365
+            "value": 380
           },
           "Sponson Weapon": {
             "dynamic": true,
@@ -4894,6 +4960,12 @@
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 26
@@ -4974,7 +5046,7 @@
             "value": 10
           },
           "Points": {
-            "value": 410
+            "value": 415
           },
           "Sponson Weapons": {
             "dynamic": true,
@@ -5019,6 +5091,12 @@
           },
           "T": {
             "value": 12
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 28
@@ -5151,7 +5229,7 @@
             "visibility": "active"
           },
           "Points": {
-            "value": 375
+            "value": 390
           },
           "Sponson Weapon": {
             "dynamic": true,
@@ -5195,6 +5273,12 @@
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 26
@@ -5429,7 +5513,7 @@
             "value": 1
           },
           "Points": {
-            "value": 60
+            "value": 75
           },
           "Sv": {
             "value": 5
@@ -5609,13 +5693,19 @@
             "value": 10
           },
           "Points": {
-            "value": 385
+            "value": 400
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 26
@@ -5719,13 +5809,19 @@
             "value": 10
           },
           "Points": {
-            "value": 385
+            "value": 390
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 26
@@ -5820,7 +5916,7 @@
             "value": 4
           },
           "Points": {
-            "value": 75
+            "value": 105
           }
         }
       },
@@ -6270,7 +6366,7 @@
             "value": "1"
           },
           "Points": {
-            "value": 110
+            "value": 125
           },
           "Sv": {
             "value": 6
@@ -31285,13 +31381,19 @@
             "value": 10
           },
           "Points": {
-            "value": 765
+            "value": 860
           },
           "Sv": {
             "value": 2
           },
           "T": {
             "value": 13
+          },
+          "unitDiscount": {
+            "value": 75
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 30
@@ -31440,13 +31542,19 @@
             "value": 10
           },
           "Points": {
-            "value": 700
+            "value": 800
           },
           "Sv": {
             "value": 2
           },
           "T": {
             "value": 13
+          },
+          "unitDiscount": {
+            "value": 75
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 30
@@ -31660,7 +31768,7 @@
             "value": 6
           },
           "Points": {
-            "value": 135
+            "value": 140
           },
           "Sponson Weapon": {
             "dynamic": true,
@@ -31872,13 +31980,19 @@
             "value": 6
           },
           "Points": {
-            "value": 150
+            "value": 160
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 9
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 14
@@ -32648,7 +32762,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 190
+            "value": 200
           },
           "model2ndTally": {
             "value": 10
@@ -32964,7 +33078,6 @@
           "model1stTally": {
             "value": 11
           },
-          "model2ndCost": {},
           "modelKey": {
             "value": "Model§Exaction Vigilant"
           },
@@ -32977,7 +33090,7 @@
             "value": 11
           },
           "Points": {
-            "value": 90
+            "value": 85
           }
         }
       },
@@ -34427,8 +34540,6 @@
           "model1stTally": {
             "value": 5
           },
-          "model2ndCost": {},
-          "model2ndTally": {},
           "modelKey": {
             "value": "Model§Grey Knights Terminator"
           },
@@ -34452,7 +34563,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 190
+            "value": 210
           }
         }
       },
@@ -36725,13 +36836,13 @@
             "value": 6
           },
           "model2ndCost": {
-            "value": 100
+            "value": 120
           },
           "model2ndTally": {
             "value": 12
           },
           "Points": {
-            "value": 50
+            "value": 60
           },
           "Servitors": {
             "dynamic": true,
@@ -38432,7 +38543,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 100
+            "value": 115
           },
           "Ranged Options": {
             "dynamic": true,
@@ -38733,7 +38844,7 @@
             "value": 10
           },
           "Points": {
-            "value": 100
+            "value": 115
           },
           "Simulacrum": {
             "dynamic": true,
@@ -40709,7 +40820,7 @@
             "value": 11
           },
           "Points": {
-            "value": 85
+            "value": 100
           },
           "Subductor": {
             "max": 9,
@@ -41131,8 +41242,6 @@
           "model1stTally": {
             "value": 6
           },
-          "model2ndCost": {},
-          "model2ndTally": {},
           "modelKey": {
             "value": "Model§Voidsman"
           },
@@ -41145,7 +41254,7 @@
             "value": 6
           },
           "Points": {
-            "value": 50
+            "value": 70
           },
           "Voidsman": {
             "max": 3,

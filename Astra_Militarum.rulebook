@@ -1,6 +1,6 @@
 {
   "name": "Astra Militarum 11e",
-  "revision": "11.0.0",
+  "revision": "11.0.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -9,7 +9,7 @@
   "wip": false,
   "dependencies": [
     {
-      "slug": "PCAPDR",
+      "slug": "RG5MGU",
       "name": "Imperium 11e",
       "game": "Warhammer 40k",
       "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k11e/main/Imperium.rulebook"
@@ -353,7 +353,7 @@
       }
     },
     "assetCatalog": {
-      "Ability§A Hearty 'Pick Me Up\"": {
+      "Ability§A Hearty 'pick Me Up\"": {
         "text": "While this model is leading a unit, in your Command phase, you can return up to D3 destroyed models to that unit."
       },
       "Ability§Ablative Plating": {
@@ -1634,7 +1634,7 @@
         },
         "text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with its exterminator autocannon. Until the end of the phase, each time a friendly Astra Militarum unit makes an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per phase."
       },
-      "Character§‘Iron Hand’ Straken": {
+      "Character§‘iron Hand’ Straken": {
         "aspects": {
           "Unique": true
         },
@@ -1935,7 +1935,8 @@
       "Character§Catachan Command Squad": {
         "allowed": {
           "items": [
-            "Model§Veteran Guardsman (CCS)"
+            "Model§Veteran Guardsman (CCS)",
+            "Unit§Catachan Jungle Fighters"
           ]
         },
         "aspects": {
@@ -2055,7 +2056,7 @@
             "visibility": "hidden"
           },
           "Points": {
-            "value": 65
+            "value": 60
           },
           "Regimental Standard": {
             "max": 1,
@@ -2270,7 +2271,7 @@
             "value": 5
           },
           "Points": {
-            "value": 110
+            "value": 125
           },
           "Sv": {
             "value": 3
@@ -2409,7 +2410,7 @@
             "value": 1
           },
           "Points": {
-            "value": 150
+            "value": 130
           },
           "Sv": {
             "value": 4
@@ -2826,7 +2827,7 @@
             "value": 6
           },
           "Points": {
-            "value": 100
+            "value": 95
           },
           "Tanith Ghost": {
             "max": 5,
@@ -3133,7 +3134,7 @@
             "visibility": "active"
           },
           "Points": {
-            "value": 235
+            "value": 250
           },
           "Sponson Weapon": {
             "dynamic": true,
@@ -3266,6 +3267,12 @@
             "value": "Leman Russ battle cannon",
             "visibility": "active"
           },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          },
           "W": {
             "value": 13
           }
@@ -3342,7 +3349,7 @@
             "value": 2
           },
           "Points": {
-            "value": 100
+            "value": 75
           },
           "Sv": {
             "value": 4
@@ -3450,7 +3457,8 @@
       "Character§Militarum Tempestus Command Squad": {
         "allowed": {
           "items": [
-            "Model§Tempestus Scion - Command Squad"
+            "Model§Tempestus Scion - Command Squad",
+            "Unit§Tempestus Scions"
           ]
         },
         "aspects": {
@@ -3875,7 +3883,7 @@
             "visibility": "hidden"
           },
           "Points": {
-            "value": 85
+            "value": 95
           },
           "Regimental Standard": {
             "max": 1,
@@ -3891,6 +3899,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           }
         }
       },
@@ -4751,7 +4765,7 @@
             "value": 5
           },
           "Points": {
-            "value": 290
+            "value": 305
           },
           "Sponson Weapons": {
             "dynamic": true,
@@ -4822,6 +4836,12 @@
             "statType": "rank",
             "value": "Twin battle cannon",
             "visibility": "active"
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 18
@@ -5115,13 +5135,39 @@
           }
         }
       },
+      "Detachment§Abhuman Auxiliaries": {
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
       "Detachment§Armoured Infantry": {
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## SQUADRON COMMAND\n\nAdd Squadron to the list of units each\nOfficer unit from your army can issue\nOrders to. Add the Order below to those\nlisted in the Voice of Command ability.\n\n---\n## ORDER\n\n**ON MY SIGNAL**\n\nThis Order can only be issued to Armoured Skirmisher units (see below). Each time an enemy unit ends a Normal or Advance move within 9\" of this unit, this unit can make a Normal move of up to D6\". Each unit can only move in this way once per turn.\n\n---\n\n**KEYWORDS** \n\nAstra Militarum Squadron units from your army have the Armoured Skirmisher keyword (excluding Artillery units and units containing one or more models with a Wounds characteristic of 13 or higher)."
       },
       "Detachment§Bridgehead Strike": {
         "keywords": {
           "Keywords": [
             "Astra Militarum"
+          ],
+          "Role": [
+            "Priority Assets"
           ]
         },
         "rules": {
@@ -5217,12 +5263,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
         "text": "## ONLY THE BEST\n\nEach time an **Astra Militarum Infantry** model from your army makes a ranged attack, re‐roll a Hit roll of 1.\n\n---\n## FIRE ZONE PURGE\n\nEach time a **Militarum Tempestus** model from your army makes a ranged attack in a turn in which it was set up on the battlefield from Reserves or it disembarked from a **Transport**, add 1 to the Hit roll.\n\n---\n## KEYWORDS\n\nIf a **Militarum Tempestus Officer** model from your army is your **Warlord**, **Tempestus Scions** units from your army gain the **Battleline** keyword, and while such a unit is not Battle‑shocked, add 1 to the Objective Control characteristic of **Tempestus Scions** models in that unit."
       },
       "Detachment§Combined Arms": {
         "keywords": {
           "Keywords": [
             "Astra Militarum"
+          ],
+          "Role": [
+            "Take And Hold"
           ]
         },
         "rules": {
@@ -5318,9 +5372,32 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "## BORN SOLDIERS\n\nEach time a model in a **Regiment** unit from your army makes a ranged attack that targets a visible unit (excluding **Monsters** and **Vehicles**), that attack has the **[LETHAL HITS]** ability.\n\nEach time a model in a **Squadron** unit from your army makes a ranged attack that targets a visible **Monster** or **Vehicle** unit, that attack has the **[LETHAL HITS]** ability."
       },
+      "Detachment§Designation Force": {
+        "keywords": {
+          "Role": [
+            "Reconnaissance"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
       "Detachment§Grizzled Company": {
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -5414,12 +5491,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "## RUTHLESS DISCIPLINE\n\nAdd 1 to the number of Orders each Astra Militarum Officer model from your army can issue, as stated on their datasheet.\n\nWhile an Astra Militarum unit from your army is affected by an Order, each time a model in that unit makes an attack, re‑roll a Hit roll of 1."
       },
       "Detachment§Hammer of the Emperor": {
         "keywords": {
           "Keywords": [
             "Astra Militarum"
+          ],
+          "Role": [
+            "Purge The Foe"
           ]
         },
         "rules": {
@@ -5515,12 +5600,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## Iron Tread\nEach time a **Squadron** unit from your army Advances, do not make a Advance roll for it, until the end of the phase, add 6\" to the Move characteristic of models in that  unit, and when making that advance move, that unit can move within Engagement Range of enemy models but cannot end that move within Engagement Range of enemy models"
       },
       "Detachment§Mechanised Assault": {
         "keywords": {
           "Keywords": [
             "Astra Militarum"
+          ],
+          "Role": [
+            "Purge The Foe"
           ]
         },
         "rules": {
@@ -5616,12 +5709,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## Armoured Fist\n\nEach time an **Astra Militarum** models from your army makes a ranged attack in a turn in which it disembarked from a **Transport**, add 1 to the Wound roll."
       },
       "Detachment§Recon Element": {
         "keywords": {
           "Keywords": [
             "Astra Militarum"
+          ],
+          "Role": [
+            "Reconnaissance"
           ]
         },
         "rules": {
@@ -5717,12 +5818,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "## Masters of Camouflage\n**Astra Militarum Walker** and **Regiment** models from your army have the Benefit of Cover. While such a model has the Benefit of Cover for any other reason (e.g. because  it is wholly within a **Ruin**), improve the Save characteristic of that model by 1 (to a maximum of 3+)."
       },
       "Detachment§Siege Regiment": {
         "keywords": {
           "Keywords": [
             "Astra Militarum"
+          ],
+          "Role": [
+            "Disruption"
           ]
         },
         "rules": {
@@ -5818,9 +5927,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## Artillery Support\n\nAt the start of the battle round, select one of the following types of artillery support.\n\n-  **Creeping Barrage:** Roll one D6 for each enemy unit that is more than 12\" from every model from your army that is on the battlefield: On a 5+, until the end of the battle round, that unit is shaken. While a unit is shaken, subtract 2\" from its move characteristic and subtract 2 *Charge rolls* made for it. *The maximum number of units that can be shaken by this rule in each battle round depends on the battle size, as shown below.*\n\n-  **Incendiary Bombardment:** Select a number of enemy units that is more than 12\" from every model from your army that is on the battlefield: On a 5+, until the end of the battle round, those enemy units are scattered. While a unit is scattered, it cannot have the Benefit of Cover. The maximum number of units that you can select in this way depends on the battle size, as shown below.\n\n-  **Smoke Shells:** Select a number units from your army. Until the end of the battle round, those units have the Stealth ability. The maximum number of units that you can select in this way depends on the battle size, as shown below.\n\n| Battle Size | Maximum Number of  Units |\n| ----------- | ----------- |\n| Incursion | 2 |\n| Strike Force | 3 |\n| Onslaught | 4 |"
       },
       "Detachment§Steel Hammer": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -5914,6 +6033,11 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## CEASELESS CANNONADE\n\nEach time an Astra Militarum Titanic or Astra Militarum Squadron unit from your army is selected to shoot, models in that unit can target enemy units within Engagement Range of that unit (including with Blast weapons), provided no other friendly units are also within Engagement Range of that enemy unit. When doing so, such models do not suffer the penalty to their Hit rolls for being within Engagement Range of one or more enemy units (excluding attacks made with Indirect Fire weapons).\n\n---\n\n**KEYWORDS**\n\nIn the Muster Armies step, you can select one or more Astra Militarum Titanic units from your army to gain the Character keyword.\n\nDesigner’s Note: This means that the selected units can be given Enhancements, and one of them can be selected as your Warlord."
       },
       "Enhancement§Abhuman Detail": {
@@ -5952,11 +6076,6 @@
         "text": "**COMMISSAR** model only. Add the **OGRYN** keyword to the list of units this model can issue Orders too (as stated on its datasheet). In the Declare Battle Formations step, the bearer can be attached to an **OGRYN SQUAD** or **BULLGRYN SQUAD** unit."
       },
       "Enhancement§Advance Augury": {
-        "keywords": {
-          "Keywords": [
-            "Bridgehead Strike"
-          ]
-        },
         "rules": {
           "Infantry Officer model only": {
             "evals": [
@@ -6266,7 +6385,7 @@
         },
         "text": "**Infantry Officer** model only. If you control an objective marker at the end of your command phase, and the bearer's unit (or any **Transport** it is embarked within) is within range of that objective marker, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
       },
-      "Enhancement§Bombast-Class Vox-Array": {
+      "Enhancement§Bombast-class Vox-array": {
         "keywords": {
           "Keywords": [
             "Bridgehead Strike"
@@ -6296,7 +6415,7 @@
         },
         "stats": {
           "Points": {
-            "value": 35
+            "value": 15
           }
         },
         "text": "**Militarum Tempestus Officer** model only. Each time the bearer issues an Order, if the bearer’s unit contains one or more models equipped with a master vox, it can issue that Order to up to three different **Regiment** units, instead of only one."
@@ -6304,7 +6423,7 @@
       "Enhancement§Calm Under Fire": {
         "keywords": {
           "Keywords": [
-            "Hammer of the Emperor"
+            "Hammer Of The Emperor"
           ]
         },
         "rules": {
@@ -6658,6 +6777,19 @@
         },
         "text": "**ASTRA MILITARUM TECH-PRIEST ENGINSEER** model only. Each time the bearer uses its Omnissiah's Blessing ability, until the start of your next Command phase, add 3\" to the Move characteristic of the selected **VEHICLE** model."
       },
+      "Enhancement§Exemplar of Duty (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Abhuman Auxiliaries"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Exemplary Officer": {
         "keywords": {
           "Keywords": [
@@ -6813,103 +6945,12 @@
         "text": "**Infantry Officer** model only. Enemy units cannot use the Fire Overwatch Stratagem to shoot the bearer's unit."
       },
       "Enhancement§Grand Strategist": {
-        "keywords": {
-          "Keywords": [
-            "Combined Arms"
-          ]
-        },
-        "rules": {
-          "Officer model only": {
-            "evals": [
-              {
-                "actionable": true,
-                "contains": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{parent}",
-                    "keywords",
-                    "Keywords"
-                  ]
-                ],
-                "value": "Officer"
-              },
-              {
-                "actionable": true,
-                "contains": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{parent}",
-                    "keywords",
-                    "Keywords"
-                  ]
-                ],
-                "value": "Cadian Command Squad"
-              },
-              {
-                "actionable": true,
-                "contains": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{parent}",
-                    "keywords",
-                    "Keywords"
-                  ]
-                ],
-                "value": "Catachan Command Squad"
-              },
-              {
-                "actionable": true,
-                "contains": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{parent}",
-                    "keywords",
-                    "Keywords"
-                  ]
-                ],
-                "value": "Krieg Command Squad"
-              },
-              {
-                "actionable": true,
-                "contains": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{parent}",
-                    "keywords",
-                    "Keywords"
-                  ]
-                ],
-                "value": "Militarum Tempestus"
-              }
-            ],
-            "evaluate": "OR",
-            "failState": "error"
-          }
-        },
-        "stats": {
-          "Points": {
-            "value": 15
-          }
-        },
-        "text": "**Officer** model only. In your Command phase, the bearer can issue one additional Order."
-      },
-      "Enhancement§Grand Strategist (AI)": {
         "aspects": {
           "Label": "Grand Strategist"
         },
         "keywords": {
           "Keywords": [
-            "Armoured Infantry"
+            "Combined Arms"
           ]
         },
         "rules": {
@@ -6936,17 +6977,12 @@
         },
         "stats": {
           "Points": {
-            "value": 25
+            "value": 15
           }
         },
         "text": "**OFFICER** model only. After both players have deployed their armies, if the bearer's unit (or any **TRANSPORT** it is embarked within) is on the battlefield, select up to two units with the **REGIMENT** or **SQUADRON** keywords from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
       },
       "Enhancement§Guerilla Honours": {
-        "keywords": {
-          "Keywords": [
-            "Recon Element"
-          ]
-        },
         "rules": {
           "Infantry Officer model only.": {
             "evals": [
@@ -7018,10 +7054,23 @@
         },
         "text": "**Infantry Officer** model only. After both players have deployed their armies, if the bearer's unit is on the battlefield select up to three other **Astra Militarum Infantry** units from your army and redeploy them. When doing so, you can set those units in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
       },
+      "Enhancement§Guerrilla Honours": {
+        "keywords": {
+          "Keywords": [
+            "Recon Element"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Indomitable Steed": {
         "keywords": {
           "Keywords": [
-            "Hammer of the Emperor"
+            "Hammer Of The Emperor"
           ]
         },
         "rules": {
@@ -7247,6 +7296,19 @@
         },
         "text": "**Infantry Officer** model only. Add 2 to the Attacks characteristics of the bearer's Pistols."
       },
+      "Enhancement§Long-range Scout (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Designation Force"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Master Manoeuvrist": {
         "keywords": {
           "Keywords": [
@@ -7359,7 +7421,7 @@
         },
         "text": "**ASTRA MILITARUM TECH-PRIEST ENGINSEER** model only. While a friendly **ARMOURED SKIRMISHER** unit is within 3\" of the bearer, that unit has the Feel No Pain 5+ ability."
       },
-      "Enhancement§Priority-drop Beacon": {
+      "Enhancement§Priority Drop Beacon": {
         "keywords": {
           "Keywords": [
             "Bridgehead Strike"
@@ -7389,7 +7451,7 @@
         },
         "stats": {
           "Points": {
-            "value": 30
+            "value": 25
           }
         },
         "text": "**Militarum Tempestus Officer** model only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules."
@@ -7471,10 +7533,23 @@
         },
         "text": "Officer model only. Each time an enemy unit is set up within 9\" of the bearer's unit, the bearer can issue one Order. This is not counted towards the number of Orders the bearer can issue in a battle round."
       },
+      "Enhancement§Recon Star (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Designation Force"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Regimental Banner": {
         "keywords": {
           "Keywords": [
-            "Hammer of the Emperor"
+            "Hammer Of The Emperor"
           ]
         },
         "rules": {
@@ -7611,12 +7686,20 @@
         },
         "text": "**Astra Militarum Infantry** model only. Once per battle, at the start of any phase, the bearer can use this Enchacement. If it does, select one enemy unit within 8\" of the bearer's unit (excluding **Monster** and **Vehicle** units); that unit must take a battle-shock test."
       },
-      "Enhancement§Shroud Projector": {
+      "Enhancement§Sharp Eyes (Upgrade)": {
         "keywords": {
           "Keywords": [
-            "Bridgehead Strike"
+            "Abhuman Auxiliaries"
           ]
         },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Shroud Projector": {
         "rules": {
           "Mili Temp Officer model only": {
             "evals": [
@@ -7801,11 +7884,6 @@
         "text": "**ASTRA MILITARUM INFANTRY OFFICER** model only. Each time you select an Order for the bearer to issue, you can select the Order below:\n\n**Move to the Shadows (Order):** Each time a ranged attack targets this unit, until those attacks are resolved, models in this unit have the Stealth ability."
       },
       "Enhancement§Stalwart's Honours": {
-        "keywords": {
-          "Keywords": [
-            "Siege Regiment"
-          ]
-        },
         "rules": {
           "Officer model only.": {
             "evals": [
@@ -7876,6 +7954,19 @@
           }
         },
         "text": "**Officer** model only. While the bearer is leading a unit, when that unit is issued an order, it is also affected by the Take Cover! Order."
+      },
+      "Enhancement§Stalwart’s Honours": {
+        "keywords": {
+          "Keywords": [
+            "Siege Regiment"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Survival Gear": {
         "keywords": {
@@ -8117,7 +8208,7 @@
       "Enhancement§Veteran Crew": {
         "keywords": {
           "Keywords": [
-            "Hammer of the Emperor"
+            "Hammer Of The Emperor"
           ]
         },
         "rules": {
@@ -8348,7 +8439,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 120
+            "value": 125
           },
           "model2ndTally": {
             "value": 10
@@ -8366,7 +8457,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 60
+            "value": 65
           },
           "Rough Rider": {
             "max": 9,
@@ -8375,6 +8466,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 5
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -8433,7 +8530,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 200
+            "value": 215
           },
           "model2ndTally": {
             "value": 6
@@ -8451,7 +8548,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 100
+            "value": 105
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           }
         }
       },
@@ -9058,7 +9161,7 @@
             "value": 10
           },
           "model2ndCost": {
-            "value": 120
+            "value": 145
           },
           "model2ndTally": {
             "value": 20
@@ -9108,7 +9211,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 65
+            "value": 75
           },
           "Shock Trooper": {
             "max": 18,
@@ -9351,7 +9454,7 @@
             "value": 10
           },
           "model2ndCost": {
-            "value": 120
+            "value": 145
           },
           "model2ndTally": {
             "value": 20
@@ -9398,7 +9501,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 65
+            "value": 75
           }
         }
       },
@@ -10006,7 +10109,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 65
+            "value": 75
           }
         }
       },
@@ -10060,7 +10163,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 120
+            "value": 110
           },
           "model2ndTally": {
             "value": 10
@@ -10119,7 +10222,9 @@
           "M": {
             "value": 4
           },
-          "model1stTally": {},
+          "model1stTally": {
+            "value": 1
+          },
           "Models": {},
           "OC": {
             "value": 2
@@ -10252,7 +10357,7 @@
             "visibility": "hidden"
           },
           "Points": {
-            "value": 110
+            "value": 90
           }
         }
       },
@@ -11181,7 +11286,7 @@
             "visibility": "hidden"
           },
           "Points": {
-            "value": 110
+            "value": 125
           },
           "special weapon": {
             "max": 4,
@@ -11190,6 +11295,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "Vox-caster": {
             "max": 1,
@@ -11298,7 +11409,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 95
+            "value": 105
           },
           "model2ndTally": {
             "value": 10
@@ -11316,7 +11427,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 60
+            "value": 75
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -11368,7 +11485,7 @@
             "value": 4
           },
           "Points": {
-            "value": 75
+            "value": 60
           }
         }
       },
@@ -11635,7 +11752,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 130
+            "value": 120
           },
           "model2ndTally": {
             "value": 6
@@ -12629,7 +12746,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 140
+            "value": 165
           },
           "model2ndTally": {
             "value": 10
@@ -12647,7 +12764,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 70
+            "value": 85
           },
           "Tempestus Scion": {
             "max": 9,
@@ -12656,6 +12773,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "Vox-caster": {
             "max": 1,
@@ -12667,7 +12790,7 @@
           }
         }
       },
-      "Melee Weapon§‘Iron Hand’ Straken—Bionic arm with devil’s claw": {
+      "Melee Weapon§‘iron Hand’ Straken—Bionic arm with devil’s claw": {
         "aspects": {
           "Label": "Bionic arm with devil’s claw"
         },
@@ -24245,7 +24368,7 @@
           }
         }
       },
-      "Ranged Weapon§‘Iron Hand’ Straken—Auto shotgun": {
+      "Ranged Weapon§‘iron Hand’ Straken—Auto shotgun": {
         "aspects": {
           "Label": "Auto shotgun"
         },
@@ -24275,7 +24398,7 @@
           }
         }
       },
-      "Ranged Weapon§‘Iron Hand’ Straken—Plasma pistol": {
+      "Ranged Weapon§‘iron Hand’ Straken—Plasma pistol": {
         "aspects": {
           "Label": "Plasma pistol"
         },
@@ -24291,7 +24414,7 @@
           ]
         }
       },
-      "Ranged Weapon§‘Iron Hand’ Straken—Plasma pistol – standard": {
+      "Ranged Weapon§‘iron Hand’ Straken—Plasma pistol – standard": {
         "aspects": {
           "Label": "Standard"
         },
@@ -24321,7 +24444,7 @@
           }
         }
       },
-      "Ranged Weapon§‘Iron Hand’ Straken—Plasma pistol – supercharge": {
+      "Ranged Weapon§‘iron Hand’ Straken—Plasma pistol – supercharge": {
         "aspects": {
           "Label": "Supercharge"
         },
@@ -49796,13 +49919,11 @@
             "value": 1
           },
           "model2ndCost": {
-            "value": 130
+            "value": 120
           },
           "model2ndTally": {
             "value": 2
           },
-          "model3rdCost": {},
-          "model3rdTally": {},
           "modelKey": {
             "value": "Model§Armoured Sentinel"
           },
@@ -50117,7 +50238,7 @@
             "value": 8
           },
           "Points": {
-            "value": 450
+            "value": 470
           },
           "Sponson Weapons 1": {
             "dynamic": true,
@@ -50203,6 +50324,12 @@
           },
           "T": {
             "value": 13
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 24
@@ -50271,7 +50398,7 @@
             "value": 8
           },
           "Points": {
-            "value": 420
+            "value": 440
           },
           "Sponson Weapons 1": {
             "dynamic": true,
@@ -50354,6 +50481,12 @@
           },
           "T": {
             "value": 13
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 24
@@ -50409,7 +50542,7 @@
             "value": 8
           },
           "Points": {
-            "value": 450
+            "value": 470
           },
           "Sponson Weapons 1": {
             "dynamic": true,
@@ -50495,6 +50628,12 @@
           },
           "T": {
             "value": 13
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 24
@@ -50603,13 +50742,19 @@
             "value": 3
           },
           "Points": {
-            "value": 140
+            "value": 135
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 9
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 11
@@ -50968,7 +51113,7 @@
             "value": 2
           },
           "Points": {
-            "value": 85
+            "value": 75
           },
           "Sv": {
             "value": 3
@@ -51430,13 +51575,19 @@
             "value": 0
           },
           "Points": {
-            "value": 25
+            "value": 45
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 4
+          },
+          "unitDiscount": {
+            "value": 5
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 4
@@ -51545,13 +51696,19 @@
             "value": 3
           },
           "Points": {
-            "value": 145
+            "value": 135
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 10
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 11
@@ -51796,7 +51953,7 @@
             "value": 8
           },
           "Points": {
-            "value": 415
+            "value": 435
           },
           "Sponson Weapons 1": {
             "dynamic": true,
@@ -51882,6 +52039,12 @@
           },
           "T": {
             "value": 13
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 24
@@ -52377,7 +52540,7 @@
             "value": 8
           },
           "Points": {
-            "value": 420
+            "value": 440
           },
           "Sponson Weapons 1": {
             "dynamic": true,
@@ -52463,6 +52626,12 @@
           },
           "T": {
             "value": 13
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 24
@@ -52577,7 +52746,7 @@
             "value": 3
           },
           "Points": {
-            "value": 125
+            "value": 135
           },
           "Sv": {
             "value": 2
@@ -52618,6 +52787,12 @@
             "statType": "rank",
             "value": "Inferno cannon",
             "visibility": "active"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 11
@@ -52793,7 +52968,7 @@
             "value": 3
           },
           "Points": {
-            "value": 95
+            "value": 90
           },
           "Sv": {
             "value": 3
@@ -52947,7 +53122,7 @@
             "visibility": "active"
           },
           "Points": {
-            "value": 185
+            "value": 195
           },
           "Sponson Weapon": {
             "dynamic": true,
@@ -53012,6 +53187,12 @@
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 13
@@ -53159,7 +53340,7 @@
             "visibility": "active"
           },
           "Points": {
-            "value": 190
+            "value": 200
           },
           "Sponson Weapon": {
             "dynamic": true,
@@ -53224,6 +53405,12 @@
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 13
@@ -53371,7 +53558,7 @@
             "visibility": "active"
           },
           "Points": {
-            "value": 170
+            "value": 180
           },
           "Sponson Weapon": {
             "dynamic": true,
@@ -53436,6 +53623,12 @@
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 13
@@ -53583,7 +53776,7 @@
             "visibility": "active"
           },
           "Points": {
-            "value": 170
+            "value": 180
           },
           "Sponson Weapon": {
             "dynamic": true,
@@ -53648,6 +53841,12 @@
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 13
@@ -53794,7 +53993,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 180
+            "value": 190
           },
           "Sponson Weapon": {
             "dynamic": true,
@@ -53859,6 +54058,12 @@
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 13
@@ -54006,7 +54211,7 @@
             "visibility": "active"
           },
           "Points": {
-            "value": 150
+            "value": 160
           },
           "Sponson Weapon": {
             "dynamic": true,
@@ -54071,6 +54276,12 @@
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 13
@@ -54218,7 +54429,7 @@
             "visibility": "active"
           },
           "Points": {
-            "value": 145
+            "value": 160
           },
           "Sponson Weapon": {
             "dynamic": true,
@@ -54283,6 +54494,12 @@
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 13
@@ -55754,13 +55971,19 @@
             "value": 3
           },
           "Points": {
-            "value": 165
+            "value": 170
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 10
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 11
@@ -56235,7 +56458,7 @@
             "value": 5
           },
           "Points": {
-            "value": 260
+            "value": 275
           },
           "Sponson Weapons": {
             "dynamic": true,
@@ -56306,6 +56529,12 @@
             "statType": "rank",
             "value": "Twin battle cannon",
             "visibility": "active"
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 18
@@ -56609,13 +56838,11 @@
             "value": 1
           },
           "model2ndCost": {
-            "value": 110
+            "value": 100
           },
           "model2ndTally": {
             "value": 2
           },
-          "model3rdCost": {},
-          "model3rdTally": {},
           "modelKey": {
             "value": "Model§Scout Sentinel"
           },
@@ -56748,7 +56975,7 @@
             "value": 8
           },
           "Points": {
-            "value": 410
+            "value": 430
           },
           "Sponson Weapons 1": {
             "dynamic": true,
@@ -56834,6 +57061,12 @@
           },
           "T": {
             "value": 13
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 24
@@ -57259,7 +57492,7 @@
             "value": 8
           },
           "Points": {
-            "value": 430
+            "value": 450
           },
           "Sponson Weapons 1": {
             "dynamic": true,
@@ -57345,6 +57578,12 @@
           },
           "T": {
             "value": 13
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 24
@@ -57400,7 +57639,7 @@
             "value": 8
           },
           "Points": {
-            "value": 465
+            "value": 485
           },
           "Sponson Weapons 1": {
             "dynamic": true,
@@ -57486,6 +57725,12 @@
           },
           "T": {
             "value": 13
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 24
@@ -57856,7 +58101,7 @@
             "value": 2
           },
           "Points": {
-            "value": 90
+            "value": 85
           },
           "Storm bolter": {
             "dynamic": true,
@@ -58389,13 +58634,19 @@
             "value": 0
           },
           "Points": {
-            "value": 190
+            "value": 180
           },
           "Sv": {
             "value": 2
           },
           "T": {
             "value": 10
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 14
@@ -58953,13 +59204,19 @@
             "value": 3
           },
           "Points": {
-            "value": 110
+            "value": 115
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 9
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 11

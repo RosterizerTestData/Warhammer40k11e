@@ -1,6 +1,6 @@
 {
   "name": "Deathwatch 11e",
-  "revision": "11.0.0",
+  "revision": "11.0.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -9,7 +9,7 @@
   "wip": false,
   "dependencies": [
     {
-      "slug": "CYXUJY",
+      "slug": "",
       "name": "Space Marines 11e",
       "game": "Warhammer 40k",
       "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k11e/main/Space_Marines.rulebook"
@@ -516,6 +516,11 @@
         }
       },
       "Detachment§Black Spear Task Force": {
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -774,6 +779,11 @@
             "evals": [],
             "evaluate": "AND",
             "failState": "pass"
+          }
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
           }
         },
         "text": "**MISSION TACTICS**\n\nAt the start of your Command phase, you can select one of the Mission Tactics listed below. Until the start of your next Command phase, that Mission Tactic is active and its effects apply to all units from your army with this ability. Each Mission Tactic can only be selected once per battle.\n\n**FUROR TACTICS**\n \nWhile this Mission Tactic is active, weapons equipped by Adeptus Astartes units from your army have the **[SUSTAINED HITS 1]** ability.\n\n**MALLEUS TACTICS**\n\n While this Mission Tactic is active, weapons equipped by Adeptus Astartes units from your army have the **[LETHAL HITS]** ability.\n\n**PURGATUS TACTICS**\n\nWhile this Mission Tactic is active, each time an Adeptus Astartes unit from your army makes an attack, if a Critical Hit is scored, that attack has the **[PRECISION]** ability.\n\nIf your Army Faction is Adeptus Astartes, you can \nuse this Black Spear Task Force Detachment rule.\n\nRESTRICTIONS\n\n* Your army can include **Adeptus Astartes Deathwatch** units, but it cannot include any **Adeptus Astartes** units drawn from any \nother Chapter.\n\n* With the exception of **Kill Team Cassius** (see Legends: Agents of the Imperium), your army cannot include any **Agents of the Imperium Deathwatch** units.\n\n* Your army cannot include any of the following units: **Assault Squad; Assault Squad with Jump Packs; Attack Bike Squad; Devastator Squad; Land Speeder Storm; Relic Terminator Squad; Scout Bike Squad; Scout Squad; Scout Sniper Squad; Tactical Squad; Terminator Assault Squad; Terminator Squad**."
@@ -1109,7 +1119,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 350
+            "value": 330
           },
           "model2ndTally": {
             "value": 10
@@ -1127,7 +1137,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 190
+            "value": 180
           }
         }
       },
@@ -1451,7 +1461,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 200
+            "value": 190
           },
           "model2ndTally": {
             "value": 10
@@ -2852,8 +2862,6 @@
           "model1stTally": {
             "value": 10
           },
-          "model2ndCost": {},
-          "model2ndTally": {},
           "Models": {
             "increment": {
               "value": 1
@@ -2864,7 +2872,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 180
+            "value": 210
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "w/bolt": {
             "dynamic": true,
@@ -3983,10 +3997,6 @@
           "model1stTally": {
             "value": 10
           },
-          "model2ndCost": {},
-          "model2ndTally": {
-            "value": 10
-          },
           "Models": {
             "increment": {
               "value": 1
@@ -3997,7 +4007,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 265
+            "value": 290
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "w/melta": {
             "dynamic": true,
@@ -5158,8 +5174,6 @@
           "model1stTally": {
             "value": 10
           },
-          "model2ndCost": {},
-          "model2ndTally": {},
           "Models": {
             "increment": {
               "value": 1
@@ -5171,6 +5185,12 @@
           },
           "Points": {
             "value": 180
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "w/knife": {
             "dynamic": true,
@@ -5828,8 +5848,6 @@
           "model1stTally": {
             "value": 10
           },
-          "model2ndCost": {},
-          "model2ndTally": {},
           "modelKey": {
             "value": ""
           },
@@ -5846,7 +5864,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 275
+            "value": 280
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },

@@ -1,6 +1,6 @@
 {
   "name": "Dark Angels 11e",
-  "revision": "11.0.0",
+  "revision": "11.0.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -9,7 +9,7 @@
   "wip": false,
   "dependencies": [
     {
-      "slug": "6TNHSC",
+      "slug": "",
       "name": "Space Marines 11e",
       "game": "Warhammer 40k",
       "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k11e/main/Space_Marines.rulebook"
@@ -823,7 +823,7 @@
             "value": 1
           },
           "Points": {
-            "value": 125
+            "value": 140
           },
           "Sv": {
             "value": 2
@@ -932,7 +932,7 @@
             "value": 1
           },
           "Points": {
-            "value": 85
+            "value": 75
           },
           "Sv": {
             "value": 2
@@ -1509,7 +1509,7 @@
             "value": 4
           },
           "Points": {
-            "value": 315
+            "value": 285
           },
           "Sv": {
             "value": 2
@@ -1573,7 +1573,13 @@
             "value": 3
           },
           "Points": {
-            "value": 120
+            "value": 125
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -1710,7 +1716,7 @@
             "value": 2
           },
           "Points": {
-            "value": 115
+            "value": 105
           },
           "Sv": {
             "value": 3
@@ -1727,6 +1733,11 @@
       "Crusade Badge§Inner Circle Grand Master": {},
       "Crusade Badge§Ritesworn Inductee": {},
       "Detachment§Company of Hunters": {
+        "keywords": {
+          "Role": [
+            "Disruption"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -1820,9 +1831,45 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## MASTERS OF MANOEUVRE\n\n**Adeptus Astartes** units from your army are eligible to shoot in a turn in which they Advanced or Fell Back.\n\n**Adeptus Astartes Mounted** units from your army are eligible to shoot and declare a charge in a turn in which they Advanced or Fell Back.\n\n**KEYWORDS**\n\n**Outrider Squad** units from your army gain the Battleline keyword."
       },
+      "Detachment§Dark Age Arsenal": {
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
+      "Detachment§Darkflight Pursuit": {
+        "keywords": {
+          "Role": [
+            "Reconnaissance"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
       "Detachment§Inner Circle Task Force": {
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -1916,9 +1963,32 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## VOWED TARGET\n\nAt the start of your Movement phase, select one of the following:\n\n■ Defensive Footing: Select one objective marker you control. Until the start of your next Movement phase, that objective marker is your Vowed objective marker.\n\n■ Aggressive Push: Select one or more objective markers you do not control. Until the start of your next Movement phase, each of those objective markers is one of your Vowed objective markers. If a rule refers to a unit or model being within range of your Vowed objective marker, that rule takes effect if that unit or model is within range of one or more of your Vowed objective markers. \n\nEach time a Deathwing Infantry unit from your army makes an attack that targets a unit within range of one or more of your Vowed objective markers, add 1 to the Wound roll."
       },
+      "Detachment§Interrogation Conclave": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
       "Detachment§Lion’s Blade Task Force": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -2012,9 +2082,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "**IN THE LION’S CLAWS**\n\n■ Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of one or more Ravenwing units from your army Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle‑shocked, subtract 1 from each of those tests.\n\n■ Each time a Deathwing unit from your army declares a charge, if one or more targets of that charge are within Engagement Range of one or more Ravenwing units from your army, add 2 to the Charge roll."
       },
       "Detachment§Unforgiven Task Force": {
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -2108,9 +2188,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## GRIM RESOLVE\n\nWhile an Adeptus Astartes unit from your army is Battle-shocked, change the Objective Control characteristic of models in that unit to 1, instead of 0.\n\nIn your Command phase, select one Adeptus Astartes unit from your army: until the start of your next Command phase, add 1 to the Objective Control characteristic of models in that unit."
       },
       "Detachment§Wrath of the Rock": {
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -2204,12 +2294,17 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "## DUTIFUL TENACITY\n\nEach time an attack targets an Adeptus Astartes Infantry or Adeptus Astartes Mounted unit from your army, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll."
       },
       "Enhancement§Ancient Weapons": {
         "keywords": {
           "Keywords": [
-            "Wrath of the Rock"
+            "Wrath Of The Rock"
           ]
         },
         "rules": {
@@ -2316,7 +2411,7 @@
       "Enhancement§Calibanite Armaments": {
         "keywords": {
           "Keywords": [
-            "Lion’s Blade Task Force"
+            "Lion’S Blade Task Force"
           ]
         },
         "rules": {
@@ -2439,63 +2534,12 @@
         "text": "Deathwing model only. Melee weapons equipped by the bearer have the [LETHAL HITS] ability, and each time the bearer makes a melee attack, if it is within range of your Vowed objective marker, a Critical Hit is scored on an unmodified Hit roll of 5+."
       },
       "Enhancement§Deathwing Assault": {
-        "keywords": {
-          "Keywords": [
-            "Inner Circle Task Force"
-          ]
-        },
-        "rules": {
-          "Deathwing model with the Deep Strike ability only.": {
-            "evals": [
-              {
-                "actionable": true,
-                "contains": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{parent}",
-                    "keywords",
-                    "Keywords"
-                  ]
-                ],
-                "value": "Deathwing"
-              },
-              {
-                "actionable": true,
-                "contains": true,
-                "min": 1,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{parent}",
-                    "traits",
-                    "item",
-                    "Ability§Deep Strike",
-                    "quantity"
-                  ]
-                ]
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "error"
-          }
-        },
-        "stats": {
-          "Points": {
-            "value": 30
-          }
-        },
-        "text": "Deathwing model with the Deep Strike ability only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third movement phase, regardless of any mission rules."
-      },
-      "Enhancement§Deathwing Assault (Wrath)": {
         "aspects": {
           "Label": "Deathwing Assault"
         },
         "keywords": {
           "Keywords": [
-            "Wrath of the Rock"
+            "Wrath Of The Rock"
           ]
         },
         "rules": {
@@ -2542,6 +2586,19 @@
           }
         },
         "text": "Deathwing model with the Deep Strike ability only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third movement phase, regardless of any mission rules."
+      },
+      "Enhancement§Entreaty of Perpetual Ardour (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Dark Age Arsenal"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Eye of the Unseen": {
         "keywords": {
@@ -2581,7 +2638,7 @@
       "Enhancement§Fulgus Magna": {
         "keywords": {
           "Keywords": [
-            "Lion’s Blade Task Force"
+            "Lion’S Blade Task Force"
           ]
         },
         "rules": {
@@ -2613,10 +2670,36 @@
         },
         "text": "Deathwing model only. Once per battle, at the end of your opponent’s turn, if the bearer’s unit is not within Engagement Range of one or more enemy units, the bearer can use this Enhancement. If it does, remove the bearer’s unit from the battlefield and place it into Strategic Reserves."
       },
+      "Enhancement§Inescapable Interrogation": {
+        "keywords": {
+          "Keywords": [
+            "Interrogation Conclave"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Limitless Zeal": {
+        "keywords": {
+          "Keywords": [
+            "Interrogation Conclave"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Lord of the Hunt": {
         "keywords": {
           "Keywords": [
-            "Lion’s Blade Task Force"
+            "Lion’S Blade Task Force"
           ]
         },
         "rules": {
@@ -2651,7 +2734,7 @@
       "Enhancement§Lord of the Ravenwing": {
         "keywords": {
           "Keywords": [
-            "Wrath of the Rock"
+            "Wrath Of The Rock"
           ]
         },
         "rules": {
@@ -2686,7 +2769,7 @@
       "Enhancement§Master of Manoeuvre": {
         "keywords": {
           "Keywords": [
-            "Company of Hunters"
+            "Company Of Hunters"
           ]
         },
         "rules": {
@@ -2718,10 +2801,10 @@
         },
         "text": "RAVENWING model only. If the bearer’s unit starts the battle in Strategic Reserves, its points value does not count towards the combined points limit for units from your army that are in Strategic Reserve, and for the purposes of setting up that unit on the battlefield, treat the current battle round number as being one higher than it actually is."
       },
-      "Enhancement§Master-Crafted Weapon": {
+      "Enhancement§Master-crafted Weapon": {
         "keywords": {
           "Keywords": [
-            "Company of Hunters"
+            "Company Of Hunters"
           ]
         },
         "rules": {
@@ -2795,7 +2878,7 @@
       "Enhancement§Mounted Strategist": {
         "keywords": {
           "Keywords": [
-            "Company of Hunters"
+            "Company Of Hunters"
           ]
         },
         "rules": {
@@ -2826,6 +2909,19 @@
           }
         },
         "text": "RAVENWING model only. You can re-roll Advance and Charge rolls made for the bearer’s unit."
+      },
+      "Enhancement§Nightforged Battery (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Darkflight Pursuit"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Pennant of Remembrance": {
         "keywords": {
@@ -2893,10 +2989,23 @@
         },
         "text": "Bladeguard Ancient, Primaris Ancient or Terminator Ancient model only. While the bearer is leading a unit, models in that unit have the Feel No Pain 6+ ability. While that unit is Battle-shocked, models in that unit have the Feel No Pain 4+ ability instead."
       },
+      "Enhancement§Petition of Stability (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Dark Age Arsenal"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Recon Hunter": {
         "keywords": {
           "Keywords": [
-            "Company of Hunters"
+            "Company Of Hunters"
           ]
         },
         "rules": {
@@ -2982,7 +3091,7 @@
       "Enhancement§Stalwart Champion": {
         "keywords": {
           "Keywords": [
-            "Lion’s Blade Task Force"
+            "Lion’S Blade Task Force"
           ]
         },
         "rules": {
@@ -3061,7 +3170,7 @@
       "Enhancement§Tempered in Battle (Aura)": {
         "keywords": {
           "Keywords": [
-            "Wrath of the Rock"
+            "Wrath Of The Rock"
           ]
         },
         "stats": {
@@ -3070,6 +3179,19 @@
           }
         },
         "text": "Adeptus Astartes model only. While a friendly Adeptus Astartes unit is within 6\" of this model, you can re-roll Battle-shock and Leadership tests taken for that unit."
+      },
+      "Enhancement§Thundercowl Turbines (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Darkflight Pursuit"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Weapons of the First Legion": {
         "keywords": {
@@ -3406,7 +3528,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 250
+            "value": 260
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "Watcher in the Dark": {
             "dynamic": true,
@@ -3528,7 +3656,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 360
+            "value": 330
           },
           "model2ndTally": {
             "value": 10
@@ -3546,7 +3674,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 180
+            "value": 165
           },
           "Watcher in the Dark": {
             "dynamic": true,
@@ -3652,6 +3780,12 @@
           },
           "Points": {
             "value": 90
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -3716,6 +3850,11 @@
             "evaluate": "AND",
             "failState": "pass",
             "order": 200
+          }
+        },
+        "stats": {
+          "Points": {
+            "value": 70
           }
         }
       },
@@ -3932,7 +4071,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 80
+            "value": 85
           },
           "Ravenwing Black Knight": {
             "max": 5,
@@ -3941,6 +4080,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -8767,7 +8912,7 @@
             "value": 3
           },
           "Points": {
-            "value": 120
+            "value": 130
           },
           "Ranged Options": {
             "dynamic": true,
@@ -8800,6 +8945,12 @@
           },
           "T": {
             "value": 8
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 10
@@ -8980,7 +9131,7 @@
             "value": 0
           },
           "Points": {
-            "value": 210
+            "value": 200
           },
           "Sv": {
             "value": 3
@@ -9046,7 +9197,7 @@
             "value": 3
           },
           "Points": {
-            "value": 100
+            "value": 80
           },
           "Ranged Options": {
             "dynamic": true,

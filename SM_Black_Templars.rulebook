@@ -1,6 +1,6 @@
 {
   "name": "Black Templars 11e",
-  "revision": "11.0.0",
+  "revision": "11.0.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -9,7 +9,7 @@
   "wip": false,
   "dependencies": [
     {
-      "slug": "HTRPJK",
+      "slug": "",
       "name": "Space Marines 11e",
       "game": "Warhammer 40k",
       "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k11e/main/Space_Marines.rulebook"
@@ -721,7 +721,7 @@
             "value": 1
           },
           "Points": {
-            "value": 55
+            "value": 45
           },
           "Sv": {
             "value": 3
@@ -960,7 +960,7 @@
             "value": 1
           },
           "Points": {
-            "value": 80
+            "value": 90
           },
           "Ranged Option": {
             "dynamic": true,
@@ -993,6 +993,12 @@
           },
           "T": {
             "value": 4
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 5
@@ -1073,6 +1079,9 @@
         "keywords": {
           "Keywords": [
             "Companions of Vehemence"
+          ],
+          "Role": [
+            "Purge The Foe"
           ]
         },
         "rules": {
@@ -1168,12 +1177,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "**Righteous Fervour**\n\nYou can re-roll Advance and Charge rolls made for Adeptus Astartes units from your army."
       },
       "Detachment§Godhammer Assault Force": {
         "keywords": {
           "Keywords": [
             "Godhammer Assault Force"
+          ],
+          "Role": [
+            "Disruption"
           ]
         },
         "rules": {
@@ -1269,13 +1286,58 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## Shock and Awe\n\nEach time an Adeptus Astartes unit from your army declares a charge, if it disembarked from a Transport this turn, after selecting the targets of that charge, select one of those targets; that enemy unit must take a Battle-shock test.\n\nEach time a model in an Adeptus Astartes unit from your army makes a melee attack, if it disembarked from a Transport this turn, add 1 to the Hit roll."
       },
-      "Detachment§Ironstorm Spearhead": {},
+      "Detachment§Ironstorm Spearhead": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        }
+      },
+      "Detachment§Marshal's Household": {
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
+      "Detachment§The Living Miracle": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
       "Detachment§Vindication Task Force": {
         "keywords": {
           "Keywords": [
             "Vindication Task Force"
+          ],
+          "Role": [
+            "Priority Assets"
           ]
         },
         "rules": {
@@ -1371,11 +1433,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## Purge and Sanctify\n\nEach time an attack targets an Ancient unit from your army, if that unit is within range of one or more objective markers and the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll.\n\nEach time a Crusader Squad unit from your army makes a Righteous Zeal move, that unit can end that move as close as possible to the closest objective marker instead of as close as possible to the closest enemy unit."
       },
       "Detachment§Wrathful Procession": {
         "keywords": {
-          "Keywords": []
+          "Keywords": [],
+          "Role": [
+            "Take And Hold"
+          ]
         },
         "rules": {
           "assignStratagems": {
@@ -1470,7 +1540,38 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
         "text": "ZEALOUS LITANIES\n\nAt the start of the battle round, you can\nselect one of the Litanies listed below. If\nyou do, until the end of the battle round,\nthat Litany is active and its effects apply\nto all **Adeptus Astartes Infantry** and\n**Adeptus Astartes Mounted** units from\nyour army.\n\n**Chorus of Relentless Hate:**\nAdd 2\" to the Move characteristic of\nmodels in this unit and add 1 to Advance\nrolls made for it.\n\n**Rite of Perfervid Wrath:**\nAdd 1 to the Strength characteristic of\nmelee weapons equipped by models in\nthis unit.\n\n**Chant of Deathless Devotion:**\nModels in this unit have a 5+\ninvulnerable save against ranged attacks.\n\nRESTRICTIONS\n\nYour army can include\n**Black Templars** units, but it *cannot*\ninclude **Adeptus Astartes** units drawn\nfrom any other Chapter."
+      },
+      "Enhancement§Adaptable Executioner": {
+        "keywords": {
+          "Keywords": [
+            "Wrathful Procession"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Adept of the Omnissiah": {
+        "keywords": {
+          "Keywords": [
+            "Ironstorm Spearhead"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 35
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Augury Servo-Host": {
         "keywords": {
@@ -1560,7 +1661,7 @@
         },
         "stats": {
           "Points": {
-            "value": 10
+            "value": 15
           }
         },
         "text": "**Chaplain** model only. The bearer’s melee weapons\nhave the **[DEVASTATING WOUNDS]** ability."
@@ -1610,6 +1711,32 @@
           }
         },
         "text": "Adeptus Astartes model only. Models in the bearer's unit have a 5+ invulnerable save."
+      },
+      "Enhancement§Fervent Exemplars (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Marshal'S Household"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Guiding Omens": {
+        "keywords": {
+          "Keywords": [
+            "The Living Miracle"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Herald of Sacred Slaughter": {
         "keywords": {
@@ -1662,7 +1789,7 @@
       "Enhancement§Incendiary Animus": {
         "keywords": {
           "Keywords": [
-            "Companions of Vehemence"
+            "Companions Of Vehemence"
           ]
         },
         "rules": {
@@ -1708,10 +1835,36 @@
         },
         "text": "Chaplain or Judiciar model only. Improve the Armour Penetration characteristic of melee weapons equipped by models in the bearer's unit by 1."
       },
+      "Enhancement§Inheritors of Sigismund (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Marshal'S Household"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Master of Machine War": {
+        "keywords": {
+          "Keywords": [
+            "Ironstorm Spearhead"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Merciless Denunciation": {
         "keywords": {
           "Keywords": [
-            "Companions of Vehemence"
+            "Companions Of Vehemence"
           ]
         },
         "rules": {
@@ -1760,7 +1913,7 @@
       "Enhancement§Oathbound Exemplar": {
         "keywords": {
           "Keywords": [
-            "Companions of Vehemence"
+            "Companions Of Vehemence"
           ]
         },
         "rules": {
@@ -1793,11 +1946,6 @@
         "text": "Adeptus Astartes Infantry model only. Add 1 to the Advance rolls made for the bearer's unit. If the mission pack you are playing features Actions, the bearer's unit is eligible to start to perform an Action in a turn in which it Advanced."
       },
       "Enhancement§Orb of the Emperor's Aegis": {
-        "keywords": {
-          "Keywords": [
-            "Vindication Task Force"
-          ]
-        },
         "rules": {
           "apply": {
             "actions": [
@@ -1828,6 +1976,19 @@
           }
         },
         "text": "Adeptus Astartes model only. Models in the bearer's unit have the Deep Strike ability."
+      },
+      "Enhancement§Orb of the Emperor’s Aegis": {
+        "keywords": {
+          "Keywords": [
+            "Vindication Task Force"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Paragon of Fury": {
         "keywords": {
@@ -1961,11 +2122,6 @@
         "text": "Adeptus Astartes model only.\n* Improve the Strength and Armour Penetration characteristics of the bearer’s melee weapons by 1.\n* If the Suffer Not the Unclean to Live vow is active for your army, add 1 to the Attacks characteristic of the bearer’s melee weapons as well."
       },
       "Enhancement§Pyrebrand": {
-        "keywords": {
-          "Keywords": [
-            "Wrathful Procession"
-          ]
-        },
         "rules": {
           "apply": {
             "actions": [
@@ -1999,11 +2155,6 @@
         "text": "**Black Templars** model only. Models in the bearer’s\nunit have the Stealth ability."
       },
       "Enhancement§Sacred Rage": {
-        "keywords": {
-          "Keywords": [
-            "Wrathful Procession"
-          ]
-        },
         "stats": {
           "Points": {
             "value": 30
@@ -2082,17 +2233,38 @@
         "text": "Adeptus Astartes model only.\n* Each time an attack is allocated to the bearer, halve the Damage characteristic of that attack.\n* While the bearer is leading a unit, if the Uphold the Honour of the Emperor vow is active for your army, models in that unit have the Feel No Pain 5+ ability."
       },
       "Enhancement§Taramond's Censer": {
-        "keywords": {
-          "Keywords": [
-            "Wrathful Procession"
-          ]
-        },
         "stats": {
           "Points": {
             "value": 15
           }
         },
         "text": "**Black Templars** model only. At the start of the Fight\nphase, each enemy unit within Engagement Range of\nthe bearer’s unit must take a Battle‑shock test. When\ndoing so, subtract 1 from the result."
+      },
+      "Enhancement§Target Augury Web": {
+        "keywords": {
+          "Keywords": [
+            "Ironstorm Spearhead"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 30
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§The Flesh Is Weak": {
+        "keywords": {
+          "Keywords": [
+            "Ironstorm Spearhead"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Warden of Honour": {
         "keywords": {
@@ -2229,7 +2401,7 @@
       "Enhancement§Zealous Vanguard": {
         "keywords": {
           "Keywords": [
-            "Companions of Vehemence"
+            "Companions Of Vehemence"
           ]
         },
         "rules": {
@@ -9706,6 +9878,36 @@
           ]
         },
         "text": "**WHEN:** Your Command phase.\n\n**TARGET:** One **Adeptus Astartes Infantry** or\n**Adeptus Astartes Mounted** unit from your army.\n\n**EFFECT:** Select the Chorus of Relentless Hate, Rite\nof Perfervid Wrath or Chant of Deathless Devotion\nLitany. Until the end of the battle round, that Litany is\nactive for your unit instead of any other Litany that is\nactive for your army."
+      },
+      "Unit§Crusader Squad": {
+        "stats": {
+          "Points": {
+            "value": 150
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
+      },
+      "Unit§Emperor’s Champion": {
+        "stats": {
+          "Points": {
+            "value": 100
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
+      },
+      "Unit§Sword Brethren Squad": {
+        "stats": {
+          "Points": {
+            "value": 120
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
       },
       "Vehicle§Black Templars Gladiator Lancer": {
         "assets": {

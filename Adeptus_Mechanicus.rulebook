@@ -1,6 +1,6 @@
 {
   "name": "Adeptus Mechanicus 11e",
-  "revision": "11.0.0",
+  "revision": "11.0.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -9,7 +9,7 @@
   "wip": false,
   "dependencies": [
     {
-      "slug": "PCAPDR",
+      "slug": "RG5MGU",
       "name": "Imperium 11e",
       "game": "Warhammer 40k",
       "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k11e/main/Imperium.rulebook"
@@ -1211,7 +1211,7 @@
             "value": 3
           },
           "Points": {
-            "value": 210
+            "value": 220
           },
           "SCommander": {
             "statType": "numeric",
@@ -1281,7 +1281,7 @@
             "value": 1
           },
           "Points": {
-            "value": 35
+            "value": 25
           },
           "Sv": {
             "value": 2
@@ -1883,7 +1883,7 @@
             "value": 3
           },
           "Points": {
-            "value": 210
+            "value": 180
           },
           "SCommander": {
             "statType": "numeric",
@@ -2025,7 +2025,25 @@
         },
         "text": "Once per battle round, while the bearer is leading a unit, you can target that unit with the Fire Overwatch Stratagem for OCR and can do so even if you have already targeted a different unit with that Stratagem this phase."
       },
+      "Detachment§Cohort Acquisitus": {
+        "keywords": {
+          "Role": [
+            "Reconnaissance"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
       "Detachment§Cohort Cybernetica": {
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
         "rules": {
           "assignStratagem": {
             "actions": [
@@ -2119,9 +2137,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## Cyber-Psalm Programming\n\nAdd 2\" to the Move characteristic of models in LEGIO CYBERNETICA units from your army. In addition, unless that unit is Battle-shocked, add 1 to the Objective Control characteristic of models in that unit."
       },
       "Detachment§Data-psalm Conclave": {
+        "keywords": {
+          "Role": [
+            "Disruption"
+          ]
+        },
         "rules": {
           "assignStratagem": {
             "actions": [
@@ -2215,9 +2243,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "At the start of the first battle round, select one of the following Benedictions of the Omnissiah to be active for Cult Mechanicus units from your army until the end of the battle:\n\n\n### PANEGYRIC PROCESSION\nEach time a Cult Mechanicus model from your army makes a ranged attack that targets a unit within half range, improve the Armour Penetration characteristic of that attack by 1.\n\n\n### CITATION IN SAVAGERY\nEach time a Cult Mechanicus unit from your army is selected to fight, if that unit made a Charge move this turn, until the end of the phase, add 1 to the Strength and Attacks characteristics of melee weapons equipped by models in that unit."
       },
       "Detachment§Eradication Cohort": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -2311,9 +2349,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "## MURDEROUS IMPERATIVE\n\nEach time a model in a Skitarii unit from\nyour army makes an attack:\n\n■ If the Protector Imperative is active for\nthat unit, re‑roll a Hit roll of 1.\n\n■ If the Conqueror Imperative is active\nfor that unit, re‑roll a Wound roll of 1."
       },
       "Detachment§Explorator Maniple": {
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -2407,9 +2455,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "At the start of your Command phase, select one objective marker. Until the start of your next Command phase, that objective marker is your Acquisition objective marker. Each time an Adeptus Mechanicus model from your army makes an attack, if that model’s unit is within range of your Acquisition objective marker, or if the target of that attack is within range of your Acquisition objective marker, re-roll a Wound roll of 1."
       },
       "Detachment§Haloscreed Battle Clade": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -2503,9 +2561,45 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "**Noospheric Transference**\n\nIn your Command phase, select one or more **Adeptus Mechanicus** units from your army (including units that are embarked within Transports). The maximum number of units you can select depends on the battle size, as follows:\n\n|||\n|---|---|\n|INCURSION|1 UNITS|\n|STRIKE FORCE| 2 UNITS|\n|ONSLAUGHT|3 UNITS|\n\nUntil the start of your next Command phase, those units gain the Halo Override keyword. Then, select one of the Override abilities below. Until the start of your next Command phase, units from your army with the Halo Override keyword have the selected Override ability: Electromotive Energisation Add 2\" to the Move characteristic of models in this unit. Microactuator Bracing Add 1 to the Toughness characteristic of models in this unit. Predation Protocols This unit is eligible to declare a charge in a turn in which it Advanced. Muted Servomotors Models in this unit have the Stealth ability"
       },
+      "Detachment§Lords Of The Forge": {
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
+      "Detachment§Luminen Auto-Choir": {
+        "keywords": {
+          "Role": [
+            "Disruption"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
       "Detachment§Rad-Zone Corps": {
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -2599,9 +2693,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "### BOMBARDMENT\nAt the start of the first battle round, for each enemy unit within your opponent’s deployment zone, your opponent must decide whether that unit will take cover or stand firm. You then roll one D6 for each of those enemy units and apply the relevant result below:\n\n* Unit Standing Firm: On a 3+, that unit suffers D3 mortal wounds.\n\n* Unit Taking Cover: Until the end of the battle round, that unit is Battle-shocked and, on a 5+, that unit suffers D3 mortal wounds.\n\n### FALLOUT\nAt the start of your Command phase during the second, third, fourth and fifth battle rounds, roll one D6 for each enemy unit within your opponent’s deployment zone. On a 3+, that unit suffers 1 mortal wound and must take a Battle-shock test."
       },
       "Detachment§Skitarii Hunter Cohort": {
+        "keywords": {
+          "Role": [
+            "Reconnaissance"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -2695,6 +2799,11 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "Skitarii Infantry, Skitarii Mounted and Ironstrider Ballistarii units from your army have the Stealth ability, and each time a ranged attack targets a Sicarian unit from your army, unless the attacking model is within 12″, the target has the Benefit of Cover against that attack."
       },
       "Enhancement§Arch-negator": {
@@ -2772,7 +2881,7 @@
         },
         "stats": {
           "Points": {
-            "value": 10
+            "value": 5
           }
         },
         "text": "Tech-Priest model only. Ranged weapons equipped by the bearer have the [ANTI-VEHICLE 4+] ability."
@@ -2807,7 +2916,7 @@
         },
         "stats": {
           "Points": {
-            "value": 15
+            "value": 10
           }
         },
         "text": "Tech-Priest model only. While the bearer is leading a unit that is within range of your Acquisition objective marker, once per phase, you can change the result of one Hit roll, one Wound roll or one saving throw made for that unit to an unmodified 6."
@@ -2939,12 +3048,12 @@
         },
         "stats": {
           "Points": {
-            "value": 30
+            "value": 25
           }
         },
         "text": "Skitarii model only. In your Shooting phase, after the bearer’s unit has shot, if it is not within Engagement Range of one or more enemy units, that unit can make a Normal move of up to 6″. If it does, until the end of the turn, that unit is not eligible to declare a charge."
       },
-      "Enhancement§Belicosa-Class Capacitor Vanes": {
+      "Enhancement§Belicosa-class Capacitor Vanes": {
         "keywords": {
           "Keywords": [
             "Eradication Cohort"
@@ -3084,7 +3193,7 @@
         },
         "stats": {
           "Points": {
-            "value": 30
+            "value": 25
           }
         },
         "text": "**ADEPTUS MECHANICUS** model only. Add 6\" to the Range characteristic of ranged weapons equipped by models in the bearer's unit, and add 1 to the Strength characteristic of those weapons."
@@ -3197,7 +3306,7 @@
         },
         "stats": {
           "Points": {
-            "value": 20
+            "value": 15
           }
         },
         "text": "Skitarii model only. The bearer, and models in any unit they are leading, have the Infiltrators and Scouts 6″ abilities."
@@ -3232,7 +3341,7 @@
         },
         "stats": {
           "Points": {
-            "value": 35
+            "value": 30
           }
         },
         "text": "Adeptus Mechanicus model only (excluding Cybernetica Datasmith models). The Conqueror Imperative and Protector Imperative are both active for the bearer’s unit."
@@ -3240,7 +3349,7 @@
       "Enhancement§Data-blessed Autosermon": {
         "keywords": {
           "Keywords": [
-            "Data-psalm Conclave"
+            "Data-Psalm Conclave"
           ]
         },
         "rules": {
@@ -3267,10 +3376,23 @@
         },
         "stats": {
           "Points": {
-            "value": 20
+            "value": 15
           }
         },
         "text": "Tech-Priest model only. Once per battle, at the start of your Command phase, you can select the Benediction of the Omnissiah you did not select at the start of the first battle round. Until the start of your next Command phase, that Benediction of the Omnissiah is active for the bearer’s unit in addition to the one that is currently active for your army."
+      },
+      "Enhancement§Electromiasmic Brazier": {
+        "keywords": {
+          "Keywords": [
+            "Luminen Auto-Choir"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Emotionless Clarity": {
         "keywords": {
@@ -3302,10 +3424,23 @@
         },
         "stats": {
           "Points": {
-            "value": 15
+            "value": 10
           }
         },
         "text": "Tech-Priest model only. Once per turn, when a friendly Legio Cybernetica or Adeptus Mechanicus Vehicle model with the Deadly Demise ability that is within 12″ of the bearer is destroyed, the bearer can use this Enhancement. If it does, do not roll to determine whether any mortal wounds are inflicted as a result of that model’s Deadly Demise ability. Instead, mortal wounds are automatically inflicted."
+      },
+      "Enhancement§Explorator Dispensation": {
+        "keywords": {
+          "Keywords": [
+            "Cohort Acquisitus"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Genetor": {
         "keywords": {
@@ -3337,7 +3472,7 @@
         },
         "stats": {
           "Points": {
-            "value": 25
+            "value": 20
           }
         },
         "text": "Tech-Priest model only. While the bearer is leading a unit that is within range of your Acquisition objective marker, models in that unit have a 4+ invulnerable save."
@@ -3502,7 +3637,7 @@
         },
         "stats": {
           "Points": {
-            "value": 20
+            "value": 15
           }
         },
         "text": "Tech-Priest model only. While the bearer is leading a unit, each time a model in that unit makes an attack that targets a unit within range of your Acquisition objective marker, add 1 to the Hit roll."
@@ -3537,7 +3672,7 @@
         },
         "stats": {
           "Points": {
-            "value": 20
+            "value": 15
           }
         },
         "text": "Tech-Priest model only. Once per turn, at the start of your opponent’s Shooting phase, select one enemy Vehicle unit within 12″ of and visible to the bearer. That unit must take a Leadership test: if that test is passed, until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll; if that test is failed, that unit is not eligible to shoot this phase."
@@ -3572,7 +3707,7 @@
         },
         "stats": {
           "Points": {
-            "value": 15
+            "value": 10
           }
         },
         "text": "Tech-Priest model only. At the end of your Command phase, if the bearer is within range of your Acquisition objective marker, roll one D6: on a 4+, you gain 1CP."
@@ -3593,7 +3728,7 @@
       "Enhancement§Mantle of the Gnosticarch": {
         "keywords": {
           "Keywords": [
-            "Data-psalm Conclave"
+            "Data-Psalm Conclave"
           ]
         },
         "rules": {
@@ -3620,7 +3755,7 @@
         },
         "stats": {
           "Points": {
-            "value": 15
+            "value": 10
           }
         },
         "text": "Tech-Priest model only. Each time an attack is allocated to the bearer, change the Damage characteristic of that attack to 1."
@@ -3696,7 +3831,7 @@
       "Enhancement§Mechanicus Locum": {
         "keywords": {
           "Keywords": [
-            "Data-psalm Conclave"
+            "Data-Psalm Conclave"
           ]
         },
         "rules": {
@@ -3723,7 +3858,7 @@
         },
         "stats": {
           "Points": {
-            "value": 10
+            "value": 5
           }
         },
         "text": "Tech-Priest model only. The bearer has a Leadership characteristic of 6+ and, once per battle, at the start of any phase, you can select one friendly Cult Mechanicus unit that is Battle-shocked and within 12″ of the bearer. That unit is no longer Battle-shocked."
@@ -3758,7 +3893,7 @@
         },
         "stats": {
           "Points": {
-            "value": 25
+            "value": 20
           }
         },
         "text": "Tech-Priest model only. Once per battle round, when a saving throw made for a friendly Legio Cybernetica or Adeptus Mechanicus Vehicle model within 12″ of the bearer is failed, the bearer can use this Enhancement. If they do, change the Damage characteristic of that attack to 0."
@@ -3799,11 +3934,6 @@
         "text": "**SKITARII MARSHAL** model only. The Conqueror Imperative and Protector Imperative are both active for the bearer's unit."
       },
       "Enhancement§Omnissiah's Fury": {
-        "keywords": {
-          "Keywords": [
-            "Eradication Cohort"
-          ]
-        },
         "rules": {
           "apply": {
             "actions": [
@@ -3925,6 +4055,19 @@
         },
         "text": "**SKITARII MARSHAL** model only. Add 2 to the Attacks characteristic of melee weapons equipped by the bearer, and improve the Armour Penetration and Damage characteristics of those weapons by 1."
       },
+      "Enhancement§Omnissiah’s Fury": {
+        "keywords": {
+          "Keywords": [
+            "Eradication Cohort"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Peerless Eradicator": {
         "keywords": {
           "Keywords": [
@@ -3964,10 +4107,23 @@
         },
         "text": "Adeptus Mechanicus model only. Add 6\" to the range characteristic of ranged weapons equipped by models in the bearer’s unit and, each time a Hazardous test is taken for that unit, you can re‑roll the result."
       },
+      "Enhancement§Stealth-screened Cybercanids (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Cohort Acquisitus"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Temporcopia": {
         "keywords": {
           "Keywords": [
-            "Data-psalm Conclave"
+            "Data-Psalm Conclave"
           ]
         },
         "rules": {
@@ -4013,10 +4169,23 @@
         },
         "stats": {
           "Points": {
-            "value": 25
+            "value": 20
           }
         },
         "text": "Tech-Priest model only. The bearer’s unit has the Fights First ability."
+      },
+      "Enhancement§TL-4ø9": {
+        "keywords": {
+          "Keywords": [
+            "Lords Of The Forge"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 30
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Transoracular Dyad Wafers": {
         "keywords": {
@@ -4087,6 +4256,32 @@
           }
         },
         "text": "Skitarii Marshal model only. After both players have deployed their armies, you can select up to three Skitarii Infantry units from your army and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+      },
+      "Enhancement§Vingh’s Wafers of Dynamism": {
+        "keywords": {
+          "Keywords": [
+            "Lords Of The Forge"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Voltagheist Reliquary": {
+        "keywords": {
+          "Keywords": [
+            "Luminen Auto-Choir"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Melee Weapon§Archaeopter Fusilave—Armoured hull": {
         "aspects": {
@@ -12755,7 +12950,7 @@
             "value": 0
           },
           "Points": {
-            "value": 150
+            "value": 145
           },
           "Sv": {
             "value": 3
@@ -13044,7 +13239,13 @@
             "value": 5
           },
           "Points": {
-            "value": 135
+            "value": 130
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -13120,7 +13321,13 @@
             "value": 5
           },
           "Points": {
-            "value": 145
+            "value": 130
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -13189,7 +13396,7 @@
             "value": 1
           },
           "model2ndCost": {
-            "value": 170
+            "value": 175
           },
           "model2ndTally": {
             "value": 2
@@ -13213,7 +13420,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 85
+            "value": 95
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -13282,7 +13495,7 @@
             "value": 2
           },
           "model2ndCost": {
-            "value": 360
+            "value": 340
           },
           "model2ndTally": {
             "value": 4
@@ -13301,6 +13514,12 @@
           },
           "Points": {
             "value": 180
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           }
         }
       },
@@ -13381,7 +13600,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 160
+            "value": 150
           }
         }
       },
@@ -13462,7 +13681,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 105
+            "value": 100
           }
         }
       },
@@ -13755,7 +13974,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 150
+            "value": 160
           },
           "model2ndTally": {
             "value": 10
@@ -13773,7 +13992,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 75
+            "value": 90
           },
           "Pteraxii Skystalker": {
             "max": 9,
@@ -13782,6 +14001,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -13835,7 +14060,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 160
+            "value": 170
           },
           "model2ndTally": {
             "value": 10
@@ -13853,7 +14078,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 80
+            "value": 90
           },
           "Pteraxii Sterylizor": {
             "max": 9,
@@ -13862,6 +14087,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -14613,6 +14844,14 @@
           }
         }
       },
+      "Unit§Servitor Battleclade": {
+        "stats": {
+          "Points": {
+            "value": 65
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
+      },
       "Unit§Servitors": {
         "allowed": {
           "items": [
@@ -14751,7 +14990,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 155
+            "value": 165
           },
           "model2ndTally": {
             "value": 10
@@ -14769,7 +15008,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 75
+            "value": 85
           },
           "Sicarian Infiltrator": {
             "max": 9,
@@ -14778,6 +15017,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -14829,7 +15074,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 165
+            "value": 170
           },
           "model2ndTally": {
             "value": 10
@@ -14847,7 +15092,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 80
+            "value": 85
           },
           "Sicarian Ruststalker": {
             "max": 9,
@@ -14856,6 +15101,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -15268,7 +15519,7 @@
             "value": 10
           },
           "Points": {
-            "value": 95
+            "value": 90
           },
           "Skitarii Vanguard": {
             "max": 9,
@@ -15374,7 +15625,7 @@
             "value": 3
           },
           "Points": {
-            "value": 165
+            "value": 160
           },
           "Sv": {
             "value": 2
@@ -15615,13 +15866,13 @@
             "value": 1
           },
           "model2ndCost": {
-            "value": 130
+            "value": 120
           },
           "model2ndTally": {
             "value": 2
           },
           "model3rdCost": {
-            "value": 195
+            "value": 170
           },
           "model3rdTally": {
             "value": 3
@@ -15639,7 +15890,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 65
+            "value": 60
           },
           "Sydonian Dragoon with Taser Lances": {
             "max": 3,

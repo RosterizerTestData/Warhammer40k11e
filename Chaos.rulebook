@@ -1,6 +1,6 @@
 {
   "name": "Chaos 11e",
-  "revision": "11.0.0",
+  "revision": "11.0.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -10,7 +10,7 @@
   "isModule": true,
   "dependencies": [
     {
-      "slug": "PCJ8SD",
+      "slug": "DGST2Y",
       "name": "40k 11e",
       "game": "Warhammer 40k",
       "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k11e/main/Warhammer_40k_11e.rulebook"
@@ -2277,7 +2277,7 @@
             "value": 5
           },
           "Points": {
-            "value": 375
+            "value": 390
           },
           "Sv": {
             "value": 3
@@ -2472,13 +2472,19 @@
             "value": 5
           },
           "Points": {
-            "value": 305
+            "value": 335
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 18
@@ -2637,6 +2643,12 @@
           "T": {
             "value": 11
           },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 2
+          },
           "W": {
             "value": 28
           }
@@ -2710,13 +2722,19 @@
             "value": 10
           },
           "Points": {
-            "value": 395
+            "value": 415
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 28
@@ -2802,6 +2820,12 @@
           "T": {
             "value": 11
           },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 2
+          },
           "W": {
             "value": 28
           }
@@ -2875,13 +2899,19 @@
             "value": 10
           },
           "Points": {
-            "value": 385
+            "value": 415
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 28
@@ -4000,13 +4030,19 @@
             "value": 10
           },
           "Points": {
-            "value": 375
+            "value": 390
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 26
@@ -4110,13 +4146,19 @@
             "value": 10
           },
           "Points": {
-            "value": 375
+            "value": 380
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 26
@@ -4596,7 +4638,7 @@
             "value": 3
           },
           "Points": {
-            "value": 190
+            "value": 165
           },
           "Sv": {
             "value": 2
@@ -4913,7 +4955,7 @@
             "value": 3
           },
           "Points": {
-            "value": 180
+            "value": 190
           },
           "Sv": {
             "value": 2
@@ -5383,7 +5425,7 @@
             "value": 1
           },
           "Points": {
-            "value": 60
+            "value": 80
           },
           "Sv": {
             "value": 6
@@ -5475,13 +5517,19 @@
             "value": 5
           },
           "Points": {
-            "value": 250
+            "value": 280
           },
           "Sv": {
             "value": 5
           },
           "T": {
             "value": 12
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 20
@@ -5841,7 +5889,7 @@
             "value": 3
           },
           "Points": {
-            "value": 75
+            "value": 70
           },
           "Sv": {
             "value": 7
@@ -5964,13 +6012,19 @@
             "value": 5
           },
           "Points": {
-            "value": 240
+            "value": 270
           },
           "Sv": {
             "value": 5
           },
           "T": {
             "value": 10
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 18
@@ -6051,13 +6105,19 @@
             "value": 10
           },
           "Points": {
-            "value": 355
+            "value": 370
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 26
@@ -6161,13 +6221,19 @@
             "value": 10
           },
           "Points": {
-            "value": 355
+            "value": 370
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 26
@@ -6270,7 +6336,7 @@
             "visibility": "active"
           },
           "Points": {
-            "value": 390
+            "value": 400
           },
           "Sponson Weapon": {
             "dynamic": true,
@@ -6314,6 +6380,12 @@
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 26
@@ -6498,13 +6570,19 @@
             "value": 10
           },
           "Points": {
-            "value": 365
+            "value": 380
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 26
@@ -6591,6 +6669,12 @@
           "T": {
             "value": 11
           },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          },
           "W": {
             "value": 26
           }
@@ -6667,7 +6751,7 @@
             "value": 10
           },
           "Points": {
-            "value": 410
+            "value": 420
           },
           "Sponson Weapons": {
             "dynamic": true,
@@ -6712,6 +6796,12 @@
           },
           "T": {
             "value": 12
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 28
@@ -6852,13 +6942,19 @@
             "value": 5
           },
           "Points": {
-            "value": 285
+            "value": 315
           },
           "Sv": {
             "value": 6
           },
           "T": {
             "value": 10
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 18
@@ -7070,13 +7166,19 @@
             "value": 3
           },
           "Points": {
-            "value": 165
+            "value": 170
           },
           "Sv": {
             "value": 4
           },
           "T": {
             "value": 9
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 9
@@ -7167,7 +7269,7 @@
             "value": 5
           },
           "Points": {
-            "value": 265
+            "value": 280
           },
           "Sv": {
             "value": 5
@@ -7347,7 +7449,7 @@
             "value": 5
           },
           "Points": {
-            "value": 305
+            "value": 315
           },
           "Sv": {
             "value": 3
@@ -7418,7 +7520,7 @@
             "value": 2
           },
           "Points": {
-            "value": 100
+            "value": 85
           },
           "Sv": {
             "value": 3
@@ -8169,7 +8271,7 @@
             "value": 1
           },
           "Points": {
-            "value": 90
+            "value": 105
           },
           "Sv": {
             "value": 7
@@ -8315,7 +8417,7 @@
             "value": 3
           },
           "Points": {
-            "value": 140
+            "value": 135
           },
           "Sv": {
             "value": 5
@@ -37954,7 +38056,7 @@
             "value": 1
           },
           "model2ndCost": {
-            "value": 130
+            "value": 140
           },
           "model2ndTally": {
             "value": 2
@@ -37972,7 +38074,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 65
+            "value": 70
           }
         }
       },
@@ -38218,7 +38320,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 220
+            "value": 190
           },
           "model2ndTally": {
             "value": 6
@@ -38236,7 +38338,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 110
+            "value": 105
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -38391,7 +38499,7 @@
             "value": 10
           },
           "Points": {
-            "value": 110
+            "value": 90
           }
         }
       },
@@ -38472,7 +38580,7 @@
             "value": 10
           },
           "Points": {
-            "value": 125
+            "value": 90
           }
         }
       },
@@ -38622,13 +38730,19 @@
             "value": 10
           },
           "Points": {
-            "value": 765
+            "value": 860
           },
           "Sv": {
             "value": 2
           },
           "T": {
             "value": 13
+          },
+          "unitDiscount": {
+            "value": 75
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 30
@@ -38777,13 +38891,19 @@
             "value": 10
           },
           "Points": {
-            "value": 700
+            "value": 800
           },
           "Sv": {
             "value": 2
           },
           "T": {
             "value": 13
+          },
+          "unitDiscount": {
+            "value": 75
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 30
@@ -39126,7 +39246,7 @@
             "visibility": "normal"
           },
           "model1stTally": {
-            "value": 0
+            "value": 1
           },
           "Models": {
             "max": 0,
@@ -39629,7 +39749,7 @@
             "value": 10
           },
           "Points": {
-            "value": 100
+            "value": 90
           }
         }
       },
@@ -39963,7 +40083,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 190
+            "value": 180
           },
           "model2ndTally": {
             "value": 6
@@ -39981,7 +40101,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 95
+            "value": 90
           }
         }
       },
@@ -41265,13 +41385,11 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 70
+            "value": 90
           },
           "model2ndTally": {
             "value": 6
           },
-          "model3rdCost": {},
-          "model3rdTally": {},
           "modelKey": {
             "value": "Model§Nurgling Swarm"
           },
@@ -41293,7 +41411,7 @@
             "visibility": "hidden"
           },
           "Points": {
-            "value": 40
+            "value": 45
           }
         }
       },
@@ -41468,7 +41586,7 @@
             "visibility": "hidden"
           },
           "Points": {
-            "value": 140
+            "value": 115
           }
         }
       },
@@ -41787,7 +41905,7 @@
             "visibility": "hidden"
           },
           "Points": {
-            "value": 110
+            "value": 115
           }
         }
       },
@@ -42517,7 +42635,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 160
+            "value": 155
           },
           "model2ndTally": {
             "value": 10
@@ -42664,7 +42782,7 @@
             "value": 3
           },
           "Points": {
-            "value": 95
+            "value": 90
           },
           "Sv": {
             "value": 4
@@ -42931,13 +43049,19 @@
             "value": 5
           },
           "Points": {
-            "value": 180
+            "value": 195
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 14
@@ -43602,7 +43726,7 @@
             "value": 6
           },
           "Points": {
-            "value": 150
+            "value": 155
           },
           "Sponson Weapon": {
             "dynamic": true,
@@ -43814,13 +43938,19 @@
             "value": 6
           },
           "Points": {
-            "value": 150
+            "value": 160
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 9
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 14
@@ -44231,6 +44361,598 @@
           }
         },
         "text": ""
+      },
+      "Vehicle§Chaos Land Raider": {
+        "aspects": {
+          "Type": "game piece"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D6"
+                }
+              }
+            },
+            "Ability§Dark Pacts",
+            "Ability§Assault Ramp",
+            {
+              "item": "Ability§Damaged:",
+              "stats": {
+                "x": {
+                  "value": "1-5 wounds remaining"
+                }
+              }
+            },
+            {
+              "item": "Ability§Transport",
+              "text": "This model has a transport capacity of 12 Heretic Astartes Infantry models (excluding Obliterator and Jump Pack models). Each Possessed, Mutilator and Terminator model takes up the space of 2 models."
+            },
+            "Ranged Weapon§Chaos Land Raider—Soulshatter lascannon",
+            "Ranged Weapon§Chaos Land Raider—Twin heavy bolter",
+            "Melee Weapon§Chaos Land Raider—Armoured tracks",
+            "Ranged Weapon§Chaos Land Raider—Soulshatter lascannon"
+          ]
+        },
+        "keywords": {
+          "Faction": [
+            "Heretic Astartes"
+          ],
+          "Source": [
+            "10th Edition Codex"
+          ],
+          "Keywords": [
+            "Vehicle",
+            "Transport",
+            "Smoke",
+            "Chaos",
+            "Land Raider"
+          ],
+          "Category": [
+            "Vehicle"
+          ]
+        },
+        "stats": {
+          "Combi Option": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Combi-bolter": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Land Raider—Combi-bolter"
+                  }
+                ]
+              },
+              "Combi-weapon": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Land Raider—Combi-weapon"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "active"
+          },
+          "Havoc Launcher": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "✓": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Land Raider—Havoc launcher"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "normal"
+          },
+          "Ld": {
+            "value": 6
+          },
+          "M": {
+            "value": 10
+          },
+          "OC": {
+            "value": 5
+          },
+          "Points": {
+            "value": 240
+          },
+          "Sv": {
+            "value": 2
+          },
+          "T": {
+            "value": 12
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          },
+          "W": {
+            "value": 16
+          }
+        }
+      },
+      "Vehicle§Chaos Predator Annihilator": {
+        "aspects": {
+          "Type": "game piece"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D3"
+                }
+              }
+            },
+            "Ability§Dark Pacts",
+            "Ability§Annihilator",
+            {
+              "item": "Ability§Damaged:",
+              "stats": {
+                "x": {
+                  "value": "1-4 wounds remaining"
+                }
+              }
+            },
+            "Melee Weapon§Chaos Predator Annihilator—Armoured tracks",
+            "Ranged Weapon§Chaos Predator Annihilator—Predator twin lascannon"
+          ]
+        },
+        "keywords": {
+          "Faction": [
+            "Heretic Astartes"
+          ],
+          "Source": [
+            "10th Edition Codex"
+          ],
+          "Keywords": [
+            "Vehicle",
+            "Smoke",
+            "Chaos",
+            "Predator Annihilator"
+          ],
+          "Category": [
+            "Vehicle"
+          ]
+        },
+        "stats": {
+          "Combi Option": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Combi-bolter": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Predator Annihilator—Combi-bolter"
+                  }
+                ]
+              },
+              "Combi-weapon": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Predator Annihilator—Combi-weapon"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "active"
+          },
+          "Havoc Launcher": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "✓": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Predator Annihilator—Havoc launcher"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "normal"
+          },
+          "Ld": {
+            "value": 6
+          },
+          "M": {
+            "value": 10
+          },
+          "OC": {
+            "value": 3
+          },
+          "Points": {
+            "value": 145
+          },
+          "Side Weapons": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "2 Heavy bolters": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Predator Annihilator—Heavy bolter"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Chaos Predator Annihilator—Heavy bolter"
+                  }
+                ]
+              },
+              "2 Lascannons": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Predator Annihilator—Lascannon"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Chaos Predator Annihilator—Lascannon"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "active"
+          },
+          "Sv": {
+            "value": 3
+          },
+          "T": {
+            "value": 10
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          },
+          "W": {
+            "value": 11
+          }
+        }
+      },
+      "Vehicle§Chaos Predator Destructor": {
+        "aspects": {
+          "Type": "game piece"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D3"
+                }
+              }
+            },
+            "Ability§Dark Pacts",
+            "Ability§Destructor",
+            {
+              "item": "Ability§Damaged:",
+              "stats": {
+                "x": {
+                  "value": "1-4 wounds remaining"
+                }
+              }
+            },
+            "Ranged Weapon§Chaos Predator Destructor—Predator autocannon",
+            "Melee Weapon§Chaos Predator Destructor—Armoured tracks"
+          ]
+        },
+        "keywords": {
+          "Faction": [
+            "Heretic Astartes"
+          ],
+          "Source": [
+            "10th Edition Codex"
+          ],
+          "Keywords": [
+            "Vehicle",
+            "Smoke",
+            "Chaos",
+            "Predator Destructor"
+          ],
+          "Category": [
+            "Vehicle"
+          ]
+        },
+        "stats": {
+          "Combi Option": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Combi-bolter": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Predator Destructor—Combi-bolter"
+                  }
+                ]
+              },
+              "Combi-weapon": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Predator Destructor—Combi-weapon"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "active"
+          },
+          "Havoc Launcher": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "✓": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Predator Destructor—Havoc launcher"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "normal"
+          },
+          "Ld": {
+            "value": 6
+          },
+          "M": {
+            "value": 10
+          },
+          "OC": {
+            "value": 3
+          },
+          "Points": {
+            "value": 150
+          },
+          "Side Weapons": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "2 Heavy bolters": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Predator Destructor—Heavy bolter"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Chaos Predator Destructor—Heavy bolter"
+                  }
+                ]
+              },
+              "2 Lascannons": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Predator Destructor—Lascannon"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Chaos Predator Destructor—Lascannon"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "active"
+          },
+          "Sv": {
+            "value": 3
+          },
+          "T": {
+            "value": 10
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          },
+          "W": {
+            "value": 11
+          }
+        }
+      },
+      "Vehicle§Chaos Rhino": {
+        "aspects": {
+          "Type": "game piece"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D3"
+                }
+              }
+            },
+            "Ability§Dark Pacts",
+            "Ability§Self Repair",
+            {
+              "item": "Ability§Transport",
+              "text": "This model has a transport capacity of 12 Heretic Astartes Infantry models. It cannot transport Terminator, Jump Pack, Mutilators, Obliterator or Possessed models."
+            },
+            "Melee Weapon§Chaos Rhino—Armoured tracks",
+            {
+              "item": "Ability§Firing Deck",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "Faction": [
+            "Heretic Astartes"
+          ],
+          "Source": [
+            "10th Edition Codex"
+          ],
+          "Keywords": [
+            "Vehicle",
+            "Transport",
+            "Dedicated Transport",
+            "Smoke",
+            "Chaos",
+            "Rhino"
+          ],
+          "Category": [
+            "Vehicle—Dedicated Transport"
+          ]
+        },
+        "stats": {
+          "Ld": {
+            "value": 6
+          },
+          "Loadout Options 1": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Combi-bolter": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Rhino—Combi-bolter"
+                  }
+                ]
+              },
+              "Combi-weapon": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Rhino—Combi-weapon"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "active"
+          },
+          "Loadout Options 2": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "Combi-bolter": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Rhino—Combi-bolter"
+                  }
+                ]
+              },
+              "Havoc launcher": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Rhino—Havoc launcher"
+                  }
+                ]
+              },
+              "Combi-bolter & Havoc Launcher": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Rhino—Combi-bolter"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Chaos Rhino—Havoc launcher"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "Combi-bolter",
+            "visibility": "active"
+          },
+          "M": {
+            "value": 12
+          },
+          "OC": {
+            "value": 2
+          },
+          "Points": {
+            "value": 75
+          },
+          "Sv": {
+            "value": 3
+          },
+          "T": {
+            "value": 9
+          },
+          "W": {
+            "value": 10
+          }
+        }
       },
       "Vehicle§Deredeo Dreadnought": {
         "assets": {

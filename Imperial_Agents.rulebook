@@ -1,6 +1,6 @@
 {
   "name": "Agents of the Imperium 11e",
-  "revision": "11.0.0",
+  "revision": "11.0.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -9,7 +9,7 @@
   "wip": false,
   "dependencies": [
     {
-      "slug": "2U3UX7",
+      "slug": "RG5MGU",
       "name": "Imperium 11e",
       "game": "Warhammer 40k",
       "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k11e/main/Imperium.rulebook"
@@ -164,6 +164,11 @@
             "failState": "pass",
             "order": 90
           }
+        },
+        "stats": {
+          "Points": {
+            "value": 100
+          }
         }
       },
       "Character§Culexus Assassin": {
@@ -216,6 +221,11 @@
             "failState": "pass",
             "order": 90
           }
+        },
+        "stats": {
+          "Points": {
+            "value": 85
+          }
         }
       },
       "Character§Eversor Assassin": {
@@ -267,6 +277,11 @@
             "evaluate": "AND",
             "failState": "pass",
             "order": 90
+          }
+        },
+        "stats": {
+          "Points": {
+            "value": 120
           }
         }
       },
@@ -367,6 +382,11 @@
             "evaluate": "AND",
             "failState": "pass",
             "order": 90
+          }
+        },
+        "stats": {
+          "Points": {
+            "value": 125
           }
         }
       },
@@ -563,6 +583,11 @@
         "text": "**DESTROY THE DAEMONIC**\n\nEach time an INQUISITOR, INQUISITORIAL\nyour AGENTS or ORDO MALLEUS model from army makes an attack, re-roll a Hit roll of 1 and, if the target of that attack is a DAEMON unit, re-roll a Wound roll of 1 as well."
       },
       "Detachment§Imperialis Fleet": {
+        "keywords": {
+          "Role": [
+            "Disruption"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -656,7 +681,51 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "**AT ALL COSTS**\n\nAt the start of your Command phase, you\ncan select one of the following to apply:\n\n**Eliminate At All Costs**\n\nSelect one enemy unit on the\nbattlefield. Until the start of your\nnext Command phase, each time an\nAGENTS OF THE IMPERIUM model from your\narmy makes an attack that targets that\nenemy unit, add 1 to the Hit roll.\n\n**Acquire At All Costs**\n\nSelect one objective marker on the\nbattlefield. Until the start of your\nnext Command phase, while an\nAGENTS OF THE IMPERIUM unit from your\narmy is within range of that objective\nmarker, improve the Leadership and\nObjective Control characteristics of\nmodels in that unit by 1 and models in\nthat unit have a 5+ invulnerable save."
+      },
+      "Detachment§Ordo Hereticus, Purgation Force": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
+      "Detachment§Ordo Malleus, Daemon Hunters": {
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
+      "Detachment§Ordo Xenos, Alien Hunters": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
       },
       "Detachment§Purgation Force": {
         "rules": {
@@ -756,7 +825,10 @@
       },
       "Detachment§Veiled Blade Elimination Force": {
         "keywords": {
-          "Keywords": []
+          "Keywords": [],
+          "Role": [
+            "Reconnaissance"
+          ]
         },
         "rules": {
           "assignStratagems": {
@@ -851,12 +923,17 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "EXTREMIS SANCTION\n\nOfficio Assassinorum units from your\narmy can use the Overkill, Soulless\nHorror and Shieldbreaker abilities twice\nper battle, instead of once per battle (but\ncannot use such an ability more than\nonce in the same battle round).\n\nWhen mustering your army, each\nOfficio Assassinorum unit from your\narmy has the relevant Extremis ability\nshown on the right, and you must\nincrease the points cost of each of those\nunits by the amount shown. If this causes\nyour army to exceed the points limit for\nthe battle you are playing, you cannot\ninclude that unit in your army."
       },
       "Enhancement§Amulet of Auto-chastisement": {
         "keywords": {
           "Keywords": [
-            "Alien Hunters"
+            "Ordo Xenos, Alien Hunters"
           ]
         },
         "rules": {
@@ -891,7 +968,7 @@
       "Enhancement§Beacon Angelis": {
         "keywords": {
           "Keywords": [
-            "Alien Hunters"
+            "Ordo Xenos, Alien Hunters"
           ]
         },
         "rules": {
@@ -950,7 +1027,7 @@
       "Enhancement§Blackweave Shroud": {
         "keywords": {
           "Keywords": [
-            "Alien Hunters"
+            "Ordo Xenos, Alien Hunters"
           ]
         },
         "rules": {
@@ -1039,7 +1116,7 @@
       "Enhancement§Daemon Slayer": {
         "keywords": {
           "Keywords": [
-            "Daemon Hunters"
+            "Ordo Malleus, Daemon Hunters"
           ]
         },
         "rules": {
@@ -1144,6 +1221,19 @@
         },
         "text": "INQUISITOR model only. Add 1 to the Attacks\ncharacteristic of the bearer's melee weapons, and those weapons have the [ANTI-DAEMON 3+] ability."
       },
+      "Enhancement§Decoy Targets": {
+        "keywords": {
+          "Keywords": [
+            "Veiled Blade Elimination Force"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 40
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Digital Weapons": {
         "keywords": {
           "Keywords": [
@@ -1156,6 +1246,19 @@
           }
         },
         "text": "AGENTS OF THE IMPERIUM model only. Each time the bearer is selected to fight, roll three D6: for each 4+, one enemy unit within Engagement Range of the bearer suffers 1 mortal wound. Mortal wounds inflicted by this Enhancement are allocated as if they had the [PRECISION] ability."
+      },
+      "Enhancement§Esoteric Explosives": {
+        "keywords": {
+          "Keywords": [
+            "Veiled Blade Elimination Force"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 40
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Fleetmaster": {
         "keywords": {
@@ -1195,7 +1298,7 @@
       "Enhancement§Formidable Resolve": {
         "keywords": {
           "Keywords": [
-            "Daemon Hunters"
+            "Ordo Malleus, Daemon Hunters"
           ]
         },
         "rules": {
@@ -1264,7 +1367,7 @@
       "Enhancement§Gift of the Prescient": {
         "keywords": {
           "Keywords": [
-            "Daemon Hunters"
+            "Ordo Malleus, Daemon Hunters"
           ]
         },
         "rules": {
@@ -1296,10 +1399,10 @@
         },
         "text": "INQUISITOR model only. Once per battle, if the bearer is on the battlefield, you can use the Rapid Ingress Stratagem for 0CP. When doing so, you must target a GREY KNIGHTS TERMINATOR SQUAD unit from your army, and when using that Stratagem, that unit can be set up anywhere on the battlefield that is more than 3\" away from all enemy units."
       },
-      "Enhancement§Grimoire of True Names (Aura)": {
+      "Enhancement§Grimoire of True Names": {
         "keywords": {
           "Keywords": [
-            "Daemon Hunters"
+            "Ordo Malleus, Daemon Hunters"
           ]
         },
         "rules": {
@@ -1334,7 +1437,7 @@
       "Enhancement§Ignis Judicium": {
         "keywords": {
           "Keywords": [
-            "Purgation Force"
+            "Ordo Hereticus, Purgation Force"
           ]
         },
         "rules": {
@@ -1470,10 +1573,23 @@
         },
         "text": "INQUISITOR or MINISTORUM PRIEST model only. The bearer's ranged weapons have the [DEVASTATING WOUNDS], [MELTA 1] and [PRECISION] abilities."
       },
+      "Enhancement§Introneural Biotech": {
+        "keywords": {
+          "Keywords": [
+            "Veiled Blade Elimination Force"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 35
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Liber Heresius": {
         "keywords": {
           "Keywords": [
-            "Purgation Force"
+            "Ordo Hereticus, Purgation Force"
           ]
         },
         "rules": {
@@ -1519,10 +1635,23 @@
         },
         "text": "Inquisitor or Ministorum Priest model only. After both players have deployed their armies, select up to three AGENTS OF THE IMPERIUM units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, \nregardless of how many units are already in Strategic Reserves."
       },
-      "Enhancement§No Escape (Aura)": {
+      "Enhancement§Micromelta Rounds": {
         "keywords": {
           "Keywords": [
-            "Purgation Force"
+            "Veiled Blade Elimination Force"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 45
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§No Escape": {
+        "keywords": {
+          "Keywords": [
+            "Ordo Hereticus, Purgation Force"
           ]
         },
         "stats": {
@@ -1535,7 +1664,7 @@
       "Enhancement§Universal Anathema": {
         "keywords": {
           "Keywords": [
-            "Alien Hunters"
+            "Ordo Xenos, Alien Hunters"
           ]
         },
         "rules": {
@@ -1632,7 +1761,7 @@
       "Enhancement§Witch Hunter": {
         "keywords": {
           "Keywords": [
-            "Purgation Force"
+            "Ordo Hereticus, Purgation Force"
           ]
         },
         "rules": {
@@ -2258,6 +2387,22 @@
           ]
         },
         "text": "WHEN: Your Shooting phase.\n\nTARGET: One Agents of the Imperium Infantry unit\nfrom your army that has not been selected to shoot\nthis phase.\n\nEFFECT: Until the end of the phase, ranged\nweapons equipped by models in your unit have\nthe [SUSTAINED HITS 1] ability. In addition, if it\nis a Culexus Assassin unit, until the end of the\nphase, change the Damage characteristic of ranged\nweapons equipped by models in your unit to 3."
+      },
+      "Unit§Damned Legionnaires": {
+        "stats": {
+          "Points": {
+            "value": 90
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
+      },
+      "Unit§Inquisitor Ostromandeus": {
+        "stats": {
+          "Points": {
+            "value": 65
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
       }
     },
     "gameModes": {},

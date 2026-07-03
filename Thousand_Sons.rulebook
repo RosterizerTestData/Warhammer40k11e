@@ -1,6 +1,6 @@
 {
   "name": "Thousand Sons 11e",
-  "revision": "11.0.0",
+  "revision": "11.0.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -9,7 +9,7 @@
   "wip": false,
   "dependencies": [
     {
-      "slug": "EVP99Q",
+      "slug": "",
       "name": "Chaos 11e",
       "game": "Warhammer 40k",
       "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k11e/main/Chaos.rulebook"
@@ -966,7 +966,7 @@
             "value": 1
           },
           "Points": {
-            "value": 80
+            "value": 90
           },
           "Prosperine khopesh": {
             "dynamic": true,
@@ -1057,7 +1057,7 @@
             "value": 2
           },
           "Points": {
-            "value": 100
+            "value": 90
           },
           "Prosperine khopesh": {
             "dynamic": true,
@@ -1235,7 +1235,13 @@
         },
         "stats": {
           "Points": {
-            "value": 285
+            "value": 315
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -1313,7 +1319,7 @@
             "value": 6
           },
           "Points": {
-            "value": 435
+            "value": 455
           },
           "Sv": {
             "value": 2
@@ -1741,6 +1747,9 @@
         "keywords": {
           "Keywords": [
             "Changehost of Deceit"
+          ],
+          "Role": [
+            "Reconnaissance"
           ]
         },
         "rules": {
@@ -1836,12 +1845,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## INFERNAL PACTS\n\n---\n- SCINTNILLATING LEGIONS units from your army have the following ability:\n\n### Daemonic Illusions (Aura): \nWhile a friendly THOUSAND SONS PSYKER unit is within 6” of and visible to this unit, models in that unit have a 4+ invulnerable save against ranged attacks.\n\n---\n- THOUSAND SONS units from your army have the following ability:\n\n### Mortal Sorcery (Aura): \nWhile a friendly SCINTILLATING LEGIONS PSYKER unit is within 6” of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability.\n\n---\n\n## RESTRICTIONS\nYou can include SCINTILLATING LEGIONS units in your army, even though they do not have the THOUSAND SONS Faction keyword. The combined points cost of such units you can include in your army is:\n\nIncursion: Up to 500 pts\nStrike Force: Up to 1000 pts\nOnslaught: Up to 1500 pts\n\nNo SCINTILLATING LEGIONS models from your army can be your WARLORD."
       },
       "Detachment§Grand Coven": {
         "keywords": {
           "Keywords": [
             "Grand Coven"
+          ],
+          "Role": [
+            "Priority Assets"
           ]
         },
         "rules": {
@@ -1937,9 +1954,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "## KINDRED SORCERY\n\nIn your Command phase, you can select one of the abilities listed below to take effect until the start of your next Command phase. You can only select each of these abilities once per battle.\n\n### Imbued Manifestation\nAdd 6\" to the Range characteristic of ranged Psychic weapons equipped by THOUSAND SONS models from your army.\n\n### Psychic Maelstrom\nEach time a THOUSAND SONS model from your army makes an attack with a Psychic weapon, add 1 to the Wound roll.\n\n### Wrath of the Immaterium\nPsychic weapons equipped by THOUSAND SONS models from your army have the [DEVASTATING WOUNDS] ability."
       },
       "Detachment§Hexwarp Thrallband": {
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -2033,12 +2060,33 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "**FLOW OF MAGIC**\n\nCertain areas of the battlefield are within\nyour army’s Flow of Magic, as follows:\n\n■ Your deployment zone is always within your army’s Flow of Magic.\n\n■ At the start of any phase, if you control at least half of the objective markers within No Man’s Land, until the end of that phase, No Man’s Land is within your army’s Flow of Magic.\n\n■ At the start of any phase, if you control at least half of the objective markers within your opponent’s deployment zone, until the end of that phase, your opponent’s deployment zone is within your army’s Flow of Magic.\n\nEach time a Thousand Sons model from your army makes a Psychic Attack, re‑roll a Wound roll of 1. If such a model is wholly within your army’s Flow of Magic, each time it makes a Psychic Attack, add 1 to the Wound roll instead."
+      },
+      "Detachment§Ritual Of Regeneration": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
       },
       "Detachment§Rubricae Phalanx": {
         "keywords": {
           "Keywords": [
             "Rubricae Phalanx"
+          ],
+          "Role": [
+            "Take And Hold"
           ]
         },
         "rules": {
@@ -2134,12 +2182,46 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "## ALL IS DUST\n\nEach time an attack with an unmodified Damage characteristic of 1 is allocated to a Rubricae model from your army, add 1 to any armour saving throw made against that attack."
+      },
+      "Detachment§Sekhetar Cohort": {
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
+      "Detachment§Servants Of Change": {
+        "keywords": {
+          "Role": [
+            "Reconnaissance"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
       },
       "Detachment§Warpforged Cabal": {
         "keywords": {
           "Keywords": [
             "Warpforged Cabal"
+          ],
+          "Role": [
+            "Disruption"
           ]
         },
         "rules": {
@@ -2235,12 +2317,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## WARPFIRE INFUSION\n\nEach time a THOUSAND SONS VEHICLE unit from your army is selected to shoot or fight, apply one of the following when resolving those attacks:\n\n- If that VEHICLE unit is within 6\" of one or more friendly THOUSAND SONS PSYKER models, you can re-roll one Hit roll, one Wound roll and one Damage roll.\n\n- Otherwise, you can re-roll one Hit roll, one Wound roll or one Damage roll.\n\nEach time a THOUSAND SONS VEHICLE model from your army with the Deadly Demise ability is destroyed while it is within 6\" of one or more friendly THOUSAND SONS PSYKER models, that model's Deadly Demise ability inflicts mortal wounds on a D6 roll of 5+ instead of only a 6."
       },
       "Detachment§Warpmeld Pact": {
         "keywords": {
           "Keywords": [
             "Warpmeld Pact"
+          ],
+          "Role": [
+            "Purge The Foe"
           ]
         },
         "rules": {
@@ -2381,6 +2471,11 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## WARPMELD SACRIFICE\n\nEach time an enemy unit is selected to shoot or fight and one or more Tzeentch Mutant Infantry or Tzeentch Mutant Mounted units from your army are selected as a target of one or more of those attacks, each of those TZEENTCH MUTANT units can make a Warpmeld Sacrifice. If it does, that TZEENTCH MUTANT unit suffers D3 mortal wounds and until the end of the phase, each time an attack targets that unit, subtract 1 from the Wound roll. At the end of the phase, that\nTzeentch Mutant unit suffers D3 mortal wounds.\n\nEach time a Tzeentch Mutant Infantry or Tzeentch Mutant Mounted unit from your army is selected to shoot or fight, before selecting its targets, that unit can make a Warpmeld Sacrifice. If it does, that unit suffers D3 mortal wounds and until the end of the phase, each time a model in that unit makes an attack, add 1 to the Wound roll. At the end of the phase, that Tzeentch Mutant unit\nsuffers D3 mortal wounds.\n\n---\n\n## KEYWORDS\nTZAANGORS units from your army have the BATTLELINE keyword, and while such a unit is not Battle-shocked, add 1 to the Objective Control characteristic of TZAANGOR models in that unit."
       },
       "Enhancement§Arcane Might": {
@@ -2396,7 +2491,7 @@
         },
         "text": "Thousand Sons model only. Add 1 to the Strength characteristic of Psychic weapons equipped by models in the bearer’s unit. While the bearer’s unit is wholly within your army’s Flow of Magic, add 2 to the Strength characteristic of Psychic weapons equipped by models in that unit instead."
       },
-      "Enhancement§Arcane Thralls (Aura)": {
+      "Enhancement§Arcane Thralls": {
         "keywords": {
           "Keywords": [
             "Rubricae Phalanx"
@@ -2497,10 +2592,23 @@
         },
         "text": "SORCERER or INFERNAL MASTER model only. The bearer has the Scouts 6\" ability. During the Declare Battle Formations step, the bearer can be attached to a TZAANGORS unit."
       },
+      "Enhancement§Curse of Life": {
+        "keywords": {
+          "Keywords": [
+            "Ritual Of Regeneration"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Diabolic Savant": {
         "keywords": {
           "Keywords": [
-            "Changehost of Deceit"
+            "Changehost Of Deceit"
           ]
         },
         "rules": {
@@ -2584,7 +2692,7 @@
       "Enhancement§Duplicitous Malediction": {
         "keywords": {
           "Keywords": [
-            "Changehost of Deceit"
+            "Changehost Of Deceit"
           ]
         },
         "rules": {
@@ -2631,6 +2739,14 @@
         "text": "THOUSAND SONS or LORD OF CHANGE model only. After both players have deployed their armies, select up to three THOUSAND SONS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserve."
       },
       "Enhancement§Eldritch Vortex of E'taph": {
+        "stats": {
+          "Points": {
+            "value": 35
+          }
+        },
+        "text": "Thousand Sons model only. Add 1 to the Strength and Damage characteristics of Psychic weapons equipped by the bearer."
+      },
+      "Enhancement§Eldritch Vortex of E’taph": {
         "keywords": {
           "Keywords": [
             "Grand Coven"
@@ -2641,7 +2757,7 @@
             "value": 35
           }
         },
-        "text": "Thousand Sons model only. Add 1 to the Strength and Damage characteristics of Psychic weapons equipped by the bearer."
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Empowered Manifestation": {
         "keywords": {
@@ -2668,6 +2784,19 @@
           }
         },
         "text": "Thousand Sons model only. While the bearer’s unit is wholly within your army’s Flow of Magic, add 3 to the Attacks characteristic of ranged Psychic weapons equipped by the bearer."
+      },
+      "Enhancement§Eruption of Vitality": {
+        "keywords": {
+          "Keywords": [
+            "Ritual Of Regeneration"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 35
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Flowing Flesh": {
         "keywords": {
@@ -2810,7 +2939,7 @@
       "Enhancement§Nethershriek Mind-Eater": {
         "keywords": {
           "Keywords": [
-            "Changehost of Deceit"
+            "Changehost Of Deceit"
           ]
         },
         "rules": {
@@ -2868,6 +2997,19 @@
           }
         },
         "text": "Thousand Sons model only. While the bearer’s unit is on the battlefield, it is wholly within your army’s Flow of Magic. Models in that unit cannot be selected to use any Rituals."
+      },
+      "Enhancement§Occulus Infernum": {
+        "keywords": {
+          "Keywords": [
+            "Sekhetar Cohort"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Perplexing Cloak": {
         "keywords": {
@@ -3032,10 +3174,23 @@
         },
         "text": "Thousands Sons Infantry model only. The bearer’s melee weapons have the [SUSTAINED HITS D3] and [DEVASTATING WOUNDS] abilities."
       },
+      "Enhancement§Thicket of Bladed Bone (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Servants Of Change"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Tome of True Names": {
         "keywords": {
           "Keywords": [
-            "Changehost of Deceit"
+            "Changehost Of Deceit"
           ]
         },
         "rules": {
@@ -3093,6 +3248,32 @@
           }
         },
         "text": "THOUSAND SONS model only. Once per battle, in your Command phase, if the bearer's unit is not within Engagement Range of one or more enemy units, you can remove that unit from the battlefield and place it into Strategic Reserves. In the Reinforcements step of your next Movement phase, set that unit back up anywhere on the battlefield that is more than 9\" horizontally away from all enemy units."
+      },
+      "Enhancement§Unravelled Fates": {
+        "keywords": {
+          "Keywords": [
+            "Servants Of Change"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Walking Rampart": {
+        "keywords": {
+          "Keywords": [
+            "Sekhetar Cohort"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 30
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Warp Syphon": {
         "keywords": {
@@ -9958,6 +10139,50 @@
           }
         }
       },
+      "Unit§Chaos Spawn": {
+        "stats": {
+          "Points": {
+            "value": 65
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
+      },
+      "Unit§Chaos Vindicator": {
+        "stats": {
+          "Points": {
+            "value": 195
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
+      },
+      "Unit§Daemon Prince Of Tzeentch": {
+        "stats": {
+          "Points": {
+            "value": 170
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
+      },
+      "Unit§Daemon Prince Of Tzeentch With Wings": {
+        "stats": {
+          "Points": {
+            "value": 180
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 2
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
+      },
       "Unit§Defiler": {
         "aspects": {
           "Type": "game piece"
@@ -10200,13 +10425,19 @@
             "value": 5
           },
           "Points": {
-            "value": 250
+            "value": 320
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 30
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 18
@@ -10244,7 +10475,42 @@
               "Ability§The Shadow of Chaos"
             ]
           }
+        },
+        "stats": {
+          "Points": {
+            "value": 65
+          }
         }
+      },
+      "Unit§Forgefiend": {
+        "stats": {
+          "Points": {
+            "value": 145
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
+      },
+      "Unit§Helbrute": {
+        "stats": {
+          "Points": {
+            "value": 110
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
+      },
+      "Unit§Heldrake": {
+        "stats": {
+          "Points": {
+            "value": 175
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
       },
       "Unit§Hell Blade": {
         "keywords": {
@@ -10259,6 +10525,20 @@
             "Tzeentch"
           ]
         }
+      },
+      "Unit§Maulerfiend": {
+        "stats": {
+          "Points": {
+            "value": 130
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
       },
       "Unit§Mutalith Vortex Beast": {
         "aspects": {
@@ -10334,13 +10614,19 @@
             "value": 4
           },
           "Points": {
-            "value": 170
+            "value": 190
           },
           "Sv": {
             "value": 4
           },
           "T": {
             "value": 10
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 13
@@ -10513,7 +10799,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 190
+            "value": 200
           },
           "model2ndTally": {
             "value": 10
@@ -10531,7 +10817,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 100
+            "value": 110
           },
           "Rubric Marine": {
             "max": 9,
@@ -10540,6 +10826,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 4
           }
         }
       },
@@ -10683,7 +10975,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 360
+            "value": 385
           },
           "model2ndTally": {
             "value": 10
@@ -10701,7 +10993,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 180
+            "value": 195
           },
           "Scarab Occult Terminator": {
             "max": 9,
@@ -10710,6 +11002,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -10743,6 +11041,11 @@
             "traits": [
               "Ability§The Shadow of Chaos"
             ]
+          }
+        },
+        "stats": {
+          "Points": {
+            "value": 80
           }
         }
       },
@@ -12717,7 +13020,7 @@
             "value": 10
           },
           "model2ndCost": {
-            "value": 160
+            "value": 145
           },
           "model2ndTally": {
             "value": 20
@@ -12735,7 +13038,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 70
+            "value": 75
           },
           "Tzaangor": {
             "max": 19,

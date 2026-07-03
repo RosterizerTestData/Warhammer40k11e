@@ -1,6 +1,6 @@
 {
   "name": "Chaos Knights 11e",
-  "revision": "11.0.0",
+  "revision": "11.0.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -9,7 +9,7 @@
   "wip": false,
   "dependencies": [
     {
-      "slug": "G3CGS6",
+      "slug": "",
       "name": "Chaos 11e",
       "game": "Warhammer 40k",
       "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k11e/main/Chaos.rulebook"
@@ -503,7 +503,25 @@
       }
     },
     "assetCatalog": {
+      "Detachment§Bastions Of Tyranny": {
+        "keywords": {
+          "Role": [
+            "Disruption"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
       "Detachment§Helhunt Lance": {
+        "keywords": {
+          "Role": [
+            "Disruption"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -597,12 +615,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## MASTERS OF THE PACK\n\nIf a Titanic Chaos Knights unit from your army has an Aura ability that affects friendly War Dog units, while two or more friendly War Dog models are within range of that Titanic Chaos Knights unit’s Aura ability, that Titanic Chaos Knights unit is affected by that Aura ability as well."
       },
       "Detachment§Houndpack Lance": {
         "keywords": {
           "Keywords": [
             "Houndpack Lance"
+          ],
+          "Role": [
+            "Reconnaissance"
           ]
         },
         "rules": {
@@ -748,12 +774,33 @@
             "order": 4
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## MARKED PREY \n\nAt the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, each time a War Dog model from your army makes an attack that targets that enemy unit, if that unit is visible to the attacking model, that attack has the [SUSTAINED HITS] 1 ability.\n\n**KEYWORDS**\n\nWhile using the Houndspack Lance Detachment, the following rules apply:\n\n- Your army must include three or more War Dog units.\n\n- War Dog units from your army have the BATTLELINE keyword.\n\n- When mustering your army, select three War Dog units from your army. Until the end of the battle, those units have the CHARACTER keyword."
+      },
+      "Detachment§Hunting Warpack": {
+        "keywords": {
+          "Role": [
+            "Reconnaissance"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
       },
       "Detachment§Iconoclast Fiefdom": {
         "keywords": {
           "Keywords": [
             "Iconoclast Fiefdom"
+          ],
+          "Role": [
+            "Take And Hold"
           ]
         },
         "rules": {
@@ -849,12 +896,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
         "text": "**DREADED MASTERS**\n\nTitanic Chaos Knights units from your\narmy have the following abilities:\n\nDread Tyrants (Aura): While a friendly\nDamned unit is within 9\" of this unit,\neach time a model in that unit makes an\nattack, re‑roll a Hit roll of 1 and re‑roll a\nWound roll of 1.\n\nChaos Knights units from your army have\nthe following abilities:\n\nDark Sacrifice: Each time a Chaos\nKnights unit with this ability is selected\nto shoot or fight, it can make a Dark\nSacrifice. If it does, select one friendly Damned\nunit within 6\". That Damned unit must\ntake a Leadership test: if passed, destroy\nD3 models in that Damned unit; if failed,\ndestroy D3+3 models in that Damned\nunit. In either case, then select one of the\nfollowing abilities for your Chaos Knights\nunit’s weapons to have until the end of\nthe phase: [LETHAL HITS]; [SUSTAINED HITS 1].\n\nWRETCHED THRALLS\nYou can include Damned units in your\narmy (see Codex: Chaos Space Marines).\nThe combined points cost of such units\ndepends on your battle size:\n\n■ Incursion: Up to 250 pts\n■ Strike Force: Up to 500 pts\n■ Onslaught: Up to 750 pts\n\nNo Damned models from your army can\nbe your Warlord."
       },
       "Detachment§Infernal Lance": {
         "keywords": {
           "Keywords": [
             "Infernal Lance"
+          ],
+          "Role": [
+            "Purge The Foe"
           ]
         },
         "rules": {
@@ -950,12 +1005,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "## MALEFIC SURGE\n\nIn your Command phase, one or more CHAOS KNIGHTS units from your army can make a Malefic Surge. Each unit that does so must first take a Leadership test; if that test is failed, that unit suffers D3 mortal wounds. Then, until the start of your next Command phase, that unit is Empowered. While a unit is Empowered it can use one of the Malefic Surge abilities below. Once that unit has used a Malefic Surge ability, it is no longer Empowered.\n\n- **Unholy Hunger**: When a model in this unit makes a Normal, Advance or Fall Back move, until the end of the phase, add 3\" to its Move characteristic.\n\n- **Diabolic Power**: When this unit is selected to shoot or fight, select either the [LETHAL HITS] or [SUSTAINED HITS 1] ability. Until the end of the phase, weapons equipped by models in this unit have the selected ability.\n\n- **Unnatural Fortitude**: When this unit is selected as the target of an attack, until the end of the phase, select one of the following:\n\n■ Models in this unit have a 5+ invulnerable save.\n\n■ Models in this unit have the Feel No Pain\n6+ ability."
       },
       "Detachment§Lords of Dread": {
         "keywords": {
           "Keywords": [
             "Lords of Dread"
+          ],
+          "Role": [
+            "Priority Assets"
           ]
         },
         "rules": {
@@ -1088,12 +1151,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## TYRANNICAL COURT\n\nImprove the Objective Control characteristic of Chaos Knights Character models from your army by 2. In addition, once per battle round, if your Warlord is on the battlefield, you can use the Claimed for the Dark Gods Stratagem for 0CP."
       },
       "Detachment§Traitoris Lance": {
         "keywords": {
           "Keywords": [
             "Traitoris Lance"
+          ],
+          "Role": [
+            "Purge The Foe"
           ]
         },
         "rules": {
@@ -1189,6 +1260,11 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## PARAGONS OF TERROR\n\nAt the start if the first battle round, after selecting one or more Dread abilities to be active for your army, you can select one additional Dread ability to be active for your army (this additional Dread ability cannot be randomly selected)."
       },
       "Enhancement§Aspect of the Beast": {
@@ -1268,7 +1344,7 @@
         },
         "stats": {
           "Points": {
-            "value": 20
+            "value": 30
           }
         },
         "text": "CHAOS KNIGHTS model only. The bearer's ranged weapons have the [ASSAULT] ability. While the bearer is using the Unholy Hunger ability, it can ignore any or all modifiers to its Move characteristic and/or to Advance rolls made for its unit."
@@ -1276,7 +1352,7 @@
       "Enhancement§Blade of Celerity": {
         "keywords": {
           "Keywords": [
-            "Lords of Dread"
+            "Lords Of Dread"
           ]
         },
         "rules": {
@@ -1359,7 +1435,7 @@
       "Enhancement§Blessing of the Dark Master": {
         "keywords": {
           "Keywords": [
-            "Lords of Dread"
+            "Lords Of Dread"
           ]
         },
         "rules": {
@@ -1390,12 +1466,20 @@
         },
         "text": "Chaos Knights model only. The bearer has the Stealth ability. In addition, once per battle, after you make a saving throw for the bearer, you can change the Damage characteristic of that attack to 0."
       },
-      "Enhancement§Diabolocal Resilience": {
+      "Enhancement§Cruel Lashmaster (Aura)": {
         "keywords": {
           "Keywords": [
             "Iconoclast Fiefdom"
           ]
         },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Diabolocal Resilience": {
         "rules": {
           "apply": {
             "actions": [
@@ -1451,7 +1535,7 @@
         },
         "text": "Chaos Knights model only. The bearer has the\nFeel No Pain 6+ ability and you can ignore any or\nall modifiers to its Move characteristic and/or to any\n1 Advance or Charge rolls made for it."
       },
-      "Enhancement§Final Howl (Aura)": {
+      "Enhancement§Final Howl": {
         "keywords": {
           "Keywords": [
             "Houndpack Lance"
@@ -1522,12 +1606,20 @@
         },
         "text": "CHAOS KNIGHTS model only. Add 1 to the bearer's Toughness characteristic. While the bearer is using the Unnatural Fortitude ability, each time an attack with a Damage characteristic of 1 is allocated to the bearer, add 1 to any armour saving throw made against that attack."
       },
-      "Enhancement§Hunter's Helm": {
+      "Enhancement§Hate-filled Dominion": {
         "keywords": {
           "Keywords": [
-            "Helhunt Lance"
+            "Bastions Of Tyranny"
           ]
         },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Hunter's Helm": {
         "rules": {
           "Chaos Knights model only": {
             "evals": [
@@ -1556,6 +1648,32 @@
           }
         },
         "text": "**CHAOS KNIGHTS** model only. You can re-roll Advance and Charge rolls made for the bearer's unit."
+      },
+      "Enhancement§Hunter’s Helm": {
+        "keywords": {
+          "Keywords": [
+            "Helhunt Lance"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Iconoclast Idol (Aura)": {
+        "keywords": {
+          "Keywords": [
+            "Iconoclast Fiefdom"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Knight Diabolus": {
         "keywords": {
@@ -1691,7 +1809,7 @@
       "Enhancement§Mirror of Fates": {
         "keywords": {
           "Keywords": [
-            "Lords of Dread"
+            "Lords Of Dread"
           ]
         },
         "stats": {
@@ -1702,6 +1820,14 @@
         "text": "Chaos Knights model only. Once per battle round, you can target the bearer's unit with the Command Re-roll Stratagem for 0CP, and can do so even if another unit from your army has already been targeted by that Stratagem this phase. In addition, once per battle, just after your opponent uses a stratagem, if the bearer is on the battlefield, it can use this Enhancement. If it does, until the end of the battle, the CP cost your opponent must pay to use that Stratagem again is increased by 1CP."
       },
       "Enhancement§Nightmare's Master": {
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "Chaos Knight's model only. At the start of the Fight phase, each enemy unit within Engagement Range of the bearer must take a Battle-shock test."
+      },
+      "Enhancement§Nightmare’s Master": {
         "keywords": {
           "Keywords": [
             "Traitoris Lance"
@@ -1712,7 +1838,7 @@
             "value": 20
           }
         },
-        "text": "Chaos Knight's model only. At the start of the Fight phase, each enemy unit within Engagement Range of the bearer must take a Battle-shock test."
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Octagram of Conjuration": {
         "keywords": {
@@ -1785,11 +1911,6 @@
         "text": "War Dog model only. Each time an attack targets the bearer, worsen the Armour Penetration characteristic of that attack by 1."
       },
       "Enhancement§Pave the Way": {
-        "keywords": {
-          "Keywords": [
-            "Iconoclast Fiefdom"
-          ]
-        },
         "rules": {
           "Chaos Knights model only.": {
             "evals": [
@@ -1820,11 +1941,6 @@
         "text": "Chaos Knights model only. At the start of the Declare\nBattle Formations step, you can select up to three\nDamned units from your army. The selected units have\nthe Scouts 6\" ability."
       },
       "Enhancement§Preyslayer's Mantle": {
-        "keywords": {
-          "Keywords": [
-            "Houndpack Lance"
-          ]
-        },
         "rules": {
           "apply": {
             "actions": [
@@ -1873,12 +1989,20 @@
         },
         "text": "War Dog model only. The bearer has the Super-heavy Walker ability."
       },
-      "Enhancement§Profane Altar": {
+      "Enhancement§Preyslayer’s Mantle": {
         "keywords": {
           "Keywords": [
-            "Iconoclast Fiefdom"
+            "Houndpack Lance"
           ]
         },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Profane Altar": {
         "rules": {
           "Chaos Knights model only.": {
             "evals": [
@@ -1907,6 +2031,19 @@
           }
         },
         "text": "Chaos Knights model only. Each time the bearer\nmakes a Dark Sacrifice, the maximum number of\nmodels are destroyed in the selected Damned unit\n(i.e. 3 if the unit’s Leadership test is passed, or 6 if it\nis failed) but, until the end of the phase, the bearer’s\nweapons have both [LETHAL HITS] and [SUSTAINED HITS 1]."
+      },
+      "Enhancement§Pterrorshade Rookery": {
+        "keywords": {
+          "Keywords": [
+            "Bastions Of Tyranny"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Putric Carapace": {
         "keywords": {
@@ -1944,10 +2081,49 @@
         },
         "text": "Chaos Knights model only. The bearer has a Save characteristic of 2+. In addition, once per battle, at the start of either player's Command phase, the bearer can use this Enhancement. If it does, the bearer regains up to D6 lost wounds."
       },
+      "Enhancement§Putrid Carapace": {
+        "keywords": {
+          "Keywords": [
+            "Lords Of Dread"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 30
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Snarling Rivalry (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Hunting Warpack"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Soul-spoor Auspicator (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Hunting Warpack"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Throne Mechanicum of Skulls": {
         "keywords": {
           "Keywords": [
-            "Lords of Dread"
+            "Lords Of Dread"
           ]
         },
         "stats": {
@@ -2007,11 +2183,6 @@
         "text": "**TITANIC CHAOS KNIGHTS** model only. In your Command phase, select one other **CHAOS KNIGHTS CHARACTER** model within 9\" of the bearer. If the bearer has one or more Aura abilities that affect friendly **WAR DOG** units, until the start of your next Command phase, the selected **CHAOS KNIGHTS CHARACTER** model is affected by those Aura abilities as well."
       },
       "Enhancement§Tyrant's Banner": {
-        "keywords": {
-          "Keywords": [
-            "Iconoclast Fiefdom"
-          ]
-        },
         "rules": {
           "Chaos Knights model only.": {
             "evals": [
@@ -2042,6 +2213,14 @@
         "text": "Chaos Knights model only. Each time the bearer\nmakes a Dark Sacrifice, select one visible friendly Damned unit\nto take a Leadership test instead of a friendly Damned unit\nwithin 6\"."
       },
       "Enhancement§Tyrant's Shadow": {
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "Chaos Knight's model only. At the end of your Command phase, select one objective marker the bearer is within range of and that you control. That objective marker remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase. In addition, until you lose control of that objective marker, it has the Deathly Terror ability as if it were a Chaos Knight's model from your army."
+      },
+      "Enhancement§Tyrant’s Shadow": {
         "keywords": {
           "Keywords": [
             "Traitoris Lance"
@@ -2052,7 +2231,7 @@
             "value": 25
           }
         },
-        "text": "Chaos Knight's model only. At the end of your Command phase, select one objective marker the bearer is within range of and that you control. That objective marker remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase. In addition, until you lose control of that objective marker, it has the Deathly Terror ability as if it were a Chaos Knight's model from your army."
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Veil of Medrengard": {
         "keywords": {
@@ -2070,7 +2249,7 @@
       "Enhancement§Warp-borne Stalker": {
         "keywords": {
           "Keywords": [
-            "Lords of Dread"
+            "Lords Of Dread"
           ]
         },
         "rules": {

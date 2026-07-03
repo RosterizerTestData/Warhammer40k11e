@@ -1,6 +1,6 @@
 {
   "name": "Tyranids 11e",
-  "revision": "11.0.0",
+  "revision": "11.0.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -9,7 +9,7 @@
   "wip": false,
   "dependencies": [
     {
-      "slug": "PCJ8SD",
+      "slug": "DGST2Y",
       "name": "40k 11e",
       "game": "Warhammer 40k",
       "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k11e/main/Warhammer_40k_11e.rulebook"
@@ -2542,7 +2542,8 @@
       "Character§Hyperadapted Raveners": {
         "allowed": {
           "items": [
-            "Model§Ravener (Hyperadapted)"
+            "Model§Ravener (Hyperadapted)",
+            "Unit§Raveners"
           ]
         },
         "aspects": {
@@ -2668,7 +2669,7 @@
             "value": 5
           },
           "Points": {
-            "value": 165
+            "value": 175
           },
           "Ravener": {
             "max": 3,
@@ -2677,6 +2678,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -2793,7 +2800,7 @@
             "value": 3
           },
           "Points": {
-            "value": 105
+            "value": 115
           },
           "Sv": {
             "value": 4
@@ -2859,7 +2866,7 @@
             "value": 3
           },
           "Points": {
-            "value": 150
+            "value": 140
           },
           "Sv": {
             "value": 2
@@ -2917,7 +2924,7 @@
             "value": 1
           },
           "Points": {
-            "value": 80
+            "value": 70
           },
           "Sv": {
             "value": 4
@@ -3148,7 +3155,7 @@
             "value": 3
           },
           "Points": {
-            "value": 220
+            "value": 210
           },
           "Sv": {
             "value": 2
@@ -3206,7 +3213,7 @@
             "value": 1
           },
           "Points": {
-            "value": 65
+            "value": 75
           },
           "Sv": {
             "value": 3
@@ -3321,7 +3328,7 @@
             "value": 3
           },
           "Points": {
-            "value": 170
+            "value": 185
           },
           "Sv": {
             "value": 2
@@ -3556,7 +3563,25 @@
         },
         "text": "* While the bearer is on the battlefield, once per battle, you can use the Shadow in the Warp ability one additional time.\n* While the bearer is on the battlefield, increase the range of friendly **Synapse** units’ Synapse ability to 9″."
       },
+      "Detachment§Ambush Predators": {
+        "keywords": {
+          "Role": [
+            "Disruption"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
       "Detachment§Assimilation Swarm": {
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -3650,9 +3675,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## Feed the Swarm \n\nIn your Command phase, each **Harvester** unit from your army can Regenerate one friendly **Tyranids** unit within 6″ of it. A unit can only be regenerated once per phase. Each time a unit regenerates, do one of the following:\n\n- One model in that unit regains up to D3+1 lost wounds.\n- One destroyed **Infantry** model (excluding **Characters**) is returned in that unit with its full wounds remaining. If that unit is an **Endless Multitude** unit, up to 3 destroyed models are returned instead."
       },
       "Detachment§Crusher Stampede": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -3746,9 +3781,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## Enraged Behemoths \n\nEach time a **Tyranids Monster** model from your army makes an attack, add 1 to the Hit roll if that model’s unit is below its Starting Strength, and add 1 to the Wound roll as well if that model’s unit is Belong Half-strength. In addition, while a **Tyranids Monster** unit from your army (excluding Battle-shocked units) is at its Starting Strength, add 2 to the Objective Control characteristic of models in that unit."
       },
       "Detachment§Invasion Fleet": {
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -3842,9 +3887,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "## HYPER-ADAPTATIONS\nAt the start of the first battle round, select one of the following Hyper-adaptations to be active for **Tyranids** units from your army until the end of the battle:\n\n### SWARMING INSTINCTS\nEach time a **Tyranids** model with this Hyper-adaptation makes an attack that targets an enemy **Infantry** or **Swarm** unit, that attack has the **[SUSTAINED HITS 1]** ability.\n\n### HYPER-AGGRESSION\nEach time a **Tyranids** model with this Hyper-adaptation makes an attack that targets an enemy **Monster** or **Vehicle** unit, that attack has the **[LETHAL HITS]** ability.\n\n### HIVE PREDATORS\nEach time a **Tyranids** model with this Hyper-adaptation makes an attack that targets an enemy **Character** unit, if a Critical Hit is scored, that attack has the **[PRECISION]** ability."
       },
       "Detachment§Subterranean Assault": {
+        "keywords": {
+          "Role": [
+            "Disruption"
+          ]
+        },
         "rules": {
           "applyKeywords": {
             "actions": [
@@ -3964,9 +4019,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "## SURPRISE ASSAULT\n\nEach time a Tyranids model from your\narmy makes an attack, re-roll a Hit roll\nof 1.\n\nEach time a Burrower unit from your\narmy is set up on the battlefield from\nReserves, place a circular 40mm Tunnel\nMarker anywhere on the battlefield\nwithin 1\" of that unit and more than 3\"\nhorizontally away from all enemy units.\n\nIn the Reinforcements step of your\nMovement phase, when you set up a unit\non the battlefield from Reserves, you can\nset that unit up wholly within 9\" of one of\nyour Tunnel Markers and more than 6\"\nhorizontally away from any enemy units.\n\nIf an enemy model (excluding Aircraft)\nends any kind of move within 3\" of one of\nyour Tunnel Markers, that Tunnel Marker\nis removed from the battlefield.\n\n## KEYWORDS\n\nMawloc and Trygon units from your army\nhave the Burrower keyword.\n\nIn the Muster Armies step, you can\nselect up to 2 Trygon models from\nyour army. The selected units gain the\nCharacter keyword."
       },
       "Detachment§Synaptic Nexus": {
+        "keywords": {
+          "Role": [
+            "Disruption"
+          ]
+        },
         "rules": {
           "assignStartagems": {
             "actions": [
@@ -4060,9 +4125,32 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## SYNAPTIC IMPERATIVES\nAt the start of the battle round, you can select one of the Synapse Imperatives shown below. Until the end of the battle round, that Synapse Imperative is active in your army while a **Tyranids** unit from your army is within Synapse Range of your army, it will benefit from it. Each Synapse Imperative can only be selected once per battle.\n\n### SYNAPTIC AUGMENTATION\nWhile this unit is within Synapse Range of your army, models in this unit have 5+ invulnerable save.\n\n### SURGING VITALITY\nWhile this unit is within Synapse Range of your army, add 1 to Advance and Charge rolls made for this unit.\n\n### GOADED TO SLAUGHTER\nWhile this unit is within Synapse Range of your army, each time a model in this unit makes a melee attack, add 1 to the Hit roll."
       },
+      "Detachment§Talons Of The Norn Queen": {
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
       "Detachment§Unending Swarm": {
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -4156,9 +4244,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## Insurmountable Odds \n\nEach time an enemy unit is selected to shoot, after that unit has finished making its attacks, if one or more **Endless Multitude** units from your army were destroyed as a result of those attacks, each such unit can make a Surge move. To do so, roll one D6: that unit can be moved a distance in inches up to the result, but that unit must end that move as close as possible to the closest enemy unit (excluding **Aircraft**). When doing so, those models can be moved within Engagement Range of enemy units. A unit cannot make a Surge move while it is Battle-shocked."
       },
       "Detachment§Vanguard Onslaught": {
+        "keywords": {
+          "Role": [
+            "Reconnaissance"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -4252,9 +4350,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## Questing Tendrils & Vanguard Prime\n\n### Questing Tendrils\n**Tyranids** units with this ability are eligible to charge in a turn which they Fell Back. **Vanguard Invader** units with this ability are eligible to charge in a turn which they Advanced.\n\n### Vanguard Prime\n**Deathleaper** loses the Hunter Organism rule and can be your **Warlord**."
       },
       "Detachment§Warrior Bioform Onslaught": {
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -4346,6 +4454,11 @@
             "evals": [],
             "evaluate": "AND",
             "failState": "pass"
+          }
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
           }
         },
         "text": "### LEADER‑BEASTS\n\n**Tyranid Warriors** (see below) and **Winged Tyranid Prime** units from your army have a 5+ invulnerable save.\n\n### KEYWORDS\n\n**Tyranid Warriors with Ranged Bio‑weapons** and **Tyranid Warriors with Melee Bio‑weapons** units from your army gain the **Tyranid Warriors** and **Battleline** keywords, and while such a unit is not Battle‑shocked, **Tyranid Warriors** models in that unit have an Objective Control characteristic of 3."
@@ -4476,7 +4589,7 @@
         },
         "text": "**Tyranids** model only. After both players have deployed their armies, select up to three **Tyranids** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
       },
-      "Enhancement§Biophagic Flow (Aura)": {
+      "Enhancement§Biophagic Flow": {
         "keywords": {
           "Keywords": [
             "Assimilation Swarm"
@@ -4543,6 +4656,32 @@
         },
         "text": "**Vanguard Invader** model only. The bearer has the Stealth ability and each time a ranged attack targets the bearer’s unit, models in that unit have the Benefit of Cover against that attack."
       },
+      "Enhancement§Cryptophotaic Camouflage (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Ambush Predators"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Destabilising Predation (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Talons Of The Norn Queen"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Elevated Might": {
         "keywords": {
           "Keywords": [
@@ -4555,6 +4694,19 @@
           }
         },
         "text": "**Tyranids** model only. The bearer’s unit is eligible to declare a charge in a turn in which it Advanced."
+      },
+      "Enhancement§Encircling Horrors (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Ambush Predators"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Enraged Reserves": {
         "keywords": {
@@ -5212,11 +5364,6 @@
         "text": "**Tyranids** model only. Add 2″ to the Move characteristic of models in the bearer’s unit."
       },
       "Enhancement§Sensory Assimilation": {
-        "keywords": {
-          "Keywords": [
-            "Warrior Bioform Onslaught"
-          ]
-        },
         "rules": {
           "Winged Tyranid Prime or Tyranid Prime with Lash Whip model only.": {
             "evals": [
@@ -5393,12 +5540,6 @@
         "text": "Tyranids model only. Once per battle, you can target the bearer’s unit with the Rapid Ingress stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
       },
       "Enhancement§Synaptic Tyrant": {
-        "keywords": {
-          "Keywords": [
-            "Synaptic Tyrant",
-            "Warrior Bioform Onslaught"
-          ]
-        },
         "rules": {
           "Neurotyrant model only.": {
             "evals": [
@@ -5428,7 +5569,20 @@
         },
         "text": "**Neurotyrant** model only. During the Declare Battle Formations step, the bearer can be attached to a **Tyranid Warriors** unit"
       },
-      "Enhancement§The DirgeHeart of Kharis (Aura)": {
+      "Enhancement§Synaptoprescience (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Talons Of The Norn Queen"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§The Dirgeheart of Kharis": {
         "keywords": {
           "Keywords": [
             "Synaptic Nexus"
@@ -12692,7 +12846,7 @@
             "value": 2
           },
           "model3rdCost": {
-            "value": 150
+            "value": 140
           },
           "model3rdTally": {
             "value": 3
@@ -12710,7 +12864,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 50
+            "value": 60
           }
         }
       },
@@ -12917,13 +13071,19 @@
             "value": 4
           },
           "Points": {
-            "value": 140
+            "value": 150
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 10
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 14
@@ -12981,7 +13141,7 @@
             "value": 10
           },
           "model2ndCost": {
-            "value": 170
+            "value": 155
           },
           "model2ndTally": {
             "value": 20
@@ -12999,7 +13159,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 85
+            "value": 80
           }
         }
       },
@@ -13066,7 +13226,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 140
+            "value": 150
           },
           "model2ndTally": {
             "value": 10
@@ -13084,7 +13244,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 75
+            "value": 85
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -13174,7 +13340,7 @@
             "value": 0
           },
           "Points": {
-            "value": 215
+            "value": 185
           },
           "Sv": {
             "value": 3
@@ -13253,13 +13419,19 @@
             "value": 0
           },
           "Points": {
-            "value": 610
+            "value": 660
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 10
+          },
+          "unitDiscount": {
+            "value": 50
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 30
@@ -13323,13 +13495,19 @@
             "value": 4
           },
           "Points": {
-            "value": 125
+            "value": 135
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 14
@@ -13410,13 +13588,19 @@
             "value": 12
           },
           "Points": {
-            "value": 810
+            "value": 910
           },
           "Sv": {
             "value": 2
           },
           "T": {
             "value": 14
+          },
+          "unitDiscount": {
+            "value": 100
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 30
@@ -13486,7 +13670,7 @@
             "value": 0
           },
           "Points": {
-            "value": 200
+            "value": 170
           },
           "Sv": {
             "value": 3
@@ -13544,7 +13728,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 180
+            "value": 170
           },
           "model2ndTally": {
             "value": 6
@@ -13563,6 +13747,12 @@
           },
           "Points": {
             "value": 90
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -13614,7 +13804,7 @@
             "value": 10
           },
           "model2ndCost": {
-            "value": 130
+            "value": 120
           },
           "model2ndTally": {
             "value": 20
@@ -13632,7 +13822,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 65
+            "value": 70
           }
         }
       },
@@ -13759,13 +13949,19 @@
             "value": 4
           },
           "Points": {
-            "value": 170
+            "value": 190
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 14
@@ -14535,13 +14731,19 @@
             "value": 1
           },
           "Points": {
-            "value": 70
+            "value": 90
           },
           "Sv": {
             "value": 4
           },
           "T": {
             "value": 5
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 7
@@ -14607,13 +14809,19 @@
             "value": 5
           },
           "Points": {
-            "value": 275
+            "value": 270
           },
           "Sv": {
             "value": 2
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 16
@@ -14688,13 +14896,19 @@
             "value": 5
           },
           "Points": {
-            "value": 260
+            "value": 270
           },
           "Sv": {
             "value": 2
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 16
@@ -14818,7 +15032,7 @@
             "value": 1
           },
           "model2ndCost": {
-            "value": 70
+            "value": 75
           },
           "model2ndTally": {
             "value": 2
@@ -14842,7 +15056,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 40
+            "value": 55
           },
           "Pyrovore": {
             "max": 3,
@@ -14851,6 +15065,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -14894,8 +15114,6 @@
           "model1stTally": {
             "value": 5
           },
-          "model2ndCost": {},
-          "model2ndTally": {},
           "modelKey": {
             "value": "Model§Ravener"
           },
@@ -14905,7 +15123,7 @@
             "value": 5
           },
           "Points": {
-            "value": 125
+            "value": 135
           },
           "Ravener": {
             "max": 5,
@@ -14914,6 +15132,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -15026,7 +15250,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 25
+            "value": 30
           },
           "Ripper Swarm": {
             "max": 3,
@@ -15100,13 +15324,19 @@
             "value": 3
           },
           "Points": {
-            "value": 125
+            "value": 135
           },
           "Sv": {
             "value": 2
           },
           "T": {
             "value": 9
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 10
@@ -15568,7 +15798,7 @@
             "value": 10
           },
           "model2ndCost": {
-            "value": 120
+            "value": 110
           },
           "model2ndTally": {
             "value": 20
@@ -15653,7 +15883,7 @@
             "value": 4
           },
           "Points": {
-            "value": 150
+            "value": 135
           },
           "Sv": {
             "value": 3
@@ -16362,7 +16592,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 130
+            "value": 120
           },
           "model2ndTally": {
             "value": 6
@@ -16380,7 +16610,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 65
+            "value": 60
           },
           "Tyranid Warrior": {
             "max": 5,
@@ -16448,7 +16678,7 @@
             "value": 2
           },
           "Points": {
-            "value": 105
+            "value": 90
           },
           "Sv": {
             "value": 3
@@ -16550,13 +16780,19 @@
             "value": 5
           },
           "Points": {
-            "value": 200
+            "value": 190
           },
           "Sv": {
             "value": 2
           },
           "T": {
             "value": 12
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 16
@@ -16673,7 +16909,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 140
+            "value": 110
           },
           "model2ndTally": {
             "value": 6
@@ -16691,7 +16927,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 70
+            "value": 55
           },
           "Venomthrope": {
             "max": 6,
@@ -16752,7 +16988,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 140
+            "value": 120
           },
           "model2ndTally": {
             "value": 6
@@ -16770,7 +17006,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 70
+            "value": 60
           },
           "Von Ryan’s Leaper": {
             "max": 6,

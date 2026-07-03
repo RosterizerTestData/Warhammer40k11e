@@ -1,6 +1,6 @@
 {
   "name": "Imperial Knights 11e",
-  "revision": "11.0.0",
+  "revision": "11.0.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -9,7 +9,7 @@
   "wip": false,
   "dependencies": [
     {
-      "slug": "PCAPDR",
+      "slug": "RG5MGU",
       "name": "Imperium 11e",
       "game": "Warhammer 40k",
       "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k11e/main/Imperium.rulebook"
@@ -136,7 +136,25 @@
         },
         "text": "If your Army Faction is Imperial Knights, at the end of the Read Mission Objectives step, you must select one of the Oaths below to be active for your army. Models from your army with this ability gain the associated Oath ability, and you gain the associated Deed to complete.\n\n\nIf, at the start of any of your Command phases, your selected Oath’s Deed is completed, your army becomes Honoured for the rest of the battle and you gain 3CP (you can only gain CP in this way once per battle, and CP gained in this way are an exemption to the Core Rules that limit the maximum number of CP you can gain per battle round to 1).\n\n\nLAY LOW THE TYRANT\n- Oath Ability: Each time this model is selected to shoot or fight, re-roll a single Hit roll of 1 and re-roll a single Wound roll of 1.\n- Deed: This deed is completed if the enemy Warlord is destroyed.\n\n\nRECLAIM THE REALM\n- Oath Ability: Add 1″ to this model’s Move characteristic and add 1 to Advance and Charge rolls made for this model.\n- Deed: This deed is completed if you control one or more objective markers in your opponent’s deployment zone."
       },
+      "Detachment§Dominus Foebreakers": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
       "Detachment§Freeblade Company": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -230,12 +248,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "## KNIGHTS OF LEGEND\n\nImperial Knights models from your army have the Feel No Pain 6+ ability. In addition, at the start of your Command phase, each Imperial Knights model from your army regains 1 lost wound."
       },
       "Detachment§Gate Warden Lance": {
         "keywords": {
           "Keywords": [
             "Gate Warden Lance"
+          ],
+          "Role": [
+            "Priority Assets"
           ]
         },
         "rules": {
@@ -331,12 +357,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## Dauntless Defenders\n\nAt the start of the first battle round, you select two objective markers as your  foundations. A unit is considered on your defensive line if its base crosses the line drawn between these two foundations. While an Imperial Knights unit is on your defensive line, it gains the Against the Horde ability: you can ignore any or all modifiers to the Hit roll when it attacks a visible enemy unit, and its weapons gain the [SUSTAINED HITS 1] ability.\n\nIf a foundation is removed from the battlefield, you must select a new objective marker to be a foundation."
       },
       "Detachment§Questor Forgepact": {
         "keywords": {
           "Keywords": [
             "Questor Forgepact"
+          ],
+          "Role": [
+            "Disruption"
           ]
         },
         "rules": {
@@ -432,12 +466,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
         "text": "**COGBOUND ALLIANCE**\n\n**Imperial Knight** units from your army\nhave the following the ability:\n\n**Sacristan Pledge**: In your Command\nphase, one model in this unit regains 1\nlost wound. If this unit is within 3\" of one\nor more friendly Tech‑Priest models, one\nmodel in this unit regains up to D3 lost\nwounds instead.\n\n**Adeptus Mechanicus** units from your\narmy have the following ability:\n\n**Divine Inspiration**: Each time a model\nin this unit makes a ranged attack, re‑roll\na Hit roll of 1. If this unit is within 6\" of\none or more friendly Imperial Knights\nunits, re‑roll a Wound roll of 1 as well.\n\n**FORGE WORLD ALLIES**\n\nYou can include the following **Adeptus\nMechanicus** units in your army:\n**Tech‑Priest Dominus; Tech‑Priest\nManipulus; Skitarii Marshal; Skitarii\nRangers; Skitarii Vanguard**. The\ncombined points cost of such units\ndepends on your battle size:\n\n■ Incursion: Up to 250 pts\n\n■ Strike Force: Up to 500 pts\n\n■ Onslaught: Up to 750 pts"
       },
       "Detachment§Questoris Companions": {
         "keywords": {
           "Keywords": [
             "Questoris Companions"
+          ],
+          "Role": [
+            "Take And Hold"
           ]
         },
         "rules": {
@@ -533,12 +575,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "## Heroes of Legend\n\nAt the start of your turn, if your current Oath is fulfilled, you can determine an  additional Oath by selecting a Deed and Quality you have not selected before. The Qualities from all fulfilled Oaths continue to apply.\n\nWhen the Deed for an additional Oath is completed, you gain  1 Command Point (CP).\n\n## Valour’s Reward\n\nEnhancements in this detachment can become expended. Each time you fulfill your Oath, any expended Enhancements are no longer expended."
       },
       "Detachment§Spearhead-At-Arms": {
         "keywords": {
           "Keywords": [
             "Spearhead-At-Arms"
+          ],
+          "Role": [
+            "Reconnaissance"
           ]
         },
         "rules": {
@@ -661,12 +711,33 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## Knightly Teachings \n\nEach time a model uses its Bondsman ability, if no other model has used that same ability this turn, you can select up to three friendly Armiger models (instead of one) to be affected by it. The range of this ability is 12\", which increases to 15\" if your army is Honoured.\n\n- Armiger models in your army gain the  BATTLELINE keyword."
+      },
+      "Detachment§Throne-Bonded Outriders": {
+        "keywords": {
+          "Role": [
+            "Reconnaissance"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
       },
       "Detachment§Valourstrike Lance": {
         "keywords": {
           "Keywords": [
             "Valourstrike Lance"
+          ],
+          "Role": [
+            "Purge The Foe"
           ]
         },
         "rules": {
@@ -857,9 +928,14 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## Bold Gallantry\n\nEach time an Imperial Knights unit from your army Advances, until the end of the turn, ranged weapons equipped by Imperial Knights models from your army have the [ASSAULT] ability."
       },
-      "Enhancement§Acquisitor-At-Arms": {
+      "Enhancement§Acquisitor-at-Arms": {
         "keywords": {
           "Keywords": [
             "Gate Warden Lance"
@@ -893,6 +969,32 @@
           }
         },
         "text": "Imperial Knights model only. While the bearer is your defensive line and there are no enemy units on your defensive line, add the bearer’s Objective Control characteristic to that of each model equipped with the bearer’s Bondsman ability."
+      },
+      "Enhancement§Ancestral Overbleed (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Throne-Bonded Outriders"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Archeotech Autoloaders": {
+        "keywords": {
+          "Keywords": [
+            "Dominus Foebreakers"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Augury Halo": {
         "keywords": {
@@ -1000,11 +1102,6 @@
         "text": "Imperial Knights model only. At the end of your Movement phase, select one other IMPERIAL KNIGHTS model from your army that is within 12\" of and visible to the bearer. That selected model regains up to D3 lost wounds, or up to 3 lost wounds if your army is Honoured."
       },
       "Enhancement§Bearer of the Judicant's Helm": {
-        "keywords": {
-          "Keywords": [
-            "Valourstrike Lance"
-          ]
-        },
         "rules": {
           "Imperial Knights model only.": {
             "evals": [
@@ -1034,12 +1131,20 @@
         },
         "text": "Imperial Knights model only. At the start of your Shooting phase, select one other IMPERIAL KNIGHTS model from your army that is within 12\" of and visible to the bearer. Until the end of the phase, ranged weapons equipped by that selected model have the [IGNORES COVER] ability."
       },
-      "Enhancement§Bearer of the Lancer's Sigil": {
+      "Enhancement§Bearer of the Judicant’s Helm": {
         "keywords": {
           "Keywords": [
             "Valourstrike Lance"
           ]
         },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Bearer of the Lancer's Sigil": {
         "rules": {
           "Imperial Knights model only.": {
             "evals": [
@@ -1068,6 +1173,32 @@
           }
         },
         "text": "Imperial Knights model only. At the start of your Charge phase, select one other IMPERIAL KNIGHTS model from your army that is within 12\" of and visible to the bearer. Until the end of the phase, you can re-roll Charge rolls made for that selected model."
+      },
+      "Enhancement§Bearer of the Lancer’s Sigil": {
+        "keywords": {
+          "Keywords": [
+            "Valourstrike Lance"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Blessed Plate": {
+        "keywords": {
+          "Keywords": [
+            "Dominus Foebreakers"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 30
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Bringer of Justice": {
         "keywords": {
@@ -1205,10 +1336,23 @@
         },
         "stats": {
           "Points": {
-            "value": 20
+            "value": 10
           }
         },
         "text": "IMPERIAL KNIGHTS model only. While two or more ARMIGER models are under the effects of the bearer’s Bondsman ability, melee weapons equipped by those ARMIGER models have the [PRECISION] ability."
+      },
+      "Enhancement§Gyro-optimised Actuators (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Throne-Bonded Outriders"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Herald of Triumph": {
         "keywords": {
@@ -1246,11 +1390,6 @@
         "text": "Imperial Knights model only. When the bearer ends a Charge move, it can use this Enhancement. If it does, this Enhancement is expended, then each enemy unit within Engagement Range of the bearer must take a Battle-shock test, subtracting 1 from the result."
       },
       "Enhancement§Hunter's Eye": {
-        "keywords": {
-          "Keywords": [
-            "Freeblade Company"
-          ]
-        },
         "rules": {
           "apply": {
             "actions": [
@@ -1312,12 +1451,20 @@
         },
         "text": "**IMPERIAL KNIGHTS** model only. Ranged weapons equipped by the bearer have the **[IGNORES COVER]** ability."
       },
-      "Enhancement§Knight of the Opus Machina": {
+      "Enhancement§Hunter’s Eye": {
         "keywords": {
           "Keywords": [
-            "Questor Forgepact"
+            "Freeblade Company"
           ]
         },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Knight of the Opus Machina": {
         "rules": {
           "Imperial Knights model only.": {
             "evals": [
@@ -1346,6 +1493,19 @@
           }
         },
         "text": "Imperial Knights model only. Each time the bearer\nmakes a ranged attack, if the bearer is within 6\" of one\nor more friendly Adeptus Mechanicus units, re‑roll a\nHit roll of 1."
+      },
+      "Enhancement§Knight of the Opus Machina (Aura)": {
+        "keywords": {
+          "Keywords": [
+            "Questor Forgepact"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Magos Questoris": {
         "keywords": {
@@ -1377,7 +1537,7 @@
         },
         "stats": {
           "Points": {
-            "value": 35
+            "value": 20
           }
         },
         "text": "Tech‑Priest model only. While the bearer is within 3\"\nof one or more friendly Imperial Knights units, it has\nthe Lone Operative ability. In your Command phase,\nselect one friendly Imperial Knights model within 3\"\nof the bearer. That model regains up to 2 lost wounds."
@@ -1488,11 +1648,6 @@
         "text": "**IMPERIAL KNIGHTS** model only. The bearer has the Deep Strike ability. Once per battle, at the end of your opponent's turn, if the bearer is not within Engagement Range of one or more enemy units, it can use this Enhancement. If it does, remove the bearer from the battlefield. In the Reinforcements step of your subsequent Movement phase, set the bearer up anywhere on the battlefield that is more than 9\" horizontally away from all enemy units. If the battle ends and the bearer is not on the battlefield, it is destroyed."
       },
       "Enhancement§Omnissian Champion": {
-        "keywords": {
-          "Keywords": [
-            "Questor Forgepact"
-          ]
-        },
         "rules": {
           "apply": {
             "actions": [
@@ -1745,11 +1900,6 @@
         "text": "Imperial Knights model only. Once per turn, you can target the bearer with the Tank Shock Stratagem for 0CP."
       },
       "Enhancement§Vocifer Magnificat (Aura)": {
-        "keywords": {
-          "Keywords": [
-            "Questor Forgepact"
-          ]
-        },
         "rules": {
           "Imperial Knights model only.": {
             "evals": [

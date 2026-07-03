@@ -1,6 +1,6 @@
 {
   "name": "Adepta Sororitas 11e",
-  "revision": "11.0.0",
+  "revision": "11.0.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -9,7 +9,7 @@
   "wip": false,
   "dependencies": [
     {
-      "slug": "PCAPDR",
+      "slug": "RG5MGU",
       "name": "Imperium 11e",
       "game": "Warhammer 40k",
       "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k11e/main/Imperium.rulebook"
@@ -620,7 +620,7 @@
             "value": 2
           },
           "Points": {
-            "value": 70
+            "value": 80
           }
         }
       },
@@ -1672,13 +1672,19 @@
             "value": 1
           },
           "Points": {
-            "value": 60
+            "value": 85
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 3
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 3
@@ -2002,7 +2008,7 @@
             "value": 2
           },
           "Points": {
-            "value": 80
+            "value": 115
           },
           "Sv": {
             "value": 2
@@ -2424,7 +2430,7 @@
             "value": 6
           },
           "Points": {
-            "value": 235
+            "value": 245
           },
           "Sv": {
             "value": 3
@@ -2438,6 +2444,11 @@
         }
       },
       "Detachment§Army of Faith": {
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -2531,9 +2542,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "*Sacred Rites*\n\nEach Adepta Sororitas unit from your army can perform up to two Acts of Faith per phase, instead of just one."
       },
       "Detachment§Bringers of Flame": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -2627,11 +2648,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "*Fervent Purgation*\n\nRanged weapons equipped by Adepta Sororitas models from your army have the [Assault] ability, and each time an attack made with such a weapon targets a unit within 6\", add 1 to the Strength characteristic of that attack."
       },
       "Detachment§Champions of Faith": {
         "keywords": {
-          "Keywords": []
+          "Keywords": [],
+          "Role": [
+            "Disruption"
+          ]
         },
         "rules": {
           "assignStratagems": {
@@ -2726,9 +2755,32 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "RIGHTEOUS PURPOSE\n\nIn your Command phase, you can select up to 3 Adepta Sororitas units from your army (including units that are embarked within Transports), until the start of your next Command phase, those units are Righteous. While a unit is Righteous:\n\n■ Add 1\" to the Move characteristic of\nmodels in that unit.\n\n■ Improve the Leadership characteristic\nof models in that unit by 1.\n\n■ Improve the Weapon Skill and Ballistic\nSkill characteristics of weapons\nequipped by **Battle Sisters Squad,\nCelestian Sacresants** and **Paragon\nWarsuits** models in that unit by 1.\n\nKEYWORDS\n\nWhile a **Celestian Sacresants** unit from\nyour army is not Battle‑shocked, add 1\nto the Objective Control characteristic of\n**Celestian Sacresants** models in that unit."
       },
+      "Detachment§Chorus Of Condemnation": {
+        "keywords": {
+          "Role": [
+            "Reconnaissance"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
       "Detachment§Hallowed Martyrs": {
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -2822,9 +2874,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "Each time an Adepta Sororitas model from your army makes an attack, add 1 to the Hit roll if that model’s unit is below its Starting Strength, and add 1 to the Wound roll, as well, if that model’s unit is Below Half-strength. For the purposes of this ability, if a unit has a Starting Strength of 1, it is considered to be below its Starting Strength while it has lost one or more wounds."
       },
       "Detachment§Penitent Host": {
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -2918,12 +2980,43 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "At the start of the battle round, you can select one of the following Vows of Atonement to be active for your army until the start of the next battle round. You can only select each Vow of Atonement once per battle.\n\n*The Path of the Penitent*\n\nAdd 3\" to the Move characteristic of Penitent models from your army.\n\n*Absolution in Battle*\n\nEach time a unit from your army is selected to fight, if that unit made a Charge move this turn, until the end of the phase, add 1 to the Attacks and Strength characteristics of melee weapons equipped by Penitent models in that unit.\n\n*Death before Disgrace*\n\nEach time a Penitent model from your army is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 2+, do not remove it from play; the destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+      },
+      "Detachment§Sacred Champions": {
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
+      "Detachment§Sanctified Orators": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
       },
       "Enhancement§Blade of Saint Ellynor": {
         "keywords": {
           "Keywords": [
-            "Army of Faith"
+            "Army Of Faith"
           ]
         },
         "rules": {
@@ -3087,10 +3180,23 @@
         },
         "text": "Adepta Sororitas model only. At the end of your Command phase, if the bearer is on the battlefield, you can re-roll one Miracle dice from your Miracle dice pool and return it to your Miracle dice pool with the new result you rolled. When doing so, if the bearer has lost one or more wounds or is leading a unit that is Below Half-strength, you can re-roll up to three Miracle dice in this way instead."
       },
+      "Enhancement§Clarion of Urgency": {
+        "keywords": {
+          "Keywords": [
+            "Chorus Of Condemnation"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Divine Aspect": {
         "keywords": {
           "Keywords": [
-            "Army of Faith"
+            "Army Of Faith"
           ]
         },
         "stats": {
@@ -3103,7 +3209,7 @@
       "Enhancement§Eyes of the Oracle": {
         "keywords": {
           "Keywords": [
-            "Champions of Faith"
+            "Champions Of Faith"
           ]
         },
         "rules": {
@@ -3167,7 +3273,7 @@
       "Enhancement§Fire and Fury": {
         "keywords": {
           "Keywords": [
-            "Bringers of Flame"
+            "Bringers Of Flame"
           ]
         },
         "stats": {
@@ -3177,10 +3283,23 @@
         },
         "text": "Adepta Sororitas model only. While the bearer is leading a unit, add 1 to the Attacks characteristic of Torrent weapons equipped by models in that unit, and all other ranged weapons equipped by models in that unit have the [Sustained Hits 1] ability."
       },
+      "Enhancement§Hagiomnifex (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Sanctified Orators"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Iron Surplice of Saint Istalela": {
         "keywords": {
           "Keywords": [
-            "Bringers of Flame"
+            "Bringers Of Flame"
           ]
         },
         "rules": {
@@ -3267,7 +3386,7 @@
       "Enhancement§Litanies of Faith": {
         "keywords": {
           "Keywords": [
-            "Army of Faith"
+            "Army Of Faith"
           ]
         },
         "rules": {
@@ -3378,10 +3497,23 @@
         },
         "text": "Adepta Sororitas model only. At the start of your Command phase, you can discard up to 2 Miracle dice. Then, add 1 Miracle dice to your Miracle Dice pool showing a value equal to the sum of the two Miracle dice you just discarded (to a maximum of 6)."
       },
+      "Enhancement§Manual of Saint Griselda": {
+        "keywords": {
+          "Keywords": [
+            "Bringers Of Flame"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Mark of Devotion": {
         "keywords": {
           "Keywords": [
-            "Champions of Faith"
+            "Champions Of Faith"
           ]
         },
         "rules": {
@@ -3436,6 +3568,19 @@
         },
         "text": "**Adepta Sororitas** model only. Add 1 to the Attacks\ncharacteristic of the bearer’s melee weapons. While\nthe bearer’s unit is Righteous, add 2 to the Attacks\ncharacteristic and add 1 to the Damage characteristic\nof the bearer’s melee weapons instead."
       },
+      "Enhancement§Perfervid Haste": {
+        "keywords": {
+          "Keywords": [
+            "Sacred Champions"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Psalm of Righteous Judgement": {
         "keywords": {
           "Keywords": [
@@ -3487,7 +3632,7 @@
       "Enhancement§Righteous Rage": {
         "keywords": {
           "Keywords": [
-            "Bringers of Flame"
+            "Bringers Of Flame"
           ]
         },
         "stats": {
@@ -3516,7 +3661,7 @@
       "Enhancement§Sanctified Amulet": {
         "keywords": {
           "Keywords": [
-            "Champions of Faith"
+            "Champions Of Faith"
           ]
         },
         "stats": {
@@ -3525,6 +3670,19 @@
           }
         },
         "text": "**Adepta Sororitas** model only. Enemy units that are\nset up on the battlefield from Reserves cannot be set\nup within 12\" of the bearer."
+      },
+      "Enhancement§Symphonic Payload (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Chorus Of Condemnation"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Through Suffering, Strength": {
         "keywords": {
@@ -3632,7 +3790,7 @@
       "Enhancement§Triptych of Judgement": {
         "keywords": {
           "Keywords": [
-            "Champions of Faith"
+            "Champions Of Faith"
           ]
         },
         "stats": {
@@ -3645,7 +3803,7 @@
       "Enhancement§Triptych of the Macharian Crusade": {
         "keywords": {
           "Keywords": [
-            "Army of Faith"
+            "Army Of Faith"
           ]
         },
         "stats": {
@@ -3689,6 +3847,19 @@
           }
         },
         "text": "Penitent model only. Once per battle, at the start of the battle round, select one Vow of Atonement (see detachment rule). Until the start of the next battle round, that Vow of Atonement is active for the bearer's unit in addition to any that is active for your army, even if you have already selected that Vow of Atonement this battle."
+      },
+      "Enhancement§Writ of Compunction (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Sacred Champions"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Melee Weapon§Aestred Thurga and Agathae Dolan—Blade of Vigil": {
         "aspects": {
@@ -13141,7 +13312,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 45
+            "value": 50
           }
         }
       },
@@ -13432,7 +13603,7 @@
             "value": 10
           },
           "Points": {
-            "value": 105
+            "value": 100
           },
           "Simulacrum": {
             "dynamic": true,
@@ -13581,13 +13752,19 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 160
+            "value": 175
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 10
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 11
@@ -13871,7 +14048,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 140
+            "value": 165
           },
           "model2ndTally": {
             "value": 10
@@ -13889,7 +14066,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 70
+            "value": 90
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           }
         }
       },
@@ -13961,7 +14144,6 @@
           "model2ndTally": {
             "value": 4
           },
-          "model3rdCost": {},
           "modelKey": {
             "value": "Model§Crusader"
           },
@@ -14268,7 +14450,7 @@
             "value": 10
           },
           "Points": {
-            "value": 120
+            "value": 110
           },
           "Simulacrum": {
             "dynamic": true,
@@ -14282,6 +14464,12 @@
             "statType": "numeric",
             "value": 0,
             "visibility": "normal"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -14370,7 +14558,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 210
+            "value": 220
           },
           "Rocket Options": {
             "dynamic": true,
@@ -14403,6 +14591,12 @@
           },
           "T": {
             "value": 10
+          },
+          "unitDiscount": {
+            "value": 40
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 11
@@ -14492,7 +14686,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 115
+            "value": 120
           },
           "Ranged Options": {
             "dynamic": true,
@@ -14533,6 +14727,12 @@
           },
           "T": {
             "value": 10
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 4
           },
           "W": {
             "value": 11
@@ -14683,7 +14883,7 @@
             "value": 1
           },
           "model2ndCost": {
-            "value": 140
+            "value": 130
           },
           "model2ndTally": {
             "value": 2
@@ -14778,7 +14978,13 @@
             "visibility": "hidden"
           },
           "Points": {
-            "value": 210
+            "value": 190
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -14845,7 +15051,7 @@
             "value": 1
           },
           "model2ndCost": {
-            "value": 150
+            "value": 140
           },
           "model2ndTally": {
             "value": 2
@@ -14871,7 +15077,7 @@
             "visibility": "hidden"
           },
           "Points": {
-            "value": 75
+            "value": 70
           }
         }
       },
@@ -15166,7 +15372,7 @@
             "value": 5
           },
           "Points": {
-            "value": 120
+            "value": 115
           },
           "Retributor": {
             "max": 4,
@@ -15175,6 +15381,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -15404,7 +15616,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 160
+            "value": 170
           },
           "model2ndTally": {
             "value": 10
@@ -15422,7 +15634,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 80
+            "value": 95
           },
           "Seraphim": {
             "max": 9,
@@ -15431,6 +15643,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },

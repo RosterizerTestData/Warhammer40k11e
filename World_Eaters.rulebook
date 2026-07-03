@@ -1,6 +1,6 @@
 {
   "name": "World Eaters 11e",
-  "revision": "11.0.0",
+  "revision": "11.0.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -774,7 +774,7 @@
             "value": 6
           },
           "Points": {
-            "value": 340
+            "value": 350
           },
           "Sv": {
             "value": 2
@@ -846,6 +846,15 @@
                 ]
               }
             }
+          },
+          "Points": {
+            "value": 335
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -997,7 +1006,7 @@
             "value": 3
           },
           "Points": {
-            "value": 180
+            "value": 170
           },
           "Sv": {
             "value": 2
@@ -1067,7 +1076,7 @@
             "value": 1
           },
           "Points": {
-            "value": 100
+            "value": 115
           },
           "Sv": {
             "value": 3
@@ -1191,6 +1200,11 @@
               "Ability§Greater Daemon of Khorne (Aura)",
               "Ability§Rage Embodied (aura)"
             ]
+          }
+        },
+        "stats": {
+          "Points": {
+            "value": 315
           }
         }
       },
@@ -1399,6 +1413,9 @@
         "keywords": {
           "Keywords": [
             "Berzerker Warband"
+          ],
+          "Role": [
+            "Purge The Foe"
           ]
         },
         "rules": {
@@ -1494,12 +1511,46 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "## RELENTLESS RAGE\n\nEach time a World Eaters unit from your army makes a Charge move, until the end of the turn, add 1 to the Attacks characteristic and add 2 to the Strength characteristic of melee weapons equipped by models in that unit."
+      },
+      "Detachment§Brazen Engines": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
+      "Detachment§Butchers Of Khorne": {
+        "keywords": {
+          "Role": [
+            "Disruption"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
       },
       "Detachment§Cult of Blood": {
         "keywords": {
           "Keywords": [
             "Cult of Blood"
+          ],
+          "Role": [
+            "Priority Assets"
           ]
         },
         "rules": {
@@ -1657,12 +1708,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## IDOLS OF KHORNE\n\nAt the start of your Command phase, you can select one of the Idols of Khorne abilities listed below. Until the start of your next Command phase, that ability is active and its effects apply to all WORLD EATERS TITANIC and WORLD EATERS MONSTER units from your army. You can only select each Idols of Khorne ability once per battle.\n\n**Idol of Infinite Rage (Aura)**\n\nWhile a friendly JAKHALS or GOREMONGERS unit is within 6\" of this model (or within 9\" if this model is TITANIC), each time a model in that unit makes an attack, add 1 to the Hit roll and add 1 to the Wound roll.\n\n**Idol of Burning Wrath (Aura)**\n\nWhile a friendly JAKHALS or GOREMONGERS unit is within 6\" of this model (or within 9\" if this model is TITANIC), add 1\" to the Move characteristic of models in that unit and add 1 to Advance and Charge rolls made for that unit.\n\n**Idol of Blessed Blood (Aura)**\n\nWhile a friendly JAKHALS or GOREMONGERS unit is within 6\" of this model (or within 9\" if this model is TITANIC), models in that unit have a 4+ invulnerable save.\n\n### KEYWORDS\n---\n**JAKHALS** and **GOREMONGERS** units from your army have the **BATTLELINE** keyword."
       },
       "Detachment§Goretrack Onslaught": {
         "keywords": {
           "Keywords": [
             "Goretrack Onslaught"
+          ],
+          "Role": [
+            "Take And Hold"
           ]
         },
         "rules": {
@@ -1758,12 +1817,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## RUSH TO THE FRAY\n\nEach time a WORLD EATERS unit from your army disembarks from a TRANSPORT, until the end of the turn:\n\n- Add 1 to Charge rolls made for that unit.\n\n- That unit's melee weapons have the [LANCE] ability."
       },
       "Detachment§Khorne Daemonkin": {
         "keywords": {
           "Keywords": [
             "Khorne Daemonkin"
+          ],
+          "Role": [
+            "Reconnaissance"
           ]
         },
         "rules": {
@@ -1859,12 +1926,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## BLOOD TITHE\n\nEach time a BLOOD LEGIONS or WORLD EATERS unit from your army destroys an enemy unit, roll one D6: on a 3+, you gain 1 Blood Tithe point (BTP). At the start of the Command phase, you can spend one or more of your BTP to activate one of the following abilities until the end of the battle:\n\n- Enraged Abjuration [2BTP]\n\nBLOOD LEGIONS and WORLD EATERS models from your army have the Feel No Pain 5+ ability against Psychic Attacks and mortal wounds.\n\n- Daemonic Rage [3BTP]\n\nMelee weapons equipped by BLOOD LEGIONS units from your army have the [LANCE] ability.\n\n- Boon of Blood [4BTP]\n\nBLOOD LEGIONS units from your army have a 4+ invulnerable save.\n\n- Might of Khorne [5BTP]\n\nBLOOD LEGIONS units from your army gain the Blessings of Khorne ability.\n\n---\n\n## RESTRICTIONS\n\nYou can include the BLOOD LEGIONS units in your army. The combined points cost of such units you can include in your army is:\n\n- Incursion: Up to 500 pts\n\n- Strike Force: Up to 1000 pts\n\n- Onslaught: Up to 1500 pts\n\nNo BLOOD LEGIONS model from your army can be your WARLORD."
       },
       "Detachment§Possessed Slaughterband": {
         "keywords": {
           "Keywords": [
             "Possessed Slaughterband"
+          ],
+          "Role": [
+            "Purge The Foe"
           ]
         },
         "rules": {
@@ -1960,12 +2035,20 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## BRAZEN FURY\n\nWorld Eaters Possessed units from your army have the following ability:\n\n**BRAZEN FURY**: \n\nIn your opponent’s Shooting phase, each time an enemy unit has shot, if any models from this unit were destroyed as a result of those attacks, this unit can make a Brazen Fury move. To do so, roll one D6: models in this unit move a number of inches up to this result, but this unit must end that move as close as possible to the closest enemy unit (excluding Aircraft). When doing so, those models can be moved within Engagement Range of that enemy unit. This unit cannot make a Brazen Fury move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Brazen Fury move per phase."
       },
       "Detachment§Vessels of Wrath": {
         "keywords": {
           "Keywords": [
             "Vessels of Wrath"
+          ],
+          "Role": [
+            "Priority Assets"
           ]
         },
         "rules": {
@@ -2061,6 +2144,11 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
         "text": "## WRATH OF KHORNE\n\nAt the start of the battle round, after activating Blessings of Khorne, you can select one or more models from your army from those listed below (including models that are embarked within **Transports**):\n\n* **World Eaters Character** (excluding **Epic Heroes**)\n* Eightbound Champion\n* Exalted Eightbound Champion\n* Khorne Berzerker Champion\n* World Eaters Terminator Champion\n\nYou can select the same type of model multiple times. The maximum number of models you can select depends on the battle size, as follows:\n\n* **INCURSION: 2 MODELS**\n* **STRIKE FORCE: 3 MODELS**\n* **ONSLAUGHT: 4 MODELS**\n\nUntil the end of the battle round, each of those models has the Vessel of Wrath keyword (we recommend marking such models with a suitable token). Then, select one Blessing of Khorne that is not currently active for your army. Until the end of the battle round, that Blessing of Khorne is active for **Vessel of Wrath** units from your army in addition to any others that are active for your army."
       },
       "Enhancement§Aggressive Deployment": {
@@ -2079,12 +2167,12 @@
       "Enhancement§Archslaughterer": {
         "keywords": {
           "Keywords": [
-            "Vessels of Wrath"
+            "Vessels Of Wrath"
           ]
         },
         "stats": {
           "Points": {
-            "value": 25
+            "value": 40
           }
         },
         "text": "**World Eaters** model only. Improve the Armour Penetration characteristic of melee weapons equipped by the bearer by 1. While the bearer is a **Vessel of Wrath**, improve the Damage characteristic of those weapons by 1 as well."
@@ -2102,7 +2190,7 @@
         },
         "text": "**World Eaters** model only. If the bearer is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
       },
-      "Enhancement§Battle-Lust": {
+      "Enhancement§Battle-lust": {
         "keywords": {
           "Keywords": [
             "Berzerker Warband"
@@ -2110,7 +2198,7 @@
         },
         "stats": {
           "Points": {
-            "value": 10
+            "value": 20
           }
         },
         "text": "World Eaters model only. You can re-roll Charge rolls made for the bearer’s unit. In addition, while the Unbridled Bloodlust Blessing of Khorne is active for your army, add 1 to Charge rolls made for the bearer’s unit."
@@ -2342,7 +2430,7 @@
       "Enhancement§Brazen Form": {
         "keywords": {
           "Keywords": [
-            "Cult of Blood"
+            "Cult Of Blood"
           ]
         },
         "rules": {
@@ -2416,7 +2504,7 @@
       "Enhancement§Butcher Lord": {
         "keywords": {
           "Keywords": [
-            "Cult of Blood"
+            "Cult Of Blood"
           ]
         },
         "rules": {
@@ -2451,7 +2539,7 @@
       "Enhancement§Chosen of the Blood God": {
         "keywords": {
           "Keywords": [
-            "Cult of Blood"
+            "Cult Of Blood"
           ]
         },
         "rules": {
@@ -2526,7 +2614,7 @@
         },
         "stats": {
           "Points": {
-            "value": 15
+            "value": 20
           }
         },
         "text": "World Eaters model only. Each time you make a Blessings of Khorne roll, if the bearer is on the battlefield, you can re-roll up to two of the D6 rolled."
@@ -2566,10 +2654,10 @@
         },
         "text": "World Eaters Daemon model only. Each time a model in the bearer’s unit makes an attack, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6."
       },
-      "Enhancement§Gateways to glory": {
+      "Enhancement§Gateways to Glory": {
         "keywords": {
           "Keywords": [
-            "Vessels of Wrath"
+            "Vessels Of Wrath"
           ]
         },
         "rules": {
@@ -2614,6 +2702,19 @@
           }
         },
         "text": "**World Eaters Daemon Prince** or **World Eaters Mounted** model only. Each time the bearer makes a Normal, Advance or Charge move, it can move horizontally through models and terrain features. When doing so, it can move within Engagement Range of such models but cannot end a Normal or Advance move within Engagement Range of them."
+      },
+      "Enhancement§Gore-stained Veterans (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Butchers Of Khorne"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Helm of Brazen Ire": {
         "keywords": {
@@ -2746,6 +2847,19 @@
         },
         "text": "Slaughterbound model only. Each time the bearer’s unit makes a Brazen Fury move, it is treated as having rolled a 6 for the distance the unit can be moved."
       },
+      "Enhancement§Murder-forged Entity (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Brazen Engines"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Murderous Onslaught": {
         "keywords": {
           "Keywords": [
@@ -2759,10 +2873,23 @@
         },
         "text": "WORLD EATERS model only. If the bearer's unit disembarked from a TRANSPORT this turn, until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer's unit."
       },
+      "Enhancement§Sanctified in Slaughter (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Butchers Of Khorne"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Strategic Slaughter": {
         "keywords": {
           "Keywords": [
-            "Cult of Blood"
+            "Cult Of Blood"
           ]
         },
         "stats": {
@@ -2771,6 +2898,19 @@
           }
         },
         "text": "WORLD EATERS model only. After both players have deployed their armies, select up to three JAKHALS and/or GOREMONGERS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+      },
+      "Enhancement§Talons of Butchery (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Brazen Engines"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Unleash Hell": {
         "keywords": {
@@ -8821,6 +8961,17 @@
               "Ability§The Shadow of Chaos"
             ]
           }
+        },
+        "stats": {
+          "Points": {
+            "value": 105
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          }
         }
       },
       "Unit§Bloodletters": {
@@ -8855,6 +9006,28 @@
             "value": 90
           }
         }
+      },
+      "Unit§Chaos Spawn": {
+        "stats": {
+          "Points": {
+            "value": 95
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
+      },
+      "Unit§Chaos Terminators": {
+        "stats": {
+          "Points": {
+            "value": 185
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
       },
       "Unit§Defiler": {
         "aspects": {
@@ -9091,13 +9264,19 @@
             "value": 5
           },
           "Points": {
-            "value": 250
+            "value": 300
           },
           "Sv": {
             "value": 3
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 30
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 18
@@ -9172,7 +9351,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 270
+            "value": 280
           },
           "model2ndTally": {
             "value": 6
@@ -9190,7 +9369,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 135
+            "value": 145
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -9255,7 +9440,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 280
+            "value": 290
           },
           "model2ndTally": {
             "value": 6
@@ -9273,7 +9458,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 140
+            "value": 150
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -9303,7 +9494,26 @@
               "Ability§The Shadow of Chaos"
             ]
           }
+        },
+        "stats": {
+          "Points": {
+            "value": 75
+          }
         }
+      },
+      "Unit§Forgefiend": {
+        "stats": {
+          "Points": {
+            "value": 175
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
       },
       "Unit§Goremongers": {
         "allowed": {
@@ -9405,6 +9615,22 @@
             "value": 75
           }
         }
+      },
+      "Unit§Helbrute": {
+        "stats": {
+          "Points": {
+            "value": 120
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
+      },
+      "Unit§Heldrake": {
+        "stats": {
+          "Points": {
+            "value": 175
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
       },
       "Unit§Hell Blade": {
         "keywords": {
@@ -10003,7 +10229,7 @@
             "value": 10
           },
           "model2ndCost": {
-            "value": 140
+            "value": 130
           },
           "model2ndTally": {
             "value": 20
@@ -10168,7 +10394,7 @@
             "value": 10
           },
           "model2ndCost": {
-            "value": 360
+            "value": 345
           },
           "model2ndTally": {
             "value": 20
@@ -10318,7 +10544,7 @@
             "value": 8
           },
           "Points": {
-            "value": 505
+            "value": 535
           },
           "Sv": {
             "value": 3
@@ -10326,10 +10552,46 @@
           "T": {
             "value": 13
           },
+          "unitDiscount": {
+            "value": 30
+          },
+          "unitDiscountThreshold": {
+            "value": 2
+          },
           "W": {
             "value": 24
           }
         }
+      },
+      "Unit§Lord On Juggernaut": {
+        "stats": {
+          "Points": {
+            "value": 105
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
+      },
+      "Unit§Master Of Executions": {
+        "stats": {
+          "Points": {
+            "value": 60
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
+      },
+      "Unit§Maulerfiend": {
+        "stats": {
+          "Points": {
+            "value": 155
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
       },
       "Unit§Soul Grinder": {
         "stats": {

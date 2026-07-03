@@ -1,6 +1,6 @@
 {
   "name": "T'au Empire 11e",
-  "revision": "11.0.0",
+  "revision": "11.0.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -9,7 +9,7 @@
   "wip": false,
   "dependencies": [
     {
-      "slug": "PCJ8SD",
+      "slug": "DGST2Y",
       "name": "40k 11e",
       "game": "Warhammer 40k",
       "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k11e/main/Warhammer_40k_11e.rulebook"
@@ -1539,7 +1539,7 @@
             "value": 2
           },
           "Points": {
-            "value": 85
+            "value": 80
           },
           "Sv": {
             "value": 2
@@ -3617,7 +3617,7 @@
             "value": 3
           },
           "Points": {
-            "value": 60
+            "value": 55
           },
           "Sv": {
             "value": 4
@@ -3886,7 +3886,7 @@
             "value": 1
           },
           "Points": {
-            "value": 55
+            "value": 50
           },
           "Ranged Weapon": {
             "dynamic": true,
@@ -3966,7 +3966,7 @@
             "value": 1
           },
           "Points": {
-            "value": 50
+            "value": 60
           },
           "Ranged Weapon": {
             "dynamic": true,
@@ -4167,7 +4167,7 @@
           }
         }
       },
-      "Character§Shas’O R’Alai": {
+      "Character§Shas’o R’alai": {
         "assets": {
           "traits": [
             "Ranged Weapon§Experimental Pulse Submunition Rifle",
@@ -4298,7 +4298,7 @@
             "min": 2
           },
           "Points": {
-            "value": 180
+            "value": 205
           }
         }
       },
@@ -4350,9 +4350,23 @@
         },
         "text": "At the start of your Shooting phase, select one enemy unit within 12\" of the bearer that is not fully visible to the bearer due to intervening terrain or because it is within a terrain feature. Roll one D6, adding 2 to the result if the unit is on or within a ruins terrain feature: on a 3-5, that unit suffers D3 mortal wounds; on a 6+, that unit suffers 3 mortal wounds."
       },
+      "Detachment§Advanced Acquisition Cadre": {
+        "keywords": {
+          "Role": []
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
       "Detachment§Auxiliary Cadre": {
         "keywords": {
-          "Keywords": []
+          "Keywords": [],
+          "Role": [
+            "Disruption"
+          ]
         },
         "rules": {
           "assignStratagems": {
@@ -4447,11 +4461,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
         "text": "INTEGRATED COMMAND STRUCTURE\n\n**Kroot** and **Vespid Stingwings** units from\nyour army have the following ability:\n\n**Targeting Triangulation (Aura):** While\nan enemy unit is within 9\" of and visible\nto this unit, each time a ranged attack\nmade by a friendly **T’au Empire** model\n(*excluding* **Kroot, Vespid Stingwings**\nand **Titanic** models) targets that enemy\nunit, improve the Armour Penetration\ncharacteristic of that attack by 1.\n\n**T’au Empire** units (excluding **Kroot** *and*\n**Vespid Stingwings** units) from your army\nhave the following ability:\n\n**Localised Stealth Projectors (Aura):**\nWhile a friendly **Kroot** or **Vespid\nStingwings** unit is wholly within 6\"\nof and visible to this unit, that **Kroot**\nor **Vespid Stingwings** unit can only be\nselected as the target of a ranged attack if\nthe attacking model is within 18\"."
       },
       "Detachment§Experimental Prototype Cadre": {
         "keywords": {
-          "Keywords": []
+          "Keywords": [],
+          "Role": [
+            "Priority Assets"
+          ]
         },
         "rules": {
           "assignStratagems": {
@@ -4546,9 +4568,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
         "text": "**SUPERIOR CRAFTSMANSHIP**\n\nAdd 6\" to the Range characteristic of\nranged weapons equipped by T’au Empire\nmodels from your army."
       },
       "Detachment§Kauyon": {
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
         "rules": {
           "applystratagems": {
             "actions": [
@@ -4642,9 +4674,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "During the third, fourth and fifth battle rounds, ranged weapons equipped by T’au Empire models from your army have the [SUSTAINED HITS 1] ability. During the third, fourth and fifth battle rounds, while a unit is a Guided unit, each time a ranged attack is made by a model in that unit that targets a Spotted unit, you can ignore any or all modifiers to that attack’s Ballistic skill characteristics and/or all modifiers to the Hit roll."
       },
       "Detachment§Kroot Hunting Pack": {
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
         "rules": {
           "applyStratagems": {
             "actions": [
@@ -4738,9 +4780,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "Hunter’s Instincts - Each time a KROOT model from your army makes an attack, add 1 to the Hit roll if the target of that attack is below Starting Strength, and add 1 to the Wound roll as well if the target of that attack is Below Half-strength.\n\nSkirmish Fighters Kroot Models from your army have a 6+ Invulnerable save against melee attacks and a 5+ Invulnerable save against ranged attacks.\n\nKeywords If you select this Detachment, KROOT CARNIVORE units from your army have the BATTLELINE keyword."
       },
       "Detachment§Mont’ka": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
         "rules": {
           "applyStratagems": {
             "actions": [
@@ -4834,9 +4886,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "During the first, second and third battle rounds, ranged weapons equipped by T’au Empire models from your army have the [ASSAULT] ability. During the first, second and third battle rounds, while a unit is a Guided unit (see For the Greater Good), its ranged weapons have the [LETHAL HITS] ability."
       },
       "Detachment§Retaliation Cadre": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
         "rules": {
           "applyStratagems": {
             "actions": [
@@ -4930,6 +4992,11 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "Each time a **T’au Empire Battlesuit** model; makes a ranged attack that targets a unit within 12″, improve the Strength of that attack by 1. If that attack targets a unit within 9″, improve the Armour Penetration characteristic by 1 as well"
       },
       "Enhancement§Admired Leader": {
@@ -4983,7 +5050,7 @@
       "Enhancement§Coordinated Exploitation": {
         "keywords": {
           "Keywords": [
-            "Mont’ka"
+            "Mont’Ka"
           ]
         },
         "rules": {
@@ -5010,17 +5077,12 @@
         },
         "stats": {
           "Points": {
-            "value": 40
+            "value": 30
           }
         },
         "text": "T’au Empire model only (excluding Kroot Shaper models). While the bearer is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in a Guided unit have the [SUSTAINED HITS 1] ability while targeting their Spotted unit."
       },
       "Enhancement§Exemplar of Kauyon": {
-        "keywords": {
-          "Keywords": [
-            "Kauyon"
-          ]
-        },
         "rules": {
           "No Kroot": {
             "evals": [
@@ -5085,12 +5147,33 @@
         },
         "text": "T’au Empire model only (excluding Kroot Shaper models). While the bearer is leading a unit, the Killing Blow Detachment rule applies to that unit during the fourth battle round as well."
       },
-      "Enhancement§Fanatical Convert": {
+      "Enhancement§Exemplar of the Kauyon": {
         "keywords": {
           "Keywords": [
-            "Auxiliary Cadre"
+            "Kauyon"
           ]
         },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Exemplar of the Mont’ka": {
+        "keywords": {
+          "Keywords": [
+            "Mont’Ka"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Fanatical Convert": {
         "rules": {
           "apply": {
             "actions": [
@@ -5145,11 +5228,6 @@
         "text": "**Kroot** model only. The bearer’s unit has the For the\nGreater Good ability."
       },
       "Enhancement§Fusion Blades": {
-        "keywords": {
-          "Keywords": [
-            "Experimental Prototype Cadre"
-          ]
-        },
         "stats": {
           "Points": {
             "value": 25
@@ -5388,7 +5466,7 @@
         },
         "stats": {
           "Points": {
-            "value": 10
+            "value": 20
           }
         },
         "text": "**T’au Empire model only**. Select one plasma rifle equipped by the bearer. Improve the Strength characteristic of that weapon by 2, and improve the Attacks, Armour Penetration and Damage characteristics of that weapon by 1."
@@ -5511,12 +5589,12 @@
         },
         "stats": {
           "Points": {
-            "value": 25
+            "value": 15
           }
         },
         "text": "T’AU EMPIRE BATTLESUIT model only. Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 4+, you gain 1CP."
       },
-      "Enhancement§Root-Carved Weapons": {
+      "Enhancement§Root-carved Weapons": {
         "assets": {
           "traits": [
             "Ability§Devastating Wounds",
@@ -5630,7 +5708,7 @@
         },
         "stats": {
           "Points": {
-            "value": 30
+            "value": 20
           }
         },
         "text": "T’au Empire model only. After both players have deployed their armies, select up to three T’au Empire units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
@@ -5693,7 +5771,7 @@
       "Enhancement§Strategic Conqueror": {
         "keywords": {
           "Keywords": [
-            "Mont’ka"
+            "Mont’Ka"
           ]
         },
         "stats": {
@@ -5706,12 +5784,12 @@
       "Enhancement§Strike Swiftly": {
         "keywords": {
           "Keywords": [
-            "Mont’ka"
+            "Mont’Ka"
           ]
         },
         "stats": {
           "Points": {
-            "value": 25
+            "value": 35
           }
         },
         "text": "T’au Empire model only. At the start of the battle, before any moves are made using the Scouts ability, you can select up to two friendly T’AU EMPIRE units within 6” of the bearer that do not have the Scouts ability. Until the end of the battle, all models in the selected units have the Scouts 6” ability."
@@ -5746,7 +5824,7 @@
         },
         "stats": {
           "Points": {
-            "value": 15
+            "value": 20
           }
         },
         "text": "**Kroot Shaper** model only. In the Declare Battle\nFormations step, you can select up to three **Kroot\nCarnivores** or **Kroot Farstalkers** units from\nyour army. Models in those units have the Deep\nStrike ability."
@@ -5772,7 +5850,7 @@
         },
         "stats": {
           "Points": {
-            "value": 20
+            "value": 15
           }
         },
         "text": "**T’au Empire model only**. Select one T’au flamer equipped by the bearer. Improve the Strength characteristic of that weapon by 2, and improve the Armour Penetration and Damage characteristics of that weapon by 1."
@@ -5807,17 +5885,12 @@
         },
         "stats": {
           "Points": {
-            "value": 40
+            "value": 30
           }
         },
         "text": "T’au Empire model only (excluding Kroot Shaper models). While this model is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in a Guided unit have the [LETHAL HITS] ability while targeting their Spotted unit."
       },
       "Enhancement§Transponder Lock Module": {
-        "keywords": {
-          "Keywords": [
-            "Auxiliary Cadre"
-          ]
-        },
         "rules": {
           "Walker model with the Deep Strike ability only.": {
             "evals": [
@@ -7488,7 +7561,7 @@
           }
         }
       },
-      "Model§Aun’Va – Epic Hero": {
+      "Model§Aun’va – Epic Hero": {
         "assets": {
           "traits": [
             "Melee Weapon§Aun’va—Close combat weapon"
@@ -12309,7 +12382,7 @@
           }
         }
       },
-      "Model§Ri’Lantar": {
+      "Model§Ri’lantar": {
         "assets": {
           "traits": [
             "Weapon§The Twin Lance—Fusion eliminator",
@@ -12340,7 +12413,7 @@
           }
         }
       },
-      "Model§Ri’Locai": {
+      "Model§Ri’locai": {
         "assets": {
           "traits": [
             "Ranged Weapon§The Twin Lance—Ion scattercannon",
@@ -19741,7 +19814,7 @@
           }
         }
       },
-      "Ranged Weapon§Y’Vahra—Flechette Pod": {
+      "Ranged Weapon§Y’vahra—Flechette Pod": {
         "aspects": {
           "Label": "Flechette Pod"
         },
@@ -19766,7 +19839,7 @@
           }
         }
       },
-      "Ranged Weapon§Y’Vahra—Ionic Discharge Cannon": {
+      "Ranged Weapon§Y’vahra—Ionic Discharge Cannon": {
         "aspects": {
           "Label": "Ionic Discharge Cannon"
         },
@@ -19782,7 +19855,7 @@
           ]
         }
       },
-      "Ranged Weapon§Y’Vahra—Ionic discharge cannon - Overcharge": {
+      "Ranged Weapon§Y’vahra—Ionic discharge cannon - Overcharge": {
         "aspects": {
           "Label": "Overcharge"
         },
@@ -19819,7 +19892,7 @@
           }
         }
       },
-      "Ranged Weapon§Y’Vahra—Ionic discharge cannon - Standard": {
+      "Ranged Weapon§Y’vahra—Ionic discharge cannon - Standard": {
         "aspects": {
           "Label": "Standard"
         },
@@ -19855,7 +19928,7 @@
           }
         }
       },
-      "Ranged Weapon§Y’Vahra—Phased Plasma-Flamer": {
+      "Ranged Weapon§Y’vahra—Phased Plasma-Flamer": {
         "aspects": {
           "Label": "Phased Plasma-Flamer"
         },
@@ -20769,7 +20842,7 @@
             "value": "0"
           },
           "Points": {
-            "value": 315
+            "value": 375
           },
           "Seeker missile": {
             "dynamic": true,
@@ -20881,6 +20954,12 @@
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 60
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 18
@@ -21238,7 +21317,7 @@
             "value": 2
           },
           "model3rdCost": {
-            "value": 270
+            "value": 260
           },
           "model3rdTally": {
             "value": 3
@@ -21256,10 +21335,16 @@
           },
           "OC": {},
           "Points": {
-            "value": 80
+            "value": 95
           },
           "Sv": {},
           "T": {},
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          },
           "W": {}
         }
       },
@@ -21333,7 +21418,6 @@
           "model2ndTally": {
             "value": 6
           },
-          "model3rdCost": {},
           "modelKey": {
             "value": "Model§Crisis Shas’ui"
           },
@@ -21408,16 +21492,21 @@
           "model1stTally": {
             "value": 3
           },
-          "model3rdCost": {},
           "modelKey": {
             "value": "Model§Crisis Shas’ui"
           },
           "OC": {},
           "Points": {
-            "value": 120
+            "value": 110
           },
           "Sv": {},
           "T": {},
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          },
           "W": {}
         }
       },
@@ -21473,13 +21562,18 @@
           "model1stTally": {
             "value": 3
           },
-          "model3rdCost": {},
           "OC": {},
           "Points": {
-            "value": 110
+            "value": 100
           },
           "Sv": {},
           "T": {},
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          },
           "W": {}
         }
       },
@@ -21541,16 +21635,21 @@
           "model1stTally": {
             "value": 3
           },
-          "model3rdCost": {},
           "modelKey": {
             "value": "Model§Crisis Shas’ui"
           },
           "OC": {},
           "Points": {
-            "value": 140
+            "value": 135
           },
           "Sv": {},
           "T": {},
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          },
           "W": {}
         }
       },
@@ -22000,6 +22099,12 @@
           "T": {
             "value": 8
           },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          },
           "W": {
             "value": 12
           }
@@ -22247,7 +22352,7 @@
             "value": 3
           },
           "Points": {
-            "value": 145
+            "value": 150
           },
           "Seeker missile": {
             "dynamic": true,
@@ -22286,6 +22391,12 @@
           },
           "T": {
             "value": 10
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 14
@@ -22746,7 +22857,7 @@
             "value": 10
           },
           "model2ndCost": {
-            "value": 140
+            "value": 130
           },
           "model2ndTally": {
             "value": 20
@@ -22896,6 +23007,12 @@
           },
           "Sv": {},
           "T": {},
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          },
           "W": {}
         }
       },
@@ -22987,7 +23104,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 80
+            "value": 65
           },
           "model2ndTally": {
             "value": 10
@@ -23006,7 +23123,7 @@
           },
           "OC": {},
           "Points": {
-            "value": 40
+            "value": 45
           },
           "Sv": {},
           "T": {},
@@ -23069,7 +23186,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 170
+            "value": 180
           },
           "model2ndTally": {
             "value": 6
@@ -23087,7 +23204,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 85
+            "value": 95
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -23170,7 +23293,7 @@
           },
           "OC": {},
           "Points": {
-            "value": 40
+            "value": 45
           },
           "Sv": {},
           "T": {},
@@ -23589,7 +23712,7 @@
             "visibility": "hidden"
           },
           "Points": {
-            "value": 90
+            "value": 80
           },
           "Shield Drone": {
             "max": 2,
@@ -23717,6 +23840,14 @@
             "value": 7
           }
         }
+      },
+      "Unit§Piranhas": {
+        "stats": {
+          "Points": {
+            "value": 75
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
       },
       "Unit§R’varna Battlesuit": {
         "aspects": {
@@ -23892,7 +24023,7 @@
             "value": 0
           },
           "Points": {
-            "value": 170
+            "value": 160
           },
           "Ranged Weapon": {
             "dynamic": true,
@@ -24217,13 +24348,19 @@
             "value": 4
           },
           "Points": {
-            "value": 200
+            "value": 210
           },
           "Sv": {
             "value": 2
           },
           "T": {
             "value": 9
+          },
+          "unitDiscount": {
+            "value": 30
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 14
@@ -24287,7 +24424,7 @@
             "value": 3
           },
           "Points": {
-            "value": 150
+            "value": 140
           },
           "Ranged Weapon": {
             "dynamic": true,
@@ -24425,8 +24562,6 @@
           "model1stTally": {
             "value": 5
           },
-          "model2ndCost": {},
-          "model2ndTally": {},
           "modelKey": {
             "value": "Model§Stealth Shas’ui"
           },
@@ -24436,7 +24571,7 @@
             "value": 5
           },
           "Points": {
-            "value": 100
+            "value": 110
           },
           "Stealth Battlesuits—Fusion blaster": {
             "max": 2,
@@ -24453,6 +24588,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -24588,13 +24729,19 @@
             "value": 6
           },
           "Points": {
-            "value": 360
+            "value": 385
           },
           "Sv": {
             "value": 2
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 25
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 20
@@ -24759,7 +24906,7 @@
             "value": 0
           },
           "Points": {
-            "value": 160
+            "value": 150
           },
           "Sv": {
             "value": 3
@@ -24940,13 +25087,19 @@
             "value": "10"
           },
           "Points": {
-            "value": 790
+            "value": 890
           },
           "Sv": {
             "value": 2
           },
           "T": {
             "value": 13
+          },
+          "unitDiscount": {
+            "value": 100
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 30
@@ -25503,7 +25656,7 @@
             "value": "0"
           },
           "Points": {
-            "value": 325
+            "value": 375
           },
           "Seeker missile": {
             "dynamic": true,
@@ -25645,6 +25798,12 @@
             "statType": "rank",
             "value": "Transport Bay",
             "visibility": "normal"
+          },
+          "unitDiscount": {
+            "value": 50
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 18
@@ -25978,7 +26137,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 130
+            "value": 115
           },
           "model2ndTally": {
             "value": 10
@@ -25997,7 +26156,7 @@
           },
           "OC": {},
           "Points": {
-            "value": 65
+            "value": 70
           },
           "Sv": {},
           "T": {},

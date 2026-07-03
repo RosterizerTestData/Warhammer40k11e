@@ -1,6 +1,6 @@
 {
   "name": "Adeptus Custodes 11e",
-  "revision": "11.0.0",
+  "revision": "11.0.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -9,7 +9,7 @@
   "wip": false,
   "dependencies": [
     {
-      "slug": "47EAE2",
+      "slug": "RG5MGU",
       "name": "Imperium 11e",
       "game": "Warhammer 40k",
       "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k11e/main/Imperium.rulebook"
@@ -1998,13 +1998,19 @@
             "value": 2
           },
           "Points": {
-            "value": 120
+            "value": 125
           },
           "Sv": {
             "value": 2
           },
           "T": {
             "value": 6
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 6
@@ -2173,7 +2179,7 @@
             "value": 2
           },
           "Points": {
-            "value": 120
+            "value": 110
           },
           "Spear Options": {
             "dynamic": true,
@@ -2383,7 +2389,7 @@
             "value": 2
           },
           "Points": {
-            "value": 150
+            "value": 140
           },
           "Ranged Options": {
             "dynamic": true,
@@ -2488,7 +2494,7 @@
             "value": 2
           },
           "Points": {
-            "value": 140
+            "value": 135
           },
           "Sv": {
             "value": 2
@@ -2710,6 +2716,11 @@
         "text": "KNIGHT-CENTURA model equipped with an executioner greatblade only. The bearer’s melee weapons gain the [LANCE] and [SUSTAINED HITS 1] abilities."
       },
       "Detachment§Auric Champions": {
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -2803,11 +2814,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "**Assemblage of Might**\n\nAt the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, each time a model in an **Adeptus Custodes Character** unit from your army makes an attack that targets that enemy unit, add 1 to the Wound roll."
       },
       "Detachment§Lions of the Emperor": {
         "keywords": {
-          "Keywords": []
+          "Keywords": [],
+          "Role": [
+            "Disruption"
+          ]
         },
         "rules": {
           "assignStratagems": {
@@ -2902,9 +2921,32 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "## AGAINST ALL ODDS\n\nEach time a model in an **Adeptus Custodes** unit from your army (excluding **Vehicles**) makes an attack, if there are no other friendly units within 6\" of that unit, add 1 to the Hit roll and add 1 to the Wound roll."
       },
+      "Detachment§Might Of The Moritoi": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
       "Detachment§Null Maiden Vigil": {
+        "keywords": {
+          "Role": [
+            "Reconnaissance"
+          ]
+        },
         "rules": {
           "assignstratagems": {
             "actions": [
@@ -2998,9 +3040,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "**Creeping Dread (AURA)**\n\nIn the Battle-shock step of your opponent’s Command phase, if an enemy unit that is either a PSYKER unit or below its Starting Strength is within 12″ of one or more ANATHEMA PSYKANA models from your army, that enemy unit must take a Battle-shock test. If that unit is Below Half-strength, it must subtract 1 from its Battle-shock test this phase instead.\n\nDesigner’s Note: This means that all enemy PSYKER units within range of this Aura ability and all enemy units within range of this Aura ability that have lost one or more models must take a Battle-shock test in your opponent’s Command phase, not just those that are Below Half-strength.\n\n**KEYWORDS**\n\nIf you select this Detachment, PROSECUTORS units from your army have the BATTLELINE keyword."
       },
       "Detachment§Shield Host": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -3094,9 +3146,32 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "**Martial Mastery**\n\nAt the start of the battle round, you can select one of the bullet points below. If you do, until the start of the next battle round, that bullet point’s effects apply.\n\n\n*  Each time an **Adeptus Custodes** model from your army with the Martial Ka’tah ability makes a melee attack, a succesful unmodified Hit roll of 5+ scores a Critical Hit.\n\n*  Improve the Armour Penetration characteristic of melee weapons equipped by **Adeptus Custodes** models from your army with the Martial Ka’tah ability by 1."
       },
+      "Detachment§Silent Hunters": {
+        "keywords": {
+          "Role": [
+            "Reconnaissance"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
+      },
       "Detachment§Solar Spearhead": {
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -3190,9 +3265,19 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
         "text": "AURIC ARMOUR\n\n■ While an Adeptus Custodes Vehicle\nunit from your army is at Starting\nStrength, unless that unit is an\nAircraft or it is Battle‑shocked, add 2\nto the Objective Control characteristic\nof models in that unit.\n\n■ While an Adeptus Custodes Vehicle\nunit from your army is below Starting\nStrength, each time a model in that\nunit makes an attack, re‑roll a Hit roll\nof 1.\n\n■ While an Adeptus Custodes Vehicle\nunit from your army is Below\nHalf‑strength, each time a model in\nthat unit makes an attack, re‑roll a Hit\nroll of 1 and re‑roll a Wound roll of 1.\n\nMORITOI ANCIENTS\n\nAdd 2\" to the Move characteristic of\nmodels in Adeptus Custodes Walker units\nfrom your army and add 1 to Advance\nand Charge rolls made for such units.\n\nKEYWORDS\n\nIn the Muster Armies step, you can select\nup to 2 Adeptus Custodes Walker models\nfrom your army. The selected units gain\nthe Character keyword.\n[Designer’s Note: This means that\nthe selected models can be given\nEnhancements and one of them can be\nselected as your Warlord.]"
       },
       "Detachment§Talons of the Emperor": {
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -3286,7 +3371,25 @@
             "failState": "pass"
           }
         },
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
         "text": "**REVERED COMPANIONS**\n\n- ANATHEMA PSYKANA units from your army\ngain the following the ability:\n\n**Null Aegis (Aura):**\n\nWhile an ADEPTUS CUSTODES unit is within 6″ of this unit, models in that unit have the Feel No Pain 5+ ability against Psychic Attacks and mortal wounds.\n\n- All other ADEPTUS CUSTODES units from\nyour army gain the following ability:\n\n**Deadly Unity (Aura):**\n\nWhile an ANATHEMA PSYKANA unit is within 6″ of this unit, each time a model in that ANATHEMA PSYKANA unit makes an attack, add 1 to the Hit roll."
+      },
+      "Detachment§Tharanatoi Hammerblow": {
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "WARNING: this detachment was not in 10e and needs importing."
       },
       "Endeavour§Endeavour": {},
       "Enhancement§Adamantine Talisman": {
@@ -3398,7 +3501,7 @@
       "Enhancement§Admonimortis": {
         "keywords": {
           "Keywords": [
-            "Lions of the Emperor"
+            "Lions Of The Emperor"
           ]
         },
         "rules": {
@@ -3517,7 +3620,7 @@
         },
         "stats": {
           "Points": {
-            "value": 10
+            "value": 20
           }
         },
         "text": "**Shield‑Captain** model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 3, and improve the Armour Penetration and Damage characteristics of those weapons by 1"
@@ -3525,7 +3628,7 @@
       "Enhancement§Aegis Projector": {
         "keywords": {
           "Keywords": [
-            "Talons of the Emperor"
+            "Talons Of The Emperor"
           ]
         },
         "stats": {
@@ -3575,6 +3678,19 @@
           }
         },
         "text": "Adeptus Custodes model only. The bearer has the\nFeel No Pain 5+ ability."
+      },
+      "Enhancement§Auramite Sarcophagus (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Might Of The Moritoi"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Auric Mantle": {
         "keywords": {
@@ -3696,7 +3812,7 @@
       "Enhancement§Champion of the Imperium": {
         "keywords": {
           "Keywords": [
-            "Talons of the Emperor"
+            "Talons Of The Emperor"
           ]
         },
         "stats": {
@@ -3705,6 +3821,32 @@
           }
         },
         "text": "**ADEPTUS CUSTODES** model only. The range of the bearer’s Null Aegis or Deadly Unity ability is increased to 9\"."
+      },
+      "Enhancement§Efficient Aggression": {
+        "keywords": {
+          "Keywords": [
+            "Tharanatoi Hammerblow"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Encircling Hunter": {
+        "keywords": {
+          "Keywords": [
+            "Silent Hunters"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Enhanced Voidsheen Cloak": {
         "keywords": {
@@ -3744,7 +3886,7 @@
       "Enhancement§Fierce Conqueror": {
         "keywords": {
           "Keywords": [
-            "Lions of the Emperor"
+            "Lions Of The Emperor"
           ]
         },
         "rules": {
@@ -3877,7 +4019,7 @@
       "Enhancement§Gift of Terran Artifice": {
         "keywords": {
           "Keywords": [
-            "Talons of the Emperor"
+            "Talons Of The Emperor"
           ]
         },
         "stats": {
@@ -3887,7 +4029,7 @@
         },
         "text": "**ADEPTUS CUSTODES** model only. Each time the bearer makes a melee attack, add 1 to the Wound roll."
       },
-      "Enhancement§Honoured Fallen (Aura)": {
+      "Enhancement§Honoured Fallen": {
         "keywords": {
           "Keywords": [
             "Solar Spearhead"
@@ -3993,6 +4135,19 @@
         },
         "text": "Adeptus Custodes model only. The bearer has a Leadership characteristic of 5+. Once per battle, at the start of any phase, you can select one friendly Adeptus Custodes unit that is Battle-shocked and within 12″ of the bearer; that unit is no longer Battle-shocked."
       },
+      "Enhancement§Interred Expertise (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Might Of The Moritoi"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Martial Philosopher": {
         "keywords": {
           "Keywords": [
@@ -4005,6 +4160,19 @@
           }
         },
         "text": "**Adeptus Custodes** model only. The bearer’s unit is eligible to shoot and/or declare a charge in a turn in which it Fell Back. Once per battle, when an enemy unit ends a Normal, Advance or Fall Back move within 9″ of the bearer, if the bearer’s unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6″."
+      },
+      "Enhancement§Mnemo-locked Shrine Cipher": {
+        "keywords": {
+          "Keywords": [
+            "Tharanatoi Hammerblow"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       },
       "Enhancement§Oblivion Knight": {
         "keywords": {
@@ -4093,7 +4261,7 @@
       "Enhancement§Praesidius": {
         "keywords": {
           "Keywords": [
-            "Lions of the Emperor"
+            "Lions Of The Emperor"
           ]
         },
         "rules": {
@@ -4135,10 +4303,23 @@
         },
         "text": "**Adeptus Custodes** model only. The bearer has the Lone Operative and Stealth abilities."
       },
+      "Enhancement§Psyk-out Grenades (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Silent Hunters"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
       "Enhancement§Radiant Mantle": {
         "keywords": {
           "Keywords": [
-            "Talons of the Emperor"
+            "Talons Of The Emperor"
           ]
         },
         "stats": {
@@ -4277,7 +4458,7 @@
       "Enhancement§Superior Creation": {
         "keywords": {
           "Keywords": [
-            "Lions of the Emperor"
+            "Lions Of The Emperor"
           ]
         },
         "rules": {
@@ -10113,13 +10294,19 @@
             "value": 0
           },
           "Points": {
-            "value": 580
+            "value": 610
           },
           "Sv": {
             "value": 2
           },
           "T": {
             "value": 12
+          },
+          "unitDiscount": {
+            "value": 30
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 22
@@ -10216,13 +10403,19 @@
             "value": 4
           },
           "Points": {
-            "value": 215
+            "value": 225
           },
           "Sv": {
             "value": 2
           },
           "T": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 14
@@ -10352,13 +10545,19 @@
             "value": 3
           },
           "Points": {
-            "value": 155
+            "value": 170
           },
           "Sv": {
             "value": 2
           },
           "T": {
             "value": 9
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 10
@@ -10420,13 +10619,19 @@
             "value": 3
           },
           "Points": {
-            "value": 165
+            "value": 180
           },
           "Sv": {
             "value": 2
           },
           "T": {
             "value": 9
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 10
@@ -10510,6 +10715,12 @@
           },
           "T": {
             "value": 12
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 16
@@ -10723,13 +10934,10 @@
             "value": 4
           },
           "model2ndCost": {
-            "value": 200
+            "value": 225
           },
           "model2ndTally": {
             "value": 5
-          },
-          "model3rdCost": {
-            "value": null
           },
           "modelKey": {
             "value": "Model§Custodian Guard"
@@ -10744,7 +10952,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 160
+            "value": 180
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 4
           },
           "Vexilla": {
             "dynamic": true,
@@ -10827,7 +11041,13 @@
             "value": 5
           },
           "Points": {
-            "value": 250
+            "value": 260
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 4
           }
         }
       },
@@ -10948,7 +11168,7 @@
             "value": 4
           },
           "model2ndCost": {
-            "value": 260
+            "value": 280
           },
           "model2ndTally": {
             "value": 5
@@ -10966,7 +11186,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 210
+            "value": 230
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "Vex": {
             "statType": "numeric",
@@ -11053,13 +11279,19 @@
             "value": 0
           },
           "Points": {
-            "value": 690
+            "value": 740
           },
           "Sv": {
             "value": 2
           },
           "T": {
             "value": 12
+          },
+          "unitDiscount": {
+            "value": 50
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 22
@@ -11122,7 +11354,7 @@
             "value": 2
           },
           "Points": {
-            "value": 105
+            "value": 100
           },
           "Sv": {
             "value": 2
@@ -11257,7 +11489,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 40
+            "value": 45
           },
           "Prosecutor": {
             "max": 9,
@@ -11534,13 +11766,19 @@
             "value": 4
           },
           "Points": {
-            "value": 225
+            "value": 245
           },
           "Sv": {
             "value": 2
           },
           "T": {
             "value": 10
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 12
@@ -11597,7 +11835,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 330
+            "value": 320
           },
           "model2ndTally": {
             "value": 6
@@ -11615,7 +11853,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 165
+            "value": 160
           },
           "Venatari Custodian": {
             "max": 6,
@@ -11709,13 +11947,19 @@
             "value": 3
           },
           "Points": {
-            "value": 170
+            "value": 185
           },
           "Sv": {
             "value": 2
           },
           "T": {
             "value": 9
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           },
           "W": {
             "value": 10
@@ -11827,13 +12071,19 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 220
+            "value": 240
           },
           "Sv": {
             "value": 2
           },
           "T": {
             "value": 12
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           },
           "W": {
             "value": 16
@@ -11924,12 +12174,11 @@
             "value": 2
           },
           "model2ndCost": {
-            "value": 225
+            "value": 215
           },
           "model2ndTally": {
             "value": 3
           },
-          "model3rdCost": {},
           "modelKey": {
             "value": "Model§Vertus Praetor"
           },
@@ -11943,7 +12192,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 150
+            "value": 145
           },
           "Vertus Praetor": {
             "max": 3,
@@ -12028,7 +12277,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 45
+            "value": 50
           },
           "Vigilator": {
             "max": 10,
@@ -12119,7 +12368,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 45
+            "value": 50
           },
           "Witchseeker": {
             "max": 9,
