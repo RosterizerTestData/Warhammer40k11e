@@ -1,6 +1,6 @@
 {
   "name": "40k 11e",
-  "revision": "11.0.1",
+  "revision": "11.0.3",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -113,6 +113,25 @@
             "evaluate": "AND",
             "failState": "pass",
             "order": 99
+          },
+          "Warning in this Asset’s text.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": true,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "text"
+                  ]
+                ],
+                "value": "WARNING:"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "warning"
           }
         },
         "stats": {
@@ -2448,6 +2467,27 @@
         "keywords": {
           "Role": []
         },
+        "rules": {
+          "Warning in this Asset’s text.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": true,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "text"
+                  ]
+                ],
+                "value": "WARNING:"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "warning"
+          }
+        },
         "stats": {
           "Detachment Points": {
             "group": "Cost",
@@ -2521,6 +2561,25 @@
             ],
             "evaluate": "AND",
             "failState": "error"
+          },
+          "Warning in this Asset’s text.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": true,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "text"
+                  ]
+                ],
+                "value": "WARNING:"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "warning"
           }
         },
         "stats": {
@@ -3066,6 +3125,25 @@
             "evaluate": "AND",
             "failState": "pass",
             "order": 200
+          },
+          "Warning in this Asset’s text.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": true,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "text"
+                  ]
+                ],
+                "value": "WARNING:"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "warning"
           }
         },
         "stats": {
@@ -3407,6 +3485,27 @@
           "Category": [],
           "Turn": [],
           "Phase": []
+        },
+        "rules": {
+          "Warning in this Asset’s text.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": true,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "text"
+                  ]
+                ],
+                "value": "WARNING:"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "warning"
+          }
         },
         "stats": {
           "Command Cost": {
@@ -7008,6 +7107,25 @@
             "evaluate": "AND",
             "failState": "pass",
             "order": 200
+          },
+          "Warning in this Asset’s text.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": true,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "text"
+                  ]
+                ],
+                "value": "WARNING:"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "warning"
           }
         },
         "stats": {
@@ -7515,6 +7633,25 @@
             ],
             "evaluate": "AND",
             "failState": "pass"
+          },
+          "Warning in this Asset’s text.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": true,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "text"
+                  ]
+                ],
+                "value": "WARNING:"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "warning"
           }
         },
         "stats": {

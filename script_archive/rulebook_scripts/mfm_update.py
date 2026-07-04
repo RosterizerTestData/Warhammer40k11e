@@ -830,6 +830,38 @@ def update_faction(mfm_slug: str, apply: bool = False) -> None:
         catalog.update(catalog_updated)
 
     # -----------------------------------------------------------------------
+    # ROSTER§ROSTER DETACHMENT RANKS SYNC
+    # Ensure every Detachment§ in the catalog has an entry in
+    # Roster§Roster.stats.Detachment.ranks, and remove stale entries.
+    # -----------------------------------------------------------------------
+    roster = catalog.get("Roster§Roster")
+    if roster is not None:
+        det_ranks = (roster
+                     .setdefault("stats", {})
+                     .setdefault("Detachment", {})
+                     .setdefault("ranks", {}))
+        # Determine next order value
+        existing_orders = [v.get("order", 0) for v in det_ranks.values() if isinstance(v, dict)]
+        next_order = max(existing_orders, default=0) + 1
+        # All detachment names currently in catalog
+        catalog_det_names = {
+            k[len("Detachment§"):] for k in catalog if k.startswith("Detachment§")
+        }
+        # Add missing entries
+        for det_name in sorted(catalog_det_names - set(det_ranks.keys())):
+            det_ranks[det_name] = {
+                "order": next_order,
+                "traits": [{"trait": f"Detachment§{det_name}"}],
+            }
+            next_order += 1
+            all_warnings.append(f"  [RANKS] Added '{det_name}' to Roster§Roster ranks")
+        # Remove stale entries (detachment was purged from catalog)
+        for det_name in list(det_ranks.keys()):
+            if det_name not in catalog_det_names:
+                del det_ranks[det_name]
+                all_warnings.append(f"  [RANKS] Removed stale '{det_name}' from Roster§Roster ranks")
+
+    # -----------------------------------------------------------------------
     # ENHANCEMENT KEYWORD CLEANUP
     # -----------------------------------------------------------------------
     print("\n--- Enhancement keyword cleanup ---")

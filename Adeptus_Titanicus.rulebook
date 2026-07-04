@@ -1,6 +1,6 @@
 {
   "name": "Adeptus Titanicus 11e",
-  "revision": "11.0.0",
+  "revision": "11.0.3",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -27,7 +27,8 @@
         "stats": {
           "Detachment": {
             "dynamic": false,
-            "visibility": "hidden"
+            "visibility": "hidden",
+            "ranks": {}
           },
           "Faction": {
             "ranks": {
@@ -42,6 +43,38 @@
             "visibility": "hidden"
           }
         }
+      },
+      "Unit§Reaver Titan": {
+        "stats": {
+          "Points": {
+            "value": 2200
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
+      },
+      "Unit§Warbringer Nemesis Titan": {
+        "stats": {
+          "Points": {
+            "value": 2600
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
+      },
+      "Unit§Warhound Titan": {
+        "stats": {
+          "Points": {
+            "value": 1100
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
+      },
+      "Unit§Warlord Titan": {
+        "stats": {
+          "Points": {
+            "value": 3500
+          }
+        },
+        "text": "WARNING: this unit was not in 10e and needs importing."
       }
     },
     "gameModes": {},
