@@ -803,11 +803,11 @@ def update_faction(mfm_slug: str, apply: bool = False) -> None:
     # -----------------------------------------------------------------------
     # KEY PUNCTUATION CLEANUP
     # Rename any catalog key that has capitalisation bugs from MFM source data
-    # (e.g. "Detachment§The Phaeron'S Armoury" -> "...Phaeron's Armoury")
+    # (e.g. "Phaeron'S Armoury" -> "Phaeron's Armoury", "'Uge choppa" -> "'uge choppa")
+    # Also updates any string references to old key names inside other entries.
     # -----------------------------------------------------------------------
+    key_renames: dict[str, str] = {}  # old_key -> new_key
     for old_key in list(catalog.keys()):
-        fixed = re.sub(r"§", "§", old_key)  # keep prefix separator intact
-        # Fix apostrophe + uppercase: Emperor'S -> Emperor's
         prefix_end = old_key.index("§") + 1 if "§" in old_key else 0
         prefix = old_key[:prefix_end]
         name_part = old_key[prefix_end:]
@@ -815,7 +815,19 @@ def update_faction(mfm_slug: str, apply: bool = False) -> None:
         new_key = prefix + fixed_name
         if new_key != old_key and new_key not in catalog:
             catalog[new_key] = catalog.pop(old_key)
+            key_renames[old_key] = new_key
             all_warnings.append(f"  [KEY-FIX] {old_key!r} -> {new_key!r}")
+
+    # Update string references inside all entries for renamed keys
+    if key_renames:
+        catalog_str = json.dumps(catalog)
+        for old_key, new_key in key_renames.items():
+            old_escaped = json.dumps(old_key)[1:-1]  # JSON-encode without outer quotes
+            new_escaped = json.dumps(new_key)[1:-1]
+            catalog_str = catalog_str.replace(f'"{old_escaped}"', f'"{new_escaped}"')
+        catalog_updated = json.loads(catalog_str)
+        catalog.clear()
+        catalog.update(catalog_updated)
 
     # -----------------------------------------------------------------------
     # ENHANCEMENT KEYWORD CLEANUP

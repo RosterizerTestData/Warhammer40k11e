@@ -1,6 +1,6 @@
 {
   "name": "T'au Empire 11e",
-  "revision": "11.0.1",
+  "revision": "11.0.2",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -4352,7 +4352,9 @@
       },
       "Detachment§Advanced Acquisition Cadre": {
         "keywords": {
-          "Role": []
+          "Role": [
+            "Reconnaissance"
+          ]
         },
         "stats": {
           "Detachment Points": {
@@ -23845,6 +23847,12 @@
         "stats": {
           "Points": {
             "value": 75
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         },
         "text": "WARNING: this unit was not in 10e and needs importing."
@@ -26677,6 +26685,32 @@
             "Multi-weapon"
           ]
         }
+      },
+      "Enhancement§Negation Emitters (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Advanced Acquisition Cadre"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
+      },
+      "Enhancement§Unmasking Suite (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Advanced Acquisition Cadre"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "WARNING: this enhancement was not in 10e and needs importing."
       }
     },
     "gameModes": {},
