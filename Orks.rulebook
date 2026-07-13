@@ -1,6 +1,6 @@
 {
   "name": "Orks 11e",
-  "revision": "11.0.4",
+  "revision": "11.1.0",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -9,7 +9,7 @@
   "wip": false,
   "dependencies": [
     {
-      "slug": "DGST2Y",
+      "slug": "",
       "name": "40k 11e",
       "game": "Warhammer 40k",
       "source": "https://raw.githubusercontent.com/RosterizerTestData/Warhammer40k11e/main/Warhammer_40k_11e.rulebook"
@@ -167,11 +167,11 @@
         },
         "text": "If this model starts the game in Strategic Reserves, it can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules."
       },
-      "Ability§Attached Unit (Breaka Boys)": {
+      "Ability§Attached Unit (Breaka Boyz)": {
         "aspects": {
           "Label": "Attached Unit"
         },
-        "text": "If a **Character** unit from your army with the Leader ability can be attached to a **Boys** unit, it can be attached to this unit instead."
+        "text": "If a Character unit from your army with the Leader ability can be attached to a Boyz unit, it can be attached to this unit instead."
       },
       "Ability§Attached Unit (Tankbustas)": {
         "aspects": {
@@ -268,7 +268,7 @@
             "Other"
           ]
         },
-        "text": "Twice per battle, after this unit ends a Normal move, you can use one Bomb Squig. If you do, select one enemy unit within 12\" and visible to this unit and roll one D6: on a 3+, that enemy unit suffers D3 mortal wounds."
+        "text": "Once per battle, for each bomb squig this unit has, after this unit ends a Normal move, you can use one Bomb Squig. If you do, select one enemy unit within 12\" and visible to this unit and roll one D6: on a 3+, that enemy unit suffers D3 mortal wounds.\n\n**Designer’s Note:** *Place two Bomb Squig tokens next to the unit, removing one each time this unit uses this ability.*"
       },
       "Ability§Boom Bomb": {
         "keywords": {
@@ -277,6 +277,14 @@
           ]
         },
         "text": "Each time this model ends a Normal move, you can select one enemy unit it moved over during that move and roll one D6: on a 4+, that unit suffers D6 mortal wounds."
+      },
+      "Ability§Breakin’ Heads": {
+        "keywords": {
+          "Keywords": [
+            "Other"
+          ]
+        },
+        "text": "This unit’s melee weapons have [SUSTAINED HITS 1]."
       },
       "Ability§Bubblechukka": {
         "text": ""
@@ -337,14 +345,6 @@
         },
         "text": "In your Shooting phase, just after selecting a target for this model’s krusha kannon, the target unit and every other enemy Infantry unit within 3″ of that unit must take a Battle-shock test."
       },
-      "Ability§Da Boss Iz Watchin’": {
-        "keywords": {
-          "Keywords": [
-            "Other"
-          ]
-        },
-        "text": "While this model is gaining the benefits of the Waaagh! ability, it has a 4+ invulnerable save and an Objective Control characteristic of 5."
-      },
       "Ability§Da Boss’ Ladz": {
         "keywords": {
           "Keywords": [
@@ -374,6 +374,14 @@
           "Label": "Da Revolushun!"
         },
         "text": "Once per battle round, at the start of any phase, you can select one friendly **Gretchin** unit that is Battle-shocked and within 12″ of this model. That unit is no longer Battle-shocked."
+      },
+      "Ability§Dakkablitz": {
+        "keywords": {
+          "Keywords": [
+            "Other"
+          ]
+        },
+        "text": "In your Shooting phase, while making attacks with this unit, if its blitzkannon targeted a non-MONSTER/VEHICLE unit, that weapon has +6 Attacks."
       },
       "Ability§Dakkastorm": {
         "keywords": {
@@ -604,6 +612,14 @@
         },
         "text": "During the battle round in which you call a Waaagh!, this model’s big choppa has the [ANTI-MONSTER 3+] and [ANTI-VEHICLE 3+] abilities."
       },
+      "Ability§Indiscriminate Detonations": {
+        "keywords": {
+          "Keywords": [
+            "Other"
+          ]
+        },
+        "text": "In your Shooting phase, when this unit has resolved its attacks, select one enemy unit hit by one or more of those attacks. That enemy unit is suppressed until the start of your next Command phase. (While a unit is suppressed, it has -1 to Hit rolls.)"
+      },
       "Ability§Interceptor": {
         "keywords": {
           "Keywords": [
@@ -734,14 +750,6 @@
           ]
         },
         "text": "Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2‑5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
-      },
-      "Ability§Plant the Waaagh! Banner": {
-        "keywords": {
-          "Keywords": [
-            "Other"
-          ]
-        },
-        "text": "Once per battle, at the start of the battle round, this model can use this ability. If it does, until the start of the next battle round, this model’s unit gains the benefits of the Waaagh! ability as if you had called a Waaagh! this battle round."
       },
       "Ability§Plummeting Descent": {
         "keywords": {
@@ -889,6 +897,14 @@
           ]
         },
         "text": "Enemy units cannot use the Fire Overwatch Stratagem to shoot at this unit."
+      },
+      "Ability§Somethin’ to Prove": {
+        "keywords": {
+          "Keywords": [
+            "Other"
+          ]
+        },
+        "text": "This unit has +1 to Charge rolls."
       },
       "Ability§Special Dose": {
         "keywords": {
@@ -1116,6 +1132,14 @@
         },
         "text": "If your Army Faction is Orks, once per battle, at the start of your Command phase, you can call a Waaagh!. If you do, until the start of your next Command phase, the Waaagh! is active for your army and:\n\n* Orks units from your army are eligible to declare a charge in a turn in which they Advanced.\n\n* Add 1 to the Strength and Attacks characteristics of melee weapons equipped by Orks models from your army.\n\n* Orks models from your army have a 5+ invulnerable save."
       },
+      "Ability§Waaagh! Banner": {
+        "keywords": {
+          "Keywords": [
+            "Other"
+          ]
+        },
+        "text": "* This unit has a 5+ invulnerable save.\n\n* While the Waaagh! is active for this unit, this unit has +1 Toughness."
+      },
       "Ability§Waaagh! Effigy (aura)": {
         "keywords": {
           "Keywords": [
@@ -1161,6 +1185,67 @@
       },
       "Ability§Workshop": {
         "text": "When this Fortification is set up, all parts of it must be set up within 1” of another part. At the end of your Movement phase, each friendly Orks Vehicle model within\n12” of this Fortification can regain up to D3 lost wounds (roll separately for each model). Each model can only be affected by this ability once per turn."
+      },
+      "Character§Bannernob": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Support",
+              "text": "This model can be attached to the following units:\n\n* Boyz\n\n* Breaka Boyz\n\n* Burna Boyz\n\n* Flash Gitz\n\n* Lootas\n\n* Nobz\n\n* Tankbustas"
+            },
+            "Ability§Waaagh!",
+            "Ability§Waaagh! Banner",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            },
+            "Ranged Weapon§Bannernob—Shoota",
+            "Melee Weapon§Bannernob—Choppa"
+          ]
+        },
+        "keywords": {
+          "Faction": [
+            "Orks"
+          ],
+          "Source": [
+            "11th Edition Codex"
+          ],
+          "Keywords": [
+            "Infantry",
+            "Character",
+            "Bannernob"
+          ],
+          "Category": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "Ld": {
+            "value": 7
+          },
+          "M": {
+            "value": 6
+          },
+          "OC": {
+            "value": 6
+          },
+          "Points": {
+            "value": 50
+          },
+          "Sv": {
+            "value": 4
+          },
+          "T": {
+            "value": 5
+          },
+          "W": {
+            "value": 4
+          }
+        }
       },
       "Character§Beastboss": {
         "assets": {
@@ -1959,6 +2044,60 @@
           }
         }
       },
+      "Character§Bigboss": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Boyz\n\n* Breaka Boyz\n\n* Nobz"
+            },
+            "Ability§Waaagh!",
+            "Ability§Breakin’ Heads",
+            "Ability§Somethin’ to Prove",
+            "Ranged Weapon§Bigboss—Slugga",
+            "Melee Weapon§Bigboss—Two-handed big choppa"
+          ]
+        },
+        "keywords": {
+          "Faction": [
+            "Orks"
+          ],
+          "Source": [
+            "11th Edition Codex"
+          ],
+          "Keywords": [
+            "Infantry",
+            "Character",
+            "Bigboss"
+          ],
+          "Category": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "Ld": {
+            "value": 7
+          },
+          "M": {
+            "value": 6
+          },
+          "OC": {
+            "value": 1
+          },
+          "Points": {
+            "value": 55
+          },
+          "Sv": {
+            "value": 4
+          },
+          "T": {
+            "value": 5
+          },
+          "W": {
+            "value": 5
+          }
+        }
+      },
       "Character§Boss Snikrot": {
         "aspects": {
           "Unique": true
@@ -2726,60 +2865,6 @@
           }
         }
       },
-      "Character§Nob with Waaagh! Banner": {
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Boyz\n\n* Nobz"
-            },
-            "Ability§Waaagh!",
-            "Ability§Plant the Waaagh! Banner",
-            "Ability§Da Boss Iz Watchin’",
-            "Ranged Weapon§Nob with Waaagh! Banner—Kustom shoota",
-            "Melee Weapon§Nob with Waaagh! Banner—Waaagh! banner"
-          ]
-        },
-        "keywords": {
-          "Faction": [
-            "Orks"
-          ],
-          "Source": [
-            "Legends"
-          ],
-          "Keywords": [
-            "Infantry",
-            "Character",
-            "Nob with Waaagh! Banner"
-          ],
-          "Category": [
-            "Character"
-          ]
-        },
-        "stats": {
-          "Ld": {
-            "value": 7
-          },
-          "M": {
-            "value": 6
-          },
-          "OC": {
-            "value": 1
-          },
-          "Points": {
-            "value": 70
-          },
-          "Sv": {
-            "value": 4
-          },
-          "T": {
-            "value": 5
-          },
-          "W": {
-            "value": 3
-          }
-        }
-      },
       "Character§Painboss": {
         "assets": {
           "traits": [
@@ -3098,7 +3183,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Boyz\n\n* Nobz"
+              "text": "This model can be attached to the following units:\n\n* Boyz\n\n* Breaka Boyz\n\n* Nobz"
             },
             "Ability§Waaagh!",
             "Ability§Might Is Right",
@@ -3775,7 +3860,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Run 'Em Down"
+                "value": "Stratagem§Run ’Em Down"
               },
               {
                 "actionType": "add",
@@ -3816,7 +3901,7 @@
             "value": 2
           }
         },
-        "text": "## EAGER FOR THE FIGHT\n\nEach time an Orks unit from your army disembarks from a Transport, until the end of the turn, you can re‑roll Advance and Charge rolls made for that Orks unit."
+        "text": "**EAGER FOR THE FIGHT**\n\nEach time an **ORKS** unit from your army disembarks from a **TRANSPORT**, until the end of the turn, you can re-roll Advance and Charge rolls made for that **ORKS** unit."
       },
       "Detachment§Bully Boyz": {
         "keywords": {
@@ -4015,7 +4100,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Instictive Hunters"
+                "value": "Stratagem§Instinctive Hunters"
               }
             ],
             "evals": [],
@@ -4028,7 +4113,7 @@
             "value": 2
           }
         },
-        "text": "**ADRENALINE JUNKIES**\n\nAt the start of your Command phase, select one MONSTER, VEHICLE or CHARACTER unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Prey:\n\n- Each time a BEAST SNAGGA unit from\nyour army declares a charge that\nincludes your Prey as one of the\ntargets, you can re-roll the Charge roll.\n\n- Each time a BEAST SNAGGA model\nfrom your army makes an attack that\ntargets your Prey, improve the Armour\nPenetration characteristic of that attack\nby 1."
+        "text": "**DA HUNT IS ON**\n\nAt the start of your Command phase, select one **MONSTER**, **VEHICLE** or **CHARACTER** unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Prey:\n\n- ■  When a friendly **BEAST SNAGGA** unit declares a charge, If your Prey is within 12\" of that unit, you can use this part of this ability. If you do:\n\n- That **BEAST SNAGGA** unit can re-roll that **charge roll**.\n\n- That **BEAST SNAGGA** unit must end that **charge move engaged** with your Prey.\n\n■ Each time a **BEAST SNAGGA** model from your army makes an attack that targets your Prey, improve the Armour Penetration characteristic of that attack by 1."
       },
       "Detachment§Dread Mob": {
         "keywords": {
@@ -4134,7 +4219,7 @@
             "value": 2
           }
         },
-        "text": "**TRY DAT BUTTON!**\n\nEach time a MEK, ORKS WALKER or GROTS VEHICLE unit from your army is selected to shoot or fight, roll one D6. Until the end of the phase, weapons equipped by models in that unit have the corresponding ability shown in the table below.\n\n|||\n|---|---|\n|1 - 2| [SUSTAINED HITS 1] ability. |\n|3 - 4| [LETHAL HITS 1] |\n|5 - 6| Each time an attack is made with this weapon, ona Critical Wound, improve the Armour Penetration characteristic of that attack by 2.\n\n\nAlternatively, when such a unit is selected to shoot or fight, you can select one of the abilities above instead of rolling the D6. If you do, until the end of the phase, weapons equipped by models in that unit have the [HAZARDOUS] ability as well. If a weapon equipped by a model from you army has the [HAZARDOUS] ability from multiple sources, each time you take a Hazardous test for that weapon, it is failed on a roll ofa 1 or a 2.\n\n**KEYWORDS**\n\nGRETCHIN units from your army gain the BATTLELINE keyword."
+        "text": "**TRY DAT BUTTON!**\n\nEach time a **MEK**, **ORKS WALKER** or **GROTS VEHICLE** unit from your army is selected to shoot or fight, roll one D6. Until the end of the phase, weapons equipped by models in that unit have the corresponding ability shown in the table below.\n\n|||\n|---|---|\n|1-2|**[SUSTAINED HITS 1]**|\n|3-4|**[LETHAL HITS]**|\n|5-6|Each time an attack is made with this weapon, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 2.|\n\nAlternatively, when such a unit is selected to shoot or fight, you can select one of the abilities above instead of rolling the D6. If you do, until the end of the phase, weapons equipped by models in that unit have the **[HAZARDOUS]** ability as well.\n\nIf a weapon equipped by a model from you army has the **[HAZARDOUS]** ability from multiple sources, each time you take a Hazardous test for that weapon, it is failed on a roll of a 1-3."
       },
       "Detachment§Freebooter Krew": {
         "keywords": {
@@ -4455,7 +4540,7 @@
             "value": 2
           }
         },
-        "text": "**ADRENALINE JUNKIES**\n\n- SPEED FREEKS units from your army are eligible to shoot and declare a charge in a turn in which they Advanced or Fell Back."
+        "text": "**ADRENALINE JUNKIES**\n\n**SPEED FREEKS** units from your army are eligible to shoot and declare a charge in a turn in which they Advanced or Fell Back."
       },
       "Detachment§More Dakka!": {
         "keywords": {
@@ -4478,35 +4563,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Orks Is Still Orks"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
                 "value": "Stratagem§Long, Uncontrolled Bursts"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Get Stuck In, Ladz!"
               },
               {
                 "actionType": "add",
@@ -4534,20 +4591,6 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Huge Show-Offs"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
                 "value": "Stratagem§Call Dat Dakka?"
               }
             ],
@@ -4561,7 +4604,7 @@
             "value": 1
           }
         },
-        "text": "**DAKKA! DAKKA! DAKKA!**\n\nDuring your Shooting phase, ranged weapons equipped by **Orks Infantry** and **Orks Walker** models from your army have the **[ASSAULT]** ability. While the Waaagh! is active for your army, ranged weapons equipped by **Orks Infantry** and **Orks Walker** models from your army have the **[SUSTAINED HITS 1]** ability."
+        "text": "**DAKKA! DAKKA! DAKKA!**\n\n- Friendly **Orks Infantry** units’ ranged attacks have **[Assault]**.\n\n- In your Shooting phase, if the Waaagh! is active for your army, friendly **Orks Infantry** units’ ranged attacks have **[Sustained Hits 1]**."
       },
       "Detachment§Rollin’ Deff": {
         "keywords": {
@@ -4569,11 +4612,90 @@
             "Priority Assets"
           ]
         },
+        "rules": {
+          "applyKeywords": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "assets",
+                    "item",
+                    [
+                      "Unit§Battlewagon",
+                      "Unit§Hunta Rig",
+                      "Unit§Kill Rig"
+                    ],
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Wagon"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 3
+          },
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Impending Crunch"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Devastating Drift"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Brutal Broadside"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        },
         "stats": {
           "Detachment Points": {
             "value": 1
           }
-        }
+        },
+        "text": "**THUNDERING WAGONS**\n\n- Friendly **Battlewagon/Hunta Rig/Kill Rig** units have **Wagon**.\n\n- Friendly **Wagon** units can re-roll **charge rolls**.\n\n- When a friendly **Wagon** unit is selected to make an **advance move**, that unit can change **advance rolls** to a 6.\nThis **detachment** has the **WAGONS** tag and cannot be taken with another **WAGONS** **detachment**."
       },
       "Detachment§Speedwaaagh!": {
         "keywords": {
@@ -4689,7 +4811,7 @@
           ]
         },
         "rules": {
-          "assignStratagems": {
+          "assignBattleline": {
             "actions": [
               {
                 "actionType": "add",
@@ -4697,42 +4819,23 @@
                 "paths": [
                   [
                     "{roster}",
-                    "traits",
+                    "assets",
                     "item",
-                    "Stratagems§Stratagems",
-                    "traits"
+                    "Unit§Stormboyz",
+                    "keywords",
+                    "Keywords"
                   ]
                 ],
-                "value": "Stratagem§Dat's Ours"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Krunchin' Descent"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Fight Proppa"
-              },
+                "value": "Battleline"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 3
+          },
+          "assignStratagems": {
+            "actions": [
               {
                 "actionType": "add",
                 "iterations": 1,
@@ -4786,7 +4889,7 @@
             "value": 1
           }
         },
-        "text": "**LISSEN ’ERE**\n\nOnce per battle round, in your Command\nphase or after being set up on the\nbattlefield in your Movement phase, each\n**Boss Snikrot, Mek** and **Warboss** model in\nyour army can issue Taktiks abilities.\n\nTo do so, select one or two of the Taktiks\nabilities below and select one friendly\n**Orks** unit within 6\" of that model to issue\nthem to. If you selected two Taktiks,\nthat model must take a Leadership test:\nif failed, the selected unit suffers D3\nmortal wounds. Until the start of your\nnext Command phase, the selected unit\nis affected by the selected Taktiks. A unit\ncannot have Taktiks issued to it in this\nway more than once per battle round.\n\nTaktiks abilities cannot be issued\nto Battle‑shocked units, and if a\nunit affected by Taktiks becomes\nBattle‑shocked, all Taktiks cease to affect\nthat unit while it is Battle‑shocked.\n\n**Get Stuck In:** You can re‑roll Charge rolls\nmade for this unit.\n\n**Get On Wiv It:** Add 1 to the Strength\ncharacteristic of melee weapons equipped\nby models in this unit.\n\n**Sneaky Stalkin’:** Infantry and Mounted\nmodels (excluding Meganobz) in this unit\nhave the Stealth ability and each time\na ranged attack targets this unit, those\nmodels have the Benefit of Cover against\nthat attack.\n\n**Shoota Drills:** Each time an Infantry\nor Mounted model in this unit makes a\nranged attack, add 1 to the Hit roll.\n\nKEYWORDS\n\n**Stormboyz** units from your army gain the\n**Battleline** keyword."
+        "text": "**LISSEN ’ERE**\n\n- Friendly **Stormboyz** units have **Battleline**.\n\n- When a friendly **Boyz/Kommandos/Stormboyz** unit is selected to make an **advance/fall-back move**, that move does not prevent that unit from being **eligible to start an action**."
       },
       "Detachment§War Horde": {
         "keywords": {
@@ -4892,7 +4995,7 @@
             "value": 3
           }
         },
-        "text": "**GET STUCK IN**\n\nMelee weapons equipped by Orks models from your army have the [SUSTAINED HITS 1] ability"
+        "text": "**GET STUCK IN**\n\nMelee weapons equipped by **ORKS** models from your army have the **[SUSTAINED HITS 1]** ability."
       },
       "Enhancement§’eadstompa": {
         "keywords": {
@@ -5095,12 +5198,34 @@
             "Rollin' Deff"
           ]
         },
+        "rules": {
+          "Wagon unit only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Wagon"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        },
         "stats": {
           "Points": {
             "value": 10
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Wagon** unit only. When a unit embarked within this unit is selected to make a **disembark move**, that unit has +1 to **charge rolls** until the end of the turn."
+        "text": "**Wagon** unit only. When a unit embarked within this unit is selected to make a **disembark move**, that unit has +1 to **charge rolls** until the end of the turn."
       },
       "Enhancement§Brutal But Kunnin’": {
         "keywords": {
@@ -5405,12 +5530,48 @@
             "More Dakka!"
           ]
         },
+        "rules": {
+          "Orks Infantry unit only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Orks"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Infantry"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        },
         "stats": {
           "Points": {
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Orks Infantry** unit only. This unit’s ranged attacks have:\n\n- **[Rapid Fire 1]**.\n\n- __Or:__ If that attack already has **[Rapid Fire]**, +1 to the value of that **[Rapid Fire]** (e.g. **[Rapid Fire 1]** becomes **[Rapid Fire 2]**)."
+        "text": "**Orks Infantry** unit only. This unit’s ranged attacks have:\n\n- **[Rapid Fire 1]**.\n\n- __Or:__ If that attack already has **[Rapid Fire]**, +1 to the value of that **[Rapid Fire]** (e.g. **[Rapid Fire 1]** becomes **[Rapid Fire 2]**)."
       },
       "Enhancement§Fasta Than Yooz": {
         "keywords": {
@@ -5606,12 +5767,34 @@
             "Dread Mob"
           ]
         },
+        "rules": {
+          "Mek model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Mek"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        },
         "stats": {
           "Points": {
             "value": 10
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**MEK** model only. Ranged weapons equipped by models in the bearer’s unit have the **[IGNORES COVER]** ability."
+        "text": "**MEK** model only. Ranged weapons equipped by models in the bearer’s unit have the **[IGNORES COVER]** ability."
       },
       "Enhancement§Gitfinder Googlez": {
         "rules": {
@@ -5960,26 +6143,40 @@
         },
         "text": "**Big Mek, Big Mek in Mega Armour** or **Big Mek with\nShokk Attack Gun** model only. During the Declare\nBattle Formations step, the bearer can be attached to a\n**Flash Gitz** unit. Each time a model in the bearer’s unit\nmakes a ranged attack, you can re‑roll the Hit roll."
       },
-      "Enhancement§Mork's Kunnin'": {
-        "stats": {
-          "Points": {
-            "value": 15
-          }
-        },
-        "text": "**Orks** model only. After both players have deployed\ntheir armies, select up to three **Orks** units from your\narmy and redeploy them. When doing so, you can set\nthose units up in Strategic Reserves, regardless of how\nmany units are already in Strategic Reserves."
-      },
       "Enhancement§Mork’s Kunnin’": {
         "keywords": {
           "Keywords": [
             "Taktikal Brigade"
           ]
         },
+        "rules": {
+          "Orks model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Orks"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        },
         "stats": {
           "Points": {
             "value": 20
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Orks** model only. When both players have deployed their armies, you can redeploy up to three friendly **Orks Infantry** units. When doing so, you can set those units up in **strategic reserves**, regardless of how many units are already in **strategic reserves**."
+        "text": "**Orks** model only. When both players have deployed their armies, you can redeploy up to three friendly **Orks Infantry** units. When doing so, you can set those units up in **strategic reserves**, regardless of how many units are already in **strategic reserves**."
       },
       "Enhancement§Press It Fasta!": {
         "keywords": {
@@ -6122,26 +6319,40 @@
         },
         "text": "ORKS INFANTRY model only. While the bearer is leading a unit, that unit always counts as containing 10 or more models for the purposes of your Detachment rule and any Stratagems you use."
       },
-      "Enhancement§Razgit's Magik Map": {
-        "stats": {
-          "Points": {
-            "value": 25
-          }
-        },
-        "text": "**ORKS** model only. After both players have deployed their armies, select up to three **ORKS INFANTRY** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
-      },
       "Enhancement§Razgit’s Magik Map": {
         "keywords": {
           "Keywords": [
             "Freebooter Krew"
           ]
         },
+        "rules": {
+          "Orks model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Orks"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        },
         "stats": {
           "Points": {
             "value": 25
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**ORKS** model only. After both players have deployed their armies, select up to three **ORKS INFANTRY** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+        "text": "**ORKS** model only. After both players have deployed their armies, select up to three **ORKS INFANTRY** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
       },
       "Enhancement§Runnin’ Boots": {
         "keywords": {
@@ -6263,12 +6474,62 @@
             "Taktikal Brigade"
           ]
         },
+        "rules": {
+          "Infantry Warboss model only (excluding Mega Armour models).": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Infantry"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Warboss"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": true,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Mega Armour"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        },
         "stats": {
           "Points": {
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**INFANTRY WARBOSS** model only (excluding **MEGA ARMOUR** models).This model has **Infiltrators** and **Stealth**."
+        "text": "**INFANTRY WARBOSS** model only (excluding **MEGA ARMOUR** models). This model has **Infiltrators** and **Stealth**."
       },
       "Enhancement§Smoky Gubbinz": {
         "keywords": {
@@ -6542,12 +6803,34 @@
             "Rollin' Deff"
           ]
         },
+        "rules": {
+          "Wagon unit only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Wagon"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        },
         "stats": {
           "Points": {
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Wagon** unit only. While a **Big Mek** model is embarked within this unit:\n\n- This unit’s ranged attacks have **[Ignores Cover]**.\n\n- If the Waaagh! is active for this unit, this unit’s ranged attacks have **[Sustained Hits 1]**."
+        "text": "**Wagon** unit only. While a **Big Mek** model is embarked within this unit:\n\n- This unit’s ranged attacks have **[Ignores Cover]**.\n\n- If the Waaagh! is active for this unit, this unit’s ranged attacks have **[Sustained Hits 1]**."
       },
       "Enhancement§Targetin’ Squigs": {
         "stats": {
@@ -6728,6 +7011,32 @@
           },
           "WS": {
             "value": 4
+          }
+        }
+      },
+      "Melee Weapon§Bannernob—Choppa": {
+        "aspects": {
+          "Label": "Choppa"
+        },
+        "stats": {
+          "A": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
           }
         }
       },
@@ -7138,6 +7447,32 @@
           }
         }
       },
+      "Melee Weapon§Big Mek Dakkarig—Stompy feet": {
+        "aspects": {
+          "Label": "Stompy feet"
+        },
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 6
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
       "Melee Weapon§Big Mek in Mega Armour—Killsaw": {
         "aspects": {
           "Label": "Killsaw"
@@ -7450,6 +7785,44 @@
           }
         }
       },
+      "Melee Weapon§Bigboss—Two-handed big choppa": {
+        "aspects": {
+          "Label": "Two-handed big choppa"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Cleave",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 7
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
       "Melee Weapon§Blitza-bommer—Armoured hull": {
         "aspects": {
           "Label": "Armoured hull"
@@ -7661,6 +8034,191 @@
           },
           "WS": {
             "value": 4
+          }
+        }
+      },
+      "Melee Weapon§Breaka Boyz—Choppa": {
+        "aspects": {
+          "Label": "Choppa"
+        },
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Breaka Boyz—Knucklebustas": {
+        "aspects": {
+          "Label": "Knucklebustas"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "vehicle"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "monster"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Breaka Boyz—Smash hammer": {
+        "aspects": {
+          "Label": "Smash hammer"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "vehicle"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "monster"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 6
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Breaka Boyz—Tankhammer": {
+        "aspects": {
+          "Label": "Tankhammer"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Hazardous",
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "vehicle"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "monster"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 6
+          },
+          "WS": {
+            "value": 3
           }
         }
       },
@@ -9798,32 +10356,6 @@
           }
         }
       },
-      "Melee Weapon§Nob with Waaagh! Banner—Waaagh! banner": {
-        "aspects": {
-          "Label": "Waaagh! banner"
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 8
-          },
-          "WS": {
-            "value": 3
-          }
-        }
-      },
       "Melee Weapon§Nobz on Warbikes—Big choppa": {
         "aspects": {
           "Label": "Big choppa"
@@ -11270,16 +11802,16 @@
           }
         }
       },
-      "Melee Weapon§Wartrakks—Spiked wheel": {
+      "Melee Weapon§Wartrakk—Choppas": {
         "aspects": {
-          "Label": "Spiked wheel"
+          "Label": "Choppas"
         },
         "stats": {
           "A": {
-            "value": 2
+            "value": 5
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "D": {
             "value": 1
@@ -11289,10 +11821,10 @@
             "value": "Melee"
           },
           "S": {
-            "value": 6
+            "value": 4
           },
           "WS": {
-            "value": 4
+            "value": 3
           }
         }
       },
@@ -11718,7 +12250,7 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Tankbustas—Choppa"
+            "Melee Weapon§Breaka Boyz—Choppa"
           ]
         },
         "stats": {
@@ -11734,10 +12266,10 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Tankbustas—Rokkit pistol"
+                    "trait": "Ranged Weapon§Breaka Boyz—Rokkit pistol"
                   },
                   {
-                    "trait": "Melee Weapon§Tankbustas—Smash hammer"
+                    "trait": "Melee Weapon§Breaka Boyz—Smash hammer"
                   }
                 ]
               },
@@ -11745,10 +12277,10 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Tankbustas—Rokkit pistol"
+                    "trait": "Ranged Weapon§Breaka Boyz—Rokkit pistol"
                   },
                   {
-                    "trait": "Ranged Weapon§Tankbustas—Rokkit pistol"
+                    "trait": "Ranged Weapon§Breaka Boyz—Rokkit pistol"
                   }
                 ]
               }
@@ -12183,7 +12715,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Melee Weapon§Tankbustas—Smash hammer"
+                    "trait": "Melee Weapon§Breaka Boyz—Smash hammer"
                   }
                 ]
               },
@@ -12194,7 +12726,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Melee Weapon§Tankbustas—Knucklebustas"
+                    "trait": "Melee Weapon§Breaka Boyz—Knucklebustas"
                   }
                 ]
               },
@@ -12205,7 +12737,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Melee Weapon§Tankbustas—Tankhammer"
+                    "trait": "Melee Weapon§Breaka Boyz—Tankhammer"
                   }
                 ]
               }
@@ -13606,59 +14138,6 @@
           }
         }
       },
-      "Model§Wartrakk": {
-        "assets": {
-          "traits": [
-            "Melee Weapon§Wartrakks—Spiked wheel"
-          ]
-        },
-        "stats": {
-          "Ld": {
-            "value": 7
-          },
-          "M": {
-            "value": 12
-          },
-          "OC": {
-            "value": 2
-          },
-          "Ranged Option": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "Twin big shoota": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Wartrakks—Twin big shoota"
-                  }
-                ]
-              },
-              "Rack of rokkits": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Wartrakks—Rack of rokkits"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "Twin big shoota",
-            "visibility": "active"
-          },
-          "Sv": {
-            "value": 4
-          },
-          "T": {
-            "value": 6
-          },
-          "W": {
-            "value": 6
-          }
-        }
-      },
       "Ranged Weapon§Attack Fighta—Twin big shoota": {
         "aspects": {
           "Label": "Twin big shoota"
@@ -13719,6 +14198,43 @@
           },
           "S": {
             "value": 9
+          }
+        }
+      },
+      "Ranged Weapon§Bannernob—Shoota": {
+        "aspects": {
+          "Label": "Shoota"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 5
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 18
+          },
+          "S": {
+            "value": 4
           }
         }
       },
@@ -14236,6 +14752,74 @@
           "S": {
             "format": "2D6",
             "value": 0
+          }
+        }
+      },
+      "Ranged Weapon§Big Mek Dakkarig—Blitzkannon": {
+        "aspects": {
+          "Label": "Blitzkannon"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Heavy"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 5
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 7
+          }
+        }
+      },
+      "Ranged Weapon§Big Mek Dakkarig—Rokkit launcha": {
+        "aspects": {
+          "Label": "Rokkit launcha"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 5
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 10
           }
         }
       },
@@ -15080,6 +15664,36 @@
           }
         }
       },
+      "Ranged Weapon§Bigboss—Slugga": {
+        "aspects": {
+          "Label": "Slugga"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Close-quarters"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 5
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
       "Ranged Weapon§Blitza-bommer—Big shoota": {
         "aspects": {
           "Label": "Big shoota"
@@ -15517,6 +16131,36 @@
           },
           "S": {
             "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Breaka Boyz—Rokkit pistol": {
+        "aspects": {
+          "Label": "Rokkit pistol"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 5
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 9
           }
         }
       },
@@ -19809,43 +20453,6 @@
           }
         }
       },
-      "Ranged Weapon§Nob with Waaagh! Banner—Kustom shoota": {
-        "aspects": {
-          "Label": "Kustom shoota"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 4
-          },
-          "AP": {
-            "value": 0
-          },
-          "BS": {
-            "value": 5
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 18
-          },
-          "S": {
-            "value": 4
-          }
-        }
-      },
       "Ranged Weapon§Nobz on Warbikes—Slugga": {
         "aspects": {
           "Label": "Slugga"
@@ -21013,19 +21620,50 @@
           }
         }
       },
-      "Ranged Weapon§Wartrakks—Rack of rokkits": {
+      "Ranged Weapon§Wartrakk—Kustom shoota": {
         "aspects": {
-          "Label": "Rack of rokkits"
+          "Label": "Kustom shoota"
         },
         "assets": {
           "traits": [
-            "Ability§Blast"
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
           ]
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3+1"
+            "value": 2
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 5
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 18
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Wartrakk—Rokkit launcha": {
+        "aspects": {
+          "Label": "Rokkit launcha"
+        },
+        "stats": {
+          "A": {
+            "value": "D3+3"
           },
           "AP": {
             "value": -2
@@ -21040,45 +21678,7 @@
             "value": 24
           },
           "S": {
-            "value": 9
-          }
-        }
-      },
-      "Ranged Weapon§Wartrakks—Twin big shoota": {
-        "aspects": {
-          "Label": "Twin big shoota"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            },
-            "Ability§Twin-linked"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": 0
-          },
-          "BS": {
-            "value": 5
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 36
-          },
-          "S": {
-            "value": 5
+            "value": 10
           }
         }
       },
@@ -21514,7 +22114,7 @@
           }
         }
       },
-      "Stratagem§’ard As Nails": {
+      "Stratagem§’Ard As Nails": {
         "keywords": {
           "Keywords": [
             "Orks",
@@ -21532,13 +22132,13 @@
             "Yours"
           ]
         },
-        "text": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One Orks unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Wound roll.\n\nRESTRICTIONS: You cannot select a Vehicle or Gretchin unit for this Stratagem."
+        "text": "**WHEN:** Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **ORKS** unit from your army (excluding **GROTS**, **MONSTER** and **VEHICLE** units) that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, each time an attack targets your unit, subtract 1 from the Wound roll."
       },
-      "Stratagem§’ere We Go": {
+      "Stratagem§’Ere We Go": {
         "keywords": {
           "Keywords": [
             "Orks",
-            "Waaagh! Tribe"
+            "War Horde"
           ],
           "Phase": [
             "Movement"
@@ -21550,7 +22150,7 @@
             "Yours"
           ]
         },
-        "text": "WHEN: Start of your Movement phase.\n\nTARGET: One Orks Infantry unit from your army.\n\nEFFECT: Until the end of the turn, add 2 to Advance and Charge rolls made for your unit."
+        "text": "**WHEN:** Start of your Movement phase.\n\n**TARGET:** One **ORKS INFANTRY** unit from your army.\n\n**EFFECT:** Until the end of the turn, add 2 to Advance and Charge rolls made for your unit."
       },
       "Stratagem§Always Lookin’ Fer A Fight": {
         "keywords": {
@@ -21569,7 +22169,7 @@
             "Orks"
           ]
         },
-        "text": "WHEN: Fight phase, just after an enemy unit\nis destroyed.\n\nTARGET: One NOBZ or MEGANOBZ unit from your army that destroyed that enemy unit.\n\nEFFECT: Until the end of the phase, each time your unit makes a Consolidation move, it can move up to D3+3″ instead of up to 3”. Ifa Waaagh! is active for your unit, it can move up to 6″ instead."
+        "text": "**WHEN:** Fight phase, just after an enemy unit is destroyed.\n\n**TARGET:** One **NOBZ** or **MEGANOBZ** unit from your army that destroyed that enemy unit.\n\n**EFFECT:** Until the end of the phase, each time your unit makes a Consolidation move, it can move up to D3+3\" instead of up to 3\". If a Waaagh! is active for your unit, it can move up to 6\" instead."
       },
       "Stratagem§Armed To Da Teef": {
         "keywords": {
@@ -21589,7 +22189,25 @@
             "Shooting"
           ]
         },
-        "text": "WHEN: Your Shooting phase or the Fight phase.\n\nTARGET: One NoBz or MEGANOBZ unit from your army that has not been selected to shoot or fight this phase.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack, re-roll a Hit roll of 1. If a Waaagh! is active for your unit, you can re-roll the Hit roll instead."
+        "text": "**WHEN:** Your Shooting phase or the Fight phase.\n\n**TARGET:** One **NOBZ** or **MEGANOBZ** unit from your army that has not been selected to shoot or fight this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack, re-roll a Hit roll of 1. If a Waaagh! is active for your unit, you can re-roll the Hit roll instead."
+      },
+      "Stratagem§Armoured Duellists": {
+        "keywords": {
+          "Keywords": [
+            "Orks",
+            "Blitz Brigade"
+          ],
+          "Category": [
+            "Battle Tactic"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        },
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **ORKS VEHICLE** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, each time your unit makes an attack that targets a **MONSTER** or **VEHICLE** unit, add 1 to the Hit roll and add 1 to the Wound roll."
       },
       "Stratagem§Bash and Grab": {
         "keywords": {
@@ -21612,7 +22230,7 @@
             "value": 1
           }
         },
-        "text": "**WHEN**: The Fight phase.\n\n**TARGET**: One ORKS unit from your army that has not been selected to fight this phase.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit within range of the loot objective, you can re-roll the Wound roll."
+        "text": "**WHEN:** The Fight phase.\n\n**TARGET:** One **ORKS** unit from your army that has not been selected to fight this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit within range of the loot objective, you can re-roll the Wound roll."
       },
       "Stratagem§Bigger Shells For Bigger Gitz": {
         "keywords": {
@@ -21630,7 +22248,7 @@
             "Shooting"
           ]
         },
-        "text": "WHEN: Your Shooting phase.\n\nTARGET: One MEK, ORKS WALKER or GROTS VEHICLE unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Each time you use this Stratagem, you can choose to push it. Until the end of the phase, each time a model in your unit makes an attack that targets a MONSTER or VEHICLE, add 1 to the Wound roll. If you chose to push it, add 1 to the Damage characteristic of that attack and, until the end of the phase, ranged weapons equipped by models in your unit have the [HAZARDOUS] ability as well."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **MEK**, **ORKS WALKER** or **GROTS VEHICLE** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Each time you use this Stratagem, you can choose to push it. Until the end of the phase, each time a model in your unit makes an attack that targets a **MONSTER** or **VEHICLE**, add 1 to the Wound roll. If you chose to push it, add 1 to the Damage characteristic of that attack and, until the end of the phase, ranged weapons equipped by models in your unit have the **[HAZARDOUS]** ability as well."
       },
       "Stratagem§Blitza Fire": {
         "keywords": {
@@ -21648,7 +22266,7 @@
             "Shooting"
           ]
         },
-        "text": "WHEN: Your Shooting phase.\n\nTARGET: One SPEED FREEKS unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [LETHAL HITS] ability and, each time a model in your unit makes an attack that targets a unit within 9″, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6.\n\nRESTRICTIONS: A unit cannot be targeted by this and the Dakkastorm Stratagem in the same phase."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **SPEED FREEKS** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, ranged weapons equipped by models in your unit have the **[LETHAL HITS]** ability and, each time a model in your unit makes an attack that targets a unit within 9\", a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6.\n\n**RESTRICTIONS:** A unit cannot be targeted by this and the Dakkastorm Stratagem in the same phase."
       },
       "Stratagem§Boardin' Rush": {
         "keywords": {
@@ -21670,7 +22288,7 @@
             "value": 1
           }
         },
-        "text": "**WHEN**: Your Movement phase.\n\n**TARGET**: One ORKS unit from your army that has not been selected to move this phase.\n\n**EFFECT**: Until the end of the phase, each time your unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit."
+        "text": "**WHEN:** Your Movement phase.\n\n**TARGET:** One **ORKS** unit from your army that has not been selected to move this phase.\n\n**EFFECT:** Until the end of the phase, each time your unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit."
       },
       "Stratagem§Braggin’ Rights": {
         "keywords": {
@@ -21688,7 +22306,21 @@
             "Orks"
           ]
         },
-        "text": "WHEN: Your Command phase.\n\nTARGET: Two Boyz units from your army that are within 6″ of each other.\n\nEFFECT: Until the start of your next Command phase, while those two units are within 6″ of each other, they both count as containing 10 or more models for the purposes of your Detachment rule, any Enhancements models from your army have and any Stratagems you use."
+        "text": "**WHEN:** Your Command phase.\n\n**TARGET:** Two **BOYZ** units from your army that are within 6\" of each other.\n\n**EFFECT:** Until the start of your next Command phase, while those two units are within 6\" of each other, they both count as containing 10 or more models for the purpose of your Detachment rule, any Enhancements models from your army have and any Stratagems you use."
+      },
+      "Stratagem§Brutal Broadside": {
+        "keywords": {
+          "Keywords": [
+            "Rollin’ Deff"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        },
+        "text": "**WHEN:** Your Shooting phase, when a friendly **Battlewagon** unit is **selected to shoot**.\n\n**TARGET:** That **Battlewagon** unit.\n\n**EFFECT:** Your unit’s ranged attacks (excluding attacks made by weapons selected with **Firing Deck**) have **[Rapid Fire X]**, where **X** is that attack’s **A**."
       },
       "Stratagem§Bulldozer Brutality": {
         "keywords": {
@@ -21707,7 +22339,7 @@
             "Fight"
           ]
         },
-        "text": "WHEN: Fight phase.\n\nTARGET: One Boyz unit from your army that has not been selected to fight this phase and is within Engagement Range of one or more enemy units.\n\nEFFECT: Until the end of the phase, each time your unit is selected to fight, when determining which models in your unit are eligible to fight, any models in your unit that are within 3” of one or more enemy models are eligible to fight. When resolving those attacks, such models can target one of those enemy units that is within 3″ of them and within Engagement\nRange of their unit."
+        "text": "**WHEN:** Fight phase.\n\n**TARGET:** One **BOYZ** unit from your army that has not been selected to fight this phase and is within Engagement Range of one or more enemy units.\n\n**EFFECT:** Until the end of the phase, each time your unit is selected to fight, when determining which models in your unit are eligible to fight, any models in your unit that are within 3\" of one or more enemy models are eligible to fight. When resolving those attacks, such models can target one of those enemy units that is within 3\" of them and within Engagement Range of their unit."
       },
       "Stratagem§Call Dat Dakka?": {
         "keywords": {
@@ -21724,7 +22356,7 @@
             "Opponent’s"
           ]
         },
-        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has shot.\n\n**TARGET:** One Orks unit from your army that had one or more of its models destroyed as a result of the attacking unit’s attacks.\n\n**EFFECT:** Your unit can shoot as if it were your Shooting phase, but must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target."
+        "text": "**WHEN:** Your opponent’s Shooting phase, when an enemy unit that targeted a friendly **Orks Infantry** unit has shot.\n\n**TARGET:** That **Orks Infantry** unit.\n\n**EFFECT:** Your unit shoots using **snap shooting**, but while doing so your unit can only target that enemy unit."
       },
       "Stratagem§Careen!": {
         "keywords": {
@@ -21743,7 +22375,7 @@
             "Yours"
           ]
         },
-        "text": "WHEN: Any phase, just after an Orks Vehicle unit from your army with the Deadly Demise ability is destroyed.\n\nTARGET:That destroyed Orks Vehicle unit, if you roll a 6 for its Deadly Demise ability. You can use this Stratagem on that unit even though it was just destroyed.\n\nEFFECT: Your unit can make a Normal or Fall Back move before its Deadly Demise ability is resolved, and before any embarked units perform an Emergency Disembarkation. When making this move, your unit can move over enemy units (excluding Monsters and Vehicles) as if they were not there."
+        "text": "**WHEN:** Any phase, just after an **ORKS VEHICLE** unit from your army with the Deadly Demise ability is destroyed.\n\n**TARGET:** That destroyed **ORKS VEHICLE** unit, if you rolled a 6 for its Deadly Demise ability. You can use this Stratagem on that unit even though it was just destroyed.\n\n**EFFECT:** Your unit can make a Normal or Fall Back move before its Deadly Demise ability is resolved, and before any embarked units perform an Emergency Disembarkation. When making this move, your unit can move over enemy units (excluding **MONSTERS** and **VEHICLES**) as if they were not there."
       },
       "Stratagem§Come On Ladz!": {
         "keywords": {
@@ -21761,7 +22393,7 @@
             "Command"
           ]
         },
-        "text": "WHEN: Your Command phase.\n\nTARGET: One Boyz unit from your army.\n\nEFFECT: Return up to D3+2 destroyed models to your unit (excluding CHARACTER models)."
+        "text": "**WHEN:** Your Command phase.\n\n**TARGET:** One **BOYZ** unit from your army.\n\n**EFFECT:** Return up to D3+2 destroyed models to your unit (excluding **CHARACTER** models)."
       },
       "Stratagem§Competitive Streak": {
         "keywords": {
@@ -21780,7 +22412,7 @@
             "Orks"
           ]
         },
-        "text": "WHEN: Fight phase.\n\nTARGET: One Boyz unit from your army that has not been selected to fight this phase.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack, re-roll a Wound roll of 1. If your unit contains 10 or more models, re-roll the Wound roll instead."
+        "text": "**WHEN:** Fight phase.\n\n**TARGET:** One **BOYZ** unit from your army that has not been selected to fight this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack, re-roll a Wound roll of 1. If your unit contains 10 or more models, re-roll the Wound roll instead."
       },
       "Stratagem§Conniving Runts": {
         "keywords": {
@@ -21798,7 +22430,7 @@
             "Orks"
           ]
         },
-        "text": "WHEN: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\nTARGET: One GRETCHIN unit from your army that is within 9″ of that enemy unit and not within Engagement Range of any enemy units.\n\nEFFECT: Roll one D6: on a 4+, that enemy unit suffers D3+1 mortal wounds. Your unit can then make a Normal move."
+        "text": "**WHEN:** Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\n**TARGET:** One **GRETCHIN** unit from your army that is within 9\" of that enemy unit and not within Engagement Range of any enemy units.\n\n**EFFECT:** Roll one D6: on a 4+, that enemy unit suffers D3+1 mortal wounds. Your unit can then make a Normal move."
       },
       "Stratagem§Crushing Impact": {
         "keywords": {
@@ -21816,9 +22448,9 @@
             "Charge"
           ]
         },
-        "text": "WHEN: Your Charge phase, just after a NOBZ or MEGANOBZ unit from your army ends a Charge move.\n\nTARGET: That NOBZ or MEGANOBZ unit.\n\nEFFECT: Select one enemy unit within Engagement Range of your unit, then roll one D6 for each model in your unit that is within Engagement Range of that enemy unit: for each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds). If a Waaagh! is active for your unit, that enemy unit suffers 1 mortal wound for each 4+ instead."
+        "text": "**WHEN:** Your Charge phase, just after a **NOBZ** or **MEGANOBZ** unit from your army ends a Charge move.\n\n**TARGET:** That **NOBZ** or **MEGANOBZ** unit.\n\n**EFFECT:** Select one enemy unit within Engagement Range of your unit, then roll one D6 for each model in your unit that is within Engagement Range of that enemy unit: for each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds). If a Waaagh! is active for your unit, that enemy unit suffers 1 mortal wound for each 4+ instead."
       },
-      "Stratagem§Cut ’em Down": {
+      "Stratagem§Cut ’Em Down": {
         "keywords": {
           "Keywords": [
             "Bully Boyz",
@@ -21834,7 +22466,7 @@
             "Movement"
           ]
         },
-        "text": "WHEN: Your opponent’s Movement phase, just after an enemy unit is selected to Fall Back.\n\nTARGET: One NOBZ or MEGANOBZ unit from your army within Engagement Range of that enemy unit.\n\nEFFECT: When that enemy unit Falls Back, all \nmodels in that enemy unit must take a Desperate Escape test. When doing so, if a Waaagh! is active for your unit, subtract 1 from each of those tests."
+        "text": "**WHEN:** Your opponent’s Movement phase, just after an enemy unit is selected to Fall Back.\n\n**TARGET:** One **NOBZ** or **MEGANOBZ** unit from your army within Engagement Range of that enemy unit.\n\n**EFFECT:** When that enemy unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if a Waaagh! is active for your unit, subtract 1 from each of those tests."
       },
       "Stratagem§Dakka! Dakka! Dakka!": {
         "keywords": {
@@ -21852,7 +22484,7 @@
             "Shooting"
           ]
         },
-        "text": "WHEN: Your Shooting phase.\n\nTARGET: One ORKS WALKER or GROTS VEHICLE unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Each time you use this Stratagem, you can choose to push it. Until the end of the phase, each time a model in your unit makes an attack, re-roll a Hit roll of 1. If you chose to push it, you can re-roll the Hit roll instead and, until the end of the phase, ranged weapons equipped by models in your unit have the [HAZARDOUS] ability as well."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **ORKS WALKER** or **GROTS VEHICLE** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Each time you use this Stratagem, you can choose to push it. Until the end of the phase, each time a model in your unit makes an attack, re-roll a Hit roll of 1. If you chose to push it, you can re-roll the Hit roll instead and, until the end of the phase, ranged weapons equipped by models in your unit have the **[HAZARDOUS]** ability as well."
       },
       "Stratagem§Dakkastorm": {
         "keywords": {
@@ -21870,7 +22502,7 @@
             "Shooting"
           ]
         },
-        "text": "WHEN: Your Shooting phase.\n\nTARGET: One SPEED FREEKS unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability. While targeting a unit within 9″, they have the [SUSTAINED HITS 2] ability instead.\n\nRESTRICTIONS: A unit cannot be targeted by this and the Blitza Fire Stratagem in the same phase."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **SPEED FREEKS** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, ranged weapons equipped by models in your unit have the **[SUSTAINED HITS 1]** ability. While targeting a unit within 9\", they have the **[SUSTAINED HITS 2]** ability instead.\n\n**RESTRICTIONS:** A unit cannot be targeted by this and the Blitza Fire Stratagem in the same phase."
       },
       "Stratagem§Dat One’s Even Bigga!": {
         "keywords": {
@@ -21888,24 +22520,7 @@
             "Yours"
           ]
         },
-        "text": "WHEN: Your Charge phase.\n\nTARGET: One BEAST SNAGGA unit from your army.\n\nEFFECT: Until the end of the phase, your unit is eligible to charge in a turn in which it Advanced or Fell Back. In addition, you can re‑roll Charge rolls made for your unit, provided one of the targets of that charge is your Prey."
-      },
-      "Stratagem§Dat's Ours": {
-        "keywords": {
-          "Keywords": [
-            "Taktikal Brigade"
-          ],
-          "Category": [
-            "Strategic Ploy"
-          ],
-          "Turn": [
-            "Yours"
-          ],
-          "Phase": [
-            "Command"
-          ]
-        },
-        "text": "**WHEN:** Command phase.\n\n**TARGET:** One **Orks** unit from your army that is within\nEngagement Range of one or more enemy units.\n\n**EFFECT:** Until the start of the next Command phase,\nadd 1 to the Objective Control characteristic of\nmodels in your unit."
+        "text": "**WHEN:** Your Charge phase.\n\n**TARGET:** One **BEAST SNAGGA** unit from your army.\n\n**EFFECT:** Until the end of the phase, your unit is **eligible to charge** in a turn in which it Advanced or Fell Back. In addition, you can re-roll **charge rolls** made for your unit. If you do, your unit must end that **charge move engaged** with your Prey."
       },
       "Stratagem§Deck Fraggers": {
         "keywords": {
@@ -21927,7 +22542,7 @@
             "value": 1
           }
         },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One ORKS unit from your army that has not been selected to shoot this phase.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit targets an INFANTRY unit with a ranged weapon, that weapon has the [BLAST] ability."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **ORKS** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit targets an **INFANTRY** unit with a ranged weapon, that weapon has the **[BLAST]** ability."
       },
       "Stratagem§Ded Killy Construction": {
         "keywords": {
@@ -21949,7 +22564,7 @@
             "value": 1
           }
         },
-        "text": "**WHEN**: Your Fight phase.\n\n**TARGET**: One SPEED FREEKS or TRUKK unit from your army that has not been selected to fight this phase.\n\n**EFFECT**: Until the end of the phase, melee weapons equipped by models in your unit have the [LANCE] ability and, if your unit made a Charge move this turn, until the end of the phase, add 1 to the Damage characteristic of those weapons."
+        "text": "**WHEN:** Your Fight phase.\n\n**TARGET:** One **SPEED FREEKS** or **TRUKK** unit from your army that has not been selected to fight this phase.\n\n**EFFECT:** Until the end of the phase, melee weapons equipped by models in your unit have the **[LANCE]** ability and, if your unit made a Charge move this turn, until the end of the phase, add 1 to the Damage characteristic of those weapons."
       },
       "Stratagem§Ded Sneaky": {
         "keywords": {
@@ -21966,7 +22581,21 @@
             "Fight"
           ]
         },
-        "text": "**WHEN:** End of your opponent’s Fight phase.\n\n**TARGET:** One **Kommandos** or **Stormboyz** unit from\nyour army that is not within Engagement Range of\none or more enemy units.\n\n**EFFECT:** Remove your unit from the battlefield and\nplace it into Strategic Reserves"
+        "text": "**WHEN:** End of your opponent’s Fight phase.\n\n**TARGET:** One friendly **unengaged** **Kommandos/Stormboyz** unit.\n\n**EFFECT:** Place your unit in **strategic reserves**."
+      },
+      "Stratagem§Devastating Drift": {
+        "keywords": {
+          "Keywords": [
+            "Rollin’ Deff"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Fight"
+          ]
+        },
+        "text": "**WHEN:** Your Fight phase, when a friendly **Wagon** unit that made a **charge move** this turn is **selected to fight**.\n\n**TARGET:** That **Wagon** unit.\n\n**EFFECT:** Your unit’s melee attacks have **[Cleave 1]**."
       },
       "Stratagem§Drag it Down": {
         "keywords": {
@@ -21985,7 +22614,7 @@
             "Yours"
           ]
         },
-        "text": "WHEN: Fight phase.\n\nTARGET: One BEAST SNAGGA unit from your army that has not been selected to fight this phase.\n\nEFFECT: Until the end of the phase, melee weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability. In addition, each time a model in your unit makes a melee attack that targets your Prey, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6."
+        "text": "**WHEN:** Fight phase.\n\n**TARGET:** One **BEAST SNAGGA** unit from your army that has not been selected to fight this phase.\n\n**EFFECT:** Until the end of the phase, melee weapons equipped by models in your unit have the **[SUSTAINED HITS 1]** ability. In addition, each time a model in your unit makes a melee attack that targets your Prey, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6."
       },
       "Stratagem§Dust Trails": {
         "keywords": {
@@ -22007,7 +22636,7 @@
             "value": 1
           }
         },
-        "text": "**WHEN**: Your opponent's Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One ORKS unit from your army that was selected as the target of one or more of the attacking unit's attacks.\n\n**EFFECT**: Until the end of the phase, your unit has the Benefit of Cover."
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **ORKS** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, your unit has the Benefit of Cover."
       },
       "Stratagem§Evasive Manoova": {
         "keywords": {
@@ -22029,7 +22658,7 @@
             "value": 1
           }
         },
-        "text": "**WHEN**: End of your opponent's Fight phase.\n\n**TARGET**: One SPEED FREEKS or TRUKK unit from your army that is not within Engagement Range of one or more enemy units.\n\n**EFFECT**: Remove your unit from the battlefield and place it into Strategic Reserves."
+        "text": "**WHEN:** End of your opponent’s Fight phase.\n\n**TARGET:** **SPEED FREEKS** or **TRUKK** unit from your army that is not within Engagement Range of one or more enemy units.\n\n**EFFECT:** Remove your unit from the battlefield and place it into Strategic Reserves."
       },
       "Stratagem§Extra Gubbinz": {
         "keywords": {
@@ -22047,26 +22676,9 @@
             "Shooting"
           ]
         },
-        "text": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\nTARGET: One ORKS WALKER or GROTS VEHICLE unit from your army (excluding TITANIC units) that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack."
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **ORKS WALKER** or **GROTS VEHICLE** unit from your army (excluding **TITANIC** units) that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack."
       },
-      "Stratagem§Fight Proppa": {
-        "keywords": {
-          "Keywords": [
-            "Taktikal Brigade"
-          ],
-          "Category": [
-            "Battle Tactic"
-          ],
-          "Turn": [
-            "Any"
-          ],
-          "Phase": [
-            "Fight"
-          ]
-        },
-        "text": "**WHEN:** Fight phase.\n\n**TARGET:** One **Orks Infantry** or **Orks Mounted** unit\nfrom your army that has not been selected to fight\nthis phase.\n\n**EFFECT:** Select the **[SUSTAINED HITS 1]** *or*\n**[LETHAL HITS]** ability. Until the end of the phase,\nmelee weapons equipped by models in your unit\nhave the selected ability."
-      },
-      "Stratagem§Full Throttle!": {
+      "Stratagem§Full Throttle": {
         "keywords": {
           "Keywords": [
             "Kult of Speed",
@@ -22082,31 +22694,9 @@
             "Charge"
           ]
         },
-        "text": "WHEN: Your Charge phase, just after a SPEED FREEKS unit from your army ends a Charge move.\n\nTARGET: That SPEED FREEKS unit.\n\nEFFECT: Until the end of the turn, each time a model in your unit makes a melee attack, add 1 to the Wound roll."
+        "text": "**WHEN:** Your Charge phase, just after a **SPEED FREEKS** unit from your army ends a Charge move.\n\n**TARGET:** That **SPEED FREEKS** unit.\n\n**EFFECT:** Until the end of the turn, each time a model in your unit makes a melee attack, add 1 to the Wound roll."
       },
-      "Stratagem§Get Stuck In, Ladz!": {
-        "keywords": {
-          "Category": [
-            "Epic Deed"
-          ],
-          "Keywords": [
-            "More Dakka!"
-          ],
-          "Phase": [
-            "Command"
-          ],
-          "Turn": [
-            "Yours"
-          ]
-        },
-        "stats": {
-          "Command Cost": {
-            "value": 2
-          }
-        },
-        "text": "**WHEN:** Your Command phase.\n\n**TARGET:** One **Orks** unit from your army (excluding\n**Gretchin** units).\n\n**EFFECT:** Until the start of your next Command phase, the Waaagh! is active for your unit, even if you have already called a Waaagh! this battle."
-      },
-      "Stratagem§Go Get ’em!": {
+      "Stratagem§Go Get ’Em!": {
         "keywords": {
           "Category": [
             "Strategic Ploy"
@@ -22122,7 +22712,7 @@
             "Shooting"
           ]
         },
-        "text": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\nTARGET: One Boyz unit from your army that was selected as the target of one or more of the attacking unit’s attacks. \n\nEFFECT: After the attacking unit has shot, your unit can make a Go Get’Em! move. To do so, roll one D6: each model in your unit can move a distance in inches up to the result, but your unit must end that move as close as possible to the closest enemy unit. When doing so, those models can be moved within Engagement Range of that enemy unit. If your unit contains 10 or more models, you can re-roll the D6 to determine how far your unit can move."
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **BOYZ** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Your unit can make a **surge move** of up to D6\"."
       },
       "Stratagem§Grab and Bash": {
         "keywords": {
@@ -22144,24 +22734,7 @@
             "value": 1
           }
         },
-        "text": "**WHEN**: Your Command phase.\n\n**TARGET**: One ORKS unit from your army (excluding GRETCHIN units) that is within range of the loot objective.\n\n**EFFECT**: Until the start of your next Command phase, the Waaagh! is active for your unit, even if you have already called a Waaagh! this battle.\n\n**Designer's Note**: This means that any abilities that are in effect while the Waaagh! is active for your army will be in effect for your unit."
-      },
-      "Stratagem§Huge Show-Offs": {
-        "keywords": {
-          "Category": [
-            "Epic Deed"
-          ],
-          "Keywords": [
-            "More Dakka!"
-          ],
-          "Phase": [
-            "Command"
-          ],
-          "Turn": [
-            "Yours"
-          ]
-        },
-        "text": "**WHEN:** Your Command phase.\n\n**TARGET:** One **Orks Walker** unit (excluding **Killa Kans**) from your army.\n\n**EFFECT:** Until the start of your next Command phase, improve your unit’s Move, Leadership and Objective Control characteristics by 1, and each time a model in your unit makes an attack, add 1 to the Hit roll."
+        "text": "**WHEN:** Your Command phase.\n\n**TARGET:** One **ORKS** unit from your army (excluding **GRETCHIN** units) that is within range of the loot objective.\n\n**EFFECT:** Until the start of your next Command phase, the Waaagh! is active for your unit, even if you have already called a Waaagh! this battle.\n\n**Designer’s Note:** *This means that any abilities that are in effect while the Waaagh! is active for your army will be in effect for your unit.*"
       },
       "Stratagem§Hulking Brutes": {
         "keywords": {
@@ -22179,9 +22752,41 @@
             "Shooting"
           ]
         },
-        "text": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\nTARGET: One NOBz or MEGANOBZ unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **NOBZ** or **MEGANOBZ** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
       },
-      "Stratagem§Instictive Hunters": {
+      "Stratagem§Impending Crunch": {
+        "keywords": {
+          "Keywords": [
+            "Rollin’ Deff"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Charge"
+          ]
+        },
+        "text": "**WHEN:** Your Charge phase, when a friendly **Wagon** unit ends a **charge move**.\n\n**TARGET:** That **Wagon** unit.\n\n**EFFECT:** Each enemy unit **engaged** with your unit makes a **battle-shock roll**, with -1 to that **battle-shock roll**."
+      },
+      "Stratagem§Impervious": {
+        "keywords": {
+          "Keywords": [
+            "Orks",
+            "Blitz Brigade"
+          ],
+          "Category": [
+            "Strategic Ploy"
+          ],
+          "Turn": [
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        },
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **BATTLEWAGON**, **KILL RIG** or **HUNTA RIG** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll."
+      },
+      "Stratagem§Instinctive Hunters": {
         "keywords": {
           "Keywords": [
             "Da Big Hunt",
@@ -22197,7 +22802,7 @@
             "Fight"
           ]
         },
-        "text": "WHEN: End of your opponent’s Fight phase.\n\nTARGET: One BEAST SNAGGA unit from your army that is not within Engagement Range of one or more enemy unit.\n\nEFFECT: Remove your unit from the battlefield and place it into Strategic Reserves."
+        "text": "**WHEN:** End of your opponent’s Fight phase.\n\n**TARGET:** One **BEAST SNAGGA** unit from your army that is not within Engagement Range of one or more enemy unit.\n\n**EFFECT:** Remove your unit from the battlefield and place it into Strategic Reserves."
       },
       "Stratagem§Klankin’ Klaws": {
         "keywords": {
@@ -22216,7 +22821,7 @@
             "Fight"
           ]
         },
-        "text": "WHEN: Fight phase.\n\nTARGET: One ORKS WALKER unit from your army that has not been selected to fight this phase.\n\nEFFECT: Each time you use this Stratagem, you can choose to push it. Until the end of the phase, add 2 to the Strength characteristic of melee weapons equipped by models in your unit and, if you chose to push it, until the end of the phase, add 1 to the Damage characteristic of those weapons and they have the [HAZARDOUS] ability as well."
+        "text": "**WHEN:** Fight phase.\n\n**TARGET:** One **ORKS WALKER** unit from your army that has not been selected to fight this phase.\n\n**EFFECT:** Each time you use this Stratagem, you can choose to push it. Until the end of the phase, add 2 to the Strength characteristic of melee weapons equipped by models in your unit and, if you chose to push it, until the end of the phase, add 1 to the Damage characteristic of those weapons and they have the **[HAZARDOUS]** ability as well."
       },
       "Stratagem§Krump and Run": {
         "keywords": {
@@ -22238,24 +22843,7 @@
             "value": 1
           }
         },
-        "text": "**WHEN**: Your opponent's Movement phase, just after an enemy unit falls back.\n\n**TARGET**: One ORKS unit from your army that was within engagement range of that enemy unit at the start of the phase and is not within range of one or more enemy units.\n\n**EFFECT**: Your unit can make a Normal move of up to 6\"."
-      },
-      "Stratagem§Krunchin' Descent": {
-        "keywords": {
-          "Keywords": [
-            "Taktikal Brigade"
-          ],
-          "Category": [
-            "Battle Tactic"
-          ],
-          "Turn": [
-            "Yours"
-          ],
-          "Phase": [
-            "Charge"
-          ]
-        },
-        "text": "**WHEN:** Your Charge phase, just after a **Stormboyz**\nunit from your army ends a Charge move.\n\n**TARGET:** That **Stormboyz** unit.\n\n**EFFECT:** Select one enemy unit within Engagement\nRange of your unit, then roll one D6 for each model\nin your unit that is within Engagement Range of that\nenemy unit: for each 4+, that enemy unit suffers 1\nmortal wound (to a maximum of 6 mortal wounds)."
+        "text": "**WHEN:** Your opponent’s Movement phase, just after an enemy unit falls back.\n\n**TARGET:** One **ORKS** unit from your army that was within engagement range of that enemy unit at the start of the phase and is not within range of one or more enemy units.\n\n**EFFECT:** Your unit can make a Normal move of up to 6\"."
       },
       "Stratagem§Long, Uncontrolled Bursts": {
         "keywords": {
@@ -22272,7 +22860,25 @@
             "Yours"
           ]
         },
-        "text": "**WHEN:** Start of your Shooting phase\n\n**TARGET:** One **Orks** unit from your army that has not been selected to shoot this phase\n\n**EFFECT:** Until the end of the phase, ranged weapons equipped by models in your unit have the **[IGNORES COVER]** ability."
+        "text": "**WHEN:** Your Shooting phase, when a friendly **Orks Infantry** unit is **selected to shoot**.\n\n**TARGET:** That **Orks Infantry** unit.\n\n**EFFECT:** Your unit’s ranged attacks have **[Ignores Cover]**."
+      },
+      "Stratagem§Mekanised Brutality": {
+        "keywords": {
+          "Keywords": [
+            "Orks",
+            "Blitz Brigade"
+          ],
+          "Category": [
+            "Strategic Ploy"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Movement"
+          ]
+        },
+        "text": "**WHEN:** Your Movement phase.\n\n**TARGET:** One **BATTLEWAGON**, **KILL RIG** or **HUNTA RIG** unit from your army that has not been selected to move this phase.\n\n**EFFECT:** Until the end of the turn, each time a unit disembarks from your unit after your unit makes a Normal move, that disembarked unit is still eligible to declare a charge this turn."
       },
       "Stratagem§Mob Rule": {
         "keywords": {
@@ -22290,7 +22896,7 @@
             "Yours"
           ]
         },
-        "text": "WHEN: End of your Command phase.\n\nTARGET: One Mob unit from your army that contains 10 or more models and is not Below Half-strength.\n\nEFFECT: Select one friendly Battle-shocked ORKS INFANTRY unit within 6″ of that MOB unit. That ORKS INFANTRY unit is no longer Battle-shocked."
+        "text": "**WHEN:** End of your Command phase.\n\n**TARGET:** One **MOB** unit from your army that contains 10 or more models and is not Below Half-strength.\n\n**EFFECT:** Select one friendly Battle-shocked **ORKS INFANTRY** unit within 6\" of that Mob unit. That **ORKS INFANTRY** unit is no longer Battle-shocked."
       },
       "Stratagem§Mobile Dakkastorm": {
         "keywords": {
@@ -22312,9 +22918,9 @@
             "value": 1
           }
         },
-        "text": "**WHEN**: Your Shooting phase, just after a SPEED FREEKS or TRUKK unit from your army has shot.\n\n**TARGET**: That SPEED FREEKS or TRUKK unit.\n\n**EFFECT**: Select one enemy unit hit by one or more of those attacks (excluding attacks made with Indirect Fire weapons). Until the end of the phase, each time a model in a SPEED FREEKS or TRUKK unit from your army makes an attack that targets that unit, improve the Strength characteristic of that attack by 2."
+        "text": "**WHEN:** Your Shooting phase, just after a Speed Freeks or Trukk unit from your army has shot.\n\n**TARGET:** That **SPEED FREEKS** or **TRUKK** unit.\n\n**EFFECT:** Select one enemy unit hit by one or more of those attacks (excluding attacks made with Indirect Fire weapons). Until the end of the phase, each time a model in a **SPEED FREEKS** or **TRUKK** unit from your army makes an attack that targets that unit, improve the Strength characteristic of that attack by 2."
       },
-      "Stratagem§More Gitz Over ’ere!": {
+      "Stratagem§More Gitz Over ’Ere!": {
         "keywords": {
           "Category": [
             "Strategic Ploy"
@@ -22330,7 +22936,26 @@
             "Movement"
           ]
         },
-        "text": "WHEN: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back.\n\nTARGET: One SPEED FREEKS unit from your army that is within 9″ of that enemy unit and is not within Engagement Range of one or more enemy units.\n\nEFFECT: Your unit can make a Normal move of up to 6″"
+        "text": "**WHEN:** Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\n**TARGET:** One **SPEED FREEKS** unit from your army that is within 8\" of that enemy unit and is not within Engagement Range of one or more enemy units.\n\n**EFFECT:** Your unit can make a Normal move of up to 6\"."
+      },
+      "Stratagem§Mount Up, Ladz": {
+        "keywords": {
+          "Keywords": [
+            "Orks",
+            "Blitz Brigade"
+          ],
+          "Category": [
+            "Strategic Ploy"
+          ],
+          "Turn": [
+            "Opponent’s",
+            "Yours"
+          ],
+          "Phase": [
+            "Fight"
+          ]
+        },
+        "text": "**WHEN:** End of the Fight phase.\n\n**TARGET:** One **ORKS INFANTRY** unit from your army that is not within Engagement Range of one or more enemy units, and one friendly **TRANSPORT** it is able to embark within.\n\n**EFFECT:** If your **ORKS INFANTRY** unit is wholly within 6\" of that **TRANSPORT**, it can embark within it."
       },
       "Stratagem§On Da Move": {
         "keywords": {
@@ -22352,7 +22977,7 @@
             "value": 1
           }
         },
-        "text": "**WHEN**: Your Movement phase.\n\n**TARGET**: One ORKS unit from your army that has not been selected to move this phase.\n\n**EFFECT**: Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back or Advanced (unless it used its turbo this turn)."
+        "text": "**WHEN:** Your Movement phase.\n\n**TARGET:** One **ORKS** unit from your army that has not been selected to move this phase.\n\n**EFFECT:** Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back or Advanced (unless it used its turbo this turn)."
       },
       "Stratagem§On to da Next": {
         "keywords": {
@@ -22369,7 +22994,7 @@
             "Movement"
           ]
         },
-        "text": "**WHEN:** Your opponent’s Movement phase, just after\nan enemy unit Falls Back.\n\n**TARGET:** One **Orks** unit from your army that was\nwithin Engagement Range of that enemy unit at the\nstart of the phase.\n\n**EFFECT:** Your unit can make a Normal move of up\nto 6\"."
+        "text": "**WHEN:** End of your opponent’s Movement phase.\n\n**TARGET:** One friendly **unengaged** **Boyz/Kommandos/Stormboyz** unit that was **engaged** at the start of the phase.\n\n**EFFECT:** Your unit can make a **normal move** of up to 6\"."
       },
       "Stratagem§Orks Is Never Beaten": {
         "keywords": {
@@ -22393,25 +23018,7 @@
             "value": 2
           }
         },
-        "text": "WHEN: Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One Orks unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making attacks, and is then removed from play."
-      },
-      "Stratagem§Orks Is Still Orks": {
-        "keywords": {
-          "Category": [
-            "Battle Tactic"
-          ],
-          "Keywords": [
-            "More Dakka!"
-          ],
-          "Phase": [
-            "Fight"
-          ],
-          "Turn": [
-            "Opponent’s",
-            "Yours"
-          ]
-        },
-        "text": "**WHEN:** Fight phase.\n\n**TARGET:** One Orks unit from your army that has not been selected to fight this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit, re‑roll a Wound roll of 1. If that enemy unit is within range of an objective marker, you can re‑roll the Wound roll instead."
+        "text": "**WHEN:** Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **ORKS** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking unit has finished making attacks, and is then removed from play."
       },
       "Stratagem§Rolling Loot-Heap": {
         "keywords": {
@@ -22433,7 +23040,25 @@
             "value": 1
           }
         },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One FLASH GITZ unit from your army that has not been selected to shoot this phase.\n\n**EFFECT**: Until the end of the phase, ranged weapons equipped by models in your unit have the [ANTI-VEHICLE 4+] ability."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **FLASH GITZ** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, ranged weapons equipped by models in your unit have the **[ANTI-VEHICLE 4+]** ability."
+      },
+      "Stratagem§Run ’Em Down": {
+        "keywords": {
+          "Keywords": [
+            "Orks",
+            "Blitz Brigade"
+          ],
+          "Category": [
+            "Strategic Ploy"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Movement"
+          ]
+        },
+        "text": "**WHEN:** Your Movement phase.\n\n**TARGET:** One **BATTLEWAGON**, **KILL RIG** or **HUNTA RIG** unit from your army that has not been selected to move this phase.\n\n**EFFECT:** Select up to two other friendly **ORKS VEHICLE** or **ORKS MONSTER** units within 6\" of your unit. Until the end of the turn, your unit and each unit you selected are eligible to declare a charge in a turn in which they Advanced."
       },
       "Stratagem§Speediest Freeks": {
         "keywords": {
@@ -22451,7 +23076,7 @@
             "Opponent’s"
           ]
         },
-        "text": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One SPEED FREEKS or TRUKK unit from your army that was selected as the target of one or more of the attacking unit’s attacks,\n\nEFFECT: Until the end of the phase, models in your unit have a 5+ invulnerable save. If your unit is a VEHICLE unit with an unmodified Toughness characteristic of 8 or less, until the end of the phase, models in your unit have a 4+ invulnerable Save instead."
+        "text": "**WHEN:** Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **SPEED FREEKS** or **TRUKK** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, models in your unit have a 5+ invulnerable save. If your unit is a **VEHICLE** unit with an unmodified Toughness characteristic of 8 or less, until the end of the phase, models in your unit have a 4+ invulnerable save instead."
       },
       "Stratagem§Speshul Ammo": {
         "keywords": {
@@ -22473,7 +23098,7 @@
             "value": 1
           }
         },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One ORKS unit from your army that has not been selected to shoot this phase.\n\n**EFFECT**: Until the end of the phase, ranged weapons equipped by models in your unit (excluding Torrent weapons) have the [ANTI-MONSTER 4+] and [ANTI-VEHICLE 4+] abilities."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **ORKS** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, ranged weapons equipped by models in your unit (excluding Torrent weapons) have the **[ANTI-MONSTER 4+]** and **[ANTI-VEHICLE 4+]** abilities."
       },
       "Stratagem§Speshul Shells": {
         "keywords": {
@@ -22490,7 +23115,7 @@
             "Yours"
           ]
         },
-        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **Orks** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes a ranged attack that targets the closest eligible target within 18\", improve the Armour Penetration characteristic of ranged weapons equipped by models in your unit by 1."
+        "text": "**WHEN:** Your Shooting phase, when a friendly **Orks Infantry** unit is **selected to shoot**.\n\n**TARGET:** That **Orks Infantry** unit.\n\n**EFFECT:** Your unit’s ranged attacks that target a unit within 9\" have +1 **AP**."
       },
       "Stratagem§Squig Flingin’": {
         "keywords": {
@@ -22508,7 +23133,7 @@
             "Movement"
           ]
         },
-        "text": "WHEN: Your Movement phase, just after a SPEED FREEKS or TRUKK unit from your army ends a Normal, Advance or Fall Back move.\n\nTARGET: That SPEED FREEKS or TRUKK unit.\n\nEFFECT: Select one enemy unit within 9” of your unit. That enemy unit must take a Battle-shock test and, when doing so, subtract 1 from the result."
+        "text": "**WHEN:** Your Movement phase, just after a **SPEED FREEKS** or **TRUKK** unit from your army ends a Normal, Advance or Fall Back move.\n\n**TARGET:** That **SPEED FREEKS** or **TRUKK** unit.\n\n**EFFECT:** Select one enemy unit within 9\" of your unit. That enemy unit must take a Battle-shock test and, when doing so, subtract 1 from the result."
       },
       "Stratagem§Stalkin’ Taktiks": {
         "keywords": {
@@ -22526,7 +23151,7 @@
             "Shooting"
           ]
         },
-        "text": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\nTARGET: One BEAST SNAGGA INFANTRY or BEAST SNAGGA MOUNTED unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, each time a ranged attack targets your unit, models in your unit have the Benefit of Cover against that attack. In addition, if your unit has the INFANTRY keyword, until the end of the phase, models in your unit have the Stealth ability."
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **BEAST SNAGGA INFANTRY** or **BEAST SNAGGA MOUNTED** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, each time a ranged attack targets your unit, models in your unit have the Benefit of Cover against that attack. In addition, if your unit has the **Infantry** keyword, until the end of the phase, models in your unit have the Stealth ability."
       },
       "Stratagem§Superfuelled Boiler": {
         "keywords": {
@@ -22544,7 +23169,7 @@
             "Movement"
           ]
         },
-        "text": "WHEN: Your Movement phase, just after an ORKS WALKER unit from your army has been selected to Advance.\n\nTARGET: That ORKS WALKER unit.\n\nEFFECT: Until the end of the turn, you can re-roll Advance rolls made for your unit and ranged weapons equipped by models in your unit have the [ASSAULT] ability."
+        "text": "**WHEN:** Your Movement phase, just after an **ORKS WALKER** unit from your army has been selected to Advance.\n\n**TARGET:** That **ORKS WALKER** unit.\n\n**EFFECT:** Until the end of the turn, you can re-roll Advance rolls made for your unit and ranged weapons equipped by models in your unit have the **[ASSAULT]** ability."
       },
       "Stratagem§Taktikal Retreat": {
         "keywords": {
@@ -22561,7 +23186,7 @@
             "Movement"
           ]
         },
-        "text": "**WHEN:** Your Movement phase, just after an **Orks** unit\nfrom your army Falls Back.\n\n**TARGET:** That **Orks** unit.\n\n**EFFECT:** Until the end of the turn, your unit is eligible\nto shoot and declare a charge in a turn in which it\nFell Back."
+        "text": "**WHEN:** Your Movement phase, when a friendly **Kommandos/Stormboyz** unit is selected to make a **fall-back move**.\n\n**TARGET:** That **Kommandos/Stormboyz** unit.\n\n**EFFECT:** That move does not prevent your unit from being **eligible to declare a charge**."
       },
       "Stratagem§Tide of Muscle": {
         "keywords": {
@@ -22579,7 +23204,7 @@
             "Charge"
           ]
         },
-        "text": "WHEN: Your Charge phase.\n\nTARGET: One Boyz unit from your army that has not declared a charge this phase.\n\nEFFECT: Until the end of the phase, each time your unit declares a charge, add 1 to the Charge roll and, if your unit contains 10 or more models, you can re-roll the Charge roll."
+        "text": "**WHEN:** Your Charge phase.\n\n**TARGET:** One **BOYZ** unit from your army that has not declared a charge this phase.\n\n**EFFECT:** Until the end of the phase, each time your unit declares a charge, add 1 to the Charge roll and, if your unit contains 10 or more models, you can re-roll the Charge roll."
       },
       "Stratagem§Too Arrogant To Die": {
         "keywords": {
@@ -22599,7 +23224,7 @@
             "Shooting"
           ]
         },
-        "text": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One NOBZ or MEGANOBZ unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, each time a model in your unit is destroyed, if that model has not shot or fought this phase, roll one D6, adding 2 to the result if a Waaagh! is active for your unit. On a 5+, do not remove the destroyed model from play; it can shoot or fight after the attacking unit has finished making its attacks, and is then removed from play."
+        "text": "**WHEN:** Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **NOBZ** or **MEGANOBZ** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit is destroyed, if that model has not shot or fought this phase, roll one D6, adding 2 to the result if a Waaagh! is active for your unit. On a 5+, do not remove the destroyed model from play; it can shoot or fight after the attacking unit has finished making its attacks, and is then removed from play."
       },
       "Stratagem§Unbridled Carnage": {
         "keywords": {
@@ -22618,7 +23243,7 @@
             "Yours"
           ]
         },
-        "text": "WHEN: Fight phase.\n\nTARGET: One Orks unit from your army that has not been selected to fight this phase.\n\nEFFECT: Until the end of the phase, each time an Orks model in your unit makes a melee attack, an unmodified hit roll of 5+ scores a Critical Hit."
+        "text": "**WHEN:** Fight phase.\n\n**TARGET:** One **Orks** unit from your army that has not been selected to fight this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes a melee attack, an unmodified hit roll of 5+ scores a Critical Hit."
       },
       "Stratagem§Unstoppable Momentum": {
         "keywords": {
@@ -22636,7 +23261,7 @@
             "Charge"
           ]
         },
-        "text": "WHEN: Your Charge phase, just after a BEAST SNAGGA MOUNTED unit from your army ends a Charge move.\n\nTARGET: That BEAST SNAGGA unit.\n\nEFFECT: Select one enemy unit within Engagement Range of your unit and roll one D6 for each model in your unit: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds). If that enemy unit is your Prey, roll three additional D6."
+        "text": "**WHEN:** Your Charge phase, just after a **BEAST SNAGGA MOUNTED** unit from your army ends a Charge move.\n\n**TARGET:** That **BEAST SNAGGA** unit.\n\n**EFFECT:** Select one enemy unit within Engagement Range of your unit and roll one D6 for each model in your unit: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds). If that enemy unit is your Prey, roll three additional D6."
       },
       "Stratagem§Where D’ya Fink You’re Going?": {
         "keywords": {
@@ -22654,7 +23279,25 @@
             "Movement"
           ]
         },
-        "text": "WHEN: Your opponent’s Movement phase, just after an enemy unit ends a Fall Back move.\n\nTARGET: One BEAST SNAGGA INFANTRY or BEAST SNAGGA MOUNTED unit from your army that was within Engagement Range of that enemy unit at the start of the phase.\n\nEFFECT: If your unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6”."
+        "text": "**WHEN:** Your opponent’s Movement phase, just after an enemy unit ends a Fall Back move.\n\n**TARGET:** One **BEAST SNAGGA INFANTRY** or **BEAST SNAGGA MOUNTED** unit from your army that was within Engagement Range of that enemy unit at the start of the phase.\n\n**EFFECT:** If your unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+      },
+      "Stratagem§Yooz In Trouble Now": {
+        "keywords": {
+          "Keywords": [
+            "Orks",
+            "Blitz Brigade"
+          ],
+          "Category": [
+            "Strategic Ploy"
+          ],
+          "Turn": [
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        },
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has shot.\n\n**TARGET:** One **BATTLEWAGON**, **HUNTA RIG** or **KILL RIG** model from your army that was hit by one or more of the attacking unit’s attacks.\n\n**EFFECT:** One **ORKS INFANTRY** unit embarked within your model makes a **disembark move**, then makes a **surge move** of up to D6”."
       },
       "Unit§Attack Fighta": {
         "aspects": {
@@ -22748,14 +23391,6 @@
             "visibility": "active"
           }
         }
-      },
-      "Unit§Bannernob": {
-        "stats": {
-          "Points": {
-            "value": 50
-          }
-        },
-        "text": "WARNING: this unit was not in 10e and needs importing.\n\n**Waaagh! Banner**\n▪ This unit has a 5+ **InSv**.\n▪ While the Waaagh! is active for this unit, this unit has +1 **T**.\n\n**Support**\nThis model can be attached to the following units:\n\n■ **BOYZ**\n■ **BREAKA BOYZ**\n■ **BURNA BOYZ**\n■ **FLASH GITZ**\n■ **LOOTAS**\n■ **NOBZ**\n■ **TANKBUSTAS**"
       },
       "Unit§Battlewagon": {
         "aspects": {
@@ -23391,18 +24026,72 @@
         }
       },
       "Unit§Big Mek Dakkarig": {
+        "aspects": {
+          "Type": "game piece"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Waaagh!",
+            "Ability§Dakkablitz",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            },
+            "Ranged Weapon§Big Mek Dakkarig—Blitzkannon",
+            "Ranged Weapon§Big Mek Dakkarig—Rokkit launcha",
+            "Melee Weapon§Big Mek Dakkarig—Stompy feet"
+          ]
+        },
+        "keywords": {
+          "Faction": [
+            "Orks"
+          ],
+          "Source": [
+            "11th Edition Codex"
+          ],
+          "Keywords": [
+            "Vehicle",
+            "Walker",
+            "Big Mek",
+            "Dakkarig"
+          ],
+          "Category": [
+            "Vehicle—Walker"
+          ]
+        },
         "stats": {
+          "Ld": {
+            "value": 7
+          },
+          "M": {
+            "value": 8
+          },
+          "OC": {
+            "value": 3
+          },
           "Points": {
             "value": 110
+          },
+          "Sv": {
+            "value": 3
+          },
+          "T": {
+            "value": 8
           },
           "unitDiscount": {
             "value": 10
           },
           "unitDiscountThreshold": {
             "value": 3
+          },
+          "W": {
+            "value": 11
           }
-        },
-        "text": "WARNING: this unit was not in 10e and needs importing.\n\n**Dakkablitz**\nIn your Shooting phase, while making attacks with this unit, if its blitzkannon targeted a non‑**MONSTER/VEHICLE** unit, that weapon has +6 **A**."
+        }
       },
       "Unit§Big Trakk": {
         "aspects": {
@@ -23645,14 +24334,6 @@
           }
         }
       },
-      "Unit§Bigboss": {
-        "stats": {
-          "Points": {
-            "value": 55
-          }
-        },
-        "text": "WARNING: this unit was not in 10e and needs importing.\n\n**Breakin’ Heads**\nThis unit’s melee weapons have **[SUSTAINED HITS 1]**.\n\n**Somethin’ to Prove**\nThis unit has +1 to **charge rolls**."
-      },
       "Unit§Blitza-bommer": {
         "aspects": {
           "Type": "game piece"
@@ -23812,13 +24493,14 @@
             "Character§Big Mek with Shokk Attack Gun",
             "Character§Mad Dok Grotsnik",
             "Character§Mek",
-            "Character§Nob with Waaagh! Banner",
+            "Character§Bannernob",
             "Character§Painboy",
             "Character§Warboss",
             "Character§Weirdboy",
             "Character§Big Mek",
             "Character§Ufthak Blackhawk",
-            "Character§Ghazghkull Thraka"
+            "Character§Ghazghkull Thraka",
+            "Character§Bigboss"
           ]
         },
         "assets": {
@@ -24008,7 +24690,7 @@
           }
         }
       },
-      "Unit§Breaka Boys": {
+      "Unit§Breaka Boyz": {
         "allowed": {
           "items": [
             "Model§Breaka Boy",
@@ -24016,12 +24698,13 @@
             "Character§Big Mek with Shokk Attack Gun",
             "Character§Mad Dok Grotsnik",
             "Character§Mek",
-            "Character§Nob with Waaagh! Banner",
+            "Character§Bannernob",
             "Character§Painboy",
             "Character§Warboss",
             "Character§Weirdboy",
             "Character§Big Mek",
-            "Character§Ufthak Blackhawk"
+            "Character§Ufthak Blackhawk",
+            "Character§Bigboss"
           ]
         },
         "assets": {
@@ -24034,7 +24717,7 @@
               "quantity": 5
             },
             "Ability§Trophy Hunters",
-            "Ability§Attached Unit (Breaka Boys)"
+            "Ability§Attached Unit (Breaka Boyz)"
           ]
         },
         "keywords": {
@@ -24042,10 +24725,10 @@
             "Orks"
           ],
           "Source": [
-            "10th Edition Codex"
+            "11th Edition Codex"
           ],
           "Keywords": [
-            "Breaka Boys",
+            "Breaka Boyz",
             "Grenades",
             "Infantry"
           ],
@@ -24117,13 +24800,6 @@
             "value": 6
           },
           "Points": {
-            "value": 140
-          }
-        }
-      },
-      "Unit§Breaka Boyz": {
-        "stats": {
-          "Points": {
             "value": 135
           },
           "unitDiscount": {
@@ -24132,8 +24808,7 @@
           "unitDiscountThreshold": {
             "value": 3
           }
-        },
-        "text": "WARNING: this unit was not in 10e and needs importing.\n\n**Trophy Hunters**\nEach time this unit declares a charge, you can re-roll the Charge roll.\n\n**Bomb Squigs**\nOnce per battle, for each bomb squig this unit has, after this unit ends a Normal move, you can use one Bomb Squig. If you do, select one enemy unit within 12\" and visible to this unit and roll one D6: on a 3+, that enemy unit suffers D3 mortal wounds.\n\n**Designer’s Note:** *Place two Bomb Squig tokens next to the unit, removing one each time this unit uses this ability.*\n\n**Attached Unit**\nIf a **CHARACTER** unit from your army with the Leader ability can be attached to a **BOYZ** unit, it can be attached to this unit instead."
+        }
       },
       "Unit§Burna Boyz": {
         "allowed": {
@@ -24141,7 +24816,8 @@
             "Model§Spanner",
             "Model§Burna Boy",
             "Character§Mad Dok Grotsnik",
-            "Character§Painboy"
+            "Character§Painboy",
+            "Character§Bannernob"
           ]
         },
         "assets": {
@@ -26188,7 +26864,8 @@
         "allowed": {
           "items": [
             "Model§Flash Git",
-            "Character§Kaptin Badrukk"
+            "Character§Kaptin Badrukk",
+            "Character§Bannernob"
           ]
         },
         "assets": {
@@ -28645,7 +29322,8 @@
             "Character§Mad Dok Grotsnik",
             "Character§Mek",
             "Character§Painboy",
-            "Character§Big Mek"
+            "Character§Big Mek",
+            "Character§Bannernob"
           ]
         },
         "assets": {
@@ -30128,13 +30806,14 @@
             "Character§Big Mek with Kustom Force Field",
             "Character§Mad Dok Grotsnik",
             "Character§Mek",
-            "Character§Nob with Waaagh! Banner",
+            "Character§Bannernob",
             "Character§Painboy",
             "Character§Warboss",
             "Character§Big Mek with Shokk Attack Gun",
             "Character§Big Mek",
             "Character§Ufthak Blackhawk",
-            "Character§Ghazghkull Thraka"
+            "Character§Ghazghkull Thraka",
+            "Character§Bigboss"
           ]
         },
         "assets": {
@@ -31096,7 +31775,8 @@
             "Character§Mek",
             "Character§Painboy",
             "Character§Big Mek with Shokk Attack Gun",
-            "Character§Big Mek"
+            "Character§Big Mek",
+            "Character§Bannernob"
           ]
         },
         "assets": {
@@ -31462,24 +32142,13 @@
         }
       },
       "Unit§Wartrakk": {
-        "stats": {
-          "Points": {
-            "value": 60
-          }
-        },
-        "text": "WARNING: this unit was not in 10e and needs importing.\n\n**Indiscriminate Detonations**\nIn your Shooting phase, when this unit has resolved its attacks, select one enemy unit hit by one or more of those attacks. That enemy unit is **suppressed** until the start of your next Command phase. (While a unit is **suppressed**, it has -1 to **hit rolls**.)"
-      },
-      "Unit§Wartrakks": {
-        "allowed": {
-          "items": [
-            "Model§Wartrakk"
-          ]
+        "aspects": {
+          "Type": "game piece"
         },
         "assets": {
           "traits": [
             "Ability§Waaagh!",
-            "Ability§Drive-by Dakka",
-            "Ability§Speed Freeks",
+            "Ability§Indiscriminate Detonations",
             {
               "item": "Ability§Invulnerable",
               "stats": {
@@ -31488,10 +32157,9 @@
                 }
               }
             },
-            {
-              "item": "Model§Wartrakk",
-              "quantity": 1
-            }
+            "Ranged Weapon§Wartrakk—Kustom shoota",
+            "Ranged Weapon§Wartrakk—Rokkit launcha",
+            "Melee Weapon§Wartrakk—Choppas"
           ]
         },
         "keywords": {
@@ -31499,49 +32167,38 @@
             "Orks"
           ],
           "Source": [
-            "Legends"
+            "11th Edition Codex"
           ],
           "Keywords": [
             "Mounted",
             "Speed Freeks",
-            "Wartrakks"
+            "Wartrakk"
           ],
           "Category": [
             "Mounted"
           ]
         },
         "stats": {
-          "model1stTally": {
-            "value": 1
+          "Ld": {
+            "value": 7
           },
-          "model2ndCost": {
-            "value": 100
+          "M": {
+            "value": 12
           },
-          "model2ndTally": {
-            "value": 2
-          },
-          "modelKey": {
-            "value": "Model§Wartrakk"
-          },
-          "Models": {
-            "increment": {
-              "value": 1
-            },
-            "max": 2,
-            "min": 1,
-            "value": 1,
-            "visibility": "normal"
+          "OC": {
+            "value": 3
           },
           "Points": {
-            "value": 50
+            "value": 60
           },
-          "Wartrakk": {
-            "max": 2,
-            "min": 1,
-            "statType": "numeric",
-            "tracked": true,
-            "value": 0,
-            "visibility": "hidden"
+          "Sv": {
+            "value": 4
+          },
+          "T": {
+            "value": 6
+          },
+          "W": {
+            "value": 7
           }
         }
       },

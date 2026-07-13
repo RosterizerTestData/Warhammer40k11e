@@ -1,6 +1,6 @@
 {
   "name": "40k 11e",
-  "revision": "11.0.3",
+  "revision": "11.1.0",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -18080,6 +18080,37 @@
           }
         },
         "text": "Abilities: The bearer can only shoot with this weapon once per battle.  When an attack is made with this weapon, if a hit is scored, roll one D6 for each unit within 6” of the target unit(excluding the target unit itself) on a 4+, the unit being rolled for suffers D3 mortal wounds.  The target unit then suffers 3D3 mortal wounds."
+      },
+      "Ability§Cleave": {
+        "keywords": {
+          "Keywords": [
+            "Weapon Ability"
+          ]
+        },
+        "stats": {
+          "x": {
+            "text": "Each time you gather attack dice for this weapon, if you only selected one target for all of its attacks, add {t} additional attack dice for every five models that were in the target unit in the Select Targets step (rounding down)."
+          }
+        }
+      },
+      "Ability§Close-quarters": {
+        "keywords": {
+          "Keywords": [
+            "Weapon Ability"
+          ]
+        },
+        "text": "Units containing one or more models with a [CLOSE-QUARTERS] weapon can shoot using close-quarters shooting. When using another shooting type, each model in the unit (excluding Monster and Vehicle models) can only make attacks with either its [CLOSE-QUARTERS] weapons or its other ranged weapons, not both."
+      },
+      "Ability§Support": {
+        "keywords": {
+          "Keywords": [
+            "Model Ability"
+          ],
+          "Tags": [
+            "Core"
+          ]
+        },
+        "text": "* Before the battle, Character units with the Support ability can be attached to one of their listed units to form an Attached unit, even if a Leader is already attached.\n* Attacks cannot be allocated to Character models in Attached units."
       }
     },
     "gameModes": {},
