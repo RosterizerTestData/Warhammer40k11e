@@ -1,6 +1,6 @@
 {
   "name": "Genestealer Cults 11e",
-  "revision": "11.0.4",
+  "revision": "11.1.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -8370,7 +8370,8 @@
                   "maxMechanicus": 250,
                   "maxNids": 500,
                   "maxPoints": 1000,
-                  "maxRequisitioned": 1
+                  "maxRequisitioned": 1,
+                  "maxDP": 3
                 }
               },
               "Strike Force": {
@@ -8382,19 +8383,8 @@
                   "maxMechanicus": 500,
                   "maxNids": 1000,
                   "maxPoints": 2000,
-                  "maxRequisitioned": 1
-                }
-              },
-              "Onslaught": {
-                "format": "Onslaught",
-                "order": 3,
-                "tracking": {
-                  "maxAgents": 3,
-                  "maxGuard": 1500,
-                  "maxMechanicus": 750,
-                  "maxNids": 1500,
-                  "maxPoints": 3000,
-                  "maxRequisitioned": 2
+                  "maxRequisitioned": 1,
+                  "maxDP": 4
                 }
               }
             }

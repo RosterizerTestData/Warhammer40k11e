@@ -1,6 +1,6 @@
 {
   "name": "Drukhari 11e",
-  "revision": "11.0.4",
+  "revision": "11.1.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -10539,7 +10539,8 @@
                 "tracking": {
                   "MaxHarlequinPoints": 250,
                   "maxPoints": 1000,
-                  "MaxReaperHarlequinPoints": 500
+                  "MaxReaperHarlequinPoints": 500,
+                  "maxDP": 3
                 }
               },
               "Strike Force": {
@@ -10547,15 +10548,8 @@
                 "tracking": {
                   "MaxHarlequinPoints": 500,
                   "maxPoints": 2000,
-                  "MaxReaperHarlequinPoints": 1000
-                }
-              },
-              "Onslaught": {
-                "order": 3,
-                "tracking": {
-                  "MaxHarlequinPoints": 750,
-                  "maxPoints": 3000,
-                  "MaxReaperHarlequinPoints": 1500
+                  "MaxReaperHarlequinPoints": 1000,
+                  "maxDP": 4
                 }
               }
             }

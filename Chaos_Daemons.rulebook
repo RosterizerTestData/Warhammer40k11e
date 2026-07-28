@@ -1,6 +1,6 @@
 {
   "name": "Chaos Daemons 11e",
-  "revision": "11.0.4",
+  "revision": "11.1.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -3902,7 +3902,8 @@
                   "maxDaemons": 250,
                   "maxDamned": 250,
                   "maxHeretic": 500,
-                  "maxPoints": 1000
+                  "maxPoints": 1000,
+                  "maxDP": 3
                 }
               },
               "Strike Force": {
@@ -3912,25 +3913,8 @@
                   "maxDaemons": 500,
                   "maxDamned": 500,
                   "maxHeretic": 1000,
-                  "maxPoints": 2000
-                }
-              },
-              "Onslaught": {
-                "format": "Onslaught",
-                "order": 3,
-                "tracking": {
-                  "maxDaemons": 750,
-                  "maxDamned": 750,
-                  "maxHeretic": 1500,
-                  "maxPoints": 3000
-                }
-              },
-              "Combat Patrol": {
-                "format": "Combat Patrol",
-                "order": 4,
-                "tracking": {
-                  "maxDaemons": 0,
-                  "maxPoints": 500
+                  "maxPoints": 2000,
+                  "maxDP": 4
                 }
               }
             }

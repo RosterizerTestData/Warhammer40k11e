@@ -1,6 +1,6 @@
 {
   "name": "Chaos Space Marines 11e",
-  "revision": "11.0.4",
+  "revision": "11.1.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -35539,7 +35539,8 @@
                 "tracking": {
                   "maxDaemons": 250,
                   "maxLostAndDamned": 250,
-                  "maxPoints": 1000
+                  "maxPoints": 1000,
+                  "maxDP": 3
                 }
               },
               "Strike Force": {
@@ -35548,16 +35549,8 @@
                 "tracking": {
                   "maxDaemons": 500,
                   "maxLostAndDamned": 500,
-                  "maxPoints": 2000
-                }
-              },
-              "Onslaught": {
-                "format": "Onslaught",
-                "order": 4,
-                "tracking": {
-                  "maxDaemons": 750,
-                  "maxLostAndDamned": 750,
-                  "maxPoints": 3000
+                  "maxPoints": 2000,
+                  "maxDP": 4
                 }
               }
             }

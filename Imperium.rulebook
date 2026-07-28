@@ -1,6 +1,6 @@
 {
   "name": "Imperium 11e",
-  "revision": "11.0.1",
+  "revision": "11.1.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -30459,33 +30459,23 @@
             "increment": {},
             "ranks": {
               "Incursion": {
-                "format": "Incursion",
                 "order": 1,
                 "tracking": {
                   "maxAgents": 1,
                   "maxMechanicus": 250,
                   "maxPoints": 1000,
-                  "maxRequisitioned": 1
+                  "maxRequisitioned": 1,
+                  "maxDP": 3
                 }
               },
               "Strike Force": {
-                "format": "Strike Force",
                 "order": 2,
                 "tracking": {
                   "maxAgents": 2,
                   "maxMechanicus": 500,
                   "maxPoints": 2000,
-                  "maxRequisitioned": 1
-                }
-              },
-              "Onslaught": {
-                "format": "Onslaught",
-                "order": 3,
-                "tracking": {
-                  "maxAgents": 3,
-                  "maxMechanicus": 750,
-                  "maxPoints": 3000,
-                  "maxRequisitioned": 2
+                  "maxRequisitioned": 1,
+                  "maxDP": 4
                 }
               }
             }

@@ -1,6 +1,6 @@
 {
   "name": "Chaos 11e",
-  "revision": "11.0.2",
+  "revision": "11.1.1",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -36528,7 +36528,8 @@
                 "tracking": {
                   "maxDaemons": 250,
                   "maxDamned": 250,
-                  "maxPoints": 1000
+                  "maxPoints": 1000,
+                  "maxDP": 3
                 }
               },
               "Strike Force": {
@@ -36537,24 +36538,8 @@
                 "tracking": {
                   "maxDaemons": 500,
                   "maxDamned": 500,
-                  "maxPoints": 2000
-                }
-              },
-              "Onslaught": {
-                "format": "Onslaught",
-                "order": 3,
-                "tracking": {
-                  "maxDaemons": 750,
-                  "maxDamned": 750,
-                  "maxPoints": 3000
-                }
-              },
-              "Combat Patrol": {
-                "format": "Combat Patrol",
-                "order": 4,
-                "tracking": {
-                  "maxDaemons": 0,
-                  "maxPoints": 500
+                  "maxPoints": 2000,
+                  "maxDP": 3
                 }
               }
             }
