@@ -1,6 +1,6 @@
 {
   "name": "Adepta Sororitas 11e",
-  "revision": "11.1.5",
+  "revision": "11.1.6",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -2753,6 +2753,27 @@
             "evals": [],
             "evaluate": "AND",
             "failState": "pass"
+          },
+          "removeSameTagDetachments": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Sacred Champions"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 10
           }
         },
         "stats": {
@@ -2999,7 +3020,30 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Holy Quest**\nFriendly **Celestian Sacresants** units’ attacks have +1 **BS** and **WS**.\nThis **detachment** has the **REVEREND** tag and cannot be taken with another **REVEREND** **detachment**."
+        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Holy Quest**\nFriendly **Celestian Sacresants** units’ attacks have +1 **BS** and **WS**.\nThis **detachment** has the **REVEREND** tag and cannot be taken with another **REVEREND** **detachment**.",
+        "rules": {
+          "removeSameTagDetachments": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Champions of Faith"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 10
+          }
+        }
       },
       "Detachment§Sanctified Orators": {
         "keywords": {

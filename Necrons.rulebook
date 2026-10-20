@@ -1,6 +1,6 @@
 {
   "name": "Necrons 11e",
-  "revision": "11.1.5",
+  "revision": "11.1.6",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -5493,6 +5493,27 @@
             "evals": [],
             "evaluate": "AND",
             "failState": "pass"
+          },
+          "removeSameTagDetachments": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Hand Of The Dynasty"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 10
           }
         },
         "stats": {
@@ -5831,7 +5852,30 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Hypermotility Protocols**\n- Friendly **IMMORTALS/NECRON WARRIORS** units’ ranged attacks have **[ASSAULT]**.\n\n- When a friendly **IMMORTALS/NECRON WARRIORS** unit is selected to make an **advance move**, that move does not prevent that unit from being **eligible to start an action**.\nThis **detachment** has the **DYNASTY** tag and cannot be taken with another **DYNASTY** **detachment**."
+        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Hypermotility Protocols**\n- Friendly **IMMORTALS/NECRON WARRIORS** units’ ranged attacks have **[ASSAULT]**.\n\n- When a friendly **IMMORTALS/NECRON WARRIORS** unit is selected to make an **advance move**, that move does not prevent that unit from being **eligible to start an action**.\nThis **detachment** has the **DYNASTY** tag and cannot be taken with another **DYNASTY** **detachment**.",
+        "rules": {
+          "removeSameTagDetachments": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Awakened Dynasty"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 10
+          }
+        }
       },
       "Detachment§Hypercrypt Legion": {
         "keywords": {
@@ -5930,6 +5974,27 @@
             "evals": [],
             "evaluate": "AND",
             "failState": "pass"
+          },
+          "removeSameTagDetachments": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "The Phaeron's Armoury"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 10
           }
         },
         "stats": {
@@ -6282,7 +6347,30 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Empowered Engines**\nFriendly **Necrons Titanic Fly** units have +6\" **M**.\nThis **detachment** has the **HYPERCRYPT** tag and cannot be taken with another **HYPERCRYPT** **detachment**."
+        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Empowered Engines**\nFriendly **Necrons Titanic Fly** units have +6\" **M**.\nThis **detachment** has the **HYPERCRYPT** tag and cannot be taken with another **HYPERCRYPT** **detachment**.",
+        "rules": {
+          "removeSameTagDetachments": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Hypercrypt Legion"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 10
+          }
+        }
       },
       "Enhancement§Animus Damper": {
         "keywords": {

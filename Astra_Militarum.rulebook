@@ -1,6 +1,6 @@
 {
   "name": "Astra Militarum 11e",
-  "revision": "11.1.5",
+  "revision": "11.1.6",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -5149,7 +5149,30 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Absolutist Principles**\n- Friendly **Bullgryn Squad/Ogryn Squad/Ratlings** units have **Abhuman**.\n\n- Friendly **Commissar** models can:\n\n- Issue the Take Aim! Order.\n\n- Issue 1 Order to a friendly **Abhuman** unit.\nThis **detachment** has the **Abhuman** tag and cannot be taken with another **Abhuman** **detachment**."
+        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Absolutist Principles**\n- Friendly **Bullgryn Squad/Ogryn Squad/Ratlings** units have **Abhuman**.\n\n- Friendly **Commissar** models can:\n\n- Issue the Take Aim! Order.\n\n- Issue 1 Order to a friendly **Abhuman** unit.\nThis **detachment** has the **Abhuman** tag and cannot be taken with another **Abhuman** **detachment**.",
+        "rules": {
+          "removeSameTagDetachments": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Grizzled Company"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 10
+          }
+        }
       },
       "Detachment§Armoured Infantry": {
         "keywords": {
@@ -5393,7 +5416,30 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Designated Targets**\nFriendly **Scout Sentinel/ASTRA MILITARUM INFANTRY SMOKE** units have the following ability:\n\n**Signal Flares:** In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **designated**:\n\n- While a unit is **designated**, that unit has +3\" **detection range**.\nThis **detachment** has the **RECON** tag and cannot be taken with another **RECON** **detachment**."
+        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Designated Targets**\nFriendly **Scout Sentinel/ASTRA MILITARUM INFANTRY SMOKE** units have the following ability:\n\n**Signal Flares:** In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **designated**:\n\n- While a unit is **designated**, that unit has +3\" **detection range**.\nThis **detachment** has the **RECON** tag and cannot be taken with another **RECON** **detachment**.",
+        "rules": {
+          "removeSameTagDetachments": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Recon Element"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 10
+          }
+        }
       },
       "Detachment§Grizzled Company": {
         "keywords": {
@@ -5493,6 +5539,27 @@
             "evals": [],
             "evaluate": "AND",
             "failState": "pass"
+          },
+          "removeSameTagDetachments": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Abhuman Auxiliaries"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 10
           }
         },
         "stats": {
@@ -5820,6 +5887,27 @@
             "evals": [],
             "evaluate": "AND",
             "failState": "pass"
+          },
+          "removeSameTagDetachments": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Designation Force"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 10
           }
         },
         "stats": {

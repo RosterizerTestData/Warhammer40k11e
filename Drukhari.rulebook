@@ -1,6 +1,6 @@
 {
   "name": "Drukhari 11e",
-  "revision": "11.1.5",
+  "revision": "11.1.6",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -1328,6 +1328,27 @@
             "evals": [],
             "evaluate": "AND",
             "failState": "pass"
+          },
+          "removeSameTagDetachments": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Tools Of Torment"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 10
           }
         },
         "stats": {
@@ -1348,7 +1369,30 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Exacting Cruelty**\nFriendly **Wych Cult** units' melee attacks have **[Lethal Hits:** **non-****Monster/Vehicle]**.\nThis **detachment** has the **Wych Cult** tag and cannot be taken with another **Wych Cult** **detachment**."
+        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Exacting Cruelty**\nFriendly **Wych Cult** units' melee attacks have **[Lethal Hits:** **non-****Monster/Vehicle]**.\nThis **detachment** has the **Wych Cult** tag and cannot be taken with another **Wych Cult** **detachment**.",
+        "rules": {
+          "removeSameTagDetachments": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Spectacle of Spite"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 10
+          }
+        }
       },
       "Detachment§Kabalite Agonysts": {
         "keywords": {
@@ -1361,7 +1405,30 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Contracted Harvest**\nFriendly **Blades for Hire/Kabal** units’ ranged attacks have **[SUSTAINED HITS 1:** **non‑****Monster/Vehicle]**.\nThis **detachment** has the **Kabal** tag and cannot be taken with another **Kabal** **detachment**."
+        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Contracted Harvest**\nFriendly **Blades for Hire/Kabal** units’ ranged attacks have **[SUSTAINED HITS 1:** **non‑****Monster/Vehicle]**.\nThis **detachment** has the **Kabal** tag and cannot be taken with another **Kabal** **detachment**.",
+        "rules": {
+          "removeSameTagDetachments": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Kabalite Cartel"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 10
+          }
+        }
       },
       "Detachment§Kabalite Cartel": {
         "keywords": {
@@ -1463,6 +1530,27 @@
             "evals": [],
             "evaluate": "AND",
             "failState": "pass"
+          },
+          "removeSameTagDetachments": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Kabalite Agonysts"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 10
           }
         },
         "stats": {
@@ -1914,6 +2002,27 @@
             "evals": [],
             "evaluate": "AND",
             "failState": "pass"
+          },
+          "removeSameTagDetachments": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Exhibition Of Slaughter"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 10
           }
         },
         "stats": {
@@ -1934,7 +2043,30 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Darkest Artifice**\nAttacks that target friendly **Cronos/Talos** units with a **S** greater than that unit’s **T** have -1 to **wound rolls**.\nThis **detachment** has the **Covens** tag and cannot be taken with another **Covens** **detachment**."
+        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Darkest Artifice**\nAttacks that target friendly **Cronos/Talos** units with a **S** greater than that unit’s **T** have -1 to **wound rolls**.\nThis **detachment** has the **Covens** tag and cannot be taken with another **Covens** **detachment**.",
+        "rules": {
+          "removeSameTagDetachments": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Covenite Coterie"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 10
+          }
+        }
       },
       "Enhancement§Archraider": {
         "keywords": {

@@ -1,6 +1,6 @@
 {
   "name": "Adeptus Custodes 11e",
-  "revision": "11.1.5",
+  "revision": "11.1.6",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -2923,6 +2923,27 @@
             "evals": [],
             "evaluate": "AND",
             "failState": "pass"
+          },
+          "removeSameTagDetachments": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Tharanatoi Hammerblow"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 10
           }
         },
         "stats": {
@@ -2943,7 +2964,30 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**March of the Honoured Dead**\nFriendly **Adeptus Custodes Walker** units: \n\n- Have +2\" **M**.\n\n- Have +1 to **advance rolls** and **charge rolls**.\nThis **detachment** has the **Armoury** tag and cannot be taken with another **Armoury** **detachment**."
+        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**March of the Honoured Dead**\nFriendly **Adeptus Custodes Walker** units: \n\n- Have +2\" **M**.\n\n- Have +1 to **advance rolls** and **charge rolls**.\nThis **detachment** has the **Armoury** tag and cannot be taken with another **Armoury** **detachment**.",
+        "rules": {
+          "removeSameTagDetachments": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Solar Spearhead"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 10
+          }
+        }
       },
       "Detachment§Null Maiden Vigil": {
         "keywords": {
@@ -3267,6 +3311,27 @@
             "evals": [],
             "evaluate": "AND",
             "failState": "pass"
+          },
+          "removeSameTagDetachments": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Might Of The Moritoi"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 10
           }
         },
         "stats": {
@@ -3394,7 +3459,30 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**The Hammer Falls**\nIf a friendly **Adeptus Custodes Terminator** unit made an **ingress move** this turn, that unit can re‑roll **charge rolls**.\nThis **detachment** has the **LIONS** tag and cannot be taken with another **LIONS** **detachment**."
+        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**The Hammer Falls**\nIf a friendly **Adeptus Custodes Terminator** unit made an **ingress move** this turn, that unit can re‑roll **charge rolls**.\nThis **detachment** has the **LIONS** tag and cannot be taken with another **LIONS** **detachment**.",
+        "rules": {
+          "removeSameTagDetachments": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Lions of the Emperor"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 10
+          }
+        }
       },
       "Endeavour§Endeavour": {},
       "Enhancement§Adamantine Talisman": {

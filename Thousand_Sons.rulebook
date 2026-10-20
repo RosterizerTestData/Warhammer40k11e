@@ -1,6 +1,6 @@
 {
   "name": "Thousand Sons 11e",
-  "revision": "11.1.5",
+  "revision": "11.1.6",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -2204,7 +2204,30 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**All-seeing Mutant Hordes**\n- Friendly **Tzaangors** units have **Battleline**.\n\n- In your Shooting phase, while a friendly **MUTANT** unit is shooting, enemy units have +6\" **detection range**.\nThis **detachment** has the **MUTANT** tag and cannot be taken with another **MUTANT** **detachment**."
+        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**All-seeing Mutant Hordes**\n- Friendly **Tzaangors** units have **Battleline**.\n\n- In your Shooting phase, while a friendly **MUTANT** unit is shooting, enemy units have +6\" **detection range**.\nThis **detachment** has the **MUTANT** tag and cannot be taken with another **MUTANT** **detachment**.",
+        "rules": {
+          "removeSameTagDetachments": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Warpmeld Pact"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 10
+          }
+        }
       },
       "Detachment§Warpforged Cabal": {
         "keywords": {
@@ -2460,6 +2483,27 @@
             "evals": [],
             "evaluate": "AND",
             "failState": "pass"
+          },
+          "removeSameTagDetachments": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Servants Of Change"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 10
           }
         },
         "stats": {

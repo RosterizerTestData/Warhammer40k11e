@@ -1,6 +1,6 @@
 {
   "name": "Imperial Knights 11e",
-  "revision": "11.1.5",
+  "revision": "11.1.6",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -711,6 +711,27 @@
             "evals": [],
             "evaluate": "AND",
             "failState": "pass"
+          },
+          "removeSameTagDetachments": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Throne-Bonded Outriders"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 10
           }
         },
         "stats": {
@@ -731,7 +752,30 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Driven from their Lairs**\nWhile a friendly **ARMIGER** unit is affected by a **Bondsman** ability, that unit’s ranged attacks have **[Ignores Cover]**.\nThis **detachment** has the **Armigers** tag and cannot be taken with another **Armigers** **detachment**."
+        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Driven from their Lairs**\nWhile a friendly **ARMIGER** unit is affected by a **Bondsman** ability, that unit’s ranged attacks have **[Ignores Cover]**.\nThis **detachment** has the **Armigers** tag and cannot be taken with another **Armigers** **detachment**.",
+        "rules": {
+          "removeSameTagDetachments": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Spearhead-At-Arms"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 10
+          }
+        }
       },
       "Detachment§Valourstrike Lance": {
         "keywords": {
