@@ -1,6 +1,6 @@
 {
   "name": "Chaos Daemons 11e",
-  "revision": "11.1.14",
+  "revision": "11.1.15",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -5735,14 +5735,6 @@
           }
         }
       },
-      "Unit§Hellflayers": {
-        "stats": {
-          "Points": {
-            "value": 80
-          }
-        },
-        "text": "WARNING: this unit was not in 10e and needs importing.\n\n**Cutting Down the Foe**\nEach time a model in this unit makes a melee attack, if this unit made a Charge move this turn, improve the Strength and Damage characteristics of that attack by 1."
-      },
       "Unit§Plague Toads": {
         "allowed": {
           "items": [
@@ -6497,6 +6489,67 @@
           "Command Cost": {
             "value": 2
           }
+        }
+      },
+      "Ranged Weapon§Syll’esske—Scourging whip – Ranged": {
+        "aspects": {
+          "Label": "Scourging whip – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 9
+          },
+          "A": {
+            "value": 6
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault"
+          ]
+        }
+      },
+      "Melee Weapon§Syll’esske—Scourging whip – Melee": {
+        "aspects": {
+          "Label": "Scourging whip – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Extra Attacks"
+          ]
         }
       }
     },

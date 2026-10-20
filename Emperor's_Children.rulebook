@@ -1,6 +1,6 @@
 {
   "name": "Emperor's Children 11e",
-  "revision": "11.1.14",
+  "revision": "11.1.15",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -717,7 +717,7 @@
             "value": 3
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "unitDiscount": {
             "value": 10
@@ -822,7 +822,7 @@
             "value": 2
           },
           "T": {
-            "value": 5
+            "value": 6
           },
           "W": {
             "value": 6
@@ -907,7 +907,7 @@
             "value": 2
           },
           "T": {
-            "value": 5
+            "value": 6
           },
           "W": {
             "value": 6
@@ -1006,7 +1006,7 @@
             "value": 3
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 4
@@ -3415,8 +3415,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Daemon Prince of Chaos—Hellforged weapons – strike",
-            "Melee Weapon§Daemon Prince of Chaos—Hellforged weapons – sweep"
+            "Melee Weapon§Daemon Prince of Slaanesh with Wings—Hellforged weapons – strike",
+            "Melee Weapon§Daemon Prince of Slaanesh with Wings—Hellforged weapons – sweep"
           ]
         },
         "keywords": {
@@ -3457,8 +3457,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Fulgrim—Daemonic blades – strike",
-            "Melee Weapon§Fulgrim—Daemonic blades – sweep"
+            "Melee Weapon§Fulgrim—Daemonic blades – sweep",
+            "Melee Weapon§Fulgrim—Daemonic blades – strike"
           ]
         },
         "keywords": {
@@ -3499,6 +3499,10 @@
           },
           "WS": {
             "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
           }
         }
       },
@@ -3533,6 +3537,10 @@
           },
           "WS": {
             "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
           }
         }
       },
@@ -3591,7 +3599,7 @@
             "value": "Melee"
           },
           "S": {
-            "value": 4
+            "value": 5
           },
           "WS": {
             "value": 3
@@ -3679,7 +3687,7 @@
             "value": "Melee"
           },
           "S": {
-            "value": 4
+            "value": 5
           },
           "WS": {
             "value": 2
@@ -3752,9 +3760,7 @@
         "aspects": {
           "Label": "Power fist"
         },
-        "assets": {
-          "traits": []
-        },
+        "assets": {},
         "stats": {
           "A": {
             "value": 5
@@ -3827,7 +3833,7 @@
             "value": "Melee"
           },
           "S": {
-            "value": 4
+            "value": 5
           },
           "WS": {
             "value": 2
@@ -3948,7 +3954,7 @@
             "value": "Melee"
           },
           "S": {
-            "value": 4
+            "value": 5
           },
           "WS": {
             "value": 3
@@ -4006,6 +4012,10 @@
           },
           "WS": {
             "value": 3
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
           }
         }
       },
@@ -4028,7 +4038,7 @@
             "value": "Melee"
           },
           "S": {
-            "value": 4
+            "value": 5
           },
           "WS": {
             "value": 3
@@ -4101,6 +4111,21 @@
         "stats": {
           "M": {
             "value": 6
+          },
+          "T": {
+            "value": 6
+          },
+          "Sv": {
+            "value": 2
+          },
+          "W": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 6
+          },
+          "OC": {
+            "value": 1
           }
         }
       },
@@ -4164,7 +4189,7 @@
             "value": 5
           },
           "W": {
-            "value": 2
+            "value": 3
           }
         }
       },
@@ -4177,7 +4202,7 @@
         },
         "stats": {
           "Ld": {
-            "value": 1
+            "value": 6
           },
           "M": {
             "value": 8
@@ -4242,7 +4267,7 @@
             "value": 3
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 2
@@ -4301,7 +4326,7 @@
             "value": 5
           },
           "W": {
-            "value": 2
+            "value": 3
           }
         }
       },
@@ -4379,7 +4404,7 @@
             "value": 3
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 2
@@ -4459,7 +4484,7 @@
             "value": 3
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 2
@@ -4470,6 +4495,21 @@
         "stats": {
           "M": {
             "value": 6
+          },
+          "T": {
+            "value": 6
+          },
+          "Sv": {
+            "value": 2
+          },
+          "W": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 6
+          },
+          "OC": {
+            "value": 1
           }
         }
       },
@@ -4562,7 +4602,7 @@
             "value": 3
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 2
@@ -4608,7 +4648,7 @@
             "value": 1
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
             "value": 3
@@ -4620,7 +4660,7 @@
             "value": 12
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -4675,7 +4715,7 @@
             "value": 1
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
             "value": 3
@@ -4687,7 +4727,7 @@
             "value": 12
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -4743,8 +4783,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -4782,7 +4822,7 @@
             "value": 1
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
             "value": 2
@@ -4794,7 +4834,7 @@
             "value": 12
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -4850,8 +4890,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -4945,7 +4985,12 @@
           ]
         },
         "keywords": {
-          "Tags": []
+          "Tags": [
+            "Multi-weapon"
+          ]
+        },
+        "aspects": {
+          "Label": "Blastmaster"
         }
       },
       "Ranged Weapon§Noise Marines—Blastmaster – Single frequency": {
@@ -5080,6 +5125,9 @@
           "Tags": [
             "Multi-weapon"
           ]
+        },
+        "aspects": {
+          "Label": "Agonising Energies"
         }
       },
       "Ranged Weapon§Sorcerer—Agonising Energies – focused witchfire": {
@@ -5089,8 +5137,8 @@
         "assets": {
           "traits": [
             "Ability§Psychic",
-            "Ability§Devastating Wounds",
-            "Ability§Hazardous"
+            "Ability§Hazardous",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -5154,6 +5202,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Precision",
             "Ability§Pistol"
           ]
         },
@@ -5162,7 +5211,7 @@
             "value": 1
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
             "value": 3
@@ -5174,7 +5223,7 @@
             "value": 12
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -5192,7 +5241,7 @@
             "value": 2
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
             "value": 3
@@ -5204,7 +5253,7 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -5269,7 +5318,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Precision",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -5277,7 +5325,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Precision"
           ]
         },
         "stats": {
@@ -5307,8 +5356,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
-            "Ability§Precision",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -5316,7 +5363,9 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Precision",
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -5362,8 +5411,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Pistol",
-            "Ability§Precision"
+            "Ability§Precision",
+            "Ability§Pistol"
           ]
         },
         "stats": {
@@ -5393,9 +5442,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
+            "Ability§Precision",
             "Ability§Pistol",
-            "Ability§Precision"
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -7361,7 +7410,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Revel in Desecration"
+            "Ability§Revel in Desecration",
+            "Ability§Thrill Seekers"
           ]
         },
         "removed": {
@@ -7390,6 +7440,11 @@
           ],
           "Keywords": [
             "Slaanesh"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Thrill Seekers"
           ]
         }
       },
@@ -7467,14 +7522,70 @@
         "stats": {
           "Points": {
             "value": 15
+          },
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 3
           }
+        },
+        "aspects": {
+          "Label": "Heavy reaper autocannon"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Devastating Wounds"
+          ]
         }
       },
       "Ranged Weapon§Defiler—Hades lascannon": {
         "stats": {
           "Points": {
             "value": 15
+          },
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
           }
+        },
+        "aspects": {
+          "Label": "Hades lascannon"
         }
       },
       "Stratagem§Agonised Cacophony": {
@@ -7616,6 +7727,424 @@
           "Phase": [
             "Fight",
             "Shooting"
+          ]
+        }
+      },
+      "Ranged Weapon§Chaos Terminators—Heavy flamer": {
+        "aspects": {
+          "Label": "Heavy flamer"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
+          ]
+        }
+      },
+      "Ranged Weapon§Chaos Terminators—Combi-bolter": {
+        "aspects": {
+          "Label": "Combi-bolter"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Chaos Terminators—Combi-weapon": {
+        "aspects": {
+          "Label": "Combi-weapon"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Chaos Terminators—Reaper autocannon": {
+        "aspects": {
+          "Label": "Reaper autocannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Devastating Wounds"
+          ]
+        }
+      },
+      "Melee Weapon§Chaos Terminators—Power fist": {
+        "aspects": {
+          "Label": "Power fist"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Melee Weapon§Chaos Terminators—Chainfist": {
+        "aspects": {
+          "Label": "Chainfist"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "vehicle"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Melee Weapon§Chaos Terminators—Accursed weapon": {
+        "aspects": {
+          "Label": "Accursed weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Chaos Terminators—Paired accursed weapons": {
+        "aspects": {
+          "Label": "Paired accursed weapons"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
+        }
+      },
+      "Melee Weapon§Daemon Prince of Slaanesh—Hellforged weapons – strike": {
+        "aspects": {
+          "Label": "Hellforged weapons – Strike"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Daemon Prince of Slaanesh—Hellforged weapons – sweep": {
+        "aspects": {
+          "Label": "Hellforged weapons – Sweep"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 14
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Daemon Prince of Slaanesh with Wings—Hellforged weapons – strike": {
+        "aspects": {
+          "Label": "Hellforged weapons – Strike"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Daemon Prince of Slaanesh with Wings—Hellforged weapons – sweep": {
+        "aspects": {
+          "Label": "Hellforged weapons – Sweep"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 14
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Sorcerer—Bolt pistol": {
+        "aspects": {
+          "Label": "Bolt pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Character§Sorcerer (SL)": {
+        "assets": {
+          "traits": [
+            "Ability§Thrill Seekers"
           ]
         }
       }

@@ -1,6 +1,6 @@
 {
   "name": "Adeptus Mechanicus 11e",
-  "revision": "11.1.14",
+  "revision": "11.1.15",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -1355,6 +1355,11 @@
           "Tags": [
             "knightally"
           ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Doctrina Imperatives"
+          ]
         }
       },
       "Character§Sydonian Skatros": {
@@ -1587,6 +1592,11 @@
           "Tags": [
             "knightally"
           ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Doctrina Imperatives"
+          ]
         }
       },
       "Character§Tech-priest Enginseer": {
@@ -1750,6 +1760,11 @@
         "keywords": {
           "Tags": [
             "knightally"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Doctrina Imperatives"
           ]
         }
       },
@@ -4858,6 +4873,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Extra Attacks",
+            "Ability§Devastating Wounds",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -4868,9 +4885,7 @@
                   "value": "4+"
                 }
               }
-            },
-            "Ability§Devastating Wounds",
-            "Ability§Extra Attacks"
+            }
           ]
         },
         "stats": {
@@ -4927,7 +4942,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Extra Attacks (Cawl)"
+            "Ability§Extra Attacks (Cawl)",
+            "Ability§Extra Attacks"
           ]
         },
         "stats": {
@@ -5093,7 +5109,7 @@
             "value": "Melee"
           },
           "S": {
-            "value": 4
+            "value": 5
           },
           "WS": {
             "value": 4
@@ -5145,7 +5161,7 @@
             "value": "Melee"
           },
           "S": {
-            "value": 4
+            "value": 5
           },
           "WS": {
             "value": 4
@@ -5661,8 +5677,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
             "Ability§Extra Attacks",
+            "Ability§Devastating Wounds",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -5678,7 +5694,7 @@
         },
         "stats": {
           "A": {
-            "value": 2
+            "value": 1
           },
           "AP": {
             "value": -1
@@ -5724,12 +5740,22 @@
           }
         }
       },
-      "Melee Weapon§Servitor Battlecade—Dataspikes": {
+      "Melee Weapon§Servitor Battleclade—Dataspikes": {
         "aspects": {
           "Label": "Dataspikes"
         },
         "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
           "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
             "value": 4
           },
           "AP": {
@@ -5737,42 +5763,32 @@
           },
           "D": {
             "value": 1
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 4
-          },
-          "WS": {
-            "value": 4
           }
         }
       },
-      "Melee Weapon§Servitor Battlecade—Servo-claw": {
+      "Melee Weapon§Servitor Battleclade—Servo-claw": {
         "aspects": {
           "Label": "Servo-claw"
         },
         "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
           "A": {
             "value": 2
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 4
           },
           "AP": {
             "value": 0
           },
           "D": {
             "value": 1
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 4
-          },
-          "WS": {
-            "value": 4
           }
         }
       },
@@ -5898,8 +5914,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Precision"
+            "Ability§Precision",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -5930,6 +5946,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Precision",
+            "Ability§Devastating Wounds",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -5940,9 +5958,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Devastating Wounds",
-            "Ability§Precision"
+            }
           ]
         },
         "stats": {
@@ -5973,6 +5989,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Precision",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -5983,8 +6000,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Precision"
+            }
           ]
         },
         "stats": {
@@ -6224,6 +6240,15 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            },
+            "Ability§Lance",
+            {
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
@@ -6231,15 +6256,6 @@
                 },
                 "x": {
                   "value": "2+"
-                }
-              }
-            },
-            "Ability§Lance",
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "2"
                 }
               }
             }
@@ -6408,6 +6424,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Devastating Wounds",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -6418,8 +6435,7 @@
                   "value": "4+"
                 }
               }
-            },
-            "Ability§Devastating Wounds"
+            }
           ]
         },
         "stats": {
@@ -6450,8 +6466,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Thulia Ghuld—Rod of the War Forge – strike",
-            "Melee Weapon§Thulia Ghuld—Rod of the War Forge – sweep"
+            "Melee Weapon§Thulia Ghuld—Rod of the War Forge – sweep",
+            "Melee Weapon§Thulia Ghuld—Rod of the War Forge – strike"
           ]
         },
         "keywords": {
@@ -6464,9 +6480,7 @@
         "aspects": {
           "Label": "Strike"
         },
-        "assets": {
-          "traits": []
-        },
+        "assets": {},
         "keywords": {
           "Tags": []
         },
@@ -6480,7 +6494,10 @@
           "D": {
             "value": 3
           },
-          "Range": {},
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
           "S": {
             "value": 10
           },
@@ -6493,9 +6510,7 @@
         "aspects": {
           "Label": "Sweep"
         },
-        "assets": {
-          "traits": []
-        },
+        "assets": {},
         "keywords": {
           "Tags": []
         },
@@ -6509,7 +6524,10 @@
           "D": {
             "value": 1
           },
-          "Range": {},
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
           "S": {
             "value": 6
           },
@@ -6550,7 +6568,7 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Servitor Battlecade—Servo-claw"
+            "Melee Weapon§Servitor Battleclade—Servo-claw"
           ]
         },
         "stats": {
@@ -6566,7 +6584,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Servitor Battlecade—Phosphor blaster"
+                    "trait": "Ranged Weapon§Servitor Battleclade—Phosphor blaster"
                   }
                 ]
               },
@@ -6577,7 +6595,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Servitor Battlecade—Meltagun"
+                    "trait": "Ranged Weapon§Servitor Battleclade—Meltagun"
                   }
                 ]
               },
@@ -6588,7 +6606,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Servitor Battlecade—Incendine igniter"
+                    "trait": "Ranged Weapon§Servitor Battleclade—Incendine igniter"
                   }
                 ]
               }
@@ -6674,8 +6692,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Servitor Battlecade—Servo-claw",
-            "Ranged Weapon§Servitor Battlecade—Heavy arc rifle"
+            "Melee Weapon§Servitor Battleclade—Servo-claw",
+            "Ranged Weapon§Servitor Battleclade—Heavy arc rifle"
           ]
         },
         "stats": {
@@ -6705,8 +6723,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Servitor Battlecade—Servo-claw",
-            "Ranged Weapon§Servitor Battlecade—Heavy bolter"
+            "Melee Weapon§Servitor Battleclade—Servo-claw",
+            "Ranged Weapon§Servitor Battleclade—Heavy bolter"
           ]
         },
         "stats": {
@@ -7860,8 +7878,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Servitor Battlecade—Mechanicus pistol",
-            "Melee Weapon§Servitor Battlecade—Dataspikes"
+            "Ranged Weapon§Servitor Battleclade—Mechanicus pistol",
+            "Melee Weapon§Servitor Battleclade—Dataspikes"
           ]
         },
         "keywords": {
@@ -8517,14 +8535,7 @@
         },
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "9"
-                }
-              }
-            },
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -8533,7 +8544,14 @@
                 }
               }
             },
-            "Ability§Twin-linked"
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "9"
+                }
+              }
+            }
           ]
         },
         "stats": {
@@ -8564,18 +8582,18 @@
         "assets": {
           "traits": [
             {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "3"
-                }
-              }
-            },
-            {
               "item": "Ability§Sustained Hits",
               "stats": {
                 "x": {
                   "value": "1"
+                }
+              }
+            },
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "3"
                 }
               }
             }
@@ -8638,6 +8656,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -8645,8 +8664,7 @@
                   "value": "1"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -8677,14 +8695,7 @@
         },
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "9"
-                }
-              }
-            },
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -8693,7 +8704,14 @@
                 }
               }
             },
-            "Ability§Twin-linked"
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "9"
+                }
+              }
+            }
           ]
         },
         "stats": {
@@ -8799,8 +8817,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -8926,6 +8944,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Devastating Wounds",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -8936,8 +8955,7 @@
                   "value": "4+"
                 }
               }
-            },
-            "Ability§Devastating Wounds"
+            }
           ]
         },
         "keywords": {
@@ -8998,9 +9016,7 @@
         "aspects": {
           "Label": "Neutron fusil"
         },
-        "assets": {
-          "traits": []
-        },
+        "assets": {},
         "stats": {
           "A": {
             "value": 1
@@ -9029,6 +9045,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -9036,8 +9053,7 @@
                   "value": "1"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -9067,6 +9083,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -9074,8 +9091,7 @@
                   "value": "1"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -9139,8 +9155,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -9203,8 +9219,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -9235,6 +9251,14 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            },
+            {
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
@@ -9242,14 +9266,6 @@
                 },
                 "x": {
                   "value": "4+"
-                }
-              }
-            },
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "2"
                 }
               }
             }
@@ -9282,6 +9298,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Blast",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -9292,14 +9309,13 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Blast"
+            }
           ]
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -2
@@ -9324,8 +9340,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -9469,7 +9485,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -9477,7 +9492,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -9508,18 +9524,18 @@
         "assets": {
           "traits": [
             {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "3"
-                }
-              }
-            },
-            {
               "item": "Ability§Sustained Hits",
               "stats": {
                 "x": {
                   "value": "1"
+                }
+              }
+            },
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "3"
                 }
               }
             }
@@ -9609,7 +9625,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -9617,7 +9632,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -9648,7 +9664,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -9656,7 +9671,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -9717,6 +9733,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -9727,8 +9744,7 @@
                   "value": "4+"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -9789,8 +9805,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -9905,8 +9921,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -10148,8 +10164,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -10185,16 +10201,13 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "1"
+            "value": 1
           },
           "AP": {
             "value": -1
           },
           "BS": {
-            "format": "{t}",
-            "statType": "term",
-            "value": "4+"
+            "value": 4
           },
           "D": {
             "value": 1
@@ -10213,8 +10226,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Ignores Cover"
+            "Ability§Ignores Cover",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -10277,8 +10290,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -10308,9 +10321,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
+            "Ability§Torrent",
             "Ability§Pistol",
-            "Ability§Torrent"
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -10369,12 +10382,40 @@
           }
         }
       },
-      "Ranged Weapon§Servitor Battlecade—Heavy arc rifle": {
+      "Ranged Weapon§Servitor Battleclade—Heavy arc rifle": {
         "aspects": {
           "Label": "Heavy arc rifle"
         },
+        "stats": {
+          "Range": {
+            "value": 30
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        },
         "assets": {
           "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -10385,45 +10426,36 @@
                   "value": "4+"
                 }
               }
-            },
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
             }
           ]
+        }
+      },
+      "Ranged Weapon§Servitor Battleclade—Heavy bolter": {
+        "aspects": {
+          "Label": "Heavy bolter"
         },
         "stats": {
-          "A": {
-            "value": 1
+          "Range": {
+            "value": 36
           },
-          "AP": {
-            "value": -2
+          "A": {
+            "value": 3
           },
           "BS": {
             "value": 4
           },
-          "D": {
-            "value": 3
-          },
-          "Range": {
-            "value": 30
-          },
           "S": {
-            "value": 8
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
           }
-        }
-      },
-      "Ranged Weapon§Servitor Battlecade—Heavy bolter": {
-        "aspects": {
-          "Label": "Heavy bolter"
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -10431,98 +10463,95 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Heavy"
           ]
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": -1
-          },
-          "BS": {
-            "value": 4
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "value": 36
-          },
-          "S": {
-            "value": 5
-          }
         }
       },
-      "Ranged Weapon§Servitor Battlecade—Incendine igniter": {
+      "Ranged Weapon§Servitor Battleclade—Incendine igniter": {
         "aspects": {
           "Label": "Incendine igniter"
         },
-        "assets": {
-          "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
-          ]
-        },
         "stats": {
+          "Range": {
+            "value": 12
+          },
           "A": {
             "format": "D6",
             "value": 0
           },
+          "S": {
+            "value": 3
+          },
           "AP": {
             "value": 0
           },
-          "BS": {
-            "format": "{t}",
-            "statType": "term",
-            "value": "N/A"
-          },
           "D": {
             "value": 1
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 3
           }
-        }
-      },
-      "Ranged Weapon§Servitor Battlecade—Mechanicus pistol": {
-        "aspects": {
-          "Label": "Mechanicus pistol"
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Pistol"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
+        }
+      },
+      "Ranged Weapon§Servitor Battleclade—Mechanicus pistol": {
+        "aspects": {
+          "Label": "Mechanicus pistol"
         },
         "stats": {
+          "Range": {
+            "value": 12
+          },
           "A": {
             "value": 1
-          },
-          "AP": {
-            "value": -1
           },
           "BS": {
             "value": 4
           },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
           "D": {
             "value": 1
-          },
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol",
+            "Ability§Devastating Wounds"
+          ]
+        }
+      },
+      "Ranged Weapon§Servitor Battleclade—Meltagun": {
+        "aspects": {
+          "Label": "Meltagun"
+        },
+        "stats": {
           "Range": {
             "value": 12
           },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
           "S": {
-            "value": 6
+            "value": 9
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
           }
-        }
-      },
-      "Ranged Weapon§Servitor Battlecade—Meltagun": {
-        "aspects": {
-          "Label": "Meltagun"
         },
         "assets": {
           "traits": [
@@ -10535,36 +10564,34 @@
               }
             }
           ]
+        }
+      },
+      "Ranged Weapon§Servitor Battleclade—Phosphor blaster": {
+        "aspects": {
+          "Label": "Phosphor blaster"
         },
         "stats": {
+          "Range": {
+            "value": 24
+          },
           "A": {
             "value": 1
-          },
-          "AP": {
-            "value": -4
           },
           "BS": {
             "value": 4
           },
-          "D": {
-            "format": "D6",
+          "S": {
+            "value": 4
+          },
+          "AP": {
             "value": 0
           },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 9
+          "D": {
+            "value": 1
           }
-        }
-      },
-      "Ranged Weapon§Servitor Battlecade—Phosphor blaster": {
-        "aspects": {
-          "Label": "Phosphor blaster"
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -10572,28 +10599,9 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Ignores Cover"
           ]
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": 0
-          },
-          "BS": {
-            "value": 4
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 24
-          },
-          "S": {
-            "value": 4
-          }
         }
       },
       "Ranged Weapon§Servitors—Heavy bolter": {
@@ -10820,8 +10828,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -10852,6 +10860,15 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
@@ -10859,15 +10876,6 @@
                 },
                 "x": {
                   "value": "4+"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
                 }
               }
             }
@@ -10884,8 +10892,8 @@
             "value": 4
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 30
@@ -10926,8 +10934,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -11028,8 +11036,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
-            "Ability§Precision"
+            "Ability§Precision",
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -11043,8 +11051,8 @@
             "value": 4
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 36
@@ -11061,6 +11069,15 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
@@ -11068,15 +11085,6 @@
                 },
                 "x": {
                   "value": "4+"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
                 }
               }
             }
@@ -11093,8 +11101,8 @@
             "value": 4
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 30
@@ -11110,8 +11118,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -11252,8 +11260,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
-            "Ability§Precision"
+            "Ability§Precision",
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -11267,8 +11275,8 @@
             "value": 4
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 36
@@ -11284,8 +11292,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Indirect Fire"
+            "Ability§Indirect Fire",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -11317,18 +11325,18 @@
         "assets": {
           "traits": [
             {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "3"
-                }
-              }
-            },
-            {
               "item": "Ability§Sustained Hits",
               "stats": {
                 "x": {
                   "value": "1"
+                }
+              }
+            },
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "3"
                 }
               }
             }
@@ -11421,14 +11429,7 @@
         },
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "9"
-                }
-              }
-            },
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -11437,7 +11438,14 @@
                 }
               }
             },
-            "Ability§Twin-linked"
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "9"
+                }
+              }
+            }
           ]
         },
         "stats": {
@@ -11467,8 +11475,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -11498,6 +11506,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Precision",
+            "Ability§Heavy",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -11508,9 +11518,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Heavy",
-            "Ability§Precision"
+            }
           ]
         },
         "stats": {
@@ -11546,16 +11554,13 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "1"
+            "value": 1
           },
           "AP": {
             "value": -1
           },
           "BS": {
-            "format": "{t}",
-            "statType": "term",
-            "value": "4+"
+            "value": 3
           },
           "D": {
             "value": 1
@@ -11574,6 +11579,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Precision",
+            "Ability§Heavy",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -11584,9 +11591,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Heavy",
-            "Ability§Precision"
+            }
           ]
         },
         "stats": {
@@ -11616,13 +11621,13 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
             "Ability§Precision",
+            "Ability§Heavy",
             {
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
-                  "value": "monster"
+                  "value": "vehicle"
                 },
                 "x": {
                   "value": "4+"
@@ -11633,7 +11638,7 @@
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
-                  "value": "vehicle"
+                  "value": "monster"
                 },
                 "x": {
                   "value": "4+"
@@ -11653,8 +11658,8 @@
             "value": 3
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 36
@@ -11686,8 +11691,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -1
@@ -11712,8 +11717,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -2
@@ -11768,8 +11773,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -11829,8 +11834,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -11890,8 +11895,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -11924,8 +11929,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -11976,8 +11981,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Thulia Ghuld—Jericho‑class conversion resonator – titanic impact",
-            "Ranged Weapon§Thulia Ghuld—Jericho‑class conversion resonator – shockwave"
+            "Ranged Weapon§Thulia Ghuld—Jericho‑class conversion resonator – shockwave",
+            "Ranged Weapon§Thulia Ghuld—Jericho‑class conversion resonator – titanic impact"
           ]
         },
         "keywords": {
@@ -11992,7 +11997,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -12000,7 +12004,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Blast"
           ]
         },
         "keywords": {
@@ -13288,8 +13293,7 @@
             "value": 7
           },
           "M": {
-            "statType": "term",
-            "value": "20+"
+            "value": 14
           },
           "OC": {
             "value": 0
@@ -15072,7 +15076,7 @@
           }
         }
       },
-      "Unit§Servitor Battlecade": {
+      "Unit§Servitor Battleclade": {
         "allowed": {
           "items": [
             "Model§Combat Servitor",
@@ -15109,7 +15113,7 @@
             "Cult Mechanicus",
             "Imperium",
             "Infantry",
-            "Servitor Battlecade"
+            "Servitor Battleclade"
           ],
           "Category": [
             "Infantry"
@@ -15185,13 +15189,6 @@
             "value": 9
           },
           "Points": {
-            "value": 60
-          }
-        }
-      },
-      "Unit§Servitor Battleclade": {
-        "stats": {
-          "Points": {
             "value": 85
           },
           "unitDiscount": {
@@ -15200,8 +15197,7 @@
           "unitDiscountThreshold": {
             "value": 3
           }
-        },
-        "text": "WARNING: this unit was not in 10e and needs importing.\n\n**Network Override**\nWhile this unit contains one or more **TECH-PRIEST** models, this unit is:\n\n■ Eligible to perform an Action in a turn in which it Advanced.\n■ Eligible to shoot in a turn in which it started an Action.\n\n**ATTACHED UNIT**\nIf a **CHARACTER** unit from your army with the Leader ability can be attached to a **KATAPHRON BREACHERS** unit, it can be attached to this unit instead."
+        }
       },
       "Unit§Servitors": {
         "allowed": {
@@ -15677,6 +15673,11 @@
           "Tags": [
             "knightally"
           ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Doctrina Imperatives"
+          ]
         }
       },
       "Unit§Skitarii Vanguard": {
@@ -15886,6 +15887,11 @@
         "keywords": {
           "Tags": [
             "knightally"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Doctrina Imperatives"
           ]
         }
       },
@@ -16507,6 +16513,82 @@
           ],
           "Phase": [
             "Shooting"
+          ]
+        }
+      },
+      "Ranged Weapon§Corpuscarii Electro-priests—Electrostatic gauntlets – Ranged": {
+        "aspects": {
+          "Label": "Electrostatic gauntlets – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            },
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Melee Weapon§Corpuscarii Electro-priests—Electrostatic gauntlets – Melee": {
+        "aspects": {
+          "Label": "Electrostatic gauntlets – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
           ]
         }
       }

@@ -1,6 +1,6 @@
 {
   "name": "T'au Empire 11e",
-  "revision": "11.1.14",
+  "revision": "11.1.15",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -4299,6 +4299,24 @@
           },
           "Points": {
             "value": 240
+          },
+          "M": {
+            "value": 10
+          },
+          "T": {
+            "value": 6
+          },
+          "Sv": {
+            "value": 2
+          },
+          "W": {
+            "value": 8
+          },
+          "Ld": {
+            "value": 6
+          },
+          "OC": {
+            "value": 2
           }
         }
       },
@@ -6336,8 +6354,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Commander Farsight—Dawn Blade – strike",
-            "Melee Weapon§Commander Farsight—Dawn Blade – sweep"
+            "Melee Weapon§Commander Farsight—Dawn Blade – sweep",
+            "Melee Weapon§Commander Farsight—Dawn Blade – strike"
           ]
         },
         "keywords": {
@@ -6960,6 +6978,10 @@
           },
           "WS": {
             "value": 3
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
           }
         }
       },
@@ -7195,29 +7217,29 @@
           }
         }
       },
-      "Melee Weapon§Piranha—Armoured hull": {
+      "Melee Weapon§Piranhas—Armoured hull": {
         "aspects": {
           "Label": "Armoured hull"
         },
         "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
           "A": {
             "value": 2
+          },
+          "WS": {
+            "value": 5
+          },
+          "S": {
+            "value": 4
           },
           "AP": {
             "value": 0
           },
           "D": {
             "value": 1
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 4
-          },
-          "WS": {
-            "value": 5
           }
         }
       },
@@ -7506,6 +7528,10 @@
           },
           "WS": {
             "value": 5
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
           }
         }
       },
@@ -11853,7 +11879,7 @@
             "visibility": "normal"
           },
           "Sv": {
-            "value": 6
+            "value": 5
           },
           "T": {
             "value": 6
@@ -12446,9 +12472,9 @@
       "Model§Piranha": {
         "assets": {
           "traits": [
-            "Ranged Weapon§Piranha—Twin pulse carbine",
-            "Melee Weapon§Piranha—Armoured hull",
-            "Ranged Weapon§Piranha—Twin pulse carbine"
+            "Ranged Weapon§Piranhas—Twin pulse carbine",
+            "Melee Weapon§Piranhas—Armoured hull",
+            "Ranged Weapon§Piranhas—Twin pulse carbine"
           ]
         },
         "stats": {
@@ -12470,7 +12496,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Piranha—Piranha burst cannon"
+                    "trait": "Ranged Weapon§Piranhas—Piranha burst cannon"
                   }
                 ]
               },
@@ -12478,7 +12504,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Piranha—Piranha fusion blaster"
+                    "trait": "Ranged Weapon§Piranhas—Piranha fusion blaster"
                   }
                 ]
               }
@@ -12499,7 +12525,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Piranha—Seeker missile"
+                    "trait": "Ranged Weapon§Piranhas—Seeker missile"
                   }
                 ]
               },
@@ -12507,10 +12533,10 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Piranha—Seeker missile"
+                    "trait": "Ranged Weapon§Piranhas—Seeker missile"
                   },
                   {
-                    "trait": "Ranged Weapon§Piranha—Seeker missile"
+                    "trait": "Ranged Weapon§Piranhas—Seeker missile"
                   }
                 ]
               }
@@ -12905,7 +12931,7 @@
       "Model§TX42 Piranhas": {
         "assets": {
           "traits": [
-            "Melee Weapon§Piranha—Armoured hull"
+            "Melee Weapon§Piranhas—Armoured hull"
           ]
         },
         "stats": {
@@ -12939,7 +12965,7 @@
                 "traits": [
                   {
                     "trait": {
-                      "item": "Ranged Weapon§Piranha—Piranha fusion blaster",
+                      "item": "Ranged Weapon§Piranhas—Piranha fusion blaster",
                       "quantity": 2
                     }
                   }
@@ -13469,8 +13495,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
-            "Ability§Devastating Wounds"
+            "Ability§Devastating Wounds",
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -13595,8 +13621,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Indirect Fire",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Indirect Fire"
           ]
         },
         "stats": {
@@ -13688,8 +13714,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Indirect Fire"
+            "Ability§Indirect Fire",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -13929,8 +13955,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -14212,8 +14238,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Indirect Fire"
+            "Ability§Indirect Fire",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -14428,8 +14454,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -14637,8 +14663,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Crisis Battlesuits—Cyclic ion blaster – standard",
-            "Ranged Weapon§Crisis Battlesuits—Cyclic ion blaster – overcharge"
+            "Ranged Weapon§Tiger Shark—Cyclic ion blaster – standard",
+            "Ranged Weapon§Tiger Shark—Cyclic ion blaster – overcharge"
           ]
         },
         "keywords": {
@@ -14783,7 +14809,7 @@
             "value": 3
           },
           "Range": {
-            "value": 24
+            "value": 18
           },
           "S": {
             "value": 8
@@ -14796,8 +14822,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -14933,13 +14959,7 @@
             "value": 4
           },
           "AP": {
-            "ranks": {
-              "-1": {
-                "order": 0
-              }
-            },
-            "statType": "rank",
-            "value": "-1"
+            "value": -1
           },
           "BS": {
             "value": 4
@@ -15022,8 +15042,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -15330,8 +15350,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
-            "Ability§Precision"
+            "Ability§Precision",
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -15657,6 +15677,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Melta",
               "stats": {
@@ -15664,8 +15685,7 @@
                   "value": "2"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -15696,9 +15716,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
+            "Ability§Twin-linked",
             "Ability§Torrent",
-            "Ability§Twin-linked"
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -15885,8 +15905,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Hammerhead Gunship—Ion cannon – standard",
-            "Ranged Weapon§Hammerhead Gunship—Ion cannon – overcharge"
+            "Ranged Weapon§Tiger Shark—Ion cannon – standard",
+            "Ranged Weapon§Tiger Shark—Ion cannon – overcharge"
           ]
         },
         "keywords": {
@@ -15901,8 +15921,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Hazardous"
+            "Ability§Hazardous",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -15964,8 +15984,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
-            "Ability§Devastating Wounds"
+            "Ability§Devastating Wounds",
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -16329,8 +16349,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -16430,6 +16450,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Heavy",
+            "Ability§Devastating Wounds",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -16440,9 +16462,7 @@
                   "value": "4+"
                 }
               }
-            },
-            "Ability§Devastating Wounds",
-            "Ability§Heavy"
+            }
           ]
         },
         "stats": {
@@ -17093,8 +17113,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
-            "Ability§Heavy"
+            "Ability§Heavy",
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -17247,8 +17267,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Heavy"
+            "Ability§Heavy",
+            "Ability§Devastating Wounds"
           ]
         },
         "rules": {
@@ -17283,8 +17303,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Pathfinder Team—Semi-automatic grenade launcher – EMP",
-            "Ranged Weapon§Pathfinder Team—Semi-automatic grenade launcher – fusion"
+            "Ranged Weapon§Pathfinder Team—Semi-automatic grenade launcher – fusion",
+            "Ranged Weapon§Pathfinder Team—Semi-automatic grenade launcher – EMP"
           ]
         },
         "keywords": {
@@ -17299,6 +17319,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Devastating Wounds",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -17309,8 +17330,7 @@
                   "value": "4+"
                 }
               }
-            },
-            "Ability§Devastating Wounds"
+            }
           ]
         },
         "stats": {
@@ -17384,34 +17404,55 @@
           }
         }
       },
-      "Ranged Weapon§Piranha—Piranha burst cannon": {
+      "Ranged Weapon§Piranhas—Piranha burst cannon": {
         "aspects": {
           "Label": "Piranha burst cannon"
         },
         "stats": {
+          "Range": {
+            "value": 18
+          },
           "A": {
             "value": 4
-          },
-          "AP": {
-            "value": -1
           },
           "BS": {
             "value": 4
           },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 18
-          },
           "S": {
             "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
           }
         }
       },
-      "Ranged Weapon§Piranha—Piranha fusion blaster": {
+      "Ranged Weapon§Piranhas—Piranha fusion blaster": {
         "aspects": {
           "Label": "Piranha fusion blaster"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          }
         },
         "assets": {
           "traits": [
@@ -17424,89 +17465,68 @@
               }
             }
           ]
+        }
+      },
+      "Ranged Weapon§Piranhas—Seeker missile": {
+        "aspects": {
+          "Label": "Seeker missile"
         },
         "stats": {
+          "Range": {
+            "value": 48
+          },
           "A": {
             "value": 1
-          },
-          "AP": {
-            "value": -4
           },
           "BS": {
             "value": 4
           },
+          "S": {
+            "value": 14
+          },
+          "AP": {
+            "value": -3
+          },
           "D": {
             "format": "D6",
-            "value": 0
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 9
+            "value": 1
           }
-        }
-      },
-      "Ranged Weapon§Piranha—Seeker missile": {
-        "aspects": {
-          "Label": "Seeker missile"
         },
         "assets": {
           "traits": [
             "Ability§One Shot"
           ]
+        }
+      },
+      "Ranged Weapon§Piranhas—Twin pulse carbine": {
+        "aspects": {
+          "Label": "Twin pulse carbine"
         },
         "stats": {
-          "A": {
-            "value": 1
+          "Range": {
+            "value": 20
           },
-          "AP": {
-            "value": -3
+          "A": {
+            "value": 2
           },
           "BS": {
             "value": 4
           },
-          "D": {
-            "format": "D6",
-            "value": 1
-          },
-          "Range": {
-            "value": 48
-          },
           "S": {
-            "value": 14
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
           }
-        }
-      },
-      "Ranged Weapon§Piranha—Twin pulse carbine": {
-        "aspects": {
-          "Label": "Twin pulse carbine"
         },
         "assets": {
           "traits": [
             "Ability§Twin-linked",
             "Ability§Assault"
           ]
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": 0
-          },
-          "BS": {
-            "value": 4
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 20
-          },
-          "S": {
-            "value": 5
-          }
         }
       },
       "Ranged Weapon§Pulse Submunition Cannon": {
@@ -17554,13 +17574,7 @@
             "value": 4
           },
           "AP": {
-            "ranks": {
-              "-1": {
-                "order": 0
-              }
-            },
-            "statType": "rank",
-            "value": "-1"
+            "value": -1
           },
           "BS": {
             "value": 4
@@ -17623,8 +17637,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -17915,6 +17929,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Melta",
               "stats": {
@@ -17922,8 +17937,7 @@
                   "value": "2"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -17984,8 +17998,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Indirect Fire",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Indirect Fire"
           ]
         },
         "stats": {
@@ -18189,8 +18203,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -18360,8 +18374,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Heavy"
+            "Ability§Heavy",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -18423,8 +18437,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Stormsurge—Pulse blast cannon – focused",
-            "Ranged Weapon§Stormsurge—Pulse blast cannon – dispersed"
+            "Ranged Weapon§Stormsurge—Pulse blast cannon – dispersed",
+            "Ranged Weapon§Stormsurge—Pulse blast cannon – focused"
           ]
         },
         "keywords": {
@@ -18499,8 +18513,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Heavy"
+            "Ability§Heavy",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -18531,10 +18545,10 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Heavy",
+            "Ability§Twin-linked",
             "Ability§Indirect Fire",
-            "Ability§Twin-linked"
+            "Ability§Heavy",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -18565,8 +18579,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -18596,9 +18610,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
+            "Ability§Twin-linked",
             "Ability§Indirect Fire",
-            "Ability§Twin-linked"
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -18628,9 +18642,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
+            "Ability§Twin-linked",
             "Ability§Torrent",
-            "Ability§Twin-linked"
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -18833,8 +18847,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -19102,8 +19116,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Ta’unar—Tri-Axis Ion Cannon - Overcharge",
-            "Ranged Weapon§Ta’unar—Tri-Axis Ion Cannon - Standard"
+            "Ranged Weapon§Ta’unar Supremacy Armour—Tri-Axis Ion Cannon – standard",
+            "Ranged Weapon§Ta’unar Supremacy Armour—Tri-Axis Ion Cannon – supercharge"
           ]
         },
         "keywords": {
@@ -19327,7 +19341,7 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Commander in Coldstar Battlesuit—Cyclic ion blaster – standard",
+            "Ranged Weapon§The Twin Lance—Ion scattercannon – standard",
             "Ranged Weapon§The Twin Lance—Ion scattercannon – overcharge"
           ]
         },
@@ -19343,7 +19357,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -19351,7 +19364,8 @@
                   "value": "2"
                 }
               }
-            }
+            },
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -19517,8 +19531,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -19548,8 +19562,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -19819,6 +19833,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Blast",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -19829,8 +19844,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Blast"
+            }
           ]
         },
         "stats": {
@@ -19891,8 +19905,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -23445,7 +23459,7 @@
             "value": 7
           },
           "M": {
-            "value": "20"
+            "value": 40
           },
           "OC": {
             "value": "0"
@@ -23806,7 +23820,7 @@
           }
         }
       },
-      "Unit§Piranha": {
+      "Unit§Piranhas": {
         "allowed": {
           "items": [
             "Model§Piranha"
@@ -23848,7 +23862,7 @@
           "Keywords": [
             "Vehicle",
             "Fly",
-            "Piranha"
+            "Piranhas"
           ],
           "Category": [
             "Vehicle"
@@ -23871,7 +23885,7 @@
             "value": 2
           },
           "model3rdCost": {
-            "value": 180
+            "value": 175
           },
           "model3rdTally": {
             "value": 3
@@ -23891,16 +23905,8 @@
           "OC": {
             "value": "2"
           },
-          "Piranha": {
-            "max": 3,
-            "min": 1,
-            "statType": "numeric",
-            "tracked": true,
-            "value": 0,
-            "visibility": "hidden"
-          },
           "Points": {
-            "value": 60
+            "value": 75
           },
           "Sv": {
             "value": 4
@@ -23910,22 +23916,22 @@
           },
           "W": {
             "value": 7
-          }
-        }
-      },
-      "Unit§Piranhas": {
-        "stats": {
-          "Points": {
-            "value": 75
           },
           "unitDiscount": {
             "value": 10
           },
           "unitDiscountThreshold": {
             "value": 3
+          },
+          "Piranha": {
+            "max": 3,
+            "min": 1,
+            "statType": "numeric",
+            "tracked": true,
+            "value": 0,
+            "visibility": "hidden"
           }
-        },
-        "text": "WARNING: this unit was not in 10e and needs importing.\n\n**Drone Harassment Tactics**\nAt the end of your Movement phase, select one enemy unit within 12\" of this unit; that enemy unit must take a Battle-shock test."
+        }
       },
       "Unit§R’varna Battlesuit": {
         "aspects": {
@@ -25038,7 +25044,8 @@
                   "value": "D6+3"
                 }
               }
-            }
+            },
+            "Ability§For the Greater Good"
           ]
         },
         "keywords": {
@@ -25159,10 +25166,10 @@
             "value": 7
           },
           "M": {
-            "value": "8"
+            "value": 8
           },
           "OC": {
-            "value": "10"
+            "value": 10
           },
           "Points": {
             "value": 890
@@ -26981,6 +26988,1553 @@
           "Phase": [
             "Shooting"
           ]
+        }
+      },
+      "Ranged Weapon§AX-1-0 Tiger Shark—Cyclic ion blaster – standard": {
+        "aspects": {
+          "Label": "Cyclic ion blaster – Standard"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§AX-1-0 Tiger Shark—Cyclic ion blaster – overcharge": {
+        "aspects": {
+          "Label": "Cyclic ion blaster – Overcharge"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Hazardous"
+          ]
+        }
+      },
+      "Ranged Weapon§AX-1-0 Tiger Shark—Twin heavy rail cannon": {
+        "aspects": {
+          "Label": "Twin heavy rail cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 120
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 26
+          },
+          "AP": {
+            "value": -5
+          },
+          "D": {
+            "value": 12
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            "Ability§Devastating Wounds"
+          ]
+        }
+      },
+      "Ranged Weapon§Breacher Team—Support turret": {
+        "aspects": {
+          "Label": "Support turret"
+        },
+        "stats": {
+          "Range": {
+            "value": 30
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 5
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            "Ability§Indirect Fire"
+          ]
+        }
+      },
+      "Ranged Weapon§Kroot Carnivores—Kroot pistol": {
+        "aspects": {
+          "Label": "Kroot pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Kroot Carnivores—Kroot carbine": {
+        "aspects": {
+          "Label": "Kroot carbine"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Kroot Carnivores—Tanglebomb launcher": {
+        "aspects": {
+          "Label": "Tanglebomb launcher"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "format": "D3",
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Kroot Farstalkers—T’au-tech rifle": {
+        "aspects": {
+          "Label": "T’au-tech rifle"
+        },
+        "stats": {
+          "Range": {
+            "value": 30
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Kroot Flesh Shaper—Kroot scattergun": {
+        "aspects": {
+          "Label": "Kroot scattergun"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault"
+          ]
+        }
+      },
+      "Melee Weapon§Kroot Flesh Shaper—Twin ritualistic blades": {
+        "aspects": {
+          "Label": "Twin ritualistic blades"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
+        }
+      },
+      "Ranged Weapon§Kroot Lone-Spear—Blast javelin": {
+        "aspects": {
+          "Label": "Blast javelin"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast",
+            "Ability§Assault"
+          ]
+        }
+      },
+      "Ranged Weapon§Kroot Lone-Spear—Kroot long gun": {
+        "aspects": {
+          "Label": "Kroot long gun"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Precision",
+            "Ability§Heavy"
+          ]
+        }
+      },
+      "Melee Weapon§Kroot Lone-Spear—Close combat weapon": {
+        "aspects": {
+          "Label": "Close combat weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Kroot Lone-Spear—Kalamandra’s bite": {
+        "aspects": {
+          "Label": "Kalamandra’s bite"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Extra Attacks"
+          ]
+        }
+      },
+      "Melee Weapon§Kroot Lone-Spear—Hunting javelin": {
+        "aspects": {
+          "Label": "Hunting javelin"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lance"
+          ]
+        }
+      },
+      "Melee Weapon§Kroot Trail Shaper—Shaper’s blade": {
+        "aspects": {
+          "Label": "Shaper’s blade"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Kroot War Shaper—Kroot pistol": {
+        "aspects": {
+          "Label": "Kroot pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Kroot War Shaper—Dart-bow and tri-blade": {
+        "aspects": {
+          "Label": "Dart-bow and tri-blade"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "format": "D3",
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy",
+            "Ability§Assault",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Melee Weapon§Kroot War Shaper—Bladestave and prey-hook": {
+        "aspects": {
+          "Label": "Bladestave and prey-hook"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Melee Weapon§Kroot War Shaper—Shaper’s blade": {
+        "aspects": {
+          "Label": "Shaper’s blade"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Krootox Rampagers—Kroot pistol and hunting javelins": {
+        "aspects": {
+          "Label": "Kroot pistol and hunting javelins"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol",
+            "Ability§Assault"
+          ]
+        }
+      },
+      "Melee Weapon§Krootox Rampagers—Hunting blades": {
+        "aspects": {
+          "Label": "Hunting blades"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lance"
+          ]
+        }
+      },
+      "Melee Weapon§Krootox Rampagers—Rampager fists": {
+        "aspects": {
+          "Label": "Rampager fists"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Extra Attacks"
+          ]
+        }
+      },
+      "Ranged Weapon§Krootox Riders—Tanglecannon": {
+        "aspects": {
+          "Label": "Tanglecannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "format": "D6",
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy",
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Krootox Riders—Repeater cannon": {
+        "aspects": {
+          "Label": "Repeater cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Manta—Ion cannon – standard": {
+        "aspects": {
+          "Label": "Ion cannon – Standard"
+        },
+        "stats": {
+          "Range": {
+            "value": 60
+          },
+          "A": {
+            "format": "D6",
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Manta—Ion cannon – overcharge": {
+        "aspects": {
+          "Label": "Ion cannon – Overcharge"
+        },
+        "stats": {
+          "Range": {
+            "value": 60
+          },
+          "A": {
+            "format": "D6",
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Hazardous",
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Manta—Long-barrelled burst cannon array": {
+        "aspects": {
+          "Label": "Long-barrelled burst cannon array"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 32
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Manta—Heavy rail cannon": {
+        "aspects": {
+          "Label": "Heavy rail cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 120
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 26
+          },
+          "AP": {
+            "value": -5
+          },
+          "D": {
+            "value": 12
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds"
+          ]
+        }
+      },
+      "Melee Weapon§Manta—Armoured hull": {
+        "aspects": {
+          "Label": "Armoured hull"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 8
+          },
+          "WS": {
+            "value": 5
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Strike Team—Support turret": {
+        "aspects": {
+          "Label": "Support turret"
+        },
+        "stats": {
+          "Range": {
+            "value": 30
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 5
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            "Ability§Indirect Fire"
+          ]
+        }
+      },
+      "Ranged Weapon§Ta’unar Supremacy Armour—Heavy rail cannon array": {
+        "aspects": {
+          "Label": "Heavy rail cannon array"
+        },
+        "stats": {
+          "Range": {
+            "value": 120
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 26
+          },
+          "AP": {
+            "value": -5
+          },
+          "D": {
+            "value": 16
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy",
+            "Ability§Devastating Wounds"
+          ]
+        }
+      },
+      "Ranged Weapon§Ta’unar Supremacy Armour—Nexus missile launcher": {
+        "aspects": {
+          "Label": "Nexus missile launcher"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 8
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Ta’unar Supremacy Armour—Tri-Axis Ion Cannon – standard": {
+        "aspects": {
+          "Label": "Tri-axis ion cannon – Standard"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "format": "D6",
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Ta’unar Supremacy Armour—Tri-Axis Ion Cannon – supercharge": {
+        "aspects": {
+          "Label": "Tri-axis ion cannon – Supercharge"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "format": "D6",
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Hazardous",
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Ta’unar Supremacy Armour—Fragmentation cluster shell launcher": {
+        "aspects": {
+          "Label": "Fragmentation cluster shell launcher"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "format": "2D6",
+            "value": 6
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Ta’unar Supremacy Armour—Fusion eradicator": {
+        "aspects": {
+          "Label": "Fusion eradicator"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 5
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "3"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§The Twin Lance—Fusion eliminator – Ranged": {
+        "aspects": {
+          "Label": "Fusion eliminator – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§The Twin Lance—XV pulse pistol – Ranged": {
+        "aspects": {
+          "Label": "XV pulse pistol – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Melee Weapon§The Twin Lance—Fusion eliminator – Melee": {
+        "aspects": {
+          "Label": "Fusion eliminator – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 1
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "format": "D6",
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Extra Attacks"
+          ]
+        }
+      },
+      "Melee Weapon§The Twin Lance—Ion scattercannon – Melee": {
+        "aspects": {
+          "Label": "Ion scattercannon – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Extra Attacks"
+          ]
+        }
+      },
+      "Melee Weapon§The Twin Lance—XV pulse pistol – Melee": {
+        "aspects": {
+          "Label": "XV pulse pistol – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Tiger Shark—Swiftstrike railgun": {
+        "aspects": {
+          "Label": "Swiftstrike railgun"
+        },
+        "stats": {
+          "Range": {
+            "value": 72
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 20
+          },
+          "AP": {
+            "value": -5
+          },
+          "D": {
+            "format": "D6",
+            "value": 6
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds"
+          ]
+        }
+      },
+      "Ranged Weapon§Tiger Shark—Cyclic ion blaster – standard": {
+        "aspects": {
+          "Label": "Cyclic ion blaster – Standard"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Tiger Shark—Cyclic ion blaster – overcharge": {
+        "aspects": {
+          "Label": "Cyclic ion blaster – Overcharge"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Hazardous"
+          ]
+        }
+      },
+      "Ranged Weapon§Tiger Shark—Swiftstrike burst cannon": {
+        "aspects": {
+          "Label": "Swiftstrike burst cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 16
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Tiger Shark—Skyspear missile rack": {
+        "aspects": {
+          "Label": "Skyspear missile rack"
+        },
+        "stats": {
+          "Range": {
+            "value": 72
+          },
+          "A": {
+            "format": "D6",
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "fly"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Tiger Shark—Ion cannon – standard": {
+        "aspects": {
+          "Label": "Ion cannon – Standard"
+        },
+        "stats": {
+          "Range": {
+            "value": 60
+          },
+          "A": {
+            "format": "D6",
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Tiger Shark—Ion cannon – overcharge": {
+        "aspects": {
+          "Label": "Ion cannon – Overcharge"
+        },
+        "stats": {
+          "Range": {
+            "value": 60
+          },
+          "A": {
+            "format": "D6",
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Hazardous",
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Melee Weapon§Tiger Shark—Armoured hull": {
+        "aspects": {
+          "Label": "Armoured hull"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 5
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
         }
       }
     },

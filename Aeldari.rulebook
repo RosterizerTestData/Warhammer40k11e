@@ -1,6 +1,6 @@
 {
   "name": "Aeldari 11e",
-  "revision": "11.1.14",
+  "revision": "11.1.15",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -4520,7 +4520,8 @@
             "Ranged Weapon§Spiritseer—Shuriken pistol",
             "Melee Weapon§Spiritseer—Witch staff",
             "Ability§Stealth",
-            "Ability§Spiritseer"
+            "Ability§Spiritseer",
+            "Ability§Battle Focus"
           ]
         },
         "keywords": {
@@ -9742,7 +9743,7 @@
             "value": 5
           },
           "AP": {
-            "value": 2
+            "value": -2
           },
           "D": {
             "value": 2
@@ -10372,6 +10373,10 @@
           },
           "WS": {
             "value": 3
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
           }
         }
       },
@@ -10464,6 +10469,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Psychic",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -10474,8 +10480,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Psychic"
+            }
           ]
         },
         "stats": {
@@ -10583,9 +10588,7 @@
         "aspects": {
           "Label": "Diresword"
         },
-        "assets": {
-          "traits": []
-        },
+        "assets": {},
         "stats": {
           "A": {
             "value": 4
@@ -10739,6 +10742,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Psychic",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -10749,8 +10753,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Psychic"
+            }
           ]
         },
         "stats": {
@@ -10812,6 +10815,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Psychic",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -10822,8 +10826,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Psychic"
+            }
           ]
         },
         "stats": {
@@ -10894,6 +10897,10 @@
           },
           "WS": {
             "value": 3
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
           }
         }
       },
@@ -11249,8 +11256,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Incubi—Demiklaives – single blade",
-            "Melee Weapon§Incubi—Demiklaives – dual blades"
+            "Melee Weapon§Ynnari Incubi—Demiklaives – dual blades",
+            "Melee Weapon§Ynnari Incubi—Demiklaives – single blade"
           ]
         },
         "keywords": {
@@ -11627,6 +11634,22 @@
           "WS": {
             "value": 2
           }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            }
+          ]
         }
       },
       "Melee Weapon§Lhykhis—Spider's Fangs": {
@@ -11635,8 +11658,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Extra Attacks",
-            "Ability§Lethal Hits"
+            "Ability§Lethal Hits",
+            "Ability§Extra Attacks"
           ]
         },
         "stats": {
@@ -11654,6 +11677,10 @@
           },
           "WS": {
             "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
           }
         }
       },
@@ -11681,6 +11708,10 @@
           },
           "WS": {
             "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
           }
         }
       },
@@ -11820,8 +11851,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Phantom Titan—Wraith glaive – strike",
-            "Melee Weapon§Phantom Titan—Wraith glaive – sweep"
+            "Melee Weapon§Phantom Titan—Wraith glaive – sweep",
+            "Melee Weapon§Phantom Titan—Wraith glaive – strike"
           ]
         },
         "keywords": {
@@ -12321,6 +12352,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Psychic",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -12331,8 +12363,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Psychic"
+            }
           ]
         },
         "stats": {
@@ -12710,27 +12741,6 @@
           "Tags": [
             "Multi-weapon"
           ]
-        },
-        "stats": {
-          "A": {
-            "value": 5
-          },
-          "AP": {
-            "value": -4
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 5
-          },
-          "WS": {
-            "value": 2
-          }
         }
       },
       "Melee Weapon§The Visarch—Asu-var - duellist stance": {
@@ -12739,8 +12749,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Precision"
+            "Ability§Precision",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -12758,6 +12768,10 @@
           },
           "WS": {
             "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
           }
         }
       },
@@ -12796,6 +12810,10 @@
           },
           "WS": {
             "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
           }
         }
       },
@@ -12830,6 +12848,10 @@
           },
           "WS": {
             "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
           }
         }
       },
@@ -12839,8 +12861,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§The Yncarne—Vilith-zhar – strike",
-            "Melee Weapon§The Yncarne—Vilith-zhar – sweep"
+            "Melee Weapon§The Yncarne—Vilith-zhar – sweep",
+            "Melee Weapon§The Yncarne—Vilith-zhar – strike"
           ]
         },
         "keywords": {
@@ -12980,29 +13002,29 @@
           }
         }
       },
-      "Melee Weapon§Vypers—Wraithbone hull": {
+      "Melee Weapon§Vyper—Wraithbone hull": {
         "aspects": {
           "Label": "Wraithbone hull"
         },
         "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
           "A": {
             "value": 3
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 6
           },
           "AP": {
             "value": 0
           },
           "D": {
             "value": 1
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 6
-          },
-          "WS": {
-            "value": 4
           }
         }
       },
@@ -13069,6 +13091,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Psychic",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -13079,8 +13102,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Psychic"
+            }
           ]
         },
         "stats": {
@@ -13142,6 +13164,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Psychic",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -13152,8 +13175,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Psychic"
+            }
           ]
         },
         "stats": {
@@ -13215,6 +13237,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Psychic",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -13225,8 +13248,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Psychic"
+            }
           ]
         },
         "stats": {
@@ -13328,6 +13350,10 @@
           },
           "WS": {
             "value": 3
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
           }
         }
       },
@@ -13551,8 +13577,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Wraithknight—Titanic ghostglaive – strike",
-            "Melee Weapon§Wraithknight—Titanic ghostglaive – sweep"
+            "Melee Weapon§Wraithknight with Ghostglaive—Titanic ghostglaive – sweep",
+            "Melee Weapon§Wraithknight with Ghostglaive—Titanic ghostglaive – strike"
           ]
         },
         "keywords": {
@@ -13619,8 +13645,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Wraithlord—Ghostglaive – strike",
-            "Melee Weapon§Wraithlord—Ghostglaive – sweep"
+            "Melee Weapon§Wraithlord—Ghostglaive – sweep",
+            "Melee Weapon§Wraithlord—Ghostglaive – strike"
           ]
         },
         "keywords": {
@@ -18081,7 +18107,7 @@
       "Model§Vyper": {
         "assets": {
           "traits": [
-            "Melee Weapon§Vypers—Wraithbone hull"
+            "Melee Weapon§Vyper—Wraithbone hull"
           ]
         },
         "stats": {
@@ -18103,7 +18129,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Vypers—Shuriken cannon"
+                    "trait": "Ranged Weapon§Vyper—Shuriken cannon"
                   }
                 ]
               },
@@ -18111,7 +18137,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Vypers—Missile launcher"
+                    "trait": "Ranged Weapon§Vyper—Missile launcher"
                   }
                 ]
               }
@@ -18129,7 +18155,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Vypers—Bright lance"
+                    "trait": "Ranged Weapon§Vyper—Bright lance"
                   }
                 ]
               },
@@ -18137,7 +18163,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Vypers—Scatter laser"
+                    "trait": "Ranged Weapon§Vyper—Scatter laser"
                   }
                 ]
               },
@@ -18145,7 +18171,7 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Vypers—Starcannon"
+                    "trait": "Ranged Weapon§Vyper—Starcannon"
                   }
                 ]
               }
@@ -18273,7 +18299,7 @@
             "visibility": "active"
           },
           "Ld": {
-            "value": 6
+            "value": 7
           },
           "M": {
             "value": 10
@@ -18880,6 +18906,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Pistol",
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -18890,9 +18918,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Assault",
-            "Ability§Pistol"
+            }
           ]
         },
         "stats": {
@@ -18922,8 +18948,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -19087,7 +19113,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
             {
               "item": "Ability§Melta",
               "stats": {
@@ -19095,7 +19120,8 @@
                   "value": "3"
                 }
               }
-            }
+            },
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -19126,7 +19152,7 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
+            "Ability§Pistol",
             {
               "item": "Ability§Melta",
               "stats": {
@@ -19135,7 +19161,7 @@
                 }
               }
             },
-            "Ability§Pistol"
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -19182,8 +19208,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
-            "Ability§Ignores Cover"
+            "Ability§Ignores Cover",
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -19213,8 +19239,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
-            "Ability§Ignores Cover"
+            "Ability§Ignores Cover",
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -19244,8 +19270,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -19309,7 +19335,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
             {
               "item": "Ability§Melta",
               "stats": {
@@ -19317,7 +19342,8 @@
                   "value": "3"
                 }
               }
-            }
+            },
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -19348,7 +19374,7 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
+            "Ability§Pistol",
             {
               "item": "Ability§Melta",
               "stats": {
@@ -19357,7 +19383,7 @@
                 }
               }
             },
-            "Ability§Pistol"
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -19404,8 +19430,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
-            "Ability§Ignores Cover"
+            "Ability§Ignores Cover",
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -19435,8 +19461,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
-            "Ability§Ignores Cover"
+            "Ability§Ignores Cover",
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -19466,8 +19492,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -19535,8 +19561,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Lethal Hits"
+            "Ability§Lethal Hits",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -20557,8 +20583,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -20569,7 +20595,7 @@
             "value": -3
           },
           "BS": {
-            "value": 2
+            "value": 3
           },
           "D": {
             "format": "D3",
@@ -20620,9 +20646,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
+            "Ability§Torrent",
             "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -20654,7 +20680,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
             {
               "item": "Ability§Melta",
               "stats": {
@@ -20662,7 +20687,8 @@
                   "value": "2"
                 }
               }
-            }
+            },
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -20677,7 +20703,7 @@
           },
           "D": {
             "format": "D6",
-            "value": 1
+            "value": 0
           },
           "Range": {
             "value": 12
@@ -20693,6 +20719,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Pistol",
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -20703,9 +20731,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Assault",
-            "Ability§Pistol"
+            }
           ]
         },
         "stats": {
@@ -20735,8 +20761,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -20769,8 +20795,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -20831,6 +20857,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Pistol",
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -20841,9 +20869,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Assault",
-            "Ability§Pistol"
+            }
           ]
         },
         "stats": {
@@ -20873,8 +20899,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -20937,8 +20963,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -20968,7 +20994,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -20976,7 +21001,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -21004,9 +21030,7 @@
         "aspects": {
           "Label": "Wraithcannon"
         },
-        "assets": {
-          "traits": []
-        },
+        "assets": {},
         "stats": {
           "A": {
             "value": 1
@@ -21066,6 +21090,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Psychic",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -21076,8 +21101,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Psychic"
+            }
           ]
         },
         "stats": {
@@ -21108,7 +21132,7 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
+            "Ability§Pistol",
             {
               "item": "Ability§Melta",
               "stats": {
@@ -21117,7 +21141,7 @@
                 }
               }
             },
-            "Ability§Pistol"
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -21148,8 +21172,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
-            "Ability§Precision"
+            "Ability§Precision",
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -21179,6 +21203,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Pistol",
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -21189,9 +21215,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Assault",
-            "Ability§Pistol"
+            }
           ]
         },
         "stats": {
@@ -21221,8 +21245,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -21285,8 +21309,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -21316,7 +21340,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -21324,7 +21347,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -21352,9 +21376,7 @@
         "aspects": {
           "Label": "Wraithcannon"
         },
-        "assets": {
-          "traits": []
-        },
+        "assets": {},
         "stats": {
           "A": {
             "value": 1
@@ -21460,8 +21482,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Dark Reapers—Missile launcher – starshot",
-            "Ranged Weapon§Dark Reapers—Missile launcher – sunburst"
+            "Ranged Weapon§Dark Reapers—Missile launcher – sunburst",
+            "Ranged Weapon§Dark Reapers—Missile launcher – starshot"
           ]
         },
         "keywords": {
@@ -21507,8 +21529,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Ignores Cover"
+            "Ability§Ignores Cover",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -21615,8 +21637,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Lethal Hits"
+            "Ability§Lethal Hits",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -21646,8 +21668,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Indirect Fire"
+            "Ability§Indirect Fire",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -21708,8 +21730,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -21739,6 +21761,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Psychic",
+            "Ability§Precision",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -21749,9 +21773,7 @@
                   "value": "4+"
                 }
               }
-            },
-            "Ability§Precision",
-            "Ability§Psychic"
+            }
           ]
         },
         "stats": {
@@ -21782,8 +21804,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -21839,8 +21861,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Falcon—Missile launcher – starshot",
-            "Ranged Weapon§Falcon—Missile launcher – sunburst"
+            "Ranged Weapon§Falcon—Missile launcher – sunburst",
+            "Ranged Weapon§Falcon—Missile launcher – starshot"
           ]
         },
         "keywords": {
@@ -22030,8 +22052,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -22061,8 +22083,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Psychic"
+            "Ability§Psychic",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -22094,8 +22116,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -22156,8 +22178,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -22187,8 +22209,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Psychic"
+            "Ability§Psychic",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -22220,8 +22242,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -22282,7 +22304,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
             {
               "item": "Ability§Melta",
               "stats": {
@@ -22290,7 +22311,8 @@
                   "value": "3"
                 }
               }
-            }
+            },
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -22321,7 +22343,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
             "Ability§Pistol",
             {
               "item": "Ability§Melta",
@@ -22330,7 +22351,8 @@
                   "value": "3"
                 }
               }
-            }
+            },
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -22361,8 +22383,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
             "Ability§Torrent",
+            "Ability§Ignores Cover",
             "Ability§Assault"
           ]
         },
@@ -22396,7 +22418,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
             {
               "item": "Ability§Melta",
               "stats": {
@@ -22404,7 +22425,8 @@
                   "value": "6"
                 }
               }
-            }
+            },
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -22526,8 +22548,7 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "2"
+            "value": 2
           },
           "AP": {
             "value": -4
@@ -22557,8 +22578,7 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "3"
+            "value": 3
           },
           "AP": {
             "value": -1
@@ -22583,8 +22603,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -22849,8 +22869,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Guardian Defenders—Missile launcher – starshot",
-            "Ranged Weapon§Guardian Defenders—Missile launcher – sunburst"
+            "Ranged Weapon§Guardian Defenders—Missile launcher – sunburst",
+            "Ranged Weapon§Guardian Defenders—Missile launcher – starshot"
           ]
         },
         "keywords": {
@@ -23287,8 +23307,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -23570,8 +23590,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -23605,6 +23625,15 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Heavy",
+            {
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
@@ -23612,15 +23641,6 @@
                 },
                 "x": {
                   "value": "3+"
-                }
-              }
-            },
-            "Ability§Heavy",
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "1"
                 }
               }
             }
@@ -23653,6 +23673,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Pistol",
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -23663,9 +23685,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Assault",
-            "Ability§Pistol"
+            }
           ]
         },
         "stats": {
@@ -23695,6 +23715,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -23705,8 +23726,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Assault"
+            }
           ]
         },
         "stats": {
@@ -23767,6 +23787,10 @@
         },
         "assets": {
           "traits": [
+            "Ability§Psychic",
+            "Ability§Ignores Cover",
+            "Ability§Hazardous",
+            "Ability§Blast",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -23777,11 +23801,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Blast",
-            "Ability§Hazardous",
-            "Ability§Ignores Cover",
-            "Ability§Psychic"
+            }
           ]
         },
         "stats": {
@@ -23812,9 +23832,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
+            "Ability§Twin-linked",
             "Ability§Torrent",
-            "Ability§Twin-linked"
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -23909,9 +23929,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
+            "Ability§Twin-linked",
             "Ability§Indirect Fire",
-            "Ability§Twin-linked"
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -23972,8 +23992,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -24072,14 +24092,14 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Devastating Wounds"
+            "Ability§Devastating Wounds",
+            "Ability§Blast"
           ]
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D6"
+            "format": "D6",
+            "value": 0
           },
           "AP": {
             "value": -4
@@ -24088,8 +24108,8 @@
             "value": 3
           },
           "D": {
-            "statType": "term",
-            "value": "2D6"
+            "format": "2D6",
+            "value": 0
           },
           "Range": {
             "value": 72
@@ -24164,8 +24184,8 @@
             "value": 3
           },
           "D": {
-            "statType": "term",
-            "value": "D6"
+            "format": "D6",
+            "value": 0
           },
           "Range": {
             "value": 48
@@ -24181,8 +24201,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "2D6"
+            "format": "2D6",
+            "value": 0
           },
           "AP": {
             "value": -3
@@ -24302,8 +24322,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -24446,8 +24466,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -24508,7 +24528,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
             {
               "item": "Ability§Melta",
               "stats": {
@@ -24516,7 +24535,8 @@
                   "value": "3"
                 }
               }
-            }
+            },
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -24547,6 +24567,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Pistol",
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -24557,9 +24579,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Assault",
-            "Ability§Pistol"
+            }
           ]
         },
         "stats": {
@@ -24589,6 +24609,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -24599,8 +24620,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Assault"
+            }
           ]
         },
         "stats": {
@@ -24635,8 +24655,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "2D6"
+            "format": "2D6",
+            "value": 0
           },
           "AP": {
             "value": -2
@@ -24691,17 +24711,8 @@
         },
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "monster"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            },
+            "Ability§Torrent",
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -24713,14 +24724,23 @@
                 }
               }
             },
-            "Ability§Assault",
-            "Ability§Torrent"
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "monster"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
           ]
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D6+6"
+            "format": "D6",
+            "value": 6
           },
           "AP": {
             "value": -3
@@ -25124,8 +25144,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -25222,8 +25242,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -25371,8 +25391,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -25432,8 +25452,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Blast"
+            "Ability§Blast",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -25464,9 +25484,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
+            "Ability§Torrent",
             "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -25538,8 +25558,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -25601,8 +25621,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -25663,6 +25683,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Pistol",
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -25673,9 +25695,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Assault",
-            "Ability§Pistol"
+            }
           ]
         },
         "stats": {
@@ -25705,9 +25725,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
+            "Ability§Indirect Fire",
             "Ability§Devastating Wounds",
-            "Ability§Indirect Fire"
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -25739,8 +25759,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Indirect Fire"
+            "Ability§Indirect Fire",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -25799,11 +25819,7 @@
         "aspects": {
           "Label": "Vibro cannon"
         },
-        "assets": {
-          "traits": [
-            "Ability§Heavy"
-          ]
-        },
+        "assets": {},
         "stats": {
           "A": {
             "format": "D6",
@@ -25822,7 +25838,7 @@
             "value": 48
           },
           "S": {
-            "value": 8
+            "value": 9
           }
         }
       },
@@ -25832,8 +25848,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Lethal Hits"
+            "Ability§Lethal Hits",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -25893,8 +25909,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Lethal Hits"
+            "Ability§Lethal Hits",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -25961,9 +25977,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
+            "Ability§Pistol",
             "Ability§Lethal Hits",
-            "Ability§Pistol"
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -25993,9 +26009,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
+            "Ability§Torrent",
             "Ability§Psychic",
-            "Ability§Torrent"
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -26172,6 +26188,14 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            {
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
@@ -26179,14 +26203,6 @@
                 },
                 "x": {
                   "value": "3+"
-                }
-              }
-            },
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "1"
                 }
               }
             }
@@ -26219,6 +26235,16 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -26229,17 +26255,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Assault",
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -26263,40 +26279,40 @@
           }
         }
       },
-      "Ranged Weapon§Vypers—Bright lance": {
+      "Ranged Weapon§Vyper—Bright lance": {
         "aspects": {
           "Label": "Bright lance"
         },
         "stats": {
+          "Range": {
+            "value": 36
+          },
           "A": {
             "value": 1
-          },
-          "AP": {
-            "value": -3
           },
           "BS": {
             "value": 3
           },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
           "D": {
             "format": "D6",
             "value": 2
-          },
-          "Range": {
-            "value": 36
-          },
-          "S": {
-            "value": 12
           }
         }
       },
-      "Ranged Weapon§Vypers—Missile launcher": {
+      "Ranged Weapon§Vyper—Missile launcher": {
         "aspects": {
           "Label": "Missile launcher"
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Vypers—Missile launcher – starshot",
-            "Ranged Weapon§Vypers—Missile launcher – sunburst"
+            "Ranged Weapon§Vyper—Missile launcher – sunburst",
+            "Ranged Weapon§Vyper—Missile launcher – starshot"
           ]
         },
         "keywords": {
@@ -26305,66 +26321,86 @@
           ]
         }
       },
-      "Ranged Weapon§Vypers—Missile launcher – starshot": {
+      "Ranged Weapon§Vyper—Missile launcher – starshot": {
         "aspects": {
-          "Label": "Starshot"
+          "Label": "Missile launcher – Starshot"
         },
         "stats": {
+          "Range": {
+            "value": 48
+          },
           "A": {
             "value": 1
-          },
-          "AP": {
-            "value": -2
           },
           "BS": {
             "value": 3
           },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -2
+          },
           "D": {
             "format": "D6",
             "value": 0
-          },
-          "Range": {
-            "value": 48
-          },
-          "S": {
-            "value": 10
           }
         }
       },
-      "Ranged Weapon§Vypers—Missile launcher – sunburst": {
+      "Ranged Weapon§Vyper—Missile launcher – sunburst": {
         "aspects": {
-          "Label": "Sunburst"
+          "Label": "Missile launcher – Sunburst"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
         },
         "assets": {
           "traits": [
             "Ability§Blast"
           ]
+        }
+      },
+      "Ranged Weapon§Vyper—Scatter laser": {
+        "aspects": {
+          "Label": "Scatter laser"
         },
         "stats": {
-          "A": {
-            "format": "D6",
-            "value": 0
+          "Range": {
+            "value": 36
           },
-          "AP": {
-            "value": -1
+          "A": {
+            "value": 6
           },
           "BS": {
             "value": 3
           },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
           "D": {
             "value": 1
-          },
-          "Range": {
-            "value": 48
-          },
-          "S": {
-            "value": 4
           }
-        }
-      },
-      "Ranged Weapon§Vypers—Scatter laser": {
-        "aspects": {
-          "Label": "Scatter laser"
         },
         "assets": {
           "traits": [
@@ -26377,84 +26413,64 @@
               }
             }
           ]
+        }
+      },
+      "Ranged Weapon§Vyper—Shuriken cannon": {
+        "aspects": {
+          "Label": "Shuriken cannon"
         },
         "stats": {
-          "A": {
-            "value": 6
+          "Range": {
+            "value": 24
           },
-          "AP": {
-            "value": 0
+          "A": {
+            "value": 3
           },
           "BS": {
             "value": 3
           },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 36
-          },
           "S": {
-            "value": 5
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
           }
-        }
-      },
-      "Ranged Weapon§Vypers—Shuriken cannon": {
-        "aspects": {
-          "Label": "Shuriken cannon"
         },
         "assets": {
           "traits": [
             "Ability§Lethal Hits"
           ]
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": -1
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "value": 24
-          },
-          "S": {
-            "value": 6
-          }
         }
       },
-      "Ranged Weapon§Vypers—Starcannon": {
+      "Ranged Weapon§Vyper—Starcannon": {
         "aspects": {
           "Label": "Starcannon"
         },
         "stats": {
+          "Range": {
+            "value": 36
+          },
           "A": {
             "value": 2
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 8
           },
           "AP": {
             "value": -3
           },
-          "BS": {
-            "value": 3
-          },
           "D": {
             "value": 2
-          },
-          "Range": {
-            "value": 36
-          },
-          "S": {
-            "value": 8
           }
         }
       },
-      "Ranged Weapon§Vypers—Twin shuriken catapult": {
+      "Ranged Weapon§Vyper—Twin shuriken catapult": {
         "aspects": {
           "Label": "Twin shuriken catapult"
         },
@@ -26517,8 +26533,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§War Walkers—Missile launcher – starshot",
-            "Ranged Weapon§War Walkers—Missile launcher – sunburst"
+            "Ranged Weapon§War Walkers—Missile launcher – sunburst",
+            "Ranged Weapon§War Walkers—Missile launcher – starshot"
           ]
         },
         "keywords": {
@@ -26682,8 +26698,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Psychic",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Psychic"
           ]
         },
         "stats": {
@@ -26716,8 +26732,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -26778,8 +26794,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Psychic",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Psychic"
           ]
         },
         "stats": {
@@ -26812,8 +26828,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -26874,8 +26890,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -26905,8 +26921,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Psychic",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Psychic"
           ]
         },
         "stats": {
@@ -26939,8 +26955,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -27116,9 +27132,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
             "Ability§Twin-linked",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -27151,8 +27167,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -27185,8 +27201,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -27466,8 +27482,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Wave Serpent—Twin missile launcher – starshot",
-            "Ranged Weapon§Wave Serpent—Twin missile launcher – sunburst"
+            "Ranged Weapon§Wave Serpent—Twin missile launcher – sunburst",
+            "Ranged Weapon§Wave Serpent—Twin missile launcher – starshot"
           ]
         },
         "keywords": {
@@ -27513,8 +27529,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -27545,7 +27561,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -27553,7 +27568,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Twin-linked"
           ]
         },
         "stats": {
@@ -27614,8 +27630,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -27742,8 +27758,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -27804,9 +27820,7 @@
         "aspects": {
           "Label": "Wraithcannon"
         },
-        "assets": {
-          "traits": []
-        },
+        "assets": {},
         "stats": {
           "A": {
             "value": 1
@@ -28019,9 +28033,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
+            "Ability§Torrent",
             "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -28054,8 +28068,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Wraithlord—Missile launcher – starshot",
-            "Ranged Weapon§Wraithlord—Missile launcher – sunburst"
+            "Ranged Weapon§Wraithlord—Missile launcher – sunburst",
+            "Ranged Weapon§Wraithlord—Missile launcher – starshot"
           ]
         },
         "keywords": {
@@ -28313,6 +28327,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Pistol",
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -28323,9 +28339,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Assault",
-            "Ability§Pistol"
+            }
           ]
         },
         "stats": {
@@ -28355,6 +28369,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Psychic",
+            "Ability§Devastating Wounds",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -28365,9 +28381,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Devastating Wounds",
-            "Ability§Psychic"
+            }
           ]
         },
         "stats": {
@@ -34915,14 +34929,6 @@
         }
       },
       "Unit§Vyper": {
-        "stats": {
-          "Points": {
-            "value": 75
-          }
-        },
-        "text": "WARNING: this unit was not in 10e and needs importing.\n\n**Harassment Fire**\nIn your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
-      },
-      "Unit§Vypers": {
         "allowed": {
           "items": [
             "Model§Vyper"
@@ -34955,7 +34961,7 @@
             "Aeldari",
             "Vehicle",
             "Fly",
-            "Vypers"
+            "Vyper"
           ],
           "Category": [
             "Vehicle"
@@ -34966,7 +34972,7 @@
             "value": 1
           },
           "model2ndCost": {
-            "value": 150
+            "value": 140
           },
           "model2ndTally": {
             "value": 2
@@ -38254,6 +38260,12 @@
           "Points": {
             "value": 65
           }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Battle Focus",
+            "Ability§Disparate Paths"
+          ]
         }
       },
       "Character§Shadowseer": {
@@ -38261,6 +38273,12 @@
           "Points": {
             "value": 50
           }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Battle Focus",
+            "Ability§Disparate Paths"
+          ]
         }
       },
       "Unit§Skyweavers": {
@@ -38271,6 +38289,12 @@
           "Points": {
             "value": 90
           }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Battle Focus",
+            "Ability§Disparate Paths"
+          ]
         }
       },
       "Character§Solitaire": {
@@ -38278,6 +38302,12 @@
           "Points": {
             "value": 105
           }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Battle Focus",
+            "Ability§Disparate Paths"
+          ]
         }
       },
       "Unit§Starweaver": {
@@ -38288,6 +38318,12 @@
           "unitDiscountThreshold": {
             "value": 4
           }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Battle Focus",
+            "Ability§Disparate Paths"
+          ]
         }
       },
       "Stratagem§Deceptive Feint": {
@@ -38442,6 +38478,2081 @@
             "evaluate": "AND",
             "failState": "error"
           }
+        }
+      },
+      "Ranged Weapon§Avatar of Khaine—The Wailing Doom – Ranged": {
+        "aspects": {
+          "Label": "The Wailing Doom – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 16
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "format": "D6",
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "D3"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Melee Weapon§Avatar of Khaine—The Wailing Doom – sweep": {
+        "aspects": {
+          "Label": "The Wailing Doom – Sweep"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 12
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Melee Weapon§Avatar of Khaine—The Wailing Doom – strike": {
+        "aspects": {
+          "Label": "The Wailing Doom – Strike"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 16
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "format": "D6",
+            "value": 2
+          }
+        }
+      },
+      "Melee Weapon§Avatar of Khaine—The Wailing Doom": {
+        "aspects": {
+          "Label": "The Wailing Doom"
+        },
+        "assets": {
+          "traits": [
+            "Melee Weapon§Avatar of Khaine—The Wailing Doom – sweep",
+            "Melee Weapon§Avatar of Khaine—The Wailing Doom – strike"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Melee Weapon§Eldrad Ulthran—The Staff of Ulthamar and witchblade": {
+        "aspects": {
+          "Label": "The Staff of Ulthamar and witchblade"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Farseer—Singing spear – Ranged": {
+        "aspects": {
+          "Label": "Singing spear – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic",
+            "Ability§Assault"
+          ]
+        }
+      },
+      "Melee Weapon§Farseer—Singing spear – Melee": {
+        "aspects": {
+          "Label": "Singing spear – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic"
+          ]
+        }
+      },
+      "Ranged Weapon§Farseer Skyrunner—Singing spear – Ranged": {
+        "aspects": {
+          "Label": "Singing spear – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic",
+            "Ability§Assault"
+          ]
+        }
+      },
+      "Melee Weapon§Farseer Skyrunner—Singing spear – Melee": {
+        "aspects": {
+          "Label": "Singing spear – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic"
+          ]
+        }
+      },
+      "Melee Weapon§Fuegan—The Fire Axe": {
+        "aspects": {
+          "Label": "The Fire Axe"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Howling Banshees—Triskele – Ranged": {
+        "aspects": {
+          "Label": "Triskele – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            },
+            "Ability§Assault"
+          ]
+        }
+      },
+      "Melee Weapon§Howling Banshees—Triskele – Melee": {
+        "aspects": {
+          "Label": "Triskele – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Melee Weapon§Jain Zar—strike": {
+        "aspects": {
+          "Label": "strike"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 8
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Maugan Ra—Maugetar – Ranged": {
+        "aspects": {
+          "Label": "Maugetar – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 6
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Ignores Cover",
+            "Ability§Devastating Wounds"
+          ]
+        }
+      },
+      "Melee Weapon§Maugan Ra—Maugetar – Melee": {
+        "aspects": {
+          "Label": "Maugetar – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Prince Yriel—Eye of Wrath": {
+        "aspects": {
+          "Label": "Eye of Wrath"
+        },
+        "stats": {
+          "Range": {
+            "value": 6
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol",
+            "Ability§Assault"
+          ]
+        }
+      },
+      "Melee Weapon§Prince Yriel—Spear of Twilight": {
+        "aspects": {
+          "Label": "Spear of Twilight"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lance"
+          ]
+        }
+      },
+      "Ranged Weapon§Rangers—Long rifle": {
+        "aspects": {
+          "Label": "Long rifle"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Precision",
+            "Ability§Heavy"
+          ]
+        }
+      },
+      "Ranged Weapon§Shining Spears—Star lance – Ranged": {
+        "aspects": {
+          "Label": "Star lance – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 6
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault"
+          ]
+        }
+      },
+      "Ranged Weapon§Shining Spears—Laser lance – Ranged": {
+        "aspects": {
+          "Label": "Laser lance – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 6
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault"
+          ]
+        }
+      },
+      "Melee Weapon§Shining Spears—Star lance – Melee": {
+        "aspects": {
+          "Label": "Star lance – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lance",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "vehicle"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            },
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "monster"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Melee Weapon§Shining Spears—Laser lance – Melee": {
+        "aspects": {
+          "Label": "Laser lance – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lance",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "vehicle"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            },
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "monster"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Shroud Runners—Long rifle": {
+        "aspects": {
+          "Label": "Long rifle"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Precision"
+          ]
+        }
+      },
+      "Ranged Weapon§Storm Guardians—Fusion gun": {
+        "aspects": {
+          "Label": "Fusion gun"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            },
+            "Ability§Assault"
+          ]
+        }
+      },
+      "Melee Weapon§Storm Guardians—Close combat weapon": {
+        "aspects": {
+          "Label": "Close combat weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Striking Scorpions—Chainsabres – Ranged": {
+        "aspects": {
+          "Label": "Chainsabres – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            "Ability§Pistol",
+            "Ability§Assault"
+          ]
+        }
+      },
+      "Melee Weapon§Striking Scorpions—Melee": {
+        "aspects": {
+          "Label": "Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Melee Weapon§Striking Scorpions—Chainsabres – Melee": {
+        "aspects": {
+          "Label": "Chainsabres – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Melee Weapon§Troupe—Power sword": {
+        "aspects": {
+          "Label": "Power sword"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds"
+          ]
+        }
+      },
+      "Ranged Weapon§Warlock—Singing Spear – Ranged": {
+        "aspects": {
+          "Label": "Singing Spear – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault",
+            "Ability§Psychic"
+          ]
+        }
+      },
+      "Melee Weapon§Warlock—Singing Spear – Melee": {
+        "aspects": {
+          "Label": "Singing Spear – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic"
+          ]
+        }
+      },
+      "Ranged Weapon§Warlock Conclave—Singing Spear – Ranged": {
+        "aspects": {
+          "Label": "Singing Spear – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault",
+            "Ability§Psychic"
+          ]
+        }
+      },
+      "Melee Weapon§Warlock Conclave—Singing Spear – Melee": {
+        "aspects": {
+          "Label": "Singing Spear – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic"
+          ]
+        }
+      },
+      "Ranged Weapon§Warlock Skyrunners—Singing Spear – Ranged": {
+        "aspects": {
+          "Label": "Singing Spear – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault",
+            "Ability§Psychic"
+          ]
+        }
+      },
+      "Melee Weapon§Warlock Skyrunners—Singing Spear – Melee": {
+        "aspects": {
+          "Label": "Singing Spear – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic"
+          ]
+        }
+      },
+      "Melee Weapon§Wraithknight with Ghostglaive—Titanic ghostglaive – sweep": {
+        "aspects": {
+          "Label": "Titanic ghostglaive – Sweep"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 15
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Melee Weapon§Wraithknight with Ghostglaive—Titanic ghostglaive – strike": {
+        "aspects": {
+          "Label": "Titanic ghostglaive – Strike"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 16
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 6
+          }
+        }
+      },
+      "Melee Weapon§Ynnari Incubi—Demiklaives – dual blades": {
+        "aspects": {
+          "Label": "Demiklaives – Dual blades"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
+        }
+      },
+      "Melee Weapon§Ynnari Incubi—Demiklaives – single blade": {
+        "aspects": {
+          "Label": "Demiklaives – Single blade"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Melee Weapon§Yvraine—Kha-vir, the Sword of Sorrows": {
+        "aspects": {
+          "Label": "Kha-vir, the Sword of Sorrows"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds"
+          ]
+        }
+      },
+      "Ability§Blade of the Clans": {
+        "text": "This unit’s melee attacks have **[SUSTAINED HITS 1]**."
+      },
+      "Ability§Cornered Prey": {
+        "text": "When an enemy unit **engaged** with this unit is selected to make a **fall-back move**, that enemy unit must use the **desperate escape mode**. If that enemy unit is **battle-shocked**, -1 from those **hazard rolls**."
+      },
+      "Character§Clanblade": {
+        "keywords": {
+          "Faction": [
+            "Asuryani"
+          ],
+          "Source": [
+            "11th Edition Codex"
+          ],
+          "Keywords": [
+            "Aeldari",
+            "Character",
+            "Exodite",
+            "Mobile",
+            "Mounted",
+            "Clanblade"
+          ],
+          "Category": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 10
+          },
+          "T": {
+            "value": 5
+          },
+          "Sv": {
+            "value": 4
+          },
+          "W": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 6
+          },
+          "OC": {
+            "value": 2
+          },
+          "Points": {
+            "value": 70
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Dragon Knights"
+            },
+            "Ability§Battle Focus",
+            "Ability§Blade of the Clans",
+            "Ability§Cornered Prey",
+            "Melee Weapon§Clanblade—Drakesteed Fangs and Talons",
+            "Melee Weapon§Clanblade—Moonblades",
+            "Ranged Weapon§Clanblade—Solar Carbine"
+          ]
+        }
+      },
+      "Ranged Weapon§Clanblade—Solar Carbine": {
+        "aspects": {
+          "Label": "Solar Carbine"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Melee Weapon§Clanblade—Moonblades": {
+        "aspects": {
+          "Label": "Moonblades"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Melee Weapon§Clanblade—Drakesteed Fangs and Talons": {
+        "aspects": {
+          "Label": "Drakesteed Fangs and Talons"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Extra Attacks"
+          ]
+        }
+      },
+      "Ability§On the Hunt": {
+        "text": "When this unit is selected to make a **fall-back move**, that **fall-back move** does not prevent this unit from being **eligible to shoot** and **eligible to declare a charge**."
+      },
+      "Ability§Agile Reach": {
+        "text": "When this unit is **selected to fight**, melee weapons equipped by **unengaged** models in this unit that are within 3\" of an enemy unit that is **engaged** with this unit can target that enemy unit."
+      },
+      "Unit§Dragon Knights": {
+        "keywords": {
+          "Faction": [
+            "Asuryani"
+          ],
+          "Source": [
+            "11th Edition Codex"
+          ],
+          "Keywords": [
+            "Aeldari",
+            "Exodite",
+            "Mobile",
+            "Mounted",
+            "Dragon Knights"
+          ],
+          "Category": [
+            "Mounted"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 10
+          },
+          "T": {
+            "value": 5
+          },
+          "Sv": {
+            "value": 4
+          },
+          "W": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 7
+          },
+          "OC": {
+            "value": 2
+          },
+          "Points": {
+            "value": 95
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Battle Focus",
+            "Ability§On the Hunt",
+            "Ability§Agile Reach",
+            "Melee Weapon§Dragon Knights—Drakesteed Fangs and Talons",
+            "Ranged Weapon§Dragon Knights—Laser Lance",
+            "Ranged Weapon§Dragon Knights—Solar Carbine"
+          ]
+        },
+        "aspects": {
+          "Type": "game piece"
+        },
+        "allowed": {
+          "items": [
+            "Character§Clanblade",
+            "Character§Stonesinger"
+          ]
+        }
+      },
+      "Ranged Weapon§Dragon Knights—Laser Lance": {
+        "aspects": {
+          "Label": "Laser Lance"
+        },
+        "stats": {
+          "Range": {
+            "value": 6
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault"
+          ]
+        }
+      },
+      "Ranged Weapon§Dragon Knights—Solar Carbine": {
+        "aspects": {
+          "Label": "Solar Carbine"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Melee Weapon§Dragon Knights—Laser Lance": {
+        "aspects": {
+          "Label": "Laser Lance"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lance"
+          ]
+        }
+      },
+      "Melee Weapon§Dragon Knights—Drakesteed Fangs and Talons": {
+        "aspects": {
+          "Label": "Drakesteed Fangs and Talons"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Extra Attacks"
+          ]
+        }
+      },
+      "Ability§Panicked Quarry": {
+        "text": "In your Shooting phase, when this unit has shot, select one enemy unit (excluding **MONSTER/VEHICLE** units) hit by those attacks. That enemy unit makes a **battle-shock roll**, with -1 to that **battle-shock roll**."
+      },
+      "Character§Leystalker": {
+        "keywords": {
+          "Faction": [
+            "Asuryani"
+          ],
+          "Source": [
+            "11th Edition Codex"
+          ],
+          "Keywords": [
+            "Aeldari",
+            "Character",
+            "Exodite",
+            "Mobile",
+            "Mounted",
+            "Leystalker"
+          ],
+          "Category": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 10
+          },
+          "T": {
+            "value": 5
+          },
+          "Sv": {
+            "value": 4
+          },
+          "W": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 7
+          },
+          "OC": {
+            "value": 2
+          },
+          "Points": {
+            "value": 75
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lone Operative",
+            "Ability§Stealth",
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "9\""
+                }
+              }
+            },
+            "Ability§Battle Focus",
+            "Ability§Panicked Quarry",
+            "Melee Weapon§Leystalker—Drakesteed Fangs and Talons",
+            "Ranged Weapon§Leystalker—Long Rifle",
+            "Melee Weapon§Leystalker—Hunting Blades"
+          ]
+        }
+      },
+      "Ranged Weapon§Leystalker—Long Rifle": {
+        "aspects": {
+          "Label": "Long Rifle"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Precision",
+            {
+              "item": "Ability§Devastating Wounds",
+              "stats": {
+                "x": {
+                  "value": "(non-MONSTER/VEHICLE)"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Melee Weapon§Leystalker—Drakesteed Fangs and Talons": {
+        "aspects": {
+          "Label": "Drakesteed Fangs and Talons"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Extra Attacks"
+          ]
+        }
+      },
+      "Melee Weapon§Leystalker—Hunting Blades": {
+        "aspects": {
+          "Label": "Hunting Blades"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ability§Elemental Ensnarement": {
+        "text": "At the end of your Fight phase, if this unit is not **battle-shocked**, you can use this ability. If you do, roll one D6:\n\n- On a 1, this unit is **battle-shocked**.\n\n- Select one **visible** enemy **MONSTER/VEHICLE** unit (excluding **TITANIC** units) within 18\" of this unit. That enemy unit is **ensnared** until the start of your next turn:\n\n- While a unit is **ensnared**, that unit has -2\" **M** and cannot be **pinned**."
+      },
+      "Character§Stonesinger": {
+        "keywords": {
+          "Faction": [
+            "Asuryani"
+          ],
+          "Source": [
+            "11th Edition Codex"
+          ],
+          "Keywords": [
+            "Aeldari",
+            "Character",
+            "Exodite",
+            "Mobile",
+            "Mounted",
+            "Psyker",
+            "Stonesinger"
+          ],
+          "Category": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 10
+          },
+          "T": {
+            "value": 5
+          },
+          "Sv": {
+            "value": 4
+          },
+          "W": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 7
+          },
+          "OC": {
+            "value": 2
+          },
+          "Points": {
+            "value": 55
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Support",
+              "text": "This model can be attached to the following units:\n\n* Dragon Knights"
+            },
+            "Ability§Battle Focus",
+            "Ability§Elemental Ensnarement",
+            "Melee Weapon§Stonesinger—Drakesteed Fangs and Talons",
+            "Ranged Weapon§Stonesinger—Song of Waning",
+            "Ranged Weapon§Stonesinger—Solar Carbine",
+            "Melee Weapon§Stonesinger—Stone Stave",
+            "Ranged Weapon§Stonesinger—Venomcrest Spit"
+          ]
+        }
+      },
+      "Ranged Weapon§Stonesinger—Solar Carbine": {
+        "aspects": {
+          "Label": "Solar Carbine"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Stonesinger—Venomcrest Spit": {
+        "aspects": {
+          "Label": "Venomcrest Spit"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 3
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Torrent",
+            {
+              "item": "Ability§Blast",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "non-monster/vehicle"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Stonesinger—Song of Waning": {
+        "aspects": {
+          "Label": "Song of Waning"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "monster/vehicle"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Melee Weapon§Stonesinger—Drakesteed Fangs and Talons": {
+        "aspects": {
+          "Label": "Drakesteed Fangs and Talons"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Extra Attacks"
+          ]
+        }
+      },
+      "Melee Weapon§Stonesinger—Stone Stave": {
+        "aspects": {
+          "Label": "Stone Stave"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "non-monster/vehicle"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            }
+          ]
         }
       }
     },

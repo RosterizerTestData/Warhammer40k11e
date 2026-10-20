@@ -1,6 +1,6 @@
 {
   "name": "Agents of the Imperium 11e",
-  "revision": "11.1.14",
+  "revision": "11.1.15",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -2749,7 +2749,33 @@
         "stats": {
           "Points": {
             "value": 5
+          },
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
           }
+        },
+        "aspects": {
+          "Label": "Psycannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic"
+          ]
         }
       },
       "Unit§Imperial Rhino": {
@@ -2760,6 +2786,11 @@
           "unitDiscountThreshold": {
             "value": 4
           }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assigned Agents"
+          ]
         }
       },
       "Character§Inquisitor": {
@@ -2834,7 +2865,42 @@
         "stats": {
           "Points": {
             "value": 15
+          },
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
           }
+        },
+        "aspects": {
+          "Label": "Twin multi-melta"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
         }
       },
       "Unit§Sisters of Battle Squad": {
@@ -2870,6 +2936,268 @@
           "Points": {
             "value": 105
           }
+        }
+      },
+      "Ranged Weapon§Aquila Kill Team—Grenade Launcher – frag": {
+        "aspects": {
+          "Label": "Grenade Launcher – Frag"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Blast",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Aquila Kill Team—Grenade Launcher – krak": {
+        "aspects": {
+          "Label": "Grenade Launcher – Krak"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Aquila Kill Team—Grenade Launcher": {
+        "aspects": {
+          "Label": "Grenade Launcher"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Aquila Kill Team—Grenade Launcher – frag",
+            "Ranged Weapon§Aquila Kill Team—Grenade Launcher – krak"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Melee Weapon§Aquila Kill Team—Knives and Fists": {
+        "aspects": {
+          "Label": "Knives and Fists"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Deathwatch Kill Team—Heavy Thunder Hammer": {
+        "aspects": {
+          "Label": "Heavy Thunder Hammer"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds"
+          ]
+        }
+      },
+      "Melee Weapon§Deathwatch Kill Team—Knives and Fists": {
+        "aspects": {
+          "Label": "Knives and Fists"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Ministorum Priest (Agents)—Zealot’s vindictor – Ranged": {
+        "aspects": {
+          "Label": "Zealot’s vindictor – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
+          ]
+        }
+      },
+      "Melee Weapon§Ministorum Priest (Agents)—Zealot’s vindictor – Melee": {
+        "aspects": {
+          "Label": "Zealot’s vindictor – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Vindicare Assassin—Exitus Rifle": {
+        "aspects": {
+          "Label": "Exitus rifle"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D3",
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Precision",
+            "Ability§Ignores Cover",
+            "Ability§Heavy",
+            "Ability§Devastating Wounds"
+          ]
         }
       }
     },

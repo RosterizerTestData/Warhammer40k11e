@@ -1,6 +1,6 @@
 {
   "name": "Leagues of Votann 11e",
-  "revision": "11.1.14",
+  "revision": "11.1.15",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -3300,17 +3300,6 @@
           "Tags": [
             "Multi-weapon"
           ]
-        },
-        "stats": {
-          "A": {},
-          "AP": {},
-          "D": {},
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {},
-          "WS": {}
         }
       },
       "Melee Weapon§Berehk Stornbröw—Kromlôk’s Revenge – graviton strikes": {
@@ -3323,7 +3312,7 @@
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
-                  "value": "monster"
+                  "value": "vehicle"
                 },
                 "x": {
                   "value": "3+"
@@ -3334,7 +3323,7 @@
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
-                  "value": "vehicle"
+                  "value": "monster"
                 },
                 "x": {
                   "value": "3+"
@@ -3372,9 +3361,7 @@
         "aspects": {
           "Label": "Plasma sweeps"
         },
-        "assets": {
-          "traits": []
-        },
+        "assets": {},
         "keywords": {
           "Tags": []
         },
@@ -3593,8 +3580,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Buri Aegnirssen—Bane – strike",
-            "Melee Weapon§Buri Aegnirssen—Bane – sweep"
+            "Melee Weapon§Buri Aegnirssen—Bane – sweep",
+            "Melee Weapon§Buri Aegnirssen—Bane – strike"
           ]
         },
         "keywords": {
@@ -3630,6 +3617,10 @@
           },
           "WS": {
             "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
           }
         }
       },
@@ -3637,9 +3628,7 @@
         "aspects": {
           "Label": "Sweep"
         },
-        "assets": {
-          "traits": []
-        },
+        "assets": {},
         "keywords": {
           "Tags": []
         },
@@ -3658,6 +3647,10 @@
           },
           "WS": {
             "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
           }
         }
       },
@@ -3671,7 +3664,7 @@
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
-                  "value": "monster"
+                  "value": "vehicle"
                 },
                 "x": {
                   "value": "3+"
@@ -3682,7 +3675,7 @@
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
-                  "value": "vehicle"
+                  "value": "monster"
                 },
                 "x": {
                   "value": "3+"
@@ -3717,9 +3710,7 @@
         "aspects": {
           "Label": "Heavy plasma axe"
         },
-        "assets": {
-          "traits": []
-        },
+        "assets": {},
         "keywords": {
           "Tags": []
         },
@@ -3738,6 +3729,10 @@
           },
           "WS": {
             "value": 4
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
           }
         }
       },
@@ -3887,7 +3882,7 @@
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
-                  "value": "monster"
+                  "value": "vehicle"
                 },
                 "x": {
                   "value": "3+"
@@ -3898,7 +3893,7 @@
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
-                  "value": "vehicle"
+                  "value": "monster"
                 },
                 "x": {
                   "value": "3+"
@@ -3972,8 +3967,8 @@
             "value": -1
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "statType": "term",
@@ -4084,6 +4079,10 @@
           },
           "WS": {
             "value": 4
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
           }
         }
       },
@@ -4195,9 +4194,7 @@
         "aspects": {
           "Label": "Plasma knife"
         },
-        "assets": {
-          "traits": []
-        },
+        "assets": {},
         "stats": {
           "A": {
             "value": 2
@@ -4684,7 +4681,7 @@
             "value": 7
           },
           "M": {
-            "value": 5
+            "value": 6
           },
           "OC": {
             "value": 1
@@ -5973,7 +5970,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -5981,7 +5977,8 @@
                   "value": "2"
                 }
               }
-            }
+            },
+            "Ability§Hazardous"
           ]
         },
         "keywords": {
@@ -6054,7 +6051,7 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
+            "Ability§Overcharge",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -6063,7 +6060,7 @@
                 }
               }
             },
-            "Ability§Overcharge"
+            "Ability§Hazardous"
           ]
         },
         "keywords": {
@@ -6094,11 +6091,7 @@
         "aspects": {
           "Label": "Autoch-pattern bolt pistol"
         },
-        "assets": {
-          "traits": [
-            "Ability§Pistol"
-          ]
-        },
+        "assets": {},
         "stats": {
           "A": {
             "value": 1
@@ -6290,8 +6283,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Conversion",
-            "Ability§Lethal Hits"
+            "Ability§Lethal Hits",
+            "Ability§Conversion"
           ]
         },
         "stats": {
@@ -6351,8 +6344,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Indirect Fire"
+            "Ability§Indirect Fire",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -6413,9 +6406,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
+            "Ability§Indirect Fire",
             "Ability§Heavy",
-            "Ability§Indirect Fire"
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -6446,9 +6439,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
+            "Ability§Indirect Fire",
             "Ability§Heavy",
-            "Ability§Indirect Fire"
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -6559,7 +6552,7 @@
             "value": 1
           },
           "Range": {
-            "value": 18
+            "value": 24
           },
           "S": {
             "value": 3
@@ -6618,8 +6611,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
-            "Ability§Psychic"
+            "Ability§Psychic",
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -6633,8 +6626,8 @@
             "value": 3
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 24
@@ -6664,8 +6657,8 @@
             "value": 3
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 24
@@ -6798,7 +6791,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -6806,7 +6798,8 @@
                   "value": "3"
                 }
               }
-            }
+            },
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -6836,7 +6829,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -6844,7 +6836,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -6929,8 +6922,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Hearthkyn Warriors—L7 missile launcher – blast",
-            "Ranged Weapon§Hearthkyn Warriors—L7 missile launcher – focused"
+            "Ranged Weapon§Hearthkyn Warriors—L7 missile launcher – focused",
+            "Ranged Weapon§Hearthkyn Warriors—L7 missile launcher – blast"
           ]
         },
         "keywords": {
@@ -7002,8 +6995,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Heavy"
+            "Ability§Heavy",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -7017,8 +7010,8 @@
             "value": 5
           },
           "D": {
-            "statType": "term",
-            "value": "D3+3"
+            "format": "D3",
+            "value": 3
           },
           "Range": {
             "value": 18
@@ -7095,8 +7088,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Heavy"
+            "Ability§Heavy",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -7127,8 +7120,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§One Shot"
+            "Ability§One Shot",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -7159,7 +7152,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -7167,7 +7159,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -7197,8 +7190,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Conversion",
-            "Ability§Lethal Hits"
+            "Ability§Lethal Hits",
+            "Ability§Conversion"
           ]
         },
         "stats": {
@@ -7228,6 +7221,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -7235,8 +7229,7 @@
                   "value": "2"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -7266,8 +7259,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -7467,7 +7460,7 @@
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
-                  "value": "monster"
+                  "value": "vehicle"
                 },
                 "x": {
                   "value": "3+"
@@ -7478,7 +7471,7 @@
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
-                  "value": "vehicle"
+                  "value": "monster"
                 },
                 "x": {
                   "value": "3+"
@@ -7575,8 +7568,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Precision"
+            "Ability§Precision",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -7843,8 +7836,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Heavy"
+            "Ability§Heavy",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -7933,9 +7926,7 @@
         "aspects": {
           "Label": "HYLas beam cannon"
         },
-        "assets": {
-          "traits": []
-        },
+        "assets": {},
         "stats": {
           "A": {
             "value": 2
@@ -7964,8 +7955,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Sagitaur—L7 missile launcher – blast",
-            "Ranged Weapon§Sagitaur—L7 missile launcher – focused"
+            "Ranged Weapon§Sagitaur—L7 missile launcher – focused",
+            "Ranged Weapon§Sagitaur—L7 missile launcher – blast"
           ]
         },
         "keywords": {
@@ -8054,6 +8045,19 @@
           "S": {
             "value": 7
           }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Assault"
+          ]
         }
       },
       "Ranged Weapon§Sagitaur—Sagitaur missile launcher": {
@@ -8087,6 +8091,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -8094,8 +8099,7 @@
                   "value": "2"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -10421,7 +10425,8 @@
             "Ability§Scanner Uplinks",
             "Ranged Weapon§Kapricus Carrier—Magna-coil autocannon",
             "Ranged Weapon§Kapricus Carrier—Twin magna-coil autocannon",
-            "Melee Weapon§Kapricus Carrier—Armoured hull"
+            "Melee Weapon§Kapricus Carrier—Armoured hull",
+            "Ability§Prioritised Efficiency"
           ]
         },
         "keywords": {
@@ -10528,7 +10533,8 @@
               }
             },
             "Model§Kapricus Defender",
-            "Ability§Opportunistic Manoeuvre"
+            "Ability§Opportunistic Manoeuvre",
+            "Ability§Prioritised Efficiency"
           ]
         },
         "keywords": {
@@ -10778,7 +10784,7 @@
             "value": 12
           },
           "OC": {
-            "value": 3
+            "value": 2
           },
           "Points": {
             "value": 95

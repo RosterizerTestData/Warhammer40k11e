@@ -1,6 +1,6 @@
 {
   "name": "Thousand Sons 11e",
-  "revision": "11.1.14",
+  "revision": "11.1.15",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -796,7 +796,7 @@
             "value": 3
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 6
@@ -970,7 +970,7 @@
             "value": 3
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 5
@@ -1061,7 +1061,7 @@
             "value": 3
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 6
@@ -1128,7 +1128,7 @@
             "value": 3
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 4
@@ -1311,7 +1311,7 @@
           }
         }
       },
-      "Character§Thousand Sons Daemon Prince": {
+      "Character§Daemon Prince of Tzeentch": {
         "aspects": {
           "Label": "Daemon Prince of Tzeentch"
         },
@@ -1336,10 +1336,10 @@
               }
             },
             "Ability§Cabal of Sorcerers",
-            "Ranged Weapon§Thousand Sons Daemon Prince—Infernal cannon",
-            "Melee Weapon§Thousand Sons Daemon Prince—Hellforged weapons",
+            "Ranged Weapon§Daemon Prince of Tzeentch—Infernal cannon",
+            "Melee Weapon§Daemon Prince of Tzeentch—Hellforged weapons",
             "Ability§Servile Pawns",
-            "Ranged Weapon§Thousand Sons Daemon Prince—Dark Blessing"
+            "Ranged Weapon§Daemon Prince of Tzeentch—Dark Blessing"
           ]
         },
         "keywords": {
@@ -1386,7 +1386,7 @@
           }
         }
       },
-      "Character§Thousand Sons Daemon Prince with Wings": {
+      "Character§Daemon Prince of Tzeentch with Wings": {
         "aspects": {
           "Label": "Daemon Prince of Tzeentch with Wings"
         },
@@ -1411,9 +1411,9 @@
               }
             },
             "Ability§Cabal of Sorcerers",
-            "Ranged Weapon§Thousand Sons Daemon Prince with Wings—Infernal cannon",
-            "Melee Weapon§Thousand Sons Daemon Prince with Wings—Hellforged weapons",
-            "Ranged Weapon§Thousand Sons Daemon Prince with Wings—Dark Blessing",
+            "Ranged Weapon§Daemon Prince of Tzeentch with Wings—Infernal cannon",
+            "Melee Weapon§Daemon Prince of Tzeentch with Wings—Hellforged weapons",
+            "Ranged Weapon§Daemon Prince of Tzeentch with Wings—Dark Blessing",
             "Ability§Deep Strike"
           ]
         },
@@ -1462,7 +1462,7 @@
           }
         }
       },
-      "Character§Thousand Sons Sorcerer": {
+      "Character§Sorcerer": {
         "aspects": {
           "Label": "Sorcerer"
         },
@@ -1483,9 +1483,9 @@
             },
             "Ability§Cabal of Sorcerers",
             "Ability§Twisted Sorceries (Psychic)",
-            "Ranged Weapon§Thousand Sons Sorcerer—Pandaemonic Delusion",
-            "Melee Weapon§Thousand Sons Sorcerer—Force weapon",
-            "Ranged Weapon§Thousand Sons Sorcerer—Inferno bolt pistol"
+            "Ranged Weapon§Sorcerer—Pandaemonic Delusion",
+            "Melee Weapon§Sorcerer—Force weapon",
+            "Ranged Weapon§Sorcerer—Inferno bolt pistol"
           ]
         },
         "keywords": {
@@ -1533,7 +1533,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Melee Weapon§Thousand Sons Sorcerer—Prosperine khopesh"
+                    "trait": "Melee Weapon§Sorcerer—Prosperine khopesh"
                   }
                 ]
               }
@@ -1547,7 +1547,7 @@
             "value": 3
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 4
@@ -1560,7 +1560,7 @@
           }
         }
       },
-      "Character§Thousand Sons Sorcerer in Terminator Armour": {
+      "Character§Sorcerer in Terminator Armour": {
         "aspects": {
           "Label": "Sorcerer in Terminator Armour"
         },
@@ -1583,8 +1583,8 @@
               }
             },
             "Ability§Cabal of Sorcerers",
-            "Melee Weapon§Thousand Sons Sorcerer in Terminator Armour—Force weapon",
-            "Ranged Weapon§Thousand Sons Sorcerer in Terminator Armour—Coruscating Flames"
+            "Melee Weapon§Sorcerer in Terminator Armour—Force weapon",
+            "Ranged Weapon§Sorcerer in Terminator Armour—Coruscating Flames"
           ]
         },
         "keywords": {
@@ -1624,7 +1624,7 @@
             "value": 2
           },
           "T": {
-            "value": 5
+            "value": 6
           },
           "W": {
             "value": 5
@@ -1638,7 +1638,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Thousand Sons Sorcerer in Terminator Armour—Inferno combi-bolter"
+                    "trait": "Ranged Weapon§Sorcerer in Terminator Armour—Inferno combi-bolter"
                   }
                 ]
               },
@@ -1646,7 +1646,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Thousand Sons Sorcerer in Terminator Armour—Inferno combi-weapon"
+                    "trait": "Ranged Weapon§Sorcerer in Terminator Armour—Inferno combi-weapon"
                   }
                 ]
               }
@@ -4245,8 +4245,8 @@
             "value": -1
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "statType": "term",
@@ -4303,8 +4303,8 @@
             "value": -1
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "statType": "term",
@@ -4361,8 +4361,8 @@
             "value": -1
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "statType": "term",
@@ -4382,8 +4382,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Magnus the Red—Blade of Magnus – strike",
-            "Melee Weapon§Magnus the Red—Blade of Magnus – sweep"
+            "Melee Weapon§Magnus the Red—Blade of Magnus – sweep",
+            "Melee Weapon§Magnus the Red—Blade of Magnus – strike"
           ]
         },
         "keywords": {
@@ -4398,8 +4398,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Psychic"
+            "Ability§Psychic",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -4526,7 +4526,7 @@
             "value": "Melee"
           },
           "S": {
-            "value": 4
+            "value": 5
           },
           "WS": {
             "value": 3
@@ -4550,8 +4550,8 @@
             "value": -1
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "statType": "term",
@@ -4582,8 +4582,8 @@
             "value": -1
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "statType": "term",
@@ -4701,14 +4701,14 @@
           }
         }
       },
-      "Melee Weapon§Thousand Sons Daemon Prince with Wings—Hellforged weapons": {
+      "Melee Weapon§Daemon Prince of Tzeentch with Wings—Hellforged weapons": {
         "aspects": {
           "Label": "Hellforged weapons"
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Thousand Sons Daemon Prince with Wings—Hellforged weapons – strike",
-            "Melee Weapon§Thousand Sons Daemon Prince with Wings—Hellforged weapons – sweep"
+            "Melee Weapon§Daemon Prince of Tzeentch with Wings—Hellforged weapons – sweep",
+            "Melee Weapon§Daemon Prince of Tzeentch with Wings—Hellforged weapons – strike"
           ]
         },
         "keywords": {
@@ -4717,7 +4717,7 @@
           ]
         }
       },
-      "Melee Weapon§Thousand Sons Daemon Prince with Wings—Hellforged weapons – strike": {
+      "Melee Weapon§Daemon Prince of Tzeentch with Wings—Hellforged weapons – strike": {
         "aspects": {
           "Label": "Strike"
         },
@@ -4749,7 +4749,7 @@
           }
         }
       },
-      "Melee Weapon§Thousand Sons Daemon Prince with Wings—Hellforged weapons – sweep": {
+      "Melee Weapon§Daemon Prince of Tzeentch with Wings—Hellforged weapons – sweep": {
         "aspects": {
           "Label": "Sweep"
         },
@@ -4781,14 +4781,14 @@
           }
         }
       },
-      "Melee Weapon§Thousand Sons Daemon Prince—Hellforged weapons": {
+      "Melee Weapon§Daemon Prince of Tzeentch—Hellforged weapons": {
         "aspects": {
           "Label": "Hellforged weapons"
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Thousand Sons Daemon Prince—Hellforged weapons – strike",
-            "Melee Weapon§Thousand Sons Daemon Prince—Hellforged weapons – sweep"
+            "Melee Weapon§Daemon Prince of Tzeentch—Hellforged weapons – sweep",
+            "Melee Weapon§Daemon Prince of Tzeentch—Hellforged weapons – strike"
           ]
         },
         "keywords": {
@@ -4797,7 +4797,7 @@
           ]
         }
       },
-      "Melee Weapon§Thousand Sons Daemon Prince—Hellforged weapons – strike": {
+      "Melee Weapon§Daemon Prince of Tzeentch—Hellforged weapons – strike": {
         "aspects": {
           "Label": "Strike"
         },
@@ -4829,7 +4829,7 @@
           }
         }
       },
-      "Melee Weapon§Thousand Sons Daemon Prince—Hellforged weapons – sweep": {
+      "Melee Weapon§Daemon Prince of Tzeentch—Hellforged weapons – sweep": {
         "aspects": {
           "Label": "Sweep"
         },
@@ -4861,7 +4861,7 @@
           }
         }
       },
-      "Melee Weapon§Thousand Sons Sorcerer in Terminator Armour—Force weapon": {
+      "Melee Weapon§Sorcerer in Terminator Armour—Force weapon": {
         "aspects": {
           "Label": "Force weapon"
         },
@@ -4878,8 +4878,8 @@
             "value": -1
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "statType": "term",
@@ -4893,7 +4893,7 @@
           }
         }
       },
-      "Melee Weapon§Thousand Sons Sorcerer—Force weapon": {
+      "Melee Weapon§Sorcerer—Force weapon": {
         "aspects": {
           "Label": "Force weapon"
         },
@@ -4910,8 +4910,8 @@
             "value": -1
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "statType": "term",
@@ -4925,13 +4925,13 @@
           }
         }
       },
-      "Melee Weapon§Thousand Sons Sorcerer—Prosperine khopesh": {
+      "Melee Weapon§Sorcerer—Prosperine khopesh": {
         "aspects": {
           "Label": "Prosperine khopesh"
         },
         "stats": {
           "A": {
-            "value": 4
+            "value": 3
           },
           "AP": {
             "value": -2
@@ -5014,8 +5014,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Lance",
-            "Ability§Precision"
+            "Ability§Precision",
+            "Ability§Lance"
           ]
         },
         "stats": {
@@ -5177,7 +5177,7 @@
             "value": 3
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 3
@@ -5471,7 +5471,7 @@
             "value": 3
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 2
@@ -5504,7 +5504,7 @@
             "value": 2
           },
           "T": {
-            "value": 5
+            "value": 6
           },
           "W": {
             "value": 4
@@ -5622,7 +5622,7 @@
             "value": 2
           },
           "T": {
-            "value": 5
+            "value": 6
           },
           "W": {
             "value": 3
@@ -6010,7 +6010,7 @@
             "value": 1
           },
           "AP": {
-            "value": -1
+            "value": -2
           },
           "BS": {
             "value": 2
@@ -6022,7 +6022,7 @@
             "value": 12
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -6064,9 +6064,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
+            "Ability§Torrent",
             "Ability§Psychic",
-            "Ability§Torrent"
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -6083,8 +6083,8 @@
             "value": "N/A"
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 18
@@ -6108,7 +6108,7 @@
             "value": 1
           },
           "AP": {
-            "value": -1
+            "value": -2
           },
           "BS": {
             "value": 2
@@ -6120,7 +6120,7 @@
             "value": 12
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -6130,9 +6130,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
+            "Ability§Psychic",
             "Ability§Devastating Wounds",
-            "Ability§Psychic"
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -6147,8 +6147,8 @@
             "value": 2
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 18
@@ -6172,7 +6172,7 @@
             "value": 1
           },
           "AP": {
-            "value": -1
+            "value": -2
           },
           "BS": {
             "value": 2
@@ -6184,7 +6184,7 @@
             "value": 12
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -6194,8 +6194,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Infernal Master—Fires of the Abyss – witchfire",
-            "Ranged Weapon§Infernal Master—Fires of the Abyss – focused witchfire"
+            "Ranged Weapon§Infernal Master—Fires of the Abyss – focused witchfire",
+            "Ranged Weapon§Infernal Master—Fires of the Abyss – witchfire"
           ]
         },
         "keywords": {
@@ -6210,9 +6210,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
+            "Ability§Torrent",
             "Ability§Psychic",
-            "Ability§Torrent"
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -6245,8 +6245,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Psychic",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Psychic"
           ]
         },
         "stats": {
@@ -6287,7 +6287,7 @@
             "value": 1
           },
           "AP": {
-            "value": -1
+            "value": -2
           },
           "BS": {
             "value": 2
@@ -6299,7 +6299,7 @@
             "value": 12
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -6309,14 +6309,14 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Psychic"
+            "Ability§Psychic",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "3D3"
+            "format": "3D3",
+            "value": 0
           },
           "AP": {
             "value": -2
@@ -6341,9 +6341,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
             "Ability§Psychic",
-            "Ability§Ignores Cover"
+            "Ability§Ignores Cover",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -6374,9 +6374,9 @@
         },
         "assets": {
           "traits": [
+            "Ranged Weapon§Mutalith Vortex Beast—Warp vortex – torrent",
             "Ranged Weapon§Mutalith Vortex Beast—Warp vortex – blast",
-            "Ranged Weapon§Mutalith Vortex Beast—Warp vortex – beam",
-            "Ranged Weapon§Mutalith Vortex Beast—Warp vortex – torrent"
+            "Ranged Weapon§Mutalith Vortex Beast—Warp vortex – beam"
           ]
         },
         "keywords": {
@@ -6453,8 +6453,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -6495,7 +6495,7 @@
             "value": 1
           },
           "AP": {
-            "value": -1
+            "value": -2
           },
           "BS": {
             "value": 3
@@ -6507,7 +6507,7 @@
             "value": 12
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -6532,7 +6532,7 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -6542,6 +6542,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Psychic",
+            "Ability§Devastating Wounds",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -6552,9 +6554,7 @@
                   "value": "4+"
                 }
               }
-            },
-            "Ability§Devastating Wounds",
-            "Ability§Psychic"
+            }
           ]
         },
         "stats": {
@@ -6614,9 +6614,9 @@
         },
         "assets": {
           "traits": [
+            "Ability§Torrent",
             "Ability§Pistol",
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -6649,8 +6649,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -6683,8 +6683,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -6769,7 +6769,7 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -6779,6 +6779,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Psychic",
+            "Ability§Devastating Wounds",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -6789,9 +6791,7 @@
                   "value": "4+"
                 }
               }
-            },
-            "Ability§Devastating Wounds",
-            "Ability§Psychic"
+            }
           ]
         },
         "stats": {
@@ -6851,8 +6851,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -6948,8 +6948,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -7145,14 +7145,12 @@
           }
         }
       },
-      "Ranged Weapon§Thousand Sons Daemon Prince with Wings—Dark Blessing": {
+      "Ranged Weapon§Daemon Prince of Tzeentch with Wings—Dark Blessing": {
         "aspects": {
           "Label": "Dark Blessing"
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Psychic",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -7160,7 +7158,9 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Psychic",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -7184,7 +7184,7 @@
           }
         }
       },
-      "Ranged Weapon§Thousand Sons Daemon Prince with Wings—Infernal cannon": {
+      "Ranged Weapon§Daemon Prince of Tzeentch with Wings—Infernal cannon": {
         "aspects": {
           "Label": "Infernal cannon"
         },
@@ -7209,14 +7209,12 @@
           }
         }
       },
-      "Ranged Weapon§Thousand Sons Daemon Prince—Dark Blessing": {
+      "Ranged Weapon§Daemon Prince of Tzeentch—Dark Blessing": {
         "aspects": {
           "Label": "Dark Blessing"
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Psychic",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -7224,7 +7222,9 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Psychic",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -7248,7 +7248,7 @@
           }
         }
       },
-      "Ranged Weapon§Thousand Sons Daemon Prince—Infernal cannon": {
+      "Ranged Weapon§Daemon Prince of Tzeentch—Infernal cannon": {
         "aspects": {
           "Label": "Infernal cannon"
         },
@@ -7273,7 +7273,7 @@
           }
         }
       },
-      "Ranged Weapon§Thousand Sons Sorcerer in Terminator Armour—Coruscating Flames": {
+      "Ranged Weapon§Sorcerer in Terminator Armour—Coruscating Flames": {
         "aspects": {
           "Label": "Coruscating Flames"
         },
@@ -7326,7 +7326,7 @@
           }
         }
       },
-      "Ranged Weapon§Thousand Sons Sorcerer in Terminator Armour—Inferno combi-bolter": {
+      "Ranged Weapon§Sorcerer in Terminator Armour—Inferno combi-bolter": {
         "aspects": {
           "Label": "Inferno combi-bolter"
         },
@@ -7359,16 +7359,25 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
-      "Ranged Weapon§Thousand Sons Sorcerer in Terminator Armour—Inferno combi-weapon": {
+      "Ranged Weapon§Sorcerer in Terminator Armour—Inferno combi-weapon": {
         "aspects": {
           "Label": "Inferno combi-weapon"
         },
         "assets": {
           "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -7377,15 +7386,6 @@
                 },
                 "x": {
                   "value": "4+"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
                 }
               }
             }
@@ -7408,11 +7408,11 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
-      "Ranged Weapon§Thousand Sons Sorcerer—Inferno bolt pistol": {
+      "Ranged Weapon§Sorcerer—Inferno bolt pistol": {
         "aspects": {
           "Label": "Inferno bolt pistol"
         },
@@ -7426,7 +7426,7 @@
             "value": 1
           },
           "AP": {
-            "value": -1
+            "value": -2
           },
           "BS": {
             "value": 3
@@ -7438,17 +7438,16 @@
             "value": 12
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
-      "Ranged Weapon§Thousand Sons Sorcerer—Pandaemonic Delusion": {
+      "Ranged Weapon§Sorcerer—Pandaemonic Delusion": {
         "aspects": {
           "Label": "Pandaemonic Delusion"
         },
         "assets": {
           "traits": [
-            "Ability§Psychic",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -7456,7 +7455,8 @@
                   "value": "3"
                 }
               }
-            }
+            },
+            "Ability§Psychic"
           ]
         },
         "stats": {
@@ -7516,8 +7516,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Lethal Hits",
             "Ability§Precision",
+            "Ability§Lethal Hits",
             "Ability§Ignores Cover"
           ]
         },
@@ -7548,9 +7548,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
+            "Ability§Psychic",
             "Ability§Devastating Wounds",
-            "Ability§Psychic"
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -8684,6 +8684,24 @@
         "stats": {
           "Points": {
             "value": 170
+          },
+          "M": {
+            "value": 9
+          },
+          "T": {
+            "value": 10
+          },
+          "Sv": {
+            "value": 2
+          },
+          "W": {
+            "value": 10
+          },
+          "Ld": {
+            "value": 6
+          },
+          "OC": {
+            "value": 3
           }
         },
         "text": "WARNING: this unit was not in 10e and needs importing.\n\n**Servile Pawns**\nWhile this model is within 3\" of one or more friendly **THOUSAND SONS INFANTRY** units, this model has the Lone Operative ability.\n\n**Spirit Snare**\nEach time a friendly **THOUSAND SONS PSYKER** model with the Cabal of Sorcerers ability is destroyed while within 9\" of one or more models with this ability, select one of those models with this ability: until the end of the battle, each time the selected model attempts a Ritual, add 1 to the Psychic test result (to a maximum of +2).\n\n**Glamour of Tzeentch**\nWhile a friendly **THOUSAND SONS INFANTRY** unit is within 6\" of this model, models in that unit have the Stealth ability."
@@ -8698,6 +8716,24 @@
           },
           "unitDiscountThreshold": {
             "value": 2
+          },
+          "M": {
+            "value": 13
+          },
+          "T": {
+            "value": 9
+          },
+          "Sv": {
+            "value": 2
+          },
+          "W": {
+            "value": 10
+          },
+          "Ld": {
+            "value": 6
+          },
+          "OC": {
+            "value": 3
           }
         },
         "text": "WARNING: this unit was not in 10e and needs importing.\n\n**Hunter of Souls**\nEach time this model makes an attack that targets a **CHARACTER** unit, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1 (if that attack targets a **PSYKER CHARACTER** unit, you can re‑roll the Hit roll and you can re‑roll the Wound roll instead). Each time this model destroys a **CHARACTER** unit, this model regains up to D3 lost wounds (if that **CHARACTER** unit was a **PSYKER** unit, this model regains up to 3 lost wounds instead).\n\n**Aetherstride**\nIn your Movement phase, when this model is set up on the battlefield using the Deep Strike ability, it can perform an aetherstride. If it does:\n■ It can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units.\n■ Until the end of the turn, its Dark Blessing has the **[SUSTAINED HITS D3]** ability.\n■ Until the end of the turn, it is not eligible to declare a charge."
@@ -8894,7 +8930,7 @@
             "Character§Exalted Sorcerer",
             "Character§Exalted Sorcerer on Disc of Tzeentch",
             "Character§Infernal Master",
-            "Character§Thousand Sons Sorcerer"
+            "Character§Sorcerer"
           ]
         },
         "assets": {
@@ -9053,7 +9089,7 @@
         "allowed": {
           "items": [
             "Model§Scarab Occult Terminator",
-            "Character§Thousand Sons Sorcerer in Terminator Armour"
+            "Character§Sorcerer in Terminator Armour"
           ]
         },
         "assets": {
@@ -9919,6 +9955,15 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
@@ -9926,15 +9971,6 @@
                 },
                 "x": {
                   "value": "4+"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
                 }
               }
             }
@@ -10101,6 +10137,15 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
@@ -10108,15 +10153,6 @@
                 },
                 "x": {
                   "value": "4+"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
                 }
               }
             }
@@ -10149,6 +10185,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -10156,8 +10193,7 @@
                   "value": "1"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -10330,6 +10366,15 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
@@ -10337,15 +10382,6 @@
                 },
                 "x": {
                   "value": "4+"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
                 }
               }
             }
@@ -10582,6 +10618,15 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
@@ -10589,15 +10634,6 @@
                 },
                 "x": {
                   "value": "4+"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
                 }
               }
             }
@@ -10835,6 +10871,15 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
@@ -10842,15 +10887,6 @@
                 },
                 "x": {
                   "value": "4+"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
                 }
               }
             }
@@ -10963,7 +10999,25 @@
         "stats": {
           "AP": {
             "value": -2
+          },
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 6
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "D": {
+            "value": 2
           }
+        },
+        "aspects": {
+          "Label": "Excruciator cannon"
         }
       },
       "Ranged Weapon§Defiler—Heavy reaper autocannon": {
@@ -10973,7 +11027,38 @@
           },
           "Points": {
             "value": 15
+          },
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "D": {
+            "value": 3
           }
+        },
+        "aspects": {
+          "Label": "Heavy reaper autocannon"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Devastating Wounds"
+          ]
         }
       },
       "Ranged Weapon§Defiler—Pyraflux magma cutters": {
@@ -11095,13 +11180,59 @@
           "rules": {
             "Moreattacksdoesnotapplytoccw": {}
           }
+        },
+        "aspects": {
+          "Label": "Close combat weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
         }
       },
       "Ranged Weapon§Helbrute—Heavy flamer": {
         "stats": {
           "AP": {
             "value": -2
+          },
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "S": {
+            "value": 5
+          },
+          "D": {
+            "value": 1
           }
+        },
+        "aspects": {
+          "Label": "Heavy flamer"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
+          ]
         }
       },
       "Ranged Weapon§Helbrute—Inferno combi-bolter": {
@@ -11144,8 +11275,8 @@
       "Ranged Weapon§Helbrute—Missile launcher": {
         "assets": {
           "traits": [
-            "Ranged Weapon§Helbrute—Missile launcher – frag",
-            "Ranged Weapon§Helbrute—Missile launcher – krak"
+            "__inherited__",
+            "__inherited__"
           ]
         },
         "removed": {
@@ -11155,13 +11286,44 @@
               "Ranged Weapon§Helbrute—Missile launcher – krak"
             ]
           }
+        },
+        "aspects": {
+          "Label": "Missile launcher"
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
         }
       },
       "Ranged Weapon§Helbrute—Twin autocannon": {
         "stats": {
           "AP": {
             "value": -2
+          },
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "D": {
+            "value": 3
           }
+        },
+        "aspects": {
+          "Label": "Twin autocannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
         }
       },
       "Ranged Weapon§Helbrute—Twin inferno heavy bolter": {
@@ -11170,6 +11332,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -11177,8 +11340,7 @@
                   "value": "1"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -11471,14 +11633,54 @@
         "stats": {
           "AP": {
             "value": -2
+          },
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "format": "D6",
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "D": {
+            "value": 2
           }
+        },
+        "aspects": {
+          "Label": "Baleflamer"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
+          ]
         }
       },
       "Ranged Weapon§Heldrake—Hades autocannon": {
         "stats": {
           "AP": {
             "value": -2
+          },
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 6
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "D": {
+            "value": 2
           }
+        },
+        "aspects": {
+          "Label": "Hades autocannon"
         }
       },
       "Vehicle§Heldrake": {
@@ -11673,7 +11875,25 @@
         "stats": {
           "AP": {
             "value": -2
+          },
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 6
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "D": {
+            "value": 2
           }
+        },
+        "aspects": {
+          "Label": "Hades autocannon"
         }
       },
       "Vehicle§Forgefiend": {
@@ -11829,14 +12049,63 @@
         "stats": {
           "Points": {
             "value": 15
+          },
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
           }
+        },
+        "aspects": {
+          "Label": "Hades lascannon"
         }
       },
       "Ranged Weapon§Forgefiend—Ectoplasma cannon": {
         "stats": {
           "Points": {
             "value": 5
+          },
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "format": "D3",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 3
           }
+        },
+        "aspects": {
+          "Label": "Ectoplasma cannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
         }
       },
       "Stratagem§The Land Writhes": {
@@ -11973,6 +12242,868 @@
           ],
           "Phase": [
             "Movement"
+          ]
+        }
+      },
+      "Ranged Weapon§Chaos Land Raider—Havoc launcher": {
+        "aspects": {
+          "Label": "Havoc launcher"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Chaos Predator Annihilator—Havoc launcher": {
+        "aspects": {
+          "Label": "Havoc launcher"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Chaos Predator Annihilator—Lascannon": {
+        "aspects": {
+          "Label": "Lascannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Predator Destructor—Havoc launcher": {
+        "aspects": {
+          "Label": "Havoc launcher"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Chaos Predator Destructor—Lascannon": {
+        "aspects": {
+          "Label": "Lascannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Rhino—Havoc launcher": {
+        "aspects": {
+          "Label": "Havoc launcher"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Chaos Vindicator—Havoc launcher": {
+        "aspects": {
+          "Label": "Havoc launcher"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Daemon Prince Of Tzeentch—Infernal cannon": {
+        "aspects": {
+          "Label": "Infernal cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Daemon Prince Of Tzeentch—Dark Blessing": {
+        "aspects": {
+          "Label": "Dark Blessing"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 9
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Psychic",
+            "Ability§Ignores Cover"
+          ]
+        }
+      },
+      "Melee Weapon§Daemon Prince Of Tzeentch—Hellforged weapons – sweep": {
+        "aspects": {
+          "Label": "Hellforged weapons – Sweep"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 12
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic",
+            "Ability§Devastating Wounds"
+          ]
+        }
+      },
+      "Melee Weapon§Daemon Prince Of Tzeentch—Hellforged weapons – strike": {
+        "aspects": {
+          "Label": "Hellforged weapons – Strike"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic",
+            "Ability§Devastating Wounds"
+          ]
+        }
+      },
+      "Melee Weapon§Daemon Prince Of Tzeentch—Hellforged weapons": {
+        "aspects": {
+          "Label": "Hellforged weapons"
+        },
+        "assets": {
+          "traits": [
+            "Melee Weapon§Daemon Prince Of Tzeentch—Hellforged weapons – sweep",
+            "Melee Weapon§Daemon Prince Of Tzeentch—Hellforged weapons – strike"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Daemon Prince Of Tzeentch With Wings—Infernal cannon": {
+        "aspects": {
+          "Label": "Infernal cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Daemon Prince Of Tzeentch With Wings—Dark Blessing": {
+        "aspects": {
+          "Label": "Dark Blessing"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 9
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Psychic",
+            "Ability§Ignores Cover"
+          ]
+        }
+      },
+      "Melee Weapon§Daemon Prince Of Tzeentch With Wings—Hellforged weapons – sweep": {
+        "aspects": {
+          "Label": "Hellforged weapons – Sweep"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 12
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic",
+            "Ability§Devastating Wounds"
+          ]
+        }
+      },
+      "Melee Weapon§Daemon Prince Of Tzeentch With Wings—Hellforged weapons – strike": {
+        "aspects": {
+          "Label": "Hellforged weapons – Strike"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic",
+            "Ability§Devastating Wounds"
+          ]
+        }
+      },
+      "Melee Weapon§Daemon Prince Of Tzeentch With Wings—Hellforged weapons": {
+        "aspects": {
+          "Label": "Hellforged weapons"
+        },
+        "assets": {
+          "traits": [
+            "Melee Weapon§Daemon Prince Of Tzeentch With Wings—Hellforged weapons – sweep",
+            "Melee Weapon§Daemon Prince Of Tzeentch With Wings—Hellforged weapons – strike"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Melee Weapon§Forgefiend—Forgefiend jaws": {
+        "aspects": {
+          "Label": "Forgefiend jaws"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "__inherited__": {
+        "aspects": {
+          "Label": "Missile launcher – Krak"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Helbrute—Twin lascannon": {
+        "aspects": {
+          "Label": "Twin lascannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
+        }
+      },
+      "Ranged Weapon§Helbrute—Helbrute plasma cannon": {
+        "aspects": {
+          "Label": "Helbrute plasma cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "format": "D3",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Hazardous",
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Helbrute—Multi-melta": {
+        "aspects": {
+          "Label": "Multi-melta"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Melee Weapon§Helbrute—Power scourge": {
+        "aspects": {
+          "Label": "Power scourge"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 8
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Melee Weapon§Helbrute—Helbrute hammer": {
+        "aspects": {
+          "Label": "Helbrute hammer"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 14
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Helbrute—Helbrute fist": {
+        "aspects": {
+          "Label": "Helbrute fist"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Maulerfiend—Lasher tendrils": {
+        "aspects": {
+          "Label": "Lasher tendrils"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Extra Attacks"
+          ]
+        }
+      },
+      "Ranged Weapon§Sorcerer in Terminator Armour—Gaze of Hate": {
+        "aspects": {
+          "Label": "Gaze of Hate"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic",
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "vehicle"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "monster"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Melee Weapon§Tzaangor Shaman—Force stave": {
+        "aspects": {
+          "Label": "Force stave"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic"
+          ]
+        }
+      },
+      "Character§Sorcerer (SL)": {
+        "assets": {
+          "traits": [
+            "Ability§Cabal of Sorcerers"
+          ]
+        }
+      },
+      "Character§Sorcerer in Terminator Armour (SL)": {
+        "assets": {
+          "traits": [
+            "Ability§Cabal of Sorcerers"
           ]
         }
       }

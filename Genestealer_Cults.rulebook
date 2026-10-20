@@ -1,6 +1,6 @@
 {
   "name": "Genestealer Cults 11e",
-  "revision": "11.1.14",
+  "revision": "11.1.15",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -5143,8 +5143,8 @@
             "value": 0
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "statType": "term",
@@ -5188,9 +5188,7 @@
         "aspects": {
           "Label": "Drilldozer blade"
         },
-        "assets": {
-          "traits": []
-        },
+        "assets": {},
         "stats": {
           "A": {
             "value": 8
@@ -5428,8 +5426,8 @@
             "value": -1
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "statType": "term",
@@ -5553,8 +5551,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -5611,6 +5609,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Extra Attacks",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -5621,8 +5620,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Extra Attacks"
+            }
           ]
         },
         "stats": {
@@ -5633,8 +5631,8 @@
             "value": 0
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "statType": "term",
@@ -5732,6 +5730,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Precision",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -5742,8 +5741,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Precision"
+            }
           ]
         },
         "stats": {
@@ -6756,8 +6754,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -3
@@ -6786,8 +6784,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Indirect Fire"
+            "Ability§Indirect Fire",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -6886,10 +6884,10 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Blast",
+            "Ability§One Shot",
             "Ability§Hazardous",
-            "Ability§One Shot"
+            "Ability§Blast",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -6920,9 +6918,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
+            "Ability§Torrent",
             "Ability§Pistol",
-            "Ability§Torrent"
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -6985,8 +6983,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -7049,8 +7047,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Atalan Jackals—Grenade launcher – frag",
-            "Ranged Weapon§Atalan Jackals—Grenade launcher – krak"
+            "Ranged Weapon§Atalan Jackals—Grenade launcher – krak",
+            "Ranged Weapon§Atalan Jackals—Grenade launcher – frag"
           ]
         },
         "keywords": {
@@ -7070,8 +7068,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": 0
@@ -7105,8 +7103,8 @@
             "value": 4
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 24
@@ -7129,7 +7127,8 @@
                   "value": "3"
                 }
               }
-            }
+            },
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -7350,8 +7349,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -7384,9 +7383,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
+            "Ability§Hazardous",
             "Ability§Blast",
-            "Ability§Hazardous"
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -7422,8 +7421,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -3
@@ -7470,8 +7469,8 @@
             "value": 4
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 24
@@ -7524,9 +7523,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
+            "Ability§Hazardous",
             "Ability§Blast",
-            "Ability§Hazardous"
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -7654,9 +7653,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
+            "Ability§Torrent",
             "Ability§Pistol",
-            "Ability§Torrent"
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -7719,8 +7718,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
-            "Ability§Precision"
+            "Ability§Precision",
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -7750,8 +7749,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -7841,8 +7840,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -7875,8 +7874,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Neophyte Hybrids—Grenade launcher – frag",
-            "Ranged Weapon§Neophyte Hybrids—Grenade launcher – krak"
+            "Ranged Weapon§Neophyte Hybrids—Grenade launcher – krak",
+            "Ranged Weapon§Neophyte Hybrids—Grenade launcher – frag"
           ]
         },
         "keywords": {
@@ -7896,8 +7895,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": 0
@@ -7931,8 +7930,8 @@
             "value": 4
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 24
@@ -8083,7 +8082,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -8091,7 +8089,8 @@
                   "value": "2"
                 }
               }
-            }
+            },
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -8105,8 +8104,8 @@
             "value": 5
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 24
@@ -8122,8 +8121,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -8186,6 +8185,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Pistol",
+            "Ability§Ignores Cover",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -8196,9 +8197,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Ignores Cover",
-            "Ability§Pistol"
+            }
           ]
         },
         "stats": {
@@ -8212,8 +8211,8 @@
             "value": 2
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 18
@@ -8259,9 +8258,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
+            "Ability§One Shot",
             "Ability§Blast",
-            "Ability§One Shot"
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -8292,8 +8291,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Indirect Fire"
+            "Ability§Indirect Fire",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -8324,6 +8323,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Precision",
+            "Ability§Heavy",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -8334,9 +8335,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Heavy",
-            "Ability§Precision"
+            }
           ]
         },
         "stats": {
@@ -12518,6 +12517,221 @@
           ],
           "Phase": [
             "Shooting"
+          ]
+        }
+      },
+      "Melee Weapon§Acolyte Hybrids with autopistols—Leader’s cult weapons": {
+        "aspects": {
+          "Label": "Leader’s cult weapons"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Acolyte Hybrids with hand flamers—Leader’s cult weapons": {
+        "aspects": {
+          "Label": "Leader’s cult weapons"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Benefictus—Psionic Cascade – witchfire": {
+        "aspects": {
+          "Label": "Psionic Cascade – Witchfire"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic",
+            "Ability§Ignores Cover"
+          ]
+        }
+      },
+      "Ranged Weapon§Benefictus—Psionic Cascade – focused witchfire": {
+        "aspects": {
+          "Label": "Psionic Cascade – Focused witchfire"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic",
+            "Ability§Ignores Cover",
+            "Ability§Hazardous"
+          ]
+        }
+      },
+      "Ranged Weapon§Benefictus—Psionic Cascade": {
+        "aspects": {
+          "Label": "Psionic Cascade"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Benefictus—Psionic Cascade – witchfire",
+            "Ranged Weapon§Benefictus—Psionic Cascade – focused witchfire"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Melee Weapon§Goliath Truck—Armoured hull": {
+        "aspects": {
+          "Label": "Armoured hull"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Hybrid Metamorphs—Leader’s cult weapons": {
+        "aspects": {
+          "Label": "Leader’s cult weapons"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Neophyte Hybrids—Anointed pistol": {
+        "aspects": {
+          "Label": "Anointed pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
           ]
         }
       }

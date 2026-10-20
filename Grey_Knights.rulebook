@@ -1,6 +1,6 @@
 {
   "name": "Grey Knights 11e",
-  "revision": "11.1.14",
+  "revision": "11.1.15",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -483,7 +483,7 @@
             "value": 2
           },
           "T": {
-            "value": 5
+            "value": 6
           },
           "W": {
             "value": 6
@@ -618,7 +618,7 @@
             "value": 2
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 4
@@ -684,7 +684,7 @@
             "value": 2
           },
           "T": {
-            "value": 5
+            "value": 6
           },
           "W": {
             "value": 5
@@ -778,7 +778,7 @@
             "value": 2
           },
           "T": {
-            "value": 5
+            "value": 6
           },
           "unitDiscount": {
             "value": 10
@@ -845,7 +845,7 @@
             "value": 2
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 4
@@ -918,7 +918,7 @@
             "value": 2
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 5
@@ -1026,7 +1026,7 @@
             "value": 2
           },
           "T": {
-            "value": 5
+            "value": 6
           },
           "W": {
             "value": 7
@@ -1400,7 +1400,7 @@
             "value": 2
           },
           "T": {
-            "value": 8
+            "value": 9
           },
           "unitDiscount": {
             "value": 15
@@ -1480,14 +1480,14 @@
             "value": 2
           },
           "T": {
-            "value": 5
+            "value": 6
           },
           "W": {
             "value": 7
           }
         }
       },
-      "Character§Grey Knights Venerable Dreadnought": {
+      "Character§Venerable Dreadnought": {
         "aspects": {
           "Label": "Venerable Dreadnought",
           "Type": "game piece"
@@ -1549,7 +1549,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Venerable Dreadnought—Assault cannon"
+                    "trait": "Ranged Weapon§Venerable Dreadnought—Assault cannon"
                   }
                 ]
               },
@@ -1557,7 +1557,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Venerable Dreadnought—Heavy plasma cannon"
+                    "trait": "Ranged Weapon§Venerable Dreadnought—Heavy plasma cannon"
                   }
                 ]
               },
@@ -1565,7 +1565,7 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Venerable Dreadnought—Twin lascannon"
+                    "trait": "Ranged Weapon§Venerable Dreadnought—Twin lascannon"
                   }
                 ]
               }
@@ -1583,10 +1583,10 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Venerable Dreadnought—Storm bolter"
+                    "trait": "Ranged Weapon§Venerable Dreadnought—Storm bolter"
                   },
                   {
-                    "trait": "Melee Weapon§Grey Knights Venerable Dreadnought—Dreadnought combat weapon"
+                    "trait": "Melee Weapon§Venerable Dreadnought—Dreadnought combat weapon"
                   }
                 ]
               },
@@ -1594,10 +1594,10 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Venerable Dreadnought—Heavy flamer"
+                    "trait": "Ranged Weapon§Venerable Dreadnought—Heavy flamer"
                   },
                   {
-                    "trait": "Melee Weapon§Grey Knights Venerable Dreadnought—Dreadnought combat weapon"
+                    "trait": "Melee Weapon§Venerable Dreadnought—Dreadnought combat weapon"
                   }
                 ]
               }
@@ -1614,6 +1614,12 @@
           },
           "W": {
             "value": 8
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -3863,8 +3869,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Precision",
-            "Ability§Psychic"
+            "Ability§Psychic",
+            "Ability§Precision"
           ]
         },
         "stats": {
@@ -4119,8 +4125,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Precision"
+            "Ability§Precision",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -4240,8 +4246,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Grand Master in Nemesis Dreadknight—Nemesis greatsword – strike",
-            "Melee Weapon§Grand Master in Nemesis Dreadknight—Nemesis greatsword – sweep"
+            "Melee Weapon§Grand Master in Nemesis Dreadknight—Nemesis greatsword – sweep",
+            "Melee Weapon§Grand Master in Nemesis Dreadknight—Nemesis greatsword – strike"
           ]
         },
         "keywords": {
@@ -4320,6 +4326,7 @@
         "assets": {
           "traits": [
             "Ability§Psychic",
+            "Ability§Precision",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -4330,8 +4337,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Precision"
+            }
           ]
         },
         "stats": {
@@ -4501,7 +4507,7 @@
           }
         }
       },
-      "Melee Weapon§Grey Knights Land Raider Crusader—Armoured tracks": {
+      "Melee Weapon§Land Raider Crusader—Armoured tracks": {
         "aspects": {
           "Label": "Armoured tracks"
         },
@@ -4527,7 +4533,7 @@
           }
         }
       },
-      "Melee Weapon§Grey Knights Land Raider Redeemer—Armoured tracks": {
+      "Melee Weapon§Land Raider Redeemer—Armoured tracks": {
         "aspects": {
           "Label": "Armoured tracks"
         },
@@ -4553,7 +4559,7 @@
           }
         }
       },
-      "Melee Weapon§Grey Knights Land Raider—Armoured tracks": {
+      "Melee Weapon§Land Raider—Armoured tracks": {
         "aspects": {
           "Label": "Armoured tracks"
         },
@@ -4579,7 +4585,7 @@
           }
         }
       },
-      "Melee Weapon§Grey Knights Razorback—Armoured tracks": {
+      "Melee Weapon§Razorback—Armoured tracks": {
         "aspects": {
           "Label": "Armoured tracks"
         },
@@ -4631,7 +4637,7 @@
           }
         }
       },
-      "Melee Weapon§Grey Knights Rhino—Armoured tracks": {
+      "Melee Weapon§Rhino—Armoured tracks": {
         "aspects": {
           "Label": "Armoured tracks"
         },
@@ -4657,7 +4663,7 @@
           }
         }
       },
-      "Melee Weapon§Grey Knights Stormhawk Interceptor—Armoured hull": {
+      "Melee Weapon§Stormhawk Interceptor—Armoured hull": {
         "aspects": {
           "Label": "Armoured hull"
         },
@@ -4683,7 +4689,7 @@
           }
         }
       },
-      "Melee Weapon§Grey Knights Stormraven Gunship—Armoured hull": {
+      "Melee Weapon§Stormraven Gunship—Armoured hull": {
         "aspects": {
           "Label": "Armoured hull"
         },
@@ -4709,7 +4715,7 @@
           }
         }
       },
-      "Melee Weapon§Grey Knights Stormtalon Gunship—Armoured hull": {
+      "Melee Weapon§Stormtalon Gunship—Armoured hull": {
         "aspects": {
           "Label": "Armoured hull"
         },
@@ -4761,7 +4767,7 @@
           }
         }
       },
-      "Melee Weapon§Grey Knights Venerable Dreadnought—Armoured feet": {
+      "Melee Weapon§Venerable Dreadnought—Armoured feet": {
         "aspects": {
           "Label": "Armoured feet"
         },
@@ -4787,7 +4793,7 @@
           }
         }
       },
-      "Melee Weapon§Grey Knights Venerable Dreadnought—Dreadnought combat weapon": {
+      "Melee Weapon§Venerable Dreadnought—Dreadnought combat weapon": {
         "aspects": {
           "Label": "Dreadnought combat weapon"
         },
@@ -4832,7 +4838,7 @@
             "value": "Melee"
           },
           "S": {
-            "value": 4
+            "value": 5
           },
           "WS": {
             "value": 3
@@ -5002,8 +5008,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Nemesis Dreadknight—Nemesis greatsword – strike",
-            "Melee Weapon§Nemesis Dreadknight—Nemesis greatsword – sweep"
+            "Melee Weapon§Nemesis Dreadknight—Nemesis greatsword – sweep",
+            "Melee Weapon§Nemesis Dreadknight—Nemesis greatsword – strike"
           ]
         },
         "keywords": {
@@ -5125,7 +5131,7 @@
             "value": "Melee"
           },
           "S": {
-            "value": 4
+            "value": 5
           },
           "WS": {
             "value": 3
@@ -5182,7 +5188,7 @@
             "value": "Melee"
           },
           "S": {
-            "value": 4
+            "value": 5
           },
           "WS": {
             "value": 3
@@ -5291,7 +5297,7 @@
             "value": "Melee"
           },
           "S": {
-            "value": 4
+            "value": 5
           },
           "WS": {
             "value": 3
@@ -5426,7 +5432,7 @@
             "value": 2
           },
           "T": {
-            "value": 5
+            "value": 6
           },
           "W": {
             "value": 3
@@ -5511,7 +5517,7 @@
             "value": 2
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 2
@@ -5596,7 +5602,7 @@
             "value": 2
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 2
@@ -5624,7 +5630,7 @@
             "value": 2
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 2
@@ -5652,7 +5658,7 @@
             "value": 2
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 2
@@ -5681,7 +5687,7 @@
             "value": 2
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 2
@@ -5826,7 +5832,7 @@
             "value": 2
           },
           "T": {
-            "value": 5
+            "value": 6
           },
           "W": {
             "value": 3
@@ -5854,7 +5860,7 @@
             "value": 2
           },
           "T": {
-            "value": 5
+            "value": 6
           },
           "W": {
             "value": 3
@@ -5939,7 +5945,7 @@
             "value": 2
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 2
@@ -5967,7 +5973,7 @@
             "value": 2
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 2
@@ -6057,7 +6063,7 @@
             "value": 2
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 2
@@ -6167,7 +6173,7 @@
             "value": 2
           },
           "T": {
-            "value": 5
+            "value": 6
           },
           "W": {
             "value": 3
@@ -6217,8 +6223,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -6251,7 +6257,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Psychic",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -6260,6 +6265,7 @@
                 }
               }
             },
+            "Ability§Psychic",
             "Ability§Precision"
           ]
         },
@@ -6335,7 +6341,7 @@
             "value": 2
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
             "value": 2
@@ -6347,7 +6353,7 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -6372,10 +6378,10 @@
             "value": 2
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
-            "value": 2
+            "value": 3
           },
           "D": {
             "value": 1
@@ -6384,7 +6390,7 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -6409,10 +6415,10 @@
             "value": 2
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
-            "value": 3
+            "value": 2
           },
           "D": {
             "value": 1
@@ -6421,7 +6427,7 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -6432,6 +6438,15 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
@@ -6439,15 +6454,6 @@
                 },
                 "x": {
                   "value": "4+"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
                 }
               }
             }
@@ -6458,7 +6464,7 @@
             "value": 1
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
             "value": 4
@@ -6470,7 +6476,7 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -6495,10 +6501,10 @@
             "value": 2
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
-            "value": 3
+            "value": 2
           },
           "D": {
             "value": 1
@@ -6507,7 +6513,7 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -6517,8 +6523,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Psychic"
+            "Ability§Psychic",
+            "Ability§Blast"
           ]
         },
         "keywords": {
@@ -6575,9 +6581,7 @@
         "aspects": {
           "Label": "Forge Bolter"
         },
-        "assets": {
-          "traits": []
-        },
+        "assets": {},
         "stats": {
           "A": {
             "value": 3
@@ -6646,8 +6650,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -6680,7 +6684,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Psychic",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -6689,6 +6692,7 @@
                 }
               }
             },
+            "Ability§Psychic",
             "Ability§Precision"
           ]
         },
@@ -6767,7 +6771,7 @@
             "value": 2
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
             "value": 3
@@ -6779,7 +6783,7 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -6789,6 +6793,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Psychic",
+            "Ability§Ignores Cover",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -6799,9 +6805,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Ignores Cover",
-            "Ability§Psychic"
+            }
           ]
         },
         "stats": {
@@ -6846,7 +6850,7 @@
             "value": 2
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
             "value": 2
@@ -6858,7 +6862,7 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -6899,7 +6903,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Psychic",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -6907,7 +6910,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Psychic"
           ]
         },
         "stats": {
@@ -6937,8 +6941,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -7005,6 +7009,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
+            "Ability§Psychic",
             {
               "item": "Ability§Melta",
               "stats": {
@@ -7012,9 +7018,7 @@
                   "value": "4"
                 }
               }
-            },
-            "Ability§Psychic",
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -7048,8 +7052,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Psychic"
+            "Ability§Psychic",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -7095,7 +7099,7 @@
             "value": 2
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
             "value": 2
@@ -7107,7 +7111,7 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -7117,8 +7121,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -7151,7 +7155,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Psychic",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -7160,6 +7163,7 @@
                 }
               }
             },
+            "Ability§Psychic",
             "Ability§Precision"
           ]
         },
@@ -7235,7 +7239,7 @@
             "value": 2
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
             "value": 2
@@ -7247,7 +7251,7 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -7635,7 +7639,7 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Land Raider Crusader—Hunter-killer missile": {
+      "Ranged Weapon§Land Raider Crusader—Hunter-killer missile": {
         "aspects": {
           "Label": "Hunter-killer missile"
         },
@@ -7666,12 +7670,13 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Land Raider Crusader—Hurricane bolter": {
+      "Ranged Weapon§Land Raider Crusader—Hurricane bolter": {
         "aspects": {
           "Label": "Hurricane bolter"
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -7679,8 +7684,7 @@
                   "value": "6"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -7688,7 +7692,7 @@
             "value": 6
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
             "value": 3
@@ -7700,11 +7704,11 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
-      "Ranged Weapon§Grey Knights Land Raider Crusader—Multi-melta": {
+      "Ranged Weapon§Land Raider Crusader—Multi-melta": {
         "aspects": {
           "Label": "Multi-melta"
         },
@@ -7742,7 +7746,7 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Land Raider Crusader—Storm bolter": {
+      "Ranged Weapon§Land Raider Crusader—Storm bolter": {
         "aspects": {
           "Label": "Storm bolter"
         },
@@ -7763,7 +7767,7 @@
             "value": 2
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
             "value": 3
@@ -7775,18 +7779,18 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
-      "Ranged Weapon§Grey Knights Land Raider Crusader—Twin assault cannon": {
+      "Ranged Weapon§Land Raider Crusader—Twin assault cannon": {
         "aspects": {
           "Label": "Twin assault cannon"
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -7810,14 +7814,14 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Land Raider Redeemer—Flamestorm cannon": {
+      "Ranged Weapon§Land Raider Redeemer—Flamestorm cannon": {
         "aspects": {
           "Label": "Flamestorm cannon"
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -7844,7 +7848,7 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Land Raider Redeemer—Hunter-killer missile": {
+      "Ranged Weapon§Land Raider Redeemer—Hunter-killer missile": {
         "aspects": {
           "Label": "Hunter-killer missile"
         },
@@ -7875,7 +7879,7 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Land Raider Redeemer—Multi-melta": {
+      "Ranged Weapon§Land Raider Redeemer—Multi-melta": {
         "aspects": {
           "Label": "Multi-melta"
         },
@@ -7913,7 +7917,7 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Land Raider Redeemer—Storm bolter": {
+      "Ranged Weapon§Land Raider Redeemer—Storm bolter": {
         "aspects": {
           "Label": "Storm bolter"
         },
@@ -7934,7 +7938,7 @@
             "value": 2
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
             "value": 3
@@ -7946,18 +7950,18 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
-      "Ranged Weapon§Grey Knights Land Raider Redeemer—Twin assault cannon": {
+      "Ranged Weapon§Land Raider Redeemer—Twin assault cannon": {
         "aspects": {
           "Label": "Twin assault cannon"
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -7981,7 +7985,7 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Land Raider—Godhammer lascannon": {
+      "Ranged Weapon§Land Raider—Godhammer lascannon": {
         "aspects": {
           "Label": "Godhammer lascannon"
         },
@@ -8007,7 +8011,7 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Land Raider—Hunter-killer missile": {
+      "Ranged Weapon§Land Raider—Hunter-killer missile": {
         "aspects": {
           "Label": "Hunter-killer missile"
         },
@@ -8038,7 +8042,7 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Land Raider—Multi-melta": {
+      "Ranged Weapon§Land Raider—Multi-melta": {
         "aspects": {
           "Label": "Multi-melta"
         },
@@ -8076,7 +8080,7 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Land Raider—Storm bolter": {
+      "Ranged Weapon§Land Raider—Storm bolter": {
         "aspects": {
           "Label": "Storm bolter"
         },
@@ -8097,7 +8101,7 @@
             "value": 2
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
             "value": 3
@@ -8109,16 +8113,17 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
-      "Ranged Weapon§Grey Knights Land Raider—Twin heavy bolter": {
+      "Ranged Weapon§Land Raider—Twin heavy bolter": {
         "aspects": {
           "Label": "Twin heavy bolter"
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -8126,8 +8131,7 @@
                   "value": "1"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -8151,7 +8155,7 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Razorback—Hunter-killer missile": {
+      "Ranged Weapon§Razorback—Hunter-killer missile": {
         "aspects": {
           "Label": "Hunter-killer missile"
         },
@@ -8182,7 +8186,7 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Razorback—Storm bolter": {
+      "Ranged Weapon§Razorback—Storm bolter": {
         "aspects": {
           "Label": "Storm bolter"
         },
@@ -8203,7 +8207,7 @@
             "value": 2
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
             "value": 3
@@ -8215,11 +8219,11 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
-      "Ranged Weapon§Grey Knights Razorback—Twin assault cannon": {
+      "Ranged Weapon§Razorback—Twin assault cannon": {
         "aspects": {
           "Label": "Twin assault cannon"
         },
@@ -8250,12 +8254,13 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Razorback—Twin heavy bolter": {
+      "Ranged Weapon§Razorback—Twin heavy bolter": {
         "aspects": {
           "Label": "Twin heavy bolter"
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -8263,8 +8268,7 @@
                   "value": "1"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -8288,7 +8292,7 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Razorback—Twin lascannon": {
+      "Ranged Weapon§Razorback—Twin lascannon": {
         "aspects": {
           "Label": "Twin lascannon"
         },
@@ -8556,7 +8560,7 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Rhino—Hunter-killer missile": {
+      "Ranged Weapon§Rhino—Hunter-killer missile": {
         "aspects": {
           "Label": "Hunter-killer missile"
         },
@@ -8587,7 +8591,7 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Rhino—Storm bolter": {
+      "Ranged Weapon§Rhino—Storm bolter": {
         "aspects": {
           "Label": "Storm bolter"
         },
@@ -8608,7 +8612,7 @@
             "value": 2
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
             "value": 3
@@ -8620,11 +8624,11 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
-      "Ranged Weapon§Grey Knights Stormhawk Interceptor—Icarus stormcannon": {
+      "Ranged Weapon§Stormhawk Interceptor—Icarus stormcannon": {
         "aspects": {
           "Label": "Icarus stormcannon"
         },
@@ -8664,7 +8668,7 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Stormhawk Interceptor—Las-talon": {
+      "Ranged Weapon§Stormhawk Interceptor—Las-talon": {
         "aspects": {
           "Label": "Las-talon"
         },
@@ -8690,7 +8694,7 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Stormhawk Interceptor—Skyhammer missile launcher": {
+      "Ranged Weapon§Stormhawk Interceptor—Skyhammer missile launcher": {
         "aspects": {
           "Label": "Skyhammer missile launcher"
         },
@@ -8720,8 +8724,8 @@
             "value": 3
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 48
@@ -8731,14 +8735,14 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Stormhawk Interceptor—Twin assault cannon": {
+      "Ranged Weapon§Stormhawk Interceptor—Twin assault cannon": {
         "aspects": {
           "Label": "Twin assault cannon"
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -8762,12 +8766,13 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Stormhawk Interceptor—Twin heavy bolter": {
+      "Ranged Weapon§Stormhawk Interceptor—Twin heavy bolter": {
         "aspects": {
           "Label": "Twin heavy bolter"
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -8775,8 +8780,7 @@
                   "value": "1"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -8800,14 +8804,14 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Stormhawk Interceptor—Typhoon missile launcher": {
+      "Ranged Weapon§Stormhawk Interceptor—Typhoon missile launcher": {
         "aspects": {
           "Label": "Typhoon missile launcher"
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Grey Knights Stormhawk Interceptor—Typhoon missile launcher – frag",
-            "Ranged Weapon§Grey Knights Stormhawk Interceptor—Typhoon missile launcher – krak"
+            "Ranged Weapon§Stormhawk Interceptor—Typhoon missile launcher – krak",
+            "Ranged Weapon§Stormhawk Interceptor—Typhoon missile launcher – frag"
           ]
         },
         "keywords": {
@@ -8816,7 +8820,7 @@
           ]
         }
       },
-      "Ranged Weapon§Grey Knights Stormhawk Interceptor—Typhoon missile launcher – frag": {
+      "Ranged Weapon§Stormhawk Interceptor—Typhoon missile launcher – frag": {
         "aspects": {
           "Label": "Frag"
         },
@@ -8847,7 +8851,7 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Stormhawk Interceptor—Typhoon missile launcher – krak": {
+      "Ranged Weapon§Stormhawk Interceptor—Typhoon missile launcher – krak": {
         "aspects": {
           "Label": "Krak"
         },
@@ -8873,12 +8877,13 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Stormraven Gunship—Hurricane bolter": {
+      "Ranged Weapon§Stormraven Gunship—Hurricane bolter": {
         "aspects": {
           "Label": "Hurricane bolter"
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -8886,8 +8891,7 @@
                   "value": "6"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -8895,7 +8899,7 @@
             "value": 6
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
             "value": 3
@@ -8907,11 +8911,14 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
+          },
+          "Points": {
+            "value": 10
           }
         }
       },
-      "Ranged Weapon§Grey Knights Stormraven Gunship—Stormstrike missile launcher": {
+      "Ranged Weapon§Stormraven Gunship—Stormstrike missile launcher": {
         "aspects": {
           "Label": "Stormstrike missile launcher"
         },
@@ -8937,14 +8944,14 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Stormraven Gunship—Twin assault cannon": {
+      "Ranged Weapon§Stormraven Gunship—Twin assault cannon": {
         "aspects": {
           "Label": "Twin assault cannon"
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -8968,12 +8975,13 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Stormraven Gunship—Twin heavy bolter": {
+      "Ranged Weapon§Stormraven Gunship—Twin heavy bolter": {
         "aspects": {
           "Label": "Twin heavy bolter"
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -8981,8 +8989,7 @@
                   "value": "1"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -9006,14 +9013,14 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Stormraven Gunship—Twin heavy plasma cannon": {
+      "Ranged Weapon§Stormraven Gunship—Twin heavy plasma cannon": {
         "aspects": {
           "Label": "Twin heavy plasma cannon"
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Grey Knights Stormraven Gunship—Twin heavy plasma cannon – standard",
-            "Ranged Weapon§Grey Knights Stormraven Gunship—Twin heavy plasma cannon – supercharge"
+            "Ranged Weapon§Stormraven Gunship—Twin heavy plasma cannon – standard",
+            "Ranged Weapon§Stormraven Gunship—Twin heavy plasma cannon – supercharge"
           ]
         },
         "keywords": {
@@ -9022,14 +9029,14 @@
           ]
         }
       },
-      "Ranged Weapon§Grey Knights Stormraven Gunship—Twin heavy plasma cannon – standard": {
+      "Ranged Weapon§Stormraven Gunship—Twin heavy plasma cannon – standard": {
         "aspects": {
           "Label": "Standard"
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -9053,15 +9060,15 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Stormraven Gunship—Twin heavy plasma cannon – supercharge": {
+      "Ranged Weapon§Stormraven Gunship—Twin heavy plasma cannon – supercharge": {
         "aspects": {
           "Label": "Supercharge"
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
+            "Ability§Twin-linked",
             "Ability§Hazardous",
-            "Ability§Twin-linked"
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -9085,7 +9092,7 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Stormraven Gunship—Twin lascannon": {
+      "Ranged Weapon§Stormraven Gunship—Twin lascannon": {
         "aspects": {
           "Label": "Twin lascannon"
         },
@@ -9116,12 +9123,13 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Stormraven Gunship—Twin multi-melta": {
+      "Ranged Weapon§Stormraven Gunship—Twin multi-melta": {
         "aspects": {
           "Label": "Twin multi-melta"
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Melta",
               "stats": {
@@ -9129,8 +9137,7 @@
                   "value": "2"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -9155,14 +9162,14 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Stormraven Gunship—Typhoon missile launcher": {
+      "Ranged Weapon§Stormraven Gunship—Typhoon missile launcher": {
         "aspects": {
           "Label": "Typhoon missile launcher"
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Grey Knights Stormraven Gunship—Typhoon missile launcher – frag",
-            "Ranged Weapon§Grey Knights Stormraven Gunship—Typhoon missile launcher – krak"
+            "Ranged Weapon§Stormraven Gunship—Typhoon missile launcher – krak",
+            "Ranged Weapon§Stormraven Gunship—Typhoon missile launcher – frag"
           ]
         },
         "keywords": {
@@ -9171,7 +9178,7 @@
           ]
         }
       },
-      "Ranged Weapon§Grey Knights Stormraven Gunship—Typhoon missile launcher – frag": {
+      "Ranged Weapon§Stormraven Gunship—Typhoon missile launcher – frag": {
         "aspects": {
           "Label": "Frag"
         },
@@ -9202,7 +9209,7 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Stormraven Gunship—Typhoon missile launcher – krak": {
+      "Ranged Weapon§Stormraven Gunship—Typhoon missile launcher – krak": {
         "aspects": {
           "Label": "Krak"
         },
@@ -9228,7 +9235,7 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Stormtalon Gunship—Skyhammer missile launcher": {
+      "Ranged Weapon§Stormtalon Gunship—Skyhammer missile launcher": {
         "aspects": {
           "Label": "Skyhammer missile launcher"
         },
@@ -9258,8 +9265,8 @@
             "value": 3
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 48
@@ -9269,14 +9276,14 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Stormtalon Gunship—Twin assault cannon": {
+      "Ranged Weapon§Stormtalon Gunship—Twin assault cannon": {
         "aspects": {
           "Label": "Twin assault cannon"
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -9300,12 +9307,13 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Stormtalon Gunship—Twin heavy bolter": {
+      "Ranged Weapon§Stormtalon Gunship—Twin heavy bolter": {
         "aspects": {
           "Label": "Twin heavy bolter"
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -9313,8 +9321,7 @@
                   "value": "1"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -9338,7 +9345,7 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Stormtalon Gunship—Twin lascannon": {
+      "Ranged Weapon§Stormtalon Gunship—Twin lascannon": {
         "aspects": {
           "Label": "Twin lascannon"
         },
@@ -9369,14 +9376,14 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Stormtalon Gunship—Typhoon missile launcher": {
+      "Ranged Weapon§Stormtalon Gunship—Typhoon missile launcher": {
         "aspects": {
           "Label": "Typhoon missile launcher"
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Grey Knights Stormtalon Gunship—Typhoon missile launcher – frag",
-            "Ranged Weapon§Grey Knights Stormtalon Gunship—Typhoon missile launcher – krak"
+            "Ranged Weapon§Stormtalon Gunship—Typhoon missile launcher – krak",
+            "Ranged Weapon§Stormtalon Gunship—Typhoon missile launcher – frag"
           ]
         },
         "keywords": {
@@ -9385,7 +9392,7 @@
           ]
         }
       },
-      "Ranged Weapon§Grey Knights Stormtalon Gunship—Typhoon missile launcher – frag": {
+      "Ranged Weapon§Stormtalon Gunship—Typhoon missile launcher – frag": {
         "aspects": {
           "Label": "Frag"
         },
@@ -9416,7 +9423,7 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Stormtalon Gunship—Typhoon missile launcher – krak": {
+      "Ranged Weapon§Stormtalon Gunship—Typhoon missile launcher – krak": {
         "aspects": {
           "Label": "Krak"
         },
@@ -9550,8 +9557,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3+1"
+            "format": "D3",
+            "value": 1
           },
           "AP": {
             "value": -4
@@ -9577,6 +9584,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -9584,8 +9592,7 @@
                   "value": "1"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -9609,7 +9616,7 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Venerable Dreadnought—Assault cannon": {
+      "Ranged Weapon§Venerable Dreadnought—Assault cannon": {
         "aspects": {
           "Label": "Assault cannon"
         },
@@ -9639,7 +9646,7 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Venerable Dreadnought—Heavy flamer": {
+      "Ranged Weapon§Venerable Dreadnought—Heavy flamer": {
         "aspects": {
           "Label": "Heavy flamer"
         },
@@ -9673,14 +9680,14 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Venerable Dreadnought—Heavy plasma cannon": {
+      "Ranged Weapon§Venerable Dreadnought—Heavy plasma cannon": {
         "aspects": {
           "Label": "Heavy plasma cannon"
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Grey Knights Venerable Dreadnought—Heavy plasma cannon – standard",
-            "Ranged Weapon§Grey Knights Venerable Dreadnought—Heavy plasma cannon – supercharge"
+            "Ranged Weapon§Venerable Dreadnought—Heavy plasma cannon – standard",
+            "Ranged Weapon§Venerable Dreadnought—Heavy plasma cannon – supercharge"
           ]
         },
         "keywords": {
@@ -9689,7 +9696,7 @@
           ]
         }
       },
-      "Ranged Weapon§Grey Knights Venerable Dreadnought—Heavy plasma cannon – standard": {
+      "Ranged Weapon§Venerable Dreadnought—Heavy plasma cannon – standard": {
         "aspects": {
           "Label": "Standard"
         },
@@ -9700,8 +9707,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -2
@@ -9720,20 +9727,20 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Venerable Dreadnought—Heavy plasma cannon – supercharge": {
+      "Ranged Weapon§Venerable Dreadnought—Heavy plasma cannon – supercharge": {
         "aspects": {
           "Label": "Supercharge"
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Hazardous"
+            "Ability§Hazardous",
+            "Ability§Blast"
           ]
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -3
@@ -9752,14 +9759,14 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Venerable Dreadnought—Missile launcher": {
+      "Ranged Weapon§Venerable Dreadnought—Missile launcher": {
         "aspects": {
           "Label": "Missile launcher"
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Grey Knights Venerable Dreadnought—Missile launcher – frag",
-            "Ranged Weapon§Grey Knights Venerable Dreadnought—Missile launcher – krak"
+            "Ranged Weapon§Venerable Dreadnought—Missile launcher – frag",
+            "Ranged Weapon§Venerable Dreadnought—Missile launcher – krak"
           ]
         },
         "keywords": {
@@ -9768,7 +9775,7 @@
           ]
         }
       },
-      "Ranged Weapon§Grey Knights Venerable Dreadnought—Missile launcher – frag": {
+      "Ranged Weapon§Venerable Dreadnought—Missile launcher – frag": {
         "aspects": {
           "Label": "Frag"
         },
@@ -9799,7 +9806,7 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Venerable Dreadnought—Missile launcher – krak": {
+      "Ranged Weapon§Venerable Dreadnought—Missile launcher – krak": {
         "aspects": {
           "Label": "Krak"
         },
@@ -9825,7 +9832,7 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Venerable Dreadnought—Multi-melta": {
+      "Ranged Weapon§Venerable Dreadnought—Multi-melta": {
         "aspects": {
           "Label": "Multi-melta"
         },
@@ -9863,7 +9870,7 @@
           }
         }
       },
-      "Ranged Weapon§Grey Knights Venerable Dreadnought—Storm bolter": {
+      "Ranged Weapon§Venerable Dreadnought—Storm bolter": {
         "aspects": {
           "Label": "Storm bolter"
         },
@@ -9884,10 +9891,10 @@
             "value": 2
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
-            "value": 2
+            "value": 3
           },
           "D": {
             "value": 1
@@ -9896,11 +9903,11 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
-      "Ranged Weapon§Grey Knights Venerable Dreadnought—Twin lascannon": {
+      "Ranged Weapon§Venerable Dreadnought—Twin lascannon": {
         "aspects": {
           "Label": "Twin lascannon"
         },
@@ -9937,8 +9944,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -9971,7 +9978,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Psychic",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -9980,6 +9986,7 @@
                 }
               }
             },
+            "Ability§Psychic",
             "Ability§Precision"
           ]
         },
@@ -10055,7 +10062,7 @@
             "value": 2
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
             "value": 3
@@ -10067,7 +10074,7 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -10334,7 +10341,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Psychic",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -10342,7 +10348,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Psychic"
           ]
         },
         "stats": {
@@ -10372,8 +10379,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -10440,8 +10447,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -10474,7 +10481,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Psychic",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -10483,6 +10489,7 @@
                 }
               }
             },
+            "Ability§Psychic",
             "Ability§Precision"
           ]
         },
@@ -10561,7 +10568,7 @@
             "value": 2
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
             "value": 2
@@ -10573,7 +10580,7 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -10583,8 +10590,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -10617,7 +10624,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Psychic",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -10626,6 +10632,7 @@
                 }
               }
             },
+            "Ability§Psychic",
             "Ability§Precision"
           ]
         },
@@ -10704,7 +10711,7 @@
             "value": 2
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
             "value": 3
@@ -10716,7 +10723,7 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -10726,8 +10733,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -10760,7 +10767,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Psychic",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -10769,6 +10775,7 @@
                 }
               }
             },
+            "Ability§Psychic",
             "Ability§Precision"
           ]
         },
@@ -10829,6 +10836,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Psychic",
+            "Ability§Ignores Cover",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -10839,9 +10848,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Ignores Cover",
-            "Ability§Psychic"
+            }
           ]
         },
         "stats": {
@@ -10886,7 +10893,7 @@
             "value": 2
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
             "value": 3
@@ -10898,7 +10905,7 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -11066,8 +11073,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -11100,7 +11107,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Psychic",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -11109,6 +11115,7 @@
                 }
               }
             },
+            "Ability§Psychic",
             "Ability§Precision"
           ]
         },
@@ -11184,7 +11191,7 @@
             "value": 2
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
             "value": 3
@@ -11196,7 +11203,7 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -12498,7 +12505,7 @@
           }
         }
       },
-      "Unit§Grey Knights Land Raider": {
+      "Unit§Land Raider": {
         "aspects": {
           "Type": "game piece"
         },
@@ -12525,10 +12532,10 @@
               "item": "Ability§Transport",
               "text": "This model has a transport capacity of 12 Grey Knights Infantry models. Each Terminator model takes up the space of 2 models."
             },
-            "Ranged Weapon§Grey Knights Land Raider—Twin heavy bolter",
-            "Melee Weapon§Grey Knights Land Raider—Armoured tracks",
-            "Ranged Weapon§Grey Knights Land Raider—Godhammer lascannon",
-            "Ranged Weapon§Grey Knights Land Raider—Godhammer lascannon"
+            "Ranged Weapon§Land Raider—Twin heavy bolter",
+            "Melee Weapon§Land Raider—Armoured tracks",
+            "Ranged Weapon§Land Raider—Godhammer lascannon",
+            "Ranged Weapon§Land Raider—Godhammer lascannon"
           ]
         },
         "keywords": {
@@ -12562,7 +12569,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Land Raider—Hunter-killer missile"
+                    "trait": "Ranged Weapon§Land Raider—Hunter-killer missile"
                   }
                 ]
               }
@@ -12589,7 +12596,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Land Raider—Multi-melta"
+                    "trait": "Ranged Weapon§Land Raider—Multi-melta"
                   }
                 ]
               }
@@ -12602,7 +12609,7 @@
             "value": 5
           },
           "Points": {
-            "value": 220
+            "value": 240
           },
           "Storm bolter": {
             "dynamic": true,
@@ -12616,7 +12623,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Land Raider—Storm bolter"
+                    "trait": "Ranged Weapon§Land Raider—Storm bolter"
                   }
                 ]
               }
@@ -12633,10 +12640,16 @@
           },
           "W": {
             "value": 16
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
-      "Unit§Grey Knights Land Raider Crusader": {
+      "Unit§Land Raider Crusader": {
         "aspects": {
           "Type": "game piece"
         },
@@ -12663,10 +12676,10 @@
               "item": "Ability§Transport",
               "text": "This model has a transport capacity of 16 Grey Knights Infantry models. Each Terminator model takes up the space of 2 models."
             },
-            "Melee Weapon§Grey Knights Land Raider Crusader—Armoured tracks",
-            "Ranged Weapon§Grey Knights Land Raider Crusader—Hurricane bolter",
-            "Ranged Weapon§Grey Knights Land Raider Crusader—Hurricane bolter",
-            "Ranged Weapon§Grey Knights Land Raider Crusader—Twin assault cannon"
+            "Melee Weapon§Land Raider Crusader—Armoured tracks",
+            "Ranged Weapon§Land Raider Crusader—Hurricane bolter",
+            "Ranged Weapon§Land Raider Crusader—Hurricane bolter",
+            "Ranged Weapon§Land Raider Crusader—Twin assault cannon"
           ]
         },
         "keywords": {
@@ -12702,7 +12715,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Land Raider Crusader—Hunter-killer missile"
+                    "trait": "Ranged Weapon§Land Raider Crusader—Hunter-killer missile"
                   }
                 ]
               }
@@ -12729,7 +12742,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Land Raider Crusader—Multi-melta"
+                    "trait": "Ranged Weapon§Land Raider Crusader—Multi-melta"
                   }
                 ]
               }
@@ -12742,7 +12755,7 @@
             "value": 5
           },
           "Points": {
-            "value": 220
+            "value": 240
           },
           "Storm bolter": {
             "dynamic": true,
@@ -12756,7 +12769,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Land Raider Crusader—Storm bolter"
+                    "trait": "Ranged Weapon§Land Raider Crusader—Storm bolter"
                   }
                 ]
               }
@@ -12773,10 +12786,16 @@
           },
           "W": {
             "value": 16
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
-      "Unit§Grey Knights Land Raider Redeemer": {
+      "Unit§Land Raider Redeemer": {
         "aspects": {
           "Type": "game piece"
         },
@@ -12803,10 +12822,10 @@
               "item": "Ability§Transport",
               "text": "This model has a transport capacity of 14 Grey Knights Infantry models. Each Terminator model takes up the space of 2 models."
             },
-            "Ranged Weapon§Grey Knights Land Raider Redeemer—Flamestorm cannon",
-            "Ranged Weapon§Grey Knights Land Raider Redeemer—Flamestorm cannon",
-            "Ranged Weapon§Grey Knights Land Raider Redeemer—Twin assault cannon",
-            "Melee Weapon§Grey Knights Land Raider Redeemer—Armoured tracks"
+            "Ranged Weapon§Land Raider Redeemer—Flamestorm cannon",
+            "Ranged Weapon§Land Raider Redeemer—Flamestorm cannon",
+            "Ranged Weapon§Land Raider Redeemer—Twin assault cannon",
+            "Melee Weapon§Land Raider Redeemer—Armoured tracks"
           ]
         },
         "keywords": {
@@ -12842,7 +12861,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Land Raider Redeemer—Hunter-killer missile"
+                    "trait": "Ranged Weapon§Land Raider Redeemer—Hunter-killer missile"
                   }
                 ]
               }
@@ -12869,7 +12888,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Land Raider Redeemer—Multi-melta"
+                    "trait": "Ranged Weapon§Land Raider Redeemer—Multi-melta"
                   }
                 ]
               }
@@ -12882,7 +12901,7 @@
             "value": 5
           },
           "Points": {
-            "value": 270
+            "value": 280
           },
           "Storm bolter": {
             "dynamic": true,
@@ -12896,7 +12915,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Land Raider Redeemer—Storm bolter"
+                    "trait": "Ranged Weapon§Land Raider Redeemer—Storm bolter"
                   }
                 ]
               }
@@ -12913,10 +12932,16 @@
           },
           "W": {
             "value": 16
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
-      "Unit§Grey Knights Razorback": {
+      "Unit§Razorback": {
         "aspects": {
           "Label": "Razorback",
           "Type": "game piece"
@@ -12935,7 +12960,7 @@
               "item": "Ability§Transport",
               "text": "This model has a transport capacity of 6 Grey Knights Infantry models. It cannot transport Terminator models."
             },
-            "Melee Weapon§Grey Knights Razorback—Armoured tracks",
+            "Melee Weapon§Razorback—Armoured tracks",
             "Ability§Fire Focus"
           ]
         },
@@ -12971,7 +12996,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Razorback—Hunter-killer missile"
+                    "trait": "Ranged Weapon§Razorback—Hunter-killer missile"
                   }
                 ]
               }
@@ -13001,7 +13026,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Razorback—Twin heavy bolter"
+                    "trait": "Ranged Weapon§Razorback—Twin heavy bolter"
                   }
                 ]
               },
@@ -13009,7 +13034,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Razorback—Twin lascannon"
+                    "trait": "Ranged Weapon§Razorback—Twin lascannon"
                   }
                 ]
               }
@@ -13030,7 +13055,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Razorback—Storm bolter"
+                    "trait": "Ranged Weapon§Razorback—Storm bolter"
                   }
                 ]
               }
@@ -13047,6 +13072,12 @@
           },
           "W": {
             "value": 10
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 4
           }
         }
       },
@@ -13207,7 +13238,7 @@
           }
         }
       },
-      "Unit§Grey Knights Rhino": {
+      "Unit§Rhino": {
         "aspects": {
           "Label": "Rhino",
           "Type": "game piece"
@@ -13234,8 +13265,8 @@
               "item": "Ability§Transport",
               "text": "This model has a transport capacity of 12 Grey Knights Infantry models. It cannot transport Terminator models."
             },
-            "Melee Weapon§Grey Knights Rhino—Armoured tracks",
-            "Ranged Weapon§Grey Knights Rhino—Storm bolter",
+            "Melee Weapon§Rhino—Armoured tracks",
+            "Ranged Weapon§Rhino—Storm bolter",
             "Ability§Truesilver Aegis (Aura)"
           ]
         },
@@ -13271,7 +13302,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Rhino—Hunter-killer missile"
+                    "trait": "Ranged Weapon§Rhino—Hunter-killer missile"
                   }
                 ]
               }
@@ -13304,7 +13335,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Rhino—Storm bolter"
+                    "trait": "Ranged Weapon§Rhino—Storm bolter"
                   }
                 ]
               }
@@ -13321,10 +13352,16 @@
           },
           "W": {
             "value": 10
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 4
           }
         }
       },
-      "Unit§Grey Knights Stormhawk Interceptor": {
+      "Unit§Stormhawk Interceptor": {
         "aspects": {
           "Label": "Stormhawk Interceptor",
           "Type": "game piece"
@@ -13341,8 +13378,8 @@
             },
             "Ability§Hover",
             "Ability§Interceptor",
-            "Ranged Weapon§Grey Knights Stormhawk Interceptor—Twin assault cannon",
-            "Melee Weapon§Grey Knights Stormhawk Interceptor—Armoured hull"
+            "Ranged Weapon§Stormhawk Interceptor—Twin assault cannon",
+            "Melee Weapon§Stormhawk Interceptor—Armoured hull"
           ]
         },
         "keywords": {
@@ -13377,7 +13414,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Stormhawk Interceptor—Las-talon"
+                    "trait": "Ranged Weapon§Stormhawk Interceptor—Las-talon"
                   }
                 ]
               },
@@ -13385,7 +13422,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Stormhawk Interceptor—Icarus stormcannon"
+                    "trait": "Ranged Weapon§Stormhawk Interceptor—Icarus stormcannon"
                   }
                 ]
               }
@@ -13403,7 +13440,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Stormhawk Interceptor—Skyhammer missile launcher"
+                    "trait": "Ranged Weapon§Stormhawk Interceptor—Skyhammer missile launcher"
                   }
                 ]
               },
@@ -13411,7 +13448,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Stormhawk Interceptor—Twin heavy bolter"
+                    "trait": "Ranged Weapon§Stormhawk Interceptor—Twin heavy bolter"
                   }
                 ]
               },
@@ -13419,7 +13456,7 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Stormhawk Interceptor—Typhoon missile launcher"
+                    "trait": "Ranged Weapon§Stormhawk Interceptor—Typhoon missile launcher"
                   }
                 ]
               }
@@ -13449,7 +13486,7 @@
           }
         }
       },
-      "Unit§Grey Knights Stormraven Gunship": {
+      "Unit§Stormraven Gunship": {
         "aspects": {
           "Label": "Stormraven Gunship",
           "Type": "game piece"
@@ -13478,9 +13515,9 @@
               "item": "Ability§Transport",
               "text": "This model has a transport capacity of 12 Grey Knights Infantry models and 1 Grey Knights Venerable Dreadnought model. Each Terminator model takes up the space of 2 models."
             },
-            "Ranged Weapon§Grey Knights Stormraven Gunship—Stormstrike missile launcher",
-            "Ranged Weapon§Grey Knights Stormraven Gunship—Stormstrike missile launcher",
-            "Melee Weapon§Grey Knights Stormraven Gunship—Armoured hull"
+            "Ranged Weapon§Stormraven Gunship—Stormstrike missile launcher",
+            "Ranged Weapon§Stormraven Gunship—Stormstrike missile launcher",
+            "Melee Weapon§Stormraven Gunship—Armoured hull"
           ]
         },
         "keywords": {
@@ -13515,10 +13552,10 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Stormraven Gunship—Hurricane bolter"
+                    "trait": "Ranged Weapon§Stormraven Gunship—Hurricane bolter"
                   },
                   {
-                    "trait": "Ranged Weapon§Grey Knights Stormraven Gunship—Hurricane bolter"
+                    "trait": "Ranged Weapon§Stormraven Gunship—Hurricane bolter"
                   }
                 ]
               }
@@ -13540,7 +13577,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Stormraven Gunship—Twin assault cannon"
+                    "trait": "Ranged Weapon§Stormraven Gunship—Twin assault cannon"
                   }
                 ]
               },
@@ -13548,7 +13585,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Stormraven Gunship—Twin heavy plasma cannon"
+                    "trait": "Ranged Weapon§Stormraven Gunship—Twin heavy plasma cannon"
                   }
                 ]
               },
@@ -13556,7 +13593,7 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Stormraven Gunship—Twin lascannon"
+                    "trait": "Ranged Weapon§Stormraven Gunship—Twin lascannon"
                   }
                 ]
               }
@@ -13575,7 +13612,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Stormraven Gunship—Typhoon missile launcher"
+                    "trait": "Ranged Weapon§Stormraven Gunship—Typhoon missile launcher"
                   }
                 ]
               },
@@ -13583,7 +13620,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Stormraven Gunship—Twin heavy bolter"
+                    "trait": "Ranged Weapon§Stormraven Gunship—Twin heavy bolter"
                   }
                 ]
               },
@@ -13591,7 +13628,7 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Stormraven Gunship—Twin multi-melta"
+                    "trait": "Ranged Weapon§Stormraven Gunship—Twin multi-melta"
                   }
                 ]
               }
@@ -13601,14 +13638,13 @@
             "visibility": "active"
           },
           "M": {
-            "statType": "term",
-            "value": "20+"
+            "value": 14
           },
           "OC": {
             "value": 0
           },
           "Points": {
-            "value": 280
+            "value": 300
           },
           "Sv": {
             "value": 3
@@ -13618,10 +13654,16 @@
           },
           "W": {
             "value": 14
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           }
         }
       },
-      "Unit§Grey Knights Stormtalon Gunship": {
+      "Unit§Stormtalon Gunship": {
         "aspects": {
           "Label": "Stormtalon Gunship",
           "Type": "game piece"
@@ -13638,8 +13680,8 @@
             },
             "Ability§Hover",
             "Ability§Strafing Run",
-            "Ranged Weapon§Grey Knights Stormtalon Gunship—Twin assault cannon",
-            "Melee Weapon§Grey Knights Stormtalon Gunship—Armoured hull"
+            "Ranged Weapon§Stormtalon Gunship—Twin assault cannon",
+            "Melee Weapon§Stormtalon Gunship—Armoured hull"
           ]
         },
         "keywords": {
@@ -13673,7 +13715,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Stormtalon Gunship—Skyhammer missile launcher"
+                    "trait": "Ranged Weapon§Stormtalon Gunship—Skyhammer missile launcher"
                   }
                 ]
               },
@@ -13681,7 +13723,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Stormtalon Gunship—Twin heavy bolter"
+                    "trait": "Ranged Weapon§Stormtalon Gunship—Twin heavy bolter"
                   }
                 ]
               },
@@ -13689,7 +13731,7 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Stormtalon Gunship—Twin lascannon"
+                    "trait": "Ranged Weapon§Stormtalon Gunship—Twin lascannon"
                   }
                 ]
               },
@@ -13697,7 +13739,7 @@
                 "order": 3,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Grey Knights Stormtalon Gunship—Typhoon missile launcher"
+                    "trait": "Ranged Weapon§Stormtalon Gunship—Typhoon missile launcher"
                   }
                 ]
               }
@@ -13843,8 +13885,7 @@
             "visibility": "normal"
           },
           "M": {
-            "statType": "term",
-            "value": "20+"
+            "value": 20
           },
           "OC": {
             "value": 0
@@ -14444,7 +14485,7 @@
             "value": 2
           },
           "T": {
-            "value": 8
+            "value": 9
           },
           "unitDiscount": {
             "value": 15
@@ -15351,6 +15392,63 @@
             "evaluate": "AND",
             "failState": "error"
           }
+        }
+      },
+      "Melee Weapon§Brotherhood Techmarine—Omnissiah power axe": {
+        "aspects": {
+          "Label": "Omnissiah power axe"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Melee Weapon§Brotherhood Techmarine—Servo-arm": {
+        "aspects": {
+          "Label": "Servo-arm"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 1
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Extra Attacks"
+          ]
         }
       }
     },

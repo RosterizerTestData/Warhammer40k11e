@@ -169,7 +169,22 @@ def fuzzy(name, cands, prefix_len=0, cutoff=0.8, margin=0.2):
         return scored[0][1]
     return None
 
+# MFM names that lag behind codex renames already applied to the books (MFM name -> book unit name)
+ALIASES = {
+    "Custodian Guard": "Custodian Guard Sodality",
+    "Custodian Guard With Adrasite And Pyrithite Spears": "Custodian Guard Sodality with Adrasite Spears",
+    "Sagittarum Custodians": "Sagittarum Custodians Sodality",
+    "Vigilators": "Vigilator Squad",
+    "Venatari Custodians": "Venatari with Verutum Lances",
+    "Aquilon Custodians": "Aquilon Terminators with Solarite Power Gauntlets",
+    "Prosecutors": "Prosecutor Squad",
+    "Witchseekers": "Witchseeker Squad",
+}
+
 def find_unit(b, name, keys):
+    if name in ALIASES and any(k.partition("§")[2] == ALIASES[name] for k in keys):
+        conflicts.append(f"{b}: alias MFM '{name}' -> {ALIASES[name]}")
+        name = ALIASES[name]
     cands = [f"{cl}§{name}" for cl in UP]
     for k in cands:
         if k in keys:

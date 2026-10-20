@@ -20,6 +20,7 @@ args = sys.argv[1:]
 APPLY = "--apply" in args
 book, gfile = args[0], args[1]
 renames = dict(a.split("=", 1) for i, a in enumerate(args) if i > 0 and args[i - 1] == "--rename")
+HUB_FACTION = next((args[i + 1] for i, a in enumerate(args) if a == "--hub-faction"), None)  # shared-book mode
 
 en = lambda x: (x.get("en", "") if isinstance(x, dict) else (x or "")).replace("\u2011", "-").replace("\u00a0", " ")
 n = lambda s: re.sub(r"[^a-z0-9]", "", s.lower().replace("’", "'"))
@@ -48,6 +49,9 @@ for old, new in renames.items():
     s = json.dumps(d, ensure_ascii=False)
     s = s.replace(f'"{ok}"', f'"{ok.split("§")[0]}§{new}"').replace(f"§{old}—", f"§{new}—").replace(f'"{old}"', f'"{new}"')
     d = json.loads(s); cat = d["rulebook"]["assetCatalog"]
+    nk = f'{ok.split("§")[0]}§{new}'
+    if f"Model§{old}" in cat and new in (cat[nk].get("stats") or {}):   # model-count stat shares the unit name: keep the model's name
+        cat[nk]["stats"][old] = cat[nk]["stats"].pop(new)
     log.append(f"rename {ok} -> {new}")
 
 # ---------------------------------------------------------------- value helpers
@@ -121,7 +125,11 @@ def unit_key(name):
     return suff[0] if len(suff) == 1 else None
 
 def inherited(name):
-    return next((x for x in DEP_CAT if x.split("§")[0] in UNITCLS and n(x.split("§", 1)[1]) == n(name)), None)
+    k = next((x for x in DEP_CAT if x.split("§")[0] in UNITCLS and n(x.split("§", 1)[1]) == n(name)), None)
+    if k:
+        return k
+    suff = [x for x in DEP_CAT if x.split("§")[0] in UNITCLS and "(" in x and n(re.sub(r"\s*\(.*?\)\s*$", "", x.split("§", 1)[1])) == n(name)]
+    return suff[0] if len(suff) == 1 else None
 
 STATS = (("M", "m"), ("T", "t"), ("Sv", "sv"), ("W", "w"), ("Ld", "ld"), ("OC", "oc"))
 def set_statline(asset, row):
@@ -215,7 +223,12 @@ faction = en(g.get("name"))
 missing = []
 for ds in g["datasheets"]:
     name = en(ds["name"]); uk = unit_key(name)
-    ik = inherited(name)
+    if HUB_FACTION:
+        if not uk or HUB_FACTION not in ((cat[uk].get("keywords") or {}).get("Faction") or []):
+            continue
+        ik = None
+    else:
+        ik = inherited(name)
     if ik and (not uk or uk == ik):
         for line in sync_weapons(ik.split("§", 1)[1], ds, inherited_unit=True):
             log.append(f"  {line} (option for inherited {ik})")
@@ -294,6 +307,8 @@ def md(t):
     return re.sub(r"\n{3,}", "\n\n", re.sub(r"<[^>]+>", "", t)).strip()
 
 attach = []
+if HUB_FACTION:
+    missing = []
 for ds in missing:
     name = en(ds["name"])
     kws = [en(k) for k in ds.get("keywords") or []]

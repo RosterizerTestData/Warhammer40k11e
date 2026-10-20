@@ -1,6 +1,6 @@
 {
   "name": "Death Guard 11e",
-  "revision": "11.1.14",
+  "revision": "11.1.15",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -1294,7 +1294,7 @@
           }
         }
       },
-      "Character§Death Guard Daemon Prince": {
+      "Character§Daemon Prince of Nurgle": {
         "assets": {
           "traits": [
             {
@@ -1315,8 +1315,8 @@
                 }
               }
             },
-            "Ranged Weapon§Death Guard Daemon Prince—Infernal cannon",
-            "Melee Weapon§Death Guard Daemon Prince—Hellforged weapons",
+            "Ranged Weapon§Daemon Prince of Nurgle—Infernal cannon",
+            "Melee Weapon§Daemon Prince of Nurgle—Hellforged weapons",
             "Ability§Fevered Strategist",
             "Ability§Miasma of Pestilence (Aura)"
           ]
@@ -1365,7 +1365,7 @@
           }
         }
       },
-      "Character§Death Guard Daemon Prince with Wings": {
+      "Character§Daemon Prince of Nurgle with Wings": {
         "assets": {
           "traits": [
             {
@@ -1388,8 +1388,8 @@
               }
             },
             "Ability§Deep Strike",
-            "Ranged Weapon§Death Guard Daemon Prince with Wings—Infernal cannon",
-            "Melee Weapon§Death Guard Daemon Prince with Wings—Hellforged weapons"
+            "Ranged Weapon§Daemon Prince of Nurgle with Wings—Infernal cannon",
+            "Melee Weapon§Daemon Prince of Nurgle with Wings—Hellforged weapons"
           ]
         },
         "keywords": {
@@ -4894,7 +4894,7 @@
             "value": 4
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "D": {
             "value": 1
@@ -4904,7 +4904,7 @@
             "value": "Melee"
           },
           "S": {
-            "value": 4
+            "value": 5
           },
           "WS": {
             "value": 3
@@ -4930,7 +4930,7 @@
             "value": "Melee"
           },
           "S": {
-            "value": 4
+            "value": 5
           },
           "WS": {
             "value": 3
@@ -5278,14 +5278,14 @@
           }
         }
       },
-      "Melee Weapon§Death Guard Daemon Prince with Wings—Hellforged weapons": {
+      "Melee Weapon§Daemon Prince of Nurgle with Wings—Hellforged weapons": {
         "aspects": {
           "Label": "Hellforged weapons"
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Death Guard Daemon Prince with Wings—Hellforged weapons – strike",
-            "Melee Weapon§Death Guard Daemon Prince with Wings—Hellforged weapons – sweep"
+            "Melee Weapon§Daemon Prince of Nurgle with Wings—Hellforged weapons – sweep",
+            "Melee Weapon§Daemon Prince of Nurgle with Wings—Hellforged weapons – strike"
           ]
         },
         "keywords": {
@@ -5294,7 +5294,7 @@
           ]
         }
       },
-      "Melee Weapon§Death Guard Daemon Prince with Wings—Hellforged weapons – strike": {
+      "Melee Weapon§Daemon Prince of Nurgle with Wings—Hellforged weapons – strike": {
         "aspects": {
           "Label": "Strike"
         },
@@ -5325,7 +5325,7 @@
           }
         }
       },
-      "Melee Weapon§Death Guard Daemon Prince with Wings—Hellforged weapons – sweep": {
+      "Melee Weapon§Daemon Prince of Nurgle with Wings—Hellforged weapons – sweep": {
         "aspects": {
           "Label": "Sweep"
         },
@@ -5356,14 +5356,14 @@
           }
         }
       },
-      "Melee Weapon§Death Guard Daemon Prince—Hellforged weapons": {
+      "Melee Weapon§Daemon Prince of Nurgle—Hellforged weapons": {
         "aspects": {
           "Label": "Hellforged weapons"
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Death Guard Daemon Prince—Hellforged weapons – strike",
-            "Melee Weapon§Death Guard Daemon Prince—Hellforged weapons – sweep"
+            "Melee Weapon§Daemon Prince of Nurgle—Hellforged weapons – sweep",
+            "Melee Weapon§Daemon Prince of Nurgle—Hellforged weapons – strike"
           ]
         },
         "keywords": {
@@ -5372,7 +5372,7 @@
           ]
         }
       },
-      "Melee Weapon§Death Guard Daemon Prince—Hellforged weapons – strike": {
+      "Melee Weapon§Daemon Prince of Nurgle—Hellforged weapons – strike": {
         "aspects": {
           "Label": "Strike"
         },
@@ -5403,7 +5403,7 @@
           }
         }
       },
-      "Melee Weapon§Death Guard Daemon Prince—Hellforged weapons – sweep": {
+      "Melee Weapon§Daemon Prince of Nurgle—Hellforged weapons – sweep": {
         "aspects": {
           "Label": "Sweep"
         },
@@ -5632,8 +5632,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Deathshroud Terminators—Manreaper – strike",
-            "Melee Weapon§Deathshroud Terminators—Manreaper – sweep"
+            "Melee Weapon§Deathshroud Terminators—Manreaper – sweep",
+            "Melee Weapon§Deathshroud Terminators—Manreaper – strike"
           ]
         },
         "keywords": {
@@ -5785,7 +5785,7 @@
             "value": "Melee"
           },
           "S": {
-            "value": 4
+            "value": 5
           },
           "WS": {
             "value": 3
@@ -5813,7 +5813,7 @@
             "value": 4
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "D": {
             "value": 1
@@ -5823,7 +5823,7 @@
             "value": "Melee"
           },
           "S": {
-            "value": 4
+            "value": 5
           },
           "WS": {
             "value": 3
@@ -5914,8 +5914,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Lethal Hits"
+            "Ability§Lethal Hits",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -5977,8 +5977,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Lethal Hits",
-            "Ability§Psychic"
+            "Ability§Psychic",
+            "Ability§Lethal Hits"
           ]
         },
         "stats": {
@@ -5989,8 +5989,8 @@
             "value": -1
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "statType": "term",
@@ -6010,8 +6010,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Mortarion—Silence – strike",
-            "Melee Weapon§Mortarion—Silence – sweep"
+            "Melee Weapon§Mortarion—Silence – sweep",
+            "Melee Weapon§Mortarion—Silence – strike"
           ]
         },
         "keywords": {
@@ -6026,8 +6026,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Lethal Hits"
+            "Ability§Lethal Hits",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -6059,7 +6059,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Lethal Hits",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -6067,7 +6066,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Lethal Hits"
           ]
         },
         "stats": {
@@ -6129,18 +6129,18 @@
         },
         "assets": {
           "traits": [
+            "Ability§Lethal Hits",
             {
               "item": "Ability§Anti-",
               "stats": {
-                "x": {
-                  "value": "2+"
-                },
                 "keyword": {
                   "value": "psyker"
+                },
+                "x": {
+                  "value": "2+"
                 }
               }
-            },
-            "Ability§Lethal Hits"
+            }
           ]
         },
         "stats": {
@@ -6241,7 +6241,7 @@
             "value": 3
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "D": {
             "value": 1
@@ -6251,7 +6251,7 @@
             "value": "Melee"
           },
           "S": {
-            "value": 4
+            "value": 5
           },
           "WS": {
             "value": 3
@@ -6396,7 +6396,7 @@
             "value": "Melee"
           },
           "S": {
-            "value": 4
+            "value": 5
           },
           "WS": {
             "value": 3
@@ -7526,9 +7526,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
+            "Ability§Lethal Hits",
             "Ability§Blast",
-            "Ability§Lethal Hits"
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -7559,6 +7559,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Precision",
+            "Ability§Pistol",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -7569,9 +7571,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Pistol",
-            "Ability§Precision"
+            }
           ]
         },
         "stats": {
@@ -7601,7 +7601,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Lethal Hits"
+            "Ability§Lethal Hits",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -7633,6 +7634,15 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
@@ -7640,15 +7650,6 @@
                 },
                 "x": {
                   "value": "4+"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
                 }
               }
             }
@@ -7659,7 +7660,7 @@
             "value": 1
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
             "value": 4
@@ -7671,7 +7672,7 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -7719,6 +7720,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Torrent",
+            "Ability§Ignores Cover",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -7729,9 +7732,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            }
           ]
         },
         "stats": {
@@ -7764,7 +7765,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -7772,7 +7772,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -8247,7 +8248,7 @@
           }
         }
       },
-      "Ranged Weapon§Death Guard Daemon Prince with Wings—Infernal cannon": {
+      "Ranged Weapon§Daemon Prince of Nurgle with Wings—Infernal cannon": {
         "aspects": {
           "Label": "Infernal cannon"
         },
@@ -8273,11 +8274,11 @@
             "value": 24
           },
           "S": {
-            "value": 5
+            "value": 7
           }
         }
       },
-      "Ranged Weapon§Death Guard Daemon Prince with Wings—Plague spewer": {
+      "Ranged Weapon§Daemon Prince of Nurgle with Wings—Plague spewer": {
         "aspects": {
           "Label": "Plague spewer"
         },
@@ -8322,7 +8323,7 @@
           }
         }
       },
-      "Ranged Weapon§Death Guard Daemon Prince—Infernal cannon": {
+      "Ranged Weapon§Daemon Prince of Nurgle—Infernal cannon": {
         "aspects": {
           "Label": "Infernal cannon"
         },
@@ -8524,6 +8525,9 @@
         },
         "assets": {
           "traits": [
+            "Ability§Torrent",
+            "Ability§Pistol",
+            "Ability§Ignores Cover",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -8534,10 +8538,7 @@
                   "value": "4+"
                 }
               }
-            },
-            "Ability§Ignores Cover",
-            "Ability§Pistol",
-            "Ability§Torrent"
+            }
           ]
         },
         "stats": {
@@ -8612,6 +8613,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Torrent",
+            "Ability§Ignores Cover",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -8622,9 +8625,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            }
           ]
         },
         "stats": {
@@ -8657,6 +8658,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Torrent",
+            "Ability§Ignores Cover",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -8667,9 +8670,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            }
           ]
         },
         "stats": {
@@ -8778,8 +8779,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -8809,6 +8810,9 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
+            "Ability§Torrent",
+            "Ability§Ignores Cover",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -8819,10 +8823,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Ignores Cover",
-            "Ability§Torrent",
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -8902,9 +8903,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
+            "Ability§Torrent",
             "Ability§Psychic",
-            "Ability§Torrent"
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -8921,8 +8922,8 @@
             "value": "N/A"
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 12
@@ -8938,8 +8939,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Psychic",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Psychic"
           ]
         },
         "stats": {
@@ -8956,8 +8957,8 @@
             "value": "N/A"
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 12
@@ -9007,10 +9008,10 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Devastating Wounds",
+            "Ability§Psychic",
             "Ability§Lethal Hits",
-            "Ability§Psychic"
+            "Ability§Devastating Wounds",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -9109,8 +9110,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Myphitic Blight-haulers—Missile launcher – frag",
-            "Ranged Weapon§Myphitic Blight-haulers—Missile launcher – krak"
+            "Ranged Weapon§Myphitic Blight-haulers—Missile launcher – krak",
+            "Ranged Weapon§Myphitic Blight-haulers—Missile launcher – frag"
           ]
         },
         "keywords": {
@@ -9182,6 +9183,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Lethal Hits",
             {
               "item": "Ability§Melta",
               "stats": {
@@ -9189,8 +9191,7 @@
                   "value": "2"
                 }
               }
-            },
-            "Ability§Lethal Hits"
+            }
           ]
         },
         "stats": {
@@ -9368,6 +9369,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Torrent",
+            "Ability§Ignores Cover",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -9378,9 +9381,7 @@
                   "value": "4+"
                 }
               }
-            },
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            }
           ]
         },
         "stats": {
@@ -9474,6 +9475,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Torrent",
+            "Ability§Ignores Cover",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -9484,9 +9487,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            }
           ]
         },
         "stats": {
@@ -9572,7 +9573,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -9580,7 +9580,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -9656,8 +9657,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -9779,9 +9780,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
+            "Ability§Lethal Hits",
             "Ability§Indirect Fire",
-            "Ability§Lethal Hits"
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -9812,6 +9813,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Torrent",
+            "Ability§Ignores Cover",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -9822,9 +9825,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            }
           ]
         },
         "stats": {
@@ -9857,7 +9858,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Lethal Hits",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -9865,7 +9865,8 @@
                   "value": "3"
                 }
               }
-            }
+            },
+            "Ability§Lethal Hits"
           ]
         },
         "stats": {
@@ -9948,8 +9949,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -11319,6 +11320,24 @@
         "stats": {
           "Points": {
             "value": 185
+          },
+          "M": {
+            "value": 8
+          },
+          "T": {
+            "value": 12
+          },
+          "Sv": {
+            "value": 2
+          },
+          "W": {
+            "value": 10
+          },
+          "Ld": {
+            "value": 6
+          },
+          "OC": {
+            "value": 3
           }
         },
         "text": "WARNING: this unit was not in 10e and needs importing.\n\n**Death Guard Defenders**\nWhile this model is within 3\" of one or more friendly **DEATH GUARD INFANTRY** units, this model has the Lone Operative ability.\n\n**Fevered Strategist**\nOnce per battle round, one model from your army with this ability can use it when a friendly **DEATH GUARD** unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP.\n\n**Miasma of Pestilence**\nWhile a friendly **DEATH GUARD** unit is within 6\" of this model, each time a ranged attack targets that unit, models in that unit have the Benefit of Cover against that attack."
@@ -11327,6 +11346,24 @@
         "stats": {
           "Points": {
             "value": 160
+          },
+          "M": {
+            "value": 12
+          },
+          "T": {
+            "value": 11
+          },
+          "Sv": {
+            "value": 2
+          },
+          "W": {
+            "value": 10
+          },
+          "Ld": {
+            "value": 6
+          },
+          "OC": {
+            "value": 3
           }
         },
         "text": "WARNING: this unit was not in 10e and needs importing.\n\n**Horrifying Visage**\nEach time this model ends a Charge move, select one enemy unit within Engagement Range of it. That unit must take a Battle-shock test, subtracting 1 from that test.\n\n**Enfeebling Miasma**\nWhile an enemy unit (excluding **MONSTERS** and **VEHICLES**) is within 6\" of this model, each time that unit is selected to Fall Back, models in that enemy unit must take Desperate Escape tests. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those Desperate Escape tests."
@@ -12725,8 +12762,36 @@
         },
         "assets": {
           "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            },
             "Ability§Lethal Hits"
           ]
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
         }
       },
       "Ranged Weapon§Chaos Land Raider—Twin plague heavy bolter": {
@@ -13118,8 +13183,39 @@
       "Ranged Weapon§Chaos Predator Destructor—Predator autocannon": {
         "assets": {
           "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            },
             "Ability§Lethal Hits"
           ]
+        },
+        "aspects": {
+          "Label": "Predator autocannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 3
+          }
         }
       },
       "Vehicle§Chaos Predator Destructor": {
@@ -13258,8 +13354,33 @@
       "Ranged Weapon§Defiler—Ectoplasma destructor": {
         "assets": {
           "traits": [
-            "Ability§Lethal Hits"
+            "Ability§Lethal Hits",
+            "Ability§Blast"
           ]
+        },
+        "aspects": {
+          "Label": "Ectoplasma destructor"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 3
+          }
         }
       },
       "Ranged Weapon§Defiler—Excruciator cannon": {
@@ -13267,13 +13388,61 @@
           "traits": [
             "Ability§Lethal Hits"
           ]
+        },
+        "aspects": {
+          "Label": "Excruciator cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 6
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
         }
       },
       "Ranged Weapon§Defiler—Hades battle cannon": {
         "assets": {
           "traits": [
-            "Ability§Lethal Hits"
+            "Ability§Lethal Hits",
+            "Ability§Blast"
           ]
+        },
+        "aspects": {
+          "Label": "Hades battle cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "format": "D6",
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 3
+          }
         }
       },
       "Ranged Weapon§Defiler—Hades lascannon": {
@@ -13285,7 +13454,29 @@
         "stats": {
           "Points": {
             "value": 15
+          },
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
           }
+        },
+        "aspects": {
+          "Label": "Hades lascannon"
         }
       },
       "Ranged Weapon§Defiler—Heavy missile launcher – frag": {
@@ -13305,20 +13496,82 @@
       "Ranged Weapon§Defiler—Heavy reaper autocannon": {
         "assets": {
           "traits": [
-            "Ability§Lethal Hits"
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Lethal Hits",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
           "Points": {
             "value": 15
+          },
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 3
           }
+        },
+        "aspects": {
+          "Label": "Heavy reaper autocannon"
         }
       },
       "Ranged Weapon§Defiler—Magma cutters": {
         "assets": {
           "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            },
             "Ability§Lethal Hits"
           ]
+        },
+        "aspects": {
+          "Label": "Magma cutters"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          }
         }
       },
       "Vehicle§Defiler": {
@@ -13360,6 +13613,30 @@
           "rules": {
             "Moreattacksdoesnotapplytoccw": {}
           }
+        },
+        "aspects": {
+          "Label": "Close combat weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
         }
       },
       "Melee Weapon§Helbrute—Helbrute hammer": {
@@ -13369,7 +13646,24 @@
           },
           "A": {
             "value": 4
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 14
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
           }
+        },
+        "aspects": {
+          "Label": "Helbrute hammer"
         }
       },
       "Ranged Weapon§Helbrute—Helbrute plasma cannon": {
@@ -13382,8 +13676,8 @@
       "Ranged Weapon§Helbrute—Missile launcher": {
         "assets": {
           "traits": [
-            "Ranged Weapon§Helbrute—Missile launcher – frag",
-            "Ranged Weapon§Helbrute—Missile launcher – krak"
+            "__inherited__",
+            "__inherited__"
           ]
         },
         "removed": {
@@ -13393,13 +13687,53 @@
               "Ranged Weapon§Helbrute—Missile launcher – krak"
             ]
           }
+        },
+        "aspects": {
+          "Label": "Missile launcher"
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
         }
       },
       "Ranged Weapon§Helbrute—Multi-melta": {
         "assets": {
           "traits": [
-            "Ability§Lethal Hits"
+            "Ability§Lethal Hits",
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
           ]
+        },
+        "aspects": {
+          "Label": "Multi-melta"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          }
         }
       },
       "Ranged Weapon§Helbrute—Plague combi-bolter": {
@@ -13443,13 +13777,32 @@
       "Ranged Weapon§Helbrute—Twin autocannon": {
         "assets": {
           "traits": [
-            "Ability§Lethal Hits"
+            "Ability§Lethal Hits",
+            "Ability§Twin-linked"
           ]
         },
         "stats": {
           "S": {
             "value": 10
+          },
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 3
           }
+        },
+        "aspects": {
+          "Label": "Twin autocannon"
         }
       },
       "Ranged Weapon§Helbrute—Twin plague heavy bolter": {
@@ -13972,6 +14325,1161 @@
           "Phase": [
             "Fight",
             "Shooting"
+          ]
+        }
+      },
+      "Ranged Weapon§Blightlord Terminators—Combi-bolter": {
+        "aspects": {
+          "Label": "Combi-bolter"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            },
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Ranged Weapon§Chaos Land Raider—Combi-weapon": {
+        "aspects": {
+          "Label": "Combi-weapon"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Chaos Land Raider—Twin heavy bolter": {
+        "aspects": {
+          "Label": "Twin heavy bolter"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Ranged Weapon§Chaos Predator Annihilator—Combi-weapon": {
+        "aspects": {
+          "Label": "Combi-weapon"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Chaos Predator Annihilator—Lascannon": {
+        "aspects": {
+          "Label": "Lascannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Predator Destructor—Combi-weapon": {
+        "aspects": {
+          "Label": "Combi-weapon"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Chaos Predator Destructor—Lascannon": {
+        "aspects": {
+          "Label": "Lascannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Rhino—Combi-weapon": {
+        "aspects": {
+          "Label": "Combi-weapon"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Chaos Rhino—Havoc launcher": {
+        "aspects": {
+          "Label": "Havoc launcher"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Daemon Prince Of Nurgle—Infernal cannon": {
+        "aspects": {
+          "Label": "Infernal cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Melee Weapon§Daemon Prince Of Nurgle—Hellforged weapons – sweep": {
+        "aspects": {
+          "Label": "Hellforged weapons – Sweep"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 14
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Melee Weapon§Daemon Prince Of Nurgle—Hellforged weapons – strike": {
+        "aspects": {
+          "Label": "Hellforged weapons – Strike"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 7
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Melee Weapon§Daemon Prince Of Nurgle—Hellforged weapons": {
+        "aspects": {
+          "Label": "Hellforged weapons"
+        },
+        "assets": {
+          "traits": [
+            "Melee Weapon§Daemon Prince Of Nurgle—Hellforged weapons – sweep",
+            "Melee Weapon§Daemon Prince Of Nurgle—Hellforged weapons – strike"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Daemon Prince Of Nurgle With Wings—Infernal cannon": {
+        "aspects": {
+          "Label": "Infernal cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Melee Weapon§Daemon Prince Of Nurgle With Wings—Hellforged weapons – sweep": {
+        "aspects": {
+          "Label": "Hellforged weapons – Sweep"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 14
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Melee Weapon§Daemon Prince Of Nurgle With Wings—Hellforged weapons – strike": {
+        "aspects": {
+          "Label": "Hellforged weapons – Strike"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 7
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Melee Weapon§Daemon Prince Of Nurgle With Wings—Hellforged weapons": {
+        "aspects": {
+          "Label": "Hellforged weapons"
+        },
+        "assets": {
+          "traits": [
+            "Melee Weapon§Daemon Prince Of Nurgle With Wings—Hellforged weapons – sweep",
+            "Melee Weapon§Daemon Prince Of Nurgle With Wings—Hellforged weapons – strike"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "__inherited__": {
+        "aspects": {
+          "Label": "Missile launcher – Krak"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Helbrute—Heavy flamer": {
+        "aspects": {
+          "Label": "Heavy flamer"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
+          ]
+        }
+      },
+      "Ranged Weapon§Helbrute—Twin lascannon": {
+        "aspects": {
+          "Label": "Twin lascannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
+        }
+      },
+      "Ranged Weapon§Helbrute—Plasma cannon": {
+        "aspects": {
+          "Label": "Plasma cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "format": "D3",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lethal Hits",
+            "Ability§Hazardous",
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Melee Weapon§Helbrute—Power scourge": {
+        "aspects": {
+          "Label": "Power scourge"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 8
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Melee Weapon§Helbrute—Helbrute fist": {
+        "aspects": {
+          "Label": "Helbrute fist"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Icon Bearer—Boltgun": {
+        "aspects": {
+          "Label": "Boltgun"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Melee Weapon§Lord of Contagion—Manreaper – sweep": {
+        "aspects": {
+          "Label": "Manreaper – Sweep"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 10
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Melee Weapon§Lord of Contagion—Manreaper – strike": {
+        "aspects": {
+          "Label": "Manreaper – Strike"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Melee Weapon§Lord of Contagion—Manreaper": {
+        "aspects": {
+          "Label": "Manreaper"
+        },
+        "assets": {
+          "traits": [
+            "Melee Weapon§Lord of Contagion—Manreaper – sweep",
+            "Melee Weapon§Lord of Contagion—Manreaper – strike"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Melee Weapon§Lord of Virulence—Power fist": {
+        "aspects": {
+          "Label": "Power fist"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Ranged Weapon§Malignant Plaguecaster—Bolt pistol": {
+        "aspects": {
+          "Label": "Bolt pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol",
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Ranged Weapon§Miasmic Malignifier—Miasmic gouts": {
+        "aspects": {
+          "Label": "Miasmic gouts"
+        },
+        "stats": {
+          "Range": {
+            "value": 9
+          },
+          "A": {
+            "format": "2D6",
+            "value": 0
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
+          ]
+        }
+      },
+      "Ranged Weapon§Mortarion—Lantern": {
+        "aspects": {
+          "Label": "Lantern"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "D3"
+                }
+              }
+            },
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Plague Marines—Bolt pistol": {
+        "aspects": {
+          "Label": "Bolt pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol",
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Ranged Weapon§Plague Marines—Boltgun": {
+        "aspects": {
+          "Label": "Boltgun"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Ranged Weapon§Plague Surgeon—Bolt pistol": {
+        "aspects": {
+          "Label": "Bolt pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol",
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Melee Weapon§Typhus—Lakrimae – sweep": {
+        "aspects": {
+          "Label": "Lakrimae – Sweep"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 12
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Melee Weapon§Typhus—Lakrimae – strike": {
+        "aspects": {
+          "Label": "Lakrimae – Strike"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Melee Weapon§Typhus—Lakrimae": {
+        "aspects": {
+          "Label": "Lakrimae"
+        },
+        "assets": {
+          "traits": [
+            "Melee Weapon§Typhus—Lakrimae – sweep",
+            "Melee Weapon§Typhus—Lakrimae – strike"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
           ]
         }
       }

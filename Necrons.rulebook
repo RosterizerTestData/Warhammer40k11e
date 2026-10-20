@@ -1,6 +1,6 @@
 {
   "name": "Necrons 11e",
-  "revision": "11.1.14",
+  "revision": "11.1.15",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -8625,8 +8625,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§C’tan Shard of the Nightbringer—Scythe of the Nightbringer – strike",
-            "Melee Weapon§C’tan Shard of the Nightbringer—Scythe of the Nightbringer – sweep"
+            "Melee Weapon§C’tan Shard of the Nightbringer—Scythe of the Nightbringer – sweep",
+            "Melee Weapon§C’tan Shard of the Nightbringer—Scythe of the Nightbringer – strike"
           ]
         },
         "keywords": {
@@ -8748,7 +8748,7 @@
             "value": 5
           },
           "AP": {
-            "value": -3
+            "value": -4
           },
           "D": {
             "format": "D6",
@@ -9288,6 +9288,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -9295,8 +9296,7 @@
                   "value": "1"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -9838,6 +9838,10 @@
           },
           "WS": {
             "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
           }
         }
       },
@@ -9988,8 +9992,8 @@
             "value": -3
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "statType": "term",
@@ -10027,6 +10031,10 @@
           },
           "WS": {
             "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
           }
         }
       },
@@ -10176,8 +10184,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Seraptek Heavy Construct—Titanic forelimbs – strike",
-            "Melee Weapon§Seraptek Heavy Construct—Titanic forelimbs – sweep"
+            "Melee Weapon§Seraptek Heavy Construct—Titanic forelimbs – sweep",
+            "Melee Weapon§Seraptek Heavy Construct—Titanic forelimbs – strike"
           ]
         },
         "keywords": {
@@ -10540,8 +10548,8 @@
             "value": 0
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "statType": "term",
@@ -11032,7 +11040,7 @@
         },
         "stats": {
           "Ld": {
-            "value": 7
+            "value": 8
           },
           "M": {
             "value": "-"
@@ -11041,13 +11049,13 @@
             "value": 0
           },
           "Sv": {
-            "value": 2
+            "value": 3
           },
           "T": {
             "value": 9
           },
           "W": {
-            "value": 8
+            "value": 7
           }
         }
       },
@@ -11548,7 +11556,7 @@
         },
         "stats": {
           "Ld": {
-            "value": 5
+            "value": 6
           },
           "M": {
             "value": 8
@@ -11790,7 +11798,7 @@
         },
         "stats": {
           "Ld": {
-            "value": 5
+            "value": 6
           },
           "M": {
             "value": 8
@@ -11882,6 +11890,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -11889,8 +11898,7 @@
                   "value": "2"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -11951,6 +11959,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Precision",
+            "Ability§Devastating Wounds",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -11961,9 +11971,7 @@
                   "value": "4+"
                 }
               }
-            },
-            "Ability§Devastating Wounds",
-            "Ability§Precision"
+            }
           ]
         },
         "stats": {
@@ -11993,8 +12001,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -3
@@ -12062,7 +12070,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -12070,7 +12077,8 @@
                   "value": "2"
                 }
               }
-            }
+            },
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -12139,8 +12147,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Heavy"
+            "Ability§Heavy",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -12171,7 +12179,7 @@
         },
         "assets": {
           "traits": [
-            "Ability§Lethal Hits",
+            "Ability§Twin-linked",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -12180,7 +12188,7 @@
                 }
               }
             },
-            "Ability§Twin-linked"
+            "Ability§Lethal Hits"
           ]
         },
         "stats": {
@@ -12265,7 +12273,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -12273,7 +12280,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -12328,8 +12336,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Devastating Wounds"
+            "Ability§Devastating Wounds",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -12385,8 +12393,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Lethal Hits",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Lethal Hits"
           ]
         },
         "stats": {
@@ -12477,8 +12485,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -12706,8 +12714,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
-            "Ability§Precision"
+            "Ability§Precision",
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -12775,6 +12783,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -12782,8 +12791,7 @@
                   "value": "2"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -12813,8 +12821,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Heavy"
+            "Ability§Heavy",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -12845,7 +12853,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Lethal Hits",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -12853,7 +12860,8 @@
                   "value": "5"
                 }
               }
-            }
+            },
+            "Ability§Lethal Hits"
           ]
         },
         "stats": {
@@ -13018,8 +13026,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "keywords": {
@@ -13055,7 +13063,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Lethal Hits",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -13063,7 +13070,8 @@
                   "value": "5"
                 }
               }
-            }
+            },
+            "Ability§Lethal Hits"
           ]
         },
         "stats": {
@@ -13179,7 +13187,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -13187,7 +13194,8 @@
                   "value": "2"
                 }
               }
-            }
+            },
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -13217,8 +13225,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -13306,7 +13314,14 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -13315,14 +13330,7 @@
                 }
               }
             },
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            }
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -13352,8 +13360,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
-            "Ability§Lethal Hits"
+            "Ability§Lethal Hits",
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -13471,7 +13479,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Lethal Hits",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -13479,7 +13486,8 @@
                   "value": "3"
                 }
               }
-            }
+            },
+            "Ability§Lethal Hits"
           ]
         },
         "stats": {
@@ -13509,8 +13517,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Devastating Wounds"
+            "Ability§Devastating Wounds",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -13541,7 +13549,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Lethal Hits",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -13549,7 +13556,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Lethal Hits"
           ]
         },
         "stats": {
@@ -13609,7 +13617,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -13618,7 +13625,8 @@
                 }
               }
             },
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -13673,6 +13681,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -13680,8 +13689,7 @@
                   "value": "2"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -13750,6 +13758,14 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            },
+            {
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
@@ -13757,14 +13773,6 @@
                 },
                 "x": {
                   "value": "4+"
-                }
-              }
-            },
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "2"
                 }
               }
             }
@@ -13903,7 +13911,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Lethal Hits",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -13911,7 +13918,8 @@
                   "value": "2"
                 }
               }
-            }
+            },
+            "Ability§Lethal Hits"
           ]
         },
         "stats": {
@@ -14046,8 +14054,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Devastating Wounds"
+            "Ability§Devastating Wounds",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -14616,8 +14624,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Devastating Wounds"
+            "Ability§Devastating Wounds",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -14648,8 +14656,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Lethal Hits",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Lethal Hits"
           ]
         },
         "stats": {
@@ -14679,7 +14687,7 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -14688,7 +14696,7 @@
                 }
               }
             },
-            "Ability§Twin-linked"
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -14705,7 +14713,7 @@
             "value": 1
           },
           "Range": {
-            "value": 18
+            "value": 24
           },
           "S": {
             "value": 5
@@ -14786,7 +14794,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -14794,7 +14801,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -14824,8 +14832,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -14896,8 +14904,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -14998,8 +15006,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Devastating Wounds"
+            "Ability§Devastating Wounds",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -16661,7 +16669,8 @@
               "item": "Model§Canoptek Macrocyte",
               "quantity": 5
             },
-            "Ability§Harassment Swarm (Aura)"
+            "Ability§Harassment Swarm (Aura)",
+            "Ability§Reanimation Protocols"
           ]
         },
         "keywords": {
@@ -16765,7 +16774,7 @@
         },
         "stats": {
           "Ld": {
-            "value": 7
+            "value": 8
           },
           "M": {
             "value": 8
@@ -17558,7 +17567,7 @@
         },
         "stats": {
           "Ld": {
-            "value": 6
+            "value": 7
           },
           "M": {
             "value": 10
@@ -18533,8 +18542,7 @@
             "value": 7
           },
           "M": {
-            "statType": "term",
-            "value": "20+"
+            "value": 14
           },
           "OC": {
             "value": 0
@@ -20026,9 +20034,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§C’tan Shard of the Void Dragon—Spear of the Void Dragon – strike",
             "Melee Weapon§C’tan Shard of the Void Dragon—Spear of the Void Dragon – sweep",
-            "Ranged Weapon§C’tan Shard of the Void Dragon—Spear of the Void Dragon"
+            "Melee Weapon§C’tan Shard of the Void Dragon—Spear of the Void Dragon – strike"
           ]
         },
         "keywords": {
@@ -20381,6 +20388,626 @@
           "Phase": [
             "Movement"
           ]
+        }
+      },
+      "Ranged Weapon§C’tan Shard of the Void Dragon—Spear of the Void Dragon – Ranged": {
+        "aspects": {
+          "Label": "Spear of the Void Dragon – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "format": "D3",
+            "value": 0
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "vehicle"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Catacomb Command Barge—Staff of light – Ranged": {
+        "aspects": {
+          "Label": "Staff of light – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Catacomb Command Barge—Staff of light – Melee": {
+        "aspects": {
+          "Label": "Staff of light – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Chronomancer—Chronomancer’s stave – Ranged": {
+        "aspects": {
+          "Label": "Chronomancer’s stave – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Melee Weapon§Chronomancer—Chronomancer’s stave – Melee": {
+        "aspects": {
+          "Label": "Chronomancer’s stave – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Illuminor Szeras—Eldritch Lance – Ranged": {
+        "aspects": {
+          "Label": "Eldritch Lance – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Illuminor Szeras—Eldritch Lance – Melee": {
+        "aspects": {
+          "Label": "Eldritch Lance – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Imotekh the Stormlord—Staff of the Destroyer – Ranged": {
+        "aspects": {
+          "Label": "Staff of the Destroyer – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Melee Weapon§Imotekh the Stormlord—Staff of the Destroyer – Melee": {
+        "aspects": {
+          "Label": "Staff of the Destroyer – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds"
+          ]
+        }
+      },
+      "Ranged Weapon§Lokhust Lord—Staff of light – Ranged": {
+        "aspects": {
+          "Label": "Staff of light – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Lokhust Lord—Staff of light – Melee": {
+        "aspects": {
+          "Label": "Staff of light – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Nekrosor Ammentar—Blade tail": {
+        "aspects": {
+          "Label": "Blade tail"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Extra Attacks"
+          ]
+        }
+      },
+      "Ranged Weapon§Overlord—Staff of light – Ranged": {
+        "aspects": {
+          "Label": "Staff of light – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Overlord—Staff of light – Melee": {
+        "aspects": {
+          "Label": "Staff of light – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Plasmancer—Plasmic lance – Ranged": {
+        "aspects": {
+          "Label": "Plasmic lance – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Melee Weapon§Plasmancer—Plasmic lance – Melee": {
+        "aspects": {
+          "Label": "Plasmic lance – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Psychomancer—Abyssal lance – Ranged": {
+        "aspects": {
+          "Label": "Abyssal lance – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Psychomancer—Abyssal lance – Melee": {
+        "aspects": {
+          "Label": "Abyssal lance – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 1
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Technomancer—Staff of light – Ranged": {
+        "aspects": {
+          "Label": "Staff of light – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Technomancer—Staff of light – Melee": {
+        "aspects": {
+          "Label": "Staff of light – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§The Silent King—Armoured bulk": {
+        "aspects": {
+          "Label": "Armoured bulk"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 1
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Triarch Praetorians—Rod of covenant – Ranged": {
+        "aspects": {
+          "Label": "Rod of covenant – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Melee Weapon§Triarch Praetorians—Rod of covenant – Melee": {
+        "aspects": {
+          "Label": "Rod of covenant – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
         }
       }
     },

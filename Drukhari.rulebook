@@ -1,6 +1,6 @@
 {
   "name": "Drukhari 11e",
-  "revision": "11.1.14",
+  "revision": "11.1.15",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -3731,9 +3731,7 @@
         "aspects": {
           "Label": "Master-crafted power weapon"
         },
-        "assets": {
-          "traits": []
-        },
+        "assets": {},
         "stats": {
           "A": {
             "value": 5
@@ -4210,6 +4208,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Precision",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -4220,8 +4219,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Precision"
+            }
           ]
         },
         "stats": {
@@ -4232,8 +4230,8 @@
             "value": -1
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "statType": "term",
@@ -4279,6 +4277,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -4289,8 +4288,7 @@
                   "value": "4+"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -4360,9 +4358,7 @@
         "aspects": {
           "Label": "Razorflail"
         },
-        "assets": {
-          "traits": []
-        },
+        "assets": {},
         "stats": {
           "A": {
             "value": 4
@@ -4391,7 +4387,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Lance",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -4399,7 +4394,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Lance"
           ]
         },
         "stats": {
@@ -4431,6 +4427,15 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Lance",
+            {
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
@@ -4438,15 +4443,6 @@
                 },
                 "x": {
                   "value": "3+"
-                }
-              }
-            },
-            "Ability§Lance",
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "1"
                 }
               }
             }
@@ -4480,9 +4476,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
+            "Ability§Precision",
             "Ability§Lance",
-            "Ability§Precision"
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -4527,11 +4523,7 @@
         "aspects": {
           "Label": "Dual blades"
         },
-        "assets": {
-          "traits": [
-            "Ability§Twin-linked"
-          ]
-        },
+        "assets": {},
         "stats": {
           "A": {
             "value": 6
@@ -4679,8 +4671,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Hazardous"
+            "Ability§Hazardous",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -4743,6 +4735,15 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            },
+            "Ability§Precision",
+            {
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
@@ -4750,15 +4751,6 @@
                 },
                 "x": {
                   "value": "2+"
-                }
-              }
-            },
-            "Ability§Precision",
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "2"
                 }
               }
             }
@@ -5133,6 +5125,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Precision",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -5143,8 +5136,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Precision"
+            }
           ]
         },
         "stats": {
@@ -5488,6 +5480,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -5498,8 +5491,7 @@
                   "value": "4+"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -5528,9 +5520,7 @@
         "aspects": {
           "Label": "Gladiatorial weapons"
         },
-        "assets": {
-          "traits": []
-        },
+        "assets": {},
         "stats": {
           "A": {
             "value": 5
@@ -5734,7 +5724,7 @@
         },
         "stats": {
           "Ld": {
-            "value": 6
+            "value": 7
           },
           "Loadout Options": {
             "dynamic": true,
@@ -5867,7 +5857,7 @@
         },
         "stats": {
           "Ld": {
-            "value": 6
+            "value": 7
           },
           "M": {
             "value": 16
@@ -6136,7 +6126,7 @@
         },
         "stats": {
           "Ld": {
-            "value": 6
+            "value": 7
           },
           "M": {
             "value": 8
@@ -6348,7 +6338,7 @@
             "visibility": "normal"
           },
           "Ld": {
-            "value": 6
+            "value": 7
           },
           "Loadout Options": {
             "dynamic": true,
@@ -7030,7 +7020,7 @@
         },
         "stats": {
           "Ld": {
-            "value": 6
+            "value": 7
           },
           "M": {
             "value": 8
@@ -7627,7 +7617,7 @@
       "Model§Talos": {
         "stats": {
           "Ld": {
-            "value": 6
+            "value": 7
           },
           "M": {
             "value": 7
@@ -7789,7 +7779,7 @@
         },
         "stats": {
           "Ld": {
-            "value": 6
+            "value": 7
           },
           "Loadout Options": {
             "dynamic": true,
@@ -7957,8 +7947,8 @@
             "value": 2
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 6
@@ -7974,6 +7964,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Pistol",
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -7984,9 +7976,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Assault",
-            "Ability§Pistol"
+            }
           ]
         },
         "stats": {
@@ -8174,8 +8164,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -8208,8 +8198,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Ignores Cover"
+            "Ability§Ignores Cover",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -8284,6 +8274,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Precision",
+            "Ability§Pistol",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -8294,9 +8286,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Pistol",
-            "Ability§Precision"
+            }
           ]
         },
         "stats": {
@@ -8310,8 +8300,8 @@
             "value": 2
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 12
@@ -8341,8 +8331,8 @@
             "value": 3
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 6
@@ -8420,6 +8410,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -8430,8 +8421,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Assault"
+            }
           ]
         },
         "stats": {
@@ -8461,8 +8451,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -8496,6 +8486,15 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Heavy",
+            {
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
@@ -8503,15 +8502,6 @@
                 },
                 "x": {
                   "value": "3+"
-                }
-              }
-            },
-            "Ability§Heavy",
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "1"
                 }
               }
             }
@@ -8544,6 +8534,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Pistol",
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -8554,9 +8546,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Assault",
-            "Ability§Pistol"
+            }
           ]
         },
         "stats": {
@@ -8586,6 +8576,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -8596,8 +8587,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Assault"
+            }
           ]
         },
         "stats": {
@@ -8627,6 +8617,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Pistol",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -8637,8 +8628,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Pistol"
+            }
           ]
         },
         "stats": {
@@ -8668,6 +8658,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Pistol",
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -8678,9 +8670,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Assault",
-            "Ability§Pistol"
+            }
           ]
         },
         "stats": {
@@ -8710,6 +8700,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -8720,9 +8712,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Assault",
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -8766,8 +8756,8 @@
             "value": 3
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 6
@@ -8845,8 +8835,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -8880,6 +8870,15 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Heavy",
+            {
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
@@ -8887,15 +8886,6 @@
                 },
                 "x": {
                   "value": "3+"
-                }
-              }
-            },
-            "Ability§Heavy",
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "1"
                 }
               }
             }
@@ -8928,6 +8918,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Pistol",
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -8938,9 +8930,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Assault",
-            "Ability§Pistol"
+            }
           ]
         },
         "stats": {
@@ -8970,6 +8960,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -8980,8 +8971,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Assault"
+            }
           ]
         },
         "stats": {
@@ -9011,9 +9001,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
+            "Ability§Ignores Cover",
             "Ability§Devastating Wounds",
-            "Ability§Ignores Cover"
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -9274,8 +9264,8 @@
         "assets": {
           "traits": [
             "Ranged Weapon§Razorwing Jetfighter—Razorwing missiles – monoscythe missiles",
-            "Ranged Weapon§Razorwing Jetfighter—Razorwing missiles – nuerotoxin missiles",
-            "Ranged Weapon§Razorwing Jetfighter—Razorwing missiles – shatterfield missiles"
+            "Ranged Weapon§Razorwing Jetfighter—Razorwing missiles – shatterfield missiles",
+            "Ranged Weapon§Razorwing Jetfighter—Razorwing missiles – necrotoxin missiles"
           ]
         },
         "keywords": {
@@ -9395,6 +9385,14 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            {
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
@@ -9402,14 +9400,6 @@
                 },
                 "x": {
                   "value": "3+"
-                }
-              }
-            },
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "1"
                 }
               }
             }
@@ -9442,16 +9432,16 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
             "Ability§Twin-linked",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
                 "x": {
-                  "value": "1"
+                  "value": "2"
                 }
               }
             },
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -9467,7 +9457,7 @@
         },
         "stats": {
           "A": {
-            "value": 1
+            "value": 2
           },
           "AP": {
             "value": 0
@@ -9596,7 +9586,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
             {
               "item": "Ability§Melta",
               "stats": {
@@ -9604,7 +9593,8 @@
                   "value": "3"
                 }
               }
-            }
+            },
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -9635,6 +9625,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Pistol",
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -9645,9 +9637,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Assault",
-            "Ability§Pistol"
+            }
           ]
         },
         "stats": {
@@ -9677,6 +9667,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -9687,8 +9678,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Assault"
+            }
           ]
         },
         "stats": {
@@ -9732,8 +9722,8 @@
             "value": 3
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 6
@@ -9853,8 +9843,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Heavy",
             {
               "item": "Ability§Melta",
               "stats": {
@@ -9862,7 +9850,9 @@
                   "value": "3"
                 }
               }
-            }
+            },
+            "Ability§Heavy",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -9893,6 +9883,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -9903,8 +9894,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Assault"
+            }
           ]
         },
         "stats": {
@@ -9934,8 +9924,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -9969,6 +9959,15 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Heavy",
+            {
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
@@ -9976,15 +9975,6 @@
                 },
                 "x": {
                   "value": "3+"
-                }
-              }
-            },
-            "Ability§Heavy",
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "1"
                 }
               }
             }
@@ -10017,6 +10007,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Pistol",
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -10027,9 +10019,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Assault",
-            "Ability§Pistol"
+            }
           ]
         },
         "stats": {
@@ -10200,7 +10190,7 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
+            "Ability§Twin-linked",
             {
               "item": "Ability§Melta",
               "stats": {
@@ -10209,7 +10199,7 @@
                 }
               }
             },
-            "Ability§Twin-linked"
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -10240,8 +10230,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Torrent",
             "Ability§Twin-linked",
+            "Ability§Torrent",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -10285,6 +10275,15 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -10295,16 +10294,7 @@
                   "value": "3+"
                 }
               }
-            },
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -10400,6 +10390,14 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            {
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
@@ -10407,14 +10405,6 @@
                 },
                 "x": {
                   "value": "3+"
-                }
-              }
-            },
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "1"
                 }
               }
             }
@@ -10447,6 +10437,16 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            },
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -10457,17 +10457,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Assault",
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -10548,8 +10538,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Voidraven Bomber—Voidraven missiles – implosion missiles",
-            "Ranged Weapon§Voidraven Bomber—Voidraven missiles – shatterfield missiles"
+            "Ranged Weapon§Voidraven Bomber—Voidraven missiles – shatterfield missiles",
+            "Ranged Weapon§Voidraven Bomber—Voidraven missiles – implosion missiles"
           ]
         },
         "keywords": {
@@ -10569,8 +10559,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -2
@@ -10604,7 +10594,7 @@
             "value": 0
           },
           "AP": {
-            "value": -2
+            "value": -1
           },
           "BS": {
             "value": 3
@@ -10626,8 +10616,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
-            "Ability§Precision"
+            "Ability§Precision",
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -10657,6 +10647,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Torrent",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -10667,8 +10658,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Torrent"
+            }
           ]
         },
         "stats": {
@@ -10701,6 +10691,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Devastating Wounds",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -10711,8 +10702,7 @@
                   "value": "4+"
                 }
               }
-            },
-            "Ability§Devastating Wounds"
+            }
           ]
         },
         "stats": {
@@ -10742,6 +10732,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Pistol",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -10752,8 +10743,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Pistol"
+            }
           ]
         },
         "stats": {
@@ -10797,8 +10787,8 @@
             "value": 3
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 6
@@ -10814,6 +10804,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Pistol",
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -10824,9 +10816,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Assault",
-            "Ability§Pistol"
+            }
           ]
         },
         "stats": {
@@ -14515,6 +14505,294 @@
           "Phase": [
             "Movement"
           ]
+        }
+      },
+      "Melee Weapon§Drazhar—Executioner’s demiklaives – single blade": {
+        "aspects": {
+          "Label": "Executioner’s demiklaives – Single blade"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds"
+          ]
+        }
+      },
+      "Melee Weapon§Drazhar—Executioner’s demiklaives – dual blade": {
+        "aspects": {
+          "Label": "Executioner’s demiklaives – Dual blade"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 8
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds"
+          ]
+        }
+      },
+      "Melee Weapon§Drazhar—Executioner’s demiklaives": {
+        "aspects": {
+          "Label": "Executioner’s demiklaives"
+        },
+        "assets": {
+          "traits": [
+            "Melee Weapon§Drazhar—Executioner’s demiklaives – single blade",
+            "Melee Weapon§Drazhar—Executioner’s demiklaives – dual blade"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Melee Weapon§Raider—Bladevanes and chainsnares": {
+        "aspects": {
+          "Label": "Bladevanes and chainsnares"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "format": "D3",
+            "value": 3
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Razorwing Jetfighter—Razorwing missiles – necrotoxin missiles": {
+        "aspects": {
+          "Label": "Razorwing missiles – Necrotoxin missiles"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "format": "D6",
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 2
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Razorwing Jetfighter—Disintegrator cannon": {
+        "aspects": {
+          "Label": "Disintegrator cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Scourges with Heavy Weapons—Haywire blaster": {
+        "aspects": {
+          "Label": "Haywire blaster"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 3
+          },
+          "Points": {
+            "value": 5
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy",
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "vehicle"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Talos—Twin haywire blaster": {
+        "aspects": {
+          "Label": "Twin haywire blaster"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 3
+          },
+          "Points": {
+            "value": 5
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "vehicle"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Melee Weapon§Talos—Maco-scalpel": {
+        "aspects": {
+          "Label": "Maco-scalpel"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
         }
       }
     },

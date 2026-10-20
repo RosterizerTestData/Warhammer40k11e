@@ -1,6 +1,6 @@
 {
   "name": "Tyranids 11e",
-  "revision": "11.1.14",
+  "revision": "11.1.15",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -6469,8 +6469,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -6946,6 +6946,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Extra Attacks",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -6956,8 +6957,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Extra Attacks"
+            }
           ]
         },
         "stats": {
@@ -7108,7 +7108,7 @@
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
-                  "value": "monster"
+                  "value": "vehicle"
                 },
                 "x": {
                   "value": "5+"
@@ -7119,7 +7119,7 @@
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
-                  "value": "vehicle"
+                  "value": "monster"
                 },
                 "x": {
                   "value": "5+"
@@ -7161,7 +7161,7 @@
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
-                  "value": "monster"
+                  "value": "vehicle"
                 },
                 "x": {
                   "value": "5+"
@@ -7172,7 +7172,7 @@
               "item": "Ability§Anti-",
               "stats": {
                 "keyword": {
-                  "value": "vehicle"
+                  "value": "monster"
                 },
                 "x": {
                   "value": "5+"
@@ -7266,8 +7266,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Maleceptor—Massive scything talons – strike",
-            "Melee Weapon§Maleceptor—Massive scything talons – sweep"
+            "Melee Weapon§Maleceptor—Massive scything talons – sweep",
+            "Melee Weapon§Maleceptor—Massive scything talons – strike"
           ]
         },
         "keywords": {
@@ -7335,6 +7335,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Extra Attacks",
+            "Ability§Devastating Wounds",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -7345,9 +7347,7 @@
                   "value": "4+"
                 }
               }
-            },
-            "Ability§Devastating Wounds",
-            "Ability§Extra Attacks"
+            }
           ]
         },
         "stats": {
@@ -7448,6 +7448,10 @@
           },
           "WS": {
             "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
           }
         }
       },
@@ -7551,6 +7555,10 @@
           },
           "WS": {
             "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
           }
         }
       },
@@ -7573,6 +7581,10 @@
           },
           "WS": {
             "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
           }
         }
       },
@@ -7582,8 +7594,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Old One Eye—Old One Eye’s claws and talons – strike",
-            "Melee Weapon§Old One Eye—Old One Eye’s claws and talons – sweep"
+            "Melee Weapon§Old One Eye—Old One Eye’s claws and talons – sweep",
+            "Melee Weapon§Old One Eye—Old One Eye’s claws and talons – strike"
           ]
         },
         "keywords": {
@@ -7651,6 +7663,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Extra Attacks",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -7661,8 +7674,7 @@
                   "value": "3+"
                 }
               }
-            },
-            "Ability§Extra Attacks"
+            }
           ]
         },
         "stats": {
@@ -7719,6 +7731,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Devastating Wounds",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -7726,11 +7739,10 @@
                   "value": "psyker"
                 },
                 "x": {
-                  "value": "2+"
+                  "value": "4+"
                 }
               }
-            },
-            "Ability§Devastating Wounds"
+            }
           ]
         },
         "stats": {
@@ -7953,7 +7965,7 @@
             "value": -1
           },
           "D": {
-            "value": 1
+            "value": 2
           },
           "Range": {
             "statType": "term",
@@ -8026,8 +8038,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Tervigon—Massive scything talons – strike",
-            "Melee Weapon§Tervigon—Massive scything talons – sweep"
+            "Melee Weapon§Tervigon—Massive scything talons – sweep",
+            "Melee Weapon§Tervigon—Massive scything talons – strike"
           ]
         },
         "keywords": {
@@ -8095,9 +8107,9 @@
         },
         "assets": {
           "traits": [
+            "Ability§Precision",
             "Ability§Devastating Wounds",
-            "Ability§Extra Attacks",
-            "Ability§Precision"
+            "Ability§Extra Attacks"
           ]
         },
         "stats": {
@@ -8271,6 +8283,10 @@
           },
           "WS": {
             "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
           }
         }
       },
@@ -8278,9 +8294,7 @@
         "aspects": {
           "Label": "Rending claw"
         },
-        "assets": {
-          "traits": []
-        },
+        "assets": {},
         "stats": {
           "A": {
             "value": 4
@@ -8296,6 +8310,10 @@
           },
           "WS": {
             "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
           }
         }
       },
@@ -8303,9 +8321,7 @@
         "aspects": {
           "Label": "Scything talons"
         },
-        "assets": {
-          "traits": []
-        },
+        "assets": {},
         "stats": {
           "A": {
             "value": 6
@@ -8321,6 +8337,10 @@
           },
           "WS": {
             "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
           }
         }
       },
@@ -9996,8 +10016,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Heavy"
+            "Ability§Heavy",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -10028,16 +10048,16 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Devastating Wounds",
+            "Ability§Indirect Fire",
             "Ability§Heavy",
-            "Ability§Indirect Fire"
+            "Ability§Devastating Wounds",
+            "Ability§Blast"
           ]
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -1
@@ -10062,14 +10082,14 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Blast"
+            "Ability§Blast",
+            "Ability§Assault"
           ]
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -2
@@ -10149,8 +10169,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -2
@@ -10236,8 +10256,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Heavy"
+            "Ability§Heavy",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -10323,14 +10343,14 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Blast"
           ]
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -2
@@ -10355,8 +10375,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -10449,8 +10469,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -10572,6 +10592,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Devastating Wounds",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -10582,8 +10603,7 @@
                   "value": "4+"
                 }
               }
-            },
-            "Ability§Devastating Wounds"
+            }
           ]
         },
         "stats": {
@@ -10613,8 +10633,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
-            "Ability§Indirect Fire"
+            "Ability§Indirect Fire",
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -10689,8 +10709,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -2
@@ -10746,9 +10766,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
+            "Ability§Torrent",
             "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -10777,8 +10797,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Psychic"
+            "Ability§Psychic",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -10809,9 +10829,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
+            "Ability§Torrent",
             "Ability§Psychic",
-            "Ability§Torrent"
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -10978,9 +10998,9 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Norn Emissary—Neuroparasite",
-            "Ranged Weapon§Norn Emissary—Neuroblast",
-            "Ranged Weapon§Norn Emissary—Neurolance"
+            "Ranged Weapon§Norn Emissary—Psychic tendril – neuroparasite",
+            "Ranged Weapon§Norn Emissary—Psychic tendril – neuroblast",
+            "Ranged Weapon§Norn Emissary—Psychic tendril – neurolance"
           ]
         },
         "keywords": {
@@ -10995,8 +11015,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -11029,9 +11049,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
+            "Ability§Twin-linked",
             "Ability§Torrent",
-            "Ability§Twin-linked"
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -11119,8 +11139,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Blast"
+            "Ability§Blast",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -11269,14 +11289,14 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Heavy"
+            "Ability§Heavy",
+            "Ability§Blast"
           ]
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": 0
@@ -11331,9 +11351,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
+            "Ability§Torrent",
             "Ability§Devastating Wounds",
-            "Ability§Torrent"
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -11386,9 +11406,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
+            "Ability§Twin-linked",
             "Ability§Pistol",
-            "Ability§Twin-linked"
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -11443,8 +11463,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Psychic",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Psychic"
           ]
         },
         "stats": {
@@ -11636,9 +11656,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
+            "Ability§Twin-linked",
             "Ability§Pistol",
-            "Ability§Twin-linked"
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -11760,7 +11780,7 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -11769,7 +11789,7 @@
                 }
               }
             },
-            "Ability§Twin-linked"
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -11863,8 +11883,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -2
@@ -11936,8 +11956,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Lethal Hits",
-            "Ability§Psychic"
+            "Ability§Psychic",
+            "Ability§Lethal Hits"
           ]
         },
         "stats": {
@@ -11968,14 +11988,14 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Psychic"
+            "Ability§Psychic",
+            "Ability§Blast"
           ]
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -2
@@ -11984,8 +12004,8 @@
             "value": 3
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 24
@@ -13958,8 +13978,7 @@
             "value": 8
           },
           "M": {
-            "statType": "term",
-            "value": "20+"
+            "value": 14
           },
           "OC": {
             "value": 0
@@ -17812,6 +17831,384 @@
             "Fight",
             "Shooting"
           ]
+        }
+      },
+      "Melee Weapon§Genestealers—Genestealers claws and talons": {
+        "aspects": {
+          "Label": "Genestealers claws and talons"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Norn Assimilator—Toxinjector Harpoon": {
+        "aspects": {
+          "Label": "Toxinjector Harpoon"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Norn Assimilator—Monstrous scything talons": {
+        "aspects": {
+          "Label": "Monstrous scything talons"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Norn Assimilator—Toxinjector Harpoon – Toxinjector harpoon": {
+        "aspects": {
+          "Label": "Toxinjector Harpoon – Toxinjector harpoon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Extra Attacks"
+          ]
+        }
+      },
+      "Ranged Weapon§Norn Emissary—Psychic tendril – neuroparasite": {
+        "aspects": {
+          "Label": "Psychic Tendril – Neuroparasite"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic",
+            "Ability§Precision"
+          ]
+        }
+      },
+      "Ranged Weapon§Norn Emissary—Psychic tendril – neuroblast": {
+        "aspects": {
+          "Label": "Psychic Tendril – Neuroblast"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "format": "2D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic",
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Norn Emissary—Psychic tendril – neurolance": {
+        "aspects": {
+          "Label": "Psychic Tendril – Neurolance"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic",
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Melee Weapon§Screamer-killer—Scream-Killer talons": {
+        "aspects": {
+          "Label": "Scream-Killer talons"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 10
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Toxicrene—Massive toxic lashes – Ranged": {
+        "aspects": {
+          "Label": "Massive toxic lashes – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 9
+          },
+          "A": {
+            "format": "2D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Melee Weapon§Toxicrene—Massive toxic lashes – Melee": {
+        "aspects": {
+          "Label": "Massive toxic lashes – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 12
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Melee Weapon§Tyranid Warriors with Melee Bio-weapons—Tyranid Warrior claws and talons": {
+        "aspects": {
+          "Label": "Tyranid Warrior claws and talons"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
+        }
+      },
+      "Melee Weapon§Tyranid Warriors with Ranged Bio-weapons—Tyranid Warrior claws and talons": {
+        "aspects": {
+          "Label": "Tyranid Warrior claws and talons"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
         }
       }
     },

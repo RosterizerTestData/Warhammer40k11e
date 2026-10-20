@@ -1,6 +1,6 @@
 {
   "name": "Harlequins 11e",
-  "revision": "11.1.4",
+  "revision": "11.1.15",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -370,7 +370,9 @@
                 }
               }
             },
-            "Wargear§Flip belt"
+            "Wargear§Flip belt",
+            "Ability§Battle Focus",
+            "Ability§Disparate Paths"
           ]
         },
         "keywords": {
@@ -518,8 +520,8 @@
             "value": -1
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "statType": "term",
@@ -1090,9 +1092,7 @@
         "aspects": {
           "Label": "Shrieker cannon"
         },
-        "assets": {
-          "traits": []
-        },
+        "assets": {},
         "stats": {
           "A": {
             "value": 3
@@ -1120,6 +1120,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Pistol",
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -1130,9 +1132,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Assault",
-            "Ability§Pistol"
+            }
           ]
         },
         "stats": {
@@ -1162,8 +1162,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -1223,6 +1223,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Devastating Wounds",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -1233,8 +1234,7 @@
                   "value": "4+"
                 }
               }
-            },
-            "Ability§Devastating Wounds"
+            }
           ]
         },
         "stats": {
@@ -1264,8 +1264,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -2
@@ -1320,7 +1320,7 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
+            "Ability§Pistol",
             {
               "item": "Ability§Melta",
               "stats": {
@@ -1329,7 +1329,7 @@
                 }
               }
             },
-            "Ability§Pistol"
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -1343,8 +1343,8 @@
             "value": 2
           },
           "D": {
-            "statType": "term",
-            "value": "D6"
+            "format": "D6",
+            "value": 0
           },
           "Range": {
             "value": 6
@@ -1360,6 +1360,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Pistol",
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -1370,9 +1372,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Assault",
-            "Ability§Pistol"
+            }
           ]
         },
         "stats": {
@@ -1402,8 +1402,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -1433,7 +1433,7 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
+            "Ability§Pistol",
             {
               "item": "Ability§Melta",
               "stats": {
@@ -1442,7 +1442,7 @@
                 }
               }
             },
-            "Ability§Pistol"
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -1473,6 +1473,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Pistol",
+            "Ability§Assault",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -1483,9 +1485,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Assault",
-            "Ability§Pistol"
+            }
           ]
         },
         "stats": {
@@ -1515,8 +1515,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -1546,8 +1546,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Voidweaver—Prismatic cannon – dispersed pulse",
-            "Ranged Weapon§Voidweaver—Prismatic cannon – focused lances"
+            "Ranged Weapon§Voidweaver—Prismatic cannon – focused lances",
+            "Ranged Weapon§Voidweaver—Prismatic cannon – dispersed pulse"
           ]
         },
         "keywords": {
@@ -1648,6 +1648,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Devastating Wounds",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -1658,8 +1659,7 @@
                   "value": "4+"
                 }
               }
-            },
-            "Ability§Devastating Wounds"
+            }
           ]
         },
         "stats": {
@@ -1966,7 +1966,9 @@
               "quantity": 4
             },
             "Ability§Dance of Death",
-            "Wargear§Flip belt"
+            "Wargear§Flip belt",
+            "Ability§Battle Focus",
+            "Ability§Disparate Paths"
           ]
         },
         "keywords": {
@@ -2167,7 +2169,9 @@
             "Ranged Weapon§Voidweaver—Shuriken cannon",
             "Melee Weapon§Voidweaver—Close combat weapon",
             "Ability§Polychromatic Camouflage",
-            "Ability§Stealth"
+            "Ability§Stealth",
+            "Ability§Battle Focus",
+            "Ability§Disparate Paths"
           ]
         },
         "keywords": {
@@ -2239,6 +2243,37 @@
       },
       "Wargear§Flip belt": {
         "text": "Each time the bearer's unit makes a Normal, Advance, Fall Back or Charge move, ignore any vertical distance when determining the total distance the bearer can be moved during that move."
+      },
+      "Melee Weapon§Troupe—Power sword": {
+        "aspects": {
+          "Label": "Power sword"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds"
+          ]
+        }
       }
     }
   }

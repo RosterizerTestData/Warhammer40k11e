@@ -1,6 +1,6 @@
 {
   "name": "Astra Militarum 11e",
-  "revision": "11.1.14",
+  "revision": "11.1.15",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -2379,7 +2379,8 @@
             "Ranged Weapon§Commissar Yarrick—Laspistol",
             "Ranged Weapon§Commissar Yarrick—Storm bolter",
             "Melee Weapon§Commissar Yarrick—Power klaw",
-            "Melee Weapon§Commissar Yarrick—Power sword"
+            "Melee Weapon§Commissar Yarrick—Power sword",
+            "Ability§Voice of Command"
           ]
         },
         "keywords": {
@@ -4673,7 +4674,8 @@
               "text": "This **Officer** can issue up to 2 Order to:\n\n■ Squadron units"
             },
             "Ability§Vox-net",
-            "Ability§Called Shots"
+            "Ability§Called Shots",
+            "Ability§Voice of Command"
           ]
         },
         "keywords": {
@@ -13309,7 +13311,7 @@
         },
         "stats": {
           "A": {
-            "value": 2
+            "value": 3
           },
           "AP": {
             "value": 0
@@ -13322,7 +13324,7 @@
             "value": "Melee"
           },
           "S": {
-            "value": 6
+            "value": 3
           },
           "WS": {
             "value": 4
@@ -13418,8 +13420,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Attilan Rough Riders—Hunting lance – frag tip",
-            "Melee Weapon§Attilan Rough Riders—Hunting lance – melta tip"
+            "Melee Weapon§Attilan Rough Riders—Hunting lance – melta tip",
+            "Melee Weapon§Attilan Rough Riders—Hunting lance – frag tip"
           ]
         },
         "keywords": {
@@ -14023,7 +14025,7 @@
         },
         "stats": {
           "A": {
-            "value": 3
+            "value": 4
           },
           "AP": {
             "value": 0
@@ -14255,11 +14257,7 @@
         "aspects": {
           "Label": "Power sword and Manus Mortis"
         },
-        "assets": {
-          "traits": [
-            "Ability§Lance"
-          ]
-        },
+        "assets": {},
         "stats": {
           "A": {
             "value": 5
@@ -15109,8 +15107,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Precision"
+            "Ability§Precision",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -16696,7 +16694,7 @@
             "value": 4
           },
           "WS": {
-            "value": 4
+            "value": 3
           }
         }
       },
@@ -16968,6 +16966,10 @@
           },
           "WS": {
             "value": 3
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
           }
         }
       },
@@ -17196,8 +17198,8 @@
             "value": -1
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "statType": "term",
@@ -17666,6 +17668,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Precision",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -17676,8 +17679,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Precision"
+            }
           ]
         },
         "stats": {
@@ -18761,7 +18763,7 @@
             "visibility": "active"
           },
           "Sv": {
-            "value": 4
+            "value": 3
           },
           "T": {
             "value": 6
@@ -25431,8 +25433,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -25547,8 +25549,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Armoured Sentinels—Missile launcher – frag",
-            "Ranged Weapon§Armoured Sentinels—Missile launcher – krak"
+            "Ranged Weapon§Armoured Sentinels—Missile launcher – krak",
+            "Ranged Weapon§Armoured Sentinels—Missile launcher – frag"
           ]
         },
         "keywords": {
@@ -25563,8 +25565,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Heavy"
+            "Ability§Heavy",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -25647,8 +25649,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -2
@@ -25673,14 +25675,14 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Hazardous"
+            "Ability§Hazardous",
+            "Ability§Blast"
           ]
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -3
@@ -25705,9 +25707,9 @@
         },
         "assets": {
           "traits": [
+            "Ability§Indirect Fire",
             "Ability§Heavy",
-            "Ability§Blast",
-            "Ability§Indirect Fire"
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -25738,10 +25740,10 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
+            "Ability§Twin-linked",
             "Ability§Indirect Fire",
             "Ability§Heavy",
-            "Ability§Twin-linked"
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -25809,9 +25811,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Heavy",
             "Ability§Indirect Fire",
+            "Ability§Heavy",
+            "Ability§Blast",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -25840,7 +25842,7 @@
             "value": 1
           },
           "Range": {
-            "value": 36
+            "value": 48
           },
           "S": {
             "value": 2
@@ -25853,9 +25855,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
+            "Ability§Indirect Fire",
             "Ability§Heavy",
-            "Ability§Indirect Fire"
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -25927,8 +25929,7 @@
             "value": 0
           },
           "BS": {
-            "statType": "term",
-            "value": "4"
+            "value": 4
           },
           "D": {
             "value": 1
@@ -26049,8 +26050,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Astra Militarum Infantry Armoury—Missile launcher – frag",
-            "Ranged Weapon§Astra Militarum Infantry Armoury—Missile launcher – krak"
+            "Ranged Weapon§Catachan Heavy Weapons Squad—Missile launcher – krak",
+            "Ranged Weapon§Catachan Heavy Weapons Squad—Missile launcher – frag"
           ]
         },
         "keywords": {
@@ -26128,9 +26129,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
+            "Ability§Indirect Fire",
             "Ability§Heavy",
-            "Ability§Indirect Fire"
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -26161,8 +26162,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Astra Militarum Infantry Armoury—Plasma pistol – standard",
-            "Ranged Weapon§Astra Militarum Infantry Armoury—Plasma pistol – supercharge"
+            "Ranged Weapon§Krieg Command Squad—Plasma pistol – standard",
+            "Ranged Weapon§Krieg Command Squad—Plasma pistol – supercharge"
           ]
         },
         "keywords": {
@@ -26700,6 +26701,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -26707,8 +26709,7 @@
                   "value": "1"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -26738,9 +26739,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
+            "Ability§Twin-linked",
             "Ability§Torrent",
-            "Ability§Twin-linked"
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -26830,6 +26831,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -26837,8 +26839,7 @@
                   "value": "1"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -26868,9 +26869,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
+            "Ability§Twin-linked",
             "Ability§Torrent",
-            "Ability§Twin-linked"
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -26929,8 +26930,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Ignores Cover"
+            "Ability§Ignores Cover",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -26961,6 +26962,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -26968,8 +26970,7 @@
                   "value": "1"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -26999,9 +27000,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
+            "Ability§Twin-linked",
             "Ability§Torrent",
-            "Ability§Twin-linked"
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -27034,8 +27035,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Indirect Fire"
+            "Ability§Indirect Fire",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -27103,8 +27104,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -27342,8 +27343,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -27373,8 +27374,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -27407,8 +27408,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Cadian Command Squad—Grenade launcher – frag",
-            "Ranged Weapon§Cadian Command Squad—Grenade launcher – krak"
+            "Ranged Weapon§Cadian Command Squad—Grenade launcher – krak",
+            "Ranged Weapon§Cadian Command Squad—Grenade launcher – frag"
           ]
         },
         "keywords": {
@@ -27428,8 +27429,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": 0
@@ -27463,8 +27464,8 @@
             "value": 4
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 24
@@ -27638,7 +27639,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -27646,7 +27646,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -27703,7 +27704,7 @@
             "value": -2
           },
           "BS": {
-            "value": 3
+            "value": 4
           },
           "D": {
             "value": 1
@@ -27722,8 +27723,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -27734,7 +27735,7 @@
             "value": -3
           },
           "BS": {
-            "value": 3
+            "value": 4
           },
           "D": {
             "value": 2
@@ -27858,8 +27859,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
-            "Ability§Precision"
+            "Ability§Precision",
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -27982,8 +27983,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -28016,8 +28017,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Cadian Shock Troops—Grenade launcher – frag",
-            "Ranged Weapon§Cadian Shock Troops—Grenade launcher – krak"
+            "Ranged Weapon§Cadian Shock Troops—Grenade launcher – krak",
+            "Ranged Weapon§Cadian Shock Troops—Grenade launcher – frag"
           ]
         },
         "keywords": {
@@ -28037,8 +28038,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": 0
@@ -28072,8 +28073,8 @@
             "value": 4
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 24
@@ -28247,7 +28248,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -28255,7 +28255,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -28614,8 +28615,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -28648,8 +28649,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Catachan Command Squad—Grenade launcher – frag",
-            "Ranged Weapon§Catachan Command Squad—Grenade launcher – krak"
+            "Ranged Weapon§Catachan Command Squad—Grenade launcher – krak",
+            "Ranged Weapon§Catachan Command Squad—Grenade launcher – frag"
           ]
         },
         "keywords": {
@@ -28669,8 +28670,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": 0
@@ -28704,8 +28705,8 @@
             "value": 4
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 24
@@ -28721,8 +28722,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -28913,7 +28914,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -28921,7 +28921,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -28951,8 +28952,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
-            "Ability§Precision"
+            "Ability§Precision",
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -28982,8 +28983,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -29321,8 +29322,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -29663,11 +29664,7 @@
         "aspects": {
           "Label": "Chiron gatling cannon"
         },
-        "assets": {
-          "traits": [
-            "Ability§Assault"
-          ]
-        },
+        "assets": {},
         "stats": {
           "A": {
             "value": 12
@@ -29722,7 +29719,7 @@
             "value": 36
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -29906,8 +29903,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -30656,8 +30653,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -30690,8 +30687,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Death Korps of Krieg—Grenade launcher – frag",
-            "Ranged Weapon§Death Korps of Krieg—Grenade launcher – krak"
+            "Ranged Weapon§Death Korps of Krieg—Grenade launcher – krak",
+            "Ranged Weapon§Death Korps of Krieg—Grenade launcher – frag"
           ]
         },
         "keywords": {
@@ -30711,8 +30708,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": 0
@@ -30746,8 +30743,8 @@
             "value": 4
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 24
@@ -30830,8 +30827,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
-            "Ability§Precision"
+            "Ability§Precision",
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -30952,7 +30949,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -30960,7 +30956,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -31036,8 +31033,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -31264,9 +31261,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
+            "Ability§Plasma Warhead",
             "Ability§One Shot",
-            "Ability§Plasma Warhead"
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -31335,8 +31332,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -31684,7 +31681,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
             {
               "item": "Ability§Melta",
               "stats": {
@@ -31692,7 +31688,8 @@
                   "value": "6"
                 }
               }
-            }
+            },
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -31724,6 +31721,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -31731,8 +31729,7 @@
                   "value": "1"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -31762,9 +31759,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
+            "Ability§Twin-linked",
             "Ability§Torrent",
-            "Ability§Twin-linked"
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -32069,9 +32066,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
+            "Ability§Indirect Fire",
             "Ability§Heavy",
-            "Ability§Indirect Fire"
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -32203,8 +32200,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Heavy"
+            "Ability§Heavy",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -32325,8 +32322,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
-            "Ability§Precision"
+            "Ability§Precision",
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -32386,8 +32383,15 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
-            "Ability§Sustained Hits"
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -32987,7 +32991,7 @@
             "value": 1
           },
           "Range": {
-            "value": 18
+            "value": 12
           },
           "S": {
             "value": 3
@@ -33336,8 +33340,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Ignores Cover"
+            "Ability§Ignores Cover",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -33394,6 +33398,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -33401,8 +33406,7 @@
                   "value": "1"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -33432,9 +33436,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
+            "Ability§Twin-linked",
             "Ability§Torrent",
-            "Ability§Twin-linked"
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -33467,6 +33471,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Torrent",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -33477,8 +33482,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Torrent"
+            }
           ]
         },
         "stats": {
@@ -33548,8 +33552,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -33613,8 +33617,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -33647,7 +33651,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
             {
               "item": "Ability§Melta",
               "stats": {
@@ -33655,13 +33658,14 @@
                   "value": "4"
                 }
               }
-            }
+            },
+            "Ability§Blast"
           ]
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -4
@@ -33831,7 +33835,8 @@
                   "value": "2"
                 }
               }
-            }
+            },
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -33914,11 +33919,17 @@
             "value": 2
           },
           "Range": {
-            "value": 48
+            "value": 36
           },
           "S": {
             "value": 8
           }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast",
+            "Ability§Assault"
+          ]
         }
       },
       "Ranged Weapon§Hydra Platform—Hydra quad autocannon": {
@@ -34005,8 +34016,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -34070,6 +34081,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -34080,8 +34092,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -34218,7 +34229,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -34226,7 +34236,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -34494,7 +34505,7 @@
             "value": 0
           },
           "BS": {
-            "value": 4
+            "value": 3
           },
           "D": {
             "value": 1
@@ -34513,8 +34524,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -34547,8 +34558,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Kasrkin—Grenade launcher – frag",
-            "Ranged Weapon§Kasrkin—Grenade launcher – krak"
+            "Ranged Weapon§Kasrkin—Grenade launcher – krak",
+            "Ranged Weapon§Kasrkin—Grenade launcher – frag"
           ]
         },
         "keywords": {
@@ -34568,8 +34579,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": 0
@@ -34603,8 +34614,8 @@
             "value": 3
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 24
@@ -34687,8 +34698,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
-            "Ability§Precision"
+            "Ability§Precision",
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -34846,7 +34857,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -34854,7 +34864,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -34885,7 +34896,7 @@
         "assets": {
           "traits": [
             "Ranged Weapon§Kasrkin—Plasma pistol – standard",
-            "Ranged Weapon§Kasrkin—Plasma gun – supercharge"
+            "Ranged Weapon§Kasrkin—Plasma pistol – supercharge"
           ]
         },
         "keywords": {
@@ -34930,8 +34941,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -35051,8 +35062,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -35085,9 +35096,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
             "Ability§Torrent",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -35166,8 +35177,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -35208,8 +35219,7 @@
             "value": 0
           },
           "BS": {
-            "statType": "term",
-            "value": "4"
+            "value": 4
           },
           "D": {
             "value": 1
@@ -35265,8 +35275,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -35299,8 +35309,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Krieg Command Squad—Grenade launcher – frag",
-            "Ranged Weapon§Krieg Command Squad—Grenade launcher – krak"
+            "Ranged Weapon§Krieg Command Squad—Grenade launcher – krak",
+            "Ranged Weapon§Krieg Command Squad—Grenade launcher – frag"
           ]
         },
         "keywords": {
@@ -35320,8 +35330,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": 0
@@ -35355,8 +35365,8 @@
             "value": 4
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 24
@@ -35530,7 +35540,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -35538,7 +35547,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -35568,8 +35578,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -35665,6 +35675,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -35673,7 +35684,6 @@
                 }
               }
             },
-            "Ability§Twin-linked",
             "Ability§Heavy"
           ]
         },
@@ -35741,8 +35751,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -35970,8 +35980,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -2
@@ -35996,14 +36006,14 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Hazardous"
+            "Ability§Hazardous",
+            "Ability§Blast"
           ]
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -3
@@ -36132,14 +36142,14 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Ignores Cover"
+            "Ability§Ignores Cover",
+            "Ability§Blast"
           ]
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3+6"
+            "format": "D3",
+            "value": 6
           },
           "AP": {
             "value": -1
@@ -36211,8 +36221,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Hazardous"
+            "Ability§Hazardous",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -36318,8 +36328,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -36605,8 +36615,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -2
@@ -36646,7 +36656,7 @@
             "value": 24
           },
           "S": {
-            "value": 5
+            "value": 6
           }
         }
       },
@@ -36761,8 +36771,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -36959,8 +36969,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -2
@@ -36985,14 +36995,14 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Hazardous"
+            "Ability§Hazardous",
+            "Ability§Blast"
           ]
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -3
@@ -37054,14 +37064,14 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Ignores Cover"
+            "Ability§Ignores Cover",
+            "Ability§Blast"
           ]
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3+6"
+            "format": "D3",
+            "value": 6
           },
           "AP": {
             "value": -1
@@ -37123,8 +37133,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -37321,8 +37331,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -2
@@ -37347,14 +37357,14 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Hazardous"
+            "Ability§Hazardous",
+            "Ability§Blast"
           ]
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -3
@@ -37463,8 +37473,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Hazardous"
+            "Ability§Hazardous",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -37532,8 +37542,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -37730,8 +37740,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -2
@@ -37756,14 +37766,14 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Hazardous"
+            "Ability§Hazardous",
+            "Ability§Blast"
           ]
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -3
@@ -37825,6 +37835,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -37832,8 +37843,7 @@
                   "value": "4"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -37900,8 +37910,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -38098,8 +38108,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -2
@@ -38124,14 +38134,14 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Hazardous"
+            "Ability§Hazardous",
+            "Ability§Blast"
           ]
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -3
@@ -38230,8 +38240,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -38428,8 +38438,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -2
@@ -38454,14 +38464,14 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Hazardous"
+            "Ability§Hazardous",
+            "Ability§Blast"
           ]
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -3
@@ -38585,8 +38595,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -38783,8 +38793,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -2
@@ -38809,14 +38819,14 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Hazardous"
+            "Ability§Hazardous",
+            "Ability§Blast"
           ]
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -3
@@ -41026,8 +41036,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -41091,8 +41101,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
             "Ability§Indirect Fire",
+            "Ability§Blast",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -41398,8 +41408,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -41432,8 +41442,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Militarum Tempestus Command Squad—Grenade launcher – frag",
-            "Ranged Weapon§Militarum Tempestus Command Squad—Grenade launcher – krak"
+            "Ranged Weapon§Militarum Tempestus Command Squad—Grenade launcher – krak",
+            "Ranged Weapon§Militarum Tempestus Command Squad—Grenade launcher – frag"
           ]
         },
         "keywords": {
@@ -41453,8 +41463,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": 0
@@ -41488,8 +41498,8 @@
             "value": 3
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 24
@@ -41700,7 +41710,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -41708,7 +41717,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -41738,8 +41748,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Militarum Tempestus Command Squad—Plasma pistol – standard",
-            "Ranged Weapon§Militarum Tempestus Command Squad—Plasma pistol – supercharge"
+            "Ranged Weapon§Tempestus Scions—Plasma pistol – standard",
+            "Ranged Weapon§Tempestus Scions—Plasma pistol – supercharge"
           ]
         },
         "keywords": {
@@ -41784,8 +41794,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
-            "Ability§Pistol"
+            "Ability§Pistol",
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -43168,10 +43178,10 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Devastating Wounds",
+            "Ability§Psychic",
             "Ability§Hazardous",
-            "Ability§Psychic"
+            "Ability§Devastating Wounds",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -43202,9 +43212,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
+            "Ability§Psychic",
             "Ability§Devastating Wounds",
-            "Ability§Psychic"
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -43225,7 +43235,7 @@
             "value": 18
           },
           "S": {
-            "value": 6
+            "value": 5
           }
         }
       },
@@ -43328,8 +43338,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
-            "Ability§Precision"
+            "Ability§Precision",
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -43776,8 +43786,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -44337,8 +44347,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -44453,8 +44463,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Scout Sentinels—Missile launcher – frag",
-            "Ranged Weapon§Scout Sentinels—Missile launcher – krak"
+            "Ranged Weapon§Scout Sentinels—Missile launcher – krak",
+            "Ranged Weapon§Scout Sentinels—Missile launcher – frag"
           ]
         },
         "keywords": {
@@ -44469,8 +44479,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Heavy"
+            "Ability§Heavy",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -44553,8 +44563,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -2
@@ -44579,14 +44589,14 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Hazardous"
+            "Ability§Hazardous",
+            "Ability§Blast"
           ]
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -3
@@ -44674,6 +44684,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -44681,8 +44692,7 @@
                   "value": "1"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -44712,9 +44722,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
+            "Ability§Twin-linked",
             "Ability§Torrent",
-            "Ability§Twin-linked"
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -44747,8 +44757,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Heavy"
+            "Ability§Heavy",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -44779,6 +44789,8 @@
         },
         "assets": {
           "traits": [
+            "Ability§Precision",
+            "Ability§Pistol",
             {
               "item": "Ability§Anti-",
               "stats": {
@@ -44789,9 +44801,7 @@
                   "value": "2+"
                 }
               }
-            },
-            "Ability§Pistol",
-            "Ability§Precision"
+            }
           ]
         },
         "stats": {
@@ -45367,6 +45377,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -45374,8 +45385,7 @@
                   "value": "1"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -45405,9 +45415,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
+            "Ability§Twin-linked",
             "Ability§Torrent",
-            "Ability§Twin-linked"
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -45503,8 +45513,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Ignores Cover"
+            "Ability§Ignores Cover",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -45536,6 +45546,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -45543,8 +45554,7 @@
                   "value": "1"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -45574,9 +45584,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
+            "Ability§Twin-linked",
             "Ability§Torrent",
-            "Ability§Twin-linked"
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -46111,8 +46121,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Devastating Wounds"
           ]
         },
         "stats": {
@@ -46142,8 +46152,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Taurox Prime—Taurox missile launcher – frag",
-            "Ranged Weapon§Taurox Prime—Taurox missile launcher – krak"
+            "Ranged Weapon§Taurox Prime—Taurox missile launcher – krak",
+            "Ranged Weapon§Taurox Prime—Taurox missile launcher – frag"
           ]
         },
         "keywords": {
@@ -46158,8 +46168,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -46251,6 +46261,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -46258,8 +46269,7 @@
                   "value": "3"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -46398,8 +46408,7 @@
             "value": 0
           },
           "BS": {
-            "statType": "term",
-            "value": "3"
+            "value": 3
           },
           "D": {
             "value": 1
@@ -46448,8 +46457,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
-            "Ability§Precision"
+            "Ability§Precision",
+            "Ability§Heavy"
           ]
         },
         "stats": {
@@ -46490,8 +46499,7 @@
             "value": -1
           },
           "BS": {
-            "statType": "term",
-            "value": "3"
+            "value": 3
           },
           "D": {
             "value": 1
@@ -46510,7 +46518,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Assault",
             {
               "item": "Ability§Melta",
               "stats": {
@@ -46518,7 +46525,8 @@
                   "value": "2"
                 }
               }
-            }
+            },
+            "Ability§Assault"
           ]
         },
         "stats": {
@@ -46529,8 +46537,7 @@
             "value": -4
           },
           "BS": {
-            "statType": "term",
-            "value": "3"
+            "value": 3
           },
           "D": {
             "format": "D6",
@@ -46627,8 +46634,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -46661,8 +46668,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Tempestus Aquilons—Sentry grenade launcher – frag",
-            "Ranged Weapon§Tempestus Aquilons—Sentry grenade launcher – krak"
+            "Ranged Weapon§Tempestus Aquilons—Sentry grenade launcher – krak",
+            "Ranged Weapon§Tempestus Aquilons—Sentry grenade launcher – frag"
           ]
         },
         "keywords": {
@@ -46682,8 +46689,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3+3"
+            "format": "D3",
+            "value": 3
           },
           "AP": {
             "value": 0
@@ -46717,8 +46724,8 @@
             "value": 4
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 24
@@ -46771,8 +46778,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -46805,8 +46812,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Tempestus Scions—Grenade launcher – frag",
-            "Ranged Weapon§Tempestus Scions—Grenade launcher – krak"
+            "Ranged Weapon§Tempestus Scions—Grenade launcher – krak",
+            "Ranged Weapon§Tempestus Scions—Grenade launcher – frag"
           ]
         },
         "keywords": {
@@ -46826,8 +46833,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": 0
@@ -46861,8 +46868,8 @@
             "value": 3
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 24
@@ -47073,7 +47080,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Hazardous",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -47081,7 +47087,8 @@
                   "value": "1"
                 }
               }
-            }
+            },
+            "Ability§Hazardous"
           ]
         },
         "stats": {
@@ -48226,8 +48233,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
           ]
         },
         "stats": {
@@ -48291,9 +48298,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Blast",
+            "Ability§Twin-linked",
             "Ability§Indirect Fire",
-            "Ability§Twin-linked"
+            "Ability§Blast"
           ]
         },
         "stats": {
@@ -48305,8 +48312,7 @@
             "value": 0
           },
           "BS": {
-            "statType": "term",
-            "value": "4"
+            "value": 4
           },
           "D": {
             "value": 1
@@ -50517,8 +50523,7 @@
             "value": 7
           },
           "M": {
-            "statType": "term",
-            "value": "20+"
+            "value": 20
           },
           "OC": {
             "value": 0
@@ -50743,7 +50748,7 @@
             "value": 7
           },
           "M": {
-            "value": 9
+            "value": 12
           },
           "OC": {
             "value": 8
@@ -50887,7 +50892,7 @@
             "value": 7
           },
           "M": {
-            "value": 9
+            "value": 12
           },
           "OC": {
             "value": 8
@@ -52310,7 +52315,7 @@
             "value": 7
           },
           "M": {
-            "value": 9
+            "value": 12
           },
           "OC": {
             "value": 8
@@ -52897,7 +52902,7 @@
             "value": 7
           },
           "M": {
-            "value": 9
+            "value": 12
           },
           "OC": {
             "value": 8
@@ -58976,8 +58981,7 @@
             "value": 7
           },
           "M": {
-            "statType": "term",
-            "value": "20+"
+            "value": 14
           },
           "Nose Weapon": {
             "dynamic": true,
@@ -59876,6 +59880,931 @@
           "Phase": [
             "Movement"
           ]
+        }
+      },
+      "Ranged Weapon§Armoured Sentinels—Multi-laser": {
+        "aspects": {
+          "Label": "Multi-laser"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Cadian Castellan—Close combat weapon": {
+        "aspects": {
+          "Label": "Close combat weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Cadian Heavy Weapons Squad—Missile launcher – krak": {
+        "aspects": {
+          "Label": "Missile launcher – Krak"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 5
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy"
+          ]
+        }
+      },
+      "Ranged Weapon§Cadian Heavy Weapons Squad—Missile launcher – frag": {
+        "aspects": {
+          "Label": "Missile launcher – Frag"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 5
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy",
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Cadian Recon Squad—Plasma gun – standard": {
+        "aspects": {
+          "Label": "Plasma gun – Standard"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Cadian Recon Squad—Plasma gun – supercharge": {
+        "aspects": {
+          "Label": "Plasma gun – Supercharge"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Hazardous"
+          ]
+        }
+      },
+      "Ranged Weapon§Cadian Recon Squad—Missile launcher – krak": {
+        "aspects": {
+          "Label": "Missile launcher – Krak"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 5
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy"
+          ]
+        }
+      },
+      "Ranged Weapon§Cadian Recon Squad—Missile launcher – frag": {
+        "aspects": {
+          "Label": "Missile launcher – Frag"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 5
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy",
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Cadian Shock Troops—Sergeant’s autogun": {
+        "aspects": {
+          "Label": "Sergeant’s autogun"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Catachan Command Squad—Plasma pistol – standard": {
+        "aspects": {
+          "Label": "Plasma pistol – Standard"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Catachan Command Squad—Plasma pistol – supercharge": {
+        "aspects": {
+          "Label": "Plasma pistol – Supercharge"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol",
+            "Ability§Hazardous"
+          ]
+        }
+      },
+      "Ranged Weapon§Catachan Heavy Weapons Squad—Missile launcher – krak": {
+        "aspects": {
+          "Label": "Missile launcher – Krak"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 5
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy"
+          ]
+        }
+      },
+      "Ranged Weapon§Catachan Heavy Weapons Squad—Missile launcher – frag": {
+        "aspects": {
+          "Label": "Missile launcher – Frag"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 5
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy",
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Chimera—Multi-laser": {
+        "aspects": {
+          "Label": "Multi-laser"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Death Riders—Savage claws": {
+        "aspects": {
+          "Label": "Savage claws"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Extra Attacks"
+          ]
+        }
+      },
+      "Ranged Weapon§Hippogriff AFV—Lascannon": {
+        "aspects": {
+          "Label": "Lascannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault"
+          ]
+        }
+      },
+      "Ranged Weapon§Krieg Command Squad—Plasma pistol – standard": {
+        "aspects": {
+          "Label": "Plasma pistol – Standard"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Krieg Command Squad—Plasma pistol – supercharge": {
+        "aspects": {
+          "Label": "Plasma pistol – Supercharge"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol",
+            "Ability§Hazardous"
+          ]
+        }
+      },
+      "Ranged Weapon§Leman Russ Commander—Plasma cannon – supercharge": {
+        "aspects": {
+          "Label": "Plasma cannon – Supercharge"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "format": "D3",
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Hazardous",
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Leman Russ Commander—Plasma cannon": {
+        "aspects": {
+          "Label": "Plasma cannon"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Leman Russ Commander—Plasma cannon – standard",
+            "Ranged Weapon§Leman Russ Commander—Plasma cannon – supercharge"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Ministorum Priest—Zealot’s vindictor – Ranged": {
+        "aspects": {
+          "Label": "Zealot’s vindictor – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
+          ]
+        }
+      },
+      "Melee Weapon§Ministorum Priest—Zealot’s vindictor – Melee": {
+        "aspects": {
+          "Label": "Zealot’s vindictor – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Ogryn Bodyguard—Ripper gun – Ranged": {
+        "aspects": {
+          "Label": "Ripper gun – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "3"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Melee Weapon§Ogryn Bodyguard—Ripper gun – Melee": {
+        "aspects": {
+          "Label": "Ripper gun – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Ogryn Squad—Ripper gun – Ranged": {
+        "aspects": {
+          "Label": "Ripper gun – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "3"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Melee Weapon§Ogryn Squad—Ripper gun – Melee": {
+        "aspects": {
+          "Label": "Ripper gun – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Scout Sentinels—Multi-laser": {
+        "aspects": {
+          "Label": "Multi-laser"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Tech-Priest Enginseer—Mechanicus pistol": {
+        "aspects": {
+          "Label": "Mechanicus pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol",
+            "Ability§Devastating Wounds"
+          ]
+        }
+      },
+      "Ranged Weapon§Tempestus Scions—Plasma pistol – standard": {
+        "aspects": {
+          "Label": "Plasma pistol – Standard"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Tempestus Scions—Plasma pistol – supercharge": {
+        "aspects": {
+          "Label": "Plasma pistol – Supercharge"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol",
+            "Ability§Hazardous"
+          ]
+        }
+      },
+      "Ranged Weapon§Valkyrie—Multi-laser": {
+        "aspects": {
+          "Label": "Multi-laser"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
         }
       }
     },

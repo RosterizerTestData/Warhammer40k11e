@@ -1,6 +1,6 @@
 {
   "name": "Imperial Knights 11e",
-  "revision": "11.1.14",
+  "revision": "11.1.15",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -3055,7 +3055,42 @@
         "stats": {
           "Points": {
             "value": 15
+          },
+          "Range": {
+            "value": 72
+          },
+          "A": {
+            "format": "D6",
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 3
           }
+        },
+        "aspects": {
+          "Label": "Rapid-fire battle cannon"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "D6+3"
+                }
+              }
+            },
+            "Ability§Blast"
+          ]
         }
       },
       "Character§Knight Defender": {
@@ -3183,6 +3218,722 @@
           "Phase": [
             "Shooting"
           ]
+        }
+      },
+      "Ranged Weapon§Canis Rex—Chainbreaker multi-laser": {
+        "aspects": {
+          "Label": "Chainbreaker multi-laser"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Canis Rex—Las-impulsor – low intensity": {
+        "aspects": {
+          "Label": "Las-impulsor – Low intensity"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "format": "2D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Canis Rex—Las-impulsor – high intensity": {
+        "aspects": {
+          "Label": "Las-impulsor – High intensity"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 14
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 4
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Canis Rex—Las-impulsor": {
+        "aspects": {
+          "Label": "Las-impulsor"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Canis Rex—Las-impulsor – low intensity",
+            "Ranged Weapon§Canis Rex—Las-impulsor – high intensity"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Melee Weapon§Canis Rex—Freedom’s Hand – sweep": {
+        "aspects": {
+          "Label": "Freedom’s Hand – Sweep"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 10
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Melee Weapon§Canis Rex—Freedom’s Hand – strike": {
+        "aspects": {
+          "Label": "Freedom’s Hand – Strike"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 20
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 9
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Melee Weapon§Canis Rex—Freedom’s Hand": {
+        "aspects": {
+          "Label": "Freedom’s Hand"
+        },
+        "assets": {
+          "traits": [
+            "Melee Weapon§Canis Rex—Freedom’s Hand – sweep",
+            "Melee Weapon§Canis Rex—Freedom’s Hand – strike"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "__inherited__": {
+        "aspects": {
+          "Label": "Atrapos lascutter – Low intensity"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 20
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 8
+          },
+          "WS": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lance"
+          ]
+        }
+      },
+      "Ranged Weapon§Cerastus Knight Atrapos—Atrapos lascutter": {
+        "aspects": {
+          "Label": "Atrapos lascutter"
+        },
+        "assets": {
+          "traits": [
+            "__inherited__",
+            "__inherited__"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Melee Weapon§Cerastus Knight Atrapos—Atrapos lascutter": {
+        "aspects": {
+          "Label": "Atrapos lascutter"
+        },
+        "assets": {
+          "traits": [
+            "__inherited__",
+            "__inherited__"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Cerastus Knight Lancer—Cerastus shock lance": {
+        "aspects": {
+          "Label": "Cerastus shock lance"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 6
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            },
+            "Ability§Assault"
+          ]
+        }
+      },
+      "Melee Weapon§Cerastus Knight Lancer—Cerastus shock lance": {
+        "aspects": {
+          "Label": "Cerastus shock lance"
+        },
+        "assets": {
+          "traits": [
+            "__inherited__",
+            "__inherited__"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Knight Crusader—Twin Icarus autocannon": {
+        "aspects": {
+          "Label": "Twin Icarus autocannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "fly"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Knight Errant—Twin Icarus autocannon": {
+        "aspects": {
+          "Label": "Twin Icarus autocannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "fly"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Knight Gallant—Twin Icarus autocannon": {
+        "aspects": {
+          "Label": "Twin Icarus autocannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "fly"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Knight Paladin—Twin Icarus autocannon": {
+        "aspects": {
+          "Label": "Twin Icarus autocannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "fly"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Knight Preceptor—Twin Icarus autocannon": {
+        "aspects": {
+          "Label": "Twin Icarus autocannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "fly"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Knight Preceptor—Questoris multi-laser": {
+        "aspects": {
+          "Label": "Questoris multi-laser"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Knight Warden—Twin Icarus autocannon": {
+        "aspects": {
+          "Label": "Twin Icarus autocannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "fly"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Character§Sir Hekhtur": {
+        "keywords": {
+          "Faction": [
+            "Imperial Knights"
+          ],
+          "Source": [
+            "11th Edition Codex"
+          ],
+          "Keywords": [
+            "Infantry",
+            "Character",
+            "Epic Hero",
+            "Imperium",
+            "Sir Hekhtur"
+          ],
+          "Category": [
+            "Epic Hero"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 6
+          },
+          "T": {
+            "value": 3
+          },
+          "Sv": {
+            "value": 4
+          },
+          "W": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 5
+          },
+          "OC": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lone Operative",
+            "Ability§Using Sir Hekhtur"
+          ]
+        }
+      },
+      "Ranged Weapon§Sir Hekhtur—Hekhtur’s pistol": {
+        "aspects": {
+          "Label": "Hekhtur’s pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Melee Weapon§Sir Hekhtur—Close combat weapon": {
+        "aspects": {
+          "Label": "Close combat weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
         }
       }
     },
