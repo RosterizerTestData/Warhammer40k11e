@@ -2133,7 +2133,8 @@
               }
             },
             "Weapon§Abaddon the Despoiler—Talon of Horus",
-            "Melee Weapon§Abaddon the Despoiler—Drach’nyen"
+            "Melee Weapon§Abaddon the Despoiler—Drach’nyen",
+            "Ability§Warmaster"
           ]
         },
         "keywords": {
@@ -36219,10 +36220,10 @@
               "item": "Ability§Damaged:",
               "stats": {
                 "x": {
-                  "value": "1-8 wounds remaining",
-                  "text": "While this model has {v}, subtract 4 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+                  "value": "1-8 wounds remaining"
                 }
-              }
+              },
+              "text": "While this model has 1-8 wounds remaining, subtract 4 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             },
             {
               "item": "Ability§Invulnerable",
@@ -37683,6 +37684,9 @@
             "value": 2
           }
         }
+      },
+      "Ability§Warmaster": {
+        "text": "**Paragon of Hatred (Aura):** While a friendly **HERETIC ASTARTES** unit (excluding **DAMNED** units) is within 6\" of this model, each time a model in that unit makes an attack, you can re-roll the Hit roll.\n\n**Mark of Chaos Ascendant (Aura):** While a friendly **HERETIC ASTARTES INFANTRY** or **HERETIC ASTARTES MOUNTED** unit (excluding **DAMNED** units) is within 6\" of this model, models in that unit have a 4+ invulnerable save.\n\n**Lord of the Traitor Legions (Aura):** While a friendly **HERETIC ASTARTES** unit (excluding **DAMNED** units) is within 6\" of this model, you can re-roll Leadership and Battle-shock tests taken for that unit."
       }
     },
     "gameModes": {},

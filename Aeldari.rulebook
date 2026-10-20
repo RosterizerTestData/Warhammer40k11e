@@ -4250,7 +4250,15 @@
             "Ability§Aethersense (Psychic)",
             "Ability§Fury of the Void (Psychic)",
             "Ranged Weapon§Kharseth—Dread of the Deep Void",
-            "Melee Weapon§Kharseth—Waystave"
+            "Melee Weapon§Kharseth—Waystave",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -4310,7 +4318,15 @@
             "Melee Weapon§Lhykhis—Spider's Fangs",
             "Melee Weapon§Lhykhis—Weaverender",
             "Ability§Empyric Ambush",
-            "Ability§Whispering Web"
+            "Ability§Whispering Web",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -32237,7 +32253,15 @@
             "Ability§Mindshock Pod (Aura, Psychic)",
             "Ranged Weapon§Hemlock Wraithfighter—Heavy D-scythe",
             "Ranged Weapon§Hemlock Wraithfighter—Heavy D-scythe",
-            "Melee Weapon§Hemlock Wraithfighter—Wraithbone hull"
+            "Melee Weapon§Hemlock Wraithfighter—Wraithbone hull",
+            {
+              "item": "Ability§Damaged:",
+              "stats": {
+                "x": {
+                  "value": "1-4 wounds remaining"
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -32479,7 +32503,8 @@
                 "x": {
                   "value": "5+"
                 }
-              }
+              },
+              "text": "4+ against melee attacks only"
             },
             "Model§Howling Banshee Exarch",
             {
@@ -32894,10 +32919,10 @@
               "item": "Ability§Damaged:",
               "stats": {
                 "x": {
-                  "value": "1-16 wounds remaining",
-                  "text": "While this model has 1-16 wounds remaining, subtract 10 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+                  "value": "1-16 wounds remaining"
                 }
-              }
+              },
+              "text": "While this model has 1-16 wounds remaining, subtract 10 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             },
             {
               "item": "Ability§Invulnerable",
@@ -32908,7 +32933,8 @@
                 "keyword": {
                   "value": "* Against Ranged Attacks Only"
                 }
-              }
+              },
+              "text": "Against ranged attacks only"
             },
             "Ranged Weapon§Phantom Titan—Voidstorm missile launcher",
             "Melee Weapon§Phantom Titan—Phantom feet",
@@ -33214,7 +33240,8 @@
                 "keyword": {
                   "value": "Ranged"
                 }
-              }
+              },
+              "text": "Against ranged attacks only"
             },
             {
               "item": "Model§Ranger",
@@ -33294,10 +33321,10 @@
               "item": "Ability§Damaged:",
               "stats": {
                 "x": {
-                  "value": "1-10 wounds remaining",
-                  "text": "While this model has 1-10 wounds remaining, subtract 8 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+                  "value": "1-10 wounds remaining"
                 }
-              }
+              },
+              "text": "While this model has 1-10 wounds remaining, subtract 8 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             },
             {
               "item": "Ability§Invulnerable",
@@ -33308,7 +33335,8 @@
                 "keyword": {
                   "value": "* Against Ranged Attacks Only"
                 }
-              }
+              },
+              "text": "Against ranged attacks only"
             },
             "Melee Weapon§Revenant Titan—Revenant feet",
             "Ranged Weapon§Revenant Titan—Cloudburst missile launcher",
@@ -33870,7 +33898,8 @@
                 "keyword": {
                   "value": "Ranged"
                 }
-              }
+              },
+              "text": "Against ranged attacks only"
             },
             {
               "item": "Model§Shroud Runner",
@@ -36421,10 +36450,10 @@
               "item": "Ability§Damaged:",
               "stats": {
                 "x": {
-                  "value": "1-6 wounds remaining",
-                  "text": "While this model has 1-6 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+                  "value": "1-6 wounds remaining"
                 }
-              }
+              },
+              "text": "While this model has 1-6 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             },
             "Melee Weapon§Wraithknight—Titanic feet",
             "Ability§Point-blank Devastation"
@@ -36626,10 +36655,10 @@
               "item": "Ability§Damaged:",
               "stats": {
                 "x": {
-                  "value": "1-6 wounds remaining",
-                  "text": "While this model has 1-6 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+                  "value": "1-6 wounds remaining"
                 }
-              }
+              },
+              "text": "While this model has 1-6 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             },
             "Ability§Titanic Agility",
             "Melee Weapon§Wraithknight—Titanic ghostglaive"

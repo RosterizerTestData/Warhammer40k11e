@@ -20825,7 +20825,7 @@
               "item": "Ability§Invulnerable",
               "stats": {
                 "x": {
-                  "value": "5"
+                  "value": "5+"
                 }
               }
             },
@@ -20833,7 +20833,7 @@
               "item": "Ability§Damaged:",
               "stats": {
                 "x": {
-                  "value": "1-6"
+                  "value": "1-6 wounds remaining"
                 }
               }
             },
@@ -23402,7 +23402,7 @@
               "item": "Ability§Damaged:",
               "stats": {
                 "x": {
-                  "value": "1-20"
+                  "value": "1-20 wounds remaining"
                 }
               }
             },
@@ -23410,7 +23410,7 @@
               "item": "Ability§Invulnerable",
               "stats": {
                 "x": {
-                  "value": "5"
+                  "value": "5+"
                 }
               }
             },
@@ -24705,7 +24705,8 @@
                 "x": {
                   "value": "1-5 wounds remaining"
                 }
-              }
+              },
+              "text": "While this model has 1-5 wounds remaining, subtract 3 from this models Objective Control characteristic, and each time this model makes an attack, subtract 1 from the Hit roll."
             },
             {
               "item": "Ability§Invulnerable",
@@ -25015,7 +25016,7 @@
               "item": "Ability§Damaged:",
               "stats": {
                 "x": {
-                  "value": "1-10"
+                  "value": "1-10 wounds remaining"
                 }
               },
               "text": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
@@ -25533,6 +25534,14 @@
             {
               "item": "Ability§Transport",
               "text": "This model has a transport capacity of 11 T’au Empire Infantry models. It cannot transport Battlesuit, Kroot or Vespid Stingwings models."
+            },
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
             }
           ]
         },
@@ -25618,7 +25627,7 @@
               "item": "Ability§Invulnerable",
               "stats": {
                 "x": {
-                  "value": "5"
+                  "value": "5+"
                 }
               }
             },
@@ -25626,7 +25635,7 @@
               "item": "Ability§Damaged:",
               "stats": {
                 "x": {
-                  "value": "1-6"
+                  "value": "1-6 wounds remaining"
                 }
               }
             },

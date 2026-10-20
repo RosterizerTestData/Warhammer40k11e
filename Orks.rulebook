@@ -2901,7 +2901,15 @@
             "Ability§Waaagh!",
             "Ability§Dok’s Toolz",
             "Ability§Sawbonez",
-            "Melee Weapon§Painboss—Beast Snagga klaw"
+            "Melee Weapon§Painboss—Beast Snagga klaw",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "6+"
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -3538,7 +3546,16 @@
             "Ranged Weapon§Wazdakka Gutsmek—Psyko‑gatler",
             "Melee Weapon§Wazdakka Gutsmek—Fixit’s wrench",
             "Melee Weapon§Wazdakka Gutsmek—Speeding bulk and flaming exhaust",
-            "Ability§Waagh! Wazdakka"
+            "Ability§Waagh! Wazdakka",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Full Throttle (Wazdakka Gutsmek)"
           ]
         },
         "keywords": {
@@ -3783,7 +3800,15 @@
             "Ability§Special Dose",
             "Melee Weapon§Zodgrod Wortsnagga—Da Grabzappa",
             "Ranged Weapon§Zodgrod Wortsnagga—Squigstoppa",
-            "Ability§Super Runts"
+            "Ability§Super Runts",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "6+"
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -21974,6 +21999,14 @@
             {
               "item": "Model§Beast Snagga Boy",
               "quantity": 9
+            },
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "6+"
+                }
+              }
             }
           ]
         },
@@ -26384,7 +26417,15 @@
             },
             "Melee Weapon§Hunta Rig—Butcha boyz",
             "Melee Weapon§Hunta Rig—Savage horns and hooves",
-            "Melee Weapon§Hunta Rig—Saw blades"
+            "Melee Weapon§Hunta Rig—Saw blades",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "6+"
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -26811,7 +26852,16 @@
             "Ranged Weapon§Kill Rig—Wurrtower",
             "Melee Weapon§Kill Rig—Butcha boyz",
             "Melee Weapon§Kill Rig—Savage horns and hooves",
-            "Melee Weapon§Kill Rig—Saw blades"
+            "Melee Weapon§Kill Rig—Saw blades",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "6+"
+                }
+              }
+            },
+            "Ability§Wurrboy (psyker level 1)"
           ]
         },
         "keywords": {
@@ -29568,7 +29618,15 @@
               }
             },
             "Ability§Waaagh!",
-            "Ability§Wild Ride"
+            "Ability§Wild Ride",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "6+"
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -29782,7 +29840,7 @@
               "item": "Ability§Invulnerable",
               "stats": {
                 "x": {
-                  "value": "6+"
+                  "value": "5+"
                 }
               }
             },
@@ -38580,7 +38638,15 @@
               "text": "This model has a **transport capacity** of 12 **ORKS INFANTRY** models. Each **MEGA ARMOUR/JUMP PACK** model takes up the space of 2 models. Each **GHAZGHKULL THRAKA** model takes up the space of 4 models."
             },
             "Melee Weapon§Gunwagon—Crushin’ Bulk",
-            "Ranged Weapon§Gunwagon—Kannon"
+            "Ranged Weapon§Gunwagon—Kannon",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "6+"
+                }
+              }
+            }
           ]
         },
         "aspects": {
@@ -39066,7 +39132,15 @@
             "Ability§Nazdreg’s Know-wotz",
             "Ability§Supreme Kunnin’",
             "Ranged Weapon§Nazdreg—Kustom Blasta X",
-            "Melee Weapon§Nazdreg—Moonchewa"
+            "Melee Weapon§Nazdreg—Moonchewa",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            }
           ]
         }
       },
@@ -39400,6 +39474,12 @@
       },
       "Ability§Unstable Energies": {
         "text": "**ORKS PSYKER** units with this ability have a **psyker level** of 1 or higher, specified in that unit's abilities. Each **psychic ability** has a **psychic level** of 1 or higher, specified in that ability's name.\nIn a battle round, a friendly **ORKS PSYKER** unit can use a number of **psychic abilities** whose total **psychic level** does not exceed that **PSYKER** unit's **psyker level**.\nExample: In a battle round, a **psyker level 3** **PSYKER** unit could use three **psychic level 1**abilities, or one **psychic level 1** ability and one **psychic level 2** ability, or one **psychic level 3** ability."
+      },
+      "Ability§Wurrboy (psyker level 1)": {
+        "text": "**Beastscent (psychic level 1):** In your Movement phase, when a unit embarked within this unit is selected to make a **disembark move**, if this unit is not **battle-shocked**, you can make a **psychic roll** for this unit by rolling one D6. If you do: \n\n- On a 1, this unit is **battle-shocked**.\n\n- That disembarking unit's attacks that target a **MONSTER/VEHICLE** unit have +1 to **wound rolls** until the end of the turn.\n\n**Warpath (psychic level 1):** In the Fight phase, when this unit is **selected to fight**, if this unit is not **battle-shocked**, you can make a **psychic roll** for this unit by rolling one D6. If you do: \n\n- On a 1, this unit is **battle-shocked**.\n\n- This unit's melee attacks have **[LETHAL HITS]** and **[PSYCHIC]**."
+      },
+      "Ability§Full Throttle (Wazdakka Gutsmek)": {
+        "text": "**Turbo Engine:** When this unit is selected to make an **advance**/**fall-back move**, that move does not prevent this unit from being **eligible to declare a charge**.\n\n**Shokk Attack Engine:** In your Command phase, if this unit is **unengaged**, you can place this unit in **strategic reserves**.\n\n**Pulse Jet:** In your Movement phase, when this unit is **selected to move**, if this unit is **unengaged**, this unit can make a **pulse jet move** (pg 121)."
       }
     },
     "gameModes": {},

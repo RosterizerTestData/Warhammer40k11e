@@ -4811,7 +4811,17 @@
             {
               "item": "Model§Triarchal Menhir",
               "quantity": 2
-            }
+            },
+            {
+              "item": "Ability§Damaged:",
+              "stats": {
+                "x": {
+                  "value": "1-6 wounds remaining"
+                }
+              },
+              "text": "While this unit’s Szarekh model has 1-6 wounds remaining, halve the Attacks characteristic of that model’s weapons, and each time this unit makes an attack, subtract 1 from the Hit roll."
+            },
+            "Ability§Triarch Abilities"
           ]
         },
         "keywords": {
@@ -18300,10 +18310,10 @@
               "item": "Ability§Damaged:",
               "stats": {
                 "x": {
-                  "value": "1-7 wounds remaining",
-                  "text": "While this model has 1-7 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+                  "value": "1-7 wounds remaining"
                 }
-              }
+              },
+              "text": "While this model has 1-7 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ]
         },
@@ -18660,10 +18670,10 @@
               "item": "Ability§Damaged:",
               "stats": {
                 "x": {
-                  "value": "1-8 wounds remaining",
-                  "text": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+                  "value": "1-8 wounds remaining"
                 }
-              }
+              },
+              "text": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             }
           ]
         },
@@ -18983,10 +18993,10 @@
               "item": "Ability§Damaged:",
               "stats": {
                 "x": {
-                  "value": "1-9 wounds remaining",
-                  "text": "While this model has 1-9 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+                  "value": "1-9 wounds remaining"
                 }
-              }
+              },
+              "text": "While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             },
             {
               "item": "Ability§Invulnerable",
@@ -19369,10 +19379,10 @@
               "item": "Ability§Damaged:",
               "stats": {
                 "x": {
-                  "value": "1-8 wounds remaining",
-                  "text": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+                  "value": "1-8 wounds remaining"
                 }
-              }
+              },
+              "text": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and you can only select one of the C’tan Powers weapons in your Shooting phase, instead of two."
             },
             {
               "item": "Ability§Invulnerable",
@@ -21001,6 +21011,9 @@
             "value": 2
           }
         }
+      },
+      "Ability§Triarch Abilities": {
+        "text": "**Phaeron of the Stars (Aura):** While a friendly **NECRONS** unit (excluding **MONSTER** units) is within 6\" of this unit’s Szarekh model, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.\n\n**Phaeron of the Blades (Aura):** While a friendly **NECRONS** unit (excluding **MONSTER** units) is within 6\" of this unit’s Szarekh model, you can re-roll Charge rolls made for that unit and each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack.\n\n**Relentless March (Aura):** While a friendly **NECRONS** unit (excluding **MONSTER** units) is within 6\" of this unit’s Szarekh model, add 2\" to the Move characteristic of models in that unit."
       }
     },
     "gameModes": {},

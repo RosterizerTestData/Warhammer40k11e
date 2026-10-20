@@ -221,6 +221,7 @@ def sync_weapons(U, ds, created_ok=True, inherited_unit=False):
 # ---------------------------------------------------------------- existing units
 faction = en(g.get("name"))
 missing = []
+SYNC_LATER = []
 for ds in g["datasheets"]:
     name = en(ds["name"]); uk = unit_key(name)
     if HUB_FACTION:
@@ -276,6 +277,74 @@ for ds in g["datasheets"]:
             log.append(f"~ {hk}: {', '.join(ch)}")
     for line in sync_weapons(U, ds):
         log.append(f"  {line}")
+    SYNC_LATER.append((uk, ds))
+
+# ---------------------------------------------------------------- invul / damaged / primarch
+DAMAGED_STD = "While this model has {r}, each time this model makes an attack, subtract 1 from the Hit roll."
+def sync_profile(uk, ds):
+    """invulnerable save, damaged profile and primarch abilities on the unit asset: add or update, never remove"""
+    a = cat[uk]; tr = a.setdefault("assets", {}).setdefault("traits", [])
+    ab = ds.get("abilities") or {}
+    item = lambda t: t.get("item") if isinstance(t, dict) else t
+    kids = [cat[m] for m in dict.fromkeys(re.findall(r'"(Model§[^"]+)"', json.dumps(a, ensure_ascii=False))) if m in cat]
+    def on_models(key):
+        return [t for m in kids for t in (m.get("assets") or {}).get("traits") or [] if item(t) == key]
+    inv = (ab.get("invul") or {}).get("value")
+    have = [t for t in tr if item(t) == "Ability§Invulnerable"]
+    if inv:
+        inv = inv.strip()
+        info = md(en((ab.get("invul") or {}).get("info"))).strip("*_ ")
+        if have:
+            t = have[0]
+            if isinstance(t, str):
+                tr[tr.index(t)] = t = {"item": t, "stats": {}}
+            old = ((t.get("stats") or {}).get("x") or {}).get("value")
+            if str(old).rstrip("*") != inv:   # "5+*" = footnoted 5+, same save
+                t.setdefault("stats", {})["x"] = {"value": inv}
+                log.append(f"~ {uk}: invulnerable {old}→{inv}")
+            if info and not t.get("text"):
+                t["text"] = info
+                log.append(f"~ {uk}: invulnerable note '{info}'")
+        elif on_models("Ability§Invulnerable"):
+            olds = {((t.get("stats") or {}).get("x") or {}).get("value") for t in on_models("Ability§Invulnerable") if isinstance(t, dict)}
+            if olds != {inv}:
+                review.append(f"{uk}: model-level invulnerable {sorted(map(str, olds))} vs GDC {inv}{' (' + info + ')' if info else ''}")
+        else:
+            t = {"item": "Ability§Invulnerable", "stats": {"x": {"value": inv}}}
+            if info:
+                t["text"] = info
+            tr.append(t)
+            log.append(f"~ {uk}: + invulnerable {inv}{' (' + info + ')' if info else ''}")
+    elif have or on_models("Ability§Invulnerable"):
+        review.append(f"{uk}: has an invulnerable save but GDC lists none")
+    dm = ab.get("damaged") or {}
+    dash = lambda x: re.sub(r"[\u2010\u2011\u2012\u2013]", "-", x)
+    desc = dash(md(en(dm.get("description"))))
+    rng = dash(en(dm.get("range"))).strip().lower()
+    m_ = re.search(r"has (\d+-\d+ wounds remaining)", desc)
+    if m_:
+        rng = m_.group(1)   # description wins over a malformed range field (e.g. "1:-4")
+    desc = desc.replace("each time it makes", "each time this model makes")
+    if rng:
+        bespoke = [item(t) for t in tr if item(t) and item(t).startswith("Ability§Damaged") and item(t) != "Ability§Damaged:"]
+        t = next((t for t in tr if item(t) == "Ability§Damaged:"), None)
+        if bespoke and t is None:   # e.g. "Damaged: Baneblade Variant" — a book-specific damaged ability already covers it
+            rng = ""
+    if rng:
+        want = {"item": "Ability§Damaged:", "stats": {"x": {"value": rng}}}
+        if desc and desc != DAMAGED_STD.format(r=rng):
+            want["text"] = desc
+        if t is None:
+            tr.append(want); log.append(f"~ {uk}: + damaged {rng}")
+        elif t != want:
+            tr[tr.index(t)] = want; log.append(f"~ {uk}: damaged → {rng}{' (custom text)' if 'text' in want else ''}")
+    for grp in ab.get("primarch") or []:
+        gname = en(grp.get("name"))
+        body = "\n\n".join(f"**{en(x.get('name'))}:** {md(en(x.get('description')))}" for x in grp.get("abilities") or [])
+        base = re.sub(r"\s*\(.*\)\s*$", "", gname)
+        if not any(item(t) and item(t).split("§", 1)[-1].startswith(base) for t in tr):
+            tr.append(ability_trait(gname, body, uk.split("§", 1)[1]))
+            log.append(f"~ {uk}: + primarch ability {gname}")
 
 # ---------------------------------------------------------------- new units
 def ability_trait(name, desc=None, unit=None):
@@ -360,6 +429,7 @@ for ds in missing:
             tr.append(k)
         else:
             review.append(f"{uk}: default wargear '{wn}' has no weapon asset")
+    SYNC_LATER.append((uk, ds))
     if ds.get("wargearOptions"):
         review.append(f"{uk}: wargear options not wired ({len(ds['wargearOptions'])} groups)")
     log.append(f"+ {uk}")
@@ -377,6 +447,9 @@ for (uk, role), targets in by_role.items():
         items = cat[tk].setdefault("allowed", {}).setdefault("items", [])
         if uk not in items:
             items.append(uk)
+
+for uk, ds in SYNC_LATER:
+    sync_profile(uk, ds)
 
 for k, profs in SHARED_SEEN.items():
     if len(profs) > 1:
