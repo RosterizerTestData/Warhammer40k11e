@@ -1,6 +1,6 @@
 {
   "name": "Astra Militarum 11e",
-  "revision": "11.1.3",
+  "revision": "11.1.4",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -137,7 +137,8 @@
                     "value"
                   ]
                 ],
-                "value": "Steel Hammer"
+                "value": "Steel Hammer",
+                "contains": true
               }
             ],
             "evaluate": "OR",
@@ -254,7 +255,8 @@
                     "value"
                   ]
                 ],
-                "value": "Steel Hammer"
+                "value": "Steel Hammer",
+                "contains": true
               }
             ],
             "evaluate": "AND",
@@ -3571,7 +3573,8 @@
                     "value"
                   ]
                 ],
-                "value": "Bridgehead Strike"
+                "value": "Bridgehead Strike",
+                "contains": true
               }
             ],
             "evaluate": "AND",
