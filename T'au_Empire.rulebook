@@ -4193,7 +4193,7 @@
             },
             "Ranged Weapon§Experimental Pulse Submunition Rifle",
             "Wargear§Blacklight Marker Drones",
-            "Melee Weapon§Battlesuit fists",
+            "Melee Weapon§Shas’o R’alai—Battlesuit fists",
             "Ability§Deep Strike",
             "Ability§For the Greater Good",
             "Ability§Eclipse Field Generator",
@@ -13184,7 +13184,7 @@
         "assets": {
           "traits": [
             {
-              "item": "Melee Weapon§Battlesuit fists",
+              "item": "Melee Weapon§XV9 Hazard Battlesuits—Battlesuit fists",
               "stats": {
                 "A": {
                   "value": 3
@@ -29947,6 +29947,33 @@
             "Ranged Weapon§The Twin Lance—Twin pulse blaster"
           ]
         }
+      },
+      "Melee Weapon§XV9 Hazard Battlesuits—Battlesuit fists": {
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 5
+          },
+          "WS": {
+            "value": 5
+          }
+        },
+        "aspects": {
+          "Label": "Battlesuit fists"
+        },
+        "assets": {}
       }
     },
     "gameModes": {},
