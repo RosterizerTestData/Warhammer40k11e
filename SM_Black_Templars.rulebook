@@ -373,12 +373,11 @@
         "assets": {
           "traits": [
             {
-              "item": "Ability§Leader",
-              "text": "* Before the battle, Character units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.\n* Attached units can only contain one Leader.\n* Attacks cannot be allocated to Character models in Attached units.\n\nThis model can be attached to the following units:\n\n* Assault Intercessor Squad\n\n* Infernus Squad\n\n* Intercessor Squad\n\n* Crusader Squad\n\n* Sword Brethren\n\n* Sternguard Veteran Squad \n\nYou can attach this model to one of the above units even if one Captain or Chapter Master model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+              "item": "Ability§Support",
+              "text": "This model can be attached to the following units:\n\n* Assault Intercessor Squad\n\n* Bladeguard Veteran Squad\n\n* Company Heroes\n\n* Crusader Squad\n\n* Infernus Squad\n\n* Intercessor Squad\n\n* Sternguard Veteran Squad\n\n* Sword Brethren Squad"
             },
             "Ability§Combat Doctrines",
-            "Ability§Vehement Aggression",
-            "Ability§Prioritised Eradication"
+            "Ability§Vehement Aggression"
           ]
         },
         "keywords": {
@@ -396,7 +395,8 @@
             "Imperium",
             "Infantry",
             "Lieutenant",
-            "Tacticus"
+            "Tacticus",
+            "Explosives"
           ],
           "Category": [
             "Character"
@@ -534,16 +534,16 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Assault Intercessor Squad\n\n* Crusader Squad\n\n* Infernus Squad\n\n* Intercessor Squad\n\n* Sword Brethren Squad"
+            },
+            {
               "item": "Ability§Feel No Pain",
               "stats": {
                 "x": {
                   "value": "5+"
                 }
               }
-            },
-            {
-              "item": "Ability§Leader",
-              "text": "This unit can be attached to the following units:\n\n* Assault Intercessor Squad\n\n* Infernus Squad\n\n* Intercessor Squad\n\n* Primaris Crusader Squad\n\n* Primaris Sword Brethren"
             },
             "Ability§Combat Doctrines",
             "Ability§Litanies of the Devout",
@@ -563,7 +563,11 @@
             {
               "item": "Model§Cenobyte Servitor",
               "quantity": 3
-            }
+            },
+            "Ability§Faithful Cenobytes",
+            "Ability§Banner of the Emperor Victorious",
+            "Ability§Column from the Major Altar",
+            "Ability§Water from the Stoup of Elucidation"
           ]
         },
         "keywords": {
@@ -579,7 +583,8 @@
             "Epic Hero",
             "Imperium",
             "Infantry",
-            "Tacticus"
+            "Tacticus",
+            "Chaplain"
           ],
           "Category": [
             "Epic Hero"
@@ -606,8 +611,8 @@
         "assets": {
           "traits": [
             {
-              "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following units: \n* Crusader Squad \n* Sword Brethren Squad.\n\nYou can attach this model to one of those units even if one Captain, Chapter Master, Execrator, or Lieutenant model has already been attached to it. If the Bodyguard unit is destroyed, the Leader units attached to it become separate units with their original Starting Strengths.\n"
+              "item": "Ability§Support",
+              "text": "This model can be attached to the following units:\n\n* Crusader Squad\n\n* Sword Brethren Squad"
             },
             "Ability§Combat Doctrines",
             "Ability§Martial Honour",
@@ -623,7 +628,9 @@
             "Grenades",
             "Imperium",
             "Infantry",
-            "Tacticus"
+            "Tacticus",
+            "Explosives",
+            "Character"
           ],
           "Category": [
             "Character"
@@ -740,7 +747,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "\n\nThis model can lead the following units:\n\n* Crusader Squad\n* Sword Brethren"
+              "text": "This model can be attached to the following units:\n\n* Crusader Squad\n\n* Sword Brethren Squad"
             },
             "Ability§Combat Doctrines",
             {
@@ -764,7 +771,8 @@
             "Grenades",
             "Imperium",
             "Infantry",
-            "Tacticus"
+            "Tacticus",
+            "Explosives"
           ],
           "Faction": [
             "Adeptus Astartes",
@@ -846,7 +854,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Assault Intercessor Squad\n\n* Intercessor Squad\n\n* Crusader Squad\n\n* Sword Brethren"
+              "text": "This model can be attached to the following units:\n\n* Assault Intercessor Squad\n\n* Bladeguard Veteran Squad\n\n* Company Heroes\n\n* Crusader Squad\n\n* Intercessor Squad\n\n* Sword Brethren Squad"
             },
             "Ability§Combat Doctrines",
             "Ability§Transhuman Strategist",
@@ -880,7 +888,8 @@
             "High Marshal Helbrecht",
             "Imperium",
             "Infantry",
-            "Tacticus"
+            "Tacticus",
+            "Explosives"
           ],
           "Category": [
             "Epic Hero"
@@ -915,7 +924,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Assault Intercessor Squad\n\n* Infernus Squad\n\n* Intercessor Squad\n\n* Crusader Squad\n\n* Sword Brethren\n\n* Sternguard Veteran Squad"
+              "text": "This model can be attached to the following units:\n\n* Assault Intercessor Squad\n\n* Bladeguard Veteran Squad\n\n* Crusader Squad\n\n* Infernus Squad\n\n* Intercessor Squad\n\n* Sternguard Veteran Squad\n\n* Sword Brethren Squad"
             },
             "Ability§Combat Doctrines",
             "Ability§Transhuman Strategist",
@@ -947,7 +956,8 @@
             "Imperium",
             "Infantry",
             "Marshal",
-            "Tacticus"
+            "Tacticus",
+            "Explosives"
           ],
           "Category": [
             "Character"
@@ -1017,7 +1027,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Assault Intercessor Squad\n\n* Intercessor Squad\n\n* Crusader Squad\n\n* Sword Brethren\n\n* Sternguard Veteran Squad"
+              "text": "This model can be attached to the following units:\n\n* Assault Intercessor Squad\n\n* Crusader Squad\n\n* Intercessor Squad\n\n* Sternguard Veteran Squad\n\n* Sword Brethren Squad"
             },
             "Ability§Oath of Moment",
             "Ability§Armour of Faith",
@@ -1032,7 +1042,9 @@
             },
             "Ranged Weapon§Emperor’s Champion—Bolt pistol",
             "Melee Weapon§Emperor’s Champion—Black Sword",
-            "Ability§Lone Operative"
+            "Ability§Lone Operative",
+            "Ability§Combat Doctrines",
+            "Ability§Chosen of the Emperor"
           ]
         },
         "keywords": {
@@ -1049,7 +1061,8 @@
             "Grenades",
             "Imperium",
             "Tacticus",
-            "Emperor’s Champion"
+            "Emperor’s Champion",
+            "Explosives"
           ],
           "Category": [
             "Character"
@@ -2146,8 +2159,8 @@
           "traits": [
             "Ability§Oath of Moment",
             "Ability§Righteous Zeal",
-            "Ability§Attached Unit",
-            "Model§Sword Brother"
+            "Model§Sword Brother",
+            "Ability§Combat Doctrines"
           ]
         },
         "keywords": {
@@ -2164,7 +2177,8 @@
             "Grenades",
             "Imperium",
             "Infantry",
-            "Tacticus"
+            "Tacticus",
+            "Explosives"
           ],
           "Category": [
             "Battleline"
@@ -2266,11 +2280,11 @@
           "traits": [
             "Ability§Oath of Moment",
             "Ability§Exploit Their Cowardice",
-            "Ability§Attached Unit",
             {
               "item": "Model§Primaris Sword Brother - Sword Brethren",
               "quantity": 4
-            }
+            },
+            "Ability§Combat Doctrines"
           ]
         },
         "keywords": {
@@ -2286,7 +2300,8 @@
             "Imperium",
             "Infantry",
             "Sword Brethren",
-            "Tacticus"
+            "Tacticus",
+            "Explosives"
           ],
           "Category": [
             "Infantry"
@@ -3284,8 +3299,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§High Marshal Helbrecht—Sword of the High Marshals – sweep",
-            "Melee Weapon§High Marshal Helbrecht—Sword of the High Marshals – strike"
+            "Melee Weapon§High Marshal Helbrecht—Sword of the High Marshals – strike",
+            "Melee Weapon§High Marshal Helbrecht—Sword of the High Marshals – sweep"
           ]
         },
         "keywords": {
@@ -3653,7 +3668,15 @@
       "Model§Cenobyte Servitor": {
         "assets": {
           "traits": [
-            "Melee Weapon§Chaplain Grimaldus—Close combat weapon"
+            "Melee Weapon§Chaplain Grimaldus—Close combat weapon",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
           ]
         },
         "stats": {
@@ -3813,8 +3836,8 @@
       "Model§Initiate (Old)": {
         "assets": {
           "traits": [
-            "Ranged Weapon§Crusader Squad—Bolt pistol",
-            "Melee Weapon§Crusader Squad—Close combat weapon"
+            "Ranged Weapon§Crusader Squad (Old)—Bolt pistol",
+            "Melee Weapon§Crusader Squad (Old)—Close combat weapon"
           ]
         },
         "stats": {
@@ -3830,7 +3853,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Crusader Squad—Boltgun"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Boltgun"
                   }
                 ]
               },
@@ -3838,7 +3861,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Melee Weapon§Crusader Squad—Astartes chainsword"
+                    "trait": "Melee Weapon§Crusader Squad (Old)—Astartes chainsword"
                   }
                 ]
               },
@@ -3849,7 +3872,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Crusader Squad—Flamer"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Flamer"
                   }
                 ]
               },
@@ -3860,7 +3883,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Crusader Squad—Grav-gun"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Grav-gun"
                   }
                 ]
               },
@@ -3871,7 +3894,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Crusader Squad—Meltagun"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Meltagun"
                   }
                 ]
               },
@@ -3882,7 +3905,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Crusader Squad—Plasma gun"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Plasma gun"
                   }
                 ]
               },
@@ -3893,7 +3916,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Melee Weapon§Crusader Squad—Power fist"
+                    "trait": "Melee Weapon§Crusader Squad (Old)—Power fist"
                   }
                 ]
               },
@@ -3904,7 +3927,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Melee Weapon§Crusader Squad—Power weapon"
+                    "trait": "Melee Weapon§Crusader Squad (Old)—Power weapon"
                   }
                 ]
               },
@@ -3915,7 +3938,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Black Templars Armoury—Heavy bolter"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Heavy bolter"
                   }
                 ]
               },
@@ -3926,7 +3949,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Black Templars Armoury—Heavy flamer"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Heavy flamer"
                   }
                 ]
               },
@@ -3937,7 +3960,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Black Templars Armoury—Grav-cannon"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Grav-cannon"
                   }
                 ]
               },
@@ -3948,7 +3971,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Black Templars Armoury—Lascannon"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Lascannon"
                   }
                 ]
               },
@@ -3959,7 +3982,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Black Templars Armoury—Missile launcher"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Missile launcher"
                   }
                 ]
               },
@@ -3970,7 +3993,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Black Templars Armoury—Multi-melta"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Multi-melta"
                   }
                 ]
               },
@@ -3981,7 +4004,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Black Templars Armoury—Plasma cannon"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Plasma cannon"
                   }
                 ]
               }
@@ -4064,8 +4087,8 @@
       "Model§Neophyte (Old)": {
         "assets": {
           "traits": [
-            "Ranged Weapon§Crusader Squad—Bolt pistol",
-            "Melee Weapon§Crusader Squad—Close combat weapon"
+            "Ranged Weapon§Crusader Squad (Old)—Bolt pistol",
+            "Melee Weapon§Crusader Squad (Old)—Close combat weapon"
           ]
         },
         "stats": {
@@ -4087,7 +4110,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Crusader Squad—Astartes shotgun"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Astartes shotgun"
                   }
                 ]
               },
@@ -4095,7 +4118,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Crusader Squad—Boltgun"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Boltgun"
                   }
                 ]
               },
@@ -4103,7 +4126,7 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Melee Weapon§Crusader Squad—Combat knife"
+                    "trait": "Melee Weapon§Crusader Squad (Old)—Combat knife"
                   }
                 ]
               }
@@ -4373,7 +4396,7 @@
             "value": 3
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 2
@@ -4383,7 +4406,7 @@
       "Model§Sword Brother (Old)": {
         "assets": {
           "traits": [
-            "Melee Weapon§Crusader Squad—Close combat weapon"
+            "Melee Weapon§Crusader Squad (Old)—Close combat weapon"
           ]
         },
         "rules": {
@@ -4652,10 +4675,10 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Crusader Squad—Bolt pistol"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Bolt pistol"
                   },
                   {
-                    "trait": "Ranged Weapon§Crusader Squad—Boltgun"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Boltgun"
                   }
                 ]
               },
@@ -4667,7 +4690,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Melee Weapon§Crusader Squad—Twin lightning claws"
+                    "trait": "Melee Weapon§Crusader Squad (Old)—Twin lightning claws"
                   }
                 ]
               }
@@ -4695,7 +4718,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Melee Weapon§Crusader Squad—Astartes chainsword"
+                    "trait": "Melee Weapon§Crusader Squad (Old)—Astartes chainsword"
                   }
                 ]
               },
@@ -4708,7 +4731,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Crusader Squad—Bolt pistol"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Bolt pistol"
                   }
                 ]
               },
@@ -4721,7 +4744,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Crusader Squad—Boltgun"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Boltgun"
                   }
                 ]
               },
@@ -4734,7 +4757,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Black Templars Armoury—Combi-weapon"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Combi-weapon"
                   }
                 ]
               },
@@ -4747,7 +4770,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Black Templars Armoury—Grav-pistol"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Grav-pistol"
                   }
                 ]
               },
@@ -4760,7 +4783,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Black Templars Armoury—Hand flamer"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Hand flamer"
                   }
                 ]
               },
@@ -4773,7 +4796,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Black Templars Armoury—Inferno pistol"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Inferno pistol"
                   }
                 ]
               },
@@ -4786,7 +4809,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Black Templars Armoury—Plasma pistol"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Plasma pistol"
                   }
                 ]
               },
@@ -4798,7 +4821,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Melee Weapon§Crusader Squad—Power fist"
+                    "trait": "Melee Weapon§Crusader Squad (Old)—Power fist"
                   }
                 ]
               },
@@ -4810,7 +4833,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Melee Weapon§Crusader Squad—Power weapon"
+                    "trait": "Melee Weapon§Crusader Squad (Old)—Power weapon"
                   }
                 ]
               },
@@ -4823,7 +4846,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Black Templars Armoury—Storm bolter"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Storm bolter"
                   }
                 ]
               },
@@ -4835,7 +4858,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Melee Weapon§Crusader Squad—Thunder hammer"
+                    "trait": "Melee Weapon§Crusader Squad (Old)—Thunder hammer"
                   }
                 ]
               }
@@ -4860,7 +4883,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Melee Weapon§Crusader Squad—Astartes chainsword"
+                    "trait": "Melee Weapon§Crusader Squad (Old)—Astartes chainsword"
                   }
                 ]
               },
@@ -4873,7 +4896,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Crusader Squad—Bolt pistol"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Bolt pistol"
                   }
                 ]
               },
@@ -4886,7 +4909,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Crusader Squad—Boltgun"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Boltgun"
                   }
                 ]
               },
@@ -4899,7 +4922,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Black Templars Armoury—Combi-weapon"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Combi-weapon"
                   }
                 ]
               },
@@ -4912,7 +4935,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Black Templars Armoury—Grav-pistol"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Grav-pistol"
                   }
                 ]
               },
@@ -4925,7 +4948,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Black Templars Armoury—Hand flamer"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Hand flamer"
                   }
                 ]
               },
@@ -4938,7 +4961,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Black Templars Armoury—Inferno pistol"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Inferno pistol"
                   }
                 ]
               },
@@ -4951,7 +4974,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Black Templars Armoury—Plasma pistol"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Plasma pistol"
                   }
                 ]
               },
@@ -4963,7 +4986,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Melee Weapon§Crusader Squad—Power fist"
+                    "trait": "Melee Weapon§Crusader Squad (Old)—Power fist"
                   }
                 ]
               },
@@ -4975,7 +4998,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Melee Weapon§Crusader Squad—Power weapon"
+                    "trait": "Melee Weapon§Crusader Squad (Old)—Power weapon"
                   }
                 ]
               },
@@ -4988,7 +5011,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Black Templars Armoury—Storm bolter"
+                    "trait": "Ranged Weapon§Crusader Squad (Old)—Storm bolter"
                   }
                 ]
               },
@@ -5000,7 +5023,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Melee Weapon§Crusader Squad—Thunder hammer"
+                    "trait": "Melee Weapon§Crusader Squad (Old)—Thunder hammer"
                   }
                 ]
               }
@@ -7171,7 +7194,7 @@
         },
         "assets": {
           "traits": [
-            "Ability§Close-quarters"
+            "Ability§Pistol"
           ]
         },
         "stats": {
@@ -7191,7 +7214,7 @@
             "value": 18
           },
           "S": {
-            "value": 5
+            "value": 4
           }
         }
       },
@@ -7702,9 +7725,9 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Marshal—Combi-weapon – purgatus",
             "Ranged Weapon§Marshal—Combi-weapon – damnatus",
-            "Ranged Weapon§Marshal—Combi-weapon – infernus"
+            "Ranged Weapon§Marshal—Combi-weapon – infernus",
+            "Ranged Weapon§Marshal—Combi-weapon – purgatus"
           ]
         },
         "keywords": {
@@ -9392,10 +9415,10 @@
               "item": "Ability§Transport",
               "text": "This model has a transport capacity of 16 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models."
             },
-            "Ranged Weapon§Land Raider Crusader—Hurricane bolter",
-            "Ranged Weapon§Land Raider Crusader—Hurricane bolter",
-            "Ranged Weapon§Land Raider Crusader—Twin assault cannon",
-            "Melee Weapon§Land Raider Crusader—Armoured tracks",
+            "Ranged Weapon§Land Raider Crusader (BT)—Hurricane bolter",
+            "Ranged Weapon§Land Raider Crusader (BT)—Hurricane bolter",
+            "Ranged Weapon§Land Raider Crusader (BT)—Twin assault cannon",
+            "Melee Weapon§Land Raider Crusader (BT)—Armoured tracks",
             "Ability§Legacy of Jerulas"
           ]
         },
@@ -9432,7 +9455,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Land Raider Crusader—Hunter-killer missile"
+                    "trait": "Ranged Weapon§Land Raider Crusader (BT)—Hunter-killer missile"
                   }
                 ]
               }
@@ -9459,7 +9482,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Land Raider Crusader—Multi-melta"
+                    "trait": "Ranged Weapon§Land Raider Crusader (BT)—Multi-melta"
                   }
                 ]
               }
@@ -9486,7 +9509,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Land Raider Crusader—Storm bolter"
+                    "trait": "Ranged Weapon§Land Raider Crusader (BT)—Storm bolter"
                   }
                 ]
               }
@@ -11319,6 +11342,1380 @@
         "assets": {
           "traits": [
             "Ability§Twin-linked"
+          ]
+        }
+      },
+      "Melee Weapon§Crusader Squad (Old)—Astartes chainsword": {
+        "aspects": {
+          "Label": "Astartes chainsword"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Crusader Squad (Old)—Close combat weapon": {
+        "aspects": {
+          "Label": "Close combat weapon"
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Crusader Squad (Old)—Power fist": {
+        "aspects": {
+          "Label": "Power fist"
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 8
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Crusader Squad (Old)—Power weapon": {
+        "aspects": {
+          "Label": "Power weapon"
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Crusader Squad (Old)—Grav-cannon": {
+        "aspects": {
+          "Label": "Grav-cannon"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "vehicle"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            },
+            "Ability§Heavy"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 6
+          }
+        }
+      },
+      "Ranged Weapon§Crusader Squad (Old)—Heavy bolter": {
+        "aspects": {
+          "Label": "Heavy bolter"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy",
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Crusader Squad (Old)—Heavy flamer": {
+        "aspects": {
+          "Label": "Heavy flamer"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Ignores Cover",
+            "Ability§Torrent"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "format": "{t}",
+            "statType": "term",
+            "value": "N/A"
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Crusader Squad (Old)—Lascannon": {
+        "aspects": {
+          "Label": "Lascannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 12
+          }
+        }
+      },
+      "Ranged Weapon§Crusader Squad (Old)—Missile launcher – frag": {
+        "aspects": {
+          "Label": "Frag"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast",
+            "Ability§Heavy"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Crusader Squad (Old)—Missile launcher – krak": {
+        "aspects": {
+          "Label": "Krak"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 9
+          }
+        }
+      },
+      "Ranged Weapon§Crusader Squad (Old)—Missile launcher": {
+        "aspects": {
+          "Label": "Missile launcher"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Crusader Squad (Old)—Missile launcher – frag",
+            "Ranged Weapon§Crusader Squad (Old)—Missile launcher – krak"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Crusader Squad (Old)—Multi-melta": {
+        "aspects": {
+          "Label": "Multi-melta"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy",
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -4
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          },
+          "Range": {
+            "value": 18
+          },
+          "S": {
+            "value": 9
+          }
+        }
+      },
+      "Ranged Weapon§Crusader Squad (Old)—Plasma cannon – standard": {
+        "aspects": {
+          "Label": "Standard"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast",
+            "Ability§Heavy"
+          ]
+        },
+        "stats": {
+          "A": {
+            "statType": "term",
+            "value": "D3"
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 7
+          }
+        }
+      },
+      "Ranged Weapon§Crusader Squad (Old)—Plasma cannon – supercharge": {
+        "aspects": {
+          "Label": "Supercharge"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast",
+            "Ability§Hazardous",
+            "Ability§Heavy"
+          ]
+        },
+        "stats": {
+          "A": {
+            "statType": "term",
+            "value": "D3"
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 8
+          }
+        }
+      },
+      "Ranged Weapon§Crusader Squad (Old)—Plasma cannon": {
+        "aspects": {
+          "Label": "Plasma cannon"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Crusader Squad (Old)—Plasma cannon – standard",
+            "Ranged Weapon§Crusader Squad (Old)—Plasma cannon – supercharge"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Crusader Squad (Old)—Bolt pistol": {
+        "aspects": {
+          "Label": "Bolt pistol"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Close-quarters"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Crusader Squad (Old)—Boltgun": {
+        "aspects": {
+          "Label": "Boltgun"
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Crusader Squad (Old)—Flamer": {
+        "aspects": {
+          "Label": "Flamer"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Ignores Cover",
+            "Ability§Torrent"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "format": "{t}",
+            "statType": "term",
+            "value": "N/A"
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Crusader Squad (Old)—Grav-gun": {
+        "aspects": {
+          "Label": "Grav-gun"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "vehicle"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 18
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Crusader Squad (Old)—Meltagun": {
+        "aspects": {
+          "Label": "Meltagun"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -4
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 9
+          }
+        }
+      },
+      "Ranged Weapon§Crusader Squad (Old)—Plasma gun – standard": {
+        "aspects": {
+          "Label": "Standard"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 7
+          }
+        }
+      },
+      "Ranged Weapon§Crusader Squad (Old)—Plasma gun – supercharge": {
+        "aspects": {
+          "Label": "Supercharge"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Hazardous",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 8
+          }
+        }
+      },
+      "Ranged Weapon§Crusader Squad (Old)—Plasma gun": {
+        "aspects": {
+          "Label": "Plasma gun"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Crusader Squad (Old)—Plasma gun – standard",
+            "Ranged Weapon§Crusader Squad (Old)—Plasma gun – supercharge"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Melee Weapon§Crusader Squad (Old)—Combat knife": {
+        "aspects": {
+          "Label": "Combat knife"
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Crusader Squad (Old)—Astartes shotgun": {
+        "aspects": {
+          "Label": "Astartes shotgun"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 18
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Melee Weapon§Crusader Squad (Old)—Thunder hammer": {
+        "aspects": {
+          "Label": "Thunder hammer"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 8
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Melee Weapon§Crusader Squad (Old)—Twin lightning claws": {
+        "aspects": {
+          "Label": "Twin lightning claws"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Crusader Squad (Old)—Combi-weapon": {
+        "aspects": {
+          "Label": "Combi-weapon"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Crusader Squad (Old)—Grav-pistol": {
+        "aspects": {
+          "Label": "Grav-pistol"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "vehicle"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            },
+            "Ability§Pistol"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Crusader Squad (Old)—Hand flamer": {
+        "aspects": {
+          "Label": "Hand flamer"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Ignores Cover",
+            "Ability§Pistol",
+            "Ability§Torrent"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "format": "{t}",
+            "statType": "term",
+            "value": "N/A"
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Crusader Squad (Old)—Inferno pistol": {
+        "aspects": {
+          "Label": "Inferno pistol"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            },
+            "Ability§Pistol"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -4
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "statType": "term",
+            "value": "D3"
+          },
+          "Range": {
+            "value": 6
+          },
+          "S": {
+            "value": 8
+          }
+        }
+      },
+      "Ranged Weapon§Crusader Squad (Old)—Plasma pistol – standard": {
+        "aspects": {
+          "Label": "Standard"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 7
+          }
+        }
+      },
+      "Ranged Weapon§Crusader Squad (Old)—Plasma pistol – supercharge": {
+        "aspects": {
+          "Label": "Supercharge"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Hazardous",
+            "Ability§Pistol"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 8
+          }
+        }
+      },
+      "Ranged Weapon§Crusader Squad (Old)—Plasma pistol": {
+        "aspects": {
+          "Label": "Plasma pistol"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Crusader Squad (Old)—Plasma pistol – standard",
+            "Ranged Weapon§Crusader Squad (Old)—Plasma pistol – supercharge"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Crusader Squad (Old)—Storm bolter": {
+        "aspects": {
+          "Label": "Storm bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Melee Weapon§Land Raider Crusader (BT)—Armoured tracks": {
+        "aspects": {
+          "Label": "Armoured tracks"
+        },
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 8
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Land Raider Crusader (BT)—Hunter-killer missile": {
+        "aspects": {
+          "Label": "Hunter-killer missile"
+        },
+        "assets": {
+          "traits": [
+            "Ability§One Shot"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 2
+          },
+          "D": {
+            "format": "D3",
+            "value": 3
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 14
+          }
+        }
+      },
+      "Ranged Weapon§Land Raider Crusader (BT)—Hurricane bolter": {
+        "aspects": {
+          "Label": "Hurricane bolter"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "6"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Land Raider Crusader (BT)—Multi-melta": {
+        "aspects": {
+          "Label": "Multi-melta"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "3"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "format": "D3",
+            "value": 3
+          },
+          "Range": {
+            "value": 18
+          },
+          "S": {
+            "value": 10
+          }
+        }
+      },
+      "Ranged Weapon§Land Raider Crusader (BT)—Storm bolter": {
+        "aspects": {
+          "Label": "Storm bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Land Raider Crusader (BT)—Twin assault cannon": {
+        "aspects": {
+          "Label": "Twin assault cannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 6
+          }
+        }
+      },
+      "Ability§Faithful Cenobytes": {
+        "text": "- If this unit’s Chaplain Grimaldus model is destroyed, this unit’s remaining Cenobyte Servitor models are also **destroyed**.\n\n- Each Cenobyte Servitor model in this unit takes up 0 transport capacity."
+      },
+      "Ability§Banner of the Emperor Victorious": {
+        "text": "This unit has +1 to advance rolls and charge rolls."
+      },
+      "Ability§Column from the Major Altar": {
+        "text": "This unit has +1 **T**."
+      },
+      "Ability§Water from the Stoup of Elucidation": {
+        "text": "This unit’s melee attacks have +1 **AP**."
+      },
+      "Infantry/Mounted§Bladeguard Veteran Squad": {
+        "allowed": {
+          "items": [
+            "Character§Castellan",
+            "Character§High Marshal Helbrecht",
+            "Character§Marshal"
+          ]
+        }
+      },
+      "Infantry/Mounted§Company Heroes": {
+        "allowed": {
+          "items": [
+            "Character§Castellan",
+            "Character§High Marshal Helbrecht"
+          ]
+        }
+      },
+      "Ability§Chosen of the Emperor": {
+        "text": "You cannot include more than one **EMPEROR’S** **CHAMPION** unit in your army."
+      },
+      "Infantry/Mounted§Assault Intercessor Squad": {
+        "allowed": {
+          "items": [
+            "Character§Emperor’s Champion"
+          ]
+        }
+      },
+      "Infantry/Mounted§Intercessor Squad": {
+        "allowed": {
+          "items": [
+            "Character§Emperor’s Champion"
+          ]
+        }
+      },
+      "Infantry/Mounted§Sternguard Veteran Squad": {
+        "allowed": {
+          "items": [
+            "Character§Emperor’s Champion"
           ]
         }
       }

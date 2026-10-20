@@ -399,11 +399,11 @@
         },
         "assets": {
           "traits": [
-            "Ability§Deep Strike",
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Death Company Marines with Jump Packs"
+              "text": "This model can be attached to the following units:\n\n* Death Company Marines With Jump Packs"
             },
+            "Ability§Deep Strike",
             "Ability§Combat Doctrines",
             "Ability§Redeemer of the Lost",
             "Ability§Mass of Doom",
@@ -468,13 +468,13 @@
       "Character§Blood Angels Captain": {
         "assets": {
           "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Assault Intercessor Squad\n\n* Company Heroes\n\n* Infernus Squad\n\n* Intercessor Squad\n\n* Sternguard Veteran Squad"
+            },
             "Ability§Deep Strike",
             "Ability§Combat Doctrines",
             "Ability§Transhuman Strategist",
-            {
-              "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit: Assault Intercessor Squad, Company Heroes, Infernus Squad, Intercessor Squad, Sternguard Veteran Squad, Tactical Squad"
-            },
             {
               "item": "Ability§Invulnerable",
               "stats": {
@@ -484,7 +484,7 @@
               }
             },
             "Ability§Finest Hour",
-            "Ability§Rites of Battle (BA)"
+            "Ability§Strategic Acumen"
           ]
         },
         "keywords": {
@@ -498,7 +498,8 @@
             "Grenades",
             "Imperium",
             "Infantry",
-            "Tacticus"
+            "Tacticus",
+            "Explosives"
           ],
           "Category": [
             "Character"
@@ -760,20 +761,11 @@
         "assets": {
           "traits": [
             {
-              "item": "Ability§Feel No Pain",
-              "stats": {
-                "x": {
-                  "value": "4+"
-                }
-              }
-            },
-            {
               "item": "Ability§Leader",
               "text": "This model can be attached to the following units:\n\n* Assault Intercessor Squad\n\n* Intercessor Squad\n\n* Sternguard Veteran Squad"
             },
             "Ability§Combat Doctrines",
             "Ability§Transhuman Strategist",
-            "Ability§The Quickening (psychic)",
             "Ability§Transfixing Gaze (psychic)",
             {
               "item": "Ability§Invulnerable",
@@ -787,7 +779,17 @@
             "Ranged Weapon§Chief Librarian Mephiston—Fury of the Ancients",
             "Ranged Weapon§Chief Librarian Mephiston—Plasma pistol",
             "Ability§Lone Operative",
-            "Ability§Fights First"
+            "Ability§Fights First",
+            {
+              "item": "Ability§Feel No Pain",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            },
+            "Ability§Chief Librarian (psyker level 3)",
+            "Ability§Quickening"
           ]
         },
         "keywords": {
@@ -806,7 +808,8 @@
             "Grenades",
             "Imperium",
             "Tacticus",
-            "Chief Librarian Mephiston"
+            "Chief Librarian Mephiston",
+            "Explosives"
           ],
           "Category": [
             "Epic Hero"
@@ -842,11 +845,11 @@
         },
         "assets": {
           "traits": [
-            "Ability§Deep Strike",
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Assault Intercessors with Jump Packs\n* Assault Squad with Jump Packs\n* Sanguinary Guard\n* Vanguard Veteran Squad with Jump Packs"
+              "text": "This model can be attached to the following units:\n\n* Assault Intercessors With Jump Packs\n\n* Sanguinary Guard\n\n* Vanguard Veteran Squad With Jump Packs"
             },
+            "Ability§Deep Strike",
             "Ability§Combat Doctrines",
             "Ability§Transhuman Strategist",
             "Ability§Warden of the Imperium Nihilus",
@@ -881,7 +884,8 @@
             "Imperium",
             "Tacticus",
             "Chapter Master",
-            "Commander Dante"
+            "Commander Dante",
+            "Explosives"
           ],
           "Category": [
             "Epic Hero"
@@ -914,6 +918,10 @@
       "Character§Death Company Captain": {
         "assets": {
           "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Death Company Marines"
+            },
             "Ability§Deep Strike",
             {
               "item": "Ability§Feel No Pain",
@@ -925,10 +933,6 @@
             },
             "Ability§Combat Doctrines",
             {
-              "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit: Death Company Marines, Death Company Marines with Bolts Rifles."
-            },
-            {
               "item": "Ability§Invulnerable",
               "stats": {
                 "x": {
@@ -937,8 +941,8 @@
               }
             },
             "Ability§Black Rage",
-            "Ability§Death Vision of Sanguinius",
-            "Ability§Forlorn Hero"
+            "Ability§Forlorn Hero",
+            "Ability§Death Visions of Sanguinius"
           ]
         },
         "keywords": {
@@ -953,7 +957,8 @@
             "Grenades",
             "Imperium",
             "Infantry",
-            "Tacticus"
+            "Tacticus",
+            "Explosives"
           ],
           "Category": [
             "Character"
@@ -1050,6 +1055,10 @@
       "Character§Death Company Captain with Jump Pack": {
         "assets": {
           "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Death Company Marines With Jump Packs"
+            },
             "Ability§Deep Strike",
             {
               "item": "Ability§Feel No Pain",
@@ -1061,10 +1070,6 @@
             },
             "Ability§Combat Doctrines",
             {
-              "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit: Death Company Marines with Jump Packs."
-            },
-            {
               "item": "Ability§Invulnerable",
               "stats": {
                 "x": {
@@ -1074,7 +1079,7 @@
             },
             "Ability§Lost to Fury",
             "Ability§Black Rage",
-            "Ability§Death Vision of Sanguinius"
+            "Ability§Death Visions of Sanguinius"
           ]
         },
         "keywords": {
@@ -1091,7 +1096,8 @@
             "Imperium",
             "Infantry",
             "Jump Pack",
-            "Tacticus"
+            "Tacticus",
+            "Explosives"
           ],
           "Category": [
             "Character"
@@ -1342,6 +1348,10 @@
         },
         "assets": {
           "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Death Company Marines With Jump Packs"
+            },
             "Ability§Deep Strike",
             {
               "item": "Ability§Feel No Pain",
@@ -1350,10 +1360,6 @@
                   "value": "6+"
                 }
               }
-            },
-            {
-              "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Death Company Marines with Jump Packs"
             },
             "Ability§Combat Doctrines",
             "Ability§Guardian of the Lost",
@@ -1388,7 +1394,9 @@
             "Infantry",
             "Jump Pack",
             "Lemartes",
-            "Tacticus"
+            "Tacticus",
+            "Death Company",
+            "Explosives"
           ],
           "Category": [
             "Epic Hero"
@@ -1422,14 +1430,14 @@
         "assets": {
           "traits": [
             {
-              "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Assault Intercessor Squad\n* Desolation Squad\n* Devastator Squad\n* Hellblaster Squad\n* Infernus Squad\n* Intercessor Squad\n* Tactical Squad\n* Sternguard Veteran Squad\n\n\nYou can attach this model to one of the above units, even if one Captain, Chapter Master or Lieutenant model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+              "item": "Ability§Support",
+              "text": "This model can be attached to the following units:\n\n* Assault Intercessor Squad\n\n* Bladeguard Veteran Squad\n\n* Company Heroes\n\n* Desolation Squad\n\n* Hellblaster Squad\n\n* Infernus Squad\n\n* Intercessor Squad\n\n* Sternguard Veteran Squad"
             },
             "Ability§Combat Doctrines",
-            "Ability§Sanguinary Priest",
             "Ability§Blood Chalice",
             "Ranged Weapon§Sanguinary Priest—Absolvor bolt pistol",
-            "Melee Weapon§Sanguinary Priest—Astartes chainsword"
+            "Melee Weapon§Sanguinary Priest—Astartes chainsword",
+            "Ability§Narthecium (Sanguinary Priest)"
           ]
         },
         "keywords": {
@@ -1446,7 +1454,8 @@
             "Imperium",
             "Infantry",
             "Sanguinary Priest",
-            "Tacticus"
+            "Tacticus",
+            "Explosives"
           ],
           "Category": [
             "Character"
@@ -2590,8 +2599,7 @@
             {
               "item": "Model§Death Company Marine",
               "quantity": 5
-            },
-            "Ability§Attached Unit (Death Company Marines)"
+            }
           ]
         },
         "keywords": {
@@ -2608,7 +2616,8 @@
             "Grenades",
             "Imperium",
             "Infantry",
-            "Tacticus"
+            "Tacticus",
+            "Explosives"
           ],
           "Category": [
             "Infantry"
@@ -3099,10 +3108,6 @@
             "Ability§Black Rage",
             "Ability§Savage Fury",
             {
-              "item": "Ability§Attached Unit (Death Company)",
-              "text": "If a Chaplain model from your army with the Leader ability can be attached to an Assault Squad with Jump Packs, it can be attached to this unit instead."
-            },
-            {
               "item": "Model§Death Company Marine with Jump Pack",
               "quantity": 5
             }
@@ -3123,7 +3128,9 @@
             "Grenades",
             "Imperium",
             "Infantry",
-            "Jump Pack"
+            "Jump Pack",
+            "Tacticus",
+            "Explosives"
           ],
           "Category": [
             "Infantry"
@@ -3286,7 +3293,6 @@
             "Ability§Combat Doctrines",
             "Ability§Angelic Visage",
             "Ability§Heirs of Azkaellon",
-            "Ability§Attached Unit",
             {
               "item": "Model§Sanguinary Guard",
               "quantity": 3
@@ -3316,7 +3322,8 @@
             "Infantry",
             "Jump Pack",
             "Sanguinary Guard",
-            "Tacticus"
+            "Tacticus",
+            "Explosives"
           ],
           "Category": [
             "Infantry"
@@ -5874,7 +5881,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Death Company Captain with Jump Pack—Heavy bolt pistol"
+                    "trait": "Ranged Weapon§Death Company Marines with Jump Packs—Heavy bolt pistol"
                   }
                 ]
               },
@@ -6392,7 +6399,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Death Company Marines—Inferno pistol"
+                    "trait": "Ranged Weapon§Death Company Marines with Bolt Rifles—Inferno pistol"
                   }
                 ]
               },
@@ -6723,6 +6730,18 @@
           "W": {
             "value": 3
           }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
+          ]
         }
       },
       "Ranged Weapon§Astorath—Bolt pistol": {
@@ -7176,8 +7195,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Chief Librarian Mephiston—Fury of the Ancients – witchfire",
-            "Ranged Weapon§Chief Librarian Mephiston—Fury of the Ancients – focused witchfire"
+            "Ranged Weapon§Chief Librarian Mephiston—Fury of the Ancients – focused witchfire",
+            "Ranged Weapon§Chief Librarian Mephiston—Fury of the Ancients – witchfire"
           ]
         },
         "keywords": {
@@ -10173,7 +10192,8 @@
             "Vehicle",
             "Smoke",
             "Imperium",
-            "Baal Predator"
+            "Baal Predator",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -10680,7 +10700,7 @@
                     "trait": "Ranged Weapon§Furioso Dreadnought—Meltagun"
                   },
                   {
-                    "trait": "Melee Weapon§Death Company Dreadnought—Blood talons"
+                    "trait": "Melee Weapon§Furioso Dreadnought—Blood talons"
                   }
                 ]
               },
@@ -11775,6 +11795,61 @@
             "value": 1
           }
         }
+      },
+      "Ranged Weapon§Death Company Marines with Bolt Rifles—Inferno pistol": {
+        "aspects": {
+          "Label": "Inferno pistol"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Close-quarters"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "format": "D3",
+            "value": 2
+          },
+          "Range": {
+            "value": 9
+          },
+          "S": {
+            "value": 8
+          }
+        }
+      },
+      "Ability§Quickening": {
+        "text": "_psychic level 1_\n\nIn your Command phase, if this unit is not battle-shocked, you can make a **psychic roll** for this unit by rolling one D6. If you do:\n\n- On a 1, this unit is **battle-shocked**.\n\n- The assault doctrine is active for this unit in addition to any other combat doctrine until the start of your next Command phase."
+      },
+      "Ability§Narthecium (Sanguinary Priest)": {
+        "text": "_Once per turn, per unit_\n\nIn your Command phase, this unit heals D3+1 wounds."
+      },
+      "Infantry/Mounted§Company Heroes": {
+        "allowed": {
+          "items": [
+            "Character§Sanguinary Priest"
+          ]
+        }
+      },
+      "Ability§Death Visions of Sanguinius": {
+        "text": "In the Fight phase, when an enemy unit has fought, if this model was destroyed by those attacks, you can use this ability. If you do, roll one D6, with +2 to that roll if this model was engaged with an enemy **WARLORD** unit:\n\n- On a 2-3, that enemy unit suffers D3 mortal wounds.\n\n- On a 4-5, that enemy unit suffers 3 **mortal wounds**.\n\n- On a 6+, that enemy unit suffers D3+3 **mortal wounds**."
       }
     },
     "gameModes": {},

@@ -379,16 +379,16 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Deathwatch Veterans\n\n* Decimus Kill Team\n\n* Fortis Kill Team"
+            },
+            {
               "item": "Ability§Feel No Pain",
               "stats": {
                 "x": {
                   "value": "6+"
                 }
               }
-            },
-            {
-              "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* **Deathwatch Veterans**\n\n* **Fortis Kill Team**"
             },
             "Ability§Combat Doctrines",
             "Ability§Transhuman Strategist",
@@ -421,7 +421,9 @@
             "Grenades",
             "Imperium",
             "Captain",
-            "Watch Captain Artemis"
+            "Watch Captain Artemis",
+            "Kill Team",
+            "Explosives"
           ],
           "Category": [
             "Epic Hero"
@@ -456,7 +458,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* **Deathwatch Veterans**\n\n* **Fortis Kill Team**"
+              "text": "This model can be attached to the following units:\n\n* Deathwatch Veterans\n\n* Decimus Kill Team\n\n* Fortis Kill Team"
             },
             "Ability§Combat Doctrines",
             "Ability§Transhuman Strategist",
@@ -470,7 +472,8 @@
               }
             },
             "Weapon§Watch Master—Vigil spear",
-            "Ability§Watch Master"
+            "Ability§Watch Master",
+            "Ability§Purgatus Quarry"
           ]
         },
         "keywords": {
@@ -487,7 +490,9 @@
             "Grenades",
             "Imperium",
             "Captain",
-            "Watch Master"
+            "Watch Master",
+            "Kill Team",
+            "Explosives"
           ],
           "Category": [
             "Character"
@@ -1081,12 +1086,7 @@
             {
               "item": "Model§Deathwatch Terminator",
               "quantity": 4
-            },
-            {
-              "item": "Ability§Attached Unit",
-              "text": " If a **Character** from your army with the Leader ability can be attached to a **Terminator Squad**, it can be attached to this unit instead."
-            },
-            "Ability§Kill Team"
+            }
           ]
         },
         "keywords": {
@@ -1189,16 +1189,11 @@
           "traits": [
             "Ability§Combat Doctrines",
             "Ability§Death To the Alien",
-            {
-              "item": "Ability§Attached Unit",
-              "text": "If a **Character** unit from your army with the Leader ability can be attached to a **Sternguard Veteran Squad**, it can be attached to this unit instead."
-            },
             "Model§Watch Sergeant",
             {
               "item": "Model§Deathwatch Veteran",
               "quantity": 4
-            },
-            "Ability§Kill Team"
+            }
           ]
         },
         "keywords": {
@@ -1215,7 +1210,8 @@
             "Kill Team",
             "Grenades",
             "Imperium",
-            "Deathwatch Veterans"
+            "Deathwatch Veterans",
+            "Explosives"
           ],
           "Category": [
             "Battleline"
@@ -1472,7 +1468,10 @@
             "Grenades",
             "Imperium",
             "Infantry",
-            "Kill Team"
+            "Kill Team",
+            "Explosives",
+            "Tacticus",
+            "Gravis"
           ],
           "Category": [
             "Battleline"
@@ -1605,11 +1604,6 @@
           "traits": [
             "Ability§Combat Doctrines",
             "Ability§Fortis Doctrines",
-            {
-              "item": "Ability§Attached Unit",
-              "text": "If a **Character** from your army with the Leader ability can be attached to an **Intercessor Squad**, it can be attached to this unit instead."
-            },
-            "Ability§Kill Team",
             "Model§Kill Team Sergeant"
           ]
         },
@@ -1627,7 +1621,8 @@
             "Grenades",
             "Imperium",
             "Tacticus",
-            "Fortis Kill Team"
+            "Fortis Kill Team",
+            "Explosives"
           ],
           "Category": [
             "Infantry"
@@ -2983,13 +2978,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Kill Team",
             "Ability§Combat Doctrines",
-            "Ability§Indomitor Doctrines",
-            {
-              "item": "Ability§Attached Unit",
-              "text": "If a **Character** unit from your army can be attached to a **Heavy Intercessor Squad**, it can be attached to this unit instead."
-            }
+            "Ability§Indomitor Doctrines"
           ]
         },
         "keywords": {
@@ -3006,7 +2996,8 @@
             "Grenades",
             "Imperium",
             "Gravis",
-            "Indomitor Kill Team"
+            "Indomitor Kill Team",
+            "Explosives"
           ],
           "Category": [
             "Infantry"
@@ -4089,21 +4080,17 @@
         "assets": {
           "traits": [
             "Ability§Infiltrators",
+            "Ability§Combat Doctrines",
+            "Ability§Spectrus Doctrines",
             {
               "item": "Ability§Scouts",
               "stats": {
                 "x": {
-                  "value": "6″"
+                  "value": "6\""
                 }
               }
             },
-            "Ability§Kill Team",
-            "Ability§Combat Doctrines",
-            "Ability§Spectrus Doctrines",
-            {
-              "item": "Ability§Attached Unit",
-              "text": "If a **Character** from your army with the Leader ability can be attached to an **Infiltrator Squad**, it can be attached to this unit instead.\n\nIf this unit has a Leader unit attached to it during the Declare Battle Formations step, that Leader unit gains the **Infiltrators** and **Scouts 6\"** abilities.\n"
-            }
+            "Ability§Helix Gauntlet"
           ]
         },
         "keywords": {
@@ -4121,7 +4108,8 @@
             "Kill Team",
             "Phobos",
             "Smoke",
-            "Spectrus Kill Team"
+            "Spectrus Kill Team",
+            "Explosives"
           ],
           "Category": [
             "Infantry"
@@ -5276,14 +5264,9 @@
         },
         "assets": {
           "traits": [
-            "Ability§Kill Team",
             "Ability§Combat Doctrines",
             "Ability§Deep Strike",
             "Ability§Talonstrike Doctrines",
-            {
-              "item": "Ability§Attached Unit",
-              "text": "If a **Character** unit from your army with the Leader ability can be attached to an **Assault Intercessors with Jump Packs** unit, it can be attached to this unit instead."
-            },
             "Model§Kill Team Sergeant with Jump Pack"
           ]
         },
@@ -5302,7 +5285,10 @@
             "Infantry",
             "Jump Pack",
             "Kill Team",
-            "Talonstrike Kill Team"
+            "Talonstrike Kill Team",
+            "Explosives",
+            "Gravis",
+            "Tacticus"
           ],
           "Category": [
             "Infantry"
@@ -5935,8 +5921,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Deathwatch Terminator Squad—Chainfist – standard",
-            "Melee Weapon§Deathwatch Terminator Squad—Chainfist – hunter"
+            "Melee Weapon§Deathwatch Terminator Squad—Chainfist – hunter",
+            "Melee Weapon§Deathwatch Terminator Squad—Chainfist – standard"
           ]
         },
         "keywords": {
@@ -6674,8 +6660,8 @@
             "value": -3
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "statType": "term",
@@ -7517,7 +7503,7 @@
                     "trait": "Melee Weapon§Deathwatch Terminator Squad—Power fist"
                   },
                   {
-                    "trait": "Ranged Weapon§Deathwatch Terminator Squad (Agents)—Plasma cannon"
+                    "trait": "Ranged Weapon§Deathwatch Terminator Squad—Plasma cannon"
                   }
                 ]
               },
@@ -7603,6 +7589,18 @@
           "W": {
             "value": 3
           }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
+          ]
         }
       },
       "Model§Deathwatch Terminator Sergeant": {
@@ -7692,6 +7690,18 @@
           "W": {
             "value": 3
           }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
+          ]
         }
       },
       "Model§Deathwatch Veteran": {
@@ -7806,7 +7816,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Deathwatch Veterans (Agents)—Infernus heavy bolter"
+                    "trait": "Ranged Weapon§Deathwatch Veterans—Infernus heavy bolter"
                   },
                   {
                     "trait": "Melee Weapon§Deathwatch Veterans—Close combat weapon"
@@ -8395,7 +8405,7 @@
         "removed": {
           "assets": {
             "traits": [
-              "Ranged Weapon§Deathwatch Armoury (Agents)—Bolt pistol",
+              "Ranged Weapon§Indomitor Kill Team—Bolt pistol",
               "Melee Weapon§Indomitor Kill Team—Close combat weapon"
             ]
           }
@@ -8561,8 +8571,8 @@
       "Model§Kill Team Heavy Intercessor with melta rifle": {
         "assets": {
           "traits": [
-            "Ranged Weapon§Deathwatch Armoury—Bolt pistol",
-            "Melee Weapon§Deathwatch Veterans—Close combat weapon"
+            "Ranged Weapon§Indomitor Kill Team—Bolt pistol",
+            "Melee Weapon§Indomitor Kill Team—Close combat weapon"
           ]
         },
         "stats": {
@@ -8999,7 +9009,7 @@
             "value": 3
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 2
@@ -9254,10 +9264,10 @@
             "value": 6
           },
           "M": {
-            "value": 12
+            "value": 6
           },
           "OC": {
-            "value": 1
+            "value": 2
           },
           "Primary": {
             "dynamic": true,
@@ -9386,7 +9396,7 @@
             "value": 3
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 2
@@ -9422,7 +9432,7 @@
             "value": 3
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 2
@@ -9521,7 +9531,7 @@
             "value": 3
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 2
@@ -10229,7 +10239,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Deathwatch Veterans (Agents)—Infernus heavy bolter"
+                    "trait": "Ranged Weapon§Deathwatch Veterans—Infernus heavy bolter"
                   },
                   {
                     "trait": "Melee Weapon§Deathwatch Veterans—Close combat weapon"
@@ -11146,9 +11156,9 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Deathwatch Veterans—Combi-weapon – purgatus",
             "Ranged Weapon§Deathwatch Veterans—Combi-weapon – damnatus",
-            "Ranged Weapon§Deathwatch Veterans—Combi-weapon – infernus"
+            "Ranged Weapon§Deathwatch Veterans—Combi-weapon – infernus",
+            "Ranged Weapon§Deathwatch Veterans—Combi-weapon – purgatus"
           ]
         },
         "keywords": {
@@ -11240,8 +11250,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Deathwatch Veterans—Infernus heavy bolter – infernus",
-            "Ranged Weapon§Deathwatch Veterans—Infernus heavy bolter – bolt"
+            "Ranged Weapon§Deathwatch Veterans—Infernus heavy bolter – bolt",
+            "Ranged Weapon§Deathwatch Veterans—Infernus heavy bolter – infernus"
           ]
         },
         "keywords": {
@@ -11699,8 +11709,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Decimus Kill Team—Infernus heavy bolter – infernus",
-            "Ranged Weapon§Decimus Kill Team—Infernus heavy bolter – bolt"
+            "Ranged Weapon§Decimus Kill Team—Infernus heavy bolter – bolt",
+            "Ranged Weapon§Decimus Kill Team—Infernus heavy bolter – infernus"
           ]
         },
         "keywords": {
@@ -12779,8 +12789,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Indomitor Kill Team—Flamestorm gauntlets – close quarters",
-            "Ranged Weapon§Indomitor Kill Team—Flamestorm gauntlets – ranged"
+            "Ranged Weapon§Indomitor Kill Team—Flamestorm gauntlets",
+            "Ranged Weapon§Indomitor Kill Team—Flamestorm gauntlets – close quarters"
           ]
         },
         "keywords": {
@@ -12911,8 +12921,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Indomitor Kill Team—Melta rifle – hunter",
-            "Ranged Weapon§Indomitor Kill Team—Melta rifle"
+            "Ranged Weapon§Indomitor Kill Team—Melta rifle",
+            "Ranged Weapon§Indomitor Kill Team—Melta rifle – hunter"
           ]
         },
         "removed": {
@@ -12934,8 +12944,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Indomitor Kill Team—Multi-melta – hunter",
-            "Ranged Weapon§Indomitor Kill Team—Multi-melta"
+            "Ranged Weapon§Indomitor Kill Team—Multi-melta",
+            "Ranged Weapon§Indomitor Kill Team—Multi-melta – hunter"
           ]
         },
         "removed": {
@@ -13093,7 +13103,7 @@
         },
         "stats": {
           "A": {
-            "value": 4
+            "value": 2
           },
           "AP": {
             "value": 0
@@ -13110,6 +13120,11 @@
           "S": {
             "value": 4
           }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
         }
       },
       "Ranged Weapon§Kill Team Cassius—Frag cannon": {
@@ -13132,8 +13147,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -1
@@ -13256,8 +13271,8 @@
             "value": 3
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 24
@@ -14397,7 +14412,8 @@
             "Fly",
             "Imperium",
             "Transport",
-            "Corvus Blackstar"
+            "Corvus Blackstar",
+            "Smoke"
           ],
           "Category": [
             "Vehicle"
@@ -16247,6 +16263,12 @@
       },
       "Ability§Veteran Recruits": {
         "text": "Your army cannot include the following **ADEPTUS ASTARTES** units:\n- **SCOUT SQUAD** units.\n- **TERMINATOR SQUAD** units.\n- **TERMINATOR ASSAULT SQUAD** units."
+      },
+      "Ability§Helix Gauntlet": {
+        "text": "In your Command phase, this unit heals D3 wounds."
+      },
+      "Ability§Purgatus Quarry": {
+        "text": "At the start of the first battle round, select up to one enemy unit to be this unit’s **hunted**:\n\n- This unit’s attacks that target this unit’s **hunted** unit can re-roll wound rolls of 1.\n\n- Each time this unit’s **hunted** is destroyed, select up to one enemy unit to be this unit’s **hunted**."
       }
     },
     "gameModes": {},
