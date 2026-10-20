@@ -1,6 +1,6 @@
 {
   "name": "Tyranids 11e",
-  "revision": "11.0.4",
+  "revision": "11.1.3",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -2800,7 +2800,7 @@
             "value": 3
           },
           "Points": {
-            "value": 115
+            "value": 120
           },
           "Sv": {
             "value": 4
@@ -2866,7 +2866,7 @@
             "value": 3
           },
           "Points": {
-            "value": 140
+            "value": 130
           },
           "Sv": {
             "value": 2
@@ -2924,7 +2924,7 @@
             "value": 1
           },
           "Points": {
-            "value": 70
+            "value": 65
           },
           "Sv": {
             "value": 4
@@ -3019,7 +3019,7 @@
             "value": 5
           },
           "Points": {
-            "value": 160
+            "value": 150
           },
           "Sv": {
             "value": 2
@@ -3075,7 +3075,7 @@
             "value": 3
           },
           "Points": {
-            "value": 130
+            "value": 120
           },
           "Sv": {
             "value": 3
@@ -3791,7 +3791,8 @@
       "Detachment§Invasion Fleet": {
         "keywords": {
           "Role": [
-            "Take And Hold"
+            "Take And Hold",
+            "Priority Assets"
           ]
         },
         "rules": {
@@ -3897,7 +3898,8 @@
       "Detachment§Subterranean Assault": {
         "keywords": {
           "Role": [
-            "Disruption"
+            "Disruption",
+            "Reconnaissance"
           ]
         },
         "rules": {
@@ -4770,7 +4772,7 @@
         },
         "stats": {
           "Points": {
-            "value": 20
+            "value": 30
           }
         },
         "text": "**Tyranids** model only. While the bearer is on the battlefield, each time your opponent sets up a Reserves unit on the battlefield, roll one D6: on a 2+, that unit must take a Battle-shock test."
@@ -5577,7 +5579,7 @@
         },
         "stats": {
           "Points": {
-            "value": 25
+            "value": 30
           }
         },
         "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Norn Assimilator** unit only. This unit has 4+ **InSv**."
@@ -11135,6 +11137,9 @@
           },
           "S": {
             "value": 6
+          },
+          "Points": {
+            "value": 10
           }
         }
       },
@@ -11205,6 +11210,9 @@
           },
           "S": {
             "value": 18
+          },
+          "Points": {
+            "value": 20
           }
         }
       },
@@ -12781,7 +12789,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 110
+            "value": 100
           },
           "model2ndTally": {
             "value": 10
@@ -12799,7 +12807,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 55
+            "value": 50
           }
         }
       },
@@ -13087,7 +13095,7 @@
             "value": 4
           },
           "Points": {
-            "value": 150
+            "value": 145
           },
           "Sv": {
             "value": 3
@@ -13157,7 +13165,7 @@
             "value": 10
           },
           "model2ndCost": {
-            "value": 155
+            "value": 150
           },
           "model2ndTally": {
             "value": 20
@@ -13175,7 +13183,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 80
+            "value": 75
           }
         }
       },
@@ -14033,7 +14041,7 @@
             "value": 4
           },
           "Points": {
-            "value": 135
+            "value": 130
           },
           "Sv": {
             "value": 3
@@ -15048,13 +15056,13 @@
             "value": 1
           },
           "model2ndCost": {
-            "value": 75
+            "value": 80
           },
           "model2ndTally": {
             "value": 2
           },
           "model3rdCost": {
-            "value": 105
+            "value": 110
           },
           "model3rdTally": {
             "value": 3
@@ -15072,7 +15080,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 55
+            "value": 50
           },
           "Pyrovore": {
             "max": 3,
@@ -15832,7 +15840,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 60
+            "value": 55
           },
           "Termagant": {
             "max": 20,
@@ -15899,7 +15907,7 @@
             "value": 4
           },
           "Points": {
-            "value": 135
+            "value": 120
           },
           "Sv": {
             "value": 3
@@ -15961,7 +15969,7 @@
             "value": 4
           },
           "Points": {
-            "value": 140
+            "value": 135
           },
           "Sv": {
             "value": 3
@@ -16704,6 +16712,12 @@
           },
           "W": {
             "value": 10
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 4
           }
         }
       },
@@ -16796,7 +16810,7 @@
             "value": 5
           },
           "Points": {
-            "value": 190
+            "value": 180
           },
           "Sv": {
             "value": 2
@@ -16855,7 +16869,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 160
+            "value": 170
           },
           "model2ndTally": {
             "value": 6
@@ -17004,7 +17018,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 120
+            "value": 105
           },
           "model2ndTally": {
             "value": 6
@@ -17022,7 +17036,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 60
+            "value": 55
           },
           "Von Ryan’s Leaper": {
             "max": 6,
@@ -17086,7 +17100,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 200
+            "value": 190
           },
           "model2ndTally": {
             "value": 6
@@ -17104,7 +17118,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 100
+            "value": 90
           },
           "Zoanthrope": {
             "max": 5,

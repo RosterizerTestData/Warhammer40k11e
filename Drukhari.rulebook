@@ -1,6 +1,6 @@
 {
   "name": "Drukhari 11e",
-  "revision": "11.1.1",
+  "revision": "11.1.3",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -1234,7 +1234,7 @@
             "Covenite Coterie"
           ],
           "Role": [
-            "Purge The Foe"
+            "Take And Hold"
           ]
         },
         "rules": {
@@ -1340,7 +1340,7 @@
       "Detachment§Exhibition Of Slaughter": {
         "keywords": {
           "Role": [
-            "Disruption"
+            "Reconnaissance"
           ]
         },
         "stats": {
@@ -1353,7 +1353,7 @@
       "Detachment§Kabalite Agonysts": {
         "keywords": {
           "Role": [
-            "Purge The Foe"
+            "Disruption"
           ]
         },
         "stats": {
@@ -1585,6 +1585,10 @@
         "keywords": {
           "Keywords": [
             "Reaper's Wager"
+          ],
+          "Role": [
+            "Priority Assets",
+            "Purge The Foe"
           ]
         },
         "rules": {
@@ -1680,11 +1684,17 @@
             "failState": "pass"
           }
         },
-        "text": "CALLOUS COMPETITION\n\nAt the start of the battle, **Drukhari** units\nfrom your army are winning the wager.\n\nEach time a **Drukhari** unit from your\narmy destroys an enemy unit, **Drukhari**\nunits from your army are winning\nthe wager.\n\nEach time a **Harlequins** unit from your\narmy destroys an enemy unit, **Harlequin**\nunits from your army are winning\nthe wager.\n\nWhile **Drukhari** units from your army\nare winning the wager, **Harlequin** units\nfrom your army are losing the wager, and\nvice versa.\n\nEach time a **Drukhari** or **Harlequins**\nmodel from your army makes an attack,\nif that model’s unit is winning the wager, re‑roll a Hit roll of 1. If that model’s unit is losing the wager, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1 instead.\n\n**HARLEQUINS**\n\nYou can include **Harlequins** units in your\narmy (see *Index: Aeldari*). The combined\npoints cost of such units depends on your\nbattle size:\n\n■ Incursion: Up to 500 pts\n\n■ Strike Force: Up to 1000 pts\n\n■ Onslaught: Up to 1500 pts\n\nNo **Harlequins** models from your army\ncan be your Warlord."
+        "text": "CALLOUS COMPETITION\n\nAt the start of the battle, **Drukhari** units\nfrom your army are winning the wager.\n\nEach time a **Drukhari** unit from your\narmy destroys an enemy unit, **Drukhari**\nunits from your army are winning\nthe wager.\n\nEach time a **Harlequins** unit from your\narmy destroys an enemy unit, **Harlequin**\nunits from your army are winning\nthe wager.\n\nWhile **Drukhari** units from your army\nare winning the wager, **Harlequin** units\nfrom your army are losing the wager, and\nvice versa.\n\nEach time a **Drukhari** or **Harlequins**\nmodel from your army makes an attack,\nif that model’s unit is winning the wager, re‑roll a Hit roll of 1. If that model’s unit is losing the wager, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1 instead.\n\n**HARLEQUINS**\n\nYou can include **Harlequins** units in your\narmy (see *Index: Aeldari*). The combined\npoints cost of such units depends on your\nbattle size:\n\n■ Incursion: Up to 500 pts\n\n■ Strike Force: Up to 1000 pts\n\n■ Onslaught: Up to 1500 pts\n\nNo **Harlequins** models from your army\ncan be your Warlord.",
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        }
       },
       "Detachment§Reaper’s Wager": {
         "keywords": {
           "Role": [
+            "Priority Assets",
             "Purge The Foe"
           ]
         },
@@ -8641,6 +8651,9 @@
           },
           "S": {
             "value": 12
+          },
+          "Points": {
+            "value": 5
           }
         }
       },
@@ -12434,6 +12447,12 @@
           },
           "W": {
             "value": 10
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 4
           }
         }
       },
@@ -12578,10 +12597,10 @@
             "value": 9
           },
           "unitDiscount": {
-            "value": 10
+            "value": 0
           },
           "unitDiscountThreshold": {
-            "value": 3
+            "value": 0
           },
           "W": {
             "value": 11
@@ -13291,7 +13310,7 @@
             "value": 1
           },
           "model2ndCost": {
-            "value": 160
+            "value": 150
           },
           "model2ndTally": {
             "value": 2
@@ -13309,7 +13328,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 85
+            "value": 80
           },
           "Talos": {
             "max": 2,
@@ -13528,7 +13547,7 @@
             "value": 1
           },
           "Points": {
-            "value": 70
+            "value": 75
           },
           "Sv": {
             "value": 4
@@ -13538,6 +13557,12 @@
           },
           "W": {
             "value": 6
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 4
           }
         }
       },
@@ -13825,13 +13850,13 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 100
+            "value": 90
           },
           "model2ndTally": {
             "value": 8
           },
           "model3rdCost": {
-            "value": 120
+            "value": 110
           },
           "model3rdTally": {
             "value": 10
@@ -13849,7 +13874,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 60
+            "value": 55
           },
           "Wrack": {
             "max": 9,

@@ -1,6 +1,6 @@
 {
   "name": "Adeptus Mechanicus 11e",
-  "revision": "11.1.2",
+  "revision": "11.1.3",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -1273,7 +1273,7 @@
             "value": 1
           },
           "Points": {
-            "value": 25
+            "value": 20
           },
           "Sv": {
             "value": 2
@@ -1453,7 +1453,7 @@
             "value": 1
           },
           "Points": {
-            "value": 50
+            "value": 45
           },
           "Sv": {
             "value": 4
@@ -1569,7 +1569,7 @@
             "value": 1
           },
           "Points": {
-            "value": 65
+            "value": 60
           },
           "Sv": {
             "value": 2
@@ -2131,7 +2131,7 @@
         },
         "stats": {
           "Detachment Points": {
-            "value": 2
+            "value": 1
           }
         },
         "text": "## Cyber-Psalm Programming\n\nAdd 2\" to the Move characteristic of models in LEGIO CYBERNETICA units from your army. In addition, unless that unit is Battle-shocked, add 1 to the Objective Control characteristic of models in that unit."
@@ -2343,7 +2343,7 @@
         },
         "stats": {
           "Detachment Points": {
-            "value": 3
+            "value": 2
           }
         },
         "text": "## MURDEROUS IMPERATIVE\n\nEach time a model in a Skitarii unit from\nyour army makes an attack:\n\n■ If the Protector Imperative is active for\nthat unit, re‑roll a Hit roll of 1.\n\n■ If the Conqueror Imperative is active\nfor that unit, re‑roll a Wound roll of 1."
@@ -2457,6 +2457,7 @@
       "Detachment§Haloscreed Battle Clade": {
         "keywords": {
           "Role": [
+            "Priority Assets",
             "Purge The Foe"
           ]
         },
@@ -2568,7 +2569,7 @@
         },
         "stats": {
           "Detachment Points": {
-            "value": 1
+            "value": 2
           }
         },
         "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**War-form Mantles**\nFriendly **Tech-Priest** models have: \n\n- 4+ **InSv**.\n\n- **Feel No Pain 5+**.\nFriendly **TECH-PRIEST** models have the following ability:\n\nBaffling Data Screed: In your Shooting phase, when this unit is **selected to shoot**, if this unit is not **battle-shocked**, you can use this ability. If you do, roll one D6:\n\n- On a 2+, select one enemy **VEHICLE** unit within 12\" of this unit. That enemy unit makes a **battle-shock roll**, with -1 to that **battle-shock roll**. A unit cannot be selected for this ability more than once per turn.\n\n- __Or:__ On 2+, those ranged attacks do not prevent this unit from being **hidden**."
@@ -8598,6 +8599,9 @@
           },
           "S": {
             "value": 12
+          },
+          "Points": {
+            "value": 10
           }
         }
       },
@@ -10907,6 +10911,9 @@
           },
           "S": {
             "value": 12
+          },
+          "Points": {
+            "value": 10
           }
         }
       },
@@ -12912,7 +12919,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 130
+            "value": 120
           },
           "model2ndTally": {
             "value": 10
@@ -12930,7 +12937,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 65
+            "value": 60
           }
         }
       },
@@ -13001,7 +13008,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 140
+            "value": 130
           },
           "model2ndTally": {
             "value": 10
@@ -13019,7 +13026,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 70
+            "value": 65
           }
         }
       },
@@ -13095,7 +13102,7 @@
             "value": 5
           },
           "Points": {
-            "value": 130
+            "value": 115
           },
           "unitDiscount": {
             "value": 15
@@ -13177,7 +13184,7 @@
             "value": 5
           },
           "Points": {
-            "value": 130
+            "value": 120
           },
           "unitDiscount": {
             "value": 15
@@ -13258,7 +13265,7 @@
             "value": 2
           },
           "model3rdCost": {
-            "value": 255
+            "value": 265
           },
           "model3rdTally": {
             "value": 3
@@ -13351,7 +13358,7 @@
             "value": 2
           },
           "model2ndCost": {
-            "value": 340
+            "value": 330
           },
           "model2ndTally": {
             "value": 4
@@ -13372,10 +13379,10 @@
             "value": 180
           },
           "unitDiscount": {
-            "value": 20
+            "value": 30
           },
           "unitDiscountThreshold": {
-            "value": 2
+            "value": 3
           }
         }
       },
@@ -13438,7 +13445,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 320
+            "value": 290
           },
           "model2ndTally": {
             "value": 6
@@ -13456,7 +13463,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 150
+            "value": 140
           }
         }
       },
@@ -13519,7 +13526,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 210
+            "value": 200
           },
           "model2ndTally": {
             "value": 6
@@ -13718,7 +13725,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 155
+            "value": 150
           },
           "Sv": {
             "value": 2
@@ -13848,7 +13855,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 90
+            "value": 85
           },
           "Pteraxii Skystalker": {
             "max": 9,
@@ -13916,7 +13923,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 170
+            "value": 160
           },
           "model2ndTally": {
             "value": 10
@@ -13934,7 +13941,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 90
+            "value": 85
           },
           "Pteraxii Sterylizor": {
             "max": 9,
@@ -14344,7 +14351,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 120
+            "value": 105
           },
           "model2ndTally": {
             "value": 6
@@ -14553,7 +14560,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 110
+            "value": 95
           },
           "model2ndTally": {
             "value": 6
@@ -14703,7 +14710,13 @@
       "Unit§Servitor Battleclade": {
         "stats": {
           "Points": {
-            "value": 65
+            "value": 85
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         },
         "text": "WARNING: this unit was not in 10e and needs importing.\n\n**Network Override**\nWhile this unit contains one or more **TECH-PRIEST** models, this unit is:\n\n■ Eligible to perform an Action in a turn in which it Advanced.\n■ Eligible to shoot in a turn in which it started an Action.\n\n**ATTACHED UNIT**\nIf a **CHARACTER** unit from your army with the Leader ability can be attached to a **KATAPHRON BREACHERS** unit, it can be attached to this unit instead."
@@ -15375,7 +15388,7 @@
             "value": 10
           },
           "Points": {
-            "value": 90
+            "value": 85
           },
           "Skitarii Vanguard": {
             "max": 9,
@@ -15568,6 +15581,12 @@
           },
           "W": {
             "value": 11
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 4
           }
         }
       },
@@ -15628,13 +15647,13 @@
             "value": 1
           },
           "model2ndCost": {
-            "value": 100
+            "value": 95
           },
           "model2ndTally": {
             "value": 2
           },
           "model3rdCost": {
-            "value": 150
+            "value": 140
           },
           "model3rdTally": {
             "value": 3

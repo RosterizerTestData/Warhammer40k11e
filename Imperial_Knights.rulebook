@@ -1,6 +1,6 @@
 {
   "name": "Imperial Knights 11e",
-  "revision": "11.0.4",
+  "revision": "11.1.3",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -139,7 +139,7 @@
       "Detachment§Dominus Foebreakers": {
         "keywords": {
           "Role": [
-            "Purge The Foe"
+            "Priority Assets"
           ]
         },
         "stats": {
@@ -152,6 +152,7 @@
       "Detachment§Freeblade Company": {
         "keywords": {
           "Role": [
+            "Priority Assets",
             "Purge The Foe"
           ]
         },
@@ -261,7 +262,7 @@
             "Gate Warden Lance"
           ],
           "Role": [
-            "Priority Assets"
+            "Take And Hold"
           ]
         },
         "rules": {
@@ -479,7 +480,8 @@
             "Questoris Companions"
           ],
           "Role": [
-            "Take And Hold"
+            "Take And Hold",
+            "Reconnaissance"
           ]
         },
         "rules": {
@@ -3030,6 +3032,51 @@
           }
         },
         "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One Imperial Knights unit from your army that has not been selected to shoot this phase.\n\n**EFFECT**: Until the end of the phase, ranged weapons equipped by your models have the [LETHAL HITS] ability."
+      },
+      "Character§Cerastus Knight Atrapos": {
+        "stats": {
+          "Points": {
+            "value": 440
+          }
+        }
+      },
+      "Character§Knight Castellan": {
+        "stats": {
+          "Points": {
+            "value": 450
+          },
+          "unitDiscount": {
+            "value": 25
+          }
+        }
+      },
+      "Ranged Weapon§Knight Crusader—Rapid-fire battle cannon": {
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        }
+      },
+      "Character§Knight Defender": {
+        "stats": {
+          "Points": {
+            "value": 405
+          }
+        }
+      },
+      "Character§Knight Valiant": {
+        "stats": {
+          "Points": {
+            "value": 405
+          }
+        }
+      },
+      "Character§Knight Warden": {
+        "stats": {
+          "Points": {
+            "value": 380
+          }
+        }
       }
     },
     "gameModes": {},

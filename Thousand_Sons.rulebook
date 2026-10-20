@@ -1,6 +1,6 @@
 {
   "name": "Thousand Sons 11e",
-  "revision": "11.1.2",
+  "revision": "11.1.3",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -790,7 +790,7 @@
             "value": 2
           },
           "Points": {
-            "value": 100
+            "value": 105
           },
           "Sv": {
             "value": 3
@@ -942,7 +942,7 @@
             "value": 1
           },
           "Points": {
-            "value": 90
+            "value": 100
           },
           "Prosperine khopesh": {
             "dynamic": true,
@@ -1033,7 +1033,7 @@
             "value": 2
           },
           "Points": {
-            "value": 90
+            "value": 95
           },
           "Prosperine khopesh": {
             "dynamic": true,
@@ -1122,7 +1122,7 @@
             "value": 1
           },
           "Points": {
-            "value": 95
+            "value": 105
           },
           "Sv": {
             "value": 3
@@ -1170,7 +1170,7 @@
         },
         "stats": {
           "Points": {
-            "value": 295
+            "value": 305
           }
         }
       },
@@ -1211,10 +1211,10 @@
         },
         "stats": {
           "Points": {
-            "value": 315
+            "value": 340
           },
           "unitDiscount": {
-            "value": 15
+            "value": 20
           },
           "unitDiscountThreshold": {
             "value": 3
@@ -1519,7 +1519,7 @@
             "value": 1
           },
           "Points": {
-            "value": 80
+            "value": 110
           },
           "Prosperine khopesh": {
             "dynamic": true,
@@ -1551,6 +1551,12 @@
           },
           "W": {
             "value": 4
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -1612,7 +1618,7 @@
             "value": 1
           },
           "Points": {
-            "value": 85
+            "value": 120
           },
           "Sv": {
             "value": 2
@@ -1648,6 +1654,12 @@
             "statType": "rank",
             "value": "Inferno combi-bolter",
             "visibility": "active"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -1706,7 +1718,7 @@
             "value": 2
           },
           "Points": {
-            "value": 60
+            "value": 65
           },
           "Sv": {
             "value": 5
@@ -1834,6 +1846,7 @@
             "Grand Coven"
           ],
           "Role": [
+            "Disruption",
             "Priority Assets"
           ]
         },
@@ -1940,7 +1953,8 @@
       "Detachment§Hexwarp Thrallband": {
         "keywords": {
           "Role": [
-            "Take And Hold"
+            "Take And Hold",
+            "Reconnaissance"
           ]
         },
         "rules": {
@@ -2038,7 +2052,7 @@
         },
         "stats": {
           "Detachment Points": {
-            "value": 2
+            "value": 3
           }
         },
         "text": "**FLOW OF MAGIC**\n\nCertain areas of the battlefield are within\nyour army’s Flow of Magic, as follows:\n\n■ Your deployment zone is always within your army’s Flow of Magic.\n\n■ At the start of any phase, if you control at least half of the objective markers within No Man’s Land, until the end of that phase, No Man’s Land is within your army’s Flow of Magic.\n\n■ At the start of any phase, if you control at least half of the objective markers within your opponent’s deployment zone, until the end of that phase, your opponent’s deployment zone is within your army’s Flow of Magic.\n\nEach time a Thousand Sons model from your army makes a Psychic Attack, re‑roll a Wound roll of 1. If such a model is wholly within your army’s Flow of Magic, each time it makes a Psychic Attack, add 1 to the Wound roll instead."
@@ -2046,7 +2060,7 @@
       "Detachment§Ritual Of Regeneration": {
         "keywords": {
           "Role": [
-            "Purge The Foe"
+            "Take And Hold"
           ]
         },
         "stats": {
@@ -2062,7 +2076,8 @@
             "Rubricae Phalanx"
           ],
           "Role": [
-            "Take And Hold"
+            "Take And Hold",
+            "Priority Assets"
           ]
         },
         "rules": {
@@ -2168,7 +2183,7 @@
       "Detachment§Sekhetar Cohort": {
         "keywords": {
           "Role": [
-            "Priority Assets"
+            "Disruption"
           ]
         },
         "stats": {
@@ -2197,7 +2212,7 @@
             "Warpforged Cabal"
           ],
           "Role": [
-            "Disruption"
+            "Priority Assets"
           ]
         },
         "rules": {
@@ -3220,7 +3235,7 @@
         },
         "stats": {
           "Points": {
-            "value": 20
+            "value": 30
           }
         },
         "text": "THOUSAND SONS model only. Once per battle, in your Command phase, if the bearer's unit is not within Engagement Range of one or more enemy units, you can remove that unit from the battlefield and place it into Strategic Reserves. In the Reinforcements step of your next Movement phase, set that unit back up anywhere on the battlefield that is more than 9\" horizontally away from all enemy units."
@@ -8245,7 +8260,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 200
+            "value": 220
           },
           "model2ndTally": {
             "value": 10
@@ -8263,7 +8278,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 110
+            "value": 125
           },
           "Rubric Marine": {
             "max": 9,
@@ -8421,7 +8436,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 385
+            "value": 465
           },
           "model2ndTally": {
             "value": 10
@@ -8439,7 +8454,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 195
+            "value": 240
           },
           "Scarab Occult Terminator": {
             "max": 9,
@@ -8450,7 +8465,7 @@
             "visibility": "hidden"
           },
           "unitDiscount": {
-            "value": 15
+            "value": 40
           },
           "unitDiscountThreshold": {
             "value": 3
@@ -8543,7 +8558,7 @@
             "value": 2
           },
           "model2ndCost": {
-            "value": 160
+            "value": 190
           },
           "model2ndTally": {
             "value": 4
@@ -8561,7 +8576,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 80
+            "value": 100
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -8855,7 +8876,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 45
+            "value": 50
           }
         }
       },
@@ -9241,6 +9262,12 @@
           },
           "Points": {
             "value": 90
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 4
           }
         },
         "keywords": {
@@ -9454,7 +9481,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 220
+            "value": 240
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         },
         "keywords": {
@@ -9677,7 +9710,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 130
+            "value": 150
           },
           "Sponsons": {
             "dynamic": true,
@@ -9713,6 +9746,12 @@
             "statType": "rank",
             "value": "-",
             "visibility": "active"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         },
         "keywords": {
@@ -9924,7 +9963,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 130
+            "value": 150
           },
           "Sponsons": {
             "dynamic": true,
@@ -9960,6 +9999,12 @@
             "statType": "rank",
             "value": "-",
             "visibility": "active"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         },
         "keywords": {
@@ -10130,6 +10175,15 @@
             "statType": "rank",
             "value": "-",
             "visibility": "normal"
+          },
+          "Points": {
+            "value": 195
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         },
         "keywords": {
@@ -10163,6 +10217,9 @@
         "stats": {
           "AP": {
             "value": -2
+          },
+          "Points": {
+            "value": 15
           }
         }
       },
@@ -10239,7 +10296,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 320
+            "value": 350
+          },
+          "unitDiscount": {
+            "value": 50
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           }
         },
         "keywords": {
@@ -10789,6 +10852,15 @@
             "statType": "rank",
             "value": "Lasher tendrils",
             "visibility": "active"
+          },
+          "Points": {
+            "value": 130
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         },
         "keywords": {
@@ -10917,6 +10989,12 @@
           },
           "Points": {
             "value": 145
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         },
         "keywords": {
@@ -10991,6 +11069,20 @@
             "traits": [
               "Ability§Mind-breaking Mutations (Aura)"
             ]
+          }
+        }
+      },
+      "Ranged Weapon§Defiler—Hades lascannon": {
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        }
+      },
+      "Ranged Weapon§Forgefiend—Ectoplasma cannon": {
+        "stats": {
+          "Points": {
+            "value": 5
           }
         }
       }

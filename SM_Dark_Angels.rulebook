@@ -1,6 +1,6 @@
 {
   "name": "Dark Angels 11e",
-  "revision": "11.0.4",
+  "revision": "11.1.3",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -750,7 +750,7 @@
             "value": 1
           },
           "Points": {
-            "value": 70
+            "value": 80
           },
           "Sv": {
             "value": 3
@@ -823,7 +823,7 @@
             "value": 1
           },
           "Points": {
-            "value": 140
+            "value": 150
           },
           "Sv": {
             "value": 2
@@ -932,7 +932,7 @@
             "value": 1
           },
           "Points": {
-            "value": 75
+            "value": 100
           },
           "Sv": {
             "value": 2
@@ -1368,7 +1368,7 @@
             "value": 1
           },
           "Points": {
-            "value": 75
+            "value": 110
           },
           "Sv": {
             "value": 2
@@ -1440,7 +1440,7 @@
             "value": 1
           },
           "Points": {
-            "value": 70
+            "value": 80
           },
           "Sv": {
             "value": 3
@@ -1509,7 +1509,7 @@
             "value": 4
           },
           "Points": {
-            "value": 285
+            "value": 415
           },
           "Sv": {
             "value": 2
@@ -1573,10 +1573,10 @@
             "value": 3
           },
           "Points": {
-            "value": 125
+            "value": 135
           },
           "unitDiscount": {
-            "value": 10
+            "value": 20
           },
           "unitDiscountThreshold": {
             "value": 3
@@ -1716,7 +1716,7 @@
             "value": 2
           },
           "Points": {
-            "value": 105
+            "value": 120
           },
           "Sv": {
             "value": 3
@@ -1965,7 +1965,7 @@
         },
         "stats": {
           "Detachment Points": {
-            "value": 2
+            "value": 1
           }
         },
         "text": "## VOWED TARGET\n\nAt the start of your Movement phase, select one of the following:\n\n■ Defensive Footing: Select one objective marker you control. Until the start of your next Movement phase, that objective marker is your Vowed objective marker.\n\n■ Aggressive Push: Select one or more objective markers you do not control. Until the start of your next Movement phase, each of those objective markers is one of your Vowed objective markers. If a rule refers to a unit or model being within range of your Vowed objective marker, that rule takes effect if that unit or model is within range of one or more of your Vowed objective markers. \n\nEach time a Deathwing Infantry unit from your army makes an attack that targets a unit within range of one or more of your Vowed objective markers, add 1 to the Wound roll."
@@ -2198,7 +2198,7 @@
       "Detachment§Wrath of the Rock": {
         "keywords": {
           "Role": [
-            "Priority Assets"
+            "Take And Hold"
           ]
         },
         "rules": {
@@ -2296,7 +2296,7 @@
         },
         "stats": {
           "Detachment Points": {
-            "value": 3
+            "value": 2
           }
         },
         "text": "## DUTIFUL TENACITY\n\nEach time an attack targets an Adeptus Astartes Infantry or Adeptus Astartes Mounted unit from your army, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll."
@@ -2403,7 +2403,7 @@
         },
         "stats": {
           "Points": {
-            "value": 25
+            "value": 20
           }
         },
         "text": "Adeptus Astartes model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 2, and improve the Armour Penetration and Damage characteristics of those weapons by 1."
@@ -2528,7 +2528,7 @@
         },
         "stats": {
           "Points": {
-            "value": 15
+            "value": 20
           }
         },
         "text": "Deathwing model only. Melee weapons equipped by the bearer have the [LETHAL HITS] ability, and each time the bearer makes a melee attack, if it is within range of your Vowed objective marker, a Critical Hit is scored on an unmodified Hit roll of 5+."
@@ -2761,7 +2761,7 @@
         },
         "stats": {
           "Points": {
-            "value": 10
+            "value": 15
           }
         },
         "text": "Ravenwing model only. You can re-roll Advance and Charge rolls made for the bearer’s unit."
@@ -2918,7 +2918,7 @@
         },
         "stats": {
           "Points": {
-            "value": 15
+            "value": 10
           }
         },
         "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Land Speeder Vengeance** unit only. This unit can re‑roll:\n\n- Rolls to determine the **A** of a weapon.\n\n- **Hazard rolls**."
@@ -3528,13 +3528,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 260
+            "value": 275
           },
           "unitDiscount": {
             "value": 20
           },
           "unitDiscountThreshold": {
-            "value": 2
+            "value": 3
           },
           "Watcher in the Dark": {
             "dynamic": true,
@@ -3656,7 +3656,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 330
+            "value": 420
           },
           "model2ndTally": {
             "value": 10
@@ -3674,7 +3674,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 165
+            "value": 230
           },
           "Watcher in the Dark": {
             "dynamic": true,
@@ -3695,6 +3695,12 @@
             "statType": "rank",
             "value": "-",
             "visibility": "normal"
+          },
+          "unitDiscount": {
+            "value": 40
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -3761,7 +3767,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 180
+            "value": 195
           },
           "model2ndTally": {
             "value": 6
@@ -3779,10 +3785,10 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 90
+            "value": 105
           },
           "unitDiscount": {
-            "value": 10
+            "value": 15
           },
           "unitDiscountThreshold": {
             "value": 3
@@ -3854,7 +3860,7 @@
         },
         "stats": {
           "Points": {
-            "value": 70
+            "value": 85
           }
         }
       },
@@ -4053,7 +4059,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 160
+            "value": 180
           },
           "model2ndTally": {
             "value": 6
@@ -4071,7 +4077,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 85
+            "value": 95
           },
           "Ravenwing Black Knight": {
             "max": 5,
@@ -6873,6 +6879,11 @@
           "Tags": [
             "Multi-weapon"
           ]
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
         }
       },
       "Ranged Weapon§Deathwing Terminator Squad—Cyclone missile launcher – frag": {
@@ -8936,7 +8947,7 @@
             "value": 3
           },
           "Points": {
-            "value": 130
+            "value": 160
           },
           "Ranged Options": {
             "dynamic": true,
@@ -9047,7 +9058,7 @@
             "value": 0
           },
           "Points": {
-            "value": 195
+            "value": 200
           },
           "Ranged Options": {
             "dynamic": true,
@@ -9155,7 +9166,7 @@
             "value": 0
           },
           "Points": {
-            "value": 200
+            "value": 190
           },
           "Sv": {
             "value": 3

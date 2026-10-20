@@ -1,6 +1,6 @@
 {
   "name": "Necrons 11e",
-  "revision": "11.0.4",
+  "revision": "11.1.3",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -3319,7 +3319,7 @@
             "value": 1
           },
           "Points": {
-            "value": 90
+            "value": 80
           },
           "Sv": {
             "value": 4
@@ -3711,7 +3711,7 @@
             "value": 2
           },
           "Points": {
-            "value": 70
+            "value": 80
           },
           "Sv": {
             "value": 3
@@ -3905,7 +3905,7 @@
             "value": 3
           },
           "Points": {
-            "value": 175
+            "value": 195
           },
           "Sv": {
             "value": 3
@@ -4431,7 +4431,7 @@
             "value": 1
           },
           "Points": {
-            "value": 55
+            "value": 60
           },
           "Sv": {
             "value": 4
@@ -4534,7 +4534,7 @@
             "value": 1
           },
           "Points": {
-            "value": 55
+            "value": 65
           },
           "Sv": {
             "value": 4
@@ -4652,7 +4652,7 @@
             "value": 2
           },
           "Points": {
-            "value": 90
+            "value": 105
           },
           "Sv": {
             "value": 3
@@ -4662,6 +4662,12 @@
           },
           "W": {
             "value": 7
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -4826,7 +4832,7 @@
             "value": 3
           },
           "Points": {
-            "value": 400
+            "value": 420
           },
           "Triarchal Menhir": {
             "max": 2,
@@ -5049,7 +5055,7 @@
             "value": 1
           },
           "Points": {
-            "value": 65
+            "value": 60
           },
           "Sv": {
             "value": 2
@@ -5388,7 +5394,8 @@
       "Detachment§Awakened Dynasty": {
         "keywords": {
           "Role": [
-            "Take And Hold"
+            "Take And Hold",
+            "Priority Assets"
           ]
         },
         "rules": {
@@ -5592,7 +5599,7 @@
         },
         "stats": {
           "Detachment Points": {
-            "value": 3
+            "value": 2
           }
         },
         "text": "Certain areas of the battlefield are considered to be within your army’s Power Matrix, as follows:\n\n* Your deployment zone is always within your army’s Power Matrix.\n\n* At the start of any phase, if you control at least half of the objective markers within No Man’s Land, until the end of that phase, No Man’s Land is within your army’s Power Matrix.\n\n* At the start of any phase, if you control at least half of the objective markers within your opponent’s deployment zone, until the end of that phase, your opponent’s deployment zone is within your army’s Power Matrix.\n\nEach time a model in a Cryptek or Canoptek unit from your army makes an attack, re-roll a Hit roll of 1. If such a unit is wholly within your army’s Power Matrix, you can re-roll the Hit roll instead."
@@ -6037,7 +6044,7 @@
       "Detachment§Pantheon of Woe": {
         "keywords": {
           "Role": [
-            "Purge The Foe"
+            "Disruption"
           ]
         },
         "rules": {
@@ -6156,7 +6163,8 @@
       "Detachment§Starshatter Arsenal": {
         "keywords": {
           "Role": [
-            "Priority Assets"
+            "Priority Assets",
+            "Purge The Foe"
           ]
         },
         "rules": {
@@ -15584,7 +15592,7 @@
             "value": 3
           },
           "Points": {
-            "value": 95
+            "value": 100
           },
           "Ranged": {
             "dynamic": true,
@@ -15757,7 +15765,7 @@
             "value": 4
           },
           "Points": {
-            "value": 140
+            "value": 130
           },
           "Sv": {
             "value": 3
@@ -15904,7 +15912,7 @@
             "value": 3
           },
           "Points": {
-            "value": 70
+            "value": 75
           },
           "Sv": {
             "value": 3
@@ -16140,7 +16148,7 @@
             "value": 2
           },
           "Points": {
-            "value": 50
+            "value": 60
           }
         }
       },
@@ -16697,7 +16705,7 @@
             "value": 5
           },
           "Points": {
-            "value": 220
+            "value": 230
           },
           "Sv": {
             "value": 3
@@ -16706,7 +16714,7 @@
             "value": 9
           },
           "unitDiscount": {
-            "value": 20
+            "value": 30
           },
           "unitDiscountThreshold": {
             "value": 3
@@ -17051,7 +17059,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 140
+            "value": 130
           },
           "model2ndTally": {
             "value": 10
@@ -17069,7 +17077,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 70
+            "value": 65
           },
           "Ranged": {
             "dynamic": true,
@@ -17136,13 +17144,13 @@
             "value": 1
           },
           "model2ndCost": {
-            "value": 65
+            "value": 85
           },
           "model2ndTally": {
             "value": 2
           },
           "model3rdCost": {
-            "value": 90
+            "value": 110
           },
           "model3rdTally": {
             "statType": "numeric",
@@ -17151,7 +17159,7 @@
           },
           "model4thCost": {
             "statType": "numeric",
-            "value": 170,
+            "value": 220,
             "visibility": "hidden"
           },
           "model4thTally": {
@@ -17172,10 +17180,10 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 50
+            "value": 70
           },
           "unitDiscount": {
-            "value": 10
+            "value": 30
           },
           "unitDiscountThreshold": {
             "value": 3
@@ -17235,7 +17243,7 @@
             "value": 2
           },
           "model3rdCost": {
-            "value": 160
+            "value": 175
           },
           "model3rdTally": {
             "value": 3
@@ -17597,7 +17605,7 @@
             "visibility": "hidden"
           },
           "Points": {
-            "value": 80
+            "value": 85
           }
         }
       },
@@ -17919,7 +17927,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 155
+            "value": 160
           },
           "model2ndTally": {
             "value": 6
@@ -18551,7 +18559,7 @@
             "value": 8
           },
           "Points": {
-            "value": 465
+            "value": 505
           },
           "Sv": {
             "value": 2
@@ -18560,7 +18568,7 @@
             "value": 12
           },
           "unitDiscount": {
-            "value": 20
+            "value": 40
           },
           "unitDiscountThreshold": {
             "value": 2

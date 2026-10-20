@@ -1,6 +1,6 @@
 {
   "name": "Chaos Daemons 11e",
-  "revision": "11.1.1",
+  "revision": "11.1.3",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -758,7 +758,7 @@
         },
         "stats": {
           "Points": {
-            "value": 295
+            "value": 305
           }
         }
       },
@@ -888,7 +888,7 @@
         },
         "stats": {
           "Points": {
-            "value": 340
+            "value": 315
           }
         }
       },
@@ -900,7 +900,7 @@
         },
         "stats": {
           "Points": {
-            "value": 315
+            "value": 330
           }
         }
       },
@@ -1181,6 +1181,7 @@
       "Detachment§Daemonic Incursion": {
         "keywords": {
           "Role": [
+            "Take And Hold",
             "Disruption"
           ]
         },
@@ -1394,7 +1395,7 @@
       "Detachment§Lords Of The Warp": {
         "keywords": {
           "Role": [
-            "Purge The Foe"
+            "Take And Hold"
           ]
         },
         "stats": {
@@ -2313,7 +2314,7 @@
         },
         "stats": {
           "Points": {
-            "value": 10
+            "value": 15
           }
         },
         "text": "**Legiones Daemonica Tzeentch** model only. In your\nCommand phase, if the bearer is on the battlefield, if\nyour opponent has one or more Flux tokens, you gain\none additional Flux token."
@@ -2362,7 +2363,7 @@
         },
         "stats": {
           "Points": {
-            "value": 25
+            "value": 20
           }
         },
         "text": "**Legiones Daemonica Tzeentch Monster** model only. In your Shooting phase, the bearer can use this Enhancement. If it does, until the end of the phase, you can select one other friendly visible **Legiones Daemonica Tzeentch** unit within 9\" of the bearer. If you do, when selecting targets for ranged weapons equipped by the bearer, you can measure range and determine visibility from one model of your choice in the selected unit instead.\n\nDesigner’s Note: When determining if a unit\nwith the Lone Operative ability can be selected\nas the target, the range is determined from the\nmodel of your choice in the selected unit."
@@ -2521,7 +2522,7 @@
         },
         "stats": {
           "Points": {
-            "value": 20
+            "value": 25
           }
         },
         "text": "**Legiones Daemonica Tzeentch Monster** model only.\nImprove the Strength characteristic of melee weapons\nequipped by the bearer by 2, improve the Attacks and\nArmour Penetration characteristics of melee weapons\nequipped by the bearer by 1, and each time the bearer\nmakes a melee attack, add 1 to the Hit roll."
@@ -5568,6 +5569,151 @@
       },
       "Wargear§Instrument of Chaos": {
         "text": "Add 1 to Charge rolls made for the bearer’s unit."
+      },
+      "Unit§Beasts of Nurgle": {
+        "stats": {
+          "model2ndCost": {
+            "value": 150
+          },
+          "Points": {
+            "value": 80
+          }
+        }
+      },
+      "Unit§Bloodcrushers": {
+        "stats": {
+          "model2ndCost": {
+            "value": 250
+          },
+          "Points": {
+            "value": 135
+          },
+          "unitDiscount": {
+            "value": 40
+          }
+        }
+      },
+      "Unit§Bloodletters": {
+        "stats": {
+          "Points": {
+            "value": 110
+          }
+        }
+      },
+      "Unit§Blue Horrors": {
+        "stats": {
+          "Points": {
+            "value": 125
+          }
+        }
+      },
+      "Character§Contorted Epitome": {
+        "stats": {
+          "Points": {
+            "value": 125
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          }
+        }
+      },
+      "Unit§Daemonettes": {
+        "stats": {
+          "Points": {
+            "value": 100
+          }
+        }
+      },
+      "Unit§Fiends": {
+        "stats": {
+          "model2ndCost": {
+            "value": 215
+          },
+          "Points": {
+            "value": 115
+          },
+          "unitDiscount": {
+            "value": 25
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          }
+        }
+      },
+      "Unit§Flesh Hounds": {
+        "stats": {
+          "Points": {
+            "value": 80
+          }
+        }
+      },
+      "Character§Fluxmaster": {
+        "stats": {
+          "Points": {
+            "value": 70
+          }
+        }
+      },
+      "Character§Keeper of Secrets": {
+        "stats": {
+          "Points": {
+            "value": 280
+          }
+        }
+      },
+      "Character§Lord of Change": {
+        "stats": {
+          "Points": {
+            "value": 340
+          },
+          "unitDiscount": {
+            "value": 20
+          }
+        }
+      },
+      "Unit§Pink Horrors": {
+        "stats": {
+          "Points": {
+            "value": 150
+          }
+        }
+      },
+      "Character§Poxbringer": {
+        "stats": {
+          "Points": {
+            "value": 70
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          }
+        }
+      },
+      "Character§Rendmaster on Blood Throne": {
+        "stats": {
+          "Points": {
+            "value": 180
+          }
+        }
+      },
+      "Unit§Seekers": {
+        "stats": {
+          "Points": {
+            "value": 85
+          }
+        }
+      },
+      "Unit§Skull Cannon": {
+        "stats": {
+          "Points": {
+            "value": 100
+          }
+        }
       }
     },
     "gameModes": {},

@@ -1,6 +1,6 @@
 {
   "name": "World Eaters 11e",
-  "revision": "11.1.2",
+  "revision": "11.1.3",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -764,7 +764,7 @@
             "value": 6
           },
           "Points": {
-            "value": 350
+            "value": 330
           },
           "Sv": {
             "value": 2
@@ -1145,7 +1145,7 @@
             "value": 2
           },
           "Points": {
-            "value": 110
+            "value": 100
           },
           "Sv": {
             "value": 3
@@ -1258,7 +1258,7 @@
             "value": 1
           },
           "Points": {
-            "value": 100
+            "value": 90
           },
           "Sv": {
             "value": 3
@@ -1503,7 +1503,7 @@
         },
         "stats": {
           "Detachment Points": {
-            "value": 3
+            "value": 2
           }
         },
         "text": "## RELENTLESS RAGE\n\nEach time a World Eaters unit from your army makes a Charge move, until the end of the turn, add 1 to the Attacks characteristic and add 2 to the Strength characteristic of melee weapons equipped by models in that unit."
@@ -1511,7 +1511,7 @@
       "Detachment§Brazen Engines": {
         "keywords": {
           "Role": [
-            "Purge The Foe"
+            "Disruption"
           ]
         },
         "stats": {
@@ -1524,7 +1524,7 @@
       "Detachment§Butchers Of Khorne": {
         "keywords": {
           "Role": [
-            "Disruption"
+            "Take And Hold"
           ]
         },
         "stats": {
@@ -2162,7 +2162,7 @@
         },
         "stats": {
           "Points": {
-            "value": 40
+            "value": 30
           }
         },
         "text": "**World Eaters** model only. Improve the Armour Penetration characteristic of melee weapons equipped by the bearer by 1. While the bearer is a **Vessel of Wrath**, improve the Damage characteristic of those weapons by 1 as well."
@@ -2701,7 +2701,7 @@
         },
         "stats": {
           "Points": {
-            "value": 25
+            "value": 20
           }
         },
         "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Terminator Squad** unit only. This unit’s melee attacks have +1 **WS**."
@@ -6735,40 +6735,40 @@
       },
       "Unit§Bloodcrushers": {
         "keywords": {
-          "Keywords": [
-            "Summoned"
+          "Faction": [
+            "Blood Legions"
           ],
           "Source": [
             "10th Edition Codex"
           ],
-          "Faction": [
-            "Blood Legions"
+          "Keywords": [
+            "Summoned"
           ]
+        },
+        "stats": {
+          "model2ndCost": {
+            "value": 210
+          },
+          "Points": {
+            "value": 115
+          },
+          "unitDiscount": {
+            "value": 20
+          }
         },
         "removed": {
           "keywords": {
-            "Source": [
-              "10th Edition Index"
-            ],
             "Faction": [
               "Legiones Daemonica"
+            ],
+            "Source": [
+              "10th Edition Index"
             ]
           },
           "assets": {
             "traits": [
               "Ability§The Shadow of Chaos"
             ]
-          }
-        },
-        "stats": {
-          "Points": {
-            "value": 105
-          },
-          "unitDiscount": {
-            "value": 10
-          },
-          "unitDiscountThreshold": {
-            "value": 3
           }
         }
       },
@@ -6887,7 +6887,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 280
+            "value": 265
           },
           "model2ndTally": {
             "value": 6
@@ -6905,10 +6905,10 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 145
+            "value": 140
           },
           "unitDiscount": {
-            "value": 10
+            "value": 15
           },
           "unitDiscountThreshold": {
             "value": 3
@@ -6976,7 +6976,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 290
+            "value": 275
           },
           "model2ndTally": {
             "value": 6
@@ -6994,10 +6994,10 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 150
+            "value": 145
           },
           "unitDiscount": {
-            "value": 10
+            "value": 15
           },
           "unitDiscountThreshold": {
             "value": 3
@@ -7134,7 +7134,7 @@
             "value": 8
           },
           "Points": {
-            "value": 75
+            "value": 70
           }
         }
       },
@@ -7735,7 +7735,7 @@
             "value": 10
           },
           "model2ndCost": {
-            "value": 130
+            "value": 120
           },
           "model2ndTally": {
             "value": 20
@@ -7900,7 +7900,7 @@
             "value": 10
           },
           "model2ndCost": {
-            "value": 345
+            "value": 330
           },
           "model2ndTally": {
             "value": 20
@@ -7918,7 +7918,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 180
+            "value": 170
           }
         }
       },
@@ -8072,7 +8072,7 @@
       "Unit§Lord On Juggernaut": {
         "stats": {
           "Points": {
-            "value": 105
+            "value": 95
           }
         },
         "text": "WARNING: this unit was not in 10e and needs importing.\n\n**Aggressive Advance**\nWhile this model is leading a unit, models in that unit have a Move characteristic of 10\" and each time a model in that unit makes a Normal, Advance, Fall Back or Charge move, it can move horizontally through terrain features.\n\n**Crush All Who Stand Before Us**\nEach time this model’s unit is selected to fight, you can use this ability. When determining which models in this unit are eligible to fight, any models in it that are within 3\" of one or more enemy models are eligible to fight. When resolving those attacks, such models can target one of those enemy units that is within 3\" of them and within Engagement Range of their unit."
@@ -8476,6 +8476,15 @@
             "statType": "rank",
             "value": "-",
             "visibility": "normal"
+          },
+          "Points": {
+            "value": 85
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 4
           }
         },
         "keywords": {
@@ -8648,6 +8657,12 @@
           },
           "Points": {
             "value": 220
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         },
         "keywords": {
@@ -8867,6 +8882,15 @@
             "statType": "rank",
             "value": "-",
             "visibility": "active"
+          },
+          "Points": {
+            "value": 140
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         },
         "keywords": {
@@ -9090,6 +9114,12 @@
             "statType": "rank",
             "value": "-",
             "visibility": "active"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         },
         "keywords": {
@@ -9218,6 +9248,9 @@
         "stats": {
           "BS": {
             "value": 4
+          },
+          "Points": {
+            "value": 15
           }
         }
       },
@@ -9275,6 +9308,9 @@
         "stats": {
           "BS": {
             "value": 4
+          },
+          "Points": {
+            "value": 15
           }
         }
       },
@@ -9303,7 +9339,13 @@
             "value": 14
           },
           "Points": {
-            "value": 300
+            "value": 310
+          },
+          "unitDiscount": {
+            "value": 40
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           }
         },
         "keywords": {
@@ -9925,7 +9967,7 @@
             "value": 12
           },
           "Points": {
-            "value": 155
+            "value": 150
           },
           "Weapon": {
             "dynamic": true,
@@ -9955,6 +9997,12 @@
             "statType": "rank",
             "value": "Lasher tendrils",
             "visibility": "active"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         },
         "keywords": {
@@ -10039,6 +10087,9 @@
         "stats": {
           "BS": {
             "value": 4
+          },
+          "Points": {
+            "value": 5
           }
         }
       },
@@ -10129,7 +10180,13 @@
             "value": 10
           },
           "Points": {
-            "value": 175
+            "value": 155
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         },
         "keywords": {

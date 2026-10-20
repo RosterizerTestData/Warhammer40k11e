@@ -1,6 +1,6 @@
 {
   "name": "Chaos Knights 11e",
-  "revision": "11.0.4",
+  "revision": "11.1.3",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -506,7 +506,7 @@
       "Detachment§Bastions Of Tyranny": {
         "keywords": {
           "Role": [
-            "Disruption"
+            "Priority Assets"
           ]
         },
         "stats": {
@@ -909,6 +909,7 @@
             "Infernal Lance"
           ],
           "Role": [
+            "Priority Assets",
             "Purge The Foe"
           ]
         },
@@ -1018,7 +1019,7 @@
             "Lords of Dread"
           ],
           "Role": [
-            "Priority Assets"
+            "Take And Hold"
           ]
         },
         "rules": {
@@ -3261,6 +3262,113 @@
           }
         },
         "text": "**WHEN**: Any phase.\n\n**TARGET**: One **Damned** unit (excluding Accursed Cultists) from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.\n\n**EFFECT**: Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength and with all of its wounds remaining.\n\n**RESTRICTIONS**: You can only use this Stratagem once per battle. This Stratagem cannot be used to return destroyed **Character** units to Attached units."
+      },
+      "Character§Chaos Cerastus Knight Atrapos": {
+        "stats": {
+          "unitDiscount": {
+            "value": 30
+          }
+        }
+      },
+      "Character§Chaos Cerastus Knight Lancer": {
+        "stats": {
+          "unitDiscount": {
+            "value": 30
+          }
+        }
+      },
+      "Character§Knight Abominant": {
+        "stats": {
+          "unitDiscount": {
+            "value": 20
+          }
+        }
+      },
+      "Character§Knight Desecrator": {
+        "stats": {
+          "unitDiscount": {
+            "value": 20
+          }
+        }
+      },
+      "Character§Knight Despoiler": {
+        "stats": {
+          "Points": {
+            "value": 390
+          },
+          "unitDiscount": {
+            "value": 30
+          }
+        }
+      },
+      "Ranged Weapon§Knight Despoiler—Despoiler gatling cannon": {
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        }
+      },
+      "Ranged Weapon§Knight Despoiler—Despoiler battle cannon": {
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        }
+      },
+      "Character§Knight Rampager": {
+        "stats": {
+          "Points": {
+            "value": 370
+          },
+          "unitDiscount": {
+            "value": 20
+          }
+        }
+      },
+      "Character§Knight Ruinator": {
+        "stats": {
+          "Points": {
+            "value": 345
+          },
+          "unitDiscount": {
+            "value": 20
+          }
+        }
+      },
+      "Character§Knight Tyrant": {
+        "stats": {
+          "Points": {
+            "value": 410
+          }
+        }
+      },
+      "Unit§War Dog Brigand": {
+        "stats": {
+          "Points": {
+            "value": 135
+          }
+        }
+      },
+      "Unit§War Dog Huntsman": {
+        "stats": {
+          "Points": {
+            "value": 135
+          }
+        }
+      },
+      "Unit§War Dog Karnivore": {
+        "stats": {
+          "Points": {
+            "value": 145
+          }
+        }
+      },
+      "Unit§War Dog Stalker": {
+        "stats": {
+          "Points": {
+            "value": 135
+          }
+        }
       }
     },
     "gameModes": {},

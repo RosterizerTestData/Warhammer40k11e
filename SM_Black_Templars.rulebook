@@ -1,6 +1,6 @@
 {
   "name": "Black Templars 11e",
-  "revision": "11.0.4",
+  "revision": "11.1.3",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -488,7 +488,7 @@
             "value": 1
           },
           "Points": {
-            "value": 70
+            "value": 75
           },
           "Ranged Option": {
             "dynamic": true,
@@ -598,7 +598,7 @@
             "value": 4
           },
           "Points": {
-            "value": 110
+            "value": 120
           }
         }
       },
@@ -823,7 +823,7 @@
             "value": 1
           },
           "Points": {
-            "value": 60
+            "value": 65
           },
           "Sv": {
             "value": 3
@@ -894,7 +894,7 @@
             "value": 3
           },
           "Points": {
-            "value": 120
+            "value": 125
           },
           "Sv": {
             "value": 2
@@ -960,7 +960,7 @@
             "value": 1
           },
           "Points": {
-            "value": 90
+            "value": 80
           },
           "Ranged Option": {
             "dynamic": true,
@@ -995,10 +995,10 @@
             "value": 4
           },
           "unitDiscount": {
-            "value": 10
+            "value": 0
           },
           "unitDiscountThreshold": {
-            "value": 2
+            "value": 0
           },
           "W": {
             "value": 5
@@ -1301,7 +1301,7 @@
         },
         "stats": {
           "Detachment Points": {
-            "value": 2
+            "value": 1
           }
         }
       },
@@ -1581,7 +1581,7 @@
         },
         "stats": {
           "Points": {
-            "value": 15
+            "value": 20
           }
         },
         "text": "Adeptus Astartes model only. At the start of your Shooting phase, select one enemy unit within 12\" and visible to the bearer. Until the end of the phase, models in that unit cannot have the Benefit of Cover."
@@ -1707,7 +1707,7 @@
         },
         "stats": {
           "Points": {
-            "value": 25
+            "value": 20
           }
         },
         "text": "Adeptus Astartes model only. Models in the bearer's unit have a 5+ invulnerable save."
@@ -1940,7 +1940,7 @@
         },
         "stats": {
           "Points": {
-            "value": 15
+            "value": 10
           }
         },
         "text": "Adeptus Astartes Infantry model only. Add 1 to the Advance rolls made for the bearer's unit. If the mission pack you are playing features Actions, the bearer's unit is eligible to start to perform an Action in a turn in which it Advanced."
@@ -2439,7 +2439,7 @@
         },
         "stats": {
           "Points": {
-            "value": 20
+            "value": 25
           }
         },
         "text": "Adeptus Astartes model only. Models in the bearer's unit have the Scouts 6\" ability."
@@ -9890,7 +9890,7 @@
       "Unit§Crusader Squad": {
         "stats": {
           "Points": {
-            "value": 150
+            "value": 160
           }
         },
         "text": "WARNING: this unit was not in 10e and needs importing.\n\n**Righteous Zeal**\nIn your opponent's Shooting phase, each time an enemy unit has shot, if any models in this unit were **destroyed** as a result of those attacks, this unit can make a **surge move** of up to D6+2\".\n\n**Attached Unit**\nIf a **CHARACTER** from your army with the Leader ability can be attached to an **INTERCESSOR SQUAD**, it can be attached to this unit instead."
@@ -9906,10 +9906,10 @@
       "Unit§Sword Brethren Squad": {
         "stats": {
           "Points": {
-            "value": 120
+            "value": 135
           },
           "unitDiscount": {
-            "value": 15
+            "value": 20
           },
           "unitDiscountThreshold": {
             "value": 3
@@ -10922,6 +10922,50 @@
       },
       "Wargear§Shield Dome": {
         "text": "The bearer has a 5+ invulnerable save."
+      },
+      "Vehicle§Gladiator Lancer": {
+        "stats": {
+          "Points": {
+            "value": 185
+          },
+          "unitDiscount": {
+            "value": 20
+          }
+        }
+      },
+      "Vehicle§Gladiator Reaper": {
+        "stats": {
+          "Points": {
+            "value": 185
+          },
+          "unitDiscount": {
+            "value": 20
+          }
+        }
+      },
+      "Vehicle§Gladiator Valiant": {
+        "stats": {
+          "Points": {
+            "value": 165
+          },
+          "unitDiscount": {
+            "value": 20
+          }
+        }
+      },
+      "Ranged Weapon§Gladiator Valiant—Multi-melta": {
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        }
+      },
+      "Vehicle§Repulsor Executioner": {
+        "stats": {
+          "Points": {
+            "value": 285
+          }
+        }
       }
     },
     "gameModes": {},

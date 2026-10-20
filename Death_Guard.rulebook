@@ -1,6 +1,6 @@
 {
   "name": "Death Guard 11e",
-  "revision": "11.1.2",
+  "revision": "11.1.3",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -1720,7 +1720,7 @@
             "value": 1
           },
           "Points": {
-            "value": 65
+            "value": 60
           },
           "Sv": {
             "value": 3
@@ -1925,7 +1925,7 @@
             "value": 1
           },
           "Points": {
-            "value": 120
+            "value": 110
           },
           "Sv": {
             "value": 2
@@ -2056,7 +2056,7 @@
             "value": 1
           },
           "Points": {
-            "value": 100
+            "value": 90
           },
           "Sv": {
             "value": 2
@@ -2210,7 +2210,7 @@
             "value": 6
           },
           "Points": {
-            "value": 400
+            "value": 375
           },
           "Sv": {
             "value": 2
@@ -2327,7 +2327,7 @@
             "value": 1
           },
           "Points": {
-            "value": 60
+            "value": 50
           },
           "Sv": {
             "value": 3
@@ -2635,7 +2635,7 @@
             "value": 1
           },
           "Points": {
-            "value": 100
+            "value": 90
           },
           "Sv": {
             "value": 2
@@ -2760,7 +2760,7 @@
       "Detachment§Contagion Engines": {
         "keywords": {
           "Role": [
-            "Purge The Foe"
+            "Reconnaissance"
           ]
         },
         "stats": {
@@ -3354,7 +3354,8 @@
             "Virulent Vectorium"
           ],
           "Role": [
-            "Take And Hold"
+            "Take And Hold",
+            "Purge The Foe"
           ]
         },
         "rules": {
@@ -11038,13 +11039,13 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 185
+            "value": 215
           },
           "model2ndTally": {
             "value": 5
           },
           "model3rdCost": {
-            "value": 370
+            "value": 400
           },
           "model3rdTally": {
             "value": 10
@@ -11068,14 +11069,20 @@
             "visibility": "hidden"
           },
           "Points": {
-            "value": 115
+            "value": 145
+          },
+          "unitDiscount": {
+            "value": 30
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
       "Unit§Daemon Prince Of Nurgle": {
         "stats": {
           "Points": {
-            "value": 195
+            "value": 185
           }
         },
         "text": "WARNING: this unit was not in 10e and needs importing.\n\n**Death Guard Defenders**\nWhile this model is within 3\" of one or more friendly **DEATH GUARD INFANTRY** units, this model has the Lone Operative ability.\n\n**Fevered Strategist**\nOnce per battle round, one model from your army with this ability can use it when a friendly **DEATH GUARD** unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP.\n\n**Miasma of Pestilence**\nWhile a friendly **DEATH GUARD** unit is within 6\" of this model, each time a ranged attack targets that unit, models in that unit have the Benefit of Cover against that attack."
@@ -11083,7 +11090,7 @@
       "Unit§Daemon Prince Of Nurgle With Wings": {
         "stats": {
           "Points": {
-            "value": 170
+            "value": 160
           }
         },
         "text": "WARNING: this unit was not in 10e and needs importing.\n\n**Horrifying Visage**\nEach time this model ends a Charge move, select one enemy unit within Engagement Range of it. That unit must take a Battle-shock test, subtracting 1 from that test.\n\n**Enfeebling Miasma**\nWhile an enemy unit (excluding **MONSTERS** and **VEHICLES**) is within 6\" of this model, each time that unit is selected to Fall Back, models in that enemy unit must take Desperate Escape tests. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those Desperate Escape tests."
@@ -11388,7 +11395,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 330
+            "value": 315
           },
           "model2ndTally": {
             "value": 6
@@ -11406,7 +11413,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 170
+            "value": 160
           },
           "unitDiscount": {
             "value": 10
@@ -11731,7 +11738,7 @@
             "value": 1
           },
           "model2ndCost": {
-            "value": 200
+            "value": 190
           },
           "model2ndTally": {
             "value": 2
@@ -11756,24 +11763,11 @@
             "visibility": "hidden"
           },
           "Points": {
-            "value": 100
+            "value": 95
           }
         }
       },
       "Unit§Nurglings": {
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Invulnerable",
-              "stats": {
-                "x": {
-                  "value": "5+"
-                }
-              }
-            },
-            "Ability§Pact of Decay"
-          ]
-        },
         "keywords": {
           "Faction": [
             "Plague Legions"
@@ -11785,37 +11779,21 @@
             "Summoned"
           ]
         },
+        "assets": {
+          "traits": [
+            "Ability§Pact of Decay"
+          ]
+        },
         "removed": {
           "keywords": {
             "Faction": [
               "Legiones Daemonica"
-            ],
-            "Source": [
-              "10th Edition Codex"
             ]
           },
           "assets": {
             "traits": [
-              "Ability§Invulnerable",
               "Ability§The Shadow of Chaos"
             ]
-          }
-        },
-        "stats": {
-          "model2ndCost": {
-            "value": 70
-          },
-          "Models": {
-            "increment": {
-              "value": 3
-            },
-            "max": 6
-          },
-          "Nurgling Swarm": {
-            "max": 6
-          },
-          "Points": {
-            "value": 45
           }
         }
       },
@@ -12065,7 +12043,7 @@
             "value": 7
           },
           "model3rdCost": {
-            "value": 190
+            "value": 175
           },
           "model3rdTally": {
             "value": 10
@@ -12232,7 +12210,7 @@
             "value": 3
           },
           "Points": {
-            "value": 210
+            "value": 200
           },
           "Slugger Options": {
             "dynamic": true,
@@ -12267,10 +12245,10 @@
             "value": 10
           },
           "unitDiscount": {
-            "value": 25
+            "value": 30
           },
           "unitDiscountThreshold": {
-            "value": 2
+            "value": 3
           },
           "W": {
             "value": 12
@@ -12459,6 +12437,15 @@
             "statType": "rank",
             "value": "-",
             "visibility": "active"
+          },
+          "Points": {
+            "value": 85
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 4
           }
         },
         "keywords": {
@@ -12577,7 +12564,13 @@
             "visibility": "active"
           },
           "Points": {
-            "value": 220
+            "value": 240
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         },
         "keywords": {
@@ -12770,7 +12763,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 135
+            "value": 140
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         },
         "keywords": {
@@ -12952,6 +12951,15 @@
             "statType": "rank",
             "value": "-",
             "visibility": "normal"
+          },
+          "Points": {
+            "value": 150
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         },
         "keywords": {
@@ -13037,6 +13045,11 @@
           "traits": [
             "Ability§Lethal Hits"
           ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
         }
       },
       "Ranged Weapon§Defiler—Heavy missile launcher – frag": {
@@ -13058,6 +13071,11 @@
           "traits": [
             "Ability§Lethal Hits"
           ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
         }
       },
       "Ranged Weapon§Defiler—Magma cutters": {
@@ -13070,7 +13088,13 @@
       "Vehicle§Defiler": {
         "stats": {
           "Points": {
-            "value": 320
+            "value": 350
+          },
+          "unitDiscount": {
+            "value": 50
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           }
         },
         "keywords": {
@@ -13422,7 +13446,7 @@
             "value": 7
           },
           "Points": {
-            "value": 110
+            "value": 105
           }
         },
         "keywords": {

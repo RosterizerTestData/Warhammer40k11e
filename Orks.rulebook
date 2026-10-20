@@ -1,6 +1,6 @@
 {
   "name": "Orks 11e",
-  "revision": "11.1.0",
+  "revision": "11.1.3",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -1234,7 +1234,7 @@
             "value": 6
           },
           "Points": {
-            "value": 50
+            "value": 30
           },
           "Sv": {
             "value": 4
@@ -1307,7 +1307,7 @@
             "value": 1
           },
           "Points": {
-            "value": 80
+            "value": 85
           },
           "Sv": {
             "value": 4
@@ -1380,7 +1380,7 @@
             "value": 3
           },
           "Points": {
-            "value": 95
+            "value": 155
           },
           "Sv": {
             "value": 3
@@ -1411,6 +1411,12 @@
           },
           "W": {
             "value": 8
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -1507,7 +1513,7 @@
             "value": 1
           },
           "Points": {
-            "value": 70
+            "value": 115
           },
           "Sv": {
             "value": 3
@@ -1517,6 +1523,12 @@
           },
           "W": {
             "value": 6
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -1652,7 +1664,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 80
+            "value": 90
           },
           "Sv": {
             "value": 2
@@ -2025,7 +2037,7 @@
             "value": 1
           },
           "Points": {
-            "value": 80
+            "value": 125
           },
           "Sv": {
             "value": 4
@@ -2034,10 +2046,10 @@
             "value": 5
           },
           "unitDiscount": {
-            "value": 10
+            "value": 15
           },
           "unitDiscountThreshold": {
-            "value": 3
+            "value": 2
           },
           "W": {
             "value": 5
@@ -2085,7 +2097,7 @@
             "value": 1
           },
           "Points": {
-            "value": 55
+            "value": 50
           },
           "Sv": {
             "value": 4
@@ -2156,7 +2168,7 @@
             "value": 1
           },
           "Points": {
-            "value": 75
+            "value": 80
           },
           "Sv": {
             "value": 5
@@ -2431,7 +2443,7 @@
             "value": 3
           },
           "Points": {
-            "value": 70
+            "value": 80
           },
           "Sv": {
             "value": 4
@@ -2489,10 +2501,10 @@
         },
         "stats": {
           "model1stTally": {
-            "value": 2
+            "value": 1
           },
           "Points": {
-            "value": 235
+            "value": 290
           }
         }
       },
@@ -2775,7 +2787,7 @@
             "value": 1
           },
           "Points": {
-            "value": 45
+            "value": 55
           },
           "Sv": {
             "value": 5
@@ -2852,7 +2864,7 @@
             "value": 3
           },
           "Points": {
-            "value": 125
+            "value": 170
           },
           "Sv": {
             "value": 3
@@ -2935,7 +2947,7 @@
             "value": 1
           },
           "Points": {
-            "value": 60
+            "value": 70
           },
           "Sv": {
             "value": 4
@@ -2945,6 +2957,12 @@
           },
           "W": {
             "value": 4
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -3010,7 +3028,7 @@
             "value": 1
           },
           "Points": {
-            "value": 80
+            "value": 45
           },
           "Sv": {
             "value": 5
@@ -3315,7 +3333,7 @@
             "value": 1
           },
           "Points": {
-            "value": 75
+            "value": 100
           },
           "Sv": {
             "value": 4
@@ -3379,7 +3397,7 @@
             "value": 1
           },
           "Points": {
-            "value": 80
+            "value": 130
           },
           "Sv": {
             "value": 2
@@ -3389,6 +3407,12 @@
           },
           "W": {
             "value": 7
+          },
+          "unitDiscount": {
+            "value": 15
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -3580,7 +3604,7 @@
             "value": 3
           },
           "Points": {
-            "value": 175
+            "value": 200
           },
           "Sv": {
             "value": 3
@@ -3643,7 +3667,7 @@
             "value": 1
           },
           "Points": {
-            "value": 65
+            "value": 60
           },
           "Sv": {
             "value": 5
@@ -3781,7 +3805,7 @@
             "value": 1
           },
           "Points": {
-            "value": 80
+            "value": 50
           },
           "Sv": {
             "value": 5
@@ -3800,7 +3824,7 @@
       "Detachment§Blitz Brigade": {
         "keywords": {
           "Role": [
-            "Reconnaissance"
+            "Take And Hold"
           ]
         },
         "rules": {
@@ -3898,7 +3922,7 @@
         },
         "stats": {
           "Detachment Points": {
-            "value": 2
+            "value": 1
           }
         },
         "text": "**EAGER FOR THE FIGHT**\n\nEach time an **ORKS** unit from your army disembarks from a **TRANSPORT**, until the end of the turn, you can re-roll Advance and Charge rolls made for that **ORKS** unit."
@@ -4004,7 +4028,7 @@
         },
         "stats": {
           "Detachment Points": {
-            "value": 2
+            "value": 1
           }
         },
         "text": "**DA BOSS IS WATCHIN’**\n\nAt the start of your Command phase, in a turn in which you have not called a Waaagh!, if you have one or more WARBOSS models on the battlefield (or embarked within a TRANSPORT that is on the battlefield), you can call a Waaagh! for a second time this battle. When doing so, that second Waaagh! only counts as having been\ncalled for WARBOSS, NOBZ and MEGANOBZ units from your army."
@@ -4110,7 +4134,7 @@
         },
         "stats": {
           "Detachment Points": {
-            "value": 2
+            "value": 1
           }
         },
         "text": "**DA HUNT IS ON**\n\nAt the start of your Command phase, select one **MONSTER**, **VEHICLE** or **CHARACTER** unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Prey:\n\n- ■  When a friendly **BEAST SNAGGA** unit declares a charge, If your Prey is within 12\" of that unit, you can use this part of this ability. If you do:\n\n- That **BEAST SNAGGA** unit can re-roll that **charge roll**.\n\n- That **BEAST SNAGGA** unit must end that **charge move engaged** with your Prey.\n\n■ Each time a **BEAST SNAGGA** model from your army makes an attack that targets your Prey, improve the Armour Penetration characteristic of that attack by 1."
@@ -4216,7 +4240,7 @@
         },
         "stats": {
           "Detachment Points": {
-            "value": 2
+            "value": 1
           }
         },
         "text": "**TRY DAT BUTTON!**\n\nEach time a **MEK**, **ORKS WALKER** or **GROTS VEHICLE** unit from your army is selected to shoot or fight, roll one D6. Until the end of the phase, weapons equipped by models in that unit have the corresponding ability shown in the table below.\n\n|||\n|---|---|\n|1-2|**[SUSTAINED HITS 1]**|\n|3-4|**[LETHAL HITS]**|\n|5-6|Each time an attack is made with this weapon, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 2.|\n\nAlternatively, when such a unit is selected to shoot or fight, you can select one of the abilities above instead of rolling the D6. If you do, until the end of the phase, weapons equipped by models in that unit have the **[HAZARDOUS]** ability as well.\n\nIf a weapon equipped by a model from you army has the **[HAZARDOUS]** ability from multiple sources, each time you take a Hazardous test for that weapon, it is failed on a roll of a 1-3."
@@ -4431,7 +4455,7 @@
         },
         "stats": {
           "Detachment Points": {
-            "value": 2
+            "value": 1
           }
         },
         "text": "**MOB MENTALITY**\n\nEach time an attack targets a Boyz unit from your army, models in that unit have\na 6+ invulnerable save against that attack. Each time an attack targets a Boys unit from your army that contains 10 or more models, models in that unit have a 5+ invulnerable save against that attack."
@@ -4439,7 +4463,7 @@
       "Detachment§Kult of Speed": {
         "keywords": {
           "Role": [
-            "Disruption"
+            "Reconnaissance"
           ]
         },
         "rules": {
@@ -4537,7 +4561,7 @@
         },
         "stats": {
           "Detachment Points": {
-            "value": 2
+            "value": 1
           }
         },
         "text": "**ADRENALINE JUNKIES**\n\n**SPEED FREEKS** units from your army are eligible to shoot and declare a charge in a turn in which they Advanced or Fell Back."
@@ -4807,7 +4831,7 @@
         "keywords": {
           "Keywords": [],
           "Role": [
-            "Disruption"
+            "Take And Hold"
           ]
         },
         "rules": {
@@ -4894,7 +4918,8 @@
       "Detachment§War Horde": {
         "keywords": {
           "Role": [
-            "Take And Hold"
+            "Take And Hold",
+            "Purge The Foe"
           ]
         },
         "rules": {
@@ -5235,7 +5260,7 @@
         },
         "stats": {
           "Points": {
-            "value": 25
+            "value": 30
           }
         },
         "text": "ORKS INFANTRY model only. In your Command phase, if the bearer is on the battlefield (or is embarked within a TRANSPORT that is on the battlefield), roll one D6, adding 2 to the result if the bearer’s unit contains 10 or more models: on a 5+, you gain 1CP."
@@ -5375,7 +5400,7 @@
         },
         "stats": {
           "Points": {
-            "value": 15
+            "value": 20
           }
         },
         "text": "Orks model only. Ranged weapons equipped\nby the bearer have the **[DEVASTATING WOUNDS]** and\n**[HAZARDOUS]** abilities."
@@ -5674,7 +5699,7 @@
         },
         "stats": {
           "Points": {
-            "value": 10
+            "value": 15
           }
         },
         "text": "ORKS INFANTRY model only. Each time the bearer fights, while resolving those attacks, add 1 to the Strength characteristic of the bearer’s melee weapons. If the bearer’s unit contains 10 or more models, while resolving those attacks, add 3 to the Strength characteristic instead."
@@ -5689,7 +5714,7 @@
           "Points": {
             "group": "Cost",
             "statType": "numeric",
-            "value": 25,
+            "value": 20,
             "visibility": "normal"
           }
         },
@@ -5898,7 +5923,7 @@
         },
         "stats": {
           "Points": {
-            "value": 30
+            "value": 25
           }
         },
         "text": "BEASTBOSS ON SQUIGOSAUR model only. Models in the bearer’s unit have the Scouts 9″ ability."
@@ -5957,7 +5982,7 @@
           "Points": {
             "group": "Cost",
             "statType": "numeric",
-            "value": 20,
+            "value": 15,
             "visibility": "normal"
           }
         },
@@ -5973,7 +5998,7 @@
           "Points": {
             "group": "Cost",
             "statType": "numeric",
-            "value": 15,
+            "value": 20,
             "visibility": "normal"
           }
         },
@@ -6583,7 +6608,7 @@
         },
         "stats": {
           "Points": {
-            "value": 15
+            "value": 10
           }
         },
         "text": "**MEK** model only. Models in the bearer’s unit have the Stealth ability."
@@ -6744,7 +6769,7 @@
         },
         "stats": {
           "Points": {
-            "value": 20
+            "value": 25
           }
         },
         "text": "MEK model only. In your Command phase, select one enemy unit within 18″ of and visible to the bearer, then roll one D6: on a 1-2, that enemy unit must take a Battle-shock test; on a 3-4, that enemy unit suffers D3 mortal wounds; on a 5-6, until the start of your next Command phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll."
@@ -6792,7 +6817,7 @@
         },
         "stats": {
           "Points": {
-            "value": 20
+            "value": 25
           }
         },
         "text": "BEASTBOSS ON SQUIGOSAUR model only. While the bearer is leading a unit, each time an attack targets that unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll."
@@ -6827,7 +6852,7 @@
         },
         "stats": {
           "Points": {
-            "value": 15
+            "value": 25
           }
         },
         "text": "**Wagon** unit only. While a **Big Mek** model is embarked within this unit:\n\n- This unit’s ranged attacks have **[Ignores Cover]**.\n\n- If the Waaagh! is active for this unit, this unit’s ranged attacks have **[Sustained Hits 1]**."
@@ -6835,7 +6860,7 @@
       "Enhancement§Targetin’ Squigs": {
         "stats": {
           "Points": {
-            "value": 15
+            "value": 20
           }
         },
         "text": "Orks model only. Each time a model in the bearer’s unit makes a ranged attack, add 1 to the Hit roll."
@@ -9879,6 +9904,9 @@
           },
           "WS": {
             "value": 4
+          },
+          "Points": {
+            "value": 5
           }
         }
       },
@@ -9936,6 +9964,9 @@
           },
           "WS": {
             "value": 4
+          },
+          "Points": {
+            "value": 5
           }
         }
       },
@@ -23686,7 +23717,7 @@
             "value": 5
           },
           "Points": {
-            "value": 145
+            "value": 180
           },
           "Sv": {
             "value": 3
@@ -23745,6 +23776,12 @@
             "statType": "rank",
             "value": "-",
             "visibility": "active"
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -23959,6 +23996,12 @@
             "statType": "numeric",
             "value": 0,
             "visibility": "normal"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 4
           }
         }
       },
@@ -24074,7 +24117,7 @@
             "value": 3
           },
           "Points": {
-            "value": 110
+            "value": 180
           },
           "Sv": {
             "value": 3
@@ -24083,7 +24126,7 @@
             "value": 8
           },
           "unitDiscount": {
-            "value": 10
+            "value": 20
           },
           "unitDiscountThreshold": {
             "value": 3
@@ -24401,7 +24444,7 @@
             "value": 0
           },
           "Points": {
-            "value": 105
+            "value": 115
           },
           "Sv": {
             "value": 3
@@ -24668,7 +24711,7 @@
             "value": 10
           },
           "model2ndCost": {
-            "value": 150
+            "value": 180
           },
           "model2ndTally": {
             "value": 20
@@ -24686,7 +24729,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 75
+            "value": 95
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 4
           }
         }
       },
@@ -24800,7 +24849,7 @@
             "value": 6
           },
           "Points": {
-            "value": 135
+            "value": 130
           },
           "unitDiscount": {
             "value": 10
@@ -25449,7 +25498,7 @@
             "value": 0
           },
           "Points": {
-            "value": 115
+            "value": 125
           },
           "Skorcha Missile Rack": {
             "dynamic": true,
@@ -26099,7 +26148,7 @@
             "value": 3
           },
           "Points": {
-            "value": 120
+            "value": 140
           },
           "Sv": {
             "value": 2
@@ -26645,7 +26694,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 140
+            "value": 180
           },
           "model2ndTally": {
             "value": 6
@@ -26663,7 +26712,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 75
+            "value": 95
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -26928,7 +26983,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 160
+            "value": 260
           },
           "model2ndTally": {
             "value": 10
@@ -26946,10 +27001,10 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 85
+            "value": 150
           },
           "unitDiscount": {
-            "value": 10
+            "value": 40
           },
           "unitDiscountThreshold": {
             "value": 3
@@ -27055,7 +27110,7 @@
             "value": 12
           },
           "Points": {
-            "value": 490
+            "value": 600
           },
           "Sv": {
             "value": 3
@@ -27064,7 +27119,7 @@
             "value": 13
           },
           "unitDiscount": {
-            "value": 50
+            "value": 100
           },
           "unitDiscountThreshold": {
             "value": 2
@@ -27150,7 +27205,7 @@
             "value": 8
           },
           "Points": {
-            "value": 275
+            "value": 355
           },
           "Sv": {
             "value": 3
@@ -27159,7 +27214,7 @@
             "value": 12
           },
           "unitDiscount": {
-            "value": 20
+            "value": 30
           },
           "unitDiscountThreshold": {
             "value": 3
@@ -27751,13 +27806,13 @@
             "visibility": "normal"
           },
           "model1stTally": {
-            "value": 11
+            "value": 10
           },
           "model2ndCost": {
             "value": 80
           },
           "model2ndTally": {
-            "value": 22
+            "value": 11
           },
           "modelKey": {
             "value": null
@@ -28238,7 +28293,7 @@
             "value": 5
           },
           "Points": {
-            "value": 125
+            "value": 185
           },
           "Sv": {
             "value": 3
@@ -28248,6 +28303,12 @@
           },
           "W": {
             "value": 16
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -28657,7 +28718,7 @@
             "value": 5
           },
           "Points": {
-            "value": 145
+            "value": 195
           },
           "Sv": {
             "value": 3
@@ -28667,6 +28728,12 @@
           },
           "W": {
             "value": 16
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -28757,7 +28824,7 @@
             "value": 10
           },
           "Points": {
-            "value": 295
+            "value": 300
           },
           "Sv": {
             "value": 3
@@ -28832,7 +28899,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 250
+            "value": 315
           },
           "model2ndTally": {
             "value": 6
@@ -28850,10 +28917,10 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 130
+            "value": 170
           },
           "unitDiscount": {
-            "value": 10
+            "value": 40
           },
           "unitDiscountThreshold": {
             "value": 3
@@ -29036,7 +29103,7 @@
             "value": 10
           },
           "Points": {
-            "value": 120
+            "value": 125
           }
         }
       },
@@ -30193,19 +30260,19 @@
             "value": 2
           },
           "model2ndCost": {
-            "value": 110
+            "value": 145
           },
           "model2ndTally": {
             "value": 3
           },
           "model3rdCost": {
-            "value": 170
+            "value": 215
           },
           "model3rdTally": {
             "value": 5
           },
           "model4thCost": {
-            "value": 200
+            "value": 250
           },
           "model4thTally": {
             "value": 6
@@ -30223,10 +30290,10 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 80
+            "value": 110
           },
           "unitDiscount": {
-            "value": 20
+            "value": 40
           },
           "unitDiscountThreshold": {
             "value": 3
@@ -30361,13 +30428,13 @@
             "value": 1
           },
           "model2ndCost": {
-            "value": 100
+            "value": 120
           },
           "model2ndTally": {
             "value": 2
           },
           "model3rdCost": {
-            "value": 145
+            "value": 175
           },
           "model3rdTally": {
             "value": 3
@@ -30385,7 +30452,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 55
+            "value": 65
           },
           "unitDiscount": {
             "value": 10
@@ -30780,7 +30847,7 @@
             "value": 8
           },
           "Points": {
-            "value": 290
+            "value": 375
           },
           "Sv": {
             "value": 3
@@ -30789,7 +30856,7 @@
             "value": 12
           },
           "unitDiscount": {
-            "value": 20
+            "value": 30
           },
           "unitDiscountThreshold": {
             "value": 3
@@ -30928,7 +30995,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 220
+            "value": 260
           },
           "model2ndTally": {
             "value": 10
@@ -30954,10 +31021,10 @@
             "visibility": "hidden"
           },
           "Points": {
-            "value": 115
+            "value": 145
           },
           "unitDiscount": {
-            "value": 10
+            "value": 30
           },
           "unitDiscountThreshold": {
             "value": 3
@@ -31473,7 +31540,7 @@
             "value": 4
           },
           "model2ndCost": {
-            "value": 270
+            "value": 290
           },
           "model2ndTally": {
             "value": 8
@@ -31534,7 +31601,7 @@
             "visibility": "hidden"
           },
           "Points": {
-            "value": 140
+            "value": 160
           },
           "Squighog Boy": {
             "max": 6,
@@ -31543,6 +31610,12 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
+          },
+          "unitDiscount": {
+            "value": 30
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },
@@ -31624,7 +31697,7 @@
             "value": 12
           },
           "Points": {
-            "value": 700
+            "value": 800
           },
           "Sv": {
             "value": 2
@@ -31736,7 +31809,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 130
+            "value": 140
           },
           "model2ndTally": {
             "value": 10
@@ -31754,7 +31827,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 65
+            "value": 70
           },
           "Stormboy": {
             "max": 9,
@@ -31864,7 +31937,7 @@
             "value": 6
           },
           "Points": {
-            "value": 135
+            "value": 170
           },
           "Tankbusta": {
             "max": 5,
@@ -31950,7 +32023,7 @@
             "value": 2
           },
           "Points": {
-            "value": 65
+            "value": 70
           },
           "Sv": {
             "value": 4
@@ -31981,6 +32054,12 @@
             "statType": "rank",
             "value": "-",
             "visibility": "active"
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 4
           }
         }
       },
@@ -32035,7 +32114,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 120
+            "value": 140
           },
           "model2ndTally": {
             "value": 6
@@ -32053,7 +32132,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 60
+            "value": 75
           },
           "Warbiker": {
             "max": 5,
@@ -32111,7 +32190,7 @@
             "value": 1
           },
           "model2ndCost": {
-            "value": 80
+            "value": 130
           },
           "model2ndTally": {
             "value": 2
@@ -32129,7 +32208,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 40
+            "value": 70
           },
           "Warbuggy": {
             "max": 2,
@@ -32316,7 +32395,7 @@
             "value": 0
           },
           "Points": {
-            "value": 165
+            "value": 235
           },
           "Sv": {
             "value": 3
@@ -32347,6 +32426,12 @@
           },
           "W": {
             "value": 12
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 3
           }
         }
       },

@@ -1,6 +1,6 @@
 {
   "name": "Aeldari 11e",
-  "revision": "11.0.4",
+  "revision": "11.1.3",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -3056,7 +3056,7 @@
             "value": 1
           },
           "Points": {
-            "value": 85
+            "value": 70
           },
           "Ranged": {
             "dynamic": true,
@@ -3302,7 +3302,7 @@
             "value": 1
           },
           "Points": {
-            "value": 80
+            "value": 70
           },
           "Ranged": {
             "dynamic": true,
@@ -3435,7 +3435,7 @@
             "value": 5
           },
           "Points": {
-            "value": 265
+            "value": 250
           },
           "Sv": {
             "value": 2
@@ -3641,7 +3641,7 @@
             "value": 1
           },
           "Points": {
-            "value": 130
+            "value": 120
           },
           "Sv": {
             "value": 6
@@ -3731,7 +3731,7 @@
             "value": 1
           },
           "Points": {
-            "value": 70
+            "value": 60
           },
           "Sv": {
             "value": 6
@@ -3861,7 +3861,7 @@
             "value": 2
           },
           "Points": {
-            "value": 70
+            "value": 60
           },
           "Sv": {
             "value": 6
@@ -4278,7 +4278,7 @@
             "value": 1
           },
           "Points": {
-            "value": 85
+            "value": 80
           },
           "Sv": {
             "value": 6
@@ -4546,7 +4546,7 @@
             "value": 1
           },
           "Points": {
-            "value": 55
+            "value": 50
           },
           "Sv": {
             "value": 6
@@ -4650,7 +4650,7 @@
             "value": 1
           },
           "Points": {
-            "value": 90
+            "value": 80
           },
           "Sv": {
             "value": 2
@@ -4726,7 +4726,7 @@
             "value": 3
           },
           "Points": {
-            "value": 245
+            "value": 230
           },
           "Sv": {
             "value": 2
@@ -4840,7 +4840,7 @@
             "value": 1
           },
           "Points": {
-            "value": 45
+            "value": 40
           },
           "Sv": {
             "value": 6
@@ -5091,7 +5091,7 @@
             "value": 1
           },
           "Points": {
-            "value": 100
+            "value": 90
           },
           "Sv": {
             "value": 6
@@ -5219,7 +5219,8 @@
             "Aspect Host"
           ],
           "Role": [
-            "Disruption"
+            "Priority Assets",
+            "Reconnaissance"
           ]
         },
         "rules": {
@@ -5635,7 +5636,7 @@
       "Detachment§Eldritch Raiders": {
         "keywords": {
           "Role": [
-            "Disruption"
+            "Purge The Foe"
           ]
         },
         "rules": {
@@ -6168,6 +6169,9 @@
         "keywords": {
           "Keywords": [
             "Serpent's Brood"
+          ],
+          "Role": [
+            "Purge The Foe"
           ]
         },
         "rules": {
@@ -6336,7 +6340,12 @@
             "order": 3
           }
         },
-        "text": "## BOONS OF THE BROOD\n\nWeapons equipped by Harlequins Mounted and Harlequins Vehicle models from your army have the [SUSTAINED HITS 1] ability.\n\nEach time a Harlequins unit from your army disembarks from a Transport, until the end of the turn, that unit’s weapons have the [SUSTAINED HITS 1] ability.\n\n**TRAVELLING PLAYERS**\n\n■ Troupe units from your army gain the Battleline keyword, and Troupe models in those units have an Objective Control characteristic of 2.\n\n■ You can include up to three of each of the following models in your army: Death Jester, Shadowseer, Troupe Master"
+        "text": "## BOONS OF THE BROOD\n\nWeapons equipped by Harlequins Mounted and Harlequins Vehicle models from your army have the [SUSTAINED HITS 1] ability.\n\nEach time a Harlequins unit from your army disembarks from a Transport, until the end of the turn, that unit’s weapons have the [SUSTAINED HITS 1] ability.\n\n**TRAVELLING PLAYERS**\n\n■ Troupe units from your army gain the Battleline keyword, and Troupe models in those units have an Objective Control characteristic of 2.\n\n■ You can include up to three of each of the following models in your army: Death Jester, Shadowseer, Troupe Master",
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        }
       },
       "Detachment§Serpent’s Brood": {
         "keywords": {
@@ -6505,7 +6514,7 @@
             "Warhost"
           ],
           "Role": [
-            "Purge The Foe"
+            "Reconnaissance"
           ]
         },
         "rules": {
@@ -6603,7 +6612,7 @@
         },
         "stats": {
           "Detachment Points": {
-            "value": 3
+            "value": 2
           }
         },
         "text": "**MARTIAL GRACE**\n\n- At the start of the battle round, you receive 1 additional Battle Focus token.\n- Each time a unit from your army performs the Swift as the Wind Agile Manoeuvre (pg 101), until the end of the phase, add an additional 1\" to the Move characteristic of models in that unit.\n- Each time a unit from your army performs an Agile Manoeuvre that involves rolling a D6, add 1 to the result."
@@ -27078,6 +27087,9 @@
           },
           "S": {
             "value": 20
+          },
+          "Points": {
+            "value": 10
           }
         }
       },
@@ -30006,7 +30018,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 160
+            "value": 140
           },
           "model2ndTally": {
             "value": 10
@@ -30024,13 +30036,13 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 90
+            "value": 75
           },
           "unitDiscount": {
-            "value": 10
+            "value": 0
           },
           "unitDiscountThreshold": {
-            "value": 3
+            "value": 0
           }
         }
       },
@@ -30385,7 +30397,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 160
+            "value": 140
           },
           "model2ndTally": {
             "value": 10
@@ -30403,7 +30415,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 80
+            "value": 70
           },
           "Shade Runner": {
             "dynamic": true,
@@ -30618,7 +30630,7 @@
             "value": 1
           },
           "Points": {
-            "value": 125
+            "value": 130
           },
           "Support Weapons": {
             "statType": "numeric",
@@ -30633,10 +30645,10 @@
             "value": 6
           },
           "unitDiscount": {
-            "value": 15
+            "value": 20
           },
           "unitDiscountThreshold": {
-            "value": 2
+            "value": 3
           },
           "W": {
             "value": 5
@@ -30723,7 +30735,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 210
+            "value": 200
           },
           "model2ndTally": {
             "value": 10
@@ -30741,7 +30753,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 100
+            "value": 95
           }
         }
       },
@@ -30846,7 +30858,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 150
+            "value": 140
           },
           "model2ndTally": {
             "value": 10
@@ -30864,7 +30876,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 75
+            "value": 70
           }
         }
       },
@@ -31118,7 +31130,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 130
+            "value": 120
           },
           "unitDiscount": {
             "value": 10
@@ -32085,7 +32097,7 @@
             "value": 3
           },
           "Points": {
-            "value": 190
+            "value": 195
           },
           "Secondary": {
             "dynamic": true,
@@ -32120,10 +32132,10 @@
             "value": 9
           },
           "unitDiscount": {
-            "value": 20
+            "value": 30
           },
           "unitDiscountThreshold": {
-            "value": 2
+            "value": 3
           },
           "W": {
             "value": 12
@@ -33141,7 +33153,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 210
+            "value": 200
           },
           "model2ndTally": {
             "value": 6
@@ -33159,7 +33171,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 105
+            "value": 100
           },
           "Shining Spear": {
             "max": 5,
@@ -33229,7 +33241,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 175
+            "value": 165
           },
           "model2ndTally": {
             "value": 6
@@ -33247,7 +33259,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 95
+            "value": 90
           },
           "Shroud Runner": {
             "max": 6,
@@ -33775,7 +33787,7 @@
             "value": 11
           },
           "Points": {
-            "value": 110
+            "value": 100
           },
           "Storm Guardian": {
             "max": 10,
@@ -33989,7 +34001,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 115
+            "value": 110
           },
           "Swooping Hawk": {
             "max": 9,
@@ -34375,7 +34387,7 @@
             "value": 1
           },
           "model2ndCost": {
-            "value": 170
+            "value": 160
           },
           "model2ndTally": {
             "value": 2
@@ -34392,7 +34404,7 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 85
+            "value": 80
           },
           "War Walker": {
             "max": 2,
@@ -34549,7 +34561,7 @@
             "value": 2
           },
           "model2ndCost": {
-            "value": 120
+            "value": 110
           },
           "model2ndTally": {
             "value": 4
@@ -34913,7 +34925,7 @@
             "value": 5
           },
           "model2ndCost": {
-            "value": 215
+            "value": 220
           },
           "model2ndTally": {
             "value": 10
@@ -34931,10 +34943,10 @@
             "visibility": "normal"
           },
           "Points": {
-            "value": 130
+            "value": 125
           },
           "unitDiscount": {
-            "value": 15
+            "value": 20
           },
           "unitDiscountThreshold": {
             "value": 3
@@ -35265,6 +35277,12 @@
           },
           "W": {
             "value": 13
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 4
           }
         }
       },
@@ -35382,7 +35400,7 @@
             "value": 3
           },
           "model2ndCost": {
-            "value": 160
+            "value": 170
           },
           "model2ndTally": {
             "value": 6
@@ -35844,7 +35862,7 @@
             "value": 10
           },
           "Points": {
-            "value": 435
+            "value": 405
           },
           "Shoulder 1": {
             "dynamic": true,
@@ -36023,7 +36041,7 @@
             "value": 10
           },
           "Points": {
-            "value": 425
+            "value": 400
           },
           "Shoulder 1": {
             "dynamic": true,
@@ -36838,6 +36856,12 @@
           },
           "W": {
             "value": 10
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 4
           }
         }
       },
@@ -37102,7 +37126,7 @@
             "value": 1
           },
           "Points": {
-            "value": 70
+            "value": 75
           },
           "Sv": {
             "value": 4
@@ -37112,6 +37136,12 @@
           },
           "W": {
             "value": 6
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 4
           }
         }
       },
@@ -37559,6 +37589,47 @@
           "Tags": [
             "Multi-weapon"
           ]
+        }
+      },
+      "Character§Death Jester": {
+        "stats": {
+          "Points": {
+            "value": 65
+          }
+        }
+      },
+      "Character§Shadowseer": {
+        "stats": {
+          "Points": {
+            "value": 50
+          }
+        }
+      },
+      "Unit§Skyweavers": {
+        "stats": {
+          "model2ndCost": {
+            "value": 180
+          },
+          "Points": {
+            "value": 90
+          }
+        }
+      },
+      "Character§Solitaire": {
+        "stats": {
+          "Points": {
+            "value": 105
+          }
+        }
+      },
+      "Unit§Starweaver": {
+        "stats": {
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 4
+          }
         }
       }
     },
