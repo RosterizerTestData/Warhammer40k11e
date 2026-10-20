@@ -9163,7 +9163,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Crisis Battlesuits—Plasma rifle"
+                    "trait": "Ranged Weapon§Crisis Fireknife Battlesuits—Plasma rifle"
                   }
                 ]
               },
@@ -9328,7 +9328,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Crisis Battlesuits—Plasma rifle"
+                    "trait": "Ranged Weapon§Crisis Fireknife Battlesuits—Plasma rifle"
                   }
                 ]
               },
@@ -9454,7 +9454,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Crisis Battlesuits—Plasma rifle"
+                    "trait": "Ranged Weapon§Crisis Fireknife Battlesuits—Plasma rifle"
                   }
                 ]
               },
@@ -9580,7 +9580,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Crisis Battlesuits—Plasma rifle"
+                    "trait": "Ranged Weapon§Crisis Fireknife Battlesuits—Plasma rifle"
                   }
                 ]
               },
@@ -23018,7 +23018,7 @@
             "Ability§Bounty Hunters",
             "Model§Kroot Kill-broker",
             {
-              "item": "Model§Kroot Hound",
+              "item": "Model§Kroot Hound (Farstalkers)",
               "quantity": 2
             },
             {
@@ -28874,6 +28874,9 @@
           "S": {
             "value": 8
           }
+        },
+        "assets": {
+          "traits": []
         }
       },
       "Melee Weapon§Crisis Starscythe Battlesuits—Battlesuit fists": {
@@ -29977,6 +29980,71 @@
           "Label": "Battlesuit fists"
         },
         "assets": {}
+      },
+      "Model§Kroot Hound (Farstalkers)": {
+        "assets": {
+          "traits": [
+            "Melee Weapon§Kroot Hounds—Ripping fangs"
+          ]
+        },
+        "rules": {
+          "ld": {
+            "actions": [
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Ld",
+                    "value"
+                  ]
+                ],
+                "value": 7
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "designation"
+                  ]
+                ],
+                "value": "Kroot Farstalkers"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        },
+        "stats": {
+          "Ld": {
+            "value": 7
+          },
+          "M": {
+            "value": 12
+          },
+          "OC": {
+            "value": 0
+          },
+          "Sv": {
+            "value": 6
+          },
+          "T": {
+            "value": 3
+          },
+          "W": {
+            "value": 1
+          }
+        },
+        "aspects": {
+          "Label": "Kroot Hound"
+        }
       }
     },
     "gameModes": {},

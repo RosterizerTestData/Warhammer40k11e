@@ -108,8 +108,13 @@ def resolved(stem):
     return _res[stem]
 
 
-def find_unit(cat, name):
+def find_unit(cat, name, local=None):
+    """local: the book's own catalog — its suffixed variant ("Venerable Dreadnought (SW)") beats an inherited exact match"""
     k = next((x for x in cat if x.split("§")[0] in UNITCLS and n(x.split("§", 1)[1]) == n(name)), None)
+    if k and local is not None and k not in local:
+        own = [x for x in local if x.split("§")[0] in UNITCLS and "(" in x and n(re.sub(r"\s*\(.*?\)\s*$", "", x.split("§", 1)[1])) == n(name)]
+        if len(own) == 1:
+            return own[0]
     if k:
         return k
     cands = [x for x in cat if x.split("§")[0] in UNITCLS and n(re.sub(r"\s*\(.*?\)\s*$", "", x.split("§", 1)[1])) == n(name)]
@@ -204,7 +209,7 @@ for did, d in ds.items():
         continue
     legends = "Legends" in src.get(d["source_id"], {}).get("name", "")
     cat = resolved(stem)
-    uk = find_unit(cat, d["name"])
+    uk = find_unit(cat, d["name"], raw[stem]["rulebook"]["assetCatalog"])
     if not uk:
         if any(find_unit(raw[s]["rulebook"]["assetCatalog"], d["name"]) for s in raw if s != stem):
             continue   # another faction's unit fielded as an ally (e.g. renegades for Knights/Daemons)

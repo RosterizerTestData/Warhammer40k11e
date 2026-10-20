@@ -16081,8 +16081,36 @@
         }
       },
       "Ranged Weapon§Terrax-pattern Termite—Heavy flamer": {
-        "aspects": {
-          "Label": "Heavy flamer"
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Ignores Cover",
+            "Ability§Torrent"
+          ]
+        },
+        "removed": {
+          "assets": {
+            "traits": [
+              "Ability§Blast"
+            ]
+          }
         }
       },
       "Ability§Invocation of Machine Vengeance": {

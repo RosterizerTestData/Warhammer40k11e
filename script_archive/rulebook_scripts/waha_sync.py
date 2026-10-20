@@ -121,7 +121,7 @@ def export():
     have_mfm = mfm_units(stem, FACTIONS_TXT)
     out, legends = [], []
     for d in datasheets_for(stem):
-        uk = find_unit(res, d["name"])
+        uk = find_unit(res, d["name"], cat)
         if not uk:
             elsewhere = [s_ for s_, b_ in books.items() if s_ != stem and find_unit(b_["rulebook"]["assetCatalog"], d["name"])]
             if elsewhere:   # another faction's unit Waha lists here (allies, e.g. renegades for Knights/Daemons): not ours to build
@@ -254,7 +254,7 @@ def ally_unit(uk):
 
 def sync():
     for d in datasheets_for(stem):
-        uk = find_unit(res, d["name"])
+        uk = find_unit(res, d["name"], cat)
         if not uk:
             continue
         if ally_unit(uk):
@@ -415,7 +415,7 @@ def sync_attached_to():
         for t in targets:
             attachers.setdefault(t, set()).add(lid)
     for d in datasheets_for(stem):
-        uk = find_unit(res, d["name"])
+        uk = find_unit(res, d["name"], cat)
         if not uk:
             continue
         for lid in sorted(attachers.get(d["id"], ())):
