@@ -46,7 +46,7 @@ for old, new in renames.items():
     if not ok:
         review.append(f"rename: {old} not found"); continue
     s = json.dumps(d, ensure_ascii=False)
-    s = s.replace(f'"{ok}"', f'"{ok.split("§")[0]}§{new}"').replace(f"§{old}—", f"§{new}—")
+    s = s.replace(f'"{ok}"', f'"{ok.split("§")[0]}§{new}"').replace(f"§{old}—", f"§{new}—").replace(f'"{old}"', f'"{new}"')
     d = json.loads(s); cat = d["rulebook"]["assetCatalog"]
     log.append(f"rename {ok} -> {new}")
 
@@ -129,19 +129,40 @@ def set_statline(asset, row):
             ch.append(f"{s} {(old or {}).get('value')}→{v.get('value')}")
     return ch
 
+SHARED_SEEN = {}
+def referenced(U):
+    """weapon keys referenced by the unit (and its models), by normalised weapon name"""
+    uk = unit_key(U) or next((x for x in cat if x.split("§")[0] in UNITCLS and x.split("§", 1)[1] == U), None)
+    if not uk:
+        return {}
+    blob = json.dumps(cat[uk], ensure_ascii=False)
+    blob += "".join(json.dumps(cat.get(m, {}), ensure_ascii=False) for m in set(re.findall(r'"(Model§[^"]+)"', blob)))
+    out = {}
+    for k in set(re.findall(r'"((?:Ranged Weapon|Melee Weapon|Weapon)§[^"]+)"', blob)):
+        if "—" in k:
+            out.setdefault((k.split("§")[0], n(k.split("—", 1)[1])), k)
+    return out
+
 def sync_weapons(U, ds, created_ok=True):
     out = []
+    refs = referenced(U)
+    def find_w(pre, name):
+        kind = pre.split("§")[0]
+        k = find(pre, name) or refs.get((kind, n(name)))
+        if k and not k.startswith(pre):          # shared weapon (e.g. an armoury): note conflicting codex profiles
+            SHARED_SEEN.setdefault(k, set())
+        return k
     for kind, key in (("Ranged", "rangedWeapons"), ("Melee", "meleeWeapons")):
         pre = f"{kind} Weapon§{U}—"
         for w in ds.get(key) or []:
             profs = w.get("profiles") or []
             if len(profs) > 1:
                 base_name = en(profs[0]["name"]).split(" – ")[0].split(" - ")[0].strip()
-                pk = find(pre, base_name) or find(f"Weapon§{U}—", base_name) or pre + base_name
+                pk = find_w(pre, base_name) or find(f"Weapon§{U}—", base_name) or pre + base_name
                 parent = cat.get(pk, {})
                 prof_keys = []
                 for pr in profs:
-                    k = find(pre, en(pr["name"]))
+                    k = find_w(pre, en(pr["name"]))
                     if not k:
                         mode = en(pr["name"]).split(" – ", 1)[-1].lower()
                         k = f"{pre}{pk.split('—', 1)[1]} – {mode}"
@@ -159,12 +180,14 @@ def sync_weapons(U, ds, created_ok=True):
                 cat[pk] = parent
             elif profs:
                 pr = profs[0]
-                k = find(pre, en(pr["name"]))
+                k = find_w(pre, en(pr["name"]))
                 if not k:
                     k = pre + en(pr["name"])
                     out.append(f"+ {k}")
                 before = json.dumps(cat.get(k), sort_keys=True)
                 cat[k] = weapon_asset(kind, pr, cat.get(k))
+                if k in SHARED_SEEN:
+                    SHARED_SEEN[k].add(json.dumps({x: pr.get(x) for x in ("range", "attacks", "skill", "strength", "ap", "damage")}, sort_keys=True) + str(sorted(map(str, pr.get("keywords") or []))))
                 if before != json.dumps(cat[k], sort_keys=True) and "+ " + k not in out:
                     out.append(f"~ {k}")
     return out
@@ -250,7 +273,10 @@ attach = []
 for ds in missing:
     name = en(ds["name"])
     kws = [en(k) for k in ds.get("keywords") or []]
-    cls = "Character" if "Character" in kws else "Unit"
+    have = {x.split("§")[0] for x in cat}
+    cls = ("Character" if "Character" in kws else
+           "Vehicle" if "Vehicle" in kws and "Vehicle" in have else
+           "Infantry/Mounted" if ({"Infantry", "Mounted", "Beast", "Swarm"} & set(kws)) and "Infantry/Mounted" in have else "Unit")
     uk = f"{cls}§{name}"
     a = {"keywords": {"Faction": [en(f) for f in ds.get("factions") or [faction]], "Source": ["11th Edition Codex"],
                       "Keywords": kws + ([name] if name not in kws else []),
@@ -313,6 +339,9 @@ for (uk, role), targets in by_role.items():
         if uk not in items:
             items.append(uk)
 
+for k, profs in SHARED_SEEN.items():
+    if len(profs) > 1:
+        review.append(f"shared weapon {k}: codex datasheets disagree ({len(profs)} profiles) — last one written")
 print("\n".join(log))
 print("\n=== REVIEW ===\n" + "\n".join(dict.fromkeys(review)))
 if APPLY:
