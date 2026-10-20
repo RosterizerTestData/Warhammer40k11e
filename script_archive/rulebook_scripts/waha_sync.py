@@ -241,10 +241,24 @@ def ability_key(name, desc, U):
     return {"item": key, "stats": {"x": {"value": x}}} if x else key
 
 
+SHARED_PARENTS = {"Chaos", "Imperium", "Space_Marines", "Warhammer_40k_11e"}   # hubs + the SM parent of chapter books
+
+
+def ally_unit(uk):
+    """unit defined only in a dependency that is another faction's own book (Tyranids for GSC, Harlequins for Drukhari…)"""
+    if uk in cat:
+        return False
+    owners = [s for s in chain(books, stem) if uk in books[s]["rulebook"]["assetCatalog"]]
+    return bool(owners) and not any(o in SHARED_PARENTS for o in owners)
+
+
 def sync():
     for d in datasheets_for(stem):
         uk = find_unit(res, d["name"])
         if not uk:
+            continue
+        if ally_unit(uk):
+            review.append(f"{uk}: inherited from another faction's book (ally) — synced there, not overridden here")
             continue
         U = uk.split("§", 1)[1]
         did = d["id"]
