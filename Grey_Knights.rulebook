@@ -418,7 +418,8 @@
             "Psyker",
             "Terminator",
             "Imperium",
-            "Brother-Captain"
+            "Brother-Captain",
+            "Grenades"
           ],
           "Category": [
             "Character"
@@ -595,7 +596,8 @@
             "Character",
             "Psyker",
             "Imperium",
-            "Brotherhood Champion"
+            "Brotherhood Champion",
+            "Grenades"
           ],
           "Category": [
             "Character"
@@ -726,7 +728,8 @@
             "Character",
             "Terminator",
             "Psyker",
-            "Imperium"
+            "Imperium",
+            "Brotherhood Librarian"
           ],
           "Category": [
             "Character"
@@ -794,11 +797,11 @@
       "Character§Brotherhood Techmarine": {
         "assets": {
           "traits": [
-            "Ability§Deep Strike",
             {
               "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following units:\n\n* Purifiers\n* Purgation Squad\n* Strike Squad"
+              "text": "This model can be attached to the following units:\n\n* Purgation Squad\n\n* Purifier Squad\n\n* Strike Squad"
             },
+            "Ability§Deep Strike",
             "Ability§Gate of Infinity",
             "Ability§Blessing of the Omnissiah",
             "Ability§Guardians of the Machine",
@@ -858,14 +861,13 @@
         },
         "assets": {
           "traits": [
-            "Ability§Deep Strike",
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Purifier Squad"
+              "text": "This model can be attached to the following units:\n\n* Purifier Squad"
             },
+            "Ability§Deep Strike",
             "Ability§Gate of Infinity",
             "Ability§Champion of the Order of Purifiers (psychic)",
-            "Ability§Foesight (psychic)",
             {
               "item": "Ability§Invulnerable",
               "stats": {
@@ -876,7 +878,8 @@
             },
             "Ranged Weapon§Castellan Crowe—Purifying Flame",
             "Ranged Weapon§Castellan Crowe—Storm bolter",
-            "Melee Weapon§Castellan Crowe—Black Blade of Antwyr"
+            "Melee Weapon§Castellan Crowe—Black Blade of Antwyr",
+            "Ability§Foresight"
           ]
         },
         "keywords": {
@@ -892,7 +895,8 @@
             "Epic Hero",
             "Psyker",
             "Imperium",
-            "Castellan Crowe"
+            "Castellan Crowe",
+            "Grenades"
           ],
           "Category": [
             "Epic Hero"
@@ -4207,8 +4211,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Grand Master in Nemesis Dreadknight—Nemesis greatsword – sweep",
-            "Melee Weapon§Grand Master in Nemesis Dreadknight—Nemesis greatsword – strike"
+            "Melee Weapon§Grand Master in Nemesis Dreadknight—Nemesis greatsword – strike",
+            "Melee Weapon§Grand Master in Nemesis Dreadknight—Nemesis greatsword – sweep"
           ]
         },
         "keywords": {
@@ -4969,8 +4973,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Nemesis Dreadknight—Nemesis greatsword – sweep",
-            "Melee Weapon§Nemesis Dreadknight—Nemesis greatsword – strike"
+            "Melee Weapon§Nemesis Dreadknight—Nemesis greatsword – strike",
+            "Melee Weapon§Nemesis Dreadknight—Nemesis greatsword – sweep"
           ]
         },
         "keywords": {
@@ -5149,7 +5153,7 @@
             "value": "Melee"
           },
           "S": {
-            "value": 5
+            "value": 4
           },
           "WS": {
             "value": 3
@@ -5258,7 +5262,7 @@
             "value": "Melee"
           },
           "S": {
-            "value": 5
+            "value": 4
           },
           "WS": {
             "value": 3
@@ -7306,8 +7310,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -2
@@ -7338,8 +7342,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -3
@@ -8771,8 +8775,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Stormhawk Interceptor—Typhoon missile launcher – krak",
-            "Ranged Weapon§Stormhawk Interceptor—Typhoon missile launcher – frag"
+            "Ranged Weapon§Stormhawk Interceptor—Typhoon missile launcher – frag",
+            "Ranged Weapon§Stormhawk Interceptor—Typhoon missile launcher – krak"
           ]
         },
         "keywords": {
@@ -9129,8 +9133,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Stormraven Gunship—Typhoon missile launcher – krak",
-            "Ranged Weapon§Stormraven Gunship—Typhoon missile launcher – frag"
+            "Ranged Weapon§Stormraven Gunship—Typhoon missile launcher – frag",
+            "Ranged Weapon§Stormraven Gunship—Typhoon missile launcher – krak"
           ]
         },
         "keywords": {
@@ -9343,8 +9347,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Stormtalon Gunship—Typhoon missile launcher – krak",
-            "Ranged Weapon§Stormtalon Gunship—Typhoon missile launcher – frag"
+            "Ranged Weapon§Stormtalon Gunship—Typhoon missile launcher – frag",
+            "Ranged Weapon§Stormtalon Gunship—Typhoon missile launcher – krak"
           ]
         },
         "keywords": {
@@ -10675,7 +10679,7 @@
             "value": -1
           },
           "BS": {
-            "value": 3
+            "value": 2
           },
           "D": {
             "value": 1
@@ -10975,8 +10979,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -2
@@ -11008,8 +11012,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -3
@@ -12225,7 +12229,9 @@
                 }
               }
             },
-            "Ability§Guidance of the Ancients (aura)"
+            "Ability§Guidance of the Ancients (aura)",
+            "Ability§Gate of Infinity",
+            "Ability§Wisdom of the Ancients"
           ]
         },
         "keywords": {
@@ -12511,7 +12517,8 @@
             "Transport",
             "Smoke",
             "Imperium",
-            "Land Raider"
+            "Land Raider",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -12657,7 +12664,8 @@
             "Grenades",
             "Imperium",
             "Land Raider",
-            "Crusader"
+            "Crusader",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -12803,7 +12811,8 @@
             "Grenades",
             "Imperium",
             "Land Raider",
-            "Redeemer"
+            "Redeemer",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -12938,7 +12947,8 @@
             "Dedicated Transport",
             "Smoke",
             "Imperium",
-            "Razorback"
+            "Razorback",
+            "Frame"
           ],
           "Category": [
             "Vehicle—Dedicated Transport"
@@ -13244,7 +13254,8 @@
             "Dedicated Transport",
             "Smoke",
             "Imperium",
-            "Rhino"
+            "Rhino",
+            "Frame"
           ],
           "Category": [
             "Vehicle—Dedicated Transport"
@@ -13337,7 +13348,6 @@
                 }
               }
             },
-            "Ability§Hover",
             "Ability§Interceptor",
             "Ranged Weapon§Stormhawk Interceptor—Twin assault cannon",
             "Melee Weapon§Stormhawk Interceptor—Armoured hull"
@@ -13428,7 +13438,7 @@
           },
           "M": {
             "statType": "term",
-            "value": "20+"
+            "value": "-"
           },
           "OC": {
             "value": 0
@@ -13639,7 +13649,6 @@
                 }
               }
             },
-            "Ability§Hover",
             "Ability§Strafing Run",
             "Ranged Weapon§Stormtalon Gunship—Twin assault cannon",
             "Melee Weapon§Stormtalon Gunship—Armoured hull"
@@ -13711,7 +13720,7 @@
           },
           "M": {
             "statType": "term",
-            "value": "20+"
+            "value": "-"
           },
           "OC": {
             "value": 0
@@ -13736,14 +13745,6 @@
         },
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Deadly Demise",
-              "stats": {
-                "x": {
-                  "value": "D6"
-                }
-              }
-            },
             "Ability§Hover",
             "Ability§Aerial Assault",
             {
@@ -13764,7 +13765,15 @@
             "Ranged Weapon§Grey Knights Thunderhawk Gunship—Twin heavy bolter",
             "Ranged Weapon§Grey Knights Thunderhawk Gunship—Twin heavy bolter",
             "Ranged Weapon§Grey Knights Thunderhawk Gunship—Twin heavy bolter",
-            "Melee Weapon§Grey Knights Thunderhawk Gunship—Armoured hull"
+            "Melee Weapon§Grey Knights Thunderhawk Gunship—Armoured hull",
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D6+2"
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -13781,7 +13790,8 @@
             "Aircraft",
             "Transport",
             "Imperium",
-            "Thunderhawk Gunship"
+            "Thunderhawk Gunship",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -14140,7 +14150,6 @@
             },
             "Ability§Deep Strike",
             "Ability§Gate of Infinity",
-            "Ability§Empyric Reprisal (psychic)",
             {
               "item": "Ability§Damaged:",
               "stats": {
@@ -14156,7 +14165,8 @@
                   "value": "4+"
                 }
               }
-            }
+            },
+            "Ability§Indomitable Spirit"
           ]
         },
         "keywords": {
@@ -14758,7 +14768,8 @@
           "items": [
             "Model§Purgator",
             "Character§Brotherhood Champion",
-            "Ability§Techmarine"
+            "Ability§Techmarine",
+            "Character§Brotherhood Techmarine"
           ]
         },
         "assets": {
@@ -15071,20 +15082,20 @@
         "assets": {
           "traits": [
             "Ability§Deep Strike",
-            {
-              "item": "Ability§Scouts",
-              "stats": {
-                "x": {
-                  "value": "6″"
-                }
-              }
-            },
             "Ability§Gate of Infinity",
             "Ability§Sanctifying Ritual (psychic)",
             "Model§Justicar",
             {
               "item": "Model§Grey Knight",
               "quantity": 4
+            },
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "6\""
+                }
+              }
             }
           ]
         },
@@ -15411,6 +15422,15 @@
             "Ability§Extra Attacks"
           ]
         }
+      },
+      "Ability§Foresight": {
+        "text": "_Psychic_\n\nEach time this model makes an attack that targets a **CHARACTER** unit, you can re-roll the Hit roll."
+      },
+      "Ability§Indomitable Spirit": {
+        "text": "_Psychic_\n\nThis model is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
+      },
+      "Ability§Wisdom of the Ancients": {
+        "text": "_Aura_\n\nWhile a friendly Grey Knights Infantry unit is within 6\" of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
       }
     },
     "gameModes": {},

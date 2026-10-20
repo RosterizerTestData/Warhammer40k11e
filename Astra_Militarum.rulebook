@@ -1644,15 +1644,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Catachan Jungle Fighters"
-            },
-            {
-              "item": "Ability§Scouts",
-              "stats": {
-                "x": {
-                  "value": "6″"
-                }
-              }
+              "text": "This model can be attached to the following units:\n\n* Catachan Jungle Fighters"
             },
             "Ability§Voice of Command",
             "Ability§Cold Steel and Courage",
@@ -1676,6 +1668,14 @@
                 }
               },
               "text": "This **Officer** can issue up to 2 Orders to:\n\n■ Regiment units"
+            },
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "6\""
+                }
+              }
             }
           ]
         },
@@ -1740,10 +1740,6 @@
                   "value": "5+"
                 }
               }
-            },
-            {
-              "item": "Ability§Orders",
-              "text": "This **Officer** can issue up to 2 Orders to:\n\n■ Regiment units"
             }
           ]
         },
@@ -1876,7 +1872,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This unit can be attached to the following unit:\n\n* Cadian Shock Troops"
+              "text": "This model can be attached to the following units:\n\n* Cadian Shock Troops"
             },
             "Ability§Voice of Command",
             "Ability§Cadia Stands!",
@@ -1884,11 +1880,7 @@
             "Model§Cadian Veteran Guardsmen - Banner",
             "Model§Cadian Veteran Guardsmen - Vox",
             "Model§Cadian Veteran Guardsmen - Medic",
-            "Model§Cadian Veteran Guardsmen - Chainsword",
-            {
-              "item": "Ability§Orders",
-              "text": "This unit's **Officer** can issue up to 1 Order to:\n\n■ Regiment units"
-            }
+            "Model§Cadian Veteran Guardsmen - Chainsword"
           ]
         },
         "keywords": {
@@ -1948,26 +1940,22 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "\n\nThis unit can be attached to the following unit: \n\n* Catachan Jungle Fighters"
-            },
-            {
-              "item": "Ability§Scouts",
-              "stats": {
-                "x": {
-                  "value": "6″"
-                }
-              }
+              "text": "This model can be attached to the following units:\n\n* Catachan Jungle Fighters"
             },
             "Ability§Voice of Command",
-            {
-              "item": "Ability§Orders",
-              "text": "This unit's **Officer** can issue up to 1 Order to:\n\n■ Regiment units"
-            },
             "Ability§Gung-ho Command",
             "Model§Catachan Commander",
             {
               "item": "Model§Veteran Guardsman (CCS)",
               "quantity": 4
+            },
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "6\""
+                }
+              }
             }
           ]
         },
@@ -2091,7 +2079,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Cadian Shock Troops\n\n* Catachan Jungle Fighters\n\n* Death Korps of Krieg\n\n* Krieg Combat Engineers\n\n* Kasrkin\n\n* Tempestus Scions"
+              "text": "This model can be attached to the following units:\n\n* Cadian Shock Troops\n\n* Catachan Jungle Fighters\n\n* Death Korps Grenadier Squad\n\n* Death Korps Of Krieg\n\n* Kasrkin\n\n* Krieg Combat Engineers\n\n* Tempestus Scions"
             },
             "Ability§Voice of Command",
             "Ability§Summary Execution",
@@ -2103,15 +2091,6 @@
                   "value": "5+"
                 }
               }
-            },
-            {
-              "item": "Ability§Orders",
-              "stats": {
-                "orderException": {
-                  "value": "This Officer can only issue the Duty and Honour! and Fix Bayonets! Orders."
-                }
-              },
-              "text": "This **Officer** can issue up to 1 Order to:\n\n■ Regiment units\n\nThis **Officer** can only issue the Duty and Honour! and Fix Bayonets! Orders."
             }
           ]
         },
@@ -2229,13 +2208,8 @@
               }
             },
             "Ability§Voice of Command",
-            {
-              "item": "Ability§Orders",
-              "text": "This Officer can issue 1 Order to Regiment or Squadron units. This Officer can only issue the Move!\nMove! Move!, Duty and Honour! and Fix Bayonets! Orders."
-            },
             "Ability§Mechanised Spearhead",
             "Ability§Brutal Disciplinarian",
-            "Ability§Aquiline Prow",
             "Ranged Weapon§Commissar Graves—Chiron gatling cannon",
             "Ranged Weapon§Commissar Graves—Prefectus heavy stubber",
             "Melee Weapon§Commissar Graves—Armoured hull",
@@ -2250,7 +2224,9 @@
             "Imperium",
             "Officer",
             "Squadron",
-            "Vehicle"
+            "Vehicle",
+            "Character",
+            "Frame"
           ],
           "Faction": [
             "Astra Militarum"
@@ -2290,6 +2266,10 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Cadian Shock Troops\n\n* Catachan Jungle Fighters\n\n* Death Korps Grenadier Squad\n\n* Death Korps Of Krieg\n\n* Kasrkin\n\n* Krieg Combat Engineers\n\n* Tempestus Scions"
+            },
+            {
               "item": "Ability§Invulnerable",
               "stats": {
                 "x": {
@@ -2297,17 +2277,9 @@
                 }
               }
             },
-            {
-              "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following units: \n- Cadian Shock Troops\n- Catachan Jungle Fighters\n- Death Korps of Krieg\n- Kasrkin\n- Krieg Combat Engineers\n- Tempestus Scions."
-            },
             "Ability§Voice of Command",
             "Ability§Icon of Discipline",
             "Ability§Brutal Disciplinarian",
-            {
-              "item": "Ability§Orders",
-              "text": "This Officer can issue 1 Order to Regiment units. This Officer can only issue the Move! Move! Move!, Duty and Honour! and Fix Bayonets! Orders."
-            },
             "Ranged Weapon§Commissar Graves on Foot—Bolt pistol",
             "Melee Weapon§Commissar Graves on Foot—Power sword and Manus Mortis"
           ]
@@ -2318,7 +2290,8 @@
             "Commissar Graves on Foot",
             "Epic Hero",
             "Imperium",
-            "Infantry"
+            "Infantry",
+            "Officer"
           ],
           "Category": [
             "Epic Hero"
@@ -2359,7 +2332,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following units: \n\n- Cadian Shock Troops\n- Catachan Jungle Fighters\n- Death Korps of Krieg\n- Kasrkin\n- Krieg Combat Engineers\n- Tempestus Scions"
+              "text": "This model can be attached to the following units:\n\n* Cadian Shock Troops\n\n* Catachan Jungle Fighters\n\n* Death Korps Grenadier Squad\n\n* Death Korps Of Krieg\n\n* Kasrkin\n\n* Krieg Combat Engineers\n\n* Tempestus Scions"
             },
             {
               "item": "Ability§Invulnerable",
@@ -2369,10 +2342,6 @@
                 }
               }
             },
-            {
-              "item": "Ability§Orders",
-              "text": "This Officer can issue up to 2 Orders to Regiment, Squadron or Titanic units."
-            },
             "Ability§Will of Iron",
             "Ability§Hero of Hades Hive",
             "Ranged Weapon§Commissar Yarrick—Bale Eye",
@@ -2380,7 +2349,10 @@
             "Ranged Weapon§Commissar Yarrick—Storm bolter",
             "Melee Weapon§Commissar Yarrick—Power klaw",
             "Melee Weapon§Commissar Yarrick—Power sword",
-            "Ability§Voice of Command"
+            "Ability§Voice of Command",
+            "Ability§Counterstrategist (Commissar Yarrick)",
+            "Ability§Decisive Command",
+            "Ability§Inspiring Hero"
           ]
         },
         "keywords": {
@@ -2549,7 +2521,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Death Rider Squadron You can attach this model to the above unit even if one Death Rider Squadron Commander model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+              "text": "This model can be attached to the following units:\n\n* Death Riders"
             },
             "Ability§Voice of Command",
             "Ability§Summary Execution",
@@ -2772,19 +2744,7 @@
             "Model§Tanith Ghosts - Rawne",
             "Model§Tanith Ghosts - Larkin",
             "Model§Tanith Ghosts - Bragg",
-            "Model§Tanith Ghosts - Mkoll",
-            {
-              "item": "Ability§Orders",
-              "stats": {
-                "orderX": {
-                  "value": 2
-                },
-                "orderUnits": {
-                  "value": "Regiment or Gaunt’s Ghosts"
-                }
-              },
-              "text": "This unit's **Officer** can issue up to 2 Orders to:\n\n■ Regiment units\n\n■ Guant's Ghosts"
-            }
+            "Model§Tanith Ghosts - Mkoll"
           ]
         },
         "keywords": {
@@ -2850,7 +2810,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following unit:\n\n- Cadian Shock Troops"
+              "text": "This model can be attached to the following units:\n\n* Cadian Shock Troops"
             },
             "Ability§Voice of Command",
             "Ability§Heroic Example",
@@ -2912,13 +2872,9 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This unit can be attached to the following units:\n\n* Death Korps of Krieg\n* Krieg Combat Engineers"
+              "text": "This model can be attached to the following units:\n\n* Death Korps Grenadier Squad\n\n* Death Korps Of Krieg\n\n* Krieg Combat Engineers"
             },
             "Ability§Voice of Command",
-            {
-              "item": "Ability§Orders",
-              "text": "This unit's **Officer** can issue up to 1 Order to:\n\n■ Regiment units"
-            },
             "Ability§Grim Determination",
             "Model§Lord Comissar",
             "Model§Veteran Guardsmen (Krieg) - Chainsword",
@@ -3003,19 +2959,7 @@
                 }
               }
             },
-            "Melee Weapon§Leman Russ Commander—Armoured tracks",
-            {
-              "item": "Ability§Orders",
-              "stats": {
-                "orderX": {
-                  "value": 2
-                },
-                "orderUnits": {
-                  "value": "Squadron"
-                }
-              },
-              "text": "This **Officer** can issue up to 2 Order to:\n\n■ Squadron units"
-            }
+            "Melee Weapon§Leman Russ Commander—Armoured tracks"
           ]
         },
         "keywords": {
@@ -3032,7 +2976,8 @@
             "Smoke",
             "Squadron",
             "Leman Russ Commander",
-            "Vehicle"
+            "Vehicle",
+            "Frame"
           ],
           "Category": [
             "Character"
@@ -3228,7 +3173,7 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Leman Russ Eradicator—Eradicator nova cannon"
+                    "trait": "Ranged Weapon§Leman Russ Commander—Eradicator nova cannon"
                   }
                 ]
               },
@@ -3286,26 +3231,9 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "\n\nThis unit can be attached to the following unit: \n\n* Death Riders"
-            },
-            {
-              "item": "Ability§Feel No Pain",
-              "stats": {
-                "x": {
-                  "value": "6"
-                }
-              }
+              "text": "This model can be attached to the following units:\n\n* Death Riders"
             },
             "Ability§Voice of Command",
-            {
-              "item": "Ability§Orders",
-              "stats": {
-                "orderX": {
-                  "value": 3
-                }
-              },
-              "text": "This **Officer** can issue up to 3 Orders to:\n\n■ Regiment units"
-            },
             {
               "item": "Ability§Invulnerable",
               "stats": {
@@ -3318,7 +3246,15 @@
             "Ability§Leading the Charge",
             "Ranged Weapon§Lord Marshal Dreir—Laspistol",
             "Melee Weapon§Lord Marshal Dreir—Sabre of Sacrifice",
-            "Melee Weapon§Lord Marshal Dreir—Savage claws"
+            "Melee Weapon§Lord Marshal Dreir—Savage claws",
+            {
+              "item": "Ability§Feel No Pain",
+              "stats": {
+                "x": {
+                  "value": "6+"
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -3373,12 +3309,11 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following units:\n\n* Attilan Rough Riders\n\n* Cadian Shock Troops\n\n* Catachan Jungle Fighters\n\n* Death Korps of Krieg\n\n* Death Riders\n\n* Kasrkin\n\n* Krieg Combat Engineers"
+              "text": "This model can be attached to the following units:\n\n* Attilan Rough Riders\n\n* Cadian Shock Troops\n\n* Catachan Jungle Fighters\n\n* Death Korps Grenadier Squad\n\n* Death Korps Of Krieg\n\n* Death Riders\n\n* Kasrkin\n\n* Krieg Combat Engineers"
             },
             "Ability§Voice of Command",
             "Ability§The Lord Solar",
             "Ability§The Collegiate Astrolex",
-            "Ability§Supreme Commander",
             {
               "item": "Ability§Invulnerable",
               "stats": {
@@ -3389,19 +3324,7 @@
             },
             "Ranged Weapon§Lord Solar Leontus—Sol’s Righteous Gaze",
             "Melee Weapon§Lord Solar Leontus—Conquest",
-            "Melee Weapon§Lord Solar Leontus—Konstantin’s hooves",
-            {
-              "item": "Ability§Orders",
-              "stats": {
-                "orderUnits": {
-                  "value": "Astra Militarum"
-                },
-                "orderX": {
-                  "value": 3
-                }
-              },
-              "text": "This **Officer** can issue up to 3 Orders to:\n\n■ Regiment units\n■ Squadron units\n■ Titanic units"
-            }
+            "Melee Weapon§Lord Solar Leontus—Konstantin’s hooves"
           ]
         },
         "keywords": {
@@ -3469,17 +3392,13 @@
         },
         "assets": {
           "traits": [
-            "Ability§Deep Strike",
             {
               "item": "Ability§Leader",
-              "text": "* Before the battle, Character units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.\n* Attached units can only contain one Leader.\n* Attacks cannot be allocated to Character models in Attached units.\n\nThis unit can be attached to the following unit:\n\n* Tempestus Scions"
+              "text": "This model can be attached to the following units:\n\n* Tempestus Scions"
             },
+            "Ability§Deep Strike",
             "Model§Tempestor Prime",
             "Ability§Tempestor Prime",
-            {
-              "item": "Ability§Orders",
-              "text": "This unit's **Officer** can issue up to 1 Order to:\n\n■ Regiment units"
-            },
             {
               "item": "Model§Tempestus Scion - Command Squad",
               "quantity": 4
@@ -3917,7 +3836,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Cadian Shock Troops\n\n* Catachan Jungle Fighters\n\n* Death Korps of Krieg\n\n* Krieg Combat Engineers\n\n* Kasrkin\n\n* Tempestus Scions"
+              "text": "This model can be attached to the following units:\n\n* Cadian Shock Troops\n\n* Catachan Jungle Fighters\n\n* Death Korps Grenadier Squad\n\n* Death Korps Of Krieg\n\n* Kasrkin\n\n* Krieg Combat Engineers\n\n* Tempestus Scions"
             },
             "Ability§War Hymns",
             "Ability§Holy Piety",
@@ -3962,7 +3881,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Weapon§Ministorum Priest (Agents)—Zealot's vindicator"
+                    "trait": "Weapon§Ministorum Priest—Zealot's vindicator"
                   }
                 ]
               },
@@ -4020,8 +3939,7 @@
             "Ability§Ogryn Bodyguard",
             "Ability§Thunderous Head-butt",
             "Ranged Weapon§Nork Deddog—Ripper gun",
-            "Melee Weapon§Nork Deddog—Huge knife",
-            "Ability§Loyal Protector"
+            "Melee Weapon§Nork Deddog—Huge knife"
           ]
         },
         "keywords": {
@@ -4084,7 +4002,6 @@
               }
             },
             "Ability§Ogryn Bodyguard",
-            "Ability§Loyal Protector",
             "Melee Weapon§Ogryn Bodyguard—Close combat weapon"
           ]
         },
@@ -4102,7 +4019,8 @@
             "Infantry",
             "Loyal Protector",
             "Ogryn",
-            "Ogryn Bodyguard"
+            "Ogryn Bodyguard",
+            "Bodyguard"
           ],
           "Category": [
             "Character"
@@ -4435,7 +4353,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Cadian Shock Troops\n\n* Catachan Jungle Fighters\n\n* Death Korps of Krieg\n\n* Krieg Combat Engineers\n\n* Kasrkin\n\n* Tempestus Scions"
+              "text": "This model can be attached to the following units:\n\n* Cadian Shock Troops\n\n* Catachan Jungle Fighters\n\n* Death Korps Grenadier Squad\n\n* Death Korps Of Krieg\n\n* Kasrkin\n\n* Krieg Combat Engineers\n\n* Tempestus Scions"
             },
             "Ability§Malign Wardings (Psychic)",
             "Ability§Psychic Barrier (Psychic)",
@@ -4489,11 +4407,11 @@
       "Character§Provisionally Prepared": {
         "assets": {
           "traits": [
-            "Ability§Infiltrators",
             {
               "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following unit:\n\n- Ratlings"
+              "text": "This model can be attached to the following units:\n\n* Ratlings"
             },
+            "Ability§Infiltrators",
             "Ability§Stealth",
             "Ability§A Hearty 'Pick Me Up\"",
             "Ability§Well-stocked Supplies",
@@ -4552,7 +4470,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "\n\nThis unit can be attached to the following units:\n\n- Death Korps of Krieg\n\n- Death Korps Grenadier Squad\n\n- Infantry Squad\n\n- Krieg Combat Engineers"
+              "text": "This model can be attached to the following units:\n\n* Death Korps Grenadier Squad\n\n* Death Korps Of Krieg\n\n* Krieg Combat Engineers"
             },
             "Ability§Medicae Medi-packs",
             "Ability§Mindlock",
@@ -4659,20 +4577,8 @@
                 }
               }
             },
-            "Ranged Weapon§Rogal Dorn Battle Tank—Heavy stubber",
-            "Melee Weapon§Rogal Dorn Battle Tank—Armoured tracks",
-            {
-              "item": "Ability§Orders",
-              "stats": {
-                "orderX": {
-                  "value": 2
-                },
-                "orderUnits": {
-                  "value": "Squadron"
-                }
-              },
-              "text": "This **Officer** can issue up to 2 Order to:\n\n■ Squadron units"
-            },
+            "Ranged Weapon§Rogal Dorn Commander—Heavy stubber",
+            "Melee Weapon§Rogal Dorn Commander—Armoured tracks",
             "Ability§Vox-net",
             "Ability§Called Shots",
             "Ability§Voice of Command"
@@ -4692,7 +4598,8 @@
             "Rogal Dorn Commander",
             "Smoke",
             "Squadron",
-            "Vehicle"
+            "Vehicle",
+            "Frame"
           ],
           "Category": [
             "Character"
@@ -4711,10 +4618,10 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Rogal Dorn Battle Tank—Heavy stubber"
+                    "trait": "Ranged Weapon§Rogal Dorn Commander—Heavy stubber"
                   },
                   {
-                    "trait": "Ranged Weapon§Rogal Dorn Battle Tank—Heavy stubber"
+                    "trait": "Ranged Weapon§Rogal Dorn Commander—Heavy stubber"
                   }
                 ]
               },
@@ -4722,10 +4629,10 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Rogal Dorn Battle Tank—Meltagun"
+                    "trait": "Ranged Weapon§Rogal Dorn Commander—Meltagun"
                   },
                   {
-                    "trait": "Ranged Weapon§Rogal Dorn Battle Tank—Meltagun"
+                    "trait": "Ranged Weapon§Rogal Dorn Commander—Meltagun"
                   }
                 ]
               }
@@ -4743,7 +4650,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Rogal Dorn Battle Tank—Castigator gatling cannon"
+                    "trait": "Ranged Weapon§Rogal Dorn Commander—Castigator gatling cannon"
                   }
                 ]
               },
@@ -4751,7 +4658,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Rogal Dorn Battle Tank—Pulveriser cannon"
+                    "trait": "Ranged Weapon§Rogal Dorn Commander—Pulveriser cannon"
                   }
                 ]
               }
@@ -4784,10 +4691,10 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Rogal Dorn Battle Tank—Heavy bolter"
+                    "trait": "Ranged Weapon§Rogal Dorn Commander—Heavy bolter"
                   },
                   {
-                    "trait": "Ranged Weapon§Rogal Dorn Battle Tank—Heavy bolter"
+                    "trait": "Ranged Weapon§Rogal Dorn Commander—Heavy bolter"
                   }
                 ]
               },
@@ -4795,10 +4702,10 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Rogal Dorn Battle Tank—Multi-melta"
+                    "trait": "Ranged Weapon§Rogal Dorn Commander—Multi-melta"
                   },
                   {
-                    "trait": "Ranged Weapon§Rogal Dorn Battle Tank—Multi-melta"
+                    "trait": "Ranged Weapon§Rogal Dorn Commander—Multi-melta"
                   }
                 ]
               }
@@ -4822,7 +4729,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Rogal Dorn Battle Tank—Twin battle cannon"
+                    "trait": "Ranged Weapon§Rogal Dorn Commander—Twin battle cannon"
                   }
                 ]
               },
@@ -4830,7 +4737,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Rogal Dorn Battle Tank—Oppressor cannon"
+                    "trait": "Ranged Weapon§Rogal Dorn Commander—Oppressor cannon"
                   },
                   {
                     "trait": "Ranged Weapon§Rogal Dorn Commander—Co-axial autocannon"
@@ -4860,22 +4767,14 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Catachan Jungle Fighters"
+            },
+            {
               "item": "Ability§Feel No Pain",
               "stats": {
                 "x": {
                   "value": "6+"
-                }
-              }
-            },
-            {
-              "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Catachan Jungle Fighters"
-            },
-            {
-              "item": "Ability§Scouts",
-              "stats": {
-                "x": {
-                  "value": "6″"
                 }
               }
             },
@@ -4892,6 +4791,14 @@
                 }
               },
               "text": "This **Officer** can issue up to 1 Order to:\n\n■ Catachan Jungle Fighters"
+            },
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "6\""
+                }
+              }
             }
           ]
         },
@@ -4950,7 +4857,6 @@
             "Ability§Stealth",
             "Ability§One-man Army",
             "Ability§Like Fighting a Shadow",
-            "Ability§Loner",
             "Ranged Weapon§Sly Marbo—Ripper pistol",
             "Melee Weapon§Sly Marbo—Envenomed blade"
           ]
@@ -5004,7 +4910,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* **Cadian Shock Troops**\n\n* **Catachan Jungle Fighters**\n\n* **Death Korps of Krieg**\n\n* **Infantry Squad**\n\n* **Kasrkin**\n\n* **Krieg Combat Engineers**"
+              "text": "This model can be attached to the following units:\n\n* Cadian Shock Troops\n\n* Catachan Jungle Fighters\n\n* Death Korps Grenadier Squad\n\n* Death Korps Of Krieg\n\n* Kasrkin\n\n* Krieg Combat Engineers"
             },
             "Ability§Enginseer",
             "Ability§Omnissiah’s Blessing",
@@ -5069,6 +4975,10 @@
         },
         "assets": {
           "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Cadian Shock Troops\n\n* Kasrkin"
+            },
             "Ability§Voice of Command",
             "Ability§Lord Castellan",
             "Ability§Tactical Genius",
@@ -5080,21 +4990,8 @@
                 }
               }
             },
-            {
-              "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Cadian Shock Troops\n\n* Infantry Squad\n\n* Kasrkin"
-            },
             "Ranged Weapon§Ursula Creed—Duty and Vengeance",
-            "Melee Weapon§Ursula Creed—Power weapon",
-            {
-              "item": "Ability§Orders",
-              "stats": {
-                "orderX": {
-                  "value": 3
-                }
-              },
-              "text": "This **Officer** can issue up to 3 Orders to:\n\n■ Regiment units"
-            }
+            "Melee Weapon§Ursula Creed—Power weapon"
           ]
         },
         "keywords": {
@@ -8914,8 +8811,7 @@
             {
               "item": "Model§Heavy Weapons Team (Cadian)",
               "quantity": 3
-            },
-            "Ability§Embarking"
+            }
           ]
         },
         "keywords": {
@@ -9154,7 +9050,8 @@
             "Character§Ministorum Priest",
             "Character§Ursula Creed",
             "Character§Commissar Yarrick",
-            "Character§Commissar Graves on Foot"
+            "Character§Commissar Graves on Foot",
+            "Character§Hell's Last"
           ]
         },
         "assets": {
@@ -9583,20 +9480,19 @@
         },
         "assets": {
           "traits": [
-            "Ability§Embarking",
             {
               "item": "Model§Heavy Weapons Team (Catachan)",
               "quantity": 3
             },
+            "Ability§Bring it Down!",
             {
               "item": "Ability§Scouts",
               "stats": {
                 "x": {
-                  "value": "6″"
+                  "value": "6\""
                 }
               }
-            },
-            "Ability§Bring it Down!"
+            }
           ]
         },
         "keywords": {
@@ -9657,22 +9553,23 @@
             "Character§‘Iron Hand’ Straken",
             "Character§Catachan Command Squad",
             "Character§Commissar Yarrick",
-            "Character§Commissar Graves on Foot"
+            "Character§Commissar Graves on Foot",
+            "Character§‘iron Hand’ Straken"
           ]
         },
         "assets": {
           "included": [],
           "traits": [
+            "Ability§Jungle Fighters",
+            "Ability§Unit Composition",
             {
               "item": "Ability§Scouts",
               "stats": {
                 "x": {
-                  "value": "6″"
+                  "value": "6\""
                 }
               }
-            },
-            "Ability§Jungle Fighters",
-            "Ability§Unit Composition"
+            }
           ]
         },
         "keywords": {
@@ -9853,7 +9750,15 @@
         "allowed": {
           "items": [
             "Model§Grenadier",
-            "Character§Quartermaster Cadre Squad"
+            "Character§Quartermaster Cadre Squad",
+            "Character§Commissar",
+            "Character§Primaris Psyker",
+            "Character§Ministorum Priest",
+            "Character§Tech-Priest Enginseer",
+            "Character§Lord Solar Leontus",
+            "Character§Krieg Command Squad",
+            "Character§Commissar Yarrick",
+            "Character§Commissar Graves on Foot"
           ]
         },
         "assets": {
@@ -9864,7 +9769,8 @@
             {
               "item": "Model§Grenadier",
               "quantity": 9
-            }
+            },
+            "Ability§Grenadiers"
           ]
         },
         "keywords": {
@@ -9880,7 +9786,8 @@
             "Grenades",
             "Regiment",
             "Platoon",
-            "Death Korps Grenadier Squad"
+            "Death Korps Grenadier Squad",
+            "Krieg"
           ],
           "Category": [
             "Infantry"
@@ -10463,7 +10370,8 @@
             "Model§Death Rider",
             "Character§Death Rider Commissar",
             "Character§Death Rider Squadron Commander",
-            "Character§Lord Marshal Dreir"
+            "Character§Lord Marshal Dreir",
+            "Character§Lord Solar Leontus"
           ]
         },
         "assets": {
@@ -10553,7 +10461,8 @@
             "Imperium",
             "Grenades",
             "Regiment",
-            "Earthshaker Carriage Battery"
+            "Earthshaker Carriage Battery",
+            "Frame"
           ],
           "Category": [
             "Infantry"
@@ -10768,7 +10677,7 @@
           "traits": [
             "Ability§Suppression Bombardment",
             "Ability§Artillery Team",
-            "Ranged Weapon§Artillery Team—Heavy quad launcher",
+            "Ranged Weapon§Heavy Quad Launcher Team—Heavy quad launcher",
             "Melee Weapon§Heavy Quad Launcher Team—Close combat weapons"
           ]
         },
@@ -11519,19 +11428,19 @@
         },
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Scouts",
-              "stats": {
-                "x": {
-                  "value": "6″"
-                }
-              }
-            },
             "Ability§Warrior Elite",
             "Model§Kasrkin Sergeant",
             {
               "item": "Model§Kasrkin Trooper",
               "quantity": 9
+            },
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "6\""
+                }
+              }
             }
           ]
         },
@@ -11673,19 +11582,19 @@
         },
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Scouts",
-              "stats": {
-                "x": {
-                  "value": "6″"
-                }
-              }
-            },
             "Ability§Grenadiers",
             "Model§Krieg Engineer Watchmaster",
             {
               "item": "Model§Krieg Combat Engineer",
               "quantity": 4
+            },
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "6\""
+                }
+              }
             }
           ]
         },
@@ -11794,7 +11703,6 @@
               "item": "Model§Heavy Weapons Gunner",
               "quantity": 3
             },
-            "Ability§Embarking",
             "Ability§Final Duty"
           ]
         },
@@ -11895,19 +11803,19 @@
         },
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Scouts",
-              "stats": {
-                "x": {
-                  "value": "6″"
-                }
-              }
-            },
             "Ability§Desert Riders",
             "Model§Mukaali Rider Sergeant",
             {
               "item": "Model§Mukaali Riders",
               "quantity": 2
+            },
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "6\""
+                }
+              }
             }
           ]
         },
@@ -12456,16 +12364,16 @@
                 }
               }
             },
+            "Ability§Turbo-boost",
+            "Melee Weapon§Tauros Assault Vehicle—Armoured frame",
             {
               "item": "Ability§Scouts",
               "stats": {
                 "x": {
-                  "value": "9″"
+                  "value": "9\""
                 }
               }
-            },
-            "Ability§Turbo-boost",
-            "Melee Weapon§Tauros Assault Vehicle—Armoured frame"
+            }
           ]
         },
         "keywords": {
@@ -12480,7 +12388,8 @@
             "Regiment",
             "Imperium",
             "Tauros",
-            "Tauros Assault Vehicle"
+            "Tauros Assault Vehicle",
+            "Frame"
           ],
           "Category": [
             "Mounted"
@@ -12589,7 +12498,8 @@
             "Regiment",
             "Imperium",
             "Tauros",
-            "Tauros Venator"
+            "Tauros Venator",
+            "Frame"
           ],
           "Category": [
             "Mounted"
@@ -13420,8 +13330,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Attilan Rough Riders—Hunting lance – melta tip",
-            "Melee Weapon§Attilan Rough Riders—Hunting lance – frag tip"
+            "Melee Weapon§Attilan Rough Riders—Hunting lance – frag tip",
+            "Melee Weapon§Attilan Rough Riders—Hunting lance – melta tip"
           ]
         },
         "keywords": {
@@ -17360,8 +17270,8 @@
             "value": -1
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "statType": "term",
@@ -17595,8 +17505,8 @@
             "value": -2
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "statType": "term",
@@ -18870,7 +18780,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Bolt pistol"
+                    "trait": "Ranged Weapon§Cadian Command Squad—Bolt pistol"
                   }
                 ]
               },
@@ -18878,7 +18788,7 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Plasma pistol"
+                    "trait": "Ranged Weapon§Cadian Command Squad—Plasma pistol"
                   }
                 ]
               }
@@ -19015,7 +18925,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Bolt pistol"
+                    "trait": "Ranged Weapon§Cadian Command Squad—Bolt pistol"
                   }
                 ]
               },
@@ -19026,7 +18936,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Plasma pistol"
+                    "trait": "Ranged Weapon§Cadian Command Squad—Plasma pistol"
                   }
                 ]
               }
@@ -19210,7 +19120,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Boltgun"
+                    "trait": "Ranged Weapon§Catachan Command Squad—Boltgun"
                   }
                 ]
               },
@@ -19264,7 +19174,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Bolt pistol"
+                    "trait": "Ranged Weapon§Catachan Command Squad—Bolt pistol"
                   }
                 ]
               },
@@ -19272,7 +19182,7 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Plasma pistol"
+                    "trait": "Ranged Weapon§Catachan Command Squad—Plasma pistol"
                   }
                 ]
               }
@@ -19961,7 +19871,7 @@
             "value": 6
           },
           "OC": {
-            "value": 2
+            "value": 1
           },
           "Sv": {
             "value": 4
@@ -20011,7 +19921,7 @@
             "value": 6
           },
           "OC": {
-            "value": 1
+            "value": 2
           },
           "Sv": {
             "value": 4
@@ -20236,8 +20146,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Heavy Weapons Squad—Laspistol",
-            "Melee Weapon§Heavy Weapons Squad—Weapons team close combat weapons"
+            "Ranged Weapon§Cadian Heavy Weapons Squad—Laspistol",
+            "Melee Weapon§Cadian Heavy Weapons Squad—Weapons team close combat weapons"
           ]
         },
         "stats": {
@@ -20253,7 +20163,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Infantry Squad—Heavy bolter"
+                    "trait": "Ranged Weapon§Cadian Heavy Weapons Squad—Heavy bolter"
                   }
                 ]
               },
@@ -20261,7 +20171,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Autocannon"
+                    "trait": "Ranged Weapon§Cadian Heavy Weapons Squad—Autocannon"
                   }
                 ]
               },
@@ -20269,7 +20179,7 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Lascannon"
+                    "trait": "Ranged Weapon§Cadian Heavy Weapons Squad—Lascannon"
                   }
                 ]
               },
@@ -20277,7 +20187,7 @@
                 "order": 3,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Missile launcher"
+                    "trait": "Ranged Weapon§Cadian Heavy Weapons Squad—Missile launcher"
                   }
                 ]
               },
@@ -20285,7 +20195,7 @@
                 "order": 4,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Mortar"
+                    "trait": "Ranged Weapon§Cadian Heavy Weapons Squad—Mortar"
                   }
                 ]
               }
@@ -20317,8 +20227,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Heavy Weapons Squad—Weapons team close combat weapons",
-            "Ranged Weapon§Heavy Weapons Squad—Lasgun"
+            "Melee Weapon§Catachan Heavy Weapons Squad—Weapons team close combat weapons",
+            "Ranged Weapon§Catachan Heavy Weapons Squad—Lasgun"
           ]
         },
         "stats": {
@@ -20334,7 +20244,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Infantry Squad—Heavy bolter"
+                    "trait": "Ranged Weapon§Catachan Heavy Weapons Squad—Heavy bolter"
                   }
                 ]
               },
@@ -20342,7 +20252,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Autocannon"
+                    "trait": "Ranged Weapon§Catachan Heavy Weapons Squad—Autocannon"
                   }
                 ]
               },
@@ -20350,7 +20260,7 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Lascannon"
+                    "trait": "Ranged Weapon§Catachan Heavy Weapons Squad—Lascannon"
                   }
                 ]
               },
@@ -20358,7 +20268,7 @@
                 "order": 3,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Missile launcher"
+                    "trait": "Ranged Weapon§Catachan Heavy Weapons Squad—Missile launcher"
                   }
                 ]
               },
@@ -20366,7 +20276,7 @@
                 "order": 4,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Mortar"
+                    "trait": "Ranged Weapon§Catachan Heavy Weapons Squad—Mortar"
                   }
                 ]
               }
@@ -20541,7 +20451,7 @@
         "assets": {
           "traits": [
             "Ranged Weapon§Infantry Squad—Laspistol",
-            "Melee Weapon§Heavy Weapons Squad—Weapons team close combat weapons"
+            "Melee Weapon§Infantry Squad—Weapons team close combat weapons"
           ]
         },
         "rules": {
@@ -20587,7 +20497,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Autocannon"
+                    "trait": "Ranged Weapon§Infantry Squad—Autocannon"
                   }
                 ]
               },
@@ -20595,7 +20505,7 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Lascannon"
+                    "trait": "Ranged Weapon§Infantry Squad—Lascannon"
                   }
                 ]
               },
@@ -20603,7 +20513,7 @@
                 "order": 3,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Missile launcher"
+                    "trait": "Ranged Weapon§Infantry Squad—Missile launcher"
                   }
                 ]
               },
@@ -20611,7 +20521,7 @@
                 "order": 4,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Mortar"
+                    "trait": "Ranged Weapon§Infantry Squad—Mortar"
                   }
                 ]
               }
@@ -20797,7 +20707,7 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Plasma pistol"
+                    "trait": "Ranged Weapon§Kasrkin—Plasma pistol"
                   }
                 ]
               }
@@ -21442,7 +21352,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Plasma pistol"
+                    "trait": "Ranged Weapon§Krieg Command Squad—Plasma pistol"
                   }
                 ]
               }
@@ -21498,13 +21408,13 @@
         },
         "stats": {
           "Ld": {
-            "value": 7
+            "value": 8
           },
           "M": {
             "value": 6
           },
           "OC": {
-            "value": 1
+            "value": 0
           },
           "Sv": {
             "value": 4
@@ -21513,7 +21423,7 @@
             "value": 3
           },
           "W": {
-            "value": 3
+            "value": 1
           }
         }
       },
@@ -21521,7 +21431,15 @@
         "assets": {
           "traits": [
             "Ranged Weapon§Hell's Last—Bolt pistol",
-            "Melee Weapon§Hell's Last—Power weapon"
+            "Melee Weapon§Hell's Last—Power weapon",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            }
           ]
         },
         "stats": {
@@ -22013,7 +21931,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Bolt pistol"
+                    "trait": "Ranged Weapon§Platoon Command Squad—Bolt pistol"
                   }
                 ]
               },
@@ -22021,7 +21939,7 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Boltgun"
+                    "trait": "Ranged Weapon§Platoon Command Squad—Boltgun"
                   }
                 ]
               },
@@ -22029,7 +21947,7 @@
                 "order": 3,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Plasma pistol"
+                    "trait": "Ranged Weapon§Platoon Command Squad—Plasma pistol"
                   }
                 ]
               }
@@ -22293,7 +22211,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Cadian Shock Troops—Plasma gun"
+                    "trait": "Ranged Weapon§Cadian Recon Squad—Plasma gun"
                   }
                 ]
               },
@@ -22342,7 +22260,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Missile launcher"
+                    "trait": "Ranged Weapon§Cadian Recon Squad—Missile launcher"
                   },
                   {
                     "trait": "Ranged Weapon§Cadian Recon Squad—Laspistol"
@@ -22865,7 +22783,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Bolt pistol"
+                    "trait": "Ranged Weapon§Infantry Squad—Bolt pistol"
                   }
                 ]
               },
@@ -22873,7 +22791,7 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Boltgun"
+                    "trait": "Ranged Weapon§Infantry Squad—Boltgun"
                   }
                 ]
               },
@@ -22881,7 +22799,7 @@
                 "order": 3,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Plasma pistol"
+                    "trait": "Ranged Weapon§Infantry Squad—Plasma pistol"
                   }
                 ]
               }
@@ -24116,7 +24034,7 @@
                 "order": 3,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Heavy flamer"
+                    "trait": "Ranged Weapon§Platoon Command Squad—Heavy flamer"
                   }
                 ]
               },
@@ -24550,7 +24468,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Plasma pistol"
+                    "trait": "Ranged Weapon§Krieg Command Squad—Plasma pistol"
                   }
                 ]
               }
@@ -24654,7 +24572,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Infantry Squad—Heavy bolter"
+                    "trait": "Ranged Weapon§Platoon Command Squad—Heavy bolter"
                   }
                 ]
               },
@@ -24662,7 +24580,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Autocannon"
+                    "trait": "Ranged Weapon§Platoon Command Squad—Autocannon"
                   }
                 ]
               },
@@ -24670,7 +24588,7 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Lascannon"
+                    "trait": "Ranged Weapon§Platoon Command Squad—Lascannon"
                   }
                 ]
               },
@@ -24678,7 +24596,7 @@
                 "order": 3,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Missile launcher"
+                    "trait": "Ranged Weapon§Platoon Command Squad—Missile launcher"
                   }
                 ]
               },
@@ -24686,7 +24604,7 @@
                 "order": 4,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Astra Militarum Infantry Armoury—Mortar"
+                    "trait": "Ranged Weapon§Platoon Command Squad—Mortar"
                   }
                 ]
               }
@@ -25549,8 +25467,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Armoured Sentinels—Missile launcher – krak",
-            "Ranged Weapon§Armoured Sentinels—Missile launcher – frag"
+            "Ranged Weapon§Armoured Sentinels—Missile launcher – frag",
+            "Ranged Weapon§Armoured Sentinels—Missile launcher – krak"
           ]
         },
         "keywords": {
@@ -27408,8 +27326,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Cadian Command Squad—Grenade launcher – krak",
-            "Ranged Weapon§Cadian Command Squad—Grenade launcher – frag"
+            "Ranged Weapon§Cadian Command Squad—Grenade launcher – frag",
+            "Ranged Weapon§Cadian Command Squad—Grenade launcher – krak"
           ]
         },
         "keywords": {
@@ -28017,8 +27935,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Cadian Shock Troops—Grenade launcher – krak",
-            "Ranged Weapon§Cadian Shock Troops—Grenade launcher – frag"
+            "Ranged Weapon§Cadian Shock Troops—Grenade launcher – frag",
+            "Ranged Weapon§Cadian Shock Troops—Grenade launcher – krak"
           ]
         },
         "keywords": {
@@ -28649,8 +28567,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Catachan Command Squad—Grenade launcher – krak",
-            "Ranged Weapon§Catachan Command Squad—Grenade launcher – frag"
+            "Ranged Weapon§Catachan Command Squad—Grenade launcher – frag",
+            "Ranged Weapon§Catachan Command Squad—Grenade launcher – krak"
           ]
         },
         "keywords": {
@@ -30099,8 +30017,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": 0
@@ -30134,8 +30052,8 @@
             "value": 3
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 24
@@ -30687,8 +30605,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Death Korps of Krieg—Grenade launcher – krak",
-            "Ranged Weapon§Death Korps of Krieg—Grenade launcher – frag"
+            "Ranged Weapon§Death Korps of Krieg—Grenade launcher – frag",
+            "Ranged Weapon§Death Korps of Krieg—Grenade launcher – krak"
           ]
         },
         "keywords": {
@@ -33153,7 +33071,7 @@
         "stats": {
           "A": {
             "format": "D6",
-            "value": 3
+            "value": 0
           },
           "AP": {
             "value": -2
@@ -34505,7 +34423,7 @@
             "value": 0
           },
           "BS": {
-            "value": 3
+            "value": 4
           },
           "D": {
             "value": 1
@@ -34558,8 +34476,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Kasrkin—Grenade launcher – krak",
-            "Ranged Weapon§Kasrkin—Grenade launcher – frag"
+            "Ranged Weapon§Kasrkin—Grenade launcher – frag",
+            "Ranged Weapon§Kasrkin—Grenade launcher – krak"
           ]
         },
         "keywords": {
@@ -34922,7 +34840,7 @@
             "value": -2
           },
           "BS": {
-            "value": 3
+            "value": 4
           },
           "D": {
             "value": 1
@@ -34953,7 +34871,7 @@
             "value": -3
           },
           "BS": {
-            "value": 3
+            "value": 4
           },
           "D": {
             "value": 2
@@ -35309,8 +35227,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Krieg Command Squad—Grenade launcher – krak",
-            "Ranged Weapon§Krieg Command Squad—Grenade launcher – frag"
+            "Ranged Weapon§Krieg Command Squad—Grenade launcher – frag",
+            "Ranged Weapon§Krieg Command Squad—Grenade launcher – krak"
           ]
         },
         "keywords": {
@@ -39163,23 +39081,23 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "4+"
+            "format": "2D6",
+            "value": 0
           },
           "AP": {
-            "value": 2
+            "value": -2
           },
           "BS": {
-            "value": 8
+            "value": 4
           },
           "D": {
             "value": 2
           },
           "Range": {
-            "value": 6
+            "value": 60
           },
           "S": {
-            "value": -2
+            "value": 8
           }
         }
       },
@@ -41389,7 +41307,7 @@
             "value": 0
           },
           "BS": {
-            "value": 3
+            "value": 4
           },
           "D": {
             "value": 1
@@ -41442,8 +41360,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Militarum Tempestus Command Squad—Grenade launcher – krak",
-            "Ranged Weapon§Militarum Tempestus Command Squad—Grenade launcher – frag"
+            "Ranged Weapon§Militarum Tempestus Command Squad—Grenade launcher – frag",
+            "Ranged Weapon§Militarum Tempestus Command Squad—Grenade launcher – krak"
           ]
         },
         "keywords": {
@@ -41942,8 +41860,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": 0
@@ -41977,8 +41895,8 @@
             "value": 4
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 24
@@ -42343,8 +42261,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -2
@@ -42376,8 +42294,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -3
@@ -44463,8 +44381,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Scout Sentinels—Missile launcher – krak",
-            "Ranged Weapon§Scout Sentinels—Missile launcher – frag"
+            "Ranged Weapon§Scout Sentinels—Missile launcher – frag",
+            "Ranged Weapon§Scout Sentinels—Missile launcher – krak"
           ]
         },
         "keywords": {
@@ -45944,8 +45862,8 @@
             "value": 4
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 24
@@ -46152,8 +46070,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Taurox Prime—Taurox missile launcher – krak",
-            "Ranged Weapon§Taurox Prime—Taurox missile launcher – frag"
+            "Ranged Weapon§Taurox Prime—Taurox missile launcher – frag",
+            "Ranged Weapon§Taurox Prime—Taurox missile launcher – krak"
           ]
         },
         "keywords": {
@@ -46408,7 +46326,7 @@
             "value": 0
           },
           "BS": {
-            "value": 3
+            "value": 4
           },
           "D": {
             "value": 1
@@ -46668,8 +46586,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Tempestus Aquilons—Sentry grenade launcher – krak",
-            "Ranged Weapon§Tempestus Aquilons—Sentry grenade launcher – frag"
+            "Ranged Weapon§Tempestus Aquilons—Sentry grenade launcher – frag",
+            "Ranged Weapon§Tempestus Aquilons—Sentry grenade launcher – krak"
           ]
         },
         "keywords": {
@@ -46812,8 +46730,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Tempestus Scions—Grenade launcher – krak",
-            "Ranged Weapon§Tempestus Scions—Grenade launcher – frag"
+            "Ranged Weapon§Tempestus Scions—Grenade launcher – frag",
+            "Ranged Weapon§Tempestus Scions—Grenade launcher – krak"
           ]
         },
         "keywords": {
@@ -49453,7 +49371,8 @@
             "Fortification",
             "Imperium",
             "Artillery",
-            "Earthshaker Platform"
+            "Earthshaker Platform",
+            "Frame"
           ],
           "Category": [
             "Fortification"
@@ -49516,7 +49435,8 @@
             "Fortification",
             "Imperium",
             "Artillery",
-            "Hydra Platform"
+            "Hydra Platform",
+            "Frame"
           ],
           "Category": [
             "Fortification"
@@ -49579,7 +49499,8 @@
             "Fortification",
             "Imperium",
             "Artillery",
-            "Manticore Platform"
+            "Manticore Platform",
+            "Frame"
           ],
           "Category": [
             "Fortification"
@@ -49684,8 +49605,7 @@
             "Ability§Emplacement Platform",
             "Ability§Reinforced Cover",
             "Ability§Defence Line",
-            "Ability§Fortification",
-            "Ability§Deployment Section"
+            "Ability§Fortification"
           ]
         },
         "keywords": {
@@ -49695,7 +49615,8 @@
           "Keywords": [
             "Fortification",
             "Imperium",
-            "Aegis Defence Line"
+            "Aegis Defence Line",
+            "Frame"
           ],
           "Source": [
             "10th Edition Codex"
@@ -49811,8 +49732,7 @@
             "visibility": "active"
           },
           "M": {
-            "statType": "term",
-            "value": "20+"
+            "value": 14
           },
           "OC": {
             "value": 0
@@ -49834,14 +49754,6 @@
       "Vehicle§Arkurian Stormhammer": {
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Deadly Demise",
-              "stats": {
-                "x": {
-                  "value": "D6"
-                }
-              }
-            },
             "Ability§Rolling Fortress",
             {
               "item": "Ability§Damaged:",
@@ -49849,11 +49761,20 @@
                 "x": {
                   "value": "1-8 wounds remaining"
                 }
-              }
+              },
+              "text": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             },
             "Ranged Weapon§Arkurian Stormhammer—Stormhammer cannon",
             "Ranged Weapon§Arkurian Stormhammer—Twin battle cannon",
-            "Melee Weapon§Arkurian Stormhammer—Armoured tracks"
+            "Melee Weapon§Arkurian Stormhammer—Armoured tracks",
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D6+2"
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -49868,7 +49789,8 @@
             "Titanic",
             "Imperium",
             "Smoke",
-            "Arkurian Stormhammer"
+            "Arkurian Stormhammer",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -50105,7 +50027,8 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Armageddon-pattern Medusa"
+            "Armageddon-pattern Medusa",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -50341,8 +50264,7 @@
             "value": 7
           },
           "M": {
-            "statType": "term",
-            "value": "20+"
+            "value": 14
           },
           "OC": {
             "value": 0
@@ -50389,7 +50311,8 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Atlas Recovery Vehicle"
+            "Atlas Recovery Vehicle",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -50577,7 +50500,8 @@
             "Titanic",
             "Imperium",
             "Smoke",
-            "Baneblade"
+            "Baneblade",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -50608,7 +50532,7 @@
                     "trait": "Ranged Weapon§Baneblade—Twin heavy flamer"
                   },
                   {
-                    "trait": "Ranged Weapon§Banehammer—Twin heavy flamer"
+                    "trait": "Ranged Weapon§Baneblade—Twin heavy flamer"
                   }
                 ]
               },
@@ -50643,7 +50567,7 @@
                     "trait": "Ranged Weapon§Baneblade—Twin heavy flamer"
                   },
                   {
-                    "trait": "Ranged Weapon§Banehammer—Twin heavy flamer"
+                    "trait": "Ranged Weapon§Baneblade—Twin heavy flamer"
                   },
                   {
                     "trait": "Ranged Weapon§Baneblade—Lascannon"
@@ -50737,7 +50661,8 @@
             "Imperium",
             "Transport",
             "Smoke",
-            "Banehammer"
+            "Banehammer",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -50881,7 +50806,8 @@
             "Titanic",
             "Imperium",
             "Smoke",
-            "Banesword"
+            "Banesword",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -51033,7 +50959,8 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Basilisk"
+            "Basilisk",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -51152,7 +51079,8 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Carnodon"
+            "Carnodon",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -51358,7 +51286,8 @@
             "Squadron",
             "Transport",
             "Smoke",
-            "Centaur Light Carrier"
+            "Centaur Light Carrier",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -51446,7 +51375,8 @@
             "Smoke",
             "Squadron",
             "Transport",
-            "Vehicle"
+            "Vehicle",
+            "Frame"
           ],
           "Category": [
             "Vehicle—Dedicated Transport"
@@ -51524,7 +51454,8 @@
             "Transport",
             "Dedicated Transport",
             "Smoke",
-            "Chimera"
+            "Chimera",
+            "Frame"
           ],
           "Faction": [
             "Astra Militarum"
@@ -51717,7 +51648,8 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Colossus"
+            "Colossus",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -51842,7 +51774,8 @@
             "Squadron",
             "Transport",
             "Smoke",
-            "Crassus"
+            "Crassus",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -51913,8 +51846,7 @@
               }
             },
             "Ability§Demolition Charges",
-            "Ability§Unstable Payload",
-            "Ability§Compact"
+            "Ability§Unstable Payload"
           ]
         },
         "keywords": {
@@ -51929,7 +51861,8 @@
           ],
           "Keywords": [
             "Cyclops Demolition Vehicle",
-            "Vehicle"
+            "Vehicle",
+            "Imperium"
           ]
         },
         "stats": {
@@ -51999,7 +51932,8 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Deathstrike"
+            "Deathstrike",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -52086,14 +52020,6 @@
       "Vehicle§Dominus Armoured Siege Bombard": {
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Deadly Demise",
-              "stats": {
-                "x": {
-                  "value": "D6"
-                }
-              }
-            },
             "Ability§Pinning Bombardment",
             {
               "item": "Ability§Damaged:",
@@ -52101,10 +52027,19 @@
                 "x": {
                   "value": "1-7 wounds remaining"
                 }
-              }
+              },
+              "text": "While this model has 1-7 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             },
             "Melee Weapon§Dominus Armoured Siege Bombard—Armoured tracks",
-            "Ranged Weapon§Dominus Armoured Siege Bombard—Dominus triple bombard"
+            "Ranged Weapon§Dominus Armoured Siege Bombard—Dominus triple bombard",
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D6+2"
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -52119,7 +52054,8 @@
             "Titanic",
             "Imperium",
             "Smoke",
-            "Dominus Armoured Siege Bombard"
+            "Dominus Armoured Siege Bombard",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -52304,7 +52240,8 @@
             "Imperium",
             "Transport",
             "Smoke",
-            "Doomhammer"
+            "Doomhammer",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -52535,14 +52472,6 @@
       "Vehicle§Gorgon Heavy Transport": {
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Deadly Demise",
-              "stats": {
-                "x": {
-                  "value": "D6"
-                }
-              }
-            },
             "Ability§Mount Up!",
             {
               "item": "Ability§Damaged:",
@@ -52550,7 +52479,8 @@
                 "x": {
                   "value": "1-7 wounds remaining"
                 }
-              }
+              },
+              "text": "While this model has 1-7 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             },
             {
               "item": "Ability§Invulnerable",
@@ -52561,7 +52491,8 @@
                 "keyword": {
                   "value": "Against Ranged Attacks Only"
                 }
-              }
+              },
+              "text": "Against ranged attacks only"
             },
             {
               "item": "Ability§Transport",
@@ -52569,7 +52500,15 @@
             },
             "Ranged Weapon§Gorgon Heavy Transport—Twin heavy stubber",
             "Ranged Weapon§Gorgon Heavy Transport—Twin heavy stubber",
-            "Melee Weapon§Gorgon Heavy Transport—Landing ramp"
+            "Melee Weapon§Gorgon Heavy Transport—Landing ramp",
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D6+2"
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -52585,7 +52524,8 @@
             "Imperium",
             "Smoke",
             "Transport",
-            "Gorgon Heavy Transport"
+            "Gorgon Heavy Transport",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -52739,7 +52679,8 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Griffon Mortar Carrier"
+            "Griffon Mortar Carrier",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -52789,7 +52730,7 @@
                 "tracking": {},
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Storm Chimera—Heavy stubber"
+                    "trait": "Ranged Weapon§Griffon Mortar Carrier—Heavy stubber"
                   }
                 ]
               },
@@ -52798,7 +52739,7 @@
                 "tracking": {},
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Storm Chimera—Storm bolter"
+                    "trait": "Ranged Weapon§Griffon Mortar Carrier—Storm bolter"
                   }
                 ]
               }
@@ -52831,14 +52772,17 @@
       "Vehicle§Hades Breaching Drill": {
         "assets": {
           "traits": [
-            "Melee Weapon§Hades Breaching Drill—Melta-cutter drill"
+            "Melee Weapon§Hades Breaching Drill—Melta-cutter drill",
+            "Ability§Deep Strike",
+            "Ability§Subterranean Assault"
           ]
         },
         "keywords": {
           "Keywords": [
             "Hades Breaching Drill",
             "Imperium",
-            "Vehicle"
+            "Vehicle",
+            "Frame"
           ],
           "Source": [
             "Legends"
@@ -52853,6 +52797,24 @@
         "stats": {
           "Points": {
             "value": 110
+          },
+          "M": {
+            "value": 6
+          },
+          "T": {
+            "value": 9
+          },
+          "Sv": {
+            "value": 3
+          },
+          "W": {
+            "value": 8
+          },
+          "Ld": {
+            "value": 7
+          },
+          "OC": {
+            "value": 2
           }
         }
       },
@@ -52891,7 +52853,8 @@
             "Titanic",
             "Imperium",
             "Smoke",
-            "Hellhammer"
+            "Hellhammer",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -53041,7 +53004,8 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Hellhound"
+            "Hellhound",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -53196,7 +53160,8 @@
             "Imperium",
             "Smoke",
             "Squadron",
-            "Vehicle"
+            "Vehicle",
+            "Frame"
           ],
           "Faction": [
             "Astra Militarum"
@@ -53271,7 +53236,8 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Hydra"
+            "Hydra",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -53385,7 +53351,8 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Leman Russ Battle Tank"
+            "Leman Russ Battle Tank",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -53588,7 +53555,7 @@
               }
             },
             "Melee Weapon§Leman Russ Demolisher—Armoured tracks",
-            "Ranged Weapon§Leman Russ Commander—Demolisher battle cannon"
+            "Ranged Weapon§Leman Russ Demolisher—Demolisher battle cannon"
           ]
         },
         "keywords": {
@@ -53603,7 +53570,8 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Leman Russ Demolisher"
+            "Leman Russ Demolisher",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -53821,7 +53789,8 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Leman Russ Eradicator"
+            "Leman Russ Eradicator",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -54039,7 +54008,8 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Leman Russ Executioner"
+            "Leman Russ Executioner",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -54257,7 +54227,8 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Leman Russ Exterminator"
+            "Leman Russ Exterminator",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -54474,7 +54445,8 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Leman Russ Punisher"
+            "Leman Russ Punisher",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -54692,7 +54664,8 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Leman Russ Vanquisher"
+            "Leman Russ Vanquisher",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -54890,10 +54863,10 @@
               "item": "Ability§Damaged:",
               "stats": {
                 "x": {
-                  "value": "1-7 wounds remaining",
-                  "text": "While this model has {t}, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+                  "value": "1-7 wounds remaining"
                 }
-              }
+              },
+              "text": "While this model has 1-7 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             },
             "Ranged Weapon§Macharius—Macharius twin battle cannon",
             "Ranged Weapon§Macharius—Twin heavy stubber",
@@ -54912,7 +54885,8 @@
             "Titanic",
             "Imperium",
             "Smoke",
-            "Macharius"
+            "Macharius",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -55041,14 +55015,6 @@
       "Vehicle§Macharius Omega": {
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Deadly Demise",
-              "stats": {
-                "x": {
-                  "value": "D6"
-                }
-              }
-            },
             "Ability§Overwhelming Short-range Firepower",
             {
               "item": "Ability§Damaged:",
@@ -55056,10 +55022,19 @@
                 "x": {
                   "value": "1-7 wounds remaining"
                 }
-              }
+              },
+              "text": "While this model has 1-7 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             },
             "Ranged Weapon§Macharius Omega—Omega-pattern plasma blastgun",
-            "Melee Weapon§Macharius Omega—Armoured tracks"
+            "Melee Weapon§Macharius Omega—Armoured tracks",
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D6+2"
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -55074,7 +55049,8 @@
             "Titanic",
             "Imperium",
             "Smoke",
-            "Macharius Omega"
+            "Macharius Omega",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -55218,10 +55194,10 @@
               "item": "Ability§Damaged:",
               "stats": {
                 "x": {
-                  "value": "1-7 wounds remaining",
-                  "text": "While this model has {t}, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+                  "value": "1-7 wounds remaining"
                 }
-              }
+              },
+              "text": "While this model has 1-7 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             },
             "Ranged Weapon§Macharius Vanquisher—Macharius twin vanquisher cannon",
             "Ranged Weapon§Macharius Vanquisher—Twin heavy stubber",
@@ -55240,7 +55216,8 @@
             "Titanic",
             "Imperium",
             "Smoke",
-            "Macharius Vanquisher"
+            "Macharius Vanquisher",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -55382,10 +55359,10 @@
               "item": "Ability§Damaged:",
               "stats": {
                 "x": {
-                  "value": "1-7 wounds remaining",
-                  "text": "While this model has {t}, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+                  "value": "1-7 wounds remaining"
                 }
-              }
+              },
+              "text": "While this model has 1-7 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             },
             "Ranged Weapon§Macharius Vulcan—Macharius vulcan mega-bolter",
             "Ranged Weapon§Macharius Vulcan—Twin heavy stubber",
@@ -55404,7 +55381,8 @@
             "Titanic",
             "Imperium",
             "Smoke",
-            "Macharius Vulcan"
+            "Macharius Vulcan",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -55566,7 +55544,8 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Malcador"
+            "Malcador",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -55763,7 +55742,8 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Malcador Annihilator"
+            "Malcador Annihilator",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -55929,7 +55909,8 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Malcador Defender"
+            "Malcador Defender",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -56090,7 +56071,8 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Malcador Infernus"
+            "Malcador Infernus",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -56274,7 +56256,8 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Manticore"
+            "Manticore",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -56435,7 +56418,7 @@
           },
           "M": {
             "statType": "term",
-            "value": "20+"
+            "value": "-"
           },
           "OC": {
             "value": 0
@@ -56457,14 +56440,6 @@
       "Vehicle§Marauder Destroyer": {
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Deadly Demise",
-              "stats": {
-                "x": {
-                  "value": "D6"
-                }
-              }
-            },
             "Ability§Bomb Drop",
             {
               "item": "Ability§Damaged:",
@@ -56479,7 +56454,15 @@
             "Ranged Weapon§Marauder Destroyer—Heavy bolter",
             "Ranged Weapon§Marauder Destroyer—Heavy bolter",
             "Ranged Weapon§Marauder Destroyer—Marauder nose autocannons",
-            "Melee Weapon§Marauder Destroyer—Armoured hull"
+            "Melee Weapon§Marauder Destroyer—Armoured hull",
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D6+2"
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -56528,7 +56511,7 @@
           },
           "M": {
             "statType": "term",
-            "value": "20+"
+            "value": "-"
           },
           "OC": {
             "value": 0
@@ -56585,7 +56568,8 @@
             "Squadron",
             "Transport",
             "Smoke",
-            "Minotaur"
+            "Minotaur",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -56653,7 +56637,8 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Praetor"
+            "Praetor",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -56748,7 +56733,8 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Rogal Dorn Battle Tank"
+            "Rogal Dorn Battle Tank",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -56938,7 +56924,8 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Salamander Command Vehicle"
+            "Salamander Command Vehicle",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -57035,18 +57022,18 @@
                 }
               }
             },
+            "Ability§Outflank",
+            "Melee Weapon§Salamander Scout Vehicle—Armoured tracks",
+            "Ranged Weapon§Salamander Scout Vehicle—Autocannon",
+            "Ranged Weapon§Salamander Scout Vehicle—Heavy bolter",
             {
               "item": "Ability§Scouts",
               "stats": {
                 "x": {
-                  "value": "9″"
+                  "value": "9\""
                 }
               }
-            },
-            "Ability§Outflank",
-            "Melee Weapon§Salamander Scout Vehicle—Armoured tracks",
-            "Ranged Weapon§Salamander Scout Vehicle—Autocannon",
-            "Ranged Weapon§Salamander Scout Vehicle—Heavy bolter"
+            }
           ]
         },
         "keywords": {
@@ -57061,7 +57048,8 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Salamander Scout Vehicle"
+            "Salamander Scout Vehicle",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -57166,18 +57154,18 @@
                 }
               }
             },
-            {
-              "item": "Ability§Scouts",
-              "stats": {
-                "x": {
-                  "value": "9″"
-                }
-              }
-            },
             "Ability§Daring Recon",
             {
               "item": "Model§Scout Sentinel",
               "quantity": 1
+            },
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "9\""
+                }
+              }
             }
           ]
         },
@@ -57264,7 +57252,8 @@
             "Regiment",
             "Squadron",
             "Smoke",
-            "Sentinel Powerlifter"
+            "Sentinel Powerlifter",
+            "Frame"
           ],
           "Category": [
             "Vehicle—Walker"
@@ -57326,7 +57315,8 @@
             "Titanic",
             "Imperium",
             "Smoke",
-            "Shadowsword"
+            "Shadowsword",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -57483,7 +57473,8 @@
             "Transport",
             "Dedicated Transport",
             "Smoke",
-            "Storm Chimera"
+            "Storm Chimera",
+            "Frame"
           ],
           "Category": [
             "Vehicle—Dedicated Transport"
@@ -57610,10 +57601,10 @@
               "item": "Ability§Damaged:",
               "stats": {
                 "x": {
-                  "value": "1-8 wounds remaining",
-                  "text": "While this model has {t}, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+                  "value": "1-8 wounds remaining"
                 }
-              }
+              },
+              "text": "While this model has 1-8 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             },
             "Ranged Weapon§Stormblade—Lascannon",
             "Ranged Weapon§Stormblade—Lascannon",
@@ -57633,7 +57624,8 @@
             "Titanic",
             "Imperium",
             "Smoke",
-            "Stormblade"
+            "Stormblade",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -57843,7 +57835,8 @@
             "Imperium",
             "Transport",
             "Smoke",
-            "Stormlord"
+            "Stormlord",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -57990,7 +57983,8 @@
             "Titanic",
             "Imperium",
             "Smoke",
-            "Stormsword"
+            "Stormsword",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -58141,7 +58135,8 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Stygies Destroyer Tank Hunter"
+            "Stygies Destroyer Tank Hunter",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -58342,7 +58337,8 @@
             "Squadron",
             "Transport",
             "Dedicated Transport",
-            "Taurox"
+            "Taurox",
+            "Frame"
           ],
           "Category": [
             "Vehicle—Dedicated Transport"
@@ -58411,7 +58407,6 @@
                 }
               }
             },
-            "Ability§Fire Support",
             {
               "item": "Ability§Transport",
               "text": "This model has a transport capacity of 12 Militarum Tempestus Infantry or Astra Militarum Infantry Character models."
@@ -58432,7 +58427,8 @@
             "Squadron",
             "Transport",
             "Dedicated Transport",
-            "Taurox Prime"
+            "Taurox Prime",
+            "Frame"
           ],
           "Category": [
             "Vehicle—Dedicated Transport"
@@ -58490,7 +58486,7 @@
                 "tracking": {},
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Taurox—Storm bolter"
+                    "trait": "Ranged Weapon§Taurox Prime—Storm bolter"
                   }
                 ]
               }
@@ -58667,7 +58663,8 @@
             "Squadron",
             "Smoke",
             "Imperium",
-            "Trojan Support Vehicle"
+            "Trojan Support Vehicle",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -58747,14 +58744,6 @@
       "Vehicle§Valdor": {
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Deadly Demise",
-              "stats": {
-                "x": {
-                  "value": "D6"
-                }
-              }
-            },
             "Ability§Power Overload",
             {
               "item": "Ability§Damaged:",
@@ -58762,10 +58751,19 @@
                 "x": {
                   "value": "1-7 wounds remaining"
                 }
-              }
+              },
+              "text": "While this model has 1-7 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
             },
             "Ranged Weapon§Valdor—Valdor neutron laser",
-            "Melee Weapon§Valdor—Armoured tracks"
+            "Melee Weapon§Valdor—Armoured tracks",
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D6+2"
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -58780,7 +58778,8 @@
             "Titanic",
             "Imperium",
             "Smoke",
-            "Valdor"
+            "Valdor",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -58916,7 +58915,6 @@
               }
             },
             "Ability§Hover",
-            "Ability§Grav Chute Insertion",
             {
               "item": "Ability§Damaged:",
               "stats": {
@@ -58929,7 +58927,8 @@
               "item": "Ability§Transport",
               "text": "This model has a transport capacity of 12 Astra Militarum Infantry models. Each Ogryn model takes up the space of 3 models. It cannot transport Artillery models."
             },
-            "Melee Weapon§Valkyrie—Armoured hull"
+            "Melee Weapon§Valkyrie—Armoured hull",
+            "Ability§Airborne Insertion"
           ]
         },
         "keywords": {
@@ -59146,8 +59145,7 @@
             "visibility": "active"
           },
           "M": {
-            "statType": "term",
-            "value": "20+"
+            "value": 14
           },
           "OC": {
             "value": 0
@@ -59269,8 +59267,7 @@
             "visibility": "active"
           },
           "M": {
-            "statType": "term",
-            "value": "20+"
+            "value": 14
           },
           "OC": {
             "value": 0
@@ -59359,7 +59356,7 @@
           },
           "M": {
             "statType": "term",
-            "value": "20+"
+            "value": "-"
           },
           "OC": {
             "value": 0
@@ -59461,8 +59458,7 @@
             "visibility": "active"
           },
           "M": {
-            "statType": "term",
-            "value": "20+"
+            "value": 14
           },
           "OC": {
             "value": 0
@@ -59518,7 +59514,8 @@
             "Imperium",
             "Squadron",
             "Smoke",
-            "Wyvern"
+            "Wyvern",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -59920,7 +59917,7 @@
             "value": 3
           },
           "WS": {
-            "value": 3
+            "value": 4
           },
           "S": {
             "value": 3
@@ -60806,6 +60803,1894 @@
             "value": 1
           }
         }
+      },
+      "Ranged Weapon§Cadian Command Squad—Bolt pistol": {
+        "aspects": {
+          "Label": "Bolt pistol"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Catachan Command Squad—Bolt pistol": {
+        "aspects": {
+          "Label": "Bolt pistol"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Catachan Command Squad—Boltgun": {
+        "aspects": {
+          "Label": "Boltgun"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Catachan Command Squad—Plasma pistol": {
+        "aspects": {
+          "Label": "Plasma pistol"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Catachan Command Squad—Plasma pistol – standard",
+            "Ranged Weapon§Catachan Command Squad—Plasma pistol – supercharge"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Krieg Command Squad—Plasma pistol": {
+        "aspects": {
+          "Label": "Plasma pistol"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Krieg Command Squad—Plasma pistol – standard",
+            "Ranged Weapon§Krieg Command Squad—Plasma pistol – supercharge"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Melee Weapon§Ministorum Priest—Zealot's vindicator": {
+        "aspects": {
+          "Label": "Melee"
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 5
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Ministorum Priest—Zealot's vindicator": {
+        "aspects": {
+          "Label": "Ranged"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Ignores Cover",
+            "Ability§Torrent"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "format": "{t}",
+            "statType": "term",
+            "value": "N/A"
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Weapon§Ministorum Priest—Zealot's vindicator": {
+        "aspects": {
+          "Label": "Zealot's vindicator"
+        },
+        "assets": {
+          "traits": [
+            "Melee Weapon§Ministorum Priest—Zealot's vindicator",
+            "Ranged Weapon§Ministorum Priest—Zealot's vindicator"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Platoon Command Squad—Bolt pistol": {
+        "aspects": {
+          "Label": "Bolt pistol"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Platoon Command Squad—Boltgun": {
+        "aspects": {
+          "Label": "Boltgun"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Platoon Command Squad—Plasma pistol – standard": {
+        "aspects": {
+          "Label": "Plasma pistol – Standard"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Platoon Command Squad—Plasma pistol – supercharge": {
+        "aspects": {
+          "Label": "Plasma pistol – Supercharge"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol",
+            "Ability§Hazardous"
+          ]
+        }
+      },
+      "Ranged Weapon§Platoon Command Squad—Plasma pistol": {
+        "aspects": {
+          "Label": "Plasma pistol"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Platoon Command Squad—Plasma pistol – standard",
+            "Ranged Weapon§Platoon Command Squad—Plasma pistol – supercharge"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Platoon Command Squad—Heavy flamer": {
+        "aspects": {
+          "Label": "Heavy flamer"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Ignores Cover",
+            "Ability§Torrent"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "format": "{t}",
+            "statType": "term",
+            "value": "N/A"
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Platoon Command Squad—Autocannon": {
+        "aspects": {
+          "Label": "Autocannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 5
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 9
+          }
+        }
+      },
+      "Ranged Weapon§Platoon Command Squad—Lascannon": {
+        "aspects": {
+          "Label": "Lascannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 5
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 12
+          }
+        }
+      },
+      "Ranged Weapon§Platoon Command Squad—Missile launcher – krak": {
+        "aspects": {
+          "Label": "Missile launcher – Krak"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 5
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy"
+          ]
+        }
+      },
+      "Ranged Weapon§Platoon Command Squad—Missile launcher – frag": {
+        "aspects": {
+          "Label": "Missile launcher – Frag"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 5
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy",
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Platoon Command Squad—Missile launcher": {
+        "aspects": {
+          "Label": "Missile launcher"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Platoon Command Squad—Missile launcher – krak",
+            "Ranged Weapon§Platoon Command Squad—Missile launcher – frag"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Platoon Command Squad—Mortar": {
+        "aspects": {
+          "Label": "Mortar"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Indirect Fire",
+            "Ability§Heavy",
+            "Ability§Blast"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 5
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Melee Weapon§Rogal Dorn Commander—Armoured tracks": {
+        "aspects": {
+          "Label": "Armoured tracks"
+        },
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 7
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Rogal Dorn Commander—Castigator gatling cannon": {
+        "aspects": {
+          "Label": "Castigator gatling cannon"
+        },
+        "stats": {
+          "A": {
+            "value": 12
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Rogal Dorn Commander—Heavy bolter": {
+        "aspects": {
+          "Label": "Heavy bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Rogal Dorn Commander—Heavy stubber": {
+        "aspects": {
+          "Label": "Heavy stubber"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "3"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Rogal Dorn Commander—Meltagun": {
+        "aspects": {
+          "Label": "Meltagun"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -4
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 9
+          }
+        }
+      },
+      "Ranged Weapon§Rogal Dorn Commander—Multi-melta": {
+        "aspects": {
+          "Label": "Multi-melta"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -4
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          },
+          "Range": {
+            "value": 18
+          },
+          "S": {
+            "value": 9
+          }
+        }
+      },
+      "Ranged Weapon§Rogal Dorn Commander—Oppressor cannon": {
+        "aspects": {
+          "Label": "Oppressor cannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 3
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "value": 72
+          },
+          "S": {
+            "value": 12
+          }
+        }
+      },
+      "Ranged Weapon§Rogal Dorn Commander—Pulveriser cannon": {
+        "aspects": {
+          "Label": "Pulveriser cannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 9
+          }
+        }
+      },
+      "Ranged Weapon§Rogal Dorn Commander—Twin battle cannon": {
+        "aspects": {
+          "Label": "Twin battle cannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            "Ability§Blast"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 10
+          }
+        }
+      },
+      "Melee Weapon§Cadian Heavy Weapons Squad—Weapons team close combat weapons": {
+        "aspects": {
+          "Label": "Weapons team close combat weapons"
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 3
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Cadian Heavy Weapons Squad—Autocannon": {
+        "aspects": {
+          "Label": "Autocannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 5
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 9
+          }
+        }
+      },
+      "Ranged Weapon§Cadian Heavy Weapons Squad—Lascannon": {
+        "aspects": {
+          "Label": "Lascannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 5
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 12
+          }
+        }
+      },
+      "Ranged Weapon§Cadian Heavy Weapons Squad—Missile launcher": {
+        "aspects": {
+          "Label": "Missile launcher"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Cadian Heavy Weapons Squad—Missile launcher – frag",
+            "Ranged Weapon§Cadian Heavy Weapons Squad—Missile launcher – krak"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Cadian Heavy Weapons Squad—Mortar": {
+        "aspects": {
+          "Label": "Mortar"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Indirect Fire",
+            "Ability§Heavy",
+            "Ability§Blast"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 5
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Cadian Heavy Weapons Squad—Laspistol": {
+        "aspects": {
+          "Label": "Laspistol"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Cadian Heavy Weapons Squad—Heavy bolter": {
+        "aspects": {
+          "Label": "Heavy bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Heavy"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 5
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Cadian Recon Squad—Missile launcher": {
+        "aspects": {
+          "Label": "Missile launcher"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Cadian Recon Squad—Missile launcher – frag",
+            "Ranged Weapon§Cadian Recon Squad—Missile launcher – krak"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Cadian Recon Squad—Plasma gun": {
+        "aspects": {
+          "Label": "Plasma gun"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Cadian Recon Squad—Plasma gun – standard",
+            "Ranged Weapon§Cadian Recon Squad—Plasma gun – supercharge"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Melee Weapon§Catachan Heavy Weapons Squad—Weapons team close combat weapons": {
+        "aspects": {
+          "Label": "Weapons team close combat weapons"
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 3
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Catachan Heavy Weapons Squad—Autocannon": {
+        "aspects": {
+          "Label": "Autocannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 5
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 9
+          }
+        }
+      },
+      "Ranged Weapon§Catachan Heavy Weapons Squad—Lascannon": {
+        "aspects": {
+          "Label": "Lascannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 5
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 12
+          }
+        }
+      },
+      "Ranged Weapon§Catachan Heavy Weapons Squad—Missile launcher": {
+        "aspects": {
+          "Label": "Missile launcher"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Catachan Heavy Weapons Squad—Missile launcher – frag",
+            "Ranged Weapon§Catachan Heavy Weapons Squad—Missile launcher – krak"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Catachan Heavy Weapons Squad—Mortar": {
+        "aspects": {
+          "Label": "Mortar"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Indirect Fire",
+            "Ability§Heavy",
+            "Ability§Blast"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 5
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Catachan Heavy Weapons Squad—Lasgun": {
+        "aspects": {
+          "Label": "Lasgun"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Catachan Heavy Weapons Squad—Heavy bolter": {
+        "aspects": {
+          "Label": "Heavy bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Heavy"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 5
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Heavy Quad Launcher Team—Heavy quad launcher": {
+        "aspects": {
+          "Label": "Heavy quad launcher"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast",
+            "Ability§Indirect Fire"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "2D6",
+            "value": 0
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Infantry Squad—Bolt pistol": {
+        "aspects": {
+          "Label": "Bolt pistol"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Infantry Squad—Boltgun": {
+        "aspects": {
+          "Label": "Boltgun"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Infantry Squad—Plasma pistol – standard": {
+        "aspects": {
+          "Label": "Plasma pistol – Standard"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Infantry Squad—Plasma pistol – supercharge": {
+        "aspects": {
+          "Label": "Plasma pistol – Supercharge"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol",
+            "Ability§Hazardous"
+          ]
+        }
+      },
+      "Ranged Weapon§Infantry Squad—Plasma pistol": {
+        "aspects": {
+          "Label": "Plasma pistol"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Infantry Squad—Plasma pistol – standard",
+            "Ranged Weapon§Infantry Squad—Plasma pistol – supercharge"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Melee Weapon§Infantry Squad—Weapons team close combat weapons": {
+        "aspects": {
+          "Label": "Weapons team close combat weapons"
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 3
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Infantry Squad—Autocannon": {
+        "aspects": {
+          "Label": "Autocannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 5
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 9
+          }
+        }
+      },
+      "Ranged Weapon§Infantry Squad—Lascannon": {
+        "aspects": {
+          "Label": "Lascannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 5
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 12
+          }
+        }
+      },
+      "Ranged Weapon§Infantry Squad—Missile launcher – krak": {
+        "aspects": {
+          "Label": "Missile launcher – Krak"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 5
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy"
+          ]
+        }
+      },
+      "Ranged Weapon§Infantry Squad—Missile launcher – frag": {
+        "aspects": {
+          "Label": "Missile launcher – Frag"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 5
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy",
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Infantry Squad—Missile launcher": {
+        "aspects": {
+          "Label": "Missile launcher"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Infantry Squad—Missile launcher – krak",
+            "Ranged Weapon§Infantry Squad—Missile launcher – frag"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Infantry Squad—Mortar": {
+        "aspects": {
+          "Label": "Mortar"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Indirect Fire",
+            "Ability§Heavy",
+            "Ability§Blast"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 5
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Leman Russ Demolisher—Demolisher battle cannon": {
+        "aspects": {
+          "Label": "Demolisher battle cannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 14
+          },
+          "Points": {
+            "value": 15
+          }
+        }
+      },
+      "Ranged Weapon§‘Iron Hand’ Straken—Auto shotgun": {
+        "aspects": {
+          "Label": "Auto shotgun"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault"
+          ]
+        }
+      },
+      "Ranged Weapon§‘Iron Hand’ Straken—Plasma pistol": {
+        "aspects": {
+          "Label": "Plasma pistol"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§‘iron Hand’ Straken—Plasma pistol – standard",
+            "Ranged Weapon§‘iron Hand’ Straken—Plasma pistol – supercharge"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Melee Weapon§‘Iron Hand’ Straken—Bionic arm with devil’s claw": {
+        "aspects": {
+          "Label": "Bionic arm with devil’s claw"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "monster"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Ministorum Priest—Zealot’s vindictor": {
+        "aspects": {
+          "Label": "Zealot’s vindictor"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Ignores Cover",
+            "Ability§Torrent"
+          ]
+        }
+      },
+      "Melee Weapon§Ministorum Priest—Zealot’s vindictor": {
+        "aspects": {
+          "Label": "Zealot’s vindictor"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Melee Weapon§Provisionally Prepared—Close combat weapons": {
+        "aspects": {
+          "Label": "Close combat weapons"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 5
+          },
+          "S": {
+            "value": 2
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ability§Airborne Insertion": {
+        "text": "At the end of your opponent’s Movement phase, one or more units embarked within this **TRANSPORT** can disembark from it."
+      },
+      "Ability§Subterranean Assault": {
+        "text": "Each time you set up this model on the battlefield using the Deep Strike ability, you can select one friendly Astra Militarum Infantry unit in Strategic Reserves. If you do, set up that unit anywhere on the battlefield that is wholly within 9\" of this model and more than 8\" away from all enemy units."
+      },
+      "Ability§Counterstrategist (Commissar Yarrick)": {
+        "text": "At the end of your opponent’s Movement phase, you can select one enemy unit that was set up or ended a move within 8\" of this model, and one friendly Regiment unit within 6\" of and visible to this model that has not made a Normal move or been targeted with the Fire Overwatch Stratagem this phase. That **REGIMENT** unit can then either:\n\n- Make a Normal move of up to D6\".\n\n- Shoot at that enemy unit, but only if it is an eligible target. Until the end of the phase, each time a model in that unit makes a ranged attack, an unmodified Hit roll of 6 is required to score a hit, irrespective of the attacking weapon’s Ballistic Skill or any modifiers.\n\n- Declare a charge. That **REGIMENT** unit must end that **charge move engaged** with the enemy unit you selected (note that even if this charge is successful, the charging unit does not receive any Charge bonus this turn)."
+      },
+      "Ability§Inspiring Hero": {
+        "text": "_Aura_\n\nWhile a friendly Astra Militarum unit is within 6\" of this model, you can re-roll Battle-shock and Leadership tests taken for that unit."
       }
     },
     "gameModes": {},

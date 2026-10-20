@@ -2123,7 +2123,6 @@
             "Ability§Dark Pacts",
             "Ability§The Warmaster",
             "Ability§Dark Destiny",
-            "Ability§Supreme Commander",
             {
               "item": "Ability§Invulnerable",
               "stats": {
@@ -2134,7 +2133,9 @@
             },
             "Weapon§Abaddon the Despoiler—Talon of Horus",
             "Melee Weapon§Abaddon the Despoiler—Drach’nyen",
-            "Ability§Warmaster"
+            "Ability§Paragon of Hatred",
+            "Ability§Mark of Chaos Ascendant",
+            "Ability§Lord of the Traitor Legions"
           ]
         },
         "keywords": {
@@ -2187,7 +2188,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Chosen\n\n* Legionaries"
+              "text": "This model can be attached to the following units:\n\n* Chosen\n\n* Legionaries\n\n* Nemesis Claw\n\n* Red Corsairs Raiders"
             },
             "Ability§Dark Pacts",
             "Ability§Lord of Chaos",
@@ -2307,11 +2308,11 @@
       "Character§Chaos Lord in Terminator Armour": {
         "assets": {
           "traits": [
-            "Ability§Deep Strike",
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Chaos Terminator Squad"
+              "text": "This model can be attached to the following units:\n\n* Chaos Terminator Squad"
             },
+            "Ability§Deep Strike",
             "Ability§Dark Pacts",
             "Ability§Lord of Chaos",
             "Ability§Formidably Resilient",
@@ -2475,7 +2476,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Chaos Bikers"
+              "text": "This model can be attached to the following units:\n\n* Chaos Bikers"
             },
             "Ability§Dark Pacts",
             "Ability§Lord of Chaos",
@@ -2737,7 +2738,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Chaos Bikers\n\n* Khorne Berzerkers"
+              "text": "This model can be attached to the following units:\n\n* Chaos Bikers"
             },
             "Ability§Dark Pacts",
             "Ability§Lord of Chaos",
@@ -3008,7 +3009,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Chaos Bikers"
+              "text": "This model can be attached to the following units:\n\n* Chaos Bikers"
             },
             "Ability§Dark Pacts",
             "Ability§Lord of Chaos",
@@ -3278,11 +3279,11 @@
       "Character§Chaos Lord with Jump Pack": {
         "assets": {
           "traits": [
-            "Ability§Deep Strike",
             {
               "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following units: \n\n- Raptors"
+              "text": "This model can be attached to the following units:\n\n* Raptors"
             },
+            "Ability§Deep Strike",
             "Ability§Lord of Chaos",
             "Ability§Cruel Hunter",
             "Ability§Dark Pacts",
@@ -3309,7 +3310,8 @@
             "Fly",
             "Grenades",
             "Infantry",
-            "Jump Pack"
+            "Jump Pack",
+            "Chaos"
           ],
           "Faction": [
             "Heretic Astartes"
@@ -3438,7 +3440,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units: Accursed Cultists, Cultist Mob"
+              "text": "This model can be attached to the following units:\n\n* Accursed Cultists\n\n* Cultist Mob\n\n* Cultist Mob with Firearms\n\n* Negavolt Cultists"
             },
             "Ability§Dark Pacts",
             "Ability§Fiery Faith",
@@ -3571,7 +3573,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Accursed Cultists\n\n* Chosen\n\n* Cultist Mob\n\n* Legionaries"
+              "text": "This model can be attached to the following units:\n\n* Accursed Cultists\n\n* Chosen\n\n* Cultist Mob\n\n* Cultist Mob with Firearms\n\n* Legionaries\n\n* Negavolt Cultists\n\n* Nemesis Claw\n\n* Red Corsairs Raiders"
             },
             "Ability§Dark Pacts",
             "Ability§Dark Zealotry",
@@ -3635,7 +3637,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This unit can be attached to the following units:\n\n* Accursed Cultists\n\n* Cultist Mob"
+              "text": "This model can be attached to the following units:\n\n* Accursed Cultists\n\n* Cultist Mob\n\n* Cultist Mob with Firearms\n\n* Negavolt Cultists"
             },
             "Ability§Dark Pacts",
             "Ability§Faithful Flock",
@@ -3697,8 +3699,8 @@
         "assets": {
           "traits": [
             {
-              "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Chosen\n\n* Legionaries\n\nYou can attach this model to one of the above units even if one other Character model has already been attached to it (a unit cannot have two Exalted Champions attached to it). If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+              "item": "Ability§Support",
+              "text": "This model can be attached to the following units:\n\n* Chosen\n\n* Legionaries\n\n* Nemesis Claw\n\n* Red Corsairs Raiders"
             },
             "Ability§Dark Pacts",
             "Ability§Dark Champion",
@@ -3806,16 +3808,16 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Accursed Cultists\n\n* Chosen\n\n* Cultist Mob\n\n* Cultist Mob with Firearms\n\n* Legionaries\n\n* Negavolt Cultists\n\n* Red Corsairs Raiders"
+            },
+            {
               "item": "Ability§Feel No Pain",
               "stats": {
                 "x": {
                   "value": "5+"
                 }
               }
-            },
-            {
-              "item": "Ability§Leader",
-              "text": "\n\nThis unit can be attached to the following units:\n\n* Accursed Cultists\n\n* Chosen\n\n* Cultist Mob\n\n* Legionaries"
             },
             "Ability§Dark Pacts",
             "Ability§Enhanced Warriors",
@@ -3859,11 +3861,11 @@
         },
         "assets": {
           "traits": [
-            "Ability§Deep Strike",
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Raptors"
+              "text": "This model can be attached to the following units:\n\n* Raptors"
             },
+            "Ability§Deep Strike",
             "Ability§Dark Pacts",
             "Ability§Head Taker",
             "Ability§Herald of the Apocalypse (aura)",
@@ -3892,7 +3894,9 @@
             "Epic Hero",
             "Fly",
             "Jump Pack",
-            "Chaos"
+            "Chaos",
+            "Chaos Undivided",
+            "Haarken Worldclaimer"
           ],
           "Category": [
             "Epic Hero"
@@ -3950,7 +3954,11 @@
               "item": "Ability§Daemonic Allegiance",
               "text": "Daemon Prince of Khorne: If this model has the Khorne keyword, add 2 to the Strength characteristic of its hellforged weapons. \nDaemon Prince of Tzeentch: If this model has the Tzeentch keyword, add 3 to the Attacks characteristic of its infernal cannon. \nDaemon Prince of Nurgle: If this model has the Nurgle keyword, add 1 to its Toughness characteristic. \nDaemon Prince of Slaanesh: If this model has the Slaanesh keyword, add 2″ to its Move characteristic."
             },
-            "Ability§Lord of Chaos (DP)"
+            "Ability§Lord of Chaos (DP)",
+            "Ability§Khorne",
+            "Ability§Tzeentch",
+            "Ability§Nurgle",
+            "Ability§Slaanesh"
           ]
         },
         "keywords": {
@@ -4247,7 +4255,11 @@
             {
               "item": "Ability§Daemonic Allegiance",
               "text": "Daemon Prince of Khorne: If this model has the Khorne keyword, add 2 to the Strength characteristic of its hellforged weapons. Daemon Prince of Tzeentch: If this model has the Tzeentch keyword, add 3 to the Attacks characteristic of its infernal cannon. Daemon Prince of Nurgle: If this model has the Nurgle keyword, add 1 to its Toughness characteristic. Daemon Prince of Slaanesh: If this model has the Slaanesh keyword, add 2″ to its Move characteristic."
-            }
+            },
+            "Ability§Khorne",
+            "Ability§Tzeentch",
+            "Ability§Nurgle",
+            "Ability§Slaanesh"
           ]
         },
         "keywords": {
@@ -4525,7 +4537,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following units:\n\n* Chosen\n\n* Legionaries\n\n* Chaos Terminator Squad\n\n* Master of the Maelstrom\n\n* Red Corsairs Raiders"
+              "text": "This model can be attached to the following units:\n\n* Chaos Terminator Squad\n\n* Chosen\n\n* Legionaries\n\n* Red Corsairs Raiders"
             },
             "Ability§Dark Pacts",
             "Ability§Lord of Badab (Aura)",
@@ -4547,7 +4559,8 @@
               }
             },
             "Ranged Weapon§Huron Blackheart—Tyrant’s Claw heavy flamer",
-            "Melee Weapon§Huron Blackheart—Tyrant’s Claw and exalted power weapon"
+            "Melee Weapon§Huron Blackheart—Tyrant’s Claw and exalted power weapon",
+            "Ability§Deep Strike"
           ]
         },
         "keywords": {
@@ -4596,6 +4609,10 @@
       "Character§Kravek Morne": {
         "assets": {
           "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Chaos Terminator Squad\n\n* Mutilators\n\n* Obliterators"
+            },
             "Ability§Deep Strike",
             {
               "item": "Ability§Invulnerable",
@@ -4604,10 +4621,6 @@
                   "value": "4+"
                 }
               }
-            },
-            {
-              "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following units:\n- Chaos Terminator Squad\n- Mutilators\n- Obliterators"
             },
             "Ability§Dark Pacts",
             "Ability§Headlong Destruction",
@@ -4782,8 +4795,8 @@
         "assets": {
           "traits": [
             {
-              "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Chosen\n\n* Legionaries\n\nYou can attach this model to one of the above units even if one other Character model has already been attached to it (a unit cannot have two Masters of Executions attached to it). If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+              "item": "Ability§Support",
+              "text": "This model can be attached to the following units:\n\n* Chosen\n\n* Legionaries\n\n* Nemesis Claw\n\n* Red Corsairs Raiders"
             },
             "Ability§Dark Pacts",
             "Ability§Warp-sighted Butcher",
@@ -4888,7 +4901,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Chosen\n\n* Legionaries\n\n* Possessed"
+              "text": "This model can be attached to the following units:\n\n* Chosen\n\n* Legionaries\n\n* Nemesis Claw\n\n* Possessed\n\n* Red Corsairs Raiders"
             },
             "Ability§Dark Pacts",
             "Ability§Daemonkin (psychic)",
@@ -4951,11 +4964,14 @@
       "Character§Masters of the Maelstrom": {
         "assets": {
           "traits": [
+            {
+              "item": "Ability§Support",
+              "text": "This model can be attached to the following units:\n\n* Chosen\n\n* Legionaries\n\n* Red Corsairs Raiders"
+            },
             "Ability§Dark Pacts",
             "Ability§Choice Samples",
             "Ability§Fleet Command",
             "Ability§Plunder",
-            "Ability§Masters of the Maelstrom",
             "Model§Garreon the Corpsemaster",
             "Model§Garlon Souleater",
             "Model§Katar Garrix",
@@ -5032,11 +5048,11 @@
       "Character§Red Corsairs Reave-Captain": {
         "assets": {
           "traits": [
-            "Ability§Infiltrators",
             {
               "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following units: \n* Chosen\n* Legionaries \n* Red Corsairs Raiders"
+              "text": "This model can be attached to the following units:\n\n* Chosen\n\n* Legionaries\n\n* Nemesis Claw\n\n* Red Corsairs Raiders"
             },
+            "Ability§Infiltrators",
             "Ability§Dark Pacts",
             {
               "item": "Ability§Invulnerable",
@@ -5146,7 +5162,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Traitor Guardsmen Squad\n\n* Renegade Heavy Weapons Squad"
+              "text": "This model can be attached to the following units:\n\n* Renegade Heavy Weapons Squad\n\n* Traitor Guardsmen Squad"
             },
             "Ability§Dark Pacts",
             "Ability§Brutal Example",
@@ -5285,7 +5301,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Accursed Cultists\n\n* Cultist Mob\n\n* Negavolt Cultists"
+              "text": "This model can be attached to the following units:\n\n* Accursed Cultists\n\n* Cultist Mob\n\n* Cultist Mob with Firearms\n\n* Negavolt Cultists"
             },
             "Ability§Dark Pacts",
             "Ability§Cursed Wardings (psychic)",
@@ -5343,7 +5359,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Chosen\n\n* Legionaries"
+              "text": "This model can be attached to the following units:\n\n* Chosen\n\n* Legionaries\n\n* Nemesis Claw\n\n* Red Corsairs Raiders"
             },
             "Ability§Dark Pacts",
             "Ability§Prescience (psychic)",
@@ -5399,11 +5415,11 @@
       "Character§Sorcerer in Terminator Armour": {
         "assets": {
           "traits": [
-            "Ability§Deep Strike",
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Chaos Terminator Squad"
+              "text": "This model can be attached to the following units:\n\n* Chaos Terminator Squad"
             },
+            "Ability§Deep Strike",
             "Ability§Dark Pacts",
             "Ability§Warptime (psychic)",
             "Ability§Death Hex (psychic)",
@@ -5514,7 +5530,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Chaos Bikers"
+              "text": "This model can be attached to the following units:\n\n* Chaos Bikers"
             },
             "Ability§Dark Pacts",
             "Ability§Prescience (psychic)",
@@ -5638,7 +5654,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Chosen\n\n* Legionaries\n\n* Rubric Marines"
+              "text": "This model can be attached to the following units:\n\n* Chosen\n\n* Legionaries\n\n* Nemesis Claw\n\n* Red Corsairs Raiders"
             },
             "Ability§Dark Pacts",
             "Ability§Flames of Change (psychic)",
@@ -5764,7 +5780,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Chaos Bikers"
+              "text": "This model can be attached to the following units:\n\n* Chaos Bikers"
             },
             "Ability§Dark Pacts",
             "Ability§Dark Favour (psychic)",
@@ -5895,7 +5911,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This unit can be attached to the following unit:\n\n* Traitor Guardsmen Squad"
+              "text": "This model can be attached to the following units:\n\n* Traitor Guardsmen Squad"
             },
             "Ability§Dark Pacts",
             "Ability§Brutal Example",
@@ -6023,7 +6039,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Chosen\n\n* Havocs\n\n* Legionaries"
+              "text": "This model can be attached to the following units:\n\n* Chosen\n\n* Havocs\n\n* Legionaries\n\n* Nemesis Claw\n\n* Red Corsairs Raiders"
             },
             "Ability§Dark Pacts",
             "Ability§Warpsmith",
@@ -6046,7 +6062,8 @@
             "Infantry",
             "Character",
             "Chaos",
-            "Warpsmith"
+            "Warpsmith",
+            "Grenades"
           ],
           "Category": [
             "Character"
@@ -11457,7 +11474,7 @@
               "item": "Ability§Scouts",
               "stats": {
                 "x": {
-                  "value": "6″"
+                  "value": "6\""
                 }
               }
             }
@@ -12345,7 +12362,8 @@
             "Character§Sorcerer on Palanquin of Nurgle",
             "Character§Warpsmith",
             "Character§Abaddon the Despoiler",
-            "Character§Red Corsairs Reave-Captain"
+            "Character§Red Corsairs Reave-Captain",
+            "Character§Masters of the Maelstrom"
           ]
         },
         "assets": {
@@ -12628,7 +12646,9 @@
             "Character§Dark Apostle",
             "Character§Dark Commune",
             "Character§Rogue Psyker",
-            "Model§Chaos Cultist with firearms"
+            "Model§Chaos Cultist with firearms",
+            "Character§Fabius Bile",
+            "Character§Cultist Firebrand"
           ]
         },
         "assets": {
@@ -12655,7 +12675,8 @@
             "Cultist Mob",
             "Damned",
             "Grenades",
-            "Infantry"
+            "Infantry",
+            "Cultist Mob with Firearms"
           ],
           "Category": [
             "Battleline"
@@ -12963,7 +12984,8 @@
             {
               "item": "Model§Khorne Berzerker",
               "quantity": 9
-            }
+            },
+            "Ability§Murderous Charge"
           ]
         },
         "keywords": {
@@ -13171,7 +13193,8 @@
             "Character§Sorcerer on Disc of Tzeentch",
             "Character§Sorcerer on Palanquin of Nurgle",
             "Character§Warpsmith",
-            "Character§Red Corsairs Reave-Captain"
+            "Character§Red Corsairs Reave-Captain",
+            "Character§Masters of the Maelstrom"
           ]
         },
         "assets": {
@@ -13525,7 +13548,11 @@
         "allowed": {
           "items": [
             "Model§Negavolt Cultist",
-            "Character§Rogue Psyker"
+            "Character§Rogue Psyker",
+            "Character§Fabius Bile",
+            "Character§Dark Apostle",
+            "Character§Dark Commune",
+            "Character§Cultist Firebrand"
           ]
         },
         "assets": {
@@ -13611,7 +13638,8 @@
             "Character§Sorcerer on Disc of Tzeentch",
             "Character§Sorcerer on Palanquin of Nurgle",
             "Character§Warpsmith",
-            "Model§Legionary (Nemesis Claw)"
+            "Model§Legionary (Nemesis Claw)",
+            "Character§Red Corsairs Reave-Captain"
           ]
         },
         "assets": {
@@ -13619,7 +13647,6 @@
             "Ability§Dark Pacts",
             "Ability§Stealth",
             "Ability§Visions of Suffering (Psychic)",
-            "Ability§Attached Unit (Nemesis Claw)",
             "Model§Visionary",
             "Model§Legionary (Nemesis Claw)"
           ]
@@ -14399,7 +14426,8 @@
             "Grenades",
             "Infantry",
             "Jump Pack",
-            "Raptors"
+            "Raptors",
+            "Jump Packs"
           ],
           "Category": [
             "Infantry"
@@ -14628,7 +14656,8 @@
             "Character§Sorcerer on Disc of Tzeentch",
             "Character§Sorcerer on Palanquin of Nurgle",
             "Character§Warpsmith",
-            "Character§Red Corsairs Reave-Captain"
+            "Character§Red Corsairs Reave-Captain",
+            "Character§Masters of the Maelstrom"
           ]
         },
         "assets": {
@@ -15151,7 +15180,8 @@
             {
               "item": "Model§Rubric Marine",
               "quantity": 4
-            }
+            },
+            "Ability§Cabal of Sorcerers (Aspiring Sorcerer only)"
           ]
         },
         "keywords": {
@@ -15550,7 +15580,8 @@
             "Chaos",
             "Daemon",
             "Grenades",
-            "Warp Talons"
+            "Warp Talons",
+            "Jump Packs"
           ],
           "Category": [
             "Infantry"
@@ -16563,7 +16594,7 @@
             "value": "Melee"
           },
           "S": {
-            "value": 4
+            "value": 5
           },
           "WS": {
             "value": 2
@@ -16939,10 +16970,14 @@
             "value": 1
           },
           "S": {
-            "value": 4
+            "value": 5
           },
           "WS": {
             "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
           }
         }
       },
@@ -16970,6 +17005,10 @@
           },
           "WS": {
             "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
           }
         }
       },
@@ -17371,8 +17410,8 @@
             "value": -1
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "statType": "term",
@@ -17865,8 +17904,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Khorne Lord of Skulls—Great cleaver of Khorne – sweep",
-            "Melee Weapon§Khorne Lord of Skulls—Great cleaver of Khorne – strike"
+            "Melee Weapon§Khorne Lord of Skulls—Great cleaver of Khorne – strike",
+            "Melee Weapon§Khorne Lord of Skulls—Great cleaver of Khorne – sweep"
           ]
         },
         "keywords": {
@@ -18801,7 +18840,7 @@
             "value": "Melee"
           },
           "S": {
-            "value": 4
+            "value": 5
           },
           "WS": {
             "value": 3
@@ -18936,7 +18975,7 @@
             "value": 3
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "D": {
             "value": 1
@@ -18946,7 +18985,7 @@
             "value": "Melee"
           },
           "S": {
-            "value": 4
+            "value": 5
           },
           "WS": {
             "value": 3
@@ -19513,8 +19552,8 @@
             "value": -1
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "statType": "term",
@@ -19547,7 +19586,7 @@
             "value": "Melee"
           },
           "S": {
-            "value": 4
+            "value": 5
           },
           "WS": {
             "value": 3
@@ -19571,8 +19610,8 @@
             "value": -1
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "statType": "term",
@@ -19687,8 +19726,8 @@
             "value": -1
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "statType": "term",
@@ -19797,8 +19836,8 @@
             "value": -1
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "statType": "term",
@@ -19907,8 +19946,8 @@
             "value": -1
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "statType": "term",
@@ -20148,8 +20187,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Vashtorr the Arkifane—Vashtorr’s hammer – sweep",
-            "Melee Weapon§Vashtorr the Arkifane—Vashtorr’s hammer – strike"
+            "Melee Weapon§Vashtorr the Arkifane—Vashtorr’s hammer – strike",
+            "Melee Weapon§Vashtorr the Arkifane—Vashtorr’s hammer – sweep"
           ]
         },
         "keywords": {
@@ -20526,7 +20565,15 @@
           "included": [],
           "traits": [
             "Ranged Weapon§Rubric Marines—Malefic Curse",
-            "Melee Weapon§Rubric Marines—Force weapon"
+            "Melee Weapon§Rubric Marines—Force weapon",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -20574,7 +20621,7 @@
             "value": 3
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 3
@@ -20733,7 +20780,7 @@
             "value": 1
           },
           "Sv": {
-            "value": 3
+            "value": 4
           },
           "T": {
             "value": 3
@@ -21025,10 +21072,10 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Cultist Mob—Autopistol"
+                    "trait": "Ranged Weapon§Cultist Mob with firearms—Autopistol"
                   },
                   {
-                    "trait": "Melee Weapon§Cultist Mob—Brutal assault weapon"
+                    "trait": "Melee Weapon§Cultist Mob with firearms—Brutal assault weapon"
                   }
                 ]
               },
@@ -21036,10 +21083,10 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Cultist Mob—Cultist firearm"
+                    "trait": "Ranged Weapon§Cultist Mob with firearms—Cultist firearm"
                   },
                   {
-                    "trait": "Melee Weapon§Cultist Mob—Close combat weapon"
+                    "trait": "Melee Weapon§Cultist Mob with firearms—Close combat weapon"
                   }
                 ]
               },
@@ -21050,10 +21097,10 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Cultist Mob—Flamer"
+                    "trait": "Ranged Weapon§Cultist Mob with firearms—Flamer"
                   },
                   {
-                    "trait": "Melee Weapon§Cultist Mob—Close combat weapon"
+                    "trait": "Melee Weapon§Cultist Mob with firearms—Close combat weapon"
                   }
                 ]
               },
@@ -21064,10 +21111,10 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Cultist Mob—Heavy stubber"
+                    "trait": "Ranged Weapon§Cultist Mob with firearms—Heavy stubber"
                   },
                   {
-                    "trait": "Melee Weapon§Cultist Mob—Close combat weapon"
+                    "trait": "Melee Weapon§Cultist Mob with firearms—Close combat weapon"
                   }
                 ]
               },
@@ -21078,10 +21125,10 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Cultist Mob—Cultist grenade launcher"
+                    "trait": "Ranged Weapon§Cultist Mob with firearms—Cultist grenade launcher"
                   },
                   {
-                    "trait": "Melee Weapon§Cultist Mob—Close combat weapon"
+                    "trait": "Melee Weapon§Cultist Mob with firearms—Close combat weapon"
                   }
                 ]
               }
@@ -21733,10 +21780,10 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Cultist Mob—Autopistol"
+                    "trait": "Ranged Weapon§Cultist Mob with firearms—Autopistol"
                   },
                   {
-                    "trait": "Melee Weapon§Cultist Mob—Brutal assault weapon"
+                    "trait": "Melee Weapon§Cultist Mob with firearms—Brutal assault weapon"
                   }
                 ]
               },
@@ -21744,10 +21791,10 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Cultist Mob—Bolt pistol"
+                    "trait": "Ranged Weapon§Cultist Mob with firearms—Bolt pistol"
                   },
                   {
-                    "trait": "Melee Weapon§Cultist Mob—Brutal assault weapon"
+                    "trait": "Melee Weapon§Cultist Mob with firearms—Brutal assault weapon"
                   }
                 ]
               },
@@ -21755,10 +21802,10 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Cultist Mob—Cultist firearm"
+                    "trait": "Ranged Weapon§Cultist Mob with firearms—Cultist firearm"
                   },
                   {
-                    "trait": "Melee Weapon§Cultist Mob—Close combat weapon"
+                    "trait": "Melee Weapon§Cultist Mob with firearms—Close combat weapon"
                   }
                 ]
               }
@@ -21788,7 +21835,15 @@
         "assets": {
           "traits": [
             "Ranged Weapon§Dark Apostle—Bolt pistol",
-            "Melee Weapon§Dark Apostle—Accursed crozius"
+            "Melee Weapon§Dark Apostle—Accursed crozius",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
           ]
         },
         "stats": {
@@ -21815,7 +21870,15 @@
       "Model§Dark Disciple": {
         "assets": {
           "traits": [
-            "Melee Weapon§Dark Apostle—Close combat weapon"
+            "Melee Weapon§Dark Apostle—Close combat weapon",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
           ]
         },
         "stats": {
@@ -21892,7 +21955,7 @@
             "value": 5
           },
           "W": {
-            "value": 2
+            "value": 3
           }
         }
       },
@@ -22100,7 +22163,7 @@
             "value": 3
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 4
@@ -22487,7 +22550,7 @@
             "value": 3
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 2
@@ -22565,7 +22628,7 @@
             "value": 3
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 2
@@ -23164,7 +23227,7 @@
             "value": 5
           },
           "W": {
-            "value": 2
+            "value": 3
           }
         }
       },
@@ -23460,7 +23523,15 @@
       "Model§Possessed": {
         "assets": {
           "traits": [
-            "Melee Weapon§Possessed—Hideous mutations"
+            "Melee Weapon§Possessed—Hideous mutations",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            }
           ]
         },
         "stats": {
@@ -24003,7 +24074,15 @@
       "Model§Rubric Marine": {
         "assets": {
           "traits": [
-            "Melee Weapon§Rubric Marines—Close combat weapon"
+            "Melee Weapon§Rubric Marines—Close combat weapon",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            }
           ]
         },
         "stats": {
@@ -24081,7 +24160,7 @@
             "value": 3
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 2
@@ -25159,8 +25238,16 @@
         },
         "assets": {
           "traits": [
+            "Ability§Sustained Hits D3",
             "Ability§Conversion",
-            "Ability§Sustained Hits D3"
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "D3"
+                }
+              }
+            }
           ]
         },
         "stats": {
@@ -25409,8 +25496,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -2
@@ -25441,8 +25528,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -3
@@ -27030,7 +27117,7 @@
             "value": 12
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -27269,11 +27356,16 @@
         },
         "assets": {
           "traits": [
+            "Ability§Sustained Hits D3",
+            "Ability§Conversion",
             {
-              "item": "Ability§Conversion",
-              "text": "Each time an attack made with this weapon targets a unit more than 12″ from the bearer, an unmodified successful hit roll of 4+ scores a Critical Hit."
-            },
-            "Ability§Sustained Hits D3"
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "D3"
+                }
+              }
+            }
           ]
         },
         "stats": {
@@ -27612,8 +27704,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": -1
@@ -27875,8 +27967,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Havocs—Havoc missile launcher – krak",
-            "Ranged Weapon§Havocs—Havoc missile launcher – frag"
+            "Ranged Weapon§Havocs—Havoc missile launcher – frag",
+            "Ranged Weapon§Havocs—Havoc missile launcher – krak"
           ]
         },
         "keywords": {
@@ -28255,6 +28347,7 @@
         "assets": {
           "traits": [
             "Ability§Ignores Cover",
+            "Ability§Pistol",
             "Ability§Torrent"
           ]
         },
@@ -28369,7 +28462,7 @@
             "value": 1
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
             "value": 4
@@ -28381,7 +28474,7 @@
             "value": 12
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -29613,8 +29706,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Nemesis Claw—Missile launcher – krak",
-            "Ranged Weapon§Nemesis Claw—Missile launcher – frag"
+            "Ranged Weapon§Nemesis Claw—Missile launcher – frag",
+            "Ranged Weapon§Nemesis Claw—Missile launcher – krak"
           ]
         },
         "keywords": {
@@ -30017,9 +30110,9 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Obliterators—Fleshmetal guns – warp hail",
+            "Ranged Weapon§Obliterators—Fleshmetal guns – focused malice",
             "Ranged Weapon§Obliterators—Fleshmetal guns – ruinous salvo",
-            "Ranged Weapon§Obliterators—Fleshmetal guns – focused malice"
+            "Ranged Weapon§Obliterators—Fleshmetal guns – warp hail"
           ]
         },
         "keywords": {
@@ -31362,7 +31455,7 @@
             "value": 1
           },
           "AP": {
-            "value": 2
+            "value": -2
           },
           "BS": {
             "value": 5
@@ -31576,7 +31669,7 @@
             "value": 1
           },
           "AP": {
-            "value": -1
+            "value": -2
           },
           "BS": {
             "value": 3
@@ -31588,7 +31681,7 @@
             "value": 12
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -31613,7 +31706,7 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -32101,8 +32194,8 @@
             "value": 3
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 24
@@ -32133,8 +32226,8 @@
             "value": 3
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 24
@@ -32376,8 +32469,8 @@
             "value": 3
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 24
@@ -32408,8 +32501,8 @@
             "value": 3
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 24
@@ -32651,8 +32744,8 @@
             "value": 3
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 24
@@ -32683,8 +32776,8 @@
             "value": 3
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 24
@@ -33006,8 +33099,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Traitor Guardsmen Squad—Cultist grenade launcher – krak",
-            "Ranged Weapon§Traitor Guardsmen Squad—Cultist grenade launcher – frag"
+            "Ranged Weapon§Traitor Guardsmen Squad—Cultist grenade launcher – frag",
+            "Ranged Weapon§Traitor Guardsmen Squad—Cultist grenade launcher – krak"
           ]
         },
         "keywords": {
@@ -35676,6 +35769,9 @@
         "keywords": {
           "Faction": [
             "Heretic Astartes"
+          ],
+          "Keywords": [
+            "Frame"
           ]
         },
         "assets": {
@@ -35986,7 +36082,15 @@
         },
         "assets": {
           "traits": [
-            "Ability§Dark Pacts"
+            "Ability§Dark Pacts",
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D6"
+                }
+              }
+            }
           ]
         },
         "stats": {
@@ -36037,7 +36141,8 @@
             "Chaos",
             "Transport",
             "Fly",
-            "Dreadclaw Drop Pod"
+            "Dreadclaw Drop Pod",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -36154,7 +36259,8 @@
             "Ranged Weapon§Kharybdis Assault Claw—Kharybdis storm launcher",
             "Ranged Weapon§Kharybdis Assault Claw—Kharybdis storm launcher",
             "Melee Weapon§Kharybdis Assault Claw—Blade struts",
-            "Melee Weapon§Kharybdis Assault Claw—Melta array"
+            "Melee Weapon§Kharybdis Assault Claw—Melta array",
+            "Ability§Deep Strike"
           ]
         },
         "keywords": {
@@ -36170,7 +36276,8 @@
             "Chaos",
             "Transport",
             "Fly",
-            "Kharybdis Assault Claw"
+            "Kharybdis Assault Claw",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -36250,7 +36357,8 @@
             "Chaos",
             "Khorne",
             "Daemon",
-            "Lord of Skulls"
+            "Lord of Skulls",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -36394,7 +36502,8 @@
           "Keywords": [
             "Fortification",
             "Chaos",
-            "Noctilith Crown"
+            "Noctilith Crown",
+            "Frame"
           ],
           "Category": [
             "Fortification"
@@ -36572,6 +36681,9 @@
         "keywords": {
           "Faction": [
             "Heretic Astartes"
+          ],
+          "Keywords": [
+            "Frame"
           ]
         },
         "assets": {
@@ -36595,6 +36707,9 @@
         "keywords": {
           "Faction": [
             "Heretic Astartes"
+          ],
+          "Keywords": [
+            "Frame"
           ]
         },
         "assets": {
@@ -36607,6 +36722,9 @@
         "keywords": {
           "Faction": [
             "Heretic Astartes"
+          ],
+          "Keywords": [
+            "Frame"
           ]
         },
         "assets": {
@@ -36630,6 +36748,9 @@
         "keywords": {
           "Faction": [
             "Heretic Astartes"
+          ],
+          "Keywords": [
+            "Frame"
           ]
         },
         "assets": {
@@ -37649,8 +37770,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Legionaries—Missile launcher – krak",
-            "Ranged Weapon§Legionaries—Missile launcher – frag"
+            "Ranged Weapon§Legionaries—Missile launcher – frag",
+            "Ranged Weapon§Legionaries—Missile launcher – krak"
           ]
         },
         "keywords": {
@@ -37687,6 +37808,1187 @@
       },
       "Ability§Warmaster": {
         "text": "**Paragon of Hatred (Aura):** While a friendly **HERETIC ASTARTES** unit (excluding **DAMNED** units) is within 6\" of this model, each time a model in that unit makes an attack, you can re-roll the Hit roll.\n\n**Mark of Chaos Ascendant (Aura):** While a friendly **HERETIC ASTARTES INFANTRY** or **HERETIC ASTARTES MOUNTED** unit (excluding **DAMNED** units) is within 6\" of this model, models in that unit have a 4+ invulnerable save.\n\n**Lord of the Traitor Legions (Aura):** While a friendly **HERETIC ASTARTES** unit (excluding **DAMNED** units) is within 6\" of this model, you can re-roll Leadership and Battle-shock tests taken for that unit."
+      },
+      "Melee Weapon§Cultist Mob with firearms—Brutal assault weapon": {
+        "aspects": {
+          "Label": "Brutal assault weapon"
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 3
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Melee Weapon§Cultist Mob with firearms—Close combat weapon": {
+        "aspects": {
+          "Label": "Close combat weapon"
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 3
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Cultist Mob with firearms—Autopistol": {
+        "aspects": {
+          "Label": "Autopistol"
+        },
+        "assets": {
+          "included": [],
+          "traits": [
+            "Ability§Pistol"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Cultist Mob with firearms—Cultist firearm": {
+        "aspects": {
+          "Label": "Cultist firearm"
+        },
+        "assets": {
+          "included": [],
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Cultist Mob with firearms—Cultist grenade launcher – frag": {
+        "aspects": {
+          "Label": "Frag"
+        },
+        "assets": {
+          "included": [],
+          "traits": [
+            "Ability§Blast"
+          ]
+        },
+        "stats": {
+          "A": {
+            "statType": "term",
+            "value": "D3"
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Cultist Mob with firearms—Cultist grenade launcher – krak": {
+        "aspects": {
+          "Label": "Krak"
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "statType": "term",
+            "value": "D3"
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 9
+          }
+        }
+      },
+      "Ranged Weapon§Cultist Mob with firearms—Cultist grenade launcher": {
+        "aspects": {
+          "Label": "Cultist grenade launcher"
+        },
+        "assets": {
+          "included": [],
+          "traits": [
+            "Ranged Weapon§Cultist Mob with firearms—Cultist grenade launcher – frag",
+            "Ranged Weapon§Cultist Mob with firearms—Cultist grenade launcher – krak"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Cultist Mob with firearms—Flamer": {
+        "aspects": {
+          "Label": "Flamer"
+        },
+        "assets": {
+          "included": [],
+          "traits": [
+            "Ability§Ignores Cover",
+            "Ability§Torrent"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "format": "{t}",
+            "statType": "term",
+            "value": "N/A"
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Cultist Mob with firearms—Heavy stubber": {
+        "aspects": {
+          "Label": "Heavy stubber"
+        },
+        "assets": {
+          "included": [],
+          "traits": [
+            "Ability§Heavy",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "3"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 5
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Cultist Mob with firearms—Bolt pistol": {
+        "aspects": {
+          "Label": "Bolt pistol"
+        },
+        "assets": {
+          "included": [],
+          "traits": [
+            "Ability§Pistol"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Melee Weapon§Decimator—Armoured feet": {
+        "aspects": {
+          "Label": "Armoured feet"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Khorne Berzerkers—Chainblade": {
+        "aspects": {
+          "Label": "Chainblade"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Plague Marines—Bolt pistol": {
+        "aspects": {
+          "Label": "Bolt pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lethal Hits",
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Plague Marines—Boltgun": {
+        "aspects": {
+          "Label": "Boltgun"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Ranged Weapon§Terrax-pattern Termite—Combi-weapon – Purgatus": {
+        "aspects": {
+          "Label": "Combi-weapon – Purgatus"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Terrax-pattern Termite—Combi-weapon – damnatus": {
+        "aspects": {
+          "Label": "Combi-weapon – Damnatus"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D3",
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Terrax-pattern Termite—Combi-weapon – infernus": {
+        "aspects": {
+          "Label": "Combi-weapon – Infernus"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Blast",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Torrent"
+          ]
+        }
+      },
+      "Ranged Weapon§Terrax-pattern Termite—Combi-weapon": {
+        "aspects": {
+          "Label": "Combi-weapon"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Terrax-pattern Termite—Combi-weapon – damnatus",
+            "Ranged Weapon§Terrax-pattern Termite—Combi-weapon – infernus"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Kratos—Combi-weapon – infernus": {
+        "aspects": {
+          "Label": "Combi-weapon – Infernus"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Torrent",
+            {
+              "item": "Ability§Blast",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Kratos—Combi-weapon – purgatus": {
+        "aspects": {
+          "Label": "Combi-weapon – Purgatus"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Kratos—Combi-weapon": {
+        "aspects": {
+          "Label": "Combi-weapon"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Kratos—Combi-weapon – infernus",
+            "Ranged Weapon§Kratos—Combi-weapon – purgatus"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Kratos—Combi-weapon – Damnatus": {
+        "aspects": {
+          "Label": "Combi-weapon – Damnatus"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D3",
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Kratos—Heavy Flamer": {
+        "aspects": {
+          "Label": "Heavy Flamer"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Torrent",
+            {
+              "item": "Ability§Blast",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Kratos—Kratos Battle Cannon – Blast": {
+        "aspects": {
+          "Label": "Kratos Battle Cannon – Blast"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "format": "D3",
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Blast",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Kratos—Heavy Bolter": {
+        "aspects": {
+          "Label": "Heavy Bolter"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            },
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Kratos—Kratos Battle Cannon – Piercing": {
+        "aspects": {
+          "Label": "Kratos Battle Cannon – Piercing"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 18
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "format": "D3",
+            "value": 6
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy"
+          ]
+        }
+      },
+      "Ranged Weapon§Kratos—Lascannon": {
+        "aspects": {
+          "Label": "Lascannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D3",
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Kratos—Multi-melta": {
+        "aspects": {
+          "Label": "Multi-melta"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D3",
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "3"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Melee Weapon§Rapier Carrier—Armoured Hull": {
+        "aspects": {
+          "Label": "Armoured Hull"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Cultist Mob with firearms—Autogun": {
+        "aspects": {
+          "Label": "Autogun"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Cultist Mob with firearms—Grenade launcher – frag": {
+        "aspects": {
+          "Label": "Grenade launcher – frag"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "format": "D3",
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Cultist Mob with firearms—Grenade launcher – krak": {
+        "aspects": {
+          "Label": "Grenade launcher – krak"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          }
+        }
+      },
+      "Ranged Weapon§Cultist Mob with firearms—Grenade launcher": {
+        "aspects": {
+          "Label": "Grenade launcher"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Cultist Mob with firearms—Grenade launcher – frag",
+            "Ranged Weapon§Cultist Mob with firearms—Grenade launcher – krak"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ability§Paragon of Hatred": {
+        "text": "_Aura_\n\nWhile a friendly **HERETIC** **ASTARTES** unit is within 6\" (excluding DAMNED units) of this model, each time a model in that unit makes an attack, you can re-roll the Hit roll."
+      },
+      "Ability§Mark of Chaos Ascendant": {
+        "text": "_Aura_\n\nWhile a friendly Heretic Astartes Infantry or Heretic Astartes Mounted unit (excluding DAMNED units) is within 6\" of this model, models in that unit have a 4+ invulnerable save."
+      },
+      "Ability§Lord of the Traitor Legions": {
+        "text": "_Aura_\n\nWhile a friendly **HERETIC** **ASTARTES** unit (excluding DAMNED units) is within 6\" of this model, you can re-roll Leadership and Battle-shock tests taken for that unit."
+      },
+      "Character§Chaos Lord on Disc of Tzeentch": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Chosen\n\n* Legionaries\n\n* Nemesis Claw\n\n* Red Corsairs Raiders"
+            }
+          ]
+        }
+      },
+      "Character§Chaos Lord on Palanquin of Nurgle": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Chosen\n\n* Legionaries\n\n* Nemesis Claw\n\n* Red Corsairs Raiders"
+            }
+          ]
+        }
+      },
+      "Ability§Khorne": {
+        "text": "Add 2 to the Strength characteristic of this model's hellforged weapons."
+      },
+      "Ability§Tzeentch": {
+        "text": "Add 3 to the Attacks characteristic of its infernal cannon."
+      },
+      "Ability§Nurgle": {
+        "text": "Add 1 to its Toughness characteristic."
+      },
+      "Ability§Slaanesh": {
+        "text": "Add 2\" to its Move characteristic."
+      },
+      "Character§Sorcerer on Palanquin of Nurgle": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Chosen\n\n* Legionaries\n\n* Nemesis Claw\n\n* Red Corsairs Raiders"
+            }
+          ]
+        }
+      },
+      "Unit§Blood Slaughterer": {
+        "keywords": {
+          "Keywords": [
+            "Frame"
+          ]
+        }
+      },
+      "Unit§Greater Brass Scorpion": {
+        "keywords": {
+          "Keywords": [
+            "Frame"
+          ]
+        }
+      },
+      "Unit§Hell Blade": {
+        "stats": {
+          "M": {
+            "statType": "term",
+            "value": "-"
+          }
+        }
+      },
+      "Unit§Hell Talon": {
+        "stats": {
+          "M": {
+            "statType": "term",
+            "value": "-"
+          }
+        }
+      },
+      "Ability§Murderous Charge": {
+        "text": "If this unit made a charge move this turn, this unit’s melee attacks have +1 **S**."
+      },
+      "Ability§Cabal of Sorcerers (Aspiring Sorcerer only)": {
+        "text": "If your Army Faction is Thousand Sons, at the start of your Shooting phase, one or more models from your army with this ability can attempt Rituals from those listed below. To do so, select one model from your army with this ability that has not yet attempted a Ritual this turn and select one Ritual no model from your army has attempted to manifest this turn, then take a Psychic test for that model by following the sequence below.\n\n**PSYCHIC TEST SEQUENCE****Roll 2D6**\n\n**Channel the Warp**\n(Optional)\n\nThen, if one or more doubles or triples were rolled during this test, that model’s unit suffers D3 mortal wounds.If that model is not destroyed, the combined total of all the dice rolled during this test is the Psychic test result. If this equals or exceeds the Warp Charge value of the Ritual being attempted, that model manifests that Ritual and you resolve its effects.\n\nDESTINY’S RUIN (PSYCHIC)\nWARP CHARGE\n5\n\nSelect one enemy unit within 24\" of and **visible** to the manifesting model. Until the end of the phase, each time a **THOUSAND** **SONS** or **SCINTILLATING** **LEGIONS** model from your army makes an attack that targets that unit, re-roll a **Hit roll** of 1. If the Psychic test result for this Ritual was 10+, you can re-roll the Hit roll instead.\n\nTEMPORAL SURGE (PSYCHIC)\nWARP CHARGE\n6\n\nSelect one friendly **THOUSAND** **SONS** or **SCINTILLATING** **LEGIONS** unit that is not within **Engagement Range** of one or more enemy units and is within 24\" of and **visible** to the manifesting model. That unit can make a **Normal move** of up to D6\". If the Psychic test result for this Ritual was 10+, that unit can make a Normal move of up to 6\" instead. In either case, until the end of the turn, that unit is not eligible to declare a charge.\n\nDOOMBOLT (PSYCHIC)\nWARP CHARGE\n7\n\nSelect one enemy unit within 24\" of and **visible** to the manifesting model (excluding units with the **Lone Operative** ability that are not part of an Attached unit and are not within 12\" of the manifesting model); that unit suffers D3 **mortal wounds**. If the Psychic test result for this Ritual was 11+, that unit suffers D3+3 mortal wounds instead.\n\nTWIST OF FATE (PSYCHIC)\nWARP CHARGE\n9\n\nSelect one enemy unit within 24\" of and **visible** to the manifesting model. Until the end of the phase, each time a **THOUSAND** **SONS** or **SCINTILLATING** **LEGIONS** model from your army makes an attack that targets that unit, improve the Armour Penetration characteristic of that attack by 1. If the Psychic test result for this Ritual was 12+, improve the Armour Penetration characteristic of that attack by 2 instead."
+      },
+      "Vehicle§Terrax-pattern Termite": {
+        "keywords": {
+          "Keywords": [
+            "Chaos"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Combat Doctrines"
+          ]
+        }
+      },
+      "Ability§Combat Doctrines": {
+        "text": "At the start of your Command phase, you can select one **combat doctrine** listed below. If you do, that **combat doctrine** is active for friendly **ADEPTUS** **ASTARTES** units with this ability until the start of your next Command phase.\n\nASSAULT DOCTRINEWhen this unit is selected to make an **advance move**, that **advance move** does not prevent this unit from being **eligible to declare a charge**.\n\nDEVASTATOR DOCTRINEThis unit’s ranged attacks have **[ASSAULT]**.\n\nTACTICAL DOCTRINEWhen this unit is selected to make a **fall-back move**, that **fall-back move** does not prevent this unit from being **eligible to shoot** and **eligible to declare a charge**.\nUnless otherwise stated:\n\n- You can only select each **combat doctrine** once per battle.\n\n- Only one **combat doctrine** can be active for each unit. If a rule makes a **combat doctrine** active for a unit, any **combat doctrine** previously active for that unit is no longer active for that unit."
+      },
+      "Vehicle§Cerberus": {
+        "keywords": {
+          "Keywords": [
+            "Chaos"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Combat Doctrines"
+          ]
+        }
+      },
+      "Vehicle§Kratos": {
+        "keywords": {
+          "Keywords": [
+            "Chaos"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Combat Doctrines"
+          ]
+        }
+      },
+      "Vehicle§Mastodon": {
+        "keywords": {
+          "Keywords": [
+            "Chaos"
+          ]
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "2D6"
+                }
+              }
+            },
+            "Ability§Combat Doctrines"
+          ]
+        }
+      },
+      "Vehicle§Rapier Carrier": {
+        "keywords": {
+          "Keywords": [
+            "Chaos"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Combat Doctrines"
+          ]
+        }
+      },
+      "Vehicle§Typhon": {
+        "keywords": {
+          "Keywords": [
+            "Chaos"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Combat Doctrines"
+          ]
+        }
+      },
+      "Vehicle§Falchion": {
+        "keywords": {
+          "Keywords": [
+            "Chaos"
+          ]
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D6+2"
+                }
+              }
+            },
+            "Ability§Combat Doctrines"
+          ]
+        }
       }
     },
     "gameModes": {},

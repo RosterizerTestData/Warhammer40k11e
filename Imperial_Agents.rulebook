@@ -170,6 +170,18 @@
           "Points": {
             "value": 100
           }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Reign of Confusion"
+          ]
+        },
+        "removed": {
+          "assets": {
+            "traits": [
+              "Ability§Shadow Assignment"
+            ]
+          }
         }
       },
       "Character§Culexus Assassin": {
@@ -228,6 +240,13 @@
           "Points": {
             "value": 85
           }
+        },
+        "removed": {
+          "assets": {
+            "traits": [
+              "Ability§Shadow Assignment"
+            ]
+          }
         }
       },
       "Character§Eversor Assassin": {
@@ -285,6 +304,25 @@
         "stats": {
           "Points": {
             "value": 100
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "9\""
+                }
+              }
+            }
+          ]
+        },
+        "removed": {
+          "assets": {
+            "traits": [
+              "Ability§Shadow Assignment"
+            ]
           }
         }
       },
@@ -391,6 +429,13 @@
         "stats": {
           "Points": {
             "value": 110
+          }
+        },
+        "removed": {
+          "assets": {
+            "traits": [
+              "Ability§Shadow Assignment"
+            ]
           }
         }
       },
@@ -2693,6 +2738,20 @@
           "Points": {
             "value": 110
           }
+        },
+        "keywords": {
+          "Keywords": [
+            "Explosives",
+            "Tacticus",
+            "Gravis"
+          ]
+        },
+        "removed": {
+          "assets": {
+            "traits": [
+              "Ability§Assigned Agents"
+            ]
+          }
         }
       },
       "Unit§Deathwatch Kill Team": {
@@ -2703,6 +2762,26 @@
           "Points": {
             "value": 115
           }
+        },
+        "allowed": {
+          "items": [
+            "Character§Inquisitor Greyfax",
+            "Character§Inquisitor Coteaz",
+            "Character§Inquisitor Eisenhorn",
+            "Character§Inquisitor in Terminator Armour"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Explosives"
+          ]
+        },
+        "removed": {
+          "assets": {
+            "traits": [
+              "Ability§Assigned Agents"
+            ]
+          }
         }
       },
       "Unit§Exaction Squad": {
@@ -2710,6 +2789,13 @@
           "Points": {
             "value": 90
           }
+        },
+        "allowed": {
+          "items": [
+            "Character§Inquisitor Eisenhorn",
+            "Character§Inquisitor in Terminator Armour",
+            "Character§Inquisitor Ostromandeus"
+          ]
         }
       },
       "Unit§Fortis Kill Team (Agents)": {
@@ -2720,12 +2806,27 @@
           "Points": {
             "value": 100
           }
+        },
+        "allowed": {
+          "items": [
+            "Character§Inquisitor Greyfax",
+            "Character§Inquisitor Coteaz",
+            "Character§Inquisitor Eisenhorn",
+            "Character§Inquisitor in Terminator Armour"
+          ]
         }
       },
       "Unit§Grey Knights Terminator Squad": {
         "stats": {
           "Points": {
             "value": 175
+          }
+        },
+        "removed": {
+          "assets": {
+            "traits": [
+              "Ability§Rites of Teleportation"
+            ]
           }
         }
       },
@@ -2775,6 +2876,11 @@
           "traits": [
             "Ability§Assigned Agents"
           ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Frame"
+          ]
         }
       },
       "Character§Inquisitor": {
@@ -2782,6 +2888,14 @@
           "Points": {
             "value": 55
           }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Aquila Kill Team\n\n* Deathwatch Kill Team\n\n* Deathwatch Terminator Squad\n\n* Exaction Squad\n\n* Fortis Kill Team\n\n* Grey Knights Terminator Squad\n\n* Imperial Navy Breachers\n\n* Indomitor Kill Team\n\n* Inquisitorial Agents\n\n* Proteus Kill Team\n\n* Sanctifiers\n\n* Sisters of Battle Squad\n\n* Spectrus Kill Team\n\n* Subductor Squad\n\n* Vigilant Squad"
+            }
+          ]
         }
       },
       "Character§Inquisitor Coteaz": {
@@ -2789,6 +2903,14 @@
           "Points": {
             "value": 75
           }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Aquila Kill Team\n\n* Deathwatch Kill Team\n\n* Deathwatch Terminator Squad\n\n* Exaction Squad\n\n* Fortis Kill Team\n\n* Grey Knights Terminator Squad\n\n* Imperial Navy Breachers\n\n* Indomitor Kill Team\n\n* Inquisitorial Agents\n\n* Proteus Kill Team\n\n* Spectrus Kill Team\n\n* Subductor Squad\n\n* Vigilant Squad"
+            }
+          ]
         }
       },
       "Character§Inquisitor Draxus": {
@@ -2796,6 +2918,14 @@
           "Points": {
             "value": 75
           }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Aquila Kill Team\n\n* Deathwatch Kill Team\n\n* Deathwatch Terminator Squad\n\n* Exaction Squad\n\n* Fortis Kill Team\n\n* Imperial Navy Breachers\n\n* Indomitor Kill Team\n\n* Inquisitorial Agents\n\n* Proteus Kill Team\n\n* Spectrus Kill Team\n\n* Subductor Squad\n\n* Vigilant Squad"
+            }
+          ]
         }
       },
       "Unit§Inquisitorial Agents": {
@@ -2805,6 +2935,19 @@
           },
           "Points": {
             "value": 50
+          }
+        },
+        "allowed": {
+          "items": [
+            "Character§Inquisitor in Terminator Armour",
+            "Character§Inquisitor Ostromandeus"
+          ]
+        },
+        "removed": {
+          "assets": {
+            "traits": [
+              "Ability§Inquisitorial Henchmen"
+            ]
           }
         }
       },
@@ -2816,6 +2959,11 @@
           "unitDiscountThreshold": {
             "value": 4
           }
+        },
+        "keywords": {
+          "Keywords": [
+            "Frame"
+          ]
         }
       },
       "Character§Navigator": {
@@ -2823,6 +2971,14 @@
           "Points": {
             "value": 60
           }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Imperial Navy Breachers\n\n* Voidsmen-at-arms"
+            }
+          ]
         }
       },
       "Character§Rogue Trader Entourage": {
@@ -2830,6 +2986,14 @@
           "Points": {
             "value": 75
           }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Imperial Navy Breachers\n\n* Voidsmen-at-arms"
+            }
+          ]
         }
       },
       "Unit§Sisters of Battle Immolator": {
@@ -2843,6 +3007,11 @@
           "unitDiscountThreshold": {
             "value": 4
           }
+        },
+        "keywords": {
+          "Keywords": [
+            "Frame"
+          ]
         }
       },
       "Ranged Weapon§Sisters of Battle Immolator—Twin multi-melta": {
@@ -2892,6 +3061,12 @@
           "Points": {
             "value": 100
           }
+        },
+        "allowed": {
+          "items": [
+            "Character§Inquisitor in Terminator Armour",
+            "Character§Inquisitor Ostromandeus"
+          ]
         }
       },
       "Unit§Subductor Squad": {
@@ -2899,12 +3074,26 @@
           "Points": {
             "value": 85
           }
+        },
+        "allowed": {
+          "items": [
+            "Character§Inquisitor Eisenhorn",
+            "Character§Inquisitor in Terminator Armour",
+            "Character§Inquisitor Ostromandeus"
+          ]
         }
       },
       "Unit§Voidsmen-at-arms": {
         "stats": {
           "Points": {
             "value": 50
+          }
+        },
+        "removed": {
+          "assets": {
+            "traits": [
+              "Ability§Navy Bodyguard"
+            ]
           }
         }
       },
@@ -2913,12 +3102,58 @@
           "Points": {
             "value": 75
           }
+        },
+        "keywords": {
+          "Keywords": [
+            "Captain",
+            "Explosives"
+          ]
+        },
+        "removed": {
+          "assets": {
+            "traits": [
+              "Ability§Assigned Agents"
+            ]
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Aquila Kill Team\n\n* Deathwatch Kill Team\n\n* Deathwatch Terminator Squad\n\n* Fortis Kill Team\n\n* Indomitor Kill Team\n\n* Proteus Kill Team\n\n* Spectrus Kill Team"
+            }
+          ]
         }
       },
       "Character§Watch Master (Agents)": {
         "stats": {
           "Points": {
             "value": 105
+          }
+        },
+        "keywords": {
+          "Keywords": [
+            "Explosives"
+          ]
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Aquila Kill Team\n\n* Deathwatch Kill Team\n\n* Deathwatch Terminator Squad\n\n* Fortis Kill Team\n\n* Indomitor Kill Team\n\n* Proteus Kill Team\n\n* Spectrus Kill Team"
+            },
+            "Ability§Watch Master",
+            "Ability§Strategic Acumen",
+            "Ability§Purgatus Quarry"
+          ]
+        },
+        "removed": {
+          "assets": {
+            "traits": [
+              "Ability§Strategic Knowledge",
+              "Ability§Assigned Agents",
+              "Ability§Rites of Battle"
+            ]
           }
         }
       },
@@ -3189,6 +3424,808 @@
           "Points": {
             "value": 65
           }
+        }
+      },
+      "Ranged Weapon§Ministorum Priest (Agents)—Zealot’s vindictor": {
+        "aspects": {
+          "Label": "Zealot’s vindictor"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Ignores Cover",
+            "Ability§Torrent"
+          ]
+        }
+      },
+      "Melee Weapon§Ministorum Priest (Agents)—Zealot's vindictor": {
+        "aspects": {
+          "Label": "Zealot's vindictor"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Proteus Kill Team—Assault cannon": {
+        "aspects": {
+          "Label": "Assault cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 6
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds"
+          ]
+        }
+      },
+      "Ranged Weapon§Proteus Kill Team—Cyclone missile launcher – frag": {
+        "aspects": {
+          "Label": "Cyclone missile launcher – frag"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "format": "2D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Proteus Kill Team—Cyclone missile launcher – krak": {
+        "aspects": {
+          "Label": "Cyclone missile launcher – krak"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          }
+        }
+      },
+      "Ranged Weapon§Proteus Kill Team—Cyclone missile launcher": {
+        "aspects": {
+          "Label": "Cyclone missile launcher"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Proteus Kill Team—Cyclone missile launcher – frag",
+            "Ranged Weapon§Proteus Kill Team—Cyclone missile launcher – krak"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Proteus Kill Team—Heavy flamer": {
+        "aspects": {
+          "Label": "Heavy flamer"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Ignores Cover",
+            "Ability§Torrent"
+          ]
+        }
+      },
+      "Ranged Weapon§Proteus Kill Team—Infernus heavy bolter – heavy bolter": {
+        "aspects": {
+          "Label": "Infernus heavy bolter – heavy bolter"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy",
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Proteus Kill Team—Infernus heavy bolter – heavy flamer": {
+        "aspects": {
+          "Label": "Infernus heavy bolter – heavy flamer"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Ignores Cover",
+            "Ability§Torrent"
+          ]
+        }
+      },
+      "Ranged Weapon§Proteus Kill Team—Infernus heavy bolter": {
+        "aspects": {
+          "Label": "Infernus heavy bolter"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Proteus Kill Team—Infernus heavy bolter – heavy bolter",
+            "Ranged Weapon§Proteus Kill Team—Infernus heavy bolter – heavy flamer"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Proteus Kill Team—Long Vigil ranged weapon": {
+        "aspects": {
+          "Label": "Long Vigil ranged weapon"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Proteus Kill Team—Plasma cannon – standard": {
+        "aspects": {
+          "Label": "Plasma cannon – standard"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "format": "D3",
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast",
+            "Ability§Heavy"
+          ]
+        }
+      },
+      "Ranged Weapon§Proteus Kill Team—Plasma cannon – supercharge": {
+        "aspects": {
+          "Label": "Plasma cannon – supercharge"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "format": "D3",
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast",
+            "Ability§Hazardous",
+            "Ability§Heavy"
+          ]
+        }
+      },
+      "Ranged Weapon§Proteus Kill Team—Plasma cannon": {
+        "aspects": {
+          "Label": "Plasma cannon"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Proteus Kill Team—Plasma cannon – standard",
+            "Ranged Weapon§Proteus Kill Team—Plasma cannon – supercharge"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Fortis Kill Team (Agents)—Plasma pistol – standard": {
+        "aspects": {
+          "Label": "Plasma pistol – standard"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Close-quarters"
+          ]
+        }
+      },
+      "Ranged Weapon§Fortis Kill Team (Agents)—Plasma pistol – supercharge": {
+        "aspects": {
+          "Label": "Plasma pistol – supercharge"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Close-quarters",
+            "Ability§Hazardous"
+          ]
+        }
+      },
+      "Ranged Weapon§Fortis Kill Team (Agents)—Plasma pistol": {
+        "aspects": {
+          "Label": "Plasma pistol"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Fortis Kill Team (Agents)—Plasma pistol – standard",
+            "Ranged Weapon§Fortis Kill Team (Agents)—Plasma pistol – supercharge"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Indomitor Kill Team (Agents)—Bolt pistol": {
+        "aspects": {
+          "Label": "Bolt pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ability§Reign of Confusion": {
+        "text": "Once per turn, when your opponent targets a unit from their army within 12\" of this model with a stratagem, this model can use this ability. If you do increase the CP cost of that use of that stratagem by 1CP."
+      },
+      "Character§Inquisitor Greyfax": {
+        "keywords": {
+          "Keywords": [
+            "Ordo Hereticus"
+          ]
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Aquila Kill Team\n\n* Deathwatch Kill Team\n\n* Deathwatch Terminator Squad\n\n* Exaction Squad\n\n* Fortis Kill Team\n\n* Imperial Navy Breachers\n\n* Indomitor Kill Team\n\n* Inquisitorial Agents\n\n* Proteus Kill Team\n\n* Sanctifiers\n\n* Sisters of Battle Squad\n\n* Spectrus Kill Team\n\n* Subductor Squad\n\n* Vigilant Squad"
+            }
+          ]
+        }
+      },
+      "Unit§Deathwatch Terminator Squad (Agents)": {
+        "allowed": {
+          "items": [
+            "Character§Inquisitor Greyfax",
+            "Character§Inquisitor Coteaz",
+            "Character§Inquisitor Eisenhorn",
+            "Character§Inquisitor in Terminator Armour"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Terminator Squad",
+            "Deathwatch"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assigned Agents"
+          ]
+        }
+      },
+      "Unit§Indomitor Kill Team (Agents)": {
+        "allowed": {
+          "items": [
+            "Character§Inquisitor Greyfax",
+            "Character§Inquisitor Coteaz",
+            "Character§Inquisitor Eisenhorn",
+            "Character§Inquisitor in Terminator Armour"
+          ]
+        }
+      },
+      "Unit§Proteus Kill Team": {
+        "allowed": {
+          "items": [
+            "Character§Inquisitor Greyfax",
+            "Character§Inquisitor Coteaz",
+            "Character§Inquisitor Eisenhorn",
+            "Character§Inquisitor in Terminator Armour"
+          ]
+        }
+      },
+      "Unit§Spectrus Kill Team (Agents)": {
+        "allowed": {
+          "items": [
+            "Character§Inquisitor Greyfax",
+            "Character§Inquisitor Coteaz",
+            "Character§Inquisitor Eisenhorn",
+            "Character§Inquisitor in Terminator Armour"
+          ]
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "6\""
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Character§Inquisitor Karamazov": {
+        "keywords": {
+          "Keywords": [
+            "Ordo Hereticus"
+          ]
+        }
+      },
+      "Character§Inquisitor Eisenhorn": {
+        "keywords": {
+          "Keywords": [
+            "Ordo Xenos"
+          ]
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Aquila Kill Team\n\n* Daemonhost\n\n* Deathwatch Kill Team\n\n* Deathwatch Terminator Squad\n\n* Exaction Squad\n\n* Fortis Kill Team\n\n* Imperial Navy Breachers\n\n* Indomitor Kill Team\n\n* Inquisitorial Agents\n\n* Proteus Kill Team\n\n* Spectrus Kill Team\n\n* Subductor Squad\n\n* Vigilant Squad"
+            }
+          ]
+        }
+      },
+      "Unit§Daemonhost": {
+        "allowed": {
+          "items": [
+            "Character§Inquisitor Eisenhorn"
+          ]
+        }
+      },
+      "Unit§Imperial Navy Breachers": {
+        "allowed": {
+          "items": [
+            "Character§Inquisitor Eisenhorn",
+            "Character§Inquisitor in Terminator Armour",
+            "Character§Inquisitor Ostromandeus"
+          ]
+        }
+      },
+      "Unit§Vigilant Squad": {
+        "allowed": {
+          "items": [
+            "Character§Inquisitor Eisenhorn",
+            "Character§Inquisitor in Terminator Armour",
+            "Character§Inquisitor Ostromandeus"
+          ]
+        }
+      },
+      "Character§Inquisitor in Terminator Armour": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Aquila Kill Team\n\n* Deathwatch Kill Team\n\n* Deathwatch Terminator Squad\n\n* Exaction Squad\n\n* Fortis Kill Team\n\n* Imperial Navy Breachers\n\n* Indomitor Kill Team\n\n* Inquisitorial Agents\n\n* Proteus Kill Team\n\n* Sanctifiers\n\n* Sisters of Battle Squad\n\n* Spectrus Kill Team\n\n* Subductor Squad\n\n* Vigilant Squad"
+            }
+          ]
+        }
+      },
+      "Model§Rogue Trader": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Character§Janus Draik": {
+        "keywords": {
+          "Keywords": [
+            "Voidfarers"
+          ]
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Imperial Navy Breachers\n\n* Voidsmen-at-arms"
+            }
+          ]
+        }
+      },
+      "Character§Neyam Shai Murad": {
+        "keywords": {
+          "Keywords": [
+            "Voidfarers"
+          ]
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Imperial Navy Breachers\n\n* Voidsmen-at-arms"
+            }
+          ]
+        }
+      },
+      "Character§Ministorum Priest (Agents)": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Support",
+              "text": "This model can be attached to the following units:\n\n* Exaction Squad\n\n* Imperial Navy Breachers\n\n* Inquisitorial Agents\n\n* Sanctifiers\n\n* Sisters of Battle Squad\n\n* Subductor Squad\n\n* Vigilant Squad"
+            }
+          ]
+        },
+        "removed": {
+          "assets": {
+            "traits": [
+              "Ability§Leader"
+            ]
+          }
+        }
+      },
+      "Ability§Watch Master": {
+        "text": "This model’s attacks that target a **CHARACTER** unit can:\n\n- Re-roll hit rolls of 1.\n\n- Re-roll wound rolls of 1."
+      },
+      "Ability§Strategic Acumen": {
+        "text": "In your Command phase, you can use this ability. If you do, select one combat doctrine to be active for this unit until the start of your next Command phase."
+      },
+      "Ability§Purgatus Quarry": {
+        "text": "At the start of the first battle round, select up to one enemy unit to be this unit’s **hunted**:\n\n- This unit’s attacks that target this unit’s **hunted** unit can re-roll wound rolls of 1.\n\n- Each time this unit’s **hunted** is destroyed, select up to one enemy unit to be this unit’s **hunted**."
+      },
+      "Unit§Corvus Blackstar (Agents)": {
+        "keywords": {
+          "Keywords": [
+            "Smoke"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Auspex Array"
+          ]
+        },
+        "removed": {
+          "assets": {
+            "traits": [
+              "Ability§Assigned Agents"
+            ]
+          }
+        }
+      },
+      "Ability§Auspex Array": {
+        "text": "This unit’s ranged attacks have [IGNORES COVER]."
+      },
+      "Model§Daemonhost": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Character§Jokaero Weaponsmith": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Inquisitorial Agents"
+            },
+            "Ability§Inconceivable Augmentation",
+            "Ability§A Weaponsmith, Not a Warlord"
+          ]
+        }
+      },
+      "Unit§Sanctifiers (Agents)": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "6\""
+                }
+              }
+            },
+            "Ability§Ministorum Sermon"
+          ]
+        },
+        "removed": {
+          "assets": {
+            "traits": [
+              "Ability§Attached Unit (Sanctifiers Agents)"
+            ]
+          }
+        }
+      },
+      "Ability§Ministorum Sermon": {
+        "text": "While this unit contains a **MINISTORUM** **PRIEST**, each time a model in this unit makes a melee attack, add 1 to the Wound roll."
+      },
+      "Character§Inquisitor Kroyle": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "6\""
+                }
+              }
+            }
+          ]
         }
       }
     },

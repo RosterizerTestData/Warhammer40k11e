@@ -709,7 +709,6 @@
             "Ability§Blessings of Khorne",
             "Ability§Reborn in Blood",
             "Ability§Wrathful Presence",
-            "Ability§Supreme Commander",
             {
               "item": "Ability§Damaged:",
               "stats": {
@@ -728,7 +727,10 @@
             },
             {
               "item": "Melee Weapon§Angron—Samni’arius and Spinegrinder"
-            }
+            },
+            "Ability§The Blood God’s Favour",
+            "Ability§Overwhelming Wrath",
+            "Ability§Driven by Ultimate Rage"
           ]
         },
         "keywords": {
@@ -783,7 +785,8 @@
       "Character§Bloodthirster": {
         "assets": {
           "traits": [
-            "Ability§Daemon Lord of Khorne (aura) WE"
+            "Ability§Daemon Lord of Khorne (aura) WE",
+            "Ability§Pact of Blood"
           ]
         },
         "keywords": {
@@ -890,8 +893,8 @@
                 }
               }
             },
-            "Ranged Weapon§World Eaters Daemon Prince—Infernal cannon",
-            "Weapon§World Eaters Daemon Prince—Hellforged weapons",
+            "Ranged Weapon§Daemon Prince of Khorne—Infernal cannon",
+            "Weapon§Daemon Prince of Khorne—Hellforged weapons",
             "Ability§Direct the Slaughter"
           ]
         },
@@ -961,8 +964,8 @@
                 }
               }
             },
-            "Ranged Weapon§World Eaters Daemon Prince with Wings—Infernal cannon",
-            "Weapon§World Eaters Daemon Prince with Wings—Hellforged weapons"
+            "Ranged Weapon§Daemon Prince of Khorne with Wings—Infernal cannon",
+            "Weapon§Daemon Prince of Khorne with Wings—Hellforged weapons"
           ]
         },
         "keywords": {
@@ -1017,7 +1020,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Khorne Berzerkers"
+              "text": "This model can be attached to the following units:\n\n* Khorne Berzerkers"
             },
             "Ability§Blessings of Khorne",
             "Ability§Legendary Killer",
@@ -1089,14 +1092,6 @@
               "item": "Ability§Leader",
               "text": "This model can be attached to the following units:\n\n* Eightbound\n\n* Exalted Eightbound\n\n* Khorne Berzerkers"
             },
-            {
-              "item": "Ability§Scouts",
-              "stats": {
-                "x": {
-                  "value": "6″"
-                }
-              }
-            },
             "Ability§Blessings of Khorne",
             "Ability§Fire Riders",
             "Ability§Bloody Stampede",
@@ -1111,7 +1106,15 @@
             "Ranged Weapon§Lord Invocatus—Bolt pistol",
             "Melee Weapon§Lord Invocatus—Juggernaut’s bladed horn",
             "Melee Weapon§Lord Invocatus—Coward’s Bane",
-            "Ability§Deep Strike"
+            "Ability§Deep Strike",
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "6\""
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -1161,7 +1164,8 @@
       "Character§Skarbrand": {
         "assets": {
           "traits": [
-            "Ability§Rage Embodied (aura) WE"
+            "Ability§Rage Embodied (aura) WE",
+            "Ability§Pact of Blood"
           ]
         },
         "keywords": {
@@ -1202,16 +1206,16 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Eightbound\n\n* Exalted Eightbound"
+            },
+            {
               "item": "Ability§Deadly Demise",
               "stats": {
                 "x": {
                   "value": "D3"
                 }
               }
-            },
-            {
-              "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following units: \n\n- Eightbound\n- Exalted Eightbound"
             },
             {
               "item": "Ability§Invulnerable",
@@ -1348,7 +1352,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Khorne Berzerkers"
+              "text": "This model can be attached to the following units:\n\n* Khorne Berzerkers"
             },
             "Ability§Blessings of Khorne",
             "Ability§Forwards, for Blood!",
@@ -3399,8 +3403,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Angron—Samni’arius and Spinegrinder – Sweep",
-            "Melee Weapon§Angron—Samni’arius and Spinegrinder – Strike"
+            "Melee Weapon§Angron—Samni’arius and Spinegrinder – Strike",
+            "Melee Weapon§Angron—Samni’arius and Spinegrinder – Sweep"
           ]
         },
         "keywords": {
@@ -3798,8 +3802,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Khorne Lord of Skulls—Great cleaver of Khorne – Sweep",
-            "Melee Weapon§Khorne Lord of Skulls—Great cleaver of Khorne – Strike"
+            "Melee Weapon§Khorne Lord of Skulls—Great cleaver of Khorne – Strike",
+            "Melee Weapon§Khorne Lord of Skulls—Great cleaver of Khorne – Sweep"
           ]
         },
         "keywords": {
@@ -4589,7 +4593,15 @@
       "Model§Eightbound": {
         "assets": {
           "traits": [
-            "Melee Weapon§Eightbound—Chainblades"
+            "Melee Weapon§Eightbound—Chainblades",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            }
           ]
         },
         "stats": {
@@ -4643,7 +4655,15 @@
       "Model§Exalted Eightbound": {
         "assets": {
           "traits": [
-            "Melee Weapon§Exalted Eightbound—Chainblades"
+            "Melee Weapon§Exalted Eightbound—Chainblades",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            }
           ]
         },
         "stats": {
@@ -7047,6 +7067,11 @@
               "Ability§The Shadow of Chaos"
             ]
           }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pact of Blood"
+          ]
         }
       },
       "Unit§Bloodletters": {
@@ -7080,6 +7105,11 @@
           "Points": {
             "value": 90
           }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pact of Blood"
+          ]
         }
       },
       "Unit§Eightbound": {
@@ -7093,14 +7123,6 @@
         },
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Scouts",
-              "stats": {
-                "x": {
-                  "value": "6″"
-                }
-              }
-            },
             "Ability§Blessings of Khorne",
             "Ability§Beacons of Rage (aura)",
             {
@@ -7115,6 +7137,14 @@
             {
               "item": "Model§Eightbound",
               "quantity": 2
+            },
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "6\""
+                }
+              }
             }
           ]
         },
@@ -7298,6 +7328,11 @@
           "Points": {
             "value": 75
           }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pact of Blood"
+          ]
         }
       },
       "Unit§Goremongers": {
@@ -7406,6 +7441,17 @@
           "Keywords": [
             "Khorne"
           ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blessings of Khorne"
+          ]
+        },
+        "stats": {
+          "M": {
+            "statType": "term",
+            "value": "-"
+          }
         }
       },
       "Unit§Hell Talon": {
@@ -7413,6 +7459,17 @@
           "Keywords": [
             "Khorne"
           ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blessings of Khorne"
+          ]
+        },
+        "stats": {
+          "M": {
+            "statType": "term",
+            "value": "-"
+          }
         }
       },
       "Unit§Jakhals": {
@@ -7446,7 +7503,8 @@
             "Infantry",
             "Chaos",
             "Khorne",
-            "Jakhals"
+            "Jakhals",
+            "Grenades"
           ],
           "Category": [
             "Infantry"
@@ -8027,7 +8085,8 @@
             {
               "item": "Model§Khorne Berzerker",
               "quantity": 9
-            }
+            },
+            "Ability§Murderous Charge"
           ]
         },
         "keywords": {
@@ -8236,7 +8295,8 @@
             "Chaos",
             "Khorne",
             "Daemon",
-            "Lord of Skulls"
+            "Lord of Skulls",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -8803,7 +8863,8 @@
             "World Eaters"
           ],
           "Keywords": [
-            "Khorne"
+            "Khorne",
+            "Frame"
           ]
         },
         "aspects": {
@@ -9085,7 +9146,8 @@
             "World Eaters"
           ],
           "Keywords": [
-            "Khorne"
+            "Khorne",
+            "Frame"
           ],
           "Source": [
             "10th Edition Index"
@@ -9436,7 +9498,8 @@
             "World Eaters"
           ],
           "Keywords": [
-            "Khorne"
+            "Khorne",
+            "Frame"
           ]
         },
         "aspects": {
@@ -9762,7 +9825,7 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Chaos Predator Annihilator—Heavy bolter"
+                    "trait": "Ranged Weapon§Chaos Predator Destructor—Heavy bolter"
                   },
                   {
                     "trait": "Ranged Weapon§Chaos Predator Destructor—Heavy bolter"
@@ -9786,7 +9849,8 @@
             "World Eaters"
           ],
           "Keywords": [
-            "Khorne"
+            "Khorne",
+            "Frame"
           ]
         },
         "aspects": {
@@ -10181,7 +10245,15 @@
         "assets": {
           "traits": [
             "Ability§Unleash Wrath",
-            "Ability§Blessings of Khorne"
+            "Ability§Blessings of Khorne",
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D6"
+                }
+              }
+            }
           ]
         },
         "removed": {
@@ -10371,8 +10443,8 @@
       "Ranged Weapon§Helbrute—Missile launcher": {
         "assets": {
           "traits": [
-            "Ranged Weapon§Helbrute—Missile launcher – krak",
-            "Ranged Weapon§Helbrute—Missile launcher – frag"
+            "Ranged Weapon§Helbrute—Missile launcher – frag",
+            "Ranged Weapon§Helbrute—Missile launcher – krak"
           ]
         },
         "removed": {
@@ -11437,7 +11509,7 @@
               "item": "Ability§Scouts",
               "stats": {
                 "x": {
-                  "value": "8″"
+                  "value": "8\""
                 }
               }
             }
@@ -11871,8 +11943,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Daemon Prince of Khorne—Hellforged weapons – sweep",
-            "Melee Weapon§Daemon Prince of Khorne—Hellforged weapons – strike"
+            "Melee Weapon§Daemon Prince of Khorne—Hellforged weapons – strike",
+            "Melee Weapon§Daemon Prince of Khorne—Hellforged weapons – sweep"
           ]
         },
         "keywords": {
@@ -11939,8 +12011,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Daemon Prince of Khorne with Wings—Hellforged weapons – sweep",
-            "Melee Weapon§Daemon Prince of Khorne with Wings—Hellforged weapons – strike"
+            "Melee Weapon§Daemon Prince of Khorne with Wings—Hellforged weapons – strike",
+            "Melee Weapon§Daemon Prince of Khorne with Wings—Hellforged weapons – sweep"
           ]
         },
         "keywords": {
@@ -12364,6 +12436,860 @@
             "Ability§Extra Attacks"
           ]
         }
+      },
+      "Ranged Weapon§Daemon Prince of Khorne—Infernal cannon": {
+        "aspects": {
+          "Label": "Infernal cannon"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Melee Weapon§Daemon Prince of Khorne—Hellforged weapons – Strike": {
+        "aspects": {
+          "Label": "Strike"
+        },
+        "stats": {
+          "A": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 8
+          },
+          "WS": {
+            "value": 2
+          }
+        }
+      },
+      "Melee Weapon§Daemon Prince of Khorne—Hellforged weapons – Sweep": {
+        "aspects": {
+          "Label": "Sweep"
+        },
+        "stats": {
+          "A": {
+            "value": 16
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 6
+          },
+          "WS": {
+            "value": 2
+          }
+        }
+      },
+      "Weapon§Daemon Prince of Khorne—Hellforged weapons": {
+        "aspects": {
+          "Label": "Hellforged weapons"
+        },
+        "assets": {
+          "traits": [
+            "Melee Weapon§Daemon Prince of Khorne—Hellforged weapons – Strike",
+            "Melee Weapon§Daemon Prince of Khorne—Hellforged weapons – Sweep"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Daemon Prince of Khorne with Wings—Infernal cannon": {
+        "aspects": {
+          "Label": "Infernal cannon"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Melee Weapon§Daemon Prince of Khorne with Wings—Hellforged weapons – Strike": {
+        "aspects": {
+          "Label": "Strike"
+        },
+        "stats": {
+          "A": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 8
+          },
+          "WS": {
+            "value": 2
+          }
+        }
+      },
+      "Melee Weapon§Daemon Prince of Khorne with Wings—Hellforged weapons – Sweep": {
+        "aspects": {
+          "Label": "Sweep"
+        },
+        "stats": {
+          "A": {
+            "value": 16
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 6
+          },
+          "WS": {
+            "value": 2
+          }
+        }
+      },
+      "Weapon§Daemon Prince of Khorne with Wings—Hellforged weapons": {
+        "aspects": {
+          "Label": "Hellforged weapons"
+        },
+        "assets": {
+          "traits": [
+            "Melee Weapon§Daemon Prince of Khorne with Wings—Hellforged weapons – Strike",
+            "Melee Weapon§Daemon Prince of Khorne with Wings—Hellforged weapons – Sweep"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Terrax-pattern Termite—Combi-weapon – Purgatus": {
+        "aspects": {
+          "Label": "Combi-weapon – Purgatus"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Terrax-pattern Termite—Combi-weapon – Damnatus": {
+        "aspects": {
+          "Label": "Combi-weapon – Damnatus"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D3",
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Terrax-pattern Termite—Combi-weapon – Infernus": {
+        "aspects": {
+          "Label": "Combi-weapon – Infernus"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Blast",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Torrent"
+          ]
+        }
+      },
+      "Ranged Weapon§Kratos—Heavy Flamer": {
+        "aspects": {
+          "Label": "Heavy Flamer"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Torrent",
+            {
+              "item": "Ability§Blast",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Kratos—Combi-weapon – Damnatus": {
+        "aspects": {
+          "Label": "Combi-weapon – Damnatus"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D3",
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Kratos—Heavy Bolter": {
+        "aspects": {
+          "Label": "Heavy Bolter"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            },
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Kratos—Multi-melta": {
+        "aspects": {
+          "Label": "Multi-melta"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D3",
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "3"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Kratos—Lascannon": {
+        "aspects": {
+          "Label": "Lascannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D3",
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Kratos—Combi-weapon – infernus": {
+        "aspects": {
+          "Label": "Combi-weapon – Infernus"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Torrent",
+            {
+              "item": "Ability§Blast",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Kratos—Combi-weapon – purgatus": {
+        "aspects": {
+          "Label": "Combi-weapon – Purgatus"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Kratos—Combi-weapon": {
+        "aspects": {
+          "Label": "Combi-weapon"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Kratos—Combi-weapon – infernus",
+            "Ranged Weapon§Kratos—Combi-weapon – purgatus"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Melee Weapon§Rapier Carrier—Armoured Hull": {
+        "aspects": {
+          "Label": "Armoured Hull"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Bloodthirster—Lash of Khorne": {
+        "aspects": {
+          "Label": "Lash of Khorne"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 9
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "__inherited__": {
+        "aspects": {
+          "Label": "Axe of Khorne – strike"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 16
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Bloodthirster—Axe of Khorne": {
+        "aspects": {
+          "Label": "Axe of Khorne"
+        },
+        "assets": {
+          "traits": [
+            "__inherited__",
+            "__inherited__"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Melee Weapon§Bloodcrushers—Bladed horn": {
+        "aspects": {
+          "Label": "Bladed horn"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Extra Attacks",
+            "Ability§Lance"
+          ]
+        }
+      },
+      "Ability§The Blood God’s Favour": {
+        "text": "Each time you make a Blessings of Khorne roll, if this model is on the battlefield, you can re-roll up to six of the D6 rolled."
+      },
+      "Ability§Overwhelming Wrath": {
+        "text": "_Aura_\n\nEach time an enemy unit within 6\" of this model is selected to Fall Back, that unit must take a Leadership test. If that test is failed, that unit must Remain Stationary this phase instead."
+      },
+      "Ability§Driven by Ultimate Rage": {
+        "text": "_Aura_\n\nWhile a friendly **WORLD** **EATERS** unit is within 6\" of this unit, that unit’s melee attacks can:\n\n- Re‐roll hit rolls of 1.\n\n- Re‐roll wound rolls of 1."
+      },
+      "Ability§Murderous Charge": {
+        "text": "If this unit made a charge move this turn, this unit’s melee attacks have +1 **S**."
+      },
+      "Unit§Blood Slaughterer": {
+        "keywords": {
+          "Keywords": [
+            "Frame"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blessings of Khorne"
+          ]
+        }
+      },
+      "Unit§Chaos Thunderhawk": {
+        "assets": {
+          "traits": [
+            "Ability§Blessings of Khorne"
+          ]
+        }
+      },
+      "Unit§Greater Brass Scorpion": {
+        "keywords": {
+          "Keywords": [
+            "Frame"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blessings of Khorne"
+          ]
+        }
+      },
+      "Unit§Kytan Ravager": {
+        "assets": {
+          "traits": [
+            "Ability§Blessings of Khorne"
+          ]
+        }
+      },
+      "Vehicle§Terrax-pattern Termite": {
+        "keywords": {
+          "Keywords": [
+            "Khorne",
+            "Chaos"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Combat Doctrines"
+          ]
+        }
+      },
+      "Ability§Combat Doctrines": {
+        "text": "At the start of your Command phase, you can select one **combat doctrine** listed below. If you do, that **combat doctrine** is active for friendly **ADEPTUS** **ASTARTES** units with this ability until the start of your next Command phase.\n\nASSAULT DOCTRINEWhen this unit is selected to make an **advance move**, that **advance move** does not prevent this unit from being **eligible to declare a charge**.\n\nDEVASTATOR DOCTRINEThis unit’s ranged attacks have **[ASSAULT]**.\n\nTACTICAL DOCTRINEWhen this unit is selected to make a **fall-back move**, that **fall-back move** does not prevent this unit from being **eligible to shoot** and **eligible to declare a charge**.\nUnless otherwise stated:\n\n- You can only select each **combat doctrine** once per battle.\n\n- Only one **combat doctrine** can be active for each unit. If a rule makes a **combat doctrine** active for a unit, any **combat doctrine** previously active for that unit is no longer active for that unit."
+      },
+      "Vehicle§Cerberus": {
+        "keywords": {
+          "Keywords": [
+            "Khorne",
+            "Chaos"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Combat Doctrines"
+          ]
+        }
+      },
+      "Vehicle§Kratos": {
+        "keywords": {
+          "Keywords": [
+            "Khorne",
+            "Chaos"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Combat Doctrines"
+          ]
+        }
+      },
+      "Vehicle§Mastodon": {
+        "keywords": {
+          "Keywords": [
+            "Chaos",
+            "Khorne"
+          ]
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "2D6"
+                }
+              }
+            },
+            "Ability§Combat Doctrines"
+          ]
+        }
+      },
+      "Vehicle§Rapier Carrier": {
+        "keywords": {
+          "Keywords": [
+            "Khorne",
+            "Chaos"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Combat Doctrines"
+          ]
+        }
+      },
+      "Vehicle§Typhon": {
+        "keywords": {
+          "Keywords": [
+            "Khorne",
+            "Chaos"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Combat Doctrines"
+          ]
+        }
+      },
+      "Vehicle§Falchion": {
+        "keywords": {
+          "Keywords": [
+            "Chaos",
+            "Khorne"
+          ]
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D6+2"
+                }
+              }
+            },
+            "Ability§Combat Doctrines"
+          ]
+        }
+      },
+      "Ability§Pact of Blood": {
+        "text": "When mustering your army, unless specifically stated otherwise, you cannot select Blood Legions as your Army Faction."
       }
     },
     "gameModes": {},

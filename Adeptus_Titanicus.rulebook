@@ -43,6 +43,1502 @@
             "visibility": "hidden"
           }
         }
+      },
+      "Unit§Warhound Titan": {
+        "keywords": {
+          "Faction": [
+            "Adeptus Titanicus"
+          ],
+          "Source": [
+            "11th Edition Codex"
+          ],
+          "Keywords": [
+            "Frame",
+            "Towering",
+            "Titanic",
+            "Walker",
+            "Vehicle",
+            "Warhound Titan",
+            "Imperium"
+          ],
+          "Category": [
+            "Vehicle"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 14
+          },
+          "T": {
+            "value": 13
+          },
+          "Sv": {
+            "value": 2
+          },
+          "W": {
+            "value": 40
+          },
+          "Ld": {
+            "value": 6
+          },
+          "OC": {
+            "value": 16
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Deadly Demise 2D6",
+            "Ability§Super-heavy Walker",
+            "Ability§Striding Colossus",
+            "Ability§Flank Speed",
+            "Ranged Weapon§Warhound Titan—Warhound plasma blastgun",
+            "Ranged Weapon§Warhound Titan—Warhound vulcan mega-bolter",
+            "Melee Weapon§Warhound Titan—Warhound feet",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              },
+              "text": "Against ranged attacks only"
+            },
+            {
+              "item": "Ability§Damaged:",
+              "stats": {
+                "x": {
+                  "value": "1-13 wounds remaining"
+                }
+              },
+              "text": "While this model has 1-13 wounds remaining, subtract 8 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ]
+        },
+        "aspects": {
+          "Type": "game piece"
+        }
+      },
+      "Ranged Weapon§Warhound Titan—Warhound inferno gun": {
+        "aspects": {
+          "Label": "Warhound inferno gun"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "format": "3D6",
+            "value": 0
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Ignores Cover",
+            "Ability§Torrent"
+          ]
+        }
+      },
+      "Ranged Weapon§Warhound Titan—Warhound plasma blastgun – standard": {
+        "aspects": {
+          "Label": "Warhound plasma blastgun – standard"
+        },
+        "stats": {
+          "Range": {
+            "value": 72
+          },
+          "A": {
+            "format": "2D6",
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 4
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Warhound Titan—Warhound plasma blastgun – supercharge": {
+        "aspects": {
+          "Label": "Warhound plasma blastgun – supercharge"
+        },
+        "stats": {
+          "Range": {
+            "value": 72
+          },
+          "A": {
+            "format": "2D6",
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 5
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast",
+            "Ability§Hazardous"
+          ]
+        }
+      },
+      "Ranged Weapon§Warhound Titan—Warhound plasma blastgun": {
+        "aspects": {
+          "Label": "Warhound plasma blastgun"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Warhound Titan—Warhound plasma blastgun – standard",
+            "Ranged Weapon§Warhound Titan—Warhound plasma blastgun – supercharge"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Warhound Titan—Warhound turbo-laser destructor": {
+        "aspects": {
+          "Label": "Warhound turbo-laser destructor"
+        },
+        "stats": {
+          "Range": {
+            "value": 72
+          },
+          "A": {
+            "format": "D3",
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 20
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "2D6",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Warhound Titan—Warhound vulcan mega-bolter": {
+        "aspects": {
+          "Label": "Warhound vulcan mega-bolter"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 20
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Melee Weapon§Warhound Titan—Warhound feet": {
+        "aspects": {
+          "Label": "Warhound feet"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 8
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Unit§Reaver Titan": {
+        "keywords": {
+          "Faction": [
+            "Adeptus Titanicus"
+          ],
+          "Source": [
+            "11th Edition Codex"
+          ],
+          "Keywords": [
+            "Vehicle",
+            "Walker",
+            "Titanic",
+            "Towering",
+            "Frame",
+            "Reaver Titan",
+            "Imperium"
+          ],
+          "Category": [
+            "Vehicle"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 12
+          },
+          "T": {
+            "value": 14
+          },
+          "Sv": {
+            "value": 2
+          },
+          "W": {
+            "value": 60
+          },
+          "Ld": {
+            "value": 6
+          },
+          "OC": {
+            "value": 20
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D6+6"
+                }
+              }
+            },
+            "Ability§Super-heavy Walker",
+            "Ability§Striding Colossus",
+            "Ability§God-machine",
+            "Ranged Weapon§Reaver Titan—Reaver apocalypse launcher",
+            "Ranged Weapon§Reaver Titan—Reaver gatling blaster",
+            "Ranged Weapon§Reaver Titan—Reaver laser blaster",
+            "Melee Weapon§Reaver Titan—Reaver feet",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              },
+              "text": "Against ranged attacks only"
+            },
+            {
+              "item": "Ability§Damaged:",
+              "stats": {
+                "x": {
+                  "value": "1-20 wounds remaining"
+                }
+              },
+              "text": "While this model has 1-20 wounds remaining, subtract 10 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ]
+        },
+        "aspects": {
+          "Type": "game piece"
+        }
+      },
+      "Ranged Weapon§Reaver Titan—Reaver apocalypse launcher": {
+        "aspects": {
+          "Label": "Reaver apocalypse launcher"
+        },
+        "stats": {
+          "Range": {
+            "value": 200
+          },
+          "A": {
+            "format": "3D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast",
+            "Ability§Indirect Fire"
+          ]
+        }
+      },
+      "Ranged Weapon§Reaver Titan—Reaver gatling blaster": {
+        "aspects": {
+          "Label": "Reaver gatling blaster"
+        },
+        "stats": {
+          "Range": {
+            "value": 72
+          },
+          "A": {
+            "value": 12
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Reaver Titan—Reaver laser blaster": {
+        "aspects": {
+          "Label": "Reaver laser blaster"
+        },
+        "stats": {
+          "Range": {
+            "value": 72
+          },
+          "A": {
+            "value": 8
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 20
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Reaver Titan—Reaver melta cannon": {
+        "aspects": {
+          "Label": "Reaver melta cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "format": "D6",
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 13
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "value": 6
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast",
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "4"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Reaver Titan—Reaver volcano cannon": {
+        "aspects": {
+          "Label": "Reaver volcano cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 120
+          },
+          "A": {
+            "format": "D3",
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 24
+          },
+          "AP": {
+            "value": -5
+          },
+          "D": {
+            "value": 14
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast",
+            "Ability§Heavy"
+          ]
+        }
+      },
+      "Melee Weapon§Reaver Titan—Reaver feet": {
+        "aspects": {
+          "Label": "Reaver feet"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 8
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 4
+          }
+        }
+      },
+      "Melee Weapon§Reaver Titan—Reaver power fist – strike": {
+        "aspects": {
+          "Label": "Reaver power fist – strike"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 20
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "value": 14
+          }
+        }
+      },
+      "Melee Weapon§Reaver Titan—Reaver power fist – sweep": {
+        "aspects": {
+          "Label": "Reaver power fist – sweep"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 12
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 6
+          }
+        }
+      },
+      "Melee Weapon§Reaver Titan—Reaver power fist": {
+        "aspects": {
+          "Label": "Reaver power fist"
+        },
+        "assets": {
+          "traits": [
+            "Melee Weapon§Reaver Titan—Reaver power fist – strike",
+            "Melee Weapon§Reaver Titan—Reaver power fist – sweep"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Unit§Warlord Titan": {
+        "keywords": {
+          "Faction": [
+            "Adeptus Titanicus"
+          ],
+          "Source": [
+            "11th Edition Codex"
+          ],
+          "Keywords": [
+            "Vehicle",
+            "Walker",
+            "Titanic",
+            "Towering",
+            "Frame",
+            "Warlord Titan",
+            "Imperium"
+          ],
+          "Category": [
+            "Vehicle"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 10
+          },
+          "T": {
+            "value": 16
+          },
+          "Sv": {
+            "value": 2
+          },
+          "W": {
+            "value": 100
+          },
+          "Ld": {
+            "value": 6
+          },
+          "OC": {
+            "value": 30
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Deadly Demise 2D6+6",
+            "Ability§Super-heavy Walker",
+            "Ability§Striding Colossus",
+            "Ability§Wrath of the Omnissiah",
+            "Ranged Weapon§Warlord Titan—Macro gatling blaster",
+            "Ranged Weapon§Warlord Titan—Arioch power claw",
+            "Melee Weapon§Warlord Titan—Warlord feet",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              },
+              "text": "Against ranged attacks only"
+            },
+            {
+              "item": "Ability§Damaged:",
+              "stats": {
+                "x": {
+                  "value": "1-33 wounds remaining"
+                }
+              },
+              "text": "While this model has 1-33 wounds remaining, subtract 15 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ]
+        },
+        "aspects": {
+          "Type": "game piece"
+        }
+      },
+      "Ranged Weapon§Warlord Titan—Apocalypse launcher": {
+        "aspects": {
+          "Label": "Apocalypse launcher"
+        },
+        "stats": {
+          "Range": {
+            "value": 200
+          },
+          "A": {
+            "value": 20
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast",
+            "Ability§Indirect Fire"
+          ]
+        }
+      },
+      "Ranged Weapon§Warlord Titan—Ardex-defensor lascannon": {
+        "aspects": {
+          "Label": "Ardex-defensor lascannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Warlord Titan—Ardex-defensor mauler": {
+        "aspects": {
+          "Label": "Ardex-defensor mauler"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 6
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Warlord Titan—Arioch power claw": {
+        "aspects": {
+          "Label": "Arioch power claw"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 20
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Warlord Titan—Belicosa volcano cannon": {
+        "aspects": {
+          "Label": "Belicosa volcano cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 120
+          },
+          "A": {
+            "format": "D3",
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 32
+          },
+          "AP": {
+            "value": -5
+          },
+          "D": {
+            "value": 18
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Warlord Titan—Laser blaster": {
+        "aspects": {
+          "Label": "Laser blaster"
+        },
+        "stats": {
+          "Range": {
+            "value": 72
+          },
+          "A": {
+            "value": 6
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 16
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "format": "D6",
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Warlord Titan—Macro gatling blaster": {
+        "aspects": {
+          "Label": "Macro gatling blaster"
+        },
+        "stats": {
+          "Range": {
+            "value": 100
+          },
+          "A": {
+            "value": 30
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Warlord Titan—Mori quake cannon": {
+        "aspects": {
+          "Label": "Mori quake cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 280
+          },
+          "A": {
+            "format": "3D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 16
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "value": 6
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast",
+            "Ability§Ignores Cover"
+          ]
+        }
+      },
+      "Ranged Weapon§Warlord Titan—Sunfury plasma annihilator – standard": {
+        "aspects": {
+          "Label": "Sunfury plasma annihilator – standard"
+        },
+        "stats": {
+          "Range": {
+            "value": 72
+          },
+          "A": {
+            "format": "2D6",
+            "value": 6
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 5
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Warlord Titan—Sunfury plasma annihilator – supercharge": {
+        "aspects": {
+          "Label": "Sunfury plasma annihilator – supercharge"
+        },
+        "stats": {
+          "Range": {
+            "value": 72
+          },
+          "A": {
+            "format": "2D6",
+            "value": 6
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 8
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast",
+            "Ability§Hazardous"
+          ]
+        }
+      },
+      "Ranged Weapon§Warlord Titan—Sunfury plasma annihilator": {
+        "aspects": {
+          "Label": "Sunfury plasma annihilator"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Warlord Titan—Sunfury plasma annihilator – standard",
+            "Ranged Weapon§Warlord Titan—Sunfury plasma annihilator – supercharge"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Melee Weapon§Warlord Titan—Arioch power claw – strike": {
+        "aspects": {
+          "Label": "Arioch power claw – strike"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 20
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "value": 24
+          }
+        }
+      },
+      "Melee Weapon§Warlord Titan—Arioch power claw – sweep": {
+        "aspects": {
+          "Label": "Arioch power claw – sweep"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 12
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 8
+          }
+        }
+      },
+      "Melee Weapon§Warlord Titan—Arioch power claw": {
+        "aspects": {
+          "Label": "Arioch power claw"
+        },
+        "assets": {
+          "traits": [
+            "Melee Weapon§Warlord Titan—Arioch power claw – strike",
+            "Melee Weapon§Warlord Titan—Arioch power claw – sweep"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Melee Weapon§Warlord Titan—Warlord feet": {
+        "aspects": {
+          "Label": "Warlord feet"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 4
+          }
+        }
+      },
+      "Unit§Warbringer Nemesis Titan": {
+        "keywords": {
+          "Faction": [
+            "Adeptus Titanicus"
+          ],
+          "Source": [
+            "11th Edition Codex"
+          ],
+          "Keywords": [
+            "Warbringer Nemesis Titan",
+            "Frame",
+            "Towering",
+            "Titanic",
+            "Walker",
+            "Vehicle",
+            "Imperium"
+          ],
+          "Category": [
+            "Vehicle"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 12
+          },
+          "T": {
+            "value": 14
+          },
+          "Sv": {
+            "value": 2
+          },
+          "W": {
+            "value": 80
+          },
+          "Ld": {
+            "value": 6
+          },
+          "OC": {
+            "value": 20
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D6+6"
+                }
+              }
+            },
+            "Ability§Super-heavy Walker",
+            "Ability§Striding Colossus",
+            "Ability§Titanic Fire Support",
+            "Ranged Weapon§Warbringer Nemesis Titan—Nemesis quake cannon",
+            "Ranged Weapon§Warbringer Nemesis Titan—Reaver gatling blaster",
+            "Ranged Weapon§Warbringer Nemesis Titan—Reaver laser blaster",
+            "Melee Weapon§Warbringer Nemesis Titan—Nemesis feet",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              },
+              "text": "Against ranged attacks only"
+            },
+            {
+              "item": "Ability§Damaged:",
+              "stats": {
+                "x": {
+                  "value": "1-26 wounds remaining"
+                }
+              },
+              "text": "While this model has 1-26 wounds remaining, subtract 10 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+            }
+          ]
+        },
+        "aspects": {
+          "Type": "game piece"
+        }
+      },
+      "Ranged Weapon§Warbringer Nemesis Titan—Anvillus defence battery": {
+        "aspects": {
+          "Label": "Anvillus defence battery"
+        },
+        "stats": {
+          "Range": {
+            "value": 72
+          },
+          "A": {
+            "value": 8
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "fly"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Warbringer Nemesis Titan—Ardex-defensor mauler": {
+        "aspects": {
+          "Label": "Ardex-defensor mauler"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 6
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Warbringer Nemesis Titan—Nemesis quake cannon": {
+        "aspects": {
+          "Label": "Nemesis quake cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 480
+          },
+          "A": {
+            "format": "D6",
+            "value": 6
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 16
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "value": 4
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast",
+            "Ability§Indirect Fire"
+          ]
+        }
+      },
+      "Ranged Weapon§Warbringer Nemesis Titan—Nemesis volcano cannon": {
+        "aspects": {
+          "Label": "Nemesis volcano cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 120
+          },
+          "A": {
+            "format": "D3",
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 24
+          },
+          "AP": {
+            "value": -5
+          },
+          "D": {
+            "value": 14
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Warbringer Nemesis Titan—Reaver gatling blaster": {
+        "aspects": {
+          "Label": "Reaver gatling blaster"
+        },
+        "stats": {
+          "Range": {
+            "value": 72
+          },
+          "A": {
+            "value": 12
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Warbringer Nemesis Titan—Reaver laser blaster": {
+        "aspects": {
+          "Label": "Reaver laser blaster"
+        },
+        "stats": {
+          "Range": {
+            "value": 72
+          },
+          "A": {
+            "value": 8
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 20
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Warbringer Nemesis Titan—Reaver melta cannon": {
+        "aspects": {
+          "Label": "Reaver melta cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "format": "D6",
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 13
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "value": 6
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast",
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "4"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Warbringer Nemesis Titan—Reaver volcano cannon": {
+        "aspects": {
+          "Label": "Reaver volcano cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 120
+          },
+          "A": {
+            "format": "D3",
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 24
+          },
+          "AP": {
+            "value": -5
+          },
+          "D": {
+            "value": 14
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast",
+            "Ability§Heavy"
+          ]
+        }
+      },
+      "Melee Weapon§Warbringer Nemesis Titan—Nemesis feet": {
+        "aspects": {
+          "Label": "Nemesis feet"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 4
+          }
+        }
       }
     },
     "gameModes": {},

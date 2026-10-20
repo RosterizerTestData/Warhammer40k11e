@@ -1876,6 +1876,10 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Prosecutor Squad\n\n* Vigilator Squad\n\n* Witchseeker Squad"
+            },
+            {
               "item": "Ability§Feel No Pain",
               "stats": {
                 "x": {
@@ -1883,21 +1887,8 @@
                 }
               }
             },
-            {
-              "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Prosecutors\n\n* Vigilators\n\n* Witchseekers"
-            },
-            {
-              "item": "Ability§Scouts",
-              "stats": {
-                "x": {
-                  "value": "6″"
-                }
-              }
-            },
             "Ability§Tactical Perception",
             "Ability§Tenacious Spirit",
-            "Ability§Daughter of the Abyss",
             {
               "item": "Ability§Invulnerable",
               "stats": {
@@ -1907,7 +1898,15 @@
               }
             },
             "Melee Weapon§Aleya—Somnus",
-            "Ability§Daughters of the Abyss"
+            "Ability§Daughters of the Abyss",
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "6\""
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -1955,13 +1954,12 @@
       "Character§Blade Champion": {
         "assets": {
           "traits": [
-            "Ability§Deep Strike",
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Custodian Guard\n\n* Custodian Wardens"
+              "text": "This model can be attached to the following units:\n\n* Custodian Guard Sodality\n\n* Custodian Guard Sodality with Adrasite Spears\n\n* Custodian Guard Sodality with Pyrithite Spears\n\n* Custodian Wardens\n\n* Sentinel Guard Sodality"
             },
+            "Ability§Deep Strike",
             "Ability§Martial Ka’tah",
-            "Ability§Martial Inspiration",
             "Ability§Swift Onslaught",
             {
               "item": "Ability§Invulnerable",
@@ -1972,7 +1970,8 @@
               }
             },
             "Melee Weapon§Blade Champion—Vaultswords",
-            "Ability§Aegis of the Emperor"
+            "Ability§Aegis of the Emperor",
+            "Ability§Sword of the Throne"
           ]
         },
         "keywords": {
@@ -2026,19 +2025,10 @@
         "assets": {
           "traits": [
             {
-              "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Prosecutors\n\n* Vigilators\n\n* Witchseekers"
-            },
-            {
-              "item": "Ability§Scouts",
-              "stats": {
-                "x": {
-                  "value": "6″"
-                }
-              }
+              "item": "Ability§Support",
+              "text": "This model can be attached to the following units:\n\n* Prosecutor Squad\n\n* Vigilator Squad\n\n* Witchseeker Squad"
             },
             "Ability§Seeker’s Instincts",
-            "Ability§Daughter of the Abyss",
             "Ability§Corner the Quarry",
             {
               "item": "Ability§Invulnerable",
@@ -2048,7 +2038,15 @@
                 }
               }
             },
-            "Ability§Daughters of the Abyss"
+            "Ability§Daughters of the Abyss",
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "7\""
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -2136,14 +2134,12 @@
       "Character§Shield-captain": {
         "assets": {
           "traits": [
-            "Ability§Deep Strike",
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Custodian Guard\n\n* Custodian Wardens"
+              "text": "This model can be attached to the following units:\n\n* Custodian Guard Sodality\n\n* Custodian Guard Sodality with Adrasite Spears\n\n* Custodian Guard Sodality with Pyrithite Spears\n\n* Custodian Wardens\n\n* Sagittarum Custodians Sodality\n\n* Sentinel Guard Sodality"
             },
+            "Ability§Deep Strike",
             "Ability§Martial Ka’tah",
-            "Ability§Master of the Stances",
-            "Ability§Strategic Mastery",
             {
               "item": "Ability§Invulnerable",
               "stats": {
@@ -2153,7 +2149,9 @@
               }
             },
             "Ability§Aquila Commander",
-            "Ability§Aegis of the Emperor"
+            "Ability§Aegis of the Emperor",
+            "Ability§Master of Ka’tahs",
+            "Ability§Vengeful Surge"
           ]
         },
         "keywords": {
@@ -2259,14 +2257,12 @@
       "Character§Shield-captain in Allarus Terminator Armour": {
         "assets": {
           "traits": [
-            "Ability§Deep Strike",
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Allarus Custodians"
+              "text": "This model can be attached to the following units:\n\n* Allarus Custodians\n\n* Aquilon Terminators with Solarite Power Gauntlets\n\n* Aquilon Terminators with Solarite Power Talons"
             },
+            "Ability§Deep Strike",
             "Ability§Martial Ka’tah",
-            "Ability§Auramite and Adamantine",
-            "Ability§Strategic Mastery",
             {
               "item": "Ability§Invulnerable",
               "stats": {
@@ -2277,7 +2273,9 @@
             },
             "Ranged Weapon§Shield-captain in Allarus Terminator Armour—Balistus grenade launcher",
             "Ability§Aquila Commander",
-            "Ability§Aegis of the Emperor"
+            "Ability§Aegis of the Emperor",
+            "Ability§Master of Ka’tahs",
+            "Ability§Archeotech Teleport-shunter"
           ]
         },
         "keywords": {
@@ -2353,11 +2351,10 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Vertus Praetors"
+              "text": "This model can be attached to the following units:\n\n* Gyrfalcon Jetbike Sodality\n\n* Vertus Praetors"
             },
             "Ability§Martial Ka’tah",
             "Ability§Sweeping Advance",
-            "Ability§Strategic Mastery",
             {
               "item": "Ability§Invulnerable",
               "stats": {
@@ -2368,7 +2365,9 @@
             },
             "Melee Weapon§Shield-captain on Dawneagle Jetbike—Interceptor lance",
             "Ability§Aquila Commander",
-            "Ability§Aegis of the Emperor"
+            "Ability§Aegis of the Emperor",
+            "Ability§Deep Strike",
+            "Ability§Master of Ka’tahs"
           ]
         },
         "keywords": {
@@ -2446,6 +2445,10 @@
         },
         "assets": {
           "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Allarus Custodians\n\n* Aquilon Terminators with Solarite Power Gauntlets\n\n* Aquilon Terminators with Solarite Power Talons\n\n* Custodian Guard Sodality\n\n* Custodian Guard Sodality with Adrasite Spears\n\n* Custodian Guard Sodality with Pyrithite Spears\n\n* Custodian Wardens\n\n* Sagittarum Custodians Sodality\n\n* Sentinel Guard Sodality"
+            },
             "Ability§Deep Strike",
             {
               "item": "Ability§Feel No Pain",
@@ -2455,17 +2458,12 @@
                 }
               }
             },
-            {
-              "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Custodian Guard\n\n* Custodian Wardens"
-            },
             "Ability§Martial Ka’tah",
             {
               "item": "Ability§Captain-general",
               "text": "While this model is leading a unit, each time a model in this unit makes an attack, you can ignore any or all modifiers to that Ballistic skill or Weapon skill characteristics and/or all modifiers to the Hit roll."
             },
             "Ability§Moment Shackle",
-            "Ability§Supreme Commander",
             {
               "item": "Ability§Invulnerable",
               "stats": {
@@ -2532,16 +2530,16 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Custodian Guard Sodality\n\n* Custodian Guard Sodality with Adrasite Spears\n\n* Custodian Guard Sodality with Pyrithite Spears\n\n* Custodian Wardens\n\n* Sagittarum Custodians Sodality\n\n* Sentinel Guard Sodality"
+            },
+            {
               "item": "Ability§Feel No Pain",
               "stats": {
                 "x": {
                   "value": "6+"
                 }
               }
-            },
-            {
-              "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Custodian Guard\n\n* Custodian Wardens"
             },
             "Ability§Martial Ka’tah",
             "Ability§Golden Laurels",
@@ -5023,8 +5021,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Blade Champion—Vaultswords – hurricanis",
             "Melee Weapon§Blade Champion—Vaultswords – Behemor",
+            "Melee Weapon§Blade Champion—Vaultswords – hurricanis",
             "Melee Weapon§Blade Champion—Vaultswords – Victus"
           ]
         },
@@ -6367,10 +6365,10 @@
       "Model§Aquilon Custodian": {
         "stats": {
           "Ld": {
-            "value": 6
+            "value": 5
           },
           "M": {
-            "value": 5
+            "value": 7
           },
           "Melee Options": {
             "dynamic": true,
@@ -6439,10 +6437,10 @@
             "value": 2
           },
           "T": {
-            "value": 7
+            "value": 8
           },
           "W": {
-            "value": 4
+            "value": 6
           }
         }
       },
@@ -6512,18 +6510,30 @@
           "W": {
             "value": 5
           }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
+          ]
         }
       },
       "Model§Custodian Guard with Adrasite and Pyrithite Spear": {
         "stats": {
           "Ld": {
-            "value": 6
+            "value": 5
           },
           "M": {
-            "value": 6
+            "value": 8
           },
           "OC": {
-            "value": 2
+            "value": 3
           },
           "Spear Options": {
             "dynamic": true,
@@ -6555,10 +6565,10 @@
             "value": 2
           },
           "T": {
-            "value": 6
+            "value": 7
           },
           "W": {
-            "value": 3
+            "value": 5
           }
         }
       },
@@ -6730,7 +6740,15 @@
         "assets": {
           "traits": [
             "Ranged Weapon§Sagittarum Custodians Sodality—Adrastus bolt caliver",
-            "Melee Weapon§Sagittarum Custodians Sodality—Misericordia"
+            "Melee Weapon§Sagittarum Custodians Sodality—Misericordia",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
           ]
         },
         "stats": {
@@ -6757,7 +6775,7 @@
       "Model§Venatari Custodian": {
         "stats": {
           "Ld": {
-            "value": 6
+            "value": 5
           },
           "Loadout Options": {
             "dynamic": true,
@@ -6792,7 +6810,7 @@
             "visibility": "active"
           },
           "M": {
-            "value": 10
+            "value": 12
           },
           "OC": {
             "value": 2
@@ -6801,10 +6819,10 @@
             "value": 2
           },
           "T": {
-            "value": 6
+            "value": 7
           },
           "W": {
-            "value": 3
+            "value": 5
           }
         }
       },
@@ -10113,15 +10131,14 @@
         "allowed": {
           "items": [
             "Model§Allarus Custodian",
-            "Character§Shield-captain in Allarus Terminator Armour"
+            "Character§Shield-captain in Allarus Terminator Armour",
+            "Character§Trajann Valoris"
           ]
         },
         "assets": {
           "traits": [
             "Ability§Deep Strike",
             "Ability§Martial Ka’tah",
-            "Ability§Slayers of Tyrants",
-            "Ability§From Golden Light",
             {
               "item": "Ability§Invulnerable",
               "stats": {
@@ -10134,7 +10151,8 @@
               "item": "Model§Allarus Custodian",
               "quantity": 2
             },
-            "Ability§Aegis of the Emperor"
+            "Ability§Aegis of the Emperor",
+            "Ability§Slayer of Tyrants"
           ]
         },
         "keywords": {
@@ -10361,7 +10379,6 @@
               }
             },
             "Ability§Daughters of the Abyss",
-            "Ability§Self Repair",
             {
               "item": "Ability§Transport",
               "text": "This model has a transport capacity of 12 Anathema Psykana Infantry models."
@@ -10375,7 +10392,8 @@
                   "value": "2"
                 }
               }
-            }
+            },
+            "Ability§Assault Vehicle"
           ]
         },
         "keywords": {
@@ -10392,7 +10410,8 @@
             "Smoke",
             "Imperium",
             "Anathema Psykana",
-            "Rhino"
+            "Rhino",
+            "Frame"
           ],
           "Category": [
             "Vehicle—Dedicated Transport"
@@ -10453,15 +10472,14 @@
         "allowed": {
           "items": [
             "Model§Aquilon Custodian",
-            "Character§Shield-captain in Allarus Terminator Armour"
+            "Character§Shield-captain in Allarus Terminator Armour",
+            "Character§Trajann Valoris"
           ]
         },
         "assets": {
           "traits": [
             "Ability§Deep Strike",
             "Ability§Martial Ka’tah",
-            "Ability§Heavy Assault Infantry",
-            "Ability§From Golden Light",
             "Ability§Lions of the Emperor",
             {
               "item": "Ability§Invulnerable",
@@ -10475,7 +10493,8 @@
               "item": "Model§Aquilon Custodian",
               "quantity": 3
             },
-            "Ability§Aegis of the Emperor"
+            "Ability§Aegis of the Emperor",
+            "Ability§Dread Foe (Aquilon Terminators with Solarite Power Gauntlets)"
           ]
         },
         "keywords": {
@@ -10544,8 +10563,6 @@
                 }
               }
             },
-            "Ability§Hover",
-            "Ability§Martial Ka’tah",
             "Ability§Infernus Firebombs",
             {
               "item": "Ability§Damaged:",
@@ -10594,7 +10611,7 @@
           },
           "M": {
             "statType": "term",
-            "value": "20+"
+            "value": "-"
           },
           "OC": {
             "value": 0
@@ -10633,8 +10650,6 @@
                 }
               }
             },
-            "Ability§Martial Ka’tah",
-            "Ability§Advanced Firepower",
             {
               "item": "Ability§Damaged:",
               "stats": {
@@ -10653,7 +10668,9 @@
             },
             "Ranged Weapon§Caladius Grav-tank—Twin lastrum bolt cannon",
             "Melee Weapon§Caladius Grav-tank—Armoured hull",
-            "Ability§Aegis of the Emperor"
+            "Ability§Aegis of the Emperor",
+            "Ability§Deep Strike",
+            "Ability§Destructor Optics"
           ]
         },
         "keywords": {
@@ -10667,7 +10684,10 @@
             "Vehicle",
             "Fly",
             "Imperium",
-            "Caladius Grav-tank"
+            "Caladius Grav-tank",
+            "Grav-assault",
+            "Frame",
+            "Caladius"
           ],
           "Category": [
             "Vehicle"
@@ -10735,16 +10755,7 @@
         },
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Deadly Demise",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
             "Ability§Martial Ka’tah",
-            "Ability§Dread Foe",
             {
               "item": "Ability§Invulnerable",
               "stats": {
@@ -10754,7 +10765,24 @@
               }
             },
             "Weapon§Contemptor-Achillus Dreadnought—Achillus dreadspear",
-            "Ability§Aegis of the Emperor"
+            "Ability§Aegis of the Emperor",
+            {
+              "item": "Ability§Damaged:",
+              "stats": {
+                "x": {
+                  "value": "1-4 wounds remaining"
+                }
+              }
+            },
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D3"
+                }
+              }
+            },
+            "Ability§Unyielding Ancient (Contemptor-Achillus Dreadnought)"
           ]
         },
         "keywords": {
@@ -10768,7 +10796,8 @@
             "Vehicle",
             "Walker",
             "Imperium",
-            "Contemptor-Achillus Dreadnought"
+            "Contemptor-Achillus Dreadnought",
+            "Dreadnought"
           ],
           "Category": [
             "Vehicle—Walker"
@@ -10878,16 +10907,7 @@
         },
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Deadly Demise",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
             "Ability§Martial Ka’tah",
-            "Ability§Galatus Shield",
             {
               "item": "Ability§Invulnerable",
               "stats": {
@@ -10897,7 +10917,24 @@
               }
             },
             "Weapon§Contemptor-Galatus Dreadnought—Galatus warblade",
-            "Ability§Aegis of the Emperor"
+            "Ability§Aegis of the Emperor",
+            {
+              "item": "Ability§Damaged:",
+              "stats": {
+                "x": {
+                  "value": "1-4 wounds remaining"
+                }
+              }
+            },
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D3"
+                }
+              }
+            },
+            "Ability§Unyielding Ancient (Contemptor-Galatus Dreadnought)"
           ]
         },
         "keywords": {
@@ -10911,7 +10948,8 @@
             "Vehicle",
             "Walker",
             "Imperium",
-            "Contemptor-Galatus Dreadnought"
+            "Contemptor-Galatus Dreadnought",
+            "Dreadnought"
           ],
           "Category": [
             "Vehicle—Walker"
@@ -10961,13 +10999,11 @@
                 }
               }
             },
-            "Ability§Martial Ka’tah",
-            "Ability§Fire Support",
             {
               "item": "Ability§Damaged:",
               "stats": {
                 "x": {
-                  "value": "1-5 wounds remaining"
+                  "value": "1-6 wounds remaining"
                 }
               }
             },
@@ -10986,7 +11022,10 @@
             "Ranged Weapon§Coronus Grav-carrier—Twin arachnus blaze cannon",
             "Ranged Weapon§Coronus Grav-carrier—Twin lastrum bolt cannon",
             "Melee Weapon§Coronus Grav-carrier—Armoured hull",
-            "Ability§Aegis of the Emperor"
+            "Ability§Aegis of the Emperor",
+            "Ability§Deep Strike",
+            "Ability§Repulsor Suspensor Technology",
+            "Ability§Assault Vehicle"
           ]
         },
         "keywords": {
@@ -11001,7 +11040,9 @@
             "Transport",
             "Fly",
             "Imperium",
-            "Coronus Grav-carrier"
+            "Coronus Grav-carrier",
+            "Frame",
+            "Grav-assault"
           ],
           "Category": [
             "Vehicle"
@@ -11052,8 +11093,6 @@
           "traits": [
             "Ability§Deep Strike",
             "Ability§Martial Ka’tah",
-            "Ability§Stand Vigil",
-            "Ability§Sentinel Storm",
             {
               "item": "Ability§Invulnerable",
               "stats": {
@@ -11066,7 +11105,8 @@
               "item": "Model§Custodian Guard",
               "quantity": 4
             },
-            "Ability§Aegis of the Emperor"
+            "Ability§Aegis of the Emperor",
+            "Ability§Impenetrable Defence"
           ]
         },
         "keywords": {
@@ -11080,7 +11120,8 @@
             "Infantry",
             "Battleline",
             "Imperium",
-            "Custodian Guard Sodality"
+            "Custodian Guard Sodality",
+            "Trusted Sentinel"
           ],
           "Category": [
             "Battleline"
@@ -11299,8 +11340,6 @@
             "Ability§Deep Strike",
             "Ability§Martial Ka’tah",
             "Ability§Stand Vigil",
-            "Ability§No Foe Shall Stand",
-            "Ability§Custodian Guard",
             {
               "item": "Ability§Invulnerable",
               "stats": {
@@ -11326,7 +11365,8 @@
           "Keywords": [
             "Custodian Guard Sodality with Adrasite Spears",
             "Imperium",
-            "Infantry"
+            "Infantry",
+            "Trusted Sentinel"
           ],
           "Category": [
             "Infantry"
@@ -11377,7 +11417,6 @@
           "traits": [
             "Ability§Deep Strike",
             "Ability§Martial Ka’tah",
-            "Ability§Resolute Will",
             "Ability§Living Fortress",
             {
               "item": "Ability§Invulnerable",
@@ -11404,7 +11443,8 @@
           "Keywords": [
             "Infantry",
             "Imperium",
-            "Custodian Wardens"
+            "Custodian Wardens",
+            "Trusted Sentinel"
           ],
           "Category": [
             "Infantry"
@@ -11530,7 +11570,6 @@
               }
             },
             "Ability§Hover",
-            "Ability§Martial Ka’tah",
             "Ability§Assault Dropship",
             {
               "item": "Ability§Damaged:",
@@ -11618,16 +11657,6 @@
         "assets": {
           "traits": [
             {
-              "item": "Ability§Deadly Demise",
-              "stats": {
-                "x": {
-                  "value": "D3"
-                }
-              }
-            },
-            "Ability§Martial Ka’tah",
-            "Ability§Merciless Hunter",
-            {
               "item": "Ability§Invulnerable",
               "stats": {
                 "x": {
@@ -11637,7 +11666,17 @@
             },
             "Ranged Weapon§Pallas Grav-attack—Twin arachnus blaze cannon",
             "Melee Weapon§Pallas Grav-attack—Armoured hull",
-            "Ability§Aegis of the Emperor"
+            "Ability§Aegis of the Emperor",
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Deep Strike",
+            "Ability§Mobile Hunter"
           ]
         },
         "keywords": {
@@ -11651,7 +11690,9 @@
             "Vehicle",
             "Fly",
             "Imperium",
-            "Pallas Grav-attack"
+            "Pallas Grav-attack",
+            "Grav-assault",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -11832,7 +11873,6 @@
             "Ability§Martial Ka’tah",
             "Ability§Saturation Volleys",
             "Ability§Disintegration Beams",
-            "Ability§Custodian Guard",
             {
               "item": "Ability§Invulnerable",
               "stats": {
@@ -11858,7 +11898,8 @@
           "Keywords": [
             "Infantry",
             "Imperium",
-            "Sagittarum Custodians Sodality"
+            "Sagittarum Custodians Sodality",
+            "Trusted Sentinel"
           ],
           "Category": [
             "Infantry"
@@ -11909,7 +11950,7 @@
               "item": "Ability§Damaged:",
               "stats": {
                 "x": {
-                  "value": "1-4 wounds remaining"
+                  "value": "1-5 wounds remaining"
                 }
               }
             },
@@ -11923,7 +11964,6 @@
             },
             "Ranged Weapon§Telemon Heavy Dreadnought—Spiculus bolt launcher",
             "Melee Weapon§Telemon Heavy Dreadnought—Armoured feet",
-            "Ability§Devoted to Destruction",
             "Ability§Aegis of the Emperor"
           ]
         },
@@ -11938,7 +11978,8 @@
             "Vehicle",
             "Walker",
             "Imperium",
-            "Telemon Heavy Dreadnought"
+            "Telemon Heavy Dreadnought",
+            "Dreadnought"
           ],
           "Category": [
             "Vehicle—Walker"
@@ -12112,9 +12153,6 @@
           "traits": [
             "Ability§Deep Strike",
             "Ability§Martial Ka’tah",
-            "Ability§Strike From the Skies",
-            "Ability§Swooping Dive",
-            "Ability§Jump Packs",
             {
               "item": "Ability§Invulnerable",
               "stats": {
@@ -12127,7 +12165,10 @@
               "item": "Model§Venatari Custodian",
               "quantity": 3
             },
-            "Ability§Aegis of the Emperor"
+            "Ability§Aegis of the Emperor",
+            "Ability§Take Wing",
+            "Ability§Neutronium Cascade Mine",
+            "Ability§Swift Ruin"
           ]
         },
         "keywords": {
@@ -12142,7 +12183,8 @@
             "Fly",
             "Jump Pack",
             "Imperium",
-            "Venatari with Verutum Lances"
+            "Venatari with Verutum Lances",
+            "Explosives"
           ],
           "Category": [
             "Infantry"
@@ -12195,14 +12237,6 @@
         },
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Deadly Demise",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
             "Ability§Martial Ka’tah",
             "Ability§Unyielding Ancient",
             {
@@ -12215,7 +12249,23 @@
             },
             "Ranged Weapon§Venerable Contemptor Dreadnought—Combi-bolter",
             "Melee Weapon§Venerable Contemptor Dreadnought—Contemptor combat weapon",
-            "Ability§Aegis of the Emperor"
+            "Ability§Aegis of the Emperor",
+            {
+              "item": "Ability§Damaged:",
+              "stats": {
+                "x": {
+                  "value": "1-4 wounds remaining"
+                }
+              }
+            },
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D3"
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -12305,7 +12355,6 @@
                 }
               }
             },
-            "Ability§Martial Ka’tah",
             "Ability§Assault Ramp",
             {
               "item": "Ability§Damaged:",
@@ -12338,7 +12387,8 @@
             "Imperium",
             "Transport",
             "Smoke",
-            "Venerable Land Raider"
+            "Venerable Land Raider",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -12426,7 +12476,6 @@
         "assets": {
           "traits": [
             "Ability§Martial Ka’tah",
-            "Ability§Turbo-boost",
             "Ability§Quicksilver Execution",
             {
               "item": "Ability§Invulnerable",
@@ -12440,7 +12489,8 @@
               "item": "Model§Vertus Praetor",
               "quantity": 2
             },
-            "Ability§Aegis of the Emperor"
+            "Ability§Aegis of the Emperor",
+            "Ability§Deep Strike"
           ]
         },
         "keywords": {
@@ -12632,20 +12682,20 @@
         },
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Scouts",
-              "stats": {
-                "x": {
-                  "value": "6″"
-                }
-              }
-            },
             "Ability§Daughters of the Abyss",
             "Ability§Sanctified Flames",
             "Model§Witchseeker Sister Superior",
             {
               "item": "Model§Witchseeker",
               "quantity": 3
+            },
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "7\""
+                }
+              }
             }
           ]
         },
@@ -16268,6 +16318,12 @@
         },
         "aspects": {
           "Type": "game piece"
+        },
+        "allowed": {
+          "items": [
+            "Character§Trajann Valoris",
+            "Character§Shield-captain in Allarus Terminator Armour"
+          ]
         }
       },
       "Ranged Weapon§Aquilon Terminators with Solarite Power Talons—Infernus Firepike": {
@@ -16659,6 +16715,14 @@
         },
         "aspects": {
           "Type": "game piece"
+        },
+        "allowed": {
+          "items": [
+            "Character§Trajann Valoris",
+            "Character§Shield-captain",
+            "Character§Blade Champion",
+            "Character§Valerian"
+          ]
         }
       },
       "Ranged Weapon§Custodian Guard Sodality with Pyrithite Spears—Pyrithite Spear": {
@@ -16786,6 +16850,11 @@
         },
         "aspects": {
           "Type": "game piece"
+        },
+        "allowed": {
+          "items": [
+            "Character§Shield-captain on Dawneagle Jetbike"
+          ]
         }
       },
       "Ranged Weapon§Gyrfalcon Jetbike Sodality—Arachnus Volley Cannon": {
@@ -17011,6 +17080,14 @@
         },
         "aspects": {
           "Type": "game piece"
+        },
+        "allowed": {
+          "items": [
+            "Character§Trajann Valoris",
+            "Character§Shield-captain",
+            "Character§Blade Champion",
+            "Character§Valerian"
+          ]
         }
       },
       "Ranged Weapon§Sentinel Guard Sodality—Sentinel Blade": {
@@ -17225,6 +17302,48 @@
       },
       "Ability§Aquila Commander": {
         "text": "At the start of the battle round, if a model with this ability is your ^^**Warlord**^^, gain 1CP."
+      },
+      "Ability§Master of Ka’tahs": {
+        "text": "_Once per battle round, per unit_\n\nIf this unit is not readied, you can use this ability. If you do, this unit is **readied**."
+      },
+      "Ability§Vengeful Surge": {
+        "text": "_Once per battle, per unit_\n\nIn your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit lost a wound as a result of those attacks, this unit can make a surge move of up to D6+2\"."
+      },
+      "Ability§Archeotech Teleport-shunter": {
+        "text": "_Once per battle, per unit_\n\nIn your Movement phase, if this unit is unengaged and has not been selected to move this phase, you can use this ability. If you do, place this unit in strategic reserves and this unit must make an ingress move this phase."
+      },
+      "Ability§Slayer of Tyrants": {
+        "text": "This unit’s melee attacks that target a unit with a **T** greater than this unit’s **T** have +1 to wound rolls."
+      },
+      "Ability§Unyielding Ancient (Contemptor-Achillus Dreadnought)": {
+        "text": "Attacks that target this unit with a **S** greater than this unit’s **T** have -1 to wound rolls."
+      },
+      "Ability§Destructor Optics": {
+        "text": "This unit’s ranged attacks that target a unit (excluding **MONSTER**/**VEHICLE** units) have +1 **AP**."
+      },
+      "Ability§Repulsor Suspensor Technology": {
+        "text": "_Once per phase, per unit_\n\nIn your opponent’s Shooting phase, when an enemy unit has shot, if this unit lost a wound as a result of those attacks and is unengaged, this unit can make a normal move of up to D6\"."
+      },
+      "Ability§Assault Vehicle": {
+        "text": "In your Movement phase, when this unit ends an advance move, units embarked within this unit can make a shock disembark move."
+      },
+      "Ability§Unyielding Ancient (Contemptor-Galatus Dreadnought)": {
+        "text": "Attacks that target this unit with a **S** greater than this unit’s **T** have -1 to wound rolls."
+      },
+      "Ability§Mobile Hunter": {
+        "text": "In your Shooting phase, when this unit has shot, you can use this ability. If you do:\n\n- This unit can make a normal move of up to D6\".\n\n- This unit is not eligible to declare a charge until the end of the turn."
+      },
+      "Ability§Sword of the Throne": {
+        "text": "At the start of the first battle round, select one enemy unit to be this model’s **mark**:\n\n- This model’s attacks that target this model’s **mark** have +1 to wound rolls.\n\n- Each time this model’s **mark** is destroyed, select one enemy unit to be this model’s **mark**."
+      },
+      "Ability§Impenetrable Defence": {
+        "text": "This unit’s attacks have [sustained Hits 1: non-Monster/Vehicle] if any of the following apply:\n\n- This unit is within range of an objective.\n\n- The target of those attacks is within range of an **objective**."
+      },
+      "Ability§Swift Ruin": {
+        "text": "_Once per phase, per army_\n\nYou can target this unit with the Rapid Ingress **stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n\n- That use is -1 CP.\n\n- That use does not prevent any uses of that **stratagem** on other units this phase."
+      },
+      "Ability§Dread Foe (Aquilon Terminators with Solarite Power Gauntlets)": {
+        "text": "This unit’s melee attacks that target a unit (excluding **MONSTER**/**VEHICLE** units) have +1 **AP**."
       }
     },
     "gameModes": {},

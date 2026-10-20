@@ -2144,15 +2144,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Genestealers"
-            },
-            {
-              "item": "Ability§Scouts",
-              "stats": {
-                "x": {
-                  "value": "8″"
-                }
-              }
+              "text": "This model can be attached to the following units:\n\n* Genestealers"
             },
             "Ability§Synapse",
             "Ability§Vicious Insight",
@@ -2166,7 +2158,15 @@
               }
             },
             "Melee Weapon§Broodlord—Broodlord claws and talons",
-            "Ability§Shadow in the Warp"
+            "Ability§Shadow in the Warp",
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "8\""
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -2226,7 +2226,6 @@
             "Ability§Synapse",
             "Ability§Feeder Tendrils",
             "Ability§Fear of the Unseen (Aura)",
-            "Ability§Hunter Organism",
             {
               "item": "Ability§Invulnerable",
               "stats": {
@@ -2285,16 +2284,16 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Tyrant Guard"
+            },
+            {
               "item": "Ability§Deadly Demise",
               "stats": {
                 "x": {
                   "value": "D3"
                 }
               }
-            },
-            {
-              "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Tyrant Guard"
             },
             "Ability§Shadow in the Warp",
             "Ability§Synapse",
@@ -2553,11 +2552,11 @@
         },
         "assets": {
           "traits": [
-            "Ability§Deep Strike",
             {
               "item": "Ability§Leader",
-              "text": "\n\nThis unit can be attached to the following units:\n\n- Raveners"
+              "text": "This model can be attached to the following units:\n\n* Raveners"
             },
+            "Ability§Deep Strike",
             {
               "item": "Ability§Shadow in the Warp",
               "stats": {
@@ -2692,15 +2691,15 @@
       "Character§Malanthrope": {
         "assets": {
           "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Venomthropes"
+            },
             "Ability§Stealth",
             "Ability§Shadow in the Warp",
             "Ability§Synapse",
             "Ability§Enhanced Toxic Miasma",
             "Ability§Prey Adaptation",
-            {
-              "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Venomthropes"
-            },
             "Melee Weapon§Malanthrope—Grasping tail"
           ]
         },
@@ -2822,16 +2821,16 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Carnifexes"
+            },
+            {
               "item": "Ability§Feel No Pain",
               "stats": {
                 "x": {
                   "value": "5+"
                 }
               }
-            },
-            {
-              "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Carnifexes"
             },
             "Ability§Synapse",
             "Ability§Alpha Leader",
@@ -3041,7 +3040,6 @@
             "Ability§Synapse",
             "Ability§Swallow Whole",
             "Ability§Subterranean Hunter",
-            "Ability§Serpentine Fiend",
             "Melee Weapon§The Red Terror—Gaping maw",
             "Melee Weapon§The Red Terror—Scything talons"
           ]
@@ -3054,7 +3052,8 @@
             "Great Devourer",
             "Monster",
             "The Red Terror",
-            "Vanguard Invader"
+            "Vanguard Invader",
+            "Mobile"
           ],
           "Category": [
             "Epic Hero"
@@ -3097,16 +3096,16 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Tyrant Guard"
+            },
+            {
               "item": "Ability§Deadly Demise",
               "stats": {
                 "x": {
                   "value": "D3"
                 }
               }
-            },
-            {
-              "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Tyrant Guard"
             },
             "Ability§Shadow in the Warp",
             "Ability§Synapse",
@@ -3175,7 +3174,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following units:\n- Hormagaunts\n- Termagants\n- Tyranid Warriors with Melee Bio‑weapons\n- Tyranid Warriors with Ranged Bio‑weapons."
+              "text": "This model can be attached to the following units:\n\n* Hormagaunts\n\n* Termagants\n\n* Tyranid Warriors With Melee Bio-weapons\n\n* Tyranid Warriors With Ranged Bio-weapons"
             },
             "Ability§Shadow in the Warp",
             "Ability§Synapse",
@@ -3346,11 +3345,11 @@
       "Character§Winged Tyranid Prime": {
         "assets": {
           "traits": [
-            "Ability§Deep Strike",
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Gargoyles\n\n* Tyranid Warriors with melee Bio-weapons\n\n* Tyranid Warriors with Ranged Bio-weapons"
+              "text": "This model can be attached to the following units:\n\n* Gargoyles\n\n* Tyranid Warriors With Melee Bio-weapons\n\n* Tyranid Warriors With Ranged Bio-weapons"
             },
+            "Ability§Deep Strike",
             "Ability§Shadow in the Warp",
             "Ability§Synapse",
             "Ability§Alpha Warrior",
@@ -3371,7 +3370,8 @@
             "Great Devourer",
             "Infantry",
             "Synapse",
-            "Vanguard Invader"
+            "Vanguard Invader",
+            "Winged Tyranid Prime"
           ],
           "Category": [
             "Character"
@@ -6396,8 +6396,8 @@
             "value": -2
           },
           "D": {
-            "statType": "term",
-            "value": "D3+3"
+            "format": "D3",
+            "value": 3
           },
           "Range": {
             "statType": "term",
@@ -7266,8 +7266,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Maleceptor—Massive scything talons – sweep",
-            "Melee Weapon§Maleceptor—Massive scything talons – strike"
+            "Melee Weapon§Maleceptor—Massive scything talons – strike",
+            "Melee Weapon§Maleceptor—Massive scything talons – sweep"
           ]
         },
         "keywords": {
@@ -7594,8 +7594,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Old One Eye—Old One Eye’s claws and talons – sweep",
-            "Melee Weapon§Old One Eye—Old One Eye’s claws and talons – strike"
+            "Melee Weapon§Old One Eye—Old One Eye’s claws and talons – strike",
+            "Melee Weapon§Old One Eye—Old One Eye’s claws and talons – sweep"
           ]
         },
         "keywords": {
@@ -7900,8 +7900,8 @@
             "value": -2
           },
           "D": {
-            "statType": "term",
-            "value": "D3+3"
+            "format": "D3",
+            "value": 3
           },
           "Range": {
             "statType": "term",
@@ -8038,8 +8038,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Tervigon—Massive scything talons – sweep",
-            "Melee Weapon§Tervigon—Massive scything talons – strike"
+            "Melee Weapon§Tervigon—Massive scything talons – strike",
+            "Melee Weapon§Tervigon—Massive scything talons – sweep"
           ]
         },
         "keywords": {
@@ -13256,7 +13256,8 @@
           "Keywords": [
             "Monster",
             "Great Devourer",
-            "Barbed Hierodule"
+            "Barbed Hierodule",
+            "Frame"
           ],
           "Category": [
             "Monster"
@@ -13552,7 +13553,8 @@
           "Keywords": [
             "Monster",
             "Great Devourer",
-            "Dimachaeron"
+            "Dimachaeron",
+            "Frame"
           ],
           "Category": [
             "Monster"
@@ -13738,14 +13740,6 @@
         },
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Scouts",
-              "stats": {
-                "x": {
-                  "value": "8″"
-                }
-              }
-            },
             "Ability§Synapse",
             "Ability§Vanguard Predator",
             {
@@ -13759,6 +13753,14 @@
             {
               "item": "Model§Genestealer",
               "quantity": 5
+            },
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "8\""
+                }
+              }
             }
           ]
         },
@@ -13834,7 +13836,6 @@
                 }
               }
             },
-            "Ability§Hover",
             "Ability§Synapse",
             "Ability§Spore Mine Cysts",
             {
@@ -13900,7 +13901,7 @@
           },
           "M": {
             "statType": "term",
-            "value": "20+"
+            "value": "-"
           },
           "OC": {
             "value": 0
@@ -14137,7 +14138,8 @@
             "Towering",
             "Transport",
             "Great Devourer",
-            "Hierophant"
+            "Hierophant",
+            "Frame"
           ],
           "Category": [
             "Monster"
@@ -14187,7 +14189,6 @@
                 }
               }
             },
-            "Ability§Hover",
             "Ability§Synapse",
             "Ability§Airborne Predator",
             {
@@ -14230,7 +14231,7 @@
           },
           "M": {
             "statType": "term",
-            "value": "20+"
+            "value": "-"
           },
           "OC": {
             "value": 0
@@ -14566,7 +14567,8 @@
             "Great Devourer",
             "Mawloc",
             "Monster",
-            "Vanguard Invader"
+            "Vanguard Invader",
+            "Burrower"
           ],
           "Category": [
             "Monster"
@@ -15427,10 +15429,10 @@
               }
             },
             "Ability§Singular Purpose",
-            "Ability§Supernatural Resistance",
             "Melee Weapon§Norn Emissary—Monstrous scything talons",
             "Melee Weapon§Norn Emissary—Monstrous rending claws",
-            "Ranged Weapon§Norn Emissary—Psychic tendril"
+            "Ranged Weapon§Norn Emissary—Psychic tendril",
+            "Ability§Unnatural Resilience"
           ]
         },
         "keywords": {
@@ -15947,7 +15949,8 @@
           "Keywords": [
             "Monster",
             "Great Devourer",
-            "Scythed Hierodule"
+            "Scythed Hierodule",
+            "Frame"
           ],
           "Category": [
             "Monster"
@@ -16432,7 +16435,8 @@
           "Keywords": [
             "Monster",
             "Great Devourer",
-            "Toxicrene"
+            "Toxicrene",
+            "Frame"
           ],
           "Category": [
             "Monster"
@@ -16494,7 +16498,8 @@
             "Great Devourer",
             "Monster",
             "Trygon",
-            "Vanguard Invader"
+            "Vanguard Invader",
+            "Burrower"
           ],
           "Category": [
             "Monster"
@@ -17233,7 +17238,8 @@
             "Monster",
             "Transport",
             "Tyrannocyte",
-            "Vanguard Invader"
+            "Vanguard Invader",
+            "Frame"
           ],
           "Category": [
             "Vehicle—Dedicated Transport"
@@ -17307,7 +17313,8 @@
           "Keywords": [
             "Monster",
             "Great Devourer",
-            "Tyrannofex"
+            "Tyrannofex",
+            "Frame"
           ],
           "Category": [
             "Monster"
@@ -18211,6 +18218,41 @@
             "value": 1
           }
         }
+      },
+      "Melee Weapon§Norn Assimilator—Toxinjector harpoon": {
+        "aspects": {
+          "Label": "Toxinjector harpoon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Extra Attacks"
+          ]
+        }
+      },
+      "Ability§Unnatural Resilience": {
+        "text": "This model has the Feel No Pain 4+ ability against mortal wounds."
       }
     },
     "gameModes": {},

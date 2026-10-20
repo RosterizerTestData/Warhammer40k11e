@@ -918,6 +918,10 @@
       "Character§Abominant": {
         "assets": {
           "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Aberrants"
+            },
             "Ability§Deep Strike",
             {
               "item": "Ability§Feel No Pain",
@@ -926,10 +930,6 @@
                   "value": "5+"
                 }
               }
-            },
-            {
-              "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Aberrants"
             },
             "Ability§The Chosen One",
             "Ability§Regenerating Gene-mass",
@@ -986,11 +986,11 @@
       "Character§Acolyte Iconward": {
         "assets": {
           "traits": [
-            "Ability§Deep Strike",
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Acolyte Hybrids\n\n* Hybrid Metamorphs\n\n* Neophyte Hybrids"
+              "text": "This model can be attached to the following units:\n\n* Acolyte Hybrids With Autopistols\n\n* Acolyte Hybrids With Hand Flamers\n\n* Hybrid Metamorphs\n\n* Neophyte Hybrids"
             },
+            "Ability§Deep Strike",
             "Ability§Nexus of Devotion",
             "Ability§Summon the Cult",
             "Ranged Weapon§Acolyte Iconward—Autopistol",
@@ -1050,11 +1050,11 @@
       "Character§Benefictus": {
         "assets": {
           "traits": [
-            "Ability§Deep Strike",
             {
               "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following units:\n\n* Acolyte Hybrids\n* Hybrid Metamorphs\n* Neophyte Hybrids"
+              "text": "This model can be attached to the following units:\n\n* Acolyte Hybrids With Autopistols\n\n* Acolyte Hybrids With Hand Flamers\n\n* Hybrid Metamorphs\n\n* Neophyte Hybrids"
             },
+            "Ability§Deep Strike",
             {
               "item": "Ability§Invulnerable",
               "stats": {
@@ -1115,11 +1115,11 @@
         "assets": {
           "included": [],
           "traits": [
-            "Ability§Deep Strike",
             {
-              "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following units:\n\n* Aberrants\n\n* Acolyte Hybrids\n\n* Hybrid Metamorphs\n\n* Neophyte Hybrids\n\n You can attach this model to an Acolyte Hybrids or Neophyte Hybrids unit, even if a Primus, Magus or Acolyte Iconward model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+              "item": "Ability§Support",
+              "text": "This model can be attached to the following units:\n\n* Aberrants\n\n* Acolyte Hybrids With Autopistols\n\n* Acolyte Hybrids With Hand Flamers\n\n* Hybrid Metamorphs\n\n* Neophyte Hybrids"
             },
+            "Ability§Deep Strike",
             "Ability§Twisted Science",
             "Ability§Biological Warfare",
             "Ranged Weapon§Biophagus—Autopistol",
@@ -1297,11 +1297,11 @@
       "Character§Clamavus": {
         "assets": {
           "traits": [
-            "Ability§Deep Strike",
             {
-              "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following units:\n\n* Acolyte Hybrids\n\n* Hybrid Metamorphs\n\n* Neophyte Hybrids\n\nYou can attach this model to an Acolyte Hybrids or Neophyte Hybrids unit, even if a Primus, Magus or Acolyte Iconward model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+              "item": "Ability§Support",
+              "text": "This model can be attached to the following units:\n\n* Acolyte Hybrids With Autopistols\n\n* Acolyte Hybrids With Hand Flamers\n\n* Hybrid Metamorphs\n\n* Neophyte Hybrids"
             },
+            "Ability§Deep Strike",
             "Ability§Voice of New Truths",
             "Ability§Scrambler Array",
             "Ranged Weapon§Clamavus—Autopistol",
@@ -1466,22 +1466,22 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Atalan Jackals"
-            },
-            {
-              "item": "Ability§Scouts",
-              "stats": {
-                "x": {
-                  "value": "9″"
-                }
-              }
+              "text": "This model can be attached to the following units:\n\n* Atalan Jackals"
             },
             "Ability§Priority Target",
             "Ability§Master Outrider",
             "Ranged Weapon§Jackal Alphus—Autopistol",
             "Ranged Weapon§Jackal Alphus—Cult sniper rifle",
             "Melee Weapon§Jackal Alphus—Close combat weapon",
-            "Ability§Stealth"
+            "Ability§Stealth",
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "9\""
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -1531,7 +1531,6 @@
           "traits": [
             "Ability§Deep Strike",
             "Ability§Lone Operative",
-            "Ability§Heroic Fusilade",
             "Ability§Hypersensory Abilities",
             {
               "item": "Ability§Invulnerable",
@@ -1542,7 +1541,8 @@
               }
             },
             "Ranged Weapon§Kelermorph—Liberator autostubs",
-            "Melee Weapon§Kelermorph—Close combat weapon"
+            "Melee Weapon§Kelermorph—Close combat weapon",
+            "Ability§Heroic Fusillade"
           ]
         },
         "keywords": {
@@ -1589,12 +1589,12 @@
       "Character§Locus": {
         "assets": {
           "traits": [
+            {
+              "item": "Ability§Support",
+              "text": "This model can be attached to the following units:\n\n* Acolyte Hybrids With Autopistols\n\n* Acolyte Hybrids With Hand Flamers\n\n* Hybrid Metamorphs\n\n* Neophyte Hybrids"
+            },
             "Ability§Deep Strike",
             "Ability§Fights First",
-            {
-              "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following units:\n\n* Acolyte Hybrids\n\n* Hybrid Metamorphs\n\n* Neophyte Hybrids\n\nYou can attach this model to an Acolyte Hybrids or Neophyte Hybrids unit, even if a Primus, Magus or Acolyte Iconward model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
-            },
             "Ability§Sudden Assault",
             "Ability§Bodyguard",
             {
@@ -1757,11 +1757,11 @@
       "Character§Magus": {
         "assets": {
           "traits": [
-            "Ability§Deep Strike",
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Acolyte Hybrids\n\n* Hybrid Metamorphs\n\n* Neophyte Hybrids"
+              "text": "This model can be attached to the following units:\n\n* Acolyte Hybrids With Autopistols\n\n* Acolyte Hybrids With Hand Flamers\n\n* Hybrid Metamorphs\n\n* Neophyte Hybrids"
             },
+            "Ability§Deep Strike",
             "Ability§Spiritual Leader",
             "Ability§Mind Control (psychic)",
             "Ranged Weapon§Magus—Autopistol",
@@ -1822,11 +1822,11 @@
       "Character§Nexos": {
         "assets": {
           "traits": [
-            "Ability§Deep Strike",
             {
-              "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following units:\n\n* Acolyte Hybrids\n\n* Hybrid Metamorphs\n\n* Neophyte Hybrids\n\nYou can attach this model to an Acolyte Hybrids or Neophyte Hybrids unit, even if a Primus, Magus or Acolyte Iconward model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+              "item": "Ability§Support",
+              "text": "This model can be attached to the following units:\n\n* Acolyte Hybrids With Autopistols\n\n* Acolyte Hybrids With Hand Flamers\n\n* Hybrid Metamorphs\n\n* Neophyte Hybrids"
             },
+            "Ability§Deep Strike",
             "Ability§Battlefield Analysis",
             "Ability§Cult Infiltration",
             "Ranged Weapon§Nexos—Autopistol",
@@ -1992,12 +1992,12 @@
         },
         "assets": {
           "traits": [
-            "Ability§Deep Strike",
-            "Ability§Infiltrators",
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Purestrain Genestealers"
+              "text": "This model can be attached to the following units:\n\n* Purestrain Genestealers"
             },
+            "Ability§Deep Strike",
+            "Ability§Infiltrators",
             "Ability§Might From Beyond",
             "Ability§Cosmic Horror (psychic)",
             "Ability§Psychic Familiar",
@@ -2009,8 +2009,7 @@
                 }
               }
             },
-            "Melee Weapon§Patriarch—Patriarch’s claws",
-            "Ability§Supreme Commander (Patriarch)"
+            "Melee Weapon§Patriarch—Patriarch’s claws"
           ]
         },
         "keywords": {
@@ -2059,11 +2058,11 @@
       "Character§Primus": {
         "assets": {
           "traits": [
-            "Ability§Deep Strike",
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Acolyte Hybrids\n\n* Hybrid Metamorphs\n\n* Neophyte Hybrids"
+              "text": "This model can be attached to the following units:\n\n* Acolyte Hybrids With Autopistols\n\n* Acolyte Hybrids With Hand Flamers\n\n* Hybrid Metamorphs\n\n* Neophyte Hybrids"
             },
+            "Ability§Deep Strike",
             "Ability§Cult Demagogue",
             "Ability§Decoys and Misdirection",
             {
@@ -2293,6 +2292,17 @@
         "keywords": {
           "Tags": [
             "FinalDayNid"
+          ],
+          "Keywords": [
+            "Winged Tyranid Prime"
+          ]
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Gargoyles"
+            }
           ]
         }
       },
@@ -5972,10 +5982,10 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Acolyte Hybrids—Autopistol"
+                    "trait": "Ranged Weapon§Acolyte Hybrids with autopistols—Autopistol"
                   },
                   {
-                    "trait": "Melee Weapon§Acolyte Hybrids—Cult claws and knife"
+                    "trait": "Melee Weapon§Acolyte Hybrids with autopistols—Cult claws and knife"
                   }
                 ]
               },
@@ -5987,7 +5997,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Melee Weapon§Acolyte Hybrids—Heavy mining tool"
+                    "trait": "Melee Weapon§Acolyte Hybrids with autopistols—Heavy mining tool"
                   }
                 ]
               },
@@ -5999,7 +6009,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Melee Weapon§Acolyte Hybrids—Cult claws and knife"
+                    "trait": "Melee Weapon§Acolyte Hybrids with autopistols—Cult claws and knife"
                   },
                   {
                     "trait": "Wargear§Cult Icon (Hybrid and Acolyte)"
@@ -6049,10 +6059,10 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Acolyte Hybrids—Hand flamer"
+                    "trait": "Ranged Weapon§Acolyte Hybrids with hand flamers—Hand flamer"
                   },
                   {
-                    "trait": "Melee Weapon§Acolyte Hybrids—Cult claws and knife"
+                    "trait": "Melee Weapon§Acolyte Hybrids with hand flamers—Cult claws and knife"
                   }
                 ]
               },
@@ -6064,10 +6074,10 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Acolyte Hybrids—Demolition charges"
+                    "trait": "Ranged Weapon§Acolyte Hybrids with hand flamers—Demolition charges"
                   },
                   {
-                    "trait": "Melee Weapon§Acolyte Hybrids—Cult claws and knife"
+                    "trait": "Melee Weapon§Acolyte Hybrids with hand flamers—Cult claws and knife"
                   }
                 ]
               },
@@ -6079,7 +6089,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Melee Weapon§Acolyte Hybrids—Cult claws and knife"
+                    "trait": "Melee Weapon§Acolyte Hybrids with hand flamers—Cult claws and knife"
                   },
                   {
                     "trait": "Wargear§Cult Icon (Hybrid and Acolyte)"
@@ -6114,7 +6124,7 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Acolyte Hybrids—Autopistol"
+            "Ranged Weapon§Acolyte Hybrids with autopistols—Autopistol"
           ]
         },
         "stats": {
@@ -6133,7 +6143,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Melee Weapon§Acolyte Hybrids—Cult claws and knife"
+                    "trait": "Melee Weapon§Acolyte Hybrids with autopistols—Cult claws and knife"
                   }
                 ]
               },
@@ -6141,7 +6151,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Melee Weapon§Acolyte Hybrids—Leader’s bio-weapons"
+                    "trait": "Melee Weapon§Acolyte Hybrids with autopistols—Leader’s bio-weapons"
                   }
                 ]
               }
@@ -6171,7 +6181,7 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Acolyte Hybrids—Hand flamer"
+            "Ranged Weapon§Acolyte Hybrids with hand flamers—Hand flamer"
           ]
         },
         "stats": {
@@ -6190,7 +6200,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Melee Weapon§Acolyte Hybrids—Cult claws and knife"
+                    "trait": "Melee Weapon§Acolyte Hybrids with hand flamers—Cult claws and knife"
                   }
                 ]
               },
@@ -6198,7 +6208,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Melee Weapon§Acolyte Hybrids—Leader’s bio-weapons"
+                    "trait": "Melee Weapon§Acolyte Hybrids with hand flamers—Leader’s bio-weapons"
                   }
                 ]
               }
@@ -7055,8 +7065,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Atalan Jackals—Grenade launcher – krak",
-            "Ranged Weapon§Atalan Jackals—Grenade launcher – frag"
+            "Ranged Weapon§Atalan Jackals—Grenade launcher – frag",
+            "Ranged Weapon§Atalan Jackals—Grenade launcher – krak"
           ]
         },
         "keywords": {
@@ -7882,8 +7892,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Neophyte Hybrids—Grenade launcher – krak",
-            "Ranged Weapon§Neophyte Hybrids—Grenade launcher – frag"
+            "Ranged Weapon§Neophyte Hybrids—Grenade launcher – frag",
+            "Ranged Weapon§Neophyte Hybrids—Grenade launcher – krak"
           ]
         },
         "keywords": {
@@ -9966,18 +9976,18 @@
                 }
               }
             },
-            {
-              "item": "Ability§Scouts",
-              "stats": {
-                "x": {
-                  "value": "9″"
-                }
-              }
-            },
             "Ability§Crossfire",
             {
               "item": "Model§Achilles Ridgerunner",
               "quantity": 1
+            },
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "9\""
+                }
+              }
             }
           ]
         },
@@ -10523,14 +10533,6 @@
         "assets": {
           "included": [],
           "traits": [
-            {
-              "item": "Ability§Scouts",
-              "stats": {
-                "x": {
-                  "value": "9″"
-                }
-              }
-            },
             "Ability§Cult Ambush",
             "Ability§Outrider Gangs",
             "Ability§Demolition Run",
@@ -10539,7 +10541,15 @@
               "quantity": 4
             },
             "Model§Atalan Wolfquad",
-            "Ability§Stealth"
+            "Ability§Stealth",
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "9\""
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -11258,7 +11268,8 @@
             "Vehicle",
             "Transport",
             "Great Devourer",
-            "Goliath Rockgrinder"
+            "Goliath Rockgrinder",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -11373,7 +11384,8 @@
             "Transport",
             "Dedicated Transport",
             "Great Devourer",
-            "Goliath Truck"
+            "Goliath Truck",
+            "Frame"
           ],
           "Category": [
             "Vehicle—Dedicated Transport"
@@ -11426,14 +11438,6 @@
         "assets": {
           "traits": [
             "Ability§Deep Strike",
-            {
-              "item": "Ability§Scouts",
-              "stats": {
-                "x": {
-                  "value": "6″"
-                }
-              }
-            },
             "Ability§Cult Ambush",
             "Ability§Brood Surge",
             "Model§Metamorph Leader",
@@ -11446,6 +11450,14 @@
               "stats": {
                 "x": {
                   "value": "5+"
+                }
+              }
+            },
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "6\""
                 }
               }
             }
@@ -12279,7 +12291,8 @@
           "Keywords": [
             "Fortification",
             "Vehicle",
-            "Tectonic Fragdrill"
+            "Tectonic Fragdrill",
+            "Frame"
           ],
           "Category": [
             "Fortification"
@@ -12741,6 +12754,397 @@
           "traits": [
             "Ability§Pistol"
           ]
+        }
+      },
+      "Melee Weapon§Acolyte Hybrids with autopistols—Cult claws and knife": {
+        "aspects": {
+          "Label": "Cult claws and knife"
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Acolyte Hybrids with autopistols—Heavy mining tool": {
+        "aspects": {
+          "Label": "Heavy mining tool"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "vehicle"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Acolyte Hybrids with autopistols—Autopistol": {
+        "aspects": {
+          "Label": "Autopistol"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Acolyte Hybrids with autopistols—Leader’s bio-weapons": {
+        "aspects": {
+          "Label": "Leader’s bio-weapons"
+        },
+        "stats": {
+          "A": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Acolyte Hybrids with hand flamers—Cult claws and knife": {
+        "aspects": {
+          "Label": "Cult claws and knife"
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Acolyte Hybrids with hand flamers—Demolition charges": {
+        "aspects": {
+          "Label": "Demolition charges"
+        },
+        "assets": {
+          "traits": [
+            "Ability§One Shot",
+            "Ability§Hazardous",
+            "Ability§Blast",
+            "Ability§Assault"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 5
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 8
+          },
+          "S": {
+            "value": 9
+          }
+        }
+      },
+      "Ranged Weapon§Acolyte Hybrids with hand flamers—Hand flamer": {
+        "aspects": {
+          "Label": "Hand flamer"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Torrent",
+            "Ability§Pistol",
+            "Ability§Ignores Cover"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "format": "{t}",
+            "statType": "term",
+            "value": "N/A"
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Acolyte Hybrids with hand flamers—Leader’s bio-weapons": {
+        "aspects": {
+          "Label": "Leader’s bio-weapons"
+        },
+        "stats": {
+          "A": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Magus—Magus stave": {
+        "aspects": {
+          "Label": "Magus stave"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic"
+          ]
+        }
+      },
+      "Ability§Heroic Fusillade": {
+        "text": "Once per turn, after one model from your army with this ability has shot, you can select one **INFANTRY** unit hit by one or more of those attacks. That unit must take a Battle-shock test."
+      },
+      "Character§Deathleaper": {
+        "removed": {
+          "assets": {
+            "traits": [
+              "Ability§Hunter Organism"
+            ]
+          }
+        }
+      },
+      "Unit§Tyrannocyte": {
+        "keywords": {
+          "Keywords": [
+            "Frame"
+          ]
+        }
+      },
+      "Character§Cadian Castellan": {
+        "removed": {
+          "assets": {
+            "traits": [
+              "Ability§Voice of Command"
+            ]
+          }
+        }
+      },
+      "Character§Cadian Command Squad": {
+        "removed": {
+          "assets": {
+            "traits": [
+              "Ability§Voice of Command"
+            ]
+          }
+        }
+      },
+      "Character§Catachan Command Squad": {
+        "removed": {
+          "assets": {
+            "traits": [
+              "Ability§Voice of Command"
+            ]
+          }
+        }
+      },
+      "Character§Krieg Command Squad": {
+        "removed": {
+          "assets": {
+            "traits": [
+              "Ability§Voice of Command"
+            ]
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Death Korps Of Krieg\n\n* Krieg Combat Engineers"
+            }
+          ]
+        }
+      },
+      "Character§Leman Russ Commander": {
+        "removed": {
+          "assets": {
+            "traits": [
+              "Ability§Voice of Command"
+            ]
+          }
+        }
+      },
+      "Character§Primaris Psyker": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Cadian Shock Troops\n\n* Catachan Jungle Fighters\n\n* Death Korps Of Krieg\n\n* Kasrkin\n\n* Krieg Combat Engineers"
+            }
+          ]
+        }
+      },
+      "Character§Rogal Dorn Commander": {
+        "removed": {
+          "assets": {
+            "traits": [
+              "Ability§Voice of Command"
+            ]
+          }
+        }
+      },
+      "Character§Hyperadapted Raveners": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Raveners"
+            }
+          ]
+        }
+      },
+      "Character§The Red Terror": {
+        "keywords": {
+          "Keywords": [
+            "Mobile"
+          ]
+        },
+        "removed": {
+          "assets": {
+            "traits": [
+              "Ability§Serpentine Fiend"
+            ]
+          }
         }
       }
     },

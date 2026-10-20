@@ -3049,6 +3049,18 @@
           "unitDiscount": {
             "value": 25
           }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D6+2"
+                }
+              }
+            }
+          ]
         }
       },
       "Ranged Weapon§Knight Crusader—Rapid-fire battle cannon": {
@@ -3105,6 +3117,18 @@
           "Points": {
             "value": 405
           }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D6+2"
+                }
+              }
+            }
+          ]
         }
       },
       "Character§Knight Warden": {
@@ -3341,8 +3365,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Canis Rex—Las-impulsor – low intensity",
-            "Ranged Weapon§Canis Rex—Las-impulsor – high intensity"
+            "Ranged Weapon§Canis Rex—Las-impulsor – high intensity",
+            "Ranged Weapon§Canis Rex—Las-impulsor – low intensity"
           ]
         },
         "keywords": {
@@ -3433,8 +3457,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Canis Rex—Freedom’s Hand – sweep",
-            "Melee Weapon§Canis Rex—Freedom’s Hand – strike"
+            "Melee Weapon§Canis Rex—Freedom’s Hand – strike",
+            "Melee Weapon§Canis Rex—Freedom’s Hand – sweep"
           ]
         },
         "keywords": {
@@ -3453,29 +3477,25 @@
             "value": "Melee"
           },
           "A": {
-            "value": 5
+            "value": 10
           },
           "BS": {
             "value": 3
           },
           "S": {
-            "value": 20
+            "value": 10
           },
           "AP": {
-            "value": -3
+            "value": -2
           },
           "D": {
-            "value": 8
+            "value": 3
           },
           "WS": {
             "value": 2
           }
         },
-        "assets": {
-          "traits": [
-            "Ability§Lance"
-          ]
-        }
+        "assets": {}
       },
       "Ranged Weapon§Cerastus Knight Atrapos—Atrapos lascutter": {
         "aspects": {
@@ -3875,8 +3895,7 @@
         },
         "assets": {
           "traits": [
-            "Ability§Lone Operative",
-            "Ability§Using Sir Hekhtur"
+            "Ability§Lone Operative"
           ]
         }
       },
@@ -3934,6 +3953,986 @@
           "D": {
             "value": 1
           }
+        }
+      },
+      "Ranged Weapon§Canis Rex—Questoris multi-laser": {
+        "aspects": {
+          "Label": "Questoris multi-laser"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Tech-priest Dominus (Knights)—Phosphor serpenta": {
+        "aspects": {
+          "Label": "Phosphor serpenta"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Ignores Cover",
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Tech-priest Dominus (Knights)—Macrostubber": {
+        "aspects": {
+          "Label": "Macrostubber"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 5
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Tech-priest Dominus (Knights)—Eradication ray – focused": {
+        "aspects": {
+          "Label": "Eradication ray – focused"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "format": "D3",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Tech-priest Dominus (Knights)—Eradication ray – dissipated": {
+        "aspects": {
+          "Label": "Eradication ray – dissipated"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "format": "D3",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Tech-priest Dominus (Knights)—Volkite blaster": {
+        "aspects": {
+          "Label": "Volkite blaster"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds"
+          ]
+        }
+      },
+      "Melee Weapon§Tech-priest Dominus (Knights)—Omnissian axe": {
+        "aspects": {
+          "Label": "Omnissian axe"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Tech-priest Manipulus (Knights)—Transonic cannon": {
+        "aspects": {
+          "Label": "Transonic cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds",
+            "Ability§Torrent"
+          ]
+        }
+      },
+      "Ranged Weapon§Tech-priest Manipulus (Knights)—Magnarail lance": {
+        "aspects": {
+          "Label": "Magnarail lance"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy"
+          ]
+        }
+      },
+      "Melee Weapon§Tech-priest Manipulus (Knights)—Omnissian staff": {
+        "aspects": {
+          "Label": "Omnissian staff"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Skitarii Marshal (Knights)—Mechanicus pistol": {
+        "aspects": {
+          "Label": "Mechanicus pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds",
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Melee Weapon§Skitarii Marshal (Knights)—Control stave": {
+        "aspects": {
+          "Label": "Control stave"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Skitarii Rangers (Knights)—Transuranic arquebus": {
+        "aspects": {
+          "Label": "Transuranic arquebus"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy",
+            "Ability§Precision"
+          ]
+        }
+      },
+      "Ranged Weapon§Skitarii Rangers (Knights)—Plasma caliver – supercharge": {
+        "aspects": {
+          "Label": "Plasma caliver – supercharge"
+        },
+        "stats": {
+          "Range": {
+            "value": 30
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Hazardous"
+          ]
+        }
+      },
+      "Ranged Weapon§Skitarii Rangers (Knights)—Plasma caliver – standard": {
+        "aspects": {
+          "Label": "Plasma caliver – standard"
+        },
+        "stats": {
+          "Range": {
+            "value": 30
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Skitarii Rangers (Knights)—Plasma caliver": {
+        "aspects": {
+          "Label": "Plasma caliver"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Skitarii Rangers (Knights)—Plasma caliver – supercharge",
+            "Ranged Weapon§Skitarii Rangers (Knights)—Plasma caliver – standard"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Skitarii Rangers (Knights)—Galvanic rifle": {
+        "aspects": {
+          "Label": "Galvanic rifle"
+        },
+        "stats": {
+          "Range": {
+            "value": 30
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Skitarii Rangers (Knights)—Arc rifle": {
+        "aspects": {
+          "Label": "Arc rifle"
+        },
+        "stats": {
+          "Range": {
+            "value": 30
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "vehicle"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Skitarii Rangers (Knights)—Mechanicus pistol": {
+        "aspects": {
+          "Label": "Mechanicus pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds",
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Melee Weapon§Skitarii Rangers (Knights)—Close combat weapon": {
+        "aspects": {
+          "Label": "Close combat weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 1
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Skitarii Rangers (Knights)—Alpha combat weapon": {
+        "aspects": {
+          "Label": "Alpha combat weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Skitarii Vanguard (Knights)—Transuranic arquebus": {
+        "aspects": {
+          "Label": "Transuranic arquebus"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy",
+            "Ability§Precision"
+          ]
+        }
+      },
+      "Ranged Weapon§Skitarii Vanguard (Knights)—Mechanicus pistol": {
+        "aspects": {
+          "Label": "Mechanicus pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds",
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Skitarii Vanguard (Knights)—Plasma caliver – standard": {
+        "aspects": {
+          "Label": "Plasma caliver – standard"
+        },
+        "stats": {
+          "Range": {
+            "value": 30
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Skitarii Vanguard (Knights)—Plasma caliver – supercharge": {
+        "aspects": {
+          "Label": "Plasma caliver – supercharge"
+        },
+        "stats": {
+          "Range": {
+            "value": 30
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Hazardous"
+          ]
+        }
+      },
+      "Ranged Weapon§Skitarii Vanguard (Knights)—Radium carbine": {
+        "aspects": {
+          "Label": "Radium carbine"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Skitarii Vanguard (Knights)—Arc rifle": {
+        "aspects": {
+          "Label": "Arc rifle"
+        },
+        "stats": {
+          "Range": {
+            "value": 30
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "vehicle"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Melee Weapon§Skitarii Vanguard (Knights)—Alpha combat weapon": {
+        "aspects": {
+          "Label": "Alpha combat weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Skitarii Vanguard (Knights)—Close combat weapon": {
+        "aspects": {
+          "Label": "Close combat weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 1
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Unit§Acastus Knight Porphyrion": {
+        "keywords": {
+          "Keywords": [
+            "Frame"
+          ]
+        }
+      },
+      "Character§Canis Rex": {
+        "keywords": {
+          "Keywords": [
+            "Titanic",
+            "Vehicle",
+            "Walker",
+            "Towering",
+            "Questoris",
+            "Canis Rex"
+          ]
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D6"
+                }
+              }
+            },
+            "Ability§Legendary Freeblade (Canis Rex)",
+            "Ability§Chainbreaker"
+          ]
+        }
+      },
+      "Ability§Legendary Freeblade (Canis Rex)": {
+        "text": "Once per turn, when you target this model with a stratagem, you may reduce the CP cost of that use of that stratagem by 1CP."
+      },
+      "Unit§Acastus Knight Asterius": {
+        "keywords": {
+          "Keywords": [
+            "Frame"
+          ]
+        }
+      },
+      "Ability§Doctrina Imperatives": {
+        "text": "At the start of the battle round, you can select one of the Doctrina Imperatives below. Until the end of the battle round, that Doctrina Imperative is active for your army, and all units from your army that have the Doctrina Imperatives ability gain the relevant abilities shown below.\nProtector Imperative\n\n- Ranged weapons equipped by models in this unit have the **[HEAVY]** ability.\n\n- Improve the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1.\n\n- Each time a melee attack targets this unit, if this unit has the **BATTLELINE** keyword and/or it is within 6\" of one or more friendly **ADEPTUS** **MECHANICUS** **BATTLELINE** units, subtract 1 from the **Hit roll**.\n\nConqueror Imperative\n\n- Ranged weapons equipped by models in this unit have the **[ASSAULT]** ability.\n\n- Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1.\n\n- Each time a model in this unit makes an attack, if this unit has the **BATTLELINE** keyword and/or it is within 6\" of one or more friendly **ADEPTUS** **MECHANICUS** **BATTLELINE** units, improve the Armour Penetration characteristic of that attack by 1."
+      },
+      "Character§Tech-priest Dominus (Knights)": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Skitarii Rangers\n\n* Skitarii Vanguard"
+            },
+            "Ability§Doctrina Imperatives"
+          ]
+        }
+      },
+      "Character§Tech-priest Manipulus (Knights)": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Skitarii Rangers\n\n* Skitarii Vanguard"
+            },
+            "Ability§Doctrina Imperatives"
+          ]
+        }
+      },
+      "Character§Skitarii Marshal (Knights)": {
+        "assets": {
+          "traits": [
+            "Ability§Doctrina Imperatives"
+          ]
+        }
+      },
+      "Unit§Skitarii Rangers (Knights)": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "6\""
+                }
+              }
+            },
+            "Ability§Doctrina Imperatives"
+          ]
+        }
+      },
+      "Unit§Skitarii Vanguard (Knights)": {
+        "assets": {
+          "traits": [
+            "Ability§Doctrina Imperatives"
+          ]
+        }
+      },
+      "Model§Skitarii Vanguard": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            }
+          ]
         }
       }
     },

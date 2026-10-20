@@ -792,16 +792,16 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Plague Marines"
+            },
+            {
               "item": "Ability§Deadly Demise",
               "stats": {
                 "x": {
                   "value": "1"
                 }
               }
-            },
-            {
-              "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following unit:\n\n* Plague Marines \n\nYou can attach this model to a Plague Marines unit, even if one other Leader unit has already been attached to it (you cannot attach more than one of the same leader to the same unit). If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
             },
             "Ability§Nurgle’s Gift (aura)",
             "Ability§Foul Infusion",
@@ -923,7 +923,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Plague Marines"
+              "text": "This model can be attached to the following units:\n\n* Plague Marines"
             },
             "Ability§Nurgle’s Gift (aura)",
             "Ability§Chaos Lord",
@@ -1631,7 +1631,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Plague Marines You can attach this model to a Plague Marines unit, even if one other Leader unit has already been attached to it (you cannot attach more than one of the same leader to the same unit). If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+              "text": "This model can be attached to the following units:\n\n* Plague Marines"
             },
             "Ability§Nurgle’s Gift (aura)",
             "Ability§Putrefying Stink",
@@ -1785,7 +1785,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Plague Marines You can attach this model to a Plague Marines unit, even if one other Leader unit has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+              "text": "This model can be attached to the following units:\n\n* Plague Marines"
             },
             "Ability§Nurgle’s Gift (aura)",
             "Ability§Unclean Icon",
@@ -1943,7 +1943,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following units: \n\n- Plague Marines"
+              "text": "This model can be attached to the following units:\n\n* Plague Marines"
             },
             "Ranged Weapon§Lord of Poxes—Plasma pistol",
             "Melee Weapon§Lord of Poxes—Great plague blade",
@@ -2074,7 +2074,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following unit:\n\n* Plague Marines\n* Poxwalkers"
+              "text": "This model can be attached to the following units:\n\n* Plague Marines\n\n* Poxwalkers"
             },
             "Ability§Nurgle’s Gift (aura)",
             "Ability§Gift of Contagion",
@@ -2151,7 +2151,6 @@
             },
             "Ability§Nurgle’s Gift (aura)",
             "Ability§Lord of the Death Guard",
-            "Ability§Supreme Commander",
             {
               "item": "Ability§Damaged:",
               "stats": {
@@ -2172,7 +2171,10 @@
             "Ranged Weapon§Mortarion—The Lantern",
             "Melee Weapon§Mortarion—Silence",
             "Ability§Host of Plagues",
-            "Ability§Deep Strike"
+            "Ability§Deep Strike",
+            "Ability§Diseased Influence (Mortarion)",
+            "Ability§Boon of Death (Mortarion)",
+            "Ability§Inflamed Reprisal (Mortarion)"
           ]
         },
         "keywords": {
@@ -2239,7 +2241,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following unit:\n\n* Plague Marines \n* Poxwalkers\n\nYou can attach this model to a Plague Marines or Poxwalkers unit, even if one other Leader unit has already been attached to it (you cannot attach more than one of the same Leader to the same unit). If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+              "text": "This model can be attached to the following units:\n\n* Plague Marines\n\n* Poxwalkers"
             },
             "Ability§Nurgle’s Gift (aura)",
             "Ability§Sickening Vitality",
@@ -2345,7 +2347,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following unit:\n\n* Plague Marines \n\nYou can attach this model to a Plague Marines unit, even if one other Leader unit has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+              "text": "This model can be attached to the following units:\n\n* Plague Marines"
             },
             "Ability§Nurgle’s Gift (aura)",
             "Ability§Tainted Narthecium",
@@ -2477,7 +2479,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following unit:\n\n* Plague Marines \n\nYou can attach this model to a Plague Marines unit, even if one other Leader unit has already been attached to it (you cannot attach more than one of the same leader to the same unit). If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+              "text": "This model can be attached to the following units:\n\n* Plague Marines"
             },
             "Ability§Nurgle’s Gift (aura)",
             "Ability§Malicious Calculations",
@@ -2591,7 +2593,6 @@
             },
             "Ability§Nurgle’s Gift (aura)",
             "Ability§The Destroyer Hive",
-            "Ability§The Eater Plague (psychic)",
             {
               "item": "Ability§Invulnerable",
               "stats": {
@@ -2600,7 +2601,8 @@
                 }
               }
             },
-            "Melee Weapon§Typhus—Master-crafted manreaper"
+            "Melee Weapon§Typhus—Master-crafted manreaper",
+            "Ability§Eater Plague"
           ]
         },
         "keywords": {
@@ -5284,8 +5286,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Daemon Prince of Nurgle with Wings—Hellforged weapons – sweep",
-            "Melee Weapon§Daemon Prince of Nurgle with Wings—Hellforged weapons – strike"
+            "Melee Weapon§Daemon Prince of Nurgle with Wings—Hellforged weapons – strike",
+            "Melee Weapon§Daemon Prince of Nurgle with Wings—Hellforged weapons – sweep"
           ]
         },
         "keywords": {
@@ -5362,8 +5364,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Daemon Prince of Nurgle—Hellforged weapons – sweep",
-            "Melee Weapon§Daemon Prince of Nurgle—Hellforged weapons – strike"
+            "Melee Weapon§Daemon Prince of Nurgle—Hellforged weapons – strike",
+            "Melee Weapon§Daemon Prince of Nurgle—Hellforged weapons – sweep"
           ]
         },
         "keywords": {
@@ -5518,8 +5520,8 @@
             "value": -1
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "statType": "term",
@@ -5632,8 +5634,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Deathshroud Terminators—Manreaper – sweep",
-            "Melee Weapon§Deathshroud Terminators—Manreaper – strike"
+            "Melee Weapon§Deathshroud Terminators—Manreaper – strike",
+            "Melee Weapon§Deathshroud Terminators—Manreaper – sweep"
           ]
         },
         "keywords": {
@@ -6010,8 +6012,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Mortarion—Silence – sweep",
-            "Melee Weapon§Mortarion—Silence – strike"
+            "Melee Weapon§Mortarion—Silence – strike",
+            "Melee Weapon§Mortarion—Silence – sweep"
           ]
         },
         "keywords": {
@@ -8165,8 +8167,8 @@
         },
         "stats": {
           "A": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "AP": {
             "value": 0
@@ -8200,8 +8202,8 @@
             "value": 4
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "value": 24
@@ -8386,7 +8388,7 @@
             "value": 1
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
             "value": 4
@@ -8398,7 +8400,7 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -8503,7 +8505,7 @@
             "value": 2
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
             "value": 3
@@ -8515,7 +8517,7 @@
             "value": 24
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -9894,7 +9896,30 @@
         "stats": {
           "S": {
             "value": 8
+          },
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "format": "2D6",
+            "value": 0
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
           }
+        },
+        "aspects": {
+          "Label": "Streams of brackish filth"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds",
+            "Ability§Ignores Cover",
+            "Ability§Torrent"
+          ]
         }
       },
       "Ranged Weapon§Tallyman—Plasma pistol": {
@@ -11028,7 +11053,15 @@
       "Unit§Beasts of Nurgle": {
         "assets": {
           "traits": [
-            "Ability§Pact of Decay"
+            "Ability§Pact of Decay",
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "6\""
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -11324,19 +11357,19 @@
         },
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Scouts",
-              "stats": {
-                "x": {
-                  "value": "6″"
-                }
-              }
-            },
             "Ability§Nurgle’s Gift (aura)",
             "Model§Death Guard Cultist Champion",
             {
               "item": "Model§Death Guard Cultist",
               "quantity": 9
+            },
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "6\""
+                }
+              }
             }
           ]
         },
@@ -11772,8 +11805,8 @@
                 }
               }
             },
-            "Melee Weapon§Foetid Bloat-drone—Plague probe",
-            "Ranged Weapon§Foetid Bloat-drone—Heavy blight launcher",
+            "Melee Weapon§Foetid Bloat-drone with Heavy blight launcher—Plague probe",
+            "Ranged Weapon§Foetid Bloat-drone with Heavy blight launcher—Heavy blight launcher",
             "Ability§Explosive Blight"
           ]
         },
@@ -11790,7 +11823,8 @@
             "Chaos",
             "Nurgle",
             "Daemon",
-            "Foetid Bloat-drone"
+            "Foetid Bloat-drone",
+            "Foetid Bloat-drone with Heavy Blight Launcher"
           ],
           "Category": [
             "Vehicle"
@@ -11831,6 +11865,17 @@
           "Keywords": [
             "Nurgle"
           ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Nurgle’s Gift"
+          ]
+        },
+        "stats": {
+          "M": {
+            "statType": "term",
+            "value": "-"
+          }
         }
       },
       "Unit§Hell Talon": {
@@ -11838,6 +11883,17 @@
           "Keywords": [
             "Nurgle"
           ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Nurgle’s Gift"
+          ]
+        },
+        "stats": {
+          "M": {
+            "statType": "term",
+            "value": "-"
+          }
         }
       },
       "Unit§Miasmic Malignifier": {
@@ -11872,7 +11928,8 @@
             "Fortification",
             "Chaos",
             "Nurgle",
-            "Miasmic Malignifier"
+            "Miasmic Malignifier",
+            "Frame"
           ],
           "Category": [
             "Fortification"
@@ -12382,7 +12439,8 @@
             "Chaos",
             "Nurgle",
             "Daemon",
-            "Plagueburst Crawler"
+            "Plagueburst Crawler",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -12674,7 +12732,8 @@
             "Death Guard"
           ],
           "Keywords": [
-            "Nurgle"
+            "Nurgle",
+            "Frame"
           ]
         },
         "aspects": {
@@ -12827,7 +12886,8 @@
             "Death Guard"
           ],
           "Keywords": [
-            "Nurgle"
+            "Nurgle",
+            "Frame"
           ]
         },
         "aspects": {
@@ -13026,7 +13086,8 @@
             "Death Guard"
           ],
           "Keywords": [
-            "Nurgle"
+            "Nurgle",
+            "Frame"
           ]
         },
         "aspects": {
@@ -13247,7 +13308,8 @@
             "Death Guard"
           ],
           "Keywords": [
-            "Nurgle"
+            "Nurgle",
+            "Frame"
           ]
         },
         "aspects": {
@@ -13545,7 +13607,15 @@
         "assets": {
           "traits": [
             "Ability§Nurgle’s Gift (aura)",
-            "Ability§Barrage of Filth"
+            "Ability§Barrage of Filth",
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D6"
+                }
+              }
+            }
           ]
         },
         "removed": {
@@ -14164,7 +14234,7 @@
               "item": "Ability§Scouts",
               "stats": {
                 "x": {
-                  "value": "6″"
+                  "value": "6\""
                 }
               }
             }
@@ -14857,27 +14927,23 @@
             "value": 48
           },
           "A": {
-            "format": "D6",
-            "value": 0
+            "value": 1
           },
           "BS": {
             "value": 3
           },
           "S": {
-            "value": 4
+            "value": 9
           },
           "AP": {
-            "value": 0
+            "value": -2
           },
           "D": {
-            "value": 1
+            "format": "D6",
+            "value": 0
           }
         },
-        "assets": {
-          "traits": [
-            "Ability§Blast"
-          ]
-        }
+        "assets": {}
       },
       "Ranged Weapon§Helbrute—Heavy flamer": {
         "aspects": {
@@ -15122,8 +15188,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Lord of Contagion—Manreaper – sweep",
-            "Melee Weapon§Lord of Contagion—Manreaper – strike"
+            "Melee Weapon§Lord of Contagion—Manreaper – strike",
+            "Melee Weapon§Lord of Contagion—Manreaper – sweep"
           ]
         },
         "keywords": {
@@ -15421,13 +15487,667 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Typhus—Lakrimae – sweep",
-            "Melee Weapon§Typhus—Lakrimae – strike"
+            "Melee Weapon§Typhus—Lakrimae – strike",
+            "Melee Weapon§Typhus—Lakrimae – sweep"
           ]
         },
         "keywords": {
           "Tags": [
             "Multi-weapon"
+          ]
+        }
+      },
+      "Melee Weapon§Foetid Bloat-drone with Heavy blight launcher—Plague probe": {
+        "aspects": {
+          "Label": "Plague probe"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lethal Hits"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 6
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Foetid Bloat-drone with Heavy blight launcher—Heavy blight launcher": {
+        "aspects": {
+          "Label": "Heavy blight launcher"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lethal Hits",
+            "Ability§Blast"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 2
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 10
+          }
+        }
+      },
+      "Ranged Weapon§Terrax-pattern Termite—Combi-weapon – purgatus": {
+        "aspects": {
+          "Label": "Combi-weapon – Purgatus"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Terrax-pattern Termite—Combi-weapon – infernus": {
+        "aspects": {
+          "Label": "Combi-weapon – Infernus"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Blast",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Torrent"
+          ]
+        }
+      },
+      "Ranged Weapon§Terrax-pattern Termite—Combi-weapon – damnatus": {
+        "aspects": {
+          "Label": "Combi-weapon – Damnatus"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D3",
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Terrax-pattern Termite—Combi-weapon": {
+        "aspects": {
+          "Label": "Combi-weapon"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Terrax-pattern Termite—Combi-weapon – purgatus",
+            "Ranged Weapon§Terrax-pattern Termite—Combi-weapon – infernus",
+            "Ranged Weapon§Terrax-pattern Termite—Combi-weapon – damnatus"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Kratos—Combi-weapon – damnatus": {
+        "aspects": {
+          "Label": "Combi-weapon – Damnatus"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D3",
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Kratos—Combi-weapon – infernus": {
+        "aspects": {
+          "Label": "Combi-weapon – Infernus"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Torrent",
+            {
+              "item": "Ability§Blast",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Kratos—Combi-weapon – purgatus": {
+        "aspects": {
+          "Label": "Combi-weapon – Purgatus"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Kratos—Combi-weapon": {
+        "aspects": {
+          "Label": "Combi-weapon"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Kratos—Combi-weapon – damnatus",
+            "Ranged Weapon§Kratos—Combi-weapon – infernus",
+            "Ranged Weapon§Kratos—Combi-weapon – purgatus"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Kratos—Heavy Bolter": {
+        "aspects": {
+          "Label": "Heavy Bolter"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            },
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Kratos—Heavy Flamer": {
+        "aspects": {
+          "Label": "Heavy Flamer"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Torrent",
+            {
+              "item": "Ability§Blast",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Kratos—Multi-melta": {
+        "aspects": {
+          "Label": "Multi-melta"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D3",
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "3"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Kratos—Lascannon": {
+        "aspects": {
+          "Label": "Lascannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D3",
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Rapier Carrier—Armoured Hull": {
+        "aspects": {
+          "Label": "Armoured Hull"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ability§Eater Plague": {
+        "text": "_Psychic_\n\nIn your Shooting phase, you can select one enemy unit within 18\" of and visible to this **PSYKER** (excluding units with the Lone Operative ability that are not part of an Attached unit and are not within 12\" of this **PSYKER**) and roll one D6: on a 1, this **PSYKER**’s unit suffers D3 mortal wounds; on a 2-5, that enemy unit suffers D6 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
+      },
+      "Ability§Diseased Influence (Mortarion)": {
+        "text": "Just after an enemy unit ends a Normal, Advance or Fall Back move within 8\" of a friendly Death Guard unit that is within 6\" of this model, if that **DEATH** **GUARD** unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 5\"."
+      },
+      "Ability§Boon of Death (Mortarion)": {
+        "text": "In the Fight phase, when a friendly **DEATH** **GUARD** unit within 6\" of this model is selected as the target of an attack, this model can use this ability. If it does, until the end of the phase, each time a model in that **DEATH** **GUARD** unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 2+, do not remove it from play; that destroyed model can fight after the attacking unit has finished making its attacks, and it is then removed from play."
+      },
+      "Ability§Inflamed Reprisal (Mortarion)": {
+        "text": "In your opponent’s Shooting phase, when a friendly **DEATH** **GUARD** unit within 6\" of this model is selected as the target of an attack, this model can use this ability. If it does, after the attacking unit has finished making its attacks, that Death Guard unit can shoot as if it were your Shooting phase, but when resolving those attacks, worsen the BS characteristic of that attack by 1 and it can only target that enemy unit (and only if it is an eligible target)."
+      },
+      "Ability§Nurgle’s Gift (Aura)": {
+        "text": "If your Army Faction is **DEATH** **GUARD**, while an enemy unit is within Contagion Range of one or more Death Guard models from your army, it is Afflicted (see below).\n\nCONTAGION RANGE\nContagion Range changes over the course of the battle:\n\nContagion Range cannot be greater than 12\" after modifiers.\n\nAFFLICTED\nDuring the Declare Battle Formations step, select one of the Plagues below. Until the end of the battle, while an enemy unit is Afflicted, subtract 1 from the Toughness characteristic of models in that unit, and that unit has the effect of your chosen Plague.\nSkullsquirm Blight\n\n- Each time a model in this unit makes a ranged attack, enemy units have the **benefit of cover** against that attack.\n\n- Each time a model in this unit makes a melee attack, subtract 1 from the **Hit roll**.\n\nRattlejoint Ague\nWorsen the Save characteristic of models in this unit by 1.\n\nScabrous Soulrot\nWorsen the Move, Leadership, and Objective Control characteristics of models in this unit by 1 (this rule can only worsen a model’s Objective Control characteristic to a minimum of 1)."
+      },
+      "Unit§Chaos Thunderhawk": {
+        "assets": {
+          "traits": [
+            "Ability§Nurgle’s Gift"
+          ]
+        }
+      },
+      "Unit§Greater Blight Drone": {
+        "assets": {
+          "traits": [
+            "Ability§Nurgle’s Gift"
+          ]
+        }
+      },
+      "Character§Chaos Lord on Palanquin of Nurgle": {
+        "assets": {
+          "traits": [
+            "Ability§Nurgle’s Gift"
+          ]
+        }
+      },
+      "Infantry/Mounted§Gellerpox Infected": {
+        "keywords": {
+          "Keywords": [
+            "Damned"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Nurgle’s Gift"
+          ]
+        }
+      },
+      "Unit§Mutoid Vermin": {
+        "keywords": {
+          "Keywords": [
+            "Damned"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Nurgle’s Gift"
+          ]
+        }
+      },
+      "Character§Sorcerer on Palanquin of Nurgle": {
+        "assets": {
+          "traits": [
+            "Ability§Nurgle’s Gift"
+          ]
+        }
+      },
+      "Vehicle§Terrax-pattern Termite": {
+        "keywords": {
+          "Keywords": [
+            "Chaos",
+            "Nurgle"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Combat Doctrines"
+          ]
+        }
+      },
+      "Ability§Combat Doctrines": {
+        "text": "At the start of your Command phase, you can select one **combat doctrine** listed below. If you do, that **combat doctrine** is active for friendly **ADEPTUS** **ASTARTES** units with this ability until the start of your next Command phase.\n\nASSAULT DOCTRINEWhen this unit is selected to make an **advance move**, that **advance move** does not prevent this unit from being **eligible to declare a charge**.\n\nDEVASTATOR DOCTRINEThis unit’s ranged attacks have **[ASSAULT]**.\n\nTACTICAL DOCTRINEWhen this unit is selected to make a **fall-back move**, that **fall-back move** does not prevent this unit from being **eligible to shoot** and **eligible to declare a charge**.\nUnless otherwise stated:\n\n- You can only select each **combat doctrine** once per battle.\n\n- Only one **combat doctrine** can be active for each unit. If a rule makes a **combat doctrine** active for a unit, any **combat doctrine** previously active for that unit is no longer active for that unit."
+      },
+      "Vehicle§Cerberus": {
+        "keywords": {
+          "Keywords": [
+            "Nurgle",
+            "Chaos"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Combat Doctrines"
+          ]
+        }
+      },
+      "Vehicle§Kratos": {
+        "keywords": {
+          "Keywords": [
+            "Nurgle",
+            "Chaos"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Combat Doctrines"
+          ]
+        }
+      },
+      "Vehicle§Mastodon": {
+        "keywords": {
+          "Keywords": [
+            "Chaos",
+            "Nurgle"
+          ]
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "2D6"
+                }
+              }
+            },
+            "Ability§Combat Doctrines"
+          ]
+        }
+      },
+      "Vehicle§Rapier Carrier": {
+        "keywords": {
+          "Keywords": [
+            "Nurgle",
+            "Chaos"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Combat Doctrines"
+          ]
+        }
+      },
+      "Vehicle§Typhon": {
+        "keywords": {
+          "Keywords": [
+            "Chaos",
+            "Nurgle"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Combat Doctrines"
+          ]
+        }
+      },
+      "Vehicle§Falchion": {
+        "keywords": {
+          "Keywords": [
+            "Chaos",
+            "Nurgle"
+          ]
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D6+2"
+                }
+              }
+            },
+            "Ability§Combat Doctrines"
+          ]
+        }
+      },
+      "Model§Beasts of Nurgle": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            }
           ]
         }
       }

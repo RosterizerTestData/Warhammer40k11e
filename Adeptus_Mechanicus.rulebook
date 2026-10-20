@@ -1151,7 +1151,6 @@
             },
             "Ability§Mechanicus Bodyguard",
             "Ability§Self-repair Mechanisms",
-            "Ability§Supreme Commander",
             {
               "item": "Ability§Invulnerable",
               "stats": {
@@ -1164,7 +1163,10 @@
             "Melee Weapon§Belisarius Cawl—Arc scourge",
             "Melee Weapon§Belisarius Cawl—Cawl’s Omnissian axe",
             "Melee Weapon§Belisarius Cawl—Mechadendrite hive",
-            "Ability§Doctrina Imperatives"
+            "Ability§Doctrina Imperatives",
+            "Ability§Invocation of Machine Vengeance",
+            "Ability§Mantra of Discipline",
+            "Ability§Shroudpsalm"
           ]
         },
         "keywords": {
@@ -1181,7 +1183,8 @@
             "Epic Hero",
             "Imperium",
             "Monster",
-            "Tech-Priest"
+            "Tech-Priest",
+            "Mobile"
           ],
           "Category": [
             "Epic Hero"
@@ -1226,8 +1229,8 @@
         "assets": {
           "traits": [
             {
-              "item": "Ability§Leader",
-              "text": "* Before the battle, Character units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.\n* Attached units can only contain one Leader.\n* Attacks cannot be allocated to Character models in Attached units.\n\nThis model must be attached to the following unit:\n\n* Kastelan Robots \n\nYou must attach this model to a Kastelan Robots unit, even if one or more other Cybernetica Datasmith models have already been attached to it. In such cases, if that Bodyguard unit is destroyed, the Leader units attached to it become separate units with their original Starting Strengths. If you cannot attach this model to a Kastelan Robots unit, this model cannot be deployed and counts as having been destroyed during the first battle round. While attached to a Kastelan Robots unit, this model loses the Infantry keyword."
+              "item": "Ability§Support",
+              "text": "This model can be attached to the following units:\n\n* Kastelan Robots"
             },
             "Ability§Battle Protocols",
             {
@@ -1240,7 +1243,8 @@
             },
             "Ranged Weapon§Cybernetica Datasmith—Mechanicus pistol",
             "Melee Weapon§Cybernetica Datasmith—Power fist",
-            "Ability§Doctrina Imperatives"
+            "Ability§Doctrina Imperatives",
+            "Ability§Data-severed"
           ]
         },
         "keywords": {
@@ -1256,7 +1260,8 @@
             "Imperium",
             "Infantry",
             "Legio Cybernetica",
-            "Tech-Priest"
+            "Tech-Priest",
+            "Vehicle"
           ],
           "Category": [
             "Character"
@@ -1290,8 +1295,8 @@
         "assets": {
           "traits": [
             {
-              "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Skitarii Rangers\n\n* Skitarii Vanguard"
+              "item": "Ability§Support",
+              "text": "This model can be attached to the following units:\n\n* Hastarii Exterminators\n\n* Hastarii Fusiliers\n\n* Secutarii Hoplites\n\n* Secutarii Peltasts\n\n* Skitarii Rangers\n\n* Skitarii Vanguard"
             },
             "Ability§Doctrina Imperatives",
             "Ability§Control Edict",
@@ -1378,7 +1383,6 @@
             "Ability§Doctrina Imperatives",
             "Ability§Dread Snipers",
             "Ability§Achillan Eye",
-            "Ability§Sydonian Sentinel",
             "Ranged Weapon§Sydonian Skatros—Mechanicus pistol",
             "Melee Weapon§Sydonian Skatros—Sydonian feet"
           ]
@@ -1392,7 +1396,9 @@
             "Imperium",
             "Infantry",
             "Skitarii",
-            "Sydonian Skatros"
+            "Sydonian Skatros",
+            "Sydonian",
+            "Skatros"
           ],
           "Faction": [
             "Adeptus Mechanicus"
@@ -1476,7 +1482,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Corpuscarii Electro-Priests\n\n* Fulgurite Electro-Priests\n\n* Kataphron Breachers\n\n* Kataphron Destroyers\n\n* Skitarii Rangers\n\n* Skitarii Vanguard"
+              "text": "This model can be attached to the following units:\n\n* Corpuscarii Electro-priests\n\n* Fulgurite Electro-priests\n\n* Hastarii Exterminators\n\n* Hastarii Fusiliers\n\n* Kataphron Breachers\n\n* Kataphron Destroyers\n\n* Secutarii Hoplites\n\n* Secutarii Peltasts\n\n* Servitor Battleclade\n\n* Skitarii Rangers\n\n* Skitarii Vanguard"
             },
             "Ability§Lord of the Machine Cult",
             "Ability§Data-spike",
@@ -1604,7 +1610,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "* Before the battle, Character units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit.\n* Attached units can only contain one Leader.\n* Attacks cannot be allocated to Character models in Attached units.\n\nThis model can be attached to the following units:\n\n* Corpuscarii Electro-Priests\n\n* Fulgurite Electro-Priests\n\n* Kataphron Breachers\n\n* Kataphron Destroyers\n\n* Skitarii Rangers\n\n* Skitarii Vanguard"
+              "text": "This model can be attached to the following units:\n\n* Corpuscarii Electro-priests\n\n* Fulgurite Electro-priests\n\n* Hastarii Exterminators\n\n* Hastarii Fusiliers\n\n* Kataphron Breachers\n\n* Kataphron Destroyers\n\n* Secutarii Hoplites\n\n* Secutarii Peltasts\n\n* Servitor Battleclade\n\n* Skitarii Rangers\n\n* Skitarii Vanguard"
             },
             "Ability§Enginseer",
             "Ability§Omnissiah’s Blessing",
@@ -1671,7 +1677,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Corpuscarii Electro-Priests\n\n* Fulgurite Electro-Priests\n\n* Kataphron Breachers\n\n* Kataphron Destroyers\n\n* Skitarii Rangers\n\n* Skitarii Vanguard"
+              "text": "This model can be attached to the following units:\n\n* Corpuscarii Electro-priests\n\n* Fulgurite Electro-priests\n\n* Hastarii Exterminators\n\n* Hastarii Fusiliers\n\n* Kataphron Breachers\n\n* Kataphron Destroyers\n\n* Secutarii Hoplites\n\n* Secutarii Peltasts\n\n* Servitor Battleclade\n\n* Skitarii Rangers\n\n* Skitarii Vanguard"
             },
             "Ability§Galvanic Field",
             "Ability§Defend the Divine Work",
@@ -1772,8 +1778,8 @@
         "assets": {
           "traits": [
             {
-              "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Corpuscarii Electro-Priests\n\n* Fulgurite Electro-Priests\n\n* Kataphron Breachers\n\n* Kataphron Destroyers\n\n* Skitarii Rangers\n\n* Skitarii Vanguard"
+              "item": "Ability§Support",
+              "text": "This model can be attached to the following units:\n\n* Corpuscarii Electro-priests\n\n* Fulgurite Electro-priests\n\n* Hastarii Exterminators\n\n* Hastarii Fusiliers\n\n* Kataphron Breachers\n\n* Kataphron Destroyers\n\n* Secutarii Hoplites\n\n* Secutarii Peltasts\n\n* Servitor Battleclade\n\n* Skitarii Rangers\n\n* Skitarii Vanguard"
             },
             "Ability§Seekers of Divine Arcana",
             "Ability§Cogitative Instincts",
@@ -1847,11 +1853,12 @@
             },
             "Ability§Rod of the War Forge",
             "Ability§Mechanicus Bodyguard",
-            "Ability§Cybernetic Augmentation",
             "Ability§Secutor of Olympus",
             "Ranged Weapon§Thulia Ghuld—Jericho‑class conversion resonator",
             "Melee Weapon§Thulia Ghuld—Rod of the War Forge",
-            "Ability§Supreme Commander"
+            "Ability§Fanatical Devotion",
+            "Ability§Adaptive Tactics",
+            "Ability§The Fires of Mars"
           ]
         },
         "keywords": {
@@ -1862,7 +1869,8 @@
             "Imperium",
             "Monster",
             "Tech-Priest",
-            "Thulia Ghuld"
+            "Thulia Ghuld",
+            "Mobile"
           ],
           "Category": [
             "Epic Hero"
@@ -1935,7 +1943,8 @@
             "Imperium",
             "Character",
             "Epic Hero",
-            "X-101"
+            "X-101",
+            "Cult Mechanicus"
           ],
           "Category": [
             "Epic Hero"
@@ -6466,8 +6475,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Thulia Ghuld—Rod of the War Forge – sweep",
-            "Melee Weapon§Thulia Ghuld—Rod of the War Forge – strike"
+            "Melee Weapon§Thulia Ghuld—Rod of the War Forge – strike",
+            "Melee Weapon§Thulia Ghuld—Rod of the War Forge – sweep"
           ]
         },
         "keywords": {
@@ -6936,7 +6945,15 @@
       "Model§Ironstrider Ballistarii": {
         "assets": {
           "traits": [
-            "Melee Weapon§Ironstrider Ballistarii—Ironstrider feet"
+            "Melee Weapon§Ironstrider Ballistarii—Ironstrider feet",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            }
           ]
         },
         "stats": {
@@ -7413,7 +7430,15 @@
         "assets": {
           "traits": [
             "Melee Weapon§Secutarii Hoplites—Arc lance",
-            "Ranged Weapon§Secutarii Hoplites—Arc lance"
+            "Ranged Weapon§Secutarii Hoplites—Arc lance",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
           ]
         },
         "stats": {
@@ -7476,7 +7501,15 @@
         "assets": {
           "traits": [
             "Ranged Weapon§Secutarii Peltasts—Galvanic caster",
-            "Melee Weapon§Secutarii Peltasts—Close combat weapon"
+            "Melee Weapon§Secutarii Peltasts—Close combat weapon",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "6+"
+                }
+              }
+            }
           ]
         },
         "stats": {
@@ -7879,7 +7912,15 @@
         "assets": {
           "traits": [
             "Ranged Weapon§Servitor Battleclade—Mechanicus pistol",
-            "Melee Weapon§Servitor Battleclade—Dataspikes"
+            "Melee Weapon§Servitor Battleclade—Dataspikes",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "6+"
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -8295,7 +8336,15 @@
       "Model§Skitarii Vanguard": {
         "assets": {
           "traits": [
-            "Melee Weapon§Skitarii Vanguard—Close combat weapon"
+            "Melee Weapon§Skitarii Vanguard—Close combat weapon",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            }
           ]
         },
         "stats": {
@@ -8475,9 +8524,9 @@
       "Model§Sydonian Dragoon with Radium Jezzails": {
         "assets": {
           "traits": [
-            "Ranged Weapon§Sydonian Dragoons—Radium jezzail",
-            "Melee Weapon§Sydonian Dragoons—Ironstrider feet",
-            "Ranged Weapon§Sydonian Dragoons—Phosphor serpenta"
+            "Ranged Weapon§Sydonian Dragoons with Radium Jezzails—Radium jezzail",
+            "Melee Weapon§Sydonian Dragoons with Radium Jezzails—Ironstrider feet",
+            "Ranged Weapon§Sydonian Dragoons with Radium Jezzails—Phosphor serpenta"
           ]
         },
         "stats": {
@@ -8504,8 +8553,8 @@
       "Model§Sydonian Dragoon with Taser Lances": {
         "assets": {
           "traits": [
-            "Melee Weapon§Sydonian Dragoons—Taser lance",
-            "Ranged Weapon§Sydonian Dragoons—Phosphor serpenta"
+            "Melee Weapon§Sydonian Dragoons with Taser Lances—Taser lance",
+            "Ranged Weapon§Sydonian Dragoons with Taser Lances—Phosphor serpenta"
           ]
         },
         "stats": {
@@ -11958,21 +12007,106 @@
         "stats": {
           "BS": {
             "value": 4
+          },
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 2
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
           }
+        },
+        "aspects": {
+          "Label": "Combi-bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
         }
       },
       "Ranged Weapon§Terrax-pattern Termite—Terrax melta cutter": {
         "stats": {
           "BS": {
             "value": 4
+          },
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 5
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
           }
+        },
+        "aspects": {
+          "Label": "Terrax melta cutter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
         }
       },
       "Ranged Weapon§Terrax-pattern Termite—Twin volkite charger": {
         "stats": {
           "BS": {
             "value": 4
+          },
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 2
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 2
           }
+        },
+        "aspects": {
+          "Label": "Twin volkite charger"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds",
+            "Ability§Twin-linked"
+          ]
         }
       },
       "Ranged Weapon§Thulia Ghuld—Jericho‑class conversion resonator": {
@@ -11981,8 +12115,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Thulia Ghuld—Jericho‑class conversion resonator – shockwave",
-            "Ranged Weapon§Thulia Ghuld—Jericho‑class conversion resonator – titanic impact"
+            "Ranged Weapon§Thulia Ghuld—Jericho‑class conversion resonator – titanic impact",
+            "Ranged Weapon§Thulia Ghuld—Jericho‑class conversion resonator – shockwave"
           ]
         },
         "keywords": {
@@ -13070,7 +13204,6 @@
                 }
               }
             },
-            "Ability§Hover",
             "Ability§Doctrina Imperatives",
             "Ability§Bomb Rack",
             "Ranged Weapon§Archaeopter Fusilave—Cognis heavy stubber array",
@@ -13102,7 +13235,7 @@
           },
           "M": {
             "statType": "term",
-            "value": "20+"
+            "value": "-"
           },
           "OC": {
             "value": 0
@@ -13161,7 +13294,6 @@
                 }
               }
             },
-            "Ability§Hover",
             "Ability§Doctrina Imperatives",
             "Ability§Strafing Run",
             "Ranged Weapon§Archaeopter Stratoraptor—Cognis heavy stubber",
@@ -13197,7 +13329,7 @@
           },
           "M": {
             "statType": "term",
-            "value": "20+"
+            "value": "-"
           },
           "OC": {
             "value": 0
@@ -14082,7 +14214,8 @@
             "Walker",
             "Imperium",
             "Skitarii",
-            "Onager Dunecrawler"
+            "Onager Dunecrawler",
+            "Smoke"
           ],
           "Category": [
             "Vehicle—Walker"
@@ -14312,7 +14445,9 @@
             "Grenades",
             "Imperium",
             "Skitarii",
-            "Pteraxii Skystalkers"
+            "Pteraxii Skystalkers",
+            "Skystalkers",
+            "Pteraxii"
           ],
           "Category": [
             "Infantry"
@@ -14398,7 +14533,9 @@
             "Jump Pack",
             "Imperium",
             "Skitarii",
-            "Pteraxii Sterylizors"
+            "Pteraxii Sterylizors",
+            "Pteraxii",
+            "Sterylizors"
           ],
           "Category": [
             "Infantry"
@@ -14661,14 +14798,6 @@
         },
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Scouts",
-              "stats": {
-                "x": {
-                  "value": "9″"
-                }
-              }
-            },
             "Ability§Doctrina Imperatives",
             "Ability§Tactica Obliqua",
             {
@@ -14683,6 +14812,14 @@
             {
               "item": "Model§Serberys Raider",
               "quantity": 2
+            },
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "9\""
+                }
+              }
             }
           ]
         },
@@ -15090,7 +15227,6 @@
           "traits": [
             "Ability§Doctrina Imperatives",
             "Ability§Network Override",
-            "Ability§Attached Unit (Battlecade)",
             {
               "item": "Ability§Invulnerable",
               "stats": {
@@ -15326,7 +15462,9 @@
             "Infantry",
             "Imperium",
             "Skitarii",
-            "Sicarian Infiltrators"
+            "Sicarian Infiltrators",
+            "Sicarian",
+            "Infiltrators"
           ],
           "Category": [
             "Infantry"
@@ -15410,7 +15548,9 @@
             "Infantry",
             "Imperium",
             "Skitarii",
-            "Sicarian Ruststalkers"
+            "Sicarian Ruststalkers",
+            "Sicarian",
+            "Ruststalkers"
           ],
           "Category": [
             "Infantry"
@@ -15470,14 +15610,6 @@
         },
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Scouts",
-              "stats": {
-                "x": {
-                  "value": "6″"
-                }
-              }
-            },
             "Ability§Doctrina Imperatives",
             "Ability§Objective Scouted",
             {
@@ -15492,6 +15624,14 @@
             {
               "item": "Model§Skitarii Ranger",
               "quantity": 9
+            },
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "6\""
+                }
+              }
             }
           ]
         },
@@ -15939,7 +16079,8 @@
             "Skitarii",
             "Skorpius Disintegrator",
             "Smoke",
-            "Vehicle"
+            "Vehicle",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -16042,7 +16183,8 @@
             "Skorpius Dunerider",
             "Smoke",
             "Transport",
-            "Vehicle"
+            "Vehicle",
+            "Frame"
           ],
           "Category": [
             "Vehicle—Dedicated Transport"
@@ -16124,7 +16266,10 @@
             "Skitarii",
             "Sydonian Dragoons",
             "Vehicle",
-            "Walker"
+            "Walker",
+            "Smoke",
+            "Dragoons With Radium Jezzails",
+            "Sydonian"
           ],
           "Category": [
             "Vehicle—Walker"
@@ -16218,7 +16363,9 @@
             "Smoke",
             "Sydonian Dragoons",
             "Vehicle",
-            "Walker"
+            "Walker",
+            "Sydonian",
+            "Dragoons With Taser Lances"
           ],
           "Category": [
             "Vehicle—Walker"
@@ -16363,6 +16510,9 @@
         "keywords": {
           "Faction": [
             "Adeptus Mechanicus"
+          ],
+          "Keywords": [
+            "Frame"
           ]
         },
         "aspects": {
@@ -16591,6 +16741,236 @@
             }
           ]
         }
+      },
+      "Melee Weapon§Sydonian Dragoons with Radium Jezzails—Ironstrider feet": {
+        "aspects": {
+          "Label": "Ironstrider feet"
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 5
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Sydonian Dragoons with Radium Jezzails—Phosphor serpenta": {
+        "aspects": {
+          "Label": "Phosphor serpenta"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol",
+            "Ability§Ignores Cover"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 18
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Sydonian Dragoons with Radium Jezzails—Radium jezzail": {
+        "aspects": {
+          "Label": "Radium jezzail"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Precision",
+            "Ability§Heavy",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Melee Weapon§Sydonian Dragoons with Taser Lances—Taser lance": {
+        "aspects": {
+          "Label": "Taser lance"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            },
+            "Ability§Lance",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "walker"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 7
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Sydonian Dragoons with Taser Lances—Phosphor serpenta": {
+        "aspects": {
+          "Label": "Phosphor serpenta"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol",
+            "Ability§Ignores Cover"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 18
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Terrax-pattern Termite—Heavy flamer": {
+        "aspects": {
+          "Label": "Heavy flamer"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Ignores Cover",
+            "Ability§Torrent"
+          ]
+        }
+      },
+      "Ability§Invocation of Machine Vengeance": {
+        "text": "At the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Machine Vengeance target. Each time a model in a friendly Adeptus Mechanicus unit makes an attack that targets your Machine Vengeance target, you can re-roll the Hit roll."
+      },
+      "Ability§Mantra of Discipline": {
+        "text": "This model has the **BATTLELINE** keyword and has the following ability:\n\n- **Binharic Courage (Aura):** While a friendly **ADEPTUS** **MECHANICUS** unit is within 6\" of this model, add 1 to the Objective Control characteristic of models in that unit and each time you take a Battle-shock or Leadership test for that unit, add 1 to that test."
+      },
+      "Ability§Shroudpsalm": {
+        "text": "_Aura_\n\nWhile a friendly **ADEPTUS** **MECHANICUS** unit is within 6\" of this model, that unit has the Stealth ability."
+      },
+      "Ability§Data-severed": {
+        "text": "If there are no KASTELAN ROBOT models in this unit:\n\n- This unit loses **VEHICLE**.\n\n- This unit has **INFANTRY**."
+      },
+      "Ability§Fanatical Devotion": {
+        "text": "You can select one friendly Skitarii or **THULIA** **GHULD** unit within 6\" of this model; until the start of your next Command phase, that unit is eligible to shoot and declare a charge in a turn in which it Advanced."
+      },
+      "Ability§Adaptive Tactics": {
+        "text": "You can select one friendly Skitarii or **THULIA** **GHULD** unit within 6\" of this model; until the start of your next Command phase, that unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+      },
+      "Ability§The Fires of Mars": {
+        "text": "You can select one friendly Skitarii or **THULIA** **GHULD** unit within 6\" of this model; until the start of your next Command phase, the Conqueror Imperative and Protector Imperative are both active for that unit."
       }
     },
     "gameModes": {},

@@ -391,8 +391,8 @@
                 }
               }
             },
-            "Ranged Weapon§Daemon Prince of Slaanesh—Infernal cannon",
-            "Melee Weapon§Daemon Prince of Slaanesh—Hellforged weapons",
+            "Ranged Weapon§Daemon Prince of Slaanesh with Wings—Infernal cannon",
+            "Melee Weapon§Daemon Prince of Slaanesh with Wings—Hellforged weapons",
             "Ability§Deep Strike",
             "Ability§Daemonic Destruction",
             "Ability§Stimulated by Pain"
@@ -477,13 +477,14 @@
                 }
               }
             },
-            "Ability§Supreme Commander",
             "Ability§Daemonic Poisons",
             "Ability§Daemon Primarch of Slaanesh",
             "Ranged Weapon§Fulgrim—Malefic lash",
             "Melee Weapon§Fulgrim—Daemonic blades",
             "Melee Weapon§Fulgrim—Serpentine tail",
-            "Ability§Serpentine"
+            "Ability§Beguiling Form",
+            "Ability§Daemonic Speed",
+            "Ability§Enthralling Hypnosis"
           ]
         },
         "keywords": {
@@ -504,7 +505,10 @@
             "Fly",
             "Fulgrim",
             "Monster",
-            "Slaanesh"
+            "Slaanesh",
+            "Primarch",
+            "Daemon",
+            "Mobile"
           ]
         },
         "removed": {
@@ -550,7 +554,8 @@
       "Character§Keeper of Secrets": {
         "assets": {
           "traits": [
-            "Ability§Daemon Lord of Slaanesh (aura) EC"
+            "Ability§Daemon Lord of Slaanesh (aura) EC",
+            "Ability§Pact of Excess"
           ]
         },
         "keywords": {
@@ -595,7 +600,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following units:\n\n- Infractors\n- Tormentors"
+              "text": "This model can be attached to the following units:\n\n* Infractors\n\n* Tormentors"
             },
             "Ability§Thrill Seekers",
             {
@@ -608,7 +613,6 @@
             },
             "Ability§Perfectionists",
             "Ability§Euphoric Strikes",
-            "Ability§Lord of the Host",
             "Ranged Weapon§Lord Exultant—Bolt pistol",
             "Melee Weapon§Lord Exultant—Close combat weapon"
           ]
@@ -735,7 +739,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following units:\n\n- Emperor's Children Terminator Squad\n- Noise Marines"
+              "text": "This model can be attached to the following units:\n\n* Chaos Terminators\n\n* Noise Marines"
             },
             {
               "item": "Ability§Invulnerable",
@@ -837,7 +841,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n\n\n* Flawless Blades"
+              "text": "This model can be attached to the following units:\n\n* Flawless Blades"
             },
             "Ability§Duellist’s Hubris",
             "Ability§A Challenge Worthy of Skill",
@@ -952,6 +956,11 @@
           "Points": {
             "value": 315
           }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pact of Excess"
+          ]
         }
       },
       "Character§Sorcerer": {
@@ -959,11 +968,11 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following units:\n\n- Infractors\n- Noise Marines\n- Tormentors"
+              "text": "This model can be attached to the following units:\n\n* Infractors\n\n* Noise Marines\n\n* Tormentors"
             },
             "Ability§Thrill Seekers",
             "Ranged Weapon§Sorcerer—Bolt pistol",
-            "Melee Weapon§Sorcerer(EC)—Force weapon",
+            "Melee Weapon§Sorcerer—Force weapon",
             "Ranged Weapon§Sorcerer—Agonising Energies",
             "Ability§Warped Interference (Psychic)",
             "Ability§Wracking Agonies (Psychic)"
@@ -3415,8 +3424,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Daemon Prince of Slaanesh with Wings—Hellforged weapons – strike",
-            "Melee Weapon§Daemon Prince of Slaanesh with Wings—Hellforged weapons – sweep"
+            "Melee Weapon§Daemon Prince of Slaanesh—Hellforged weapons – strike",
+            "Melee Weapon§Daemon Prince of Slaanesh—Hellforged weapons – sweep"
           ]
         },
         "keywords": {
@@ -3457,8 +3466,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Fulgrim—Daemonic blades – sweep",
-            "Melee Weapon§Fulgrim—Daemonic blades – strike"
+            "Melee Weapon§Fulgrim—Daemonic blades – strike",
+            "Melee Weapon§Fulgrim—Daemonic blades – sweep"
           ]
         },
         "keywords": {
@@ -6815,6 +6824,11 @@
           "Points": {
             "value": 100
           }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pact of Excess"
+          ]
         }
       },
       "Unit§Fiends": {
@@ -6845,6 +6859,11 @@
           "Points": {
             "value": 90
           }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pact of Excess"
+          ]
         }
       },
       "Unit§Flawless Blades": {
@@ -6939,20 +6958,20 @@
         },
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Scouts",
-              "stats": {
-                "x": {
-                  "value": "6″"
-                }
-              }
-            },
             "Ability§Thrill Seekers",
             "Ability§Excessive Assault",
             "Model§Obsessionist (Infractors)",
             {
               "item": "Model§Infractor",
               "quantity": 4
+            },
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "6\""
+                }
+              }
             }
           ]
         },
@@ -7148,6 +7167,19 @@
           "Points": {
             "value": 85
           }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "9\""
+                }
+              }
+            },
+            "Ability§Pact of Excess"
+          ]
         }
       },
       "Unit§Soul Grinder": {
@@ -7325,7 +7357,8 @@
         },
         "keywords": {
           "Keywords": [
-            "Slaanesh"
+            "Slaanesh",
+            "Frame"
           ],
           "Faction": [
             "Emperor’s Children"
@@ -7363,7 +7396,8 @@
         },
         "keywords": {
           "Keywords": [
-            "Slaanesh"
+            "Slaanesh",
+            "Frame"
           ],
           "Faction": [
             "Emperor’s Children"
@@ -7411,7 +7445,15 @@
         "assets": {
           "traits": [
             "Ability§Revel in Desecration",
-            "Ability§Thrill Seekers"
+            "Ability§Thrill Seekers",
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D6"
+                }
+              }
+            }
           ]
         },
         "removed": {
@@ -8147,6 +8189,85 @@
             "Ability§Thrill Seekers"
           ]
         }
+      },
+      "Melee Weapon§Daemon Prince of Slaanesh with Wings—Hellforged weapons": {
+        "aspects": {
+          "Label": "Hellforged weapons"
+        },
+        "assets": {
+          "traits": [
+            "Melee Weapon§Daemon Prince of Slaanesh with Wings—Hellforged weapons – strike",
+            "Melee Weapon§Daemon Prince of Slaanesh with Wings—Hellforged weapons – sweep"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Daemon Prince of Slaanesh with Wings—Infernal cannon": {
+        "aspects": {
+          "Label": "Infernal cannon"
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 2
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Melee Weapon§Sorcerer—Force weapon": {
+        "aspects": {
+          "Label": "Force weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic"
+          ]
+        }
+      },
+      "Ability§Enthralling Hypnosis": {
+        "text": "_Aura_\n\nWhile an enemy unit is within 6\" of this model, each time that unit is selected to Fall Back, it must take a Leadership test. If that test is failed, that unit must Remain Stationary this phase instead."
+      },
+      "Ability§Pact of Excess": {
+        "text": "When mustering your army, unless specifically stated otherwise, you cannot select Legions of Excess as your Army Faction."
       }
     },
     "gameModes": {},

@@ -593,7 +593,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following units:\n\n* Hand of the Archon\n\n* Incubi\n\n* Kabalite Warriors"
+              "text": "This model can be attached to the following units:\n\n* Hand of the Archon\n\n* Incubi\n\n* Kabalite Warriors"
             },
             "Ability§Power From Pain",
             {
@@ -729,14 +729,6 @@
         "assets": {
           "included": [],
           "traits": [
-            {
-              "item": "Ability§Scouts",
-              "stats": {
-                "x": {
-                  "value": "9″"
-                }
-              }
-            },
             "Ability§Power From Pain",
             "Ability§Beastmaster",
             {
@@ -757,7 +749,15 @@
               "item": "Model§Razorwing Flock",
               "quantity": 3
             },
-            "Ability§Goaded Savagery (Pain)"
+            "Ability§Goaded Savagery (Pain)",
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "9\""
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -808,7 +808,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Incubi"
+              "text": "This model can be attached to the following units:\n\n* Incubi"
             },
             "Ability§Power From Pain",
             {
@@ -872,16 +872,16 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Wracks"
+            },
+            {
               "item": "Ability§Feel No Pain",
               "stats": {
                 "x": {
                   "value": "5+"
                 }
               }
-            },
-            {
-              "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Wracks"
             },
             "Ability§Power From Pain",
             {
@@ -946,7 +946,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "\nThis model can be attached to the following units:\n\n* Hand of the Archon\n* Incubi\n* Kabalite Warriors"
+              "text": "This model can be attached to the following units:\n\n* Hand of the Archon\n\n* Incubi\n\n* Kabalite Warriors"
             },
             {
               "item": "Ability§Feel No Pain",
@@ -1022,11 +1022,11 @@
         },
         "assets": {
           "traits": [
-            "Ability§Fights First",
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Wyches"
+              "text": "This model can be attached to the following units:\n\n* Wyches"
             },
+            "Ability§Fights First",
             "Ability§Power From Pain",
             {
               "item": "Ability§Invulnerable",
@@ -1091,7 +1091,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Wyches"
+              "text": "This model can be attached to the following units:\n\n* Wyches"
             },
             "Ability§Power From Pain",
             {
@@ -1157,16 +1157,16 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Wracks"
+            },
+            {
               "item": "Ability§Feel No Pain",
               "stats": {
                 "x": {
                   "value": "4+"
                 }
               }
-            },
-            {
-              "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Wracks"
             },
             "Ability§Power From Pain",
             "Ability§Father of Pain",
@@ -3778,7 +3778,7 @@
             "value": 3
           },
           "AP": {
-            "value": -1
+            "value": -2
           },
           "D": {
             "value": 1
@@ -3809,7 +3809,7 @@
             "value": 5
           },
           "AP": {
-            "value": -1
+            "value": -2
           },
           "D": {
             "value": 2
@@ -3840,7 +3840,7 @@
             "value": 4
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "D": {
             "value": 1
@@ -4871,7 +4871,7 @@
             "value": 3
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "D": {
             "value": 1
@@ -4923,7 +4923,7 @@
             "value": 3
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "D": {
             "value": 1
@@ -5277,7 +5277,7 @@
         },
         "stats": {
           "A": {
-            "value": 6
+            "value": 9
           },
           "AP": {
             "value": -1
@@ -5295,6 +5295,11 @@
           "WS": {
             "value": 4
           }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds"
+          ]
         }
       },
       "Melee Weapon§Urien Rakarth—Haemonculus tools and scissorhands": {
@@ -5325,8 +5330,8 @@
             "value": -1
           },
           "D": {
-            "statType": "term",
-            "value": "D3"
+            "format": "D3",
+            "value": 0
           },
           "Range": {
             "statType": "term",
@@ -5955,7 +5960,15 @@
         "assets": {
           "traits": [
             "Ranged Weapon§Beastmaster—Splinter pods",
-            "Melee Weapon§Beastmaster—Agoniser"
+            "Melee Weapon§Beastmaster—Agoniser",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "6+"
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -5971,7 +5984,7 @@
         },
         "stats": {
           "Ld": {
-            "value": 6
+            "value": 7
           },
           "M": {
             "value": 12
@@ -5993,7 +6006,15 @@
       "Model§Clawed Fiend": {
         "assets": {
           "traits": [
-            "Melee Weapon§Beastmaster—Clawed Fiend fists"
+            "Melee Weapon§Beastmaster—Clawed Fiend fists",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "6+"
+                }
+              }
+            }
           ]
         },
         "stats": {
@@ -6021,7 +6042,15 @@
         "assets": {
           "traits": [
             "Ranged Weapon§Cronos—Spirit syphon",
-            "Melee Weapon§Cronos—Spirit-leech tentacles"
+            "Melee Weapon§Cronos—Spirit-leech tentacles",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "6+"
+                }
+              }
+            }
           ]
         },
         "stats": {
@@ -6447,7 +6476,15 @@
       "Model§Incubi": {
         "assets": {
           "traits": [
-            "Melee Weapon§Incubi—Klaive"
+            "Melee Weapon§Incubi—Klaive",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            }
           ]
         },
         "stats": {
@@ -6856,7 +6893,15 @@
       "Model§Khymerae": {
         "assets": {
           "traits": [
-            "Melee Weapon§Beastmaster—Khymerae talons"
+            "Melee Weapon§Beastmaster—Khymerae talons",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "6+"
+                }
+              }
+            }
           ]
         },
         "stats": {
@@ -6926,6 +6971,18 @@
           "W": {
             "value": 2
           }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            }
+          ]
         }
       },
       "Model§Lhamaean": {
@@ -6939,7 +6996,7 @@
             "value": 7
           },
           "M": {
-            "value": 8
+            "value": 7
           },
           "OC": {
             "value": 1
@@ -6995,7 +7052,7 @@
             "value": 7
           },
           "M": {
-            "value": 8
+            "value": 7
           },
           "OC": {
             "value": 1
@@ -7042,7 +7099,15 @@
       "Model§Razorwing Flock": {
         "assets": {
           "traits": [
-            "Melee Weapon§Beastmaster—Razorwing feathers"
+            "Melee Weapon§Beastmaster—Razorwing feathers",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "6+"
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -7181,7 +7246,7 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Scourges—Close combat weapon"
+            "Melee Weapon§Scourges with Heavy Weapons—Close combat weapon"
           ]
         },
         "stats": {
@@ -7204,7 +7269,7 @@
                 "tracking": {},
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Scourges—Splinter cannon"
+                    "trait": "Ranged Weapon§Scourges with Heavy Weapons—Splinter cannon"
                   }
                 ]
               },
@@ -7213,7 +7278,7 @@
                 "tracking": {},
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Scourges—Blaster"
+                    "trait": "Ranged Weapon§Scourges with Heavy Weapons—Blaster"
                   }
                 ]
               },
@@ -7222,7 +7287,7 @@
                 "tracking": {},
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Scourges—Dark lance"
+                    "trait": "Ranged Weapon§Scourges with Heavy Weapons—Dark lance"
                   }
                 ]
               },
@@ -7231,7 +7296,7 @@
                 "tracking": {},
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Scourges—Drukhari haywire blaster"
+                    "trait": "Ranged Weapon§Scourges with Heavy Weapons—Drukhari haywire blaster"
                   }
                 ]
               },
@@ -7240,7 +7305,7 @@
                 "tracking": {},
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Scourges—Heat lance"
+                    "trait": "Ranged Weapon§Scourges with Heavy Weapons—Heat lance"
                   }
                 ]
               },
@@ -7249,7 +7314,7 @@
                 "tracking": {},
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Scourges—Shredder"
+                    "trait": "Ranged Weapon§Scourges with Heavy Weapons—Shredder"
                   }
                 ]
               }
@@ -7275,7 +7340,7 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Scourges—Close combat weapon"
+            "Melee Weapon§Scourges with Shardcarbines—Close combat weapon"
           ]
         },
         "stats": {
@@ -7297,7 +7362,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Scourges—Shardcarbine"
+                    "trait": "Ranged Weapon§Scourges with Shardcarbines—Shardcarbine"
                   }
                 ]
               },
@@ -7308,7 +7373,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Scourges—Blaster"
+                    "trait": "Ranged Weapon§Scourges with Shardcarbines—Blaster"
                   }
                 ]
               },
@@ -7319,7 +7384,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Scourges—Shredder"
+                    "trait": "Ranged Weapon§Scourges with Shardcarbines—Shredder"
                   }
                 ]
               }
@@ -7345,7 +7410,7 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Scourges—Close combat weapon"
+            "Melee Weapon§Scourges with Heavy Weapons—Close combat weapon"
           ]
         },
         "stats": {
@@ -7367,7 +7432,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Scourges—Shardcarbine"
+                    "trait": "Ranged Weapon§Scourges with Heavy Weapons—Shardcarbine"
                   }
                 ]
               },
@@ -7375,10 +7440,10 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Scourges—Blast pistol"
+                    "trait": "Ranged Weapon§Scourges with Heavy Weapons—Blast pistol"
                   },
                   {
-                    "trait": "Melee Weapon§Scourges—Power weapon"
+                    "trait": "Melee Weapon§Scourges with Heavy Weapons—Power weapon"
                   }
                 ]
               },
@@ -7386,10 +7451,10 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Scourges—Splinter pistol"
+                    "trait": "Ranged Weapon§Scourges with Heavy Weapons—Splinter pistol"
                   },
                   {
-                    "trait": "Melee Weapon§Scourges—Power weapon"
+                    "trait": "Melee Weapon§Scourges with Heavy Weapons—Power weapon"
                   }
                 ]
               }
@@ -7426,7 +7491,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Scourges—Shardcarbine"
+                    "trait": "Ranged Weapon§Scourges with Shardcarbines—Shardcarbine"
                   }
                 ]
               },
@@ -7434,10 +7499,10 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Scourges—Blast pistol"
+                    "trait": "Ranged Weapon§Scourges with Shardcarbines—Blast pistol"
                   },
                   {
-                    "trait": "Melee Weapon§Scourges—Power weapon"
+                    "trait": "Melee Weapon§Scourges with Shardcarbines—Power weapon"
                   }
                 ]
               },
@@ -7445,10 +7510,10 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Scourges—Splinter pistol"
+                    "trait": "Ranged Weapon§Scourges with Shardcarbines—Splinter pistol"
                   },
                   {
-                    "trait": "Melee Weapon§Scourges—Power weapon"
+                    "trait": "Melee Weapon§Scourges with Shardcarbines—Power weapon"
                   }
                 ]
               }
@@ -7487,7 +7552,7 @@
             "value": 7
           },
           "M": {
-            "value": 8
+            "value": 7
           },
           "OC": {
             "value": 1
@@ -7744,6 +7809,18 @@
           "W": {
             "value": 7
           }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "6+"
+                }
+              }
+            }
+          ]
         }
       },
       "Model§Ur-ghul": {
@@ -7757,7 +7834,7 @@
             "value": 7
           },
           "M": {
-            "value": 8
+            "value": 7
           },
           "OC": {
             "value": 1
@@ -8017,7 +8094,8 @@
                 }
               }
             },
-            "Ability§Assault"
+            "Ability§Assault",
+            "Ability§Twin-linked"
           ]
         },
         "stats": {
@@ -9196,7 +9274,7 @@
             "value": 3
           },
           "D": {
-            "value": 1
+            "value": 2
           },
           "Range": {
             "value": 36
@@ -9264,8 +9342,8 @@
         "assets": {
           "traits": [
             "Ranged Weapon§Razorwing Jetfighter—Razorwing missiles – monoscythe missiles",
-            "Ranged Weapon§Razorwing Jetfighter—Razorwing missiles – shatterfield missiles",
-            "Ranged Weapon§Razorwing Jetfighter—Razorwing missiles – necrotoxin missiles"
+            "Ranged Weapon§Razorwing Jetfighter—Razorwing missiles – neurotoxin missiles",
+            "Ranged Weapon§Razorwing Jetfighter—Razorwing missiles – shatterfield missiles"
           ]
         },
         "keywords": {
@@ -9533,13 +9611,13 @@
             "value": 3
           },
           "AP": {
-            "value": -1
+            "value": -2
           },
           "BS": {
             "value": 3
           },
           "D": {
-            "value": 1
+            "value": 2
           },
           "Range": {
             "value": 24
@@ -10538,8 +10616,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Voidraven Bomber—Voidraven missiles – shatterfield missiles",
-            "Ranged Weapon§Voidraven Bomber—Voidraven missiles – implosion missiles"
+            "Ranged Weapon§Voidraven Bomber—Voidraven missiles – implosion missiles",
+            "Ranged Weapon§Voidraven Bomber—Voidraven missiles – shatterfield missiles"
           ]
         },
         "keywords": {
@@ -12079,21 +12157,20 @@
                 }
               }
             },
-            {
-              "item": "Ability§Scouts",
-              "stats": {
-                "x": {
-                  "value": "7″"
-                }
-              }
-            },
             "Ability§Assassins’ Poisons (Pain)",
             "Ability§Archon's Will",
-            "Ability§Archon's Retinue",
             "Model§Kabalite Archsybarite",
             {
               "item": "Model§Kabalite Agent",
               "quantity": 9
+            },
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "7\""
+                }
+              }
             }
           ]
         },
@@ -12724,7 +12801,11 @@
             },
             "Melee Weapon§Raider—Bladevanes",
             "Ability§Splinter Racks (Pain)",
-            "Ability§Vanguard of the Dark City"
+            "Ability§Vanguard of the Dark City",
+            "Ability§Masters of the Shadowed Sky",
+            "Ability§Speed of the Kill",
+            "Ability§Visions of Butchery",
+            "Ability§Aethersails (Raider)"
           ]
         },
         "keywords": {
@@ -12740,7 +12821,8 @@
             "Dedicated Transport",
             "Fly",
             "Aeldari",
-            "Raider"
+            "Raider",
+            "Frame"
           ],
           "Category": [
             "Vehicle—Dedicated Transport"
@@ -12851,7 +12933,8 @@
             "Kabal",
             "Fly",
             "Aeldari",
-            "Ravager"
+            "Ravager",
+            "Frame"
           ],
           "Category": [
             "Vehicle"
@@ -13008,8 +13091,7 @@
             "value": 7
           },
           "M": {
-            "statType": "term",
-            "value": "20+"
+            "value": 20
           },
           "OC": {
             "value": 0
@@ -13138,7 +13220,7 @@
           },
           "M": {
             "statType": "term",
-            "value": "20+"
+            "value": "-"
           },
           "OC": {
             "value": 0
@@ -13850,7 +13932,8 @@
             "Fly",
             "Transport",
             "Vehicle",
-            "Venom"
+            "Venom",
+            "Frame"
           ],
           "Category": [
             "Vehicle—Dedicated Transport"
@@ -13973,7 +14056,7 @@
           },
           "M": {
             "statType": "term",
-            "value": "20+"
+            "value": "-"
           },
           "OC": {
             "value": 0
@@ -14056,7 +14139,6 @@
         "assets": {
           "traits": [
             "Ability§Power From Pain",
-            "Ability§The Torturer’s Craft",
             {
               "item": "Ability§Invulnerable",
               "stats": {
@@ -14070,7 +14152,8 @@
               "item": "Model§Wrack",
               "quantity": 4
             },
-            "Ability§Experimental Enhancements (Pain)"
+            "Ability§Experimental Enhancements (Pain)",
+            "Ability§Torturer’s Craft"
           ]
         },
         "keywords": {
@@ -14576,7 +14659,7 @@
         "assets": {
           "traits": [
             "Melee Weapon§Drazhar—Executioner’s demiklaives – single blade",
-            "Melee Weapon§Drazhar—Executioner’s demiklaives – dual blade"
+            "Melee Weapon§Drazhar—Executioner’s demiklaives – dual blades"
           ]
         },
         "keywords": {
@@ -14793,6 +14876,868 @@
           "D": {
             "value": 2
           }
+        }
+      },
+      "Melee Weapon§Scourges with Heavy Weapons—Close combat weapon": {
+        "aspects": {
+          "Label": "Close combat weapon"
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Scourges with Heavy Weapons—Blaster": {
+        "aspects": {
+          "Label": "Blaster"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -4
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          },
+          "Range": {
+            "value": 18
+          },
+          "S": {
+            "value": 8
+          }
+        }
+      },
+      "Ranged Weapon§Scourges with Heavy Weapons—Dark lance": {
+        "aspects": {
+          "Label": "Dark lance"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "format": "D6",
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 12
+          }
+        }
+      },
+      "Ranged Weapon§Scourges with Heavy Weapons—Drukhari haywire blaster": {
+        "aspects": {
+          "Label": "Drukhari haywire blaster"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "vehicle"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            "Ability§Heavy"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Scourges with Heavy Weapons—Heat lance": {
+        "aspects": {
+          "Label": "Heat lance"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "3"
+                }
+              }
+            },
+            "Ability§Heavy",
+            "Ability§Assault"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -4
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          },
+          "Range": {
+            "value": 18
+          },
+          "S": {
+            "value": 14
+          }
+        }
+      },
+      "Ranged Weapon§Scourges with Heavy Weapons—Shredder": {
+        "aspects": {
+          "Label": "Shredder"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Torrent",
+            "Ability§Assault"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "format": "{t}",
+            "statType": "term",
+            "value": "N/A"
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 18
+          },
+          "S": {
+            "value": 6
+          }
+        }
+      },
+      "Ranged Weapon§Scourges with Heavy Weapons—Splinter cannon": {
+        "aspects": {
+          "Label": "Splinter cannon"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Heavy",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Scourges with Heavy Weapons—Power weapon": {
+        "aspects": {
+          "Label": "Power weapon"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Scourges with Heavy Weapons—Blast pistol": {
+        "aspects": {
+          "Label": "Blast pistol"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          },
+          "Range": {
+            "value": 6
+          },
+          "S": {
+            "value": 8
+          }
+        }
+      },
+      "Ranged Weapon§Scourges with Heavy Weapons—Shardcarbine": {
+        "aspects": {
+          "Label": "Shardcarbine"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 18
+          },
+          "S": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Scourges with Heavy Weapons—Splinter pistol": {
+        "aspects": {
+          "Label": "Splinter pistol"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol",
+            "Ability§Assault",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 2
+          }
+        }
+      },
+      "Melee Weapon§Scourges with Shardcarbines—Close combat weapon": {
+        "aspects": {
+          "Label": "Close combat weapon"
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Scourges with Shardcarbines—Blaster": {
+        "aspects": {
+          "Label": "Blaster"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -4
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          },
+          "Range": {
+            "value": 18
+          },
+          "S": {
+            "value": 8
+          }
+        }
+      },
+      "Ranged Weapon§Scourges with Shardcarbines—Shardcarbine": {
+        "aspects": {
+          "Label": "Shardcarbine"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 18
+          },
+          "S": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Scourges with Shardcarbines—Shredder": {
+        "aspects": {
+          "Label": "Shredder"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Torrent",
+            "Ability§Assault"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "format": "{t}",
+            "statType": "term",
+            "value": "N/A"
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 18
+          },
+          "S": {
+            "value": 6
+          }
+        }
+      },
+      "Melee Weapon§Scourges with Shardcarbines—Power weapon": {
+        "aspects": {
+          "Label": "Power weapon"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Scourges with Shardcarbines—Blast pistol": {
+        "aspects": {
+          "Label": "Blast pistol"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          },
+          "Range": {
+            "value": 6
+          },
+          "S": {
+            "value": 8
+          }
+        }
+      },
+      "Ranged Weapon§Scourges with Shardcarbines—Splinter pistol": {
+        "aspects": {
+          "Label": "Splinter pistol"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol",
+            "Ability§Assault",
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 2
+          }
+        }
+      },
+      "Melee Weapon§Drazhar—Executioner’s demiklaives – dual blades": {
+        "aspects": {
+          "Label": "Executioner’s demiklaives – dual blades"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 8
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds"
+          ]
+        }
+      },
+      "Melee Weapon§Wracks—Torturer’s tools": {
+        "aspects": {
+          "Label": "Torturer’s tools"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Razorwing Jetfighter—Razorwing missiles – neurotoxin missiles": {
+        "aspects": {
+          "Label": "Razorwing missiles – neurotoxin missiles"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "format": "D6",
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 2
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            },
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ability§Torturer’s Craft": {
+        "text": "In your Shooting phase and the Fight phase, after this unit has shot or fought, select one enemy unit (excluding **VEHICLES**) hit by one or more of those attacks. That unit must take a Battle-shock test."
+      },
+      "Ability§Masters of the Shadowed Sky": {
+        "text": "At the end of your Command phase, if this model is within range of an objective marker you control, and if one or more Kabalite Warriors units are embarked within it, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
+      },
+      "Ability§Speed of the Kill": {
+        "text": "Each time a Wyches unit disembarks from this model (excluding Emergency Disembarkations), models in that **WYCHES** unit must be set up wholly within 6\" of this model."
+      },
+      "Ability§Visions of Butchery": {
+        "text": "While one or more Wracks units are embarked within this model, for each **WRACKS** model embarked within this model, add 1 to the Attacks characteristic of this model’s bladevanes and chainsnares."
+      },
+      "Ability§Aethersails (Raider)": {
+        "text": "While one or more Drukhari units are embarked within this model, you can re-roll Advance and Charge rolls made for this model."
+      },
+      "Ability§Battle Focus": {
+        "text": "If your Army Faction is Asuryani, at the start of the battle round, you receive a number of Battle Focus tokens based on the battle size, as shown in the table below.\n\n**BATTLE SIZE****BATTLE FOCUS TOKENS**Incursion**2**Strike Force**4**Onslaught**6**\n\nEach time one of the triggers shown in the Agile Manoeuvres section below occurs, you can spend one Battle Focus token to enable the relevant eligible unit to perform that Agile Manoeuvre. A unit is eligible to perform an Agile Manoeuvre if it has this ability and has not already performed an Agile Manoeuvre in the same phase. Unless otherwise stated, you cannot trigger the same Agile Manoeuvre more than once per phase. At the end of the battle round, all unspent Battle Focus tokens are lost.\n\nAGILE MANOEUVRES\nSWIFT AS THE WIND\n\nTRIGGER: When an eligible unit from your army is selected to make a **Normal**, **Advance** or **Fall Back move**. You can trigger this Agile Manoeuvre more than once per phase (provided a different unit performs it each time).\n\nEFFECT: Until the end of the phase, add 2\" to the Move characteristic of models in that unit.\n\nFLITTING SHADOWS\n\nTRIGGER: When an eligible unit from your army is selected to make a **Normal**, **Advance** or **Fall Back move**, is set up on the battlefield, or **declares a charge**.\n\nEFFECT: Until the end of the turn, enemy units cannot use the **Fire Overwatch** Stratagem to shoot at that unit.\n\nSTAR ENGINES\n\nTRIGGER: When an eligible **VEHICLE** unit from your army is selected to make an **Advance move**.\n\nEFFECT: Until the end of the turn, Ranged weapons equipped by this unit have the **[ASSAULT]** ability.\n\nSUDDEN STRIKE\n\nTRIGGER: When an eligible unit from your army ends a charge move.\n\nEFFECT: Until the end of the turn, each time a model in that unit makes a Pile-in or **Consolidation move**, it can move up to 6\" instead of up to 3\".\n\nOPPORTUNITY SEIZED\n\nTRIGGER: When an enemy unit ends a **Fall Back move**.\n\nEFFECT: One eligible unit from your army (excluding **TITANIC** units) that started the phase within **Engagement Range** of that enemy unit can make a **Normal move** of up to D6+1\".\n\nFADE BACK\n\nTRIGGER: In your opponent’s Shooting phase, just after an enemy unit has shot.\n\nEFFECT: One eligible unit from your army (excluding **TITANIC** units) that was hit by one or more of those attacks can make a **Normal move** of up to D6+1\"."
+      },
+      "Ability§Disparate Paths": {
+        "text": "When mustering your army, you can include Harlequins units in your army, even though they do not have the Asuryani Faction keyword. Unless otherwise stated, you cannot select **HARLEQUINS** or Ynnari as your Army Faction."
+      },
+      "Character§Death Jester": {
+        "assets": {
+          "traits": [
+            "Ability§Battle Focus",
+            "Ability§Disparate Paths"
+          ]
+        }
+      },
+      "Character§Shadowseer": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Troupe"
+            },
+            "Ability§Battle Focus",
+            "Ability§Disparate Paths"
+          ]
+        }
+      },
+      "Character§Solitaire": {
+        "assets": {
+          "traits": [
+            "Ability§Battle Focus",
+            "Ability§Disparate Paths"
+          ]
+        },
+        "removed": {
+          "assets": {
+            "traits": [
+              "Ability§Path of Damnation"
+            ]
+          }
+        }
+      },
+      "Character§Troupe Master": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Troupe"
+            }
+          ]
+        }
+      },
+      "Unit§Starweaver": {
+        "keywords": {
+          "Keywords": [
+            "Frame"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Battle Focus",
+            "Ability§Disparate Paths"
+          ]
+        }
+      },
+      "Unit§Skyweavers": {
+        "assets": {
+          "traits": [
+            "Ability§Battle Focus",
+            "Ability§Disparate Paths"
+          ]
+        }
+      },
+      "Unit§Voidweaver": {
+        "keywords": {
+          "Keywords": [
+            "Frame"
+          ]
         }
       }
     },

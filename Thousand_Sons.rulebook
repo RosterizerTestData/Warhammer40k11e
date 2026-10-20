@@ -718,7 +718,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following unit:\n\n* Rubric Marines\n* Tzaangor Enlightened"
+              "text": "This model can be attached to the following units:\n\n* Rubric Marines\n\n* Tzaangor Enlightened\n\n* Tzaangor Enlightened with Fatecaster Greatbows"
             },
             "Ability§Scryer of Fates (Psychic)",
             "Ability§Arch-sorcerer of Tzeentch (psychic)",
@@ -730,9 +730,9 @@
                 }
               }
             },
-            "Ranged Weapon§Ahriman on Disc of Tzeentch—Transmogrifying Blast",
-            "Ranged Weapon§Ahriman on Disc of Tzeentch—Inferno bolt pistol",
-            "Melee Weapon§Ahriman on Disc of Tzeentch—Black Staff of Ahriman",
+            "Ranged Weapon§Ahriman—Transmogrifying Blast",
+            "Ranged Weapon§Ahriman—Inferno bolt pistol",
+            "Melee Weapon§Ahriman—Black Staff of Ahriman",
             "Ability§Cabal of Sorcerers"
           ]
         },
@@ -825,9 +825,9 @@
               }
             },
             "Ability§Cabal of Sorcerers",
-            "Ranged Weapon§Ahriman—Inferno bolt pistol",
-            "Ranged Weapon§Ahriman—Psychic Stalk",
-            "Melee Weapon§Ahriman—Black Staff of Ahriman"
+            "Ranged Weapon§Ahriman (on Foot)—Inferno bolt pistol",
+            "Ranged Weapon§Ahriman (on Foot)—Psychic Stalk",
+            "Melee Weapon§Ahriman (on Foot)—Black Staff of Ahriman"
           ]
         },
         "keywords": {
@@ -893,7 +893,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Rubric Marines"
+              "text": "This model can be attached to the following units:\n\n* Rubric Marines"
             },
             "Ability§Arcane Shield (psychic)",
             "Ability§Rebind Rubricae (psychic)",
@@ -982,7 +982,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "\n\nThis model can be attached to the following unit:\n\n* Rubric Marines\n* Tzaangor Enlightened"
+              "text": "This model can be attached to the following units:\n\n* Rubric Marines\n\n* Tzaangor Enlightened\n\n* Tzaangor Enlightened with Fatecaster Greatbows"
             },
             "Ability§Binding Tendrils (psychic)",
             {
@@ -1073,7 +1073,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Rubric Marines"
+              "text": "This model can be attached to the following units:\n\n* Rubric Marines"
             },
             "Ability§Malefic Maelstrom (psychic)",
             "Ability§Glimpse of Eternity (psychic)",
@@ -1238,7 +1238,6 @@
             "Ability§Deep Strike",
             "Ability§Unearthly Power",
             "Ability§Lord of the Planet of the Sorcerers (Psychic)",
-            "Ability§Supreme Commander",
             {
               "item": "Ability§Damaged:",
               "stats": {
@@ -1258,7 +1257,10 @@
             "Ability§Cabal of Sorcerers",
             "Ranged Weapon§Magnus the Red—Gaze of Magnus",
             "Ranged Weapon§Magnus the Red—Tzeentch’s Firestorm",
-            "Melee Weapon§Magnus the Red—Blade of Magnus"
+            "Melee Weapon§Magnus the Red—Blade of Magnus",
+            "Ability§Impossible Form",
+            "Ability§Treason of Tzeentch",
+            "Ability§Time Flux"
           ]
         },
         "keywords": {
@@ -1476,7 +1478,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Rubric Marines"
+              "text": "This model can be attached to the following units:\n\n* Rubric Marines"
             },
             "Ability§Empyric Guidance (psychic)",
             {
@@ -1573,11 +1575,11 @@
         "assets": {
           "included": [],
           "traits": [
-            "Ability§Deep Strike",
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following unit:\n\n* Scarab Occult Terminators"
+              "text": "This model can be attached to the following units:\n\n* Scarab Occult Terminators"
             },
+            "Ability§Deep Strike",
             "Ability§Empyric Guidance (psychic)",
             "Ability§Marked By Fate (psychic)",
             {
@@ -1674,7 +1676,7 @@
           "traits": [
             {
               "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Tzaangor Enlightened\n\n* Tzaangors"
+              "text": "This model can be attached to the following units:\n\n* Tzaangor Enlightened\n\n* Tzaangor Enlightened with Fatecaster Greatbows\n\n* Tzaangors"
             },
             "Ability§Sacrificial Blessing",
             "Ability§Bestial Prophet",
@@ -4375,8 +4377,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Magnus the Red—Blade of Magnus – sweep",
-            "Melee Weapon§Magnus the Red—Blade of Magnus – strike"
+            "Melee Weapon§Magnus the Red—Blade of Magnus – strike",
+            "Melee Weapon§Magnus the Red—Blade of Magnus – sweep"
           ]
         },
         "keywords": {
@@ -4700,8 +4702,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Daemon Prince of Tzeentch with Wings—Hellforged weapons – sweep",
-            "Melee Weapon§Daemon Prince of Tzeentch with Wings—Hellforged weapons – strike"
+            "Melee Weapon§Daemon Prince of Tzeentch with Wings—Hellforged weapons – strike",
+            "Melee Weapon§Daemon Prince of Tzeentch with Wings—Hellforged weapons – sweep"
           ]
         },
         "keywords": {
@@ -4780,8 +4782,8 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Daemon Prince of Tzeentch—Hellforged weapons – sweep",
-            "Melee Weapon§Daemon Prince of Tzeentch—Hellforged weapons – strike"
+            "Melee Weapon§Daemon Prince of Tzeentch—Hellforged weapons – strike",
+            "Melee Weapon§Daemon Prince of Tzeentch—Hellforged weapons – sweep"
           ]
         },
         "keywords": {
@@ -5122,7 +5124,15 @@
           "included": [],
           "traits": [
             "Ranged Weapon§Rubric Marines—Malefic Curse",
-            "Melee Weapon§Rubric Marines—Force weapon"
+            "Melee Weapon§Rubric Marines—Force weapon",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -5234,8 +5244,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Tzaangor Enlightened—Fatecaster greatbow",
-            "Melee Weapon§Tzaangor Enlightened—Close combat weapon"
+            "Ranged Weapon§Tzaangor Enlightened with Fatecaster Greatbows—Fatecaster greatbow",
+            "Melee Weapon§Tzaangor Enlightened with Fatecaster Greatbows—Close combat weapon"
           ]
         },
         "stats": {
@@ -5278,6 +5288,18 @@
           "OC": {
             "value": 1
           }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            }
+          ]
         }
       },
       "Model§Enlightened": {
@@ -5337,8 +5359,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Tzaangor Enlightened—Fatecaster greatbow",
-            "Melee Weapon§Tzaangor Enlightened—Close combat weapon"
+            "Ranged Weapon§Tzaangor Enlightened with Fatecaster Greatbows—Fatecaster greatbow",
+            "Melee Weapon§Tzaangor Enlightened with Fatecaster Greatbows—Close combat weapon"
           ]
         },
         "stats": {
@@ -5374,6 +5396,18 @@
           "OC": {
             "value": 1
           }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
+          ]
         }
       },
       "Model§Pyrocaster": {
@@ -5386,7 +5420,15 @@
       "Model§Rubric Marine": {
         "assets": {
           "traits": [
-            "Melee Weapon§Rubric Marines—Close combat weapon"
+            "Melee Weapon§Rubric Marines—Close combat weapon",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            }
           ]
         },
         "stats": {
@@ -5475,7 +5517,15 @@
         "assets": {
           "traits": [
             "Ranged Weapon§Scarab Occult Terminators—Malefic Curse",
-            "Melee Weapon§Scarab Occult Terminators—Force weapon"
+            "Melee Weapon§Scarab Occult Terminators—Force weapon",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -5533,7 +5583,15 @@
       "Model§Scarab Occult Terminator": {
         "assets": {
           "traits": [
-            "Melee Weapon§Scarab Occult Terminators—Prosperine khopesh"
+            "Melee Weapon§Scarab Occult Terminators—Prosperine khopesh",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
           ]
         },
         "stats": {
@@ -6187,8 +6245,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Infernal Master—Fires of the Abyss – focused witchfire",
-            "Ranged Weapon§Infernal Master—Fires of the Abyss – witchfire"
+            "Ranged Weapon§Infernal Master—Fires of the Abyss – witchfire",
+            "Ranged Weapon§Infernal Master—Fires of the Abyss – focused witchfire"
           ]
         },
         "keywords": {
@@ -6367,9 +6425,9 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Mutalith Vortex Beast—Warp vortex – torrent",
             "Ranged Weapon§Mutalith Vortex Beast—Warp vortex – blast",
-            "Ranged Weapon§Mutalith Vortex Beast—Warp vortex – beam"
+            "Ranged Weapon§Mutalith Vortex Beast—Warp vortex – beam",
+            "Ranged Weapon§Mutalith Vortex Beast—Warp vortex – torrent"
           ]
         },
         "keywords": {
@@ -8638,7 +8696,8 @@
       "Unit§Blue Horrors": {
         "assets": {
           "traits": [
-            "Ability§Pact of Sorcery"
+            "Ability§Pact of Sorcery",
+            "Ability§Sullen Malevolence"
           ]
         },
         "keywords": {
@@ -8663,7 +8722,8 @@
           },
           "assets": {
             "traits": [
-              "Ability§The Shadow of Chaos"
+              "Ability§The Shadow of Chaos",
+              "Ability§Cackling Horrors (aura)"
             ]
           }
         },
@@ -8716,6 +8776,12 @@
           "Keywords": [
             "Tzeentch"
           ]
+        },
+        "stats": {
+          "M": {
+            "statType": "term",
+            "value": "-"
+          }
         }
       },
       "Unit§Hell Talon": {
@@ -8723,6 +8789,12 @@
           "Keywords": [
             "Tzeentch"
           ]
+        },
+        "stats": {
+          "M": {
+            "statType": "term",
+            "value": "-"
+          }
         }
       },
       "Unit§Mutalith Vortex Beast": {
@@ -9644,7 +9716,8 @@
             "Mounted",
             "Mutant",
             "Tzaangor Enlightened",
-            "Tzeentch"
+            "Tzeentch",
+            "Tzaangor Enlightened with Fatecaster Greatbows"
           ],
           "Category": [
             "Mounted"
@@ -9712,7 +9785,7 @@
               "item": "Ability§Scouts",
               "stats": {
                 "x": {
-                  "value": "6″"
+                  "value": "6\""
                 }
               }
             }
@@ -9999,7 +10072,8 @@
             "Thousand Sons"
           ],
           "Keywords": [
-            "Tzeentch"
+            "Tzeentch",
+            "Frame"
           ]
         },
         "aspects": {
@@ -10219,7 +10293,8 @@
             "Thousand Sons"
           ],
           "Keywords": [
-            "Tzeentch"
+            "Tzeentch",
+            "Frame"
           ],
           "Source": [
             "10th Edition Index"
@@ -10462,7 +10537,7 @@
                     "trait": "Ranged Weapon§Chaos Predator Annihilator—Inferno heavy bolter"
                   },
                   {
-                    "trait": "Ranged Weapon§Chaos Land Raider—Twin inferno heavy bolter"
+                    "trait": "Ranged Weapon§Chaos Predator Annihilator—Twin inferno heavy bolter"
                   }
                 ]
               }
@@ -10483,7 +10558,8 @@
             "Thousand Sons"
           ],
           "Keywords": [
-            "Tzeentch"
+            "Tzeentch",
+            "Frame"
           ]
         },
         "aspects": {
@@ -10736,7 +10812,8 @@
             "Thousand Sons"
           ],
           "Keywords": [
-            "Tzeentch"
+            "Tzeentch",
+            "Frame"
           ]
         },
         "aspects": {
@@ -10915,7 +10992,8 @@
             "Thousand Sons"
           ],
           "Keywords": [
-            "Tzeentch"
+            "Tzeentch",
+            "Frame"
           ]
         },
         "aspects": {
@@ -11094,6 +11172,14 @@
               "stats": {
                 "x": {
                   "value": "6+"
+                }
+              }
+            },
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D6"
                 }
               }
             }
@@ -11948,7 +12034,8 @@
           "Keywords": [
             "Mutant",
             "Spawn",
-            "Tzeentch"
+            "Tzeentch",
+            "Chaos Spawn"
           ]
         },
         "aspects": {
@@ -12710,27 +12797,23 @@
             "value": 48
           },
           "A": {
-            "format": "D6",
-            "value": 0
+            "value": 1
           },
           "BS": {
             "value": 3
           },
           "S": {
-            "value": 4
+            "value": 9
           },
           "AP": {
-            "value": 0
+            "value": -2
           },
           "D": {
-            "value": 1
+            "format": "D6",
+            "value": 0
           }
         },
-        "assets": {
-          "traits": [
-            "Ability§Blast"
-          ]
-        }
+        "assets": {}
       },
       "Ranged Weapon§Helbrute—Twin lascannon": {
         "aspects": {
@@ -13041,6 +13124,825 @@
             "Ability§Cabal of Sorcerers"
           ]
         }
+      },
+      "Ranged Weapon§Ahriman—Transmogrifying Blast": {
+        "aspects": {
+          "Label": "Transmogrifying Blast"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic",
+            "Ability§Blast"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 1
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 2
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          },
+          "Range": {
+            "value": 18
+          },
+          "S": {
+            "value": 6
+          }
+        }
+      },
+      "Melee Weapon§Ahriman (on Foot)—Black Staff of Ahriman": {
+        "aspects": {
+          "Label": "Black Staff of Ahriman"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 7
+          },
+          "WS": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Ahriman (on Foot)—Inferno bolt pistol": {
+        "aspects": {
+          "Label": "Inferno bolt pistol"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 2
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Ahriman (on Foot)—Psychic Stalk": {
+        "aspects": {
+          "Label": "Psychic Stalk"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Precision",
+            "Ability§Psychic"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 2
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          },
+          "Range": {
+            "value": 18
+          },
+          "S": {
+            "value": 6
+          }
+        }
+      },
+      "Melee Weapon§Tzaangor Enlightened with Fatecaster Greatbows—Close combat weapon": {
+        "aspects": {
+          "Label": "Close combat weapon"
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 4
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Tzaangor Enlightened with Fatecaster Greatbows—Fatecaster greatbow": {
+        "aspects": {
+          "Label": "Fatecaster greatbow"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Precision",
+            "Ability§Lethal Hits",
+            "Ability§Ignores Cover"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 30
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Predator Annihilator—Twin inferno heavy bolter": {
+        "aspects": {
+          "Label": "Twin inferno heavy bolter"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Terrax-pattern Termite—Combi-weapon – damnatus": {
+        "aspects": {
+          "Label": "Combi-weapon – Damnatus"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D3",
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Terrax-pattern Termite—Combi-weapon – infernus": {
+        "aspects": {
+          "Label": "Combi-weapon – Infernus"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Blast",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Torrent"
+          ]
+        }
+      },
+      "Ranged Weapon§Terrax-pattern Termite—Combi-weapon": {
+        "aspects": {
+          "Label": "Combi-weapon"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Terrax-pattern Termite—Combi-weapon – damnatus",
+            "Ranged Weapon§Terrax-pattern Termite—Combi-weapon – infernus"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Terrax-pattern Termite—Combi-weapon – Purgatus": {
+        "aspects": {
+          "Label": "Combi-weapon – Purgatus"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Kratos—Kratos Battle Cannon – Piercing": {
+        "aspects": {
+          "Label": "Kratos Battle Cannon – Piercing"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 18
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "format": "D3",
+            "value": 6
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy"
+          ]
+        }
+      },
+      "Ranged Weapon§Kratos—Multi-melta": {
+        "aspects": {
+          "Label": "Multi-melta"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D3",
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "3"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Kratos—Heavy Bolter": {
+        "aspects": {
+          "Label": "Heavy Bolter"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            },
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Kratos—Lascannon": {
+        "aspects": {
+          "Label": "Lascannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D3",
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Kratos—Heavy Flamer": {
+        "aspects": {
+          "Label": "Heavy Flamer"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Torrent",
+            {
+              "item": "Ability§Blast",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Kratos—Kratos Battle Cannon – Blast": {
+        "aspects": {
+          "Label": "Kratos Battle Cannon – Blast"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "format": "D3",
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Blast",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Kratos—Combi-weapon – purgatus": {
+        "aspects": {
+          "Label": "Combi-weapon – Purgatus"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Kratos—Combi-weapon – infernus": {
+        "aspects": {
+          "Label": "Combi-weapon – Infernus"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Torrent",
+            {
+              "item": "Ability§Blast",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Kratos—Combi-weapon – damnatus": {
+        "aspects": {
+          "Label": "Combi-weapon – Damnatus"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D3",
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Kratos—Combi-weapon": {
+        "aspects": {
+          "Label": "Combi-weapon"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Kratos—Combi-weapon – purgatus",
+            "Ranged Weapon§Kratos—Combi-weapon – infernus",
+            "Ranged Weapon§Kratos—Combi-weapon – damnatus"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Melee Weapon§Rapier Carrier—Armoured Hull": {
+        "aspects": {
+          "Label": "Armoured Hull"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ability§Impossible Form": {
+        "text": "_Psychic_\n\nEach time an attack is made against this **PSYKER** (excluding Psychic Attacks), subtract 1 from the Damage characteristic of that attack."
+      },
+      "Ability§Treason of Tzeentch": {
+        "text": "_Psychic_\n\nAt the start of your opponent’s Shooting phase, select one enemy unit within 24\" of this **PSYKER**. Until the end of the phase, ranged weapons equipped by models in that unit have the [HAZARDOUS] ability."
+      },
+      "Ability§Time Flux": {
+        "text": "_Aura, Psychic_\n\nWhile a friendly Thousand Sons unit is within 6\" of this **PSYKER**, add 2\" to the Move characteristic of models in that unit."
+      },
+      "Character§Chaos Lord on Disc of Tzeentch": {
+        "assets": {
+          "traits": [
+            "Ability§Cabal of Sorcerers"
+          ]
+        }
+      },
+      "Vehicle§Terrax-pattern Termite": {
+        "keywords": {
+          "Keywords": [
+            "Tzeentch",
+            "Chaos"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Combat Doctrines"
+          ]
+        }
+      },
+      "Ability§Combat Doctrines": {
+        "text": "At the start of your Command phase, you can select one **combat doctrine** listed below. If you do, that **combat doctrine** is active for friendly **ADEPTUS** **ASTARTES** units with this ability until the start of your next Command phase.\n\nASSAULT DOCTRINEWhen this unit is selected to make an **advance move**, that **advance move** does not prevent this unit from being **eligible to declare a charge**.\n\nDEVASTATOR DOCTRINEThis unit’s ranged attacks have **[ASSAULT]**.\n\nTACTICAL DOCTRINEWhen this unit is selected to make a **fall-back move**, that **fall-back move** does not prevent this unit from being **eligible to shoot** and **eligible to declare a charge**.\nUnless otherwise stated:\n\n- You can only select each **combat doctrine** once per battle.\n\n- Only one **combat doctrine** can be active for each unit. If a rule makes a **combat doctrine** active for a unit, any **combat doctrine** previously active for that unit is no longer active for that unit."
+      },
+      "Vehicle§Cerberus": {
+        "keywords": {
+          "Keywords": [
+            "Chaos",
+            "Tzeentch"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Combat Doctrines"
+          ]
+        }
+      },
+      "Vehicle§Kratos": {
+        "keywords": {
+          "Keywords": [
+            "Tzeentch",
+            "Chaos"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Combat Doctrines"
+          ]
+        }
+      },
+      "Vehicle§Mastodon": {
+        "keywords": {
+          "Keywords": [
+            "Chaos",
+            "Tzeentch"
+          ]
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "2D6"
+                }
+              }
+            },
+            "Ability§Combat Doctrines"
+          ]
+        }
+      },
+      "Vehicle§Rapier Carrier": {
+        "keywords": {
+          "Keywords": [
+            "Tzeentch",
+            "Chaos"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Combat Doctrines"
+          ]
+        }
+      },
+      "Vehicle§Typhon": {
+        "keywords": {
+          "Keywords": [
+            "Tzeentch",
+            "Chaos"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Combat Doctrines"
+          ]
+        }
+      },
+      "Vehicle§Falchion": {
+        "keywords": {
+          "Keywords": [
+            "Chaos",
+            "Tzeentch"
+          ]
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D6+2"
+                }
+              }
+            },
+            "Ability§Combat Doctrines"
+          ]
+        }
+      },
+      "Ability§Sullen Malevolence": {
+        "text": "_Aura_\n\nWhile an enemy unit is within 6\" of this unit, if this unit contains one or more **BLUE** **HORROR** models, worsen the Leadership characteristic of models in that enemy unit by 1."
       }
     },
     "gameModes": {},
