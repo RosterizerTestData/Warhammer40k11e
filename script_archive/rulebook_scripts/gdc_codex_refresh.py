@@ -23,7 +23,7 @@ MFM = Path(os.environ.get("MFM_DIR", "/tmp/wh40k-11e-mfm")) / "data"
 book, gdc_file, slug = sys.argv[1:4]
 APPLY = "--apply" in sys.argv
 
-en = lambda x: x.get("en", "") if isinstance(x, dict) else (x or "")
+en = lambda x: (x.get("en", "") if isinstance(x, dict) else (x or "")).replace("\u2011", "-").replace("\u00a0", " ")
 key = lambda s: re.sub(r"\s+", " ", s.lower().replace("’", "'").replace("‘", "'")).strip()
 strip_up = lambda s: re.sub(r"\s*\(Upgrade\)\s*$", "", s, flags=re.I).strip()
 
@@ -69,6 +69,65 @@ def find_key(prefix, name):
         review.append(f"fuzzy name match GDC '{name}' -> {scored[0][1]}")
         return scored[0][1]
     return None
+
+# ---------------------------------------------------------------- typo renames (book spelling -> codex spelling)
+def _rename(old_key, new_key, old_name=None, new_name=None):
+    global d, cat, ranks
+    s_ = json.dumps(d, ensure_ascii=False).replace(f'"{old_key}"', f'"{new_key}"')
+    if old_name and new_name:
+        s_ = s_.replace(f'"{old_name}"', f'"{new_name}"')
+    d = json.loads(s_); cat = d["rulebook"]["assetCatalog"]
+    ranks = cat["Roster§Roster"]["stats"]["Detachment"].setdefault("ranks", {})
+try:
+    WORDS = {w.strip().lower() for w in open("/usr/share/dict/words")}
+except OSError:
+    WORDS = set()
+def _codex_spelling_wins(book_name, codex_name):
+    """False when the change would replace a real English word with a non-word (the codex source has the typo)."""
+    bw = re.findall(r"[A-Za-z]+", book_name.lower()); cw = re.findall(r"[A-Za-z]+", codex_name.lower())
+    def known(w):
+        return w in WORDS or any(w.endswith(sf) and w[:-len(sf)] in WORDS for sf in ("s", "es", "ed", "d", "ing")) \
+            or (w.endswith("ies") and w[:-3] + "y" in WORDS)
+    for b_, c_ in zip(bw, cw):
+        if b_ != c_ and known(b_) and not known(c_):
+            return False
+    return True
+def _fuzzy_other(prefix, nm, exclude):
+    norm_ = lambda s: re.sub(r"[^a-z0-9]", "", key(strip_up(s)))
+    scored = sorted(((difflib.SequenceMatcher(None, norm_(nm), norm_(x[len(prefix):])).ratio(), x)
+                     for x in cat if x.startswith(prefix) and x != exclude), reverse=True)
+    if scored and scored[0][0] >= 0.8 and (len(scored) == 1 or scored[0][0] - scored[1][0] >= 0.2):
+        return scored[0][1]
+    return None
+for prefix, names in (("Detachment§", [en(x["name"]) for x in g["detachments"]]),
+                      ("Enhancement§", [en(x["name"]) for x in g.get("enhancements") or []]),
+                      ("Stratagem§", [en(x["name"]) for x in g.get("stratagems") or []])):
+    for nm in names:
+        exact = next((x for x in cat if x.startswith(prefix) and key(strip_up(x[len(prefix):])) == key(strip_up(nm))), None)
+        if exact:
+            if not (cat[exact].get("text") or "").startswith("WARNING"):
+                continue
+            old = _fuzzy_other(prefix, nm, exact)          # stub under the codex name + working copy under an old spelling
+            if not old or (cat[old].get("text") or "").startswith("WARNING"):
+                continue
+            stub_name = exact[len(prefix):]
+            stub_text = re.sub(r"^WARNING:[^\n]*\n*", "", cat[exact].get("text", "")).strip()
+            del cat[exact]
+            if prefix == "Detachment§":
+                ranks.pop(stub_name, None)
+            if stub_text:
+                cat[old]["text"] = stub_text
+            _rename(old, exact, old[len(prefix):] if prefix == "Detachment§" else None, stub_name if prefix == "Detachment§" else None)
+            log.append(f"~ merged working {old} into codex-named stub {exact}")
+            continue
+        old = find_key(prefix, nm)
+        if old and old != prefix + nm and prefix + nm not in cat:
+            oldn = old[len(prefix):]
+            if not _codex_spelling_wins(oldn, nm):
+                review.append(f"kept book spelling {old} (codex source spells it '{nm}')")
+                continue
+            _rename(old, prefix + nm, oldn if prefix == "Detachment§" else None, nm if prefix == "Detachment§" else None)
+            log.append(f"~ renamed {old} -> {prefix + nm} (codex spelling)")
 
 # ---------------------------------------------------------------- detachments
 gdc_dets = {en(x["name"]): x for x in g["detachments"]}
@@ -160,10 +219,13 @@ def split_kw(phrase):
 def eligibility(desc):
     first = re.split(r"(?<=only\.)|(?<=\)\.)", desc, 1)[0]
     mm = re.match(r"^(.*?)\s+(?:model|unit)s?\s+only(?:\s*\(excluding (.*?)\))?\.", first)
+    if mm is None and "**" in first:
+        mm = re.match(r"^(.*?)\s+(?:model|unit)s?\s+only(?:\s*\(excluding (.*?)\))?\.", first)
     if not mm:
         return None, None
     def chunks(txt):
-        txt = re.sub(r"</k>\s*/\s*<k>", "/", txt or "")
+        txt = re.sub(r"\*\*(.+?)\*\*", r"<k>\1</k>", txt or "")
+        txt = re.sub(r"</k>\s*/\s*<k>", "/", txt)
         return [[split_kw(alt.strip()) for alt in c.split("/") if alt.strip()] for c in re.findall(r"<k>(.*?)</k>", txt)]
     req, excl = chunks(mm.group(1)), chunks(mm.group(2))
     if not req:

@@ -1,6 +1,6 @@
 {
   "name": "Genestealer Cults 11e",
-  "revision": "11.1.6",
+  "revision": "11.1.14",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -2344,21 +2344,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Bio-horror Revelation"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Stimulated Bio-surge"
+                "value": "Stratagem§Gene-twisted Muscle"
               },
               {
                 "actionType": "add",
@@ -2386,7 +2372,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Gene-twisted Muscle"
+                "value": "Stratagem§Stimulated Bio-surge"
               },
               {
                 "actionType": "add",
@@ -2415,6 +2401,20 @@
                   ]
                 ],
                 "value": "Stratagem§Evasive Vanguard"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Bio-horror Revelation"
               }
             ],
             "evals": [],
@@ -2448,12 +2448,26 @@
             "value": 2
           }
         },
-        "text": "**HYPERMORPHIC FURY**\n\nAdd 1 to Charge rolls made for **Aberrants**, **Biophagus** and **Purestrain Genestealers** units from your army. In addition, each time such a unit is selected to fight, if it made a Charge move this turn, until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit."
+        "text": "**HYPERMORPHIC FURY**\n\nAdd 1 to Charge rolls made for **ABERRANTS**, **BIOPHAGUS** and **PURESTRAIN GENESTEALERS** units from your army. In addition, each time such a unit is selected to fight, if it made a Charge move this turn, until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit."
       },
-      "Detachment§Brood Brother Auxilia": {
+      "Detachment§Brood Brothers Auxilia": {
         "rules": {
           "assignStratagems": {
             "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Symbiotic Destruction"
+              },
               {
                 "actionType": "add",
                 "iterations": 1,
@@ -2494,35 +2508,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Supress and Overwhelm"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Acceptable Losses"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Symbiotic Destruction"
+                "value": "Stratagem§Suppress and Overwhelm"
               },
               {
                 "actionType": "add",
@@ -2537,6 +2523,20 @@
                   ]
                 ],
                 "value": "Stratagem§A Dark Network"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Acceptable Losses"
               }
             ],
             "evals": [],
@@ -2544,20 +2544,17 @@
             "failState": "pass"
           }
         },
-        "text": "**INTEGRATED AUXILIA**\n\nEach time an **Astra Militarum** unit from your army (see below) is selected to shoot, you can select one enemy unit within 18” of and visible to that unit. If you do, until the end of the phase, models in that **Astra Militarum** unit can only target that enemy unit (and only if it is an eligible target) and that enemy unit is caught in overlapping fire. While an enemy unit is caught in overlapping fire, each time a **Genestealer Cults** model from your army targets that enemy unit with a ranged attack, add 1 to the Hit roll.\n\n\n**Brood Brothers**\n\nYou can include **Astra Militarum** units in your army, even though they do not have the **Genestealer Cults** Faction keyword. The combined points cost of such units you can include in your army is:\n\n- Incursion: Up to 500 pts\n- Strike Force: Up to 1000 pts\n- Onslaught: Up to 1500 pts\n\nA Genestealer Cults model must be your Warlord, and Astra Militarum models from your army and they lose the Voice of Command ability if they have it. You cannot include units with any of the following keywords in your army using this rule: **Aircraft; Comissar; Epic Hero; Militarum Tempestus; Ogryn; Ratling; Tech-Priest Enginseer; Ministorum Priest."
-      },
-      "Detachment§Brood Brothers Auxilia": {
-        "keywords": {
-          "Role": [
-            "Take And Hold"
-          ]
-        },
+        "text": "**INTEGRATED TACTICS**\n\nEach time an **ASTRA MILITARUM** unit from your army (see below) is selected to shoot, you can select one enemy unit within 18\" of and visible to that unit. If you do, until the end of the phase, models in that **ASTRA MILITARUM** unit can only target that enemy unit (and only if it is an eligible target) and that enemy unit is caught in overlapping fire. While an enemy unit is caught in overlapping fire, each time a **GENESTEALER CULTS** model from your army targets that enemy unit with a ranged attack, add 1 to the Hit roll.\n\n**BROOD BROTHERS**\n\nYou can include **ASTRA MILITARUM** units in your army, even though they do not have the **GENESTEALER CULTS** Faction keyword. The combined points cost of such units you can include in your army is:\n\nA **GENESTEALER CULTS** model must be your **WARLORD**, and **ASTRA MILITARUM** models from your army lose the Voice of Command ability if they have it. You cannot include units with any of the following keywords in your army using this rule: **AIRCRAFT**; **COMMISSAR**; **EPIC HERO**; **MILITARUM TEMPESTUS**; **OGRYN**; **RATLING**; **TECH-PRIEST ENGINSEER**; **MINISTORUM PRIEST**.",
         "stats": {
           "Detachment Points": {
             "value": 2
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Integrated Tactics**\nEach time an **ASTRA MILITARUM** unit from your army (see below) is selected to shoot, you can select one enemy unit within 18\" of and visible to that unit. If you do, until the end of the phase, models in that **ASTRA MILITARUM** unit can only target that enemy unit (and only if it is an eligible target) and that enemy unit is caught in overlapping fire. While an enemy unit is caught in overlapping fire, each time a **GENESTEALER CULTS** model from your army targets that enemy unit with a ranged attack, add 1 to the Hit roll.\n\n**Brood Brothers**\nYou can include **ASTRA MILITARUM** units in your army, even though they do not have the **GENESTEALER CULTS** Faction keyword. The combined points cost of such units you can include in your army is:\n\nA **GENESTEALER CULTS** model must be your **WARLORD**, and **ASTRA MILITARUM** models from your army lose the Voice of Command ability if they have it. You cannot include units with any of the following keywords in your army using this rule: **AIRCRAFT**; **COMMISSAR**; **EPIC HERO**; **MILITARUM TEMPESTUS**; **OGRYN**; **RATLING**; **TECH-PRIEST ENGINSEER**; **MINISTORUM PRIEST**."
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        }
       },
       "Detachment§Final Day": {
         "keywords": {
@@ -2582,20 +2579,6 @@
                   ]
                 ],
                 "value": "Stratagem§Hyperferocity"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Psi Surge"
               },
               {
                 "actionType": "add",
@@ -2637,6 +2620,20 @@
                     "traits"
                   ]
                 ],
+                "value": "Stratagem§Psi Surge"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
                 "value": "Stratagem§Darting Attacks"
               },
               {
@@ -2664,7 +2661,7 @@
             "value": 2
           }
         },
-        "text": "**PSIONIC PARASITISM**\n\nAt the end of your Movement phase,\nfor each **Tyranids Synapse** unit from\nyour army, you can select one friendly\n**Genestealer Cults** unit (excluding\n**Purestrain Genestealer** and **Patriarch**\nunits) and one friendly **Tyranids** unit\neach within 9\" of and visible to that\n**Synapse** unit. If you do, that **Genestealer\nCults** unit from your army suffers D3+1\nmortal wounds and one model in the\nselected **Tyranids** unit regains up to that\nmany lost wounds and until the start of\nyour next Movement phase, each time\na model in the selected **Tyranids** unit\nmakes an attack, add 1 to the Hit roll.\n\n**Tyranids** units from your army have the\nfollowing ability:\n\nCatalyst (Aura): While an enemy unit is\nwithin 6\" of this unit, each time a friendly\n**Genestealer Cults** unit makes an attack\nthat targets that enemy unit, add 1 to the\nHit roll.\n\nTHE STAR CHILDREN’S BLESSINGS\n\nYou can include **Tyranids Vanguard\nInvader** units (excluding **Aircraft,\nBroodlord** and **Genestealers** units) in\nyour army. The combined points cost of\nsuch units depends on your battle size:\n\n■ Incursion: Up to 500 pts\n\n■ Strike Force: Up to 1000 pts\n\n■ Onslaught: Up to 1500 pts\n\n*No* **Tyranids** models from your army can\nbe your **Warlord**."
+        "text": "**PSIONIC PARASITISM**\n\nAt the end of your Movement phase, for each **TYRANIDS SYNAPSE** unit from your army, you can select one friendly **GENESTEALER CULTS** unit (excluding **PURESTRAIN GENESTEALER** and **PATRIARCH** units) and one friendly **TYRANIDS** unit each within 9\" of and visible to that Synapse unit. If you do, that **GENESTEALER CULTS** unit from your army suffers D3+1 mortal wounds and one model in the selected **TYRANIDS** unit regains up to that many lost wounds and until the start of your next Movement phase, each time a model in the selected **TYRANIDS** unit makes an attack, add 1 to the Hit roll.\n\n**TYRANIDS** units from your army have the following ability:\n\n**Catalyst** (**Aura**): While an enemy unit is within 6\" of this unit, each time a friendly **GENESTEALER CULTS** unit makes an attack that targets that enemy unit, add 1 to the Hit roll."
       },
       "Detachment§Heroes Of The Uprising": {
         "keywords": {
@@ -2677,7 +2674,58 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Killer Reputation**\n- Friendly **Kelermorph/Locus/Reductus Saboteur/Sanctus** models have **Killer**.\n\n- Friendly **Killer** models’ attacks can:\n\n- Re‑roll **hit rolls** of 1.\n\n- Re‑roll **wound rolls** of 1."
+        "text": "**KILLER REPUTATION**\n\n- Friendly **KELERMORPH/LOCUS/REDUCTUS SABOTEUR/SANCTUS** models have **KILLER**.\n\n- Friendly **KILLER** models’ attacks can:\n\n- Re-roll **hit rolls** of 1.\n\n- Re-roll **wound rolls** of 1.",
+        "rules": {
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Surging Broodworship"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Loyal to the End"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Living up to Legend"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        }
       },
       "Detachment§Host of Ascension": {
         "keywords": {
@@ -2701,7 +2749,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Primed and Readied"
+                "value": "Stratagem§Coordinated Trap"
               },
               {
                 "actionType": "add",
@@ -2715,7 +2763,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Coordinated Trap"
+                "value": "Stratagem§Primed and Readied"
               },
               {
                 "actionType": "add",
@@ -2757,7 +2805,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§A Deadly Snare"
+                "value": "Stratagem§Return To the Shadows"
               },
               {
                 "actionType": "add",
@@ -2771,7 +2819,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Return To the Shadows"
+                "value": "Stratagem§A Deadly Snare"
               }
             ],
             "evals": [],
@@ -2805,7 +2853,7 @@
             "value": 3
           }
         },
-        "text": "**A PERFECT AMBUSH**\n\nEach time a Genestealer Cults unit from your army is set up on the battlefield as Reinforcements, until the end of your next Fight phase, weapons equipped by models in that unit have the [SUSTAINED HITS 1] and [IGNORES COVER] abilities."
+        "text": "**A PERFECT AMBUSH**\n\nEach time a **GENESTEALER CULTS** unit from your army is set up on the battlefield as Reinforcements, until the end of your next Fight phase, weapons equipped by models in that unit have the **[SUSTAINED HITS 1]** and **[IGNORES COVER]** abilities."
       },
       "Detachment§Outlander Claw": {
         "keywords": {
@@ -2816,20 +2864,6 @@
         "rules": {
           "assignStratagems": {
             "actions": [
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Along Shadowed Trails"
-              },
               {
                 "actionType": "add",
                 "iterations": 1,
@@ -2870,7 +2904,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Rapid Feint"
+                "value": "Stratagem§Deft Manoeuvring"
               },
               {
                 "actionType": "add",
@@ -2884,7 +2918,21 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Deft Manoeuvring"
+                "value": "Stratagem§Along Shadowed Trails"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Rapid Feint"
               },
               {
                 "actionType": "add",
@@ -2911,7 +2959,7 @@
             "value": 2
           }
         },
-        "text": "**RAPID TAKEOVER**\n\nWhile a Genestealer Cults Mounted or Genestealer Cults Vehicle model from your army is not Battle‑shocked, add 1 to its Objective Control characteristic. In addition, at the end of your Command phase, if one or more Atalan Jackals \nunits from your army are within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
+        "text": "**RAPID TAKEOVER**\n\nWhile a **GENESTEALER CULTS MOUNTED**/**VEHICLE** model from your army is not Battle-shocked, add 1 to its Objective Control characteristic. In addition, at the end of your Command phase, if one or more **ATALAN JACKALS** units from your army are within range of an **objective** you control, that **objective** remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
       },
       "Detachment§Purestrain Broodswarm": {
         "keywords": {
@@ -2924,7 +2972,7 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Enemy Within**\nAt the end of your opponent’s Fight phase, friendly **unengaged** **Purestrain Genestealer** units can be placed in **strategic reserves**.\nThis **detachment** has the **PURESTRAIN** tag and cannot be taken with another **PURESTRAIN** **detachment**.",
+        "text": "**ENEMY WITHIN**\n\nAt the end of your opponent’s Fight phase, friendly **unengaged** **PURESTRAIN GENESTEALER** units can be placed in **strategic reserves**.\nThis **detachment** has the **PURESTRAIN** tag and cannot be taken with another **PURESTRAIN** **detachment**.",
         "rules": {
           "removeSameTagDetachments": {
             "actions": [
@@ -2946,16 +2994,7 @@
             "evaluate": "AND",
             "failState": "pass",
             "order": 10
-          }
-        }
-      },
-      "Detachment§Xenocreed Congregation": {
-        "keywords": {
-          "Role": [
-            "Priority Assets"
-          ]
-        },
-        "rules": {
+          },
           "assignStratagems": {
             "actions": [
               {
@@ -2970,7 +3009,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§The Downtrodden Rise"
+                "value": "Stratagem§Inhuman Reactions"
               },
               {
                 "actionType": "add",
@@ -2984,7 +3023,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Transcendent Celerity"
+                "value": "Stratagem§Crawling Horror"
               },
               {
                 "actionType": "add",
@@ -2998,8 +3037,24 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Tireless Fervour"
-              },
+                "value": "Stratagem§Lurk and Strike"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        }
+      },
+      "Detachment§Xenocreed Congregation": {
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
+        "rules": {
+          "assignStratagems": {
+            "actions": [
               {
                 "actionType": "add",
                 "iterations": 1,
@@ -3040,7 +3095,49 @@
                     "traits"
                   ]
                 ],
+                "value": "Stratagem§Tireless Fervour"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Transcendent Celerity"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
                 "value": "Stratagem§The Path of Anguish"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§The Downtrodden Rise"
               }
             ],
             "evals": [],
@@ -3053,7 +3150,7 @@
             "value": 2
           }
         },
-        "text": "**UNQUESTIONING FANATICISM**\n\nFor each ACOLYTE HYBRIDS, HYBRID METAMORPHS and NEOPHYTE HYBRIDS unit from your army, while one or more CHARACTER models are leading that unit, you can re-roll Advance and Charge rolls made for it. If that CHARACTER model is a\nMAGUS, PRIMUS or ACOLYTE ICONWARD, that\nmodel has the Feel No Pain 3+ ability\nwhile leading that unit."
+        "text": "**UNQUESTIONING FANATICISM**\n\nFor each **ACOLYTE HYBRIDS**, **HYBRID METAMORPHS** and **NEOPHYTE HYBRIDS** unit from your army, while one or more **CHARACTER** models are leading that unit, you can re‐roll Advance and Charge rolls made for it. If that **CHARACTER** model is a **MAGUS**, **PRIMUS** or **ACOLYTE ICONWARD**, that model has the Feel No Pain 3+ ability while leading that unit."
       },
       "Detachment§Xenocult Masses": {
         "keywords": {
@@ -3066,7 +3163,7 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Hordes of the Faithful**\nIn your Command phase, if a friendly **Neophyte Hybrids** unit is within a **terrain area**, that unit **heals** 3 wounds.\nThis **detachment** has the **HOSTS** tag and cannot be taken with another **HOSTS** **detachment**.",
+        "text": "**HORDES OF THE FAITHFUL**\n\nIn your Command phase, if a friendly **NEOPHYTE HYBRIDS** unit is within a **terrain area**, that unit **heals** 3 wounds.\nThis **detachment** has the **HOSTS** tag and cannot be taken with another **HOSTS** **detachment**.",
         "rules": {
           "removeSameTagDetachments": {
             "actions": [
@@ -3088,6 +3185,55 @@
             "evaluate": "AND",
             "failState": "pass",
             "order": 10
+          },
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Slunk from the Underbelly"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Eyes of the Cult"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Fanatical Hail"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
           }
         }
       },
@@ -3102,7 +3248,29 @@
             "value": 20
           }
         },
-        "text": "GENESTEALER CULTS model only. Each time the bearer is set up on the battlefield as Reinforcements, until the end of your next Fight phase, ranged weapons equipped by models in the bearer's unit have the [LETHAL HITS] ability."
+        "text": "**GENESTEALER CULTS** model only. Each time the bearer is set up on the battlefield as Reinforcements, until the end of your next Fight phase, ranged weapons equipped by models in the bearer’s unit have the **[LETHAL HITS]** ability.",
+        "rules": {
+          "GENESTEALER CULTS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Genestealer Cults"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Adaptive Reprisal": {
         "keywords": {
@@ -3137,7 +3305,7 @@
             "value": 15
           }
         },
-        "text": "**Genestealer Cults Infantry** model only. Once per turn, you can target a friendly **Genestealer Cults** unit within 9” of the bearer with the Heroic Intervention Stratagem for 0CP."
+        "text": "**GENESTEALER CULTS INFANTRY** model only. When you target this unit with the **Heroic Intervention stratagem**, that use is -1 CP."
       },
       "Enhancement§Alien Majesty": {
         "keywords": {
@@ -3200,7 +3368,7 @@
             "value": 15
           }
         },
-        "text": "**Abominant**, **Biophagus** or **Patriarch** model only. While an enemy unit is within Engagement Range of the bearer's unit, subtract 1 from the Objective Control characteristic of models in that enemy unit (to a minimum of 1)."
+        "text": "**ABOMINANT**, **BIOPHAGUS** or **PATRIARCH** model only. While an enemy unit is within Engagement Range of the bearer’s unit, subtract 1 from the Objective Control characteristic of models in that enemy unit (to a minimum of 1)."
       },
       "Enhancement§Assassination Edict": {
         "keywords": {
@@ -3213,7 +3381,29 @@
             "value": 15
           }
         },
-        "text": "Genestealer Cults model only. Each time a model in the bearer's unit makes an attack that targets a **Character** unit, add 1 to the Hit roll."
+        "text": "**GENESTEALER CULTS** model only. Each time a model in the bearer’s unit makes an attack that targets a **CHARACTER** unit, add 1 to the Hit roll.",
+        "rules": {
+          "GENESTEALER CULTS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Genestealer Cults"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Assault Commando": {
         "keywords": {
@@ -3226,7 +3416,29 @@
             "value": 15
           }
         },
-        "text": "**Genestealer Cults** model only. Each time a model in the bearer’s unit makes a ranged attack. If it disembarked from a **Transport** this turn, you can re-roll the Hit roll."
+        "text": "**GENESTEALER CULTS** model only. Each time a model in the bearer’s unit makes a ranged attack, if it disembarked from a **TRANSPORT** this turn, you can re‐roll the Hit roll.",
+        "rules": {
+          "GENESTEALER CULTS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Genestealer Cults"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Biomorph Adaptation": {
         "keywords": {
@@ -3339,7 +3551,7 @@
             "value": 25
           }
         },
-        "text": "Abominant or Patriarch model only. Improve the Armour Penetration and Damage characteristics of melee weapons equipped by the bearer by 1."
+        "text": "**ABOMINANT** or **PATRIARCH** model only. Improve the Armour Penetration and Damage characteristics of melee weapons equipped by the bearer by 1."
       },
       "Enhancement§Cartographic Data-leech": {
         "keywords": {
@@ -3352,7 +3564,29 @@
             "value": 10
           }
         },
-        "text": "**Genestealer Cults** model only. While the bearer is embarked within a **Transport**, each time a **Transport** is selected to shoot, until the end of the phase, improve the Ballistic Skill characteristic of ranged weapons equipped by that **Transport** as a result of the Firing Deck ability by 1."
+        "text": "**GENESTEALER CULTS** model only. While the bearer is embarked within a **TRANSPORT**, each time that **TRANSPORT** is selected to shoot, until the end of the phase, improve the Ballistic Skill characteristic of ranged weapons equipped by that **TRANSPORT** as a result of the Firing Deck ability by 1.",
+        "rules": {
+          "GENESTEALER CULTS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Genestealer Cults"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Contraband Munitions": {
         "keywords": {
@@ -3365,7 +3599,65 @@
             "value": 20
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Kelermorph/Reductus Saboteur** model only. This unit’s ranged attacks have +2 **S**."
+        "text": "**KELERMORPH/REDUCTUS SABOTEUR** model only. This unit’s ranged attacks have +2 **S**.",
+        "rules": {
+          "KELERMORPH/REDUCTUS SABOTEUR model only.": {
+            "evals": [
+              {
+                "actionable": false,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Kelermorph"
+              },
+              {
+                "actionable": false,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Reductus Saboteur"
+              },
+              {
+                "actionable": true,
+                "not": false,
+                "operator": "OR",
+                "value": true,
+                "paths": [
+                  [
+                    "{this}",
+                    "evals",
+                    "0",
+                    "result",
+                    "truthy"
+                  ],
+                  [
+                    "{this}",
+                    "evals",
+                    "1",
+                    "result",
+                    "truthy"
+                  ]
+                ]
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Deeds that Speak to the Masses": {
         "keywords": {
@@ -3428,7 +3720,7 @@
             "value": 25
           }
         },
-        "text": "Magus. Primus or Acolyte Iconward model only.\nYou start the battle with 2 additional \nResurgence points."
+        "text": "**MAGUS**, **PRIMUS** or **ACOLYTE ICONWARD** model only. You start the battle with 2 additional Resurgence points."
       },
       "Enhancement§Denunciator of Tyrants": {
         "keywords": {
@@ -3491,7 +3783,7 @@
             "value": 25
           }
         },
-        "text": "**Magus**, **Primus** or **Acolyte Iconward** model only. Each time a model in the bearer's unit makes an attack that targets a **Character** unit, add 1 to the Hit roll and add\n1 to the Wound roll."
+        "text": "**MAGUS**, **PRIMUS** or **ACOLYTE ICONWARD** model only. Each time a model in the bearer’s unit makes an attack that targets a **CHARACTER** unit, add 1 to the Hit roll and add 1 to the Wound roll."
       },
       "Enhancement§Devious Disguises (Upgrade)": {
         "keywords": {
@@ -3507,7 +3799,7 @@
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Neophyte Hybrids** unit only. This unit has -3\" **detection range**.",
+        "text": "**NEOPHYTE HYBRIDS** unit only. This unit has -3\" **detection range**.",
         "removed": {
           "keywords": {
             "Tags": [
@@ -3517,6 +3809,28 @@
         },
         "aspects": {
           "Unique": false
+        },
+        "rules": {
+          "NEOPHYTE HYBRIDS unit only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Neophyte Hybrids"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
         }
       },
       "Enhancement§Enraptured Damnation": {
@@ -3552,25 +3866,12 @@
             "value": 10
           }
         },
-        "text": "**Genestealer Cults** model only. Enemy units cannot\nuse the Fire Overwatch Stratagem to shoot at the\nbearer’s unit."
+        "text": "**GENESTEALER CULTS** model only. Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit."
       },
       "Enhancement§Fire-point Commander": {
         "keywords": {
           "Keywords": [
             "Brood Brothers Auxilia"
-          ]
-        },
-        "stats": {
-          "Points": {
-            "value": 10
-          }
-        },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**GENESTEALER CULTS INFANTRY** model only. Each time you target the bearer’s unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+."
-      },
-      "Enhancement§Firepoint Commander": {
-        "keywords": {
-          "Keywords": [
-            "Brood Brother Auxilia"
           ]
         },
         "rules": {
@@ -3600,7 +3901,7 @@
             "value": 10
           }
         },
-        "text": "**Genestealer Cults Infantry** model only. Each time you target the bearer’s unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+."
+        "text": "**GENESTEALER CULTS INFANTRY** model only. Each time you target the bearer’s unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+."
       },
       "Enhancement§Gene-sire's Reliquant": {
         "rules": {
@@ -3671,7 +3972,57 @@
             "value": 5
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**MAGUS**, **PRIMUS** or **ACOLYTE ICONWARD** model only. You can re‐roll Battle‐shock tests taken for the bearer’s unit."
+        "text": "**MAGUS**, **PRIMUS** or **ACOLYTE ICONWARD** model only. You can re‐roll Battle‐shock tests taken for the bearer’s unit.",
+        "rules": {
+          "MAGUS, PRIMUS or ACOLYTE ICONWARD model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Magus"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Primus"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Acolyte Iconward"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Gene-tailored Toxins": {
         "keywords": {
@@ -3684,7 +4035,65 @@
             "value": 35
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Locus/Sanctus** model only. This model’s attacks have +1 **D**."
+        "text": "**LOCUS/SANCTUS** model only. This model’s attacks have +1 **D**.",
+        "rules": {
+          "LOCUS/SANCTUS model only.": {
+            "evals": [
+              {
+                "actionable": false,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Locus"
+              },
+              {
+                "actionable": false,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Sanctus"
+              },
+              {
+                "actionable": true,
+                "not": false,
+                "operator": "OR",
+                "value": true,
+                "paths": [
+                  [
+                    "{this}",
+                    "evals",
+                    "0",
+                    "result",
+                    "truthy"
+                  ],
+                  [
+                    "{this}",
+                    "evals",
+                    "1",
+                    "result",
+                    "truthy"
+                  ]
+                ]
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Incendiary Inspiration": {
         "keywords": {
@@ -3747,7 +4156,7 @@
             "value": 15
           }
         },
-        "text": "**Magus**, **Primus**, **Acolyte Iconward** model  only. The bearer's unit is eligible to declare a charge in a turn in which it Advanced."
+        "text": "**MAGUS**, **PRIMUS** or **ACOLYTE ICONWARD** model only. The bearer’s unit is eligible to declare a charge in a turn in which it Advanced."
       },
       "Enhancement§Inhuman Integration": {
         "keywords": {
@@ -3782,7 +4191,7 @@
             "value": 20
           }
         },
-        "text": "**Genestealer Cults** model only. Weapons equipped by\nmodels in the bearer’s unit have the **[SUSTAINED HITS 1]**\nability while targeting an enemy unit within 6\" of one\nor more friendly **Tyranids** units."
+        "text": "**GENESTEALER CULTS** model only. Weapons equipped by models in the bearer’s unit have the **[SUSTAINED HITS 1]** ability while targeting an enemy unit within 6\" of one or more friendly **TYRANIDS** units."
       },
       "Enhancement§Inspired to Greatness": {
         "keywords": {
@@ -3795,7 +4204,65 @@
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Magus**/**Primus** model only. This unit’s attacks can re‑roll **damage rolls**."
+        "text": "**MAGUS**/**PRIMUS** model only. This unit’s attacks can re-roll **damage rolls**.",
+        "rules": {
+          "MAGUS/PRIMUS model only.": {
+            "evals": [
+              {
+                "actionable": false,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Magus"
+              },
+              {
+                "actionable": false,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Primus"
+              },
+              {
+                "actionable": true,
+                "not": false,
+                "operator": "OR",
+                "value": true,
+                "paths": [
+                  [
+                    "{this}",
+                    "evals",
+                    "0",
+                    "result",
+                    "truthy"
+                  ],
+                  [
+                    "{this}",
+                    "evals",
+                    "1",
+                    "result",
+                    "truthy"
+                  ]
+                ]
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Mark of the Star Children (Upgrade)": {
         "keywords": {
@@ -3811,7 +4278,7 @@
             "value": 30
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Purestrain Genestealers** unit only. This unit has:\n\n- +1 **T**.\n\n- 4+ **Sv**.\n\n- This unit’s melee attacks have +1 **S**.",
+        "text": "**PURESTRAIN GENESTEALERS** unit only. This unit has:\n\n- +1 **T**.\n\n- 4+ **Sv**.\n\n- This unit’s melee attacks have +1 **S**.",
         "removed": {
           "keywords": {
             "Tags": [
@@ -3821,6 +4288,28 @@
         },
         "aspects": {
           "Unique": false
+        },
+        "rules": {
+          "PURESTRAIN GENESTEALERS unit only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Purestrain Genestealers"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
         }
       },
       "Enhancement§Martial Espionage": {
@@ -3856,7 +4345,7 @@
             "value": 25
           }
         },
-        "text": "**Genestealer Cults Infantry** model only. Once per turn when a friendly **Astra Militarum Infantry** or **Astra Militarum Mounted** unit within 9” of the bearer is selected to shoot, the bearer can use this Enhancement. If it does, until the end of the phase, improve the Armour Penetration characteristic of ranged weapons equipped by models in that unit by 1."
+        "text": "**GENESTEALER CULTS INFANTRY** model only. Once per turn, when a friendly **ASTRA MILITARUM INFANTRY** or **ASTRA MILITARUM MOUNTED** unit within 9\" of the bearer is selected to shoot, the bearer can use this Enhancement. If it does, until the end of the phase, improve the Armour Penetration characteristic of ranged weapons equipped by models in that unit by 1."
       },
       "Enhancement§Mutagenic Regeneration": {
         "keywords": {
@@ -3919,7 +4408,7 @@
             "value": 10
           }
         },
-        "text": "Abominant, Biophagus or Patriarch model only. In each Command phase, one model in the bearer's unit regains 1 lost wound."
+        "text": "**ABOMINANT**, **BIOPHAGUS** or **PATRIARCH** model only. In each Command phase, one model in the bearer’s unit regains 1 lost wound."
       },
       "Enhancement§Our Time is Nigh": {
         "keywords": {
@@ -3932,7 +4421,29 @@
             "value": 20
           }
         },
-        "text": "Genestealer Cults model only. Once per battle. when the bearer's unit declares a charge, the bearer can use this Enhancement. If it does, until the end of the phase, add 2 to Charge rolls made for the bearer's unit."
+        "text": "**GENESTEALER CULTS** model only. Once per battle, when the bearer’s unit declares a charge, the bearer can use this Enhancement. If it does, until the end of the phase, add 2 to Charge rolls made for the bearer’s unit.",
+        "rules": {
+          "GENESTEALER CULTS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Genestealer Cults"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Predatory Instincts": {
         "keywords": {
@@ -4018,7 +4529,7 @@
             "value": 20
           }
         },
-        "text": "Abominant, Biophagus or Patriarch model only. Models in the bearer's unit have the Infiltrators ability and, once per battle round, you can target the bearer's unit with the Hemic Intervention Stratagem for 0CP and can do so even if you have already targeted a different unit with that Stratagem this phase."
+        "text": "**ABOMINANT**, **BIOPHAGUS** or **PATRIARCH** model only.\n\n- Models in the bearer's unit have the Infiltrators ability.\n\n- You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n\n- That use is -1 CP.\n\n- That use does not prevent any uses of that **stratagem** on other units this phase."
       },
       "Enhancement§Prowling Agitant": {
         "keywords": {
@@ -4031,7 +4542,29 @@
             "value": 15
           }
         },
-        "text": "Genestealer Cults model only. Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9″ of the bearer’s unit, if the bearer’s unit is not within Engagement Range of any enemy units, it can make a Normal move of up to D6″."
+        "text": "**GENESTEALER CULTS** model only. In your opponent's Movement phase, if an enemy unit ends a move within 8” of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to D6”.'",
+        "rules": {
+          "GENESTEALER CULTS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Genestealer Cults"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Serpentine Tactics": {
         "keywords": {
@@ -4066,7 +4599,7 @@
             "value": 10
           }
         },
-        "text": "**Genestealer Cults Mounted** model only. The bearer’s unit is eligible to shoot in a turn in which it Fell Back."
+        "text": "**GENESTEALER CULTS MOUNTED** model only. The bearer’s unit is eligible to shoot in a turn in which it Fell Back."
       },
       "Enhancement§Starfall Shells": {
         "keywords": {
@@ -4101,7 +4634,7 @@
             "value": 10
           }
         },
-        "text": "**Genestealer Cults Mounted** model only. In your Shooting phase, after the bearer has shot, select one enemy unit hit by one or more of those attacks made with a cult sniper rifle. Until the start of your next Shooting phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll."
+        "text": "**GENESTEALER CULTS MOUNTED** model only. In your Shooting phase, after the bearer has shot, select one enemy unit hit by one or more of those attacks made with a cult sniper rifle. Until the start of your next Shooting phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll."
       },
       "Enhancement§Synaptic Auger": {
         "keywords": {
@@ -4136,7 +4669,7 @@
             "value": 15
           }
         },
-        "text": "**Tyranids** model only. Each time the bearer would\nregain one or more lost wounds from the Psionic\nParasitism Detachment rule, it regains up to twice\nthat number of lost wounds instead."
+        "text": "**TYRANIDS** model only. Each time the bearer would regain one or more lost wounds from the Psionic Parasitism Detachment rule, it regains up to twice that number of lost wounds instead."
       },
       "Enhancement§Talons of the Sire": {
         "keywords": {
@@ -4149,7 +4682,29 @@
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Patriarch** model only. This unit’s attacks can re‑roll **wound rolls** of 1."
+        "text": "**PATRIARCH** model only. This unit’s attacks can re-roll **wound rolls** of 1.",
+        "rules": {
+          "PATRIARCH model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Patriarch"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§The Hero Returned": {
         "keywords": {
@@ -4184,7 +4739,7 @@
             "value": 20
           }
         },
-        "text": "**Genestealer Cults Infantry** model only. Improve the Leadership and Objective Control characteristics of models in the bearer’s unit by 1."
+        "text": "**GENESTEALER CULTS INFANTRY** model only. Improve the Leadership and Objective Control characteristics of models in the bearer’s unit by 1."
       },
       "Enhancement§Vanguard Tyrant": {
         "keywords": {
@@ -4283,7 +4838,7 @@
             "value": 25
           }
         },
-        "text": "**Winged Hive Tyrant** model only. Improve the Strength\nand Armour Penetration characteristics of melee\nweapons equipped by the bearer by 1."
+        "text": "**WINGED HIVE TYRANT** model only. Improve the Strength and Armour Penetration characteristics of melee weapons equipped by the bearer by 1."
       },
       "Melee Weapon§Aberrants—Aberrant Weapons": {
         "aspects": {
@@ -7955,7 +8510,7 @@
                     "value"
                   ]
                 ],
-                "value": "Brood Brother Auxilia",
+                "value": "Brood Brothers Auxilia",
                 "contains": true
               }
             ],
@@ -8338,7 +8893,7 @@
                     "value"
                   ]
                 ],
-                "value": "Brood Brother Auxilia",
+                "value": "Brood Brothers Auxilia",
                 "contains": true
               }
             ],
@@ -8555,11 +9110,11 @@
                   }
                 ]
               },
-              "Brood Brother Auxilia": {
+              "Brood Brothers Auxilia": {
                 "order": 6,
                 "traits": [
                   {
-                    "trait": "Detachment§Brood Brother Auxilia"
+                    "trait": "Detachment§Brood Brothers Auxilia"
                   }
                 ]
               },
@@ -8568,14 +9123,6 @@
                 "traits": [
                   {
                     "trait": "Detachment§Final Day"
-                  }
-                ]
-              },
-              "Brood Brothers Auxilia": {
-                "order": 8,
-                "traits": [
-                  {
-                    "trait": "Detachment§Brood Brothers Auxilia"
                   }
                 ]
               },
@@ -8624,8 +9171,8 @@
       "Stratagem§A Dark Network": {
         "keywords": {
           "Keywords": [
-            "Brood Brother Auxilia",
-            "Genestealer Cults"
+            "Genestealer Cults",
+            "Brood Brothers Auxilia"
           ],
           "Category": [
             "Strategic Ploy"
@@ -8637,7 +9184,7 @@
             "Movement"
           ]
         },
-        "text": "**WHEN**: Reinforcements step of your opponent’s Movement phase, just after an enemy unit is set up on the battlefield from Reserves.\n\n**TARGET**: One **Astra Militarum** unit and one **Genestealers Cult** unit from your army (excluding **Monsters** and **Vehicles**) within 12” of that enemy unit.\n\n**EFFECT**: Your unit can make a Normal move of up to 6”"
+        "text": "**WHEN:** Reinforcements step of your opponent’s Movement phase, just after an enemy unit is set up on the battlefield from Reserves.\n\n**TARGET:** One **ASTRA MILITARUM** or **GENESTEALER CULTS** unit from your army (excluding **MONSTERS** and **VEHICLES**) within 12\" of that enemy unit.\n\n**EFFECT:** Your unit can make a Normal move of up to 6\"."
       },
       "Stratagem§A Deadly Snare": {
         "keywords": {
@@ -8655,7 +9202,7 @@
             "Opponent’s"
           ]
         },
-        "text": "**WHEN**: Your opponent’s Charge phase, just after an enemy unit declares a charge.\n\n**TARGET**: One Genestealer Cults Infantry unit from your army that was selected as a target of that charge.\n\n**EFFECT**: Roll one D6, on a 2-4, that enemy unit suffers D3 mortal wounds; on a 5+, that enemy unit suffers 3 mortal wounds."
+        "text": "**WHEN:** Your opponent’s Charge phase, just after an enemy unit declares a charge.\n\n**TARGET:** One **GENESTEALER CULTS INFANTRY** unit from your army that was selected as a target of that charge.\n\n**EFFECT:** Roll one D6: on a 2-4, that enemy unit suffers D3 mortal wounds; on a 5+, that enemy unit suffers 3 mortal wounds."
       },
       "Stratagem§Acceptable Losses": {
         "keywords": {
@@ -8663,8 +9210,8 @@
             "Strategic Ploy"
           ],
           "Keywords": [
-            "Brood Brother Auxilia",
-            "Genestealer Cults"
+            "Genestealer Cults",
+            "Brood Brothers Auxilia"
           ],
           "Turn": [
             "Yours"
@@ -8678,7 +9225,7 @@
             "value": 2
           }
         },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One **Astra Militarum** unit from your army.\n\n**EFFECT**: Select one enemy unit within Engagement Range of one or more **Genestealer Cults** units from your army. Until the end of the phase, your unit can make ranged attacks that target that enemy unit. If it does, after it has resolved those attacks, roll one D6 for each if those **Genestealer Cults** units: on a 5+, the unit being rolled suffers D3+1 mortal wounds."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **ASTRA MILITARUM** unit from your army.\n\n**EFFECT:** Select one enemy unit within Engagement Range of one or more **GENESTEALER CULTS** units from your army. Until the end of the phase, your unit can make ranged attacks that target that enemy unit. If it does, after it has resolved those attacks, roll one D6 for each of those **GENESTEALER CULTS** units: on a 5+, the unit being rolled for suffers D3+1 mortal wounds."
       },
       "Stratagem§Along Shadowed Trails": {
         "keywords": {
@@ -8690,24 +9237,26 @@
             "Strategic Ploy"
           ],
           "Turn": [
-            "Opponent’s",
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Phase": [
             "Any"
           ]
         },
-        "text": "**WHEN**: Any phase, just after an enemy unit ends a move within 9” of one or more of your Cult Ambush markers.\n\n**TARGET**: Select one of those Cult Ambush markers.\n\n**EFFECT**: You can set up that Cult Ambush marker anywhere on the battlefield that is more than 9\" horizontally away from all enemy units."
+        "text": "**WHEN:** Any phase, just after an enemy unit ends a move within 8\" of one or more of your Cult Ambush markers.\n\n**TARGET:** Select one of those Cult Ambush markers.\n\n**EFFECT:** You can set up that Cult Ambush marker anywhere on the battlefield that is more than 8\" horizontally away from all enemy units."
       },
       "Stratagem§Avenge the Star Children": {
         "keywords": {
           "Keywords": [
+            "Genestealer Cults",
             "Final Day"
           ],
           "Category": [
             "Battle Tactic"
           ],
           "Turn": [
+            "Yours",
             "Opponent’s"
           ],
           "Phase": [
@@ -8715,7 +9264,7 @@
             "Shooting"
           ]
         },
-        "text": "**WHEN:** Your opponent’s Shooting phase or the Fight\nphase, just after an enemy unit has shot or fought.\n\n**TARGET:** One **Tyranids Character** unit from your\narmy that was destroyed by that enemy unit this\nphase. You can use this Stratagem on that unit even\nthough it was just destroyed.\n\nEFFECT: Until the end of the battle, each time a\n**Genestealer Cults** model from your army makes\nan attack that targets that enemy unit, add 1 to the\nHit roll and add 1 to the Wound roll."
+        "text": "**WHEN:** Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has shot or fought.\n\n**TARGET:** One **TYRANIDS CHARACTER** unit from your army that was destroyed by that enemy unit this phase. You can use this Stratagem on that unit even though it was just destroyed.\n\n**EFFECT:** Until the end of the battle, each time a **GENESTEALER CULTS** model from your army makes an attack that targets that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
       },
       "Stratagem§Bio-horror Revelation": {
         "keywords": {
@@ -8723,8 +9272,8 @@
             "Shooting"
           ],
           "Keywords": [
-            "Biosanctic Broodsurge",
-            "Genestealer Cults"
+            "Genestealer Cults",
+            "Biosanctic Broodsurge"
           ],
           "Category": [
             "Strategic Ploy"
@@ -8733,7 +9282,7 @@
             "Opponent’s"
           ]
         },
-        "text": "**WHEN**: Start of your opponent’s Shooting phase.\n\n**TARGET**: One **Aberrants**, **Biophagus** or **Purestrain Genestealers** unit from your army.\n\n**EFFECT**: Until the end of the phase, each time an enemy unit within 9” of your unit is selected to shoot, it must take a Leadership test, subtracting 1 from the result. If that test is failed, until the end of the phase, each time a model in that enemy unit makes an attack that targets your unit, subtract 1 from the Hit roll."
+        "text": "**WHEN:** Start of your opponent’s Shooting phase.\n\n**TARGET:** One **ABERRANTS**, **BIOPHAGUS** or **PURESTRAIN GENESTEALERS** unit from your army.\n\n**EFFECT:** Until the end of the phase, each time an enemy unit within 9\" of your unit is selected to shoot, it must take a Leadership test, subtracting 1 from the result. If that test is failed, until the end of the phase, each time a model in that enemy unit makes an attack that targets your unit, subtract 1 from the Hit roll."
       },
       "Stratagem§Close-range Shoot-out": {
         "keywords": {
@@ -8751,7 +9300,7 @@
             "Shooting"
           ]
         },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One **Genestealer Cults Mounted** or **Genestealer Cults Vehicle** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT**: Until the end of the phase, ranged weapons equipped by models in your unit have the [LETHAL HITS] ability against targets within 18”."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **GENESTEALER CULTS MOUNTED** or **GENESTEALER CULTS VEHICLE** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, ranged weapons equipped by models in your unit have the **[LETHAL HITS]** ability while targeting an enemy unit within 18\"."
       },
       "Stratagem§Coordinated Trap": {
         "keywords": {
@@ -8767,8 +9316,8 @@
             "Battle Tactic"
           ],
           "Turn": [
-            "Opponent’s",
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ]
         },
         "stats": {
@@ -8776,11 +9325,12 @@
             "value": 2
           }
         },
-        "text": "**WHEN**: The start of your Shooting phase or the start of the Fight phase.\n\n**TARGET**: Two Genestealer Cults units from your army that have not been selected to shoot or fight this phase, and one enemy unit.\n\n**EFFECT:** Select one enemy unit ( if this Stratagem is used in the Fight phase, that enemy unit must be within Engagement Range of both of your units). Until the end of the phase, each time a model in either of your units makes an attack, it can only target that enemy unit (and only if it is an eligible target for that attack), and when resolving that attack, add 1 to the Wound roll."
+        "text": "**WHEN:** The start of your Shooting phase or the start of the Fight phase.\n\n**TARGET:** Two **GENESTEALER CULTS** units from your army that have not been selected to shoot or fight this phase.\n\n**EFFECT:** Select one enemy unit (if this Stratagem is used in the Fight phase, that enemy unit must be within Engagement Range of both of your units). Until the end of the phase, each time a model in either of your units makes an attack, it can only target that enemy unit (and only if it is an eligible target for that attack), and when resolving that attack, add 1 to the Wound roll."
       },
       "Stratagem§Darting Attacks": {
         "keywords": {
           "Keywords": [
+            "Genestealer Cults",
             "Final Day"
           ],
           "Category": [
@@ -8794,7 +9344,7 @@
             "Shooting"
           ]
         },
-        "text": "**WHEN:** Your Shooting phase or your Charge phase.\n\n**TARGET:** One **Tyranids** unit from your army.\n\n**EFFECT:** Until the end of the phase, your unit is\neligible to shoot and declare a charge in a turn in\nwhich it Fell Back."
+        "text": "**WHEN:** Your Shooting phase or your Charge phase.\n\n**TARGET:** One **TYRANIDS** unit from your army.\n\n**EFFECT:** Until the end of the phase, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
       },
       "Stratagem§Deft Manoeuvring": {
         "keywords": {
@@ -8812,7 +9362,7 @@
             "Shooting"
           ]
         },
-        "text": "**WHEN**: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One **Achilles Ridgerunners** or **Atalan Jackals** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT**: Until the end of phase, models in your unit have a 4+ invulnerable save."
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **ACHILLES RIDGERUNNERS** or **ATALAN JACKALS** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, models in your unit have a 4+ invulnerable save."
       },
       "Stratagem§Devoted Crew": {
         "keywords": {
@@ -8824,19 +9374,20 @@
             "Outlander Claw"
           ],
           "Turn": [
-            "Opponent’s",
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Phase": [
             "Fight",
             "Shooting"
           ]
         },
-        "text": "**WHEN**: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One **Goliath Rockgrinder** or **Goliath Truck** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT**: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Damage characteristic of that attack."
+        "text": "**WHEN:** Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **GOLIATH ROCKGRINDER** or **GOLIATH TRUCK** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, each time an attack targets your unit, subtract 1 from the Damage characteristic of that attack."
       },
       "Stratagem§Divine Imperative": {
         "keywords": {
           "Keywords": [
+            "Genestealer Cults",
             "Final Day"
           ],
           "Category": [
@@ -8849,7 +9400,7 @@
             "Charge"
           ]
         },
-        "text": "**WHEN:** Your Charge phase.\n\n**TARGET:** One **Genestealer Cults** unit from your\narmy that has not declared a charge this phase.\n\n**EFFECT:** Select one enemy unit within Engagement\nRange of one or more **Tyranids** units from your\narmy. Until the end of the phase, each time your\n**Genestealer Cults** unit declares a charge, if that\nenemy unit is one of the targets of that charge, add 1\nto Charge rolls made for your unit and you can re‑roll\nthe Charge roll."
+        "text": "**WHEN:** Your Charge phase, when a friendly **GENESTEALER CULTS** unit within 12\" of a friendly **engaged** **TYRANIDS** unit **declares a charge**.\n\n**TARGET:** That **GENESTEALER CULTS** unit.\n\n**EFFECT:** - Your unit has +1 to **charge rolls**.\n\n- You can use this part of this **stratagem**. If you do:\n\n- Your unit can re-roll **charge rolls**.\n\n- Your unit __must__ end that **charge move** **engaged** with an enemy unit **engaged** with that friendly **TYRANIDS** unit."
       },
       "Stratagem§Encircling the Prey": {
         "keywords": {
@@ -8867,7 +9418,7 @@
             "Fight"
           ]
         },
-        "text": "**WHEN**: End of your opponent’s Fight phase.\n\n**TARGET**: One **Genestealer Cults Mounted** or **Genestealer Cults Vehicle** unit from your army that is not within Engagement Range of one or more enemy units and is wholly within 9” of one or more battlefield edges.\n\n**EFFECT**: Remove your unit from the battlefield and place it into Strategic Reserves."
+        "text": "**WHEN:** End of your opponent’s Fight phase.\n\n**TARGET:** One **GENESTEALER CULTS MOUNTED** or **GENESTEALER CULTS VEHICLE** unit from your army that is not within Engagement Range of one or more enemy units and is wholly within 9\" of one or more battlefield edges.\n\n**EFFECT:** Remove your unit from the battlefield and place it into Strategic Reserves."
       },
       "Stratagem§Evasive Vanguard": {
         "keywords": {
@@ -8875,18 +9426,18 @@
             "Any"
           ],
           "Turn": [
-            "Opponent’s",
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Category": [
             "Strategic Ploy"
           ],
           "Keywords": [
-            "Biosanctic Broodsurge",
-            "Genestealer Cults"
+            "Genestealer Cults",
+            "Biosanctic Broodsurge"
           ]
         },
-        "text": "**WHEN**: Any phase, just after an enemy unit ends a move within 9\" of one or more of your Cult Ambush markers, before removing those markers from the battlefield.\n\n**TARGET**: Select one of those Cult Ambush markers.\n\n**EFFECT**: You can set up that Cult Ambush marker anywhere on the battlefield that is more than 9\" horizontally away from all enemy units."
+        "text": "**WHEN:** Any phase, just after an enemy unit ends a move within 8\" of one or more of your Cult Ambush markers, before removing those markers from the battlefield.\n\n**TARGET:** Select one of those Cult Ambush markers.\n\n**EFFECT:** You can set up that Cult Ambush marker anywhere on the battlefield that is more than 8\" horizontally away from all enemy units."
       },
       "Stratagem§Frenzied Devotion": {
         "keywords": {
@@ -8901,11 +9452,11 @@
             "Fight"
           ],
           "Turn": [
-            "Opponent’s",
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ]
         },
-        "text": "**When**: Fight phase.\n\n**Target**: One **Acolyte Hybrid**, **Hybrid Metamorphs** or **Neophyte Hybrids** unit from your army that has not been selected to fight this phase.\n\n**Effect**: Until the end of the phase, improve the Attacks and Weapon Skill characteristics of melee weapons equipped by models (excluding **Characters**) in your unit by 1 and those weapons have the **[Hazardous]** ability."
+        "text": "**WHEN:** Fight phase.\n\n**TARGET:** One **ACOLYTE HYBRIDS**, **HYBRID METAMORPHS** or **NEOPHYTE HYBRIDS** unit from your army that has not been selected to fight this phase.\n\n**EFFECT:** Until the end of the phase, improve the Attacks and Weapon Skill characteristics of melee weapons equipped by models (excluding **CHARACTERS**) in your unit by 1 and those weapons have the **[HAZARDOUS]** ability."
       },
       "Stratagem§Gene-twisted Muscle": {
         "keywords": {
@@ -8913,18 +9464,18 @@
             "Battle Tactic"
           ],
           "Turn": [
-            "Opponent’s",
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Keywords": [
-            "Biosanctic Broodsurge",
-            "Genestealer Cults"
+            "Genestealer Cults",
+            "Biosanctic Broodsurge"
           ],
           "Phase": [
             "Fight"
           ]
         },
-        "text": "**WHEN**: Fight phase.\n\n**TARGET**: One **Aberrants**, **Biophagus** or **Purestrain Genestealers** unit from your army that has not been selected to fight this phase.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes an attack that targets a **Monster** or **Vehicle**, add 1 to the Wound roll."
+        "text": "**WHEN:** Fight phase.\n\n**TARGET:** One **ABERRANTS**, **BIOPHAGUS** or **PURESTRAIN GENESTEALERS** unit from your army that has not been selected to fight this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack that targets a **MONSTER** or **VEHICLE**, add 1 to the Wound roll."
       },
       "Stratagem§Hyper-metabolic Vigour": {
         "keywords": {
@@ -8932,22 +9483,23 @@
             "Battle Tactic"
           ],
           "Turn": [
-            "Opponent’s",
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Phase": [
             "Fight"
           ],
           "Keywords": [
-            "Biosanctic Broodsurge",
-            "Genestealer Cults"
+            "Genestealer Cults",
+            "Biosanctic Broodsurge"
           ]
         },
-        "text": "**WHEN**: Fight phase.\n\n**TARGET**: One **Aberrants**, **Biophagus** or **Purestrain Genestealers** unit from your army that has not been selected to fight this phase.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move up to 6” instead of 3”. In addition, it does not need to end that move closer to the closest enemy model, provided it ends it as close as possible to the closest enemy unit."
+        "text": "**WHEN:** Fight phase.\n\n**TARGET:** One **ABERRANTS**, **BIOPHAGUS** or **PURESTRAIN GENESTEALERS** unit from your army that has not been selected to fight this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\". In addition, it does not need to end that move closer to the closest enemy model, provided it ends it as close as possible to the closest enemy unit."
       },
       "Stratagem§Hyperferocity": {
         "keywords": {
           "Keywords": [
+            "Genestealer Cults",
             "Final Day"
           ],
           "Category": [
@@ -8955,28 +9507,32 @@
           ],
           "Phase": [
             "Fight"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
           ]
         },
-        "text": "**WHEN:** Fight phase.\n\n**TARGET:** One **Genestealer Cults** unit from your\narmy that has not been selected to fight this phase.\n\n**EFFECT:** Until the end of the phase, each time a\nmodel in your unit makes an attack that targets an\nenemy unit, re‑roll a Wound roll of 1. If one or more\nfriendly **Tyranids** units are within 6\" of that enemy\nunit, you can re‑roll the Wound roll instead."
+        "text": "**WHEN:** Fight phase.\n\n**TARGET:** One **GENESTEALER CULTS** unit from your army that has not been selected to fight this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit, re-roll a Wound roll of 1. If one or more friendly **TYRANIDS** units are within 6\" of that enemy unit, you can re-roll the Wound roll instead."
       },
       "Stratagem§In the Shadow of Iron": {
         "keywords": {
           "Keywords": [
-            "Brood Brother Auxilia",
-            "Genestealer Cults"
+            "Genestealer Cults",
+            "Brood Brothers Auxilia"
           ],
           "Category": [
             "Strategic Ploy"
           ],
           "Turn": [
-            "Opponent’s",
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Phase": [
             "Any"
           ]
         },
-        "text": "**WHEN**: Any phase, just after an enemy unit ends a move within 9” of one or more of your Cult Ambush markers.\n\n**TARGET**: One **Astra Militarum Vehicle** unit from your army.\n\n**EFFECT**: Select one of those Cult Ambush markers, You can set up that Cult Ambush marker anywhere on the battlefield that is more than 9” horizontally away from all enemy units and wholly within 6” of your unit."
+        "text": "**WHEN:** Any phase, just after an enemy unit ends a move within 8\" of one or more of your Cult Ambush markers.\n\n**TARGET:** One **ASTRA MILITARUM VEHICLE** unit from your army.\n\n**EFFECT:** Select one of those Cult Ambush markers. You can set up that Cult Ambush marker anywhere on the battlefield that is more than 8\" horizontally away from all enemy units and wholly within 6\" of your unit."
       },
       "Stratagem§Lying in Wait": {
         "keywords": {
@@ -8994,7 +9550,7 @@
             "Opponent’s"
           ]
         },
-        "text": "**WHEN**: Your opponent’s Movement phase.\n\n**TARGET**: One **Genestealer Cults Battleline** unit from your army in Cult Ambush.\n\n**EFFECT**: Until the end of the phase, when setting your unit up using a Cult Ambush marker, set your unit up anywhere on the battlefield wholly within 6\" of that Cult Ambush marker and not within Engagement Range of one or more enemy units."
+        "text": "**WHEN:** Your opponent’s Movement phase.\n\n**TARGET:** One **GENESTEALER CULTS BATTLELINE** unit from your army in Cult Ambush.\n\n**EFFECT:** Until the end of the phase, when setting your unit up using a Cult Ambush marker, set your unit up anywhere on the battlefield wholly within 6\" of that Cult Ambush marker and not within Engagement Range of one or more enemy units."
       },
       "Stratagem§Primed and Readied": {
         "keywords": {
@@ -9010,7 +9566,8 @@
             "Shooting"
           ],
           "Turn": [
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ]
         },
         "stats": {
@@ -9018,11 +9575,12 @@
             "value": 2
           }
         },
-        "text": "**WHEN**: Your Shooting phase or the Fight phase.\n\n**TARGET**: One Genestealer Cults unit from your army that has not been selected to shoot or fight this phase.\n\n**EFFECT:** Until the end of the phase, each time a model inyour unit makes an attack, a Critical Hit is scored on an unmodified Hit roll of 5+. instead of only a 6."
+        "text": "**WHEN:** Your Shooting phase or the Fight phase.\n\n**TARGET:** One **GENESTEALER CULTS** units from your army that has not been selected to shoot or fight this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6."
       },
       "Stratagem§Psi Surge": {
         "keywords": {
           "Keywords": [
+            "Genestealer Cults",
             "Final Day"
           ],
           "Category": [
@@ -9030,9 +9588,13 @@
           ],
           "Phase": [
             "Any"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
           ]
         },
-        "text": "**WHEN:** Start of any phase.\n\n**TARGET:** One **Tyranids** unit from your army.\n\n**EFFECT:** Until the start of your next Command phase,\nincrease the range of your unit’s Catalyst ability\nby 3\".\n\n**RESTRICTIONS:** Each time you use this Stratagem,\nuntil the end of your next Command phase, you\ncannot use this Stratagem again."
+        "text": "**WHEN:** Start of any phase.\n\n**TARGET:** One **TYRANIDS** unit from your army.\n\n**EFFECT:** Until the start of your next Command phase, increase the range of your unit’s Catalyst ability by 3.\n\n**RESTRICTIONS:** Each time you use this Stratagem, until the end of your next Command phase, you cannot use this Stratagem again."
       },
       "Stratagem§Rapid Feint": {
         "keywords": {
@@ -9050,31 +9612,32 @@
             "Movement"
           ]
         },
-        "text": "**WHEN**: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\n**TARGET**: One **Achilles Ridgerunners** or **Atalan Jackals** unit from your army that is within 9” of that enemy unit.\n\n**EFFECT**: Your unit can make a Normal move of up to 6”."
+        "text": "**WHEN:** Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\n**TARGET:** One **ACHILLES RIDGERUNNERS** or **ATALAN JACKALS** unit from your army that is within 8\" of that enemy unit.\n\n**EFFECT:** Your unit can make a Normal move of up to 6\"."
       },
       "Stratagem§Regimental Reinforcements": {
         "keywords": {
           "Keywords": [
-            "Brood Brother Auxilia",
-            "Genestealer Cults"
+            "Genestealer Cults",
+            "Brood Brothers Auxilia"
           ],
           "Category": [
             "Strategic Ploy"
           ],
           "Turn": [
-            "Opponent’s",
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Phase": [
             "Fight",
             "Shooting"
           ]
         },
-        "text": "**WHEN**: Your opponent’s Shooting phase or the Fight phase, just after an **Astra Militarum Infantry Regiment** unit from your army (excluding **Artillery** and **Character** units) is destroyed.\n\n**TARGET**: That **Infantry** unit. You can use this Stratagem on that unit even though it was just destroyed.\n\n**EFFECT**: Roll one D6: on a 3+, your unit is placed into Cult Ambush and you can place one Cult Ambush marker anywhere on the battlefield that is more than 9” horizontally away from all enemy units (If this is not possible, no marker is placed)."
+        "text": "**WHEN:** Your opponent’s Shooting phase or the Fight phase, just after an **ASTRA MILITARUM INFANTRY REGIMENT** unit from your army (excluding **ARTILLERY** and **CHARACTER** units) is destroyed.\n\n**TARGET:** That **INFANTRY** unit. You can use this Stratagem on that unit even though it was just destroyed.\n\n**EFFECT:** Roll one D6: on a 3+, place one Cult Ambush marker anywhere on the battlefield that is more than 8\" horizontally away from all enemy units (if this is not possible, no marker is placed) and add a new unit to your army identical to your destroyed unit, in Cult Ambush, at its Starting Strength, with all of its wounds remaining and any **[ONE SHOT]** weapons those models are equipped with considered as not having been shot.\n\n**RESTRICTIONS:** You can only use this Stratagem once per battle."
       },
       "Stratagem§Resistance Tunnels": {
         "keywords": {
           "Keywords": [
+            "Genestealer Cults",
             "Final Day"
           ],
           "Category": [
@@ -9087,7 +9650,7 @@
             "Fight"
           ]
         },
-        "text": "**WHEN:** End of your opponent’s Fight phase.\n\n**TARGET:** One **Genestealer Cults** or **Tyranids** unit\nfrom your army that is not within Engagement Range\nof one or more enemy units.\n\n**EFFECT:** Remove your unit from the battlefield and\nplace it into Strategic Reserves."
+        "text": "**WHEN:** End of your opponent’s Fight phase.\n\n**TARGET:** One **GENESTEALER CULTS** or **TYRANIDS** unit from your army that is not within Engagement Range of one or more enemy units.\n\n**EFFECT:** Remove your unit from the battlefield and place it into Strategic Reserves."
       },
       "Stratagem§Return To the Shadows": {
         "keywords": {
@@ -9096,7 +9659,7 @@
             "Host of Ascension"
           ],
           "Phase": [
-            "Shooting"
+            "Fight"
           ],
           "Category": [
             "Strategic Ploy"
@@ -9105,32 +9668,32 @@
             "Opponent’s"
           ]
         },
-        "text": "**WHEN**: Your opponent's Shooting phase, just after an enemy unit has shot.\n\n**TARGET**: End of your opponent’s Fight phase.\n\n**EFFECT**: One Genestealer Cults Infantry unit from your army that is not within Engagement Range of one or more enemy units."
+        "text": "**WHEN:** End of your opponent’s Fight phase.\n\n**TARGET:** One **GENESTEALER CULTS INFANTRY** unit from your army that is not within Engagement Range of one or more enemy units.\n\n**EFFECT:** Remove your unit from the battlefield and place it into Strategic Reserves."
       },
       "Stratagem§Saintly Paroxysm": {
         "keywords": {
           "Keywords": [
-            "Biosanctic Broodsurge",
-            "Genestealer Cults"
+            "Genestealer Cults",
+            "Biosanctic Broodsurge"
           ],
           "Category": [
             "Epic Deed"
           ],
           "Turn": [
-            "Opponent’s",
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Phase": [
             "Fight"
           ]
         },
-        "text": "**WHEN**: Fight phase, just after an enemy unit destroys a **Genestealer Cults Character** model from your army.\n\n**TARGET**: That destroyed **Character** model. You can use this Stratagem on that model even thought it was just destroyed.\n\n**EFFECT**: Roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds. If that **Character** model is an **Abominant** or **Patriarch**, that enemy unit suffers 2D3 mortal wounds instead."
+        "text": "**WHEN:** Fight phase, just after an enemy unit destroys a **GENESTEALER CULTS CHARACTER** model from your army.\n\n**TARGET:** That destroyed **CHARACTER** model. You can use this Stratagem on that model even though it was just destroyed.\n\n**EFFECT:** Roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds. If that **CHARACTER** model is an **ABOMINANT** or **PATRIARCH**, that enemy unit suffers 2D3 mortal wounds instead."
       },
       "Stratagem§Stimulated Bio-surge": {
         "keywords": {
           "Keywords": [
-            "Biosanctic Broodsurge",
-            "Genestealer Cults"
+            "Genestealer Cults",
+            "Biosanctic Broodsurge"
           ],
           "Category": [
             "Battle Tactic"
@@ -9142,13 +9705,13 @@
             "Charge"
           ]
         },
-        "text": "**WHEN**: Your Charge phase.\n\n**TARGET**: One **Aberrants**, **Biophagus** or **Purestrain Genestealers** unit from your army that has not declared a charge this phase.\n\n**EFFECT**: Until the end of the phase, each time your unit declares a charge, if the closest eligible enemy unit is selected as one of the targets of that charge, add 1 to the Charge roll of each selected target of that charge (including the closest eligible enemy unit), to a maximum of +3."
+        "text": "**WHEN:** Your Charge phase.\n\n**TARGET:** One **ABERRANTS**, **BIOPHAGUS** or **PURESTRAIN GENESTEALERS** unit from your army that has not declared a charge this phase.\n\n**EFFECT:** Your unit has +2 to **charge rolls**."
       },
-      "Stratagem§Supress and Overwhelm": {
+      "Stratagem§Suppress and Overwhelm": {
         "keywords": {
           "Keywords": [
-            "Brood Brother Auxilia",
-            "Genestealer Cults"
+            "Genestealer Cults",
+            "Brood Brothers Auxilia"
           ],
           "Category": [
             "Strategic Ploy"
@@ -9160,7 +9723,7 @@
             "Shooting"
           ]
         },
-        "text": "**WHEN**: Your Shooting phase, just after an **Astra Militarum** unit from your army has shot.\n\n**TARGET**: That **Astra Militarum** unit.\n\n**EFFECT**: Select one enemy unit hit by one or more of those attacks. Until the end of the turn, that enemy unit cannot be target with the Fire Overwatch Stratagem and each time a **Genestealer Cults** unit from your army selects that enemy unit as a target of a charge, you can re-roll the Charge roll."
+        "text": "**WHEN:** Your Shooting phase, just after an **ASTRA MILITARUM** unit from your army has shot.\n\n**TARGET:** That **ASTRA MILITARUM** unit.\n\n**EFFECT:** Select one enemy unit hit by one or more of those attacks. Until the end of the turn, that enemy unit cannot be targeted with the Fire Overwatch Stratagem and each time a **GENESTEALER CULTS** unit from your army selects that enemy unit as a target of a charge, you can re-roll the Charge roll."
       },
       "Stratagem§Symbiotic Destruction": {
         "keywords": {
@@ -9168,8 +9731,8 @@
             "Battle Tactic"
           ],
           "Keywords": [
-            "Brood Brother Auxilia",
-            "Genestealer Cults"
+            "Genestealer Cults",
+            "Brood Brothers Auxilia"
           ],
           "Turn": [
             "Yours"
@@ -9178,7 +9741,7 @@
             "Shooting"
           ]
         },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One **Astra Militarum** unit and one **Genestealers Cult** unit from your army that have not been selected to shoot this phase.\n\n**EFFECT**: Select one enemy unit that is visible to both of those selected units and within range of at least one ranged weapon from each of those units. Until the end of the phase, models in those units can only make attacks that target that enemy unit (and only if it is an eligible target). When doing so, each tema such a model makes an attack, re-roll a Wound roll of 1."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **ASTRA MILITARUM** and one **GENESTEALER CULTS** unit from your army that have not been selected to shoot this phase.\n\n**EFFECT:** Select one enemy unit that is visible to both of those selected units and within range of at least one ranged weapon from each of those units. Until the end of the phase, models in those units can only make attacks that target that enemy unit (and only if it is an eligible target). When doing so, each time such a model makes an attack, re-roll a Wound roll of 1."
       },
       "Stratagem§The Downtrodden Rise": {
         "keywords": {
@@ -9201,7 +9764,7 @@
             "value": 2
           }
         },
-        "text": "**WHEN**: End of the Reinforcements step of your opponent’s Movement phase.\n\n **TARGET**: One **Acolyte Hybrids**, **Hybrid Metamorphs** or **Neophyte Hybrids** unit from your army in Cult Ambush.\n\n**EFFECT**: Until the end of the phase, you can set up your unit on the battlefield without using a Cult Ambush marker. When doing so, set up your unit anywhere on the battlefield that is more than 6\" horizontally away from all enemy units."
+        "text": "**WHEN:** End of your opponent’s Movement phase.\n\n**TARGET:** One **ACOLYTE HYBRIDS**, **HYBRID METAMORPHS** or **NEOPHYTE HYBRIDS** unit from your army in Cult Ambush.\n\n**EFFECT:** Until the end of the phase, you can set up your unit on the battlefield without using a Cult Ambush marker. When doing so, set up your unit anywhere on the battlefield that is more than 6\" horizontally away from all enemy units."
       },
       "Stratagem§The Path of Anguish": {
         "keywords": {
@@ -9219,7 +9782,7 @@
             "Shooting"
           ]
         },
-        "text": "**WHEN**: Your opponent's Shooting phase, just after an enemy unit has shot.\n\n**TARGET**: One **Acolyte Hybrids** or **Neophyte Hybrids** unit from your army that had one or more of its models destroyed as a result of the attacking unit's attacks.\n\n**EFFECT**: Your unit can make a move of up to D6\", but it unit must end that move as close as possible to the closest enemy unit (excluding **Aircraft**). When doing so, models in your unit can be moved within Engagement Range of that enemy unit."
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has shot.\n\n**TARGET:** One **ACOLYTE HYBRIDS** or **NEOPHYTE HYBRIDS** unit from your army that had one or more of its models destroyed as a result of the attacking unit’s attacks.\n\n**EFFECT:** Your unit can make a move of up to D6\", but it unit must end that move as close as possible to the closest enemy unit (excluding **AIRCRAFT**). When doing so, models in your unit can be moved within Engagement Range of that enemy unit."
       },
       "Stratagem§Tireless Fervour": {
         "keywords": {
@@ -9231,13 +9794,13 @@
             "Xenocreed Congregation"
           ],
           "Turn": [
-            "Charge"
+            "Yours"
           ],
           "Phase": [
-            "Yours"
+            "Charge"
           ]
         },
-        "text": "**WHEN**: Your Charge phase.\n\n**TARGET**: One **Acolyte Hybrids**, **Hybrid Metamorphs** or **Neophyte Hybrids** unit from your army that has not declared a charge this phase.\n\n**EFFECT**: Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced or Fell Back. When doing so, if it targets an enemy unit within Engagement Range of one or more friendly **Character** units, you can re-roll the Charge roll."
+        "text": "**WHEN:** Your Charge phase.\n\n**TARGET:** One **ACOLYTE HYBRIDS**, **HYBRID METAMORPHS** or **NEOPHYTE HYBRIDS** unit from your army that has not declared a charge this phase.\n\n**EFFECT:** -  If your unit made an **advance**/**fall-back move** this turn, that **advance**/**fall-back move** does not prevent your unit from being **eligible to declare a charge**.\n\n- When your unit **declares a charge**, you can use this part of this **stratagem**. If you do:\n\n- Your unit can re-roll **charge rolls**.\n\n- Your unit __must__ end that **charge move engaged** with an enemy unit **engaged** with a friendly **CHARACTER** unit."
       },
       "Stratagem§Transcendent Celerity": {
         "keywords": {
@@ -9255,7 +9818,7 @@
             "Xenocreed Congregation"
           ]
         },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One **Acolyte Hybrids**, **Hybrid Metamorphs** or **Neophyte Hybrids** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT**: Until the end of the phase, ranged weapons equipped by models in your unit have [ASSAULT] ability."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **ACOLYTE HYBRIDS**, **HYBRID METAMORPHS** or **NEOPHYTE HYBRIDS** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, ranged weapons equipped by models in your unit have the **[ASSAULT]** ability."
       },
       "Stratagem§Tunnel Crawlers": {
         "keywords": {
@@ -9273,7 +9836,7 @@
             "Yours"
           ]
         },
-        "text": "**WHEN**: Your Movement phase.\n\n**TARGET**: One Genestealer Cults unit from your army that is arriving using the Deep Strike ability this phase.\n\n**EFFECT**: Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units.\n\n**RESTRICTIONS**: A unit targeted by this Stratagem is not eligible to declare a charge in the same turn."
+        "text": "**WHEN:** Your Movement phase.\n\n**TARGET:** One **GENESTEALER CULTS** unit from your army that is arriving using the Deep Strike ability this phase.\n\n**EFFECT:** Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units.\n\n**RESTRICTIONS:** A unit targeted by this Stratagem is not eligible to declare a charge in the same turn."
       },
       "Stratagem§Vengeance for the Martyr!": {
         "keywords": {
@@ -9285,15 +9848,15 @@
             "Xenocreed Congregation"
           ],
           "Turn": [
-            "Opponent’s",
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Phase": [
             "Fight",
             "Shooting"
           ]
         },
-        "text": "**WHEN**: Your opponent's Shooting phase the\nFight phase just after an enemy unit destroys\na **Genestealer Cults Character** model from your army.\n\n**TARGET**: One other **Genestealer Cults Character** model from your army.\n\n**EFFECT**: Until the end of the battle, each time a\nfriendly **Acolyte Iconward**, **Hybrid Metamorph** or **Neophye Hybrids** model makes an attack that targets that enemy unit, re-roll a Hit roll of 1. If the destroyed model was a **Magus**, **Primus** or **Acolyte Iconward**, you can re-roll the Hit roll instead."
+        "text": "**WHEN:** Your opponent’s Shooting phase or the Fight phase, just after an enemy unit destroys a **GENESTEALER CULTS CHARACTER** model from your army.\n\n**TARGET:** One other **GENESTEALER CULTS CHARACTER** model from your army.\n\n**EFFECT:** Until the end of the battle, each time a friendly **ACOLYTE HYBRIDS**, **HYBRID METAMORPHS** or **NEOPHYTE HYBRIDS** model makes an attack that targets that enemy unit, re-roll a Hit roll of 1. If the destroyed model was a **MAGUS**, **PRIMUS** or **ACOLYTE ICONWARD**, you can re-roll the Hit roll instead."
       },
       "Unit§Aberrants": {
         "allowed": {
@@ -11815,6 +12378,146 @@
           "traits": [
             "Ranged Weapon§Benefictus—Psychic Cascade – witchfire",
             "Ranged Weapon§Benefictus—Psychic Cascade – focused witchfire"
+          ]
+        }
+      },
+      "Stratagem§Inhuman Reactions": {
+        "text": "**WHEN:** Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly **unengaged** **PURESTRAIN GENESTEALERS** unit.\n\n**TARGET:** That **PURESTRAIN GENESTEALERS** unit.\n\n**EFFECT:** Your unit can make a **normal move** of up to D3+3\".",
+        "keywords": {
+          "Keywords": [
+            "Genestealer Cults",
+            "Purestrain Broodswarm"
+          ],
+          "Turn": [
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Movement"
+          ]
+        }
+      },
+      "Stratagem§Crawling Horror": {
+        "text": "**WHEN:** Start of your opponent’s Movement phase.\n\n**TARGET:** One friendly **PURESTRAIN GENESTEALERS** unit.\n\n**EFFECT:** Your unit has -6\" **detection range** until the end of the turn.",
+        "keywords": {
+          "Keywords": [
+            "Genestealer Cults",
+            "Purestrain Broodswarm"
+          ],
+          "Turn": [
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Movement"
+          ]
+        }
+      },
+      "Stratagem§Lurk and Strike": {
+        "text": "**WHEN:** Your Movement phase, when a friendly **PURESTRAIN GENESTEALERS** unit is selected to make a **fall-back move**.\n\n**TARGET:** That **PURESTRAIN GENESTEALERS** unit.\n\n**EFFECT:** That move does not prevent your unit from being **eligible to declare a charge**.",
+        "keywords": {
+          "Keywords": [
+            "Genestealer Cults",
+            "Purestrain Broodswarm"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Movement"
+          ]
+        }
+      },
+      "Stratagem§Surging Broodworship": {
+        "text": "**WHEN:** Your Shooting phase or the Fight phase, when a friendly **KILLER** unit is **selected to attack**.\n\n**TARGET:** That **KILLER** unit.\n\n**EFFECT:** Attacks made by **KILLER** models in your unit have **[DEVASTATING WOUNDS]**.",
+        "keywords": {
+          "Keywords": [
+            "Genestealer Cults",
+            "Heroes Of The Uprising"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Fight",
+            "Shooting"
+          ]
+        }
+      },
+      "Stratagem§Loyal to the End": {
+        "text": "**WHEN:** Fight phase, when an enemy unit targets a friendly **KILLER** unit.\n\n**TARGET:** That **KILLER** unit.\n\n**EFFECT:** When a **KILLER** model in your unit is **destroyed**, if your unit has not been **selected to fight** this phase, roll one D6: \n\n- On a 1, that enemy unit suffers 1 **mortal wound**.\n\n- On a 2+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield.",
+        "keywords": {
+          "Keywords": [
+            "Genestealer Cults",
+            "Heroes Of The Uprising"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Fight"
+          ]
+        }
+      },
+      "Stratagem§Living up to Legend": {
+        "text": "**WHEN:** Your Shooting phase or the Fight phase, when a friendly **KILLER** unit has **attacked**, if those attacks **destroyed** an enemy unit or an enemy **CHARACTER** model.\n\n**TARGET:** That **KILLER** unit.\n\n**EFFECT:** Each **visible** friendly **battle-shocked** **GENESTEALER CULTS** unit within 12\" of your unit is no longer **battle-shocked**.",
+        "keywords": {
+          "Keywords": [
+            "Genestealer Cults",
+            "Heroes Of The Uprising"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Fight",
+            "Shooting"
+          ]
+        }
+      },
+      "Stratagem§Slunk from the Underbelly": {
+        "text": "**WHEN:** Your opponent’s Shooting phase, when an enemy unit targets a friendly **NEOPHYTE HYBRIDS** unit with every model within a **terrain area**.\n\n**TARGET:** That **NEOPHYTE HYBRIDS** unit.\n\n**EFFECT:** Ranged attacks that target your unit have -1 **AP** until that unit has attacked.",
+        "keywords": {
+          "Keywords": [
+            "Genestealer Cults",
+            "Xenocult Masses"
+          ],
+          "Turn": [
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        }
+      },
+      "Stratagem§Eyes of the Cult": {
+        "text": "**WHEN:** Start of your Shooting phase.\n\n**TARGET:** One friendly **NEOPHYTE HYBRIDS** unit within a **terrain area**.\n\n**EFFECT:** Enemy units within that **terrain area** have +6\" **detection range**.",
+        "keywords": {
+          "Keywords": [
+            "Genestealer Cults",
+            "Xenocult Masses"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        }
+      },
+      "Stratagem§Fanatical Hail": {
+        "text": "**WHEN:** Your Shooting phase, when a friendly **NEOPHYTE HYBRIDS** unit is **selected to shoot**.\n\n**TARGET:** That **NEOPHYTE HYBRIDS** unit.\n\n**EFFECT:** Select one enemy unit. Your unit’s ranged attacks that target that enemy unit can re-roll **hit rolls**.",
+        "keywords": {
+          "Keywords": [
+            "Genestealer Cults",
+            "Xenocult Masses"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Shooting"
           ]
         }
       }

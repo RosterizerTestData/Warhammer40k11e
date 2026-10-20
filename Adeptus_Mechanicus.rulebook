@@ -1,6 +1,6 @@
 {
   "name": "Adeptus Mechanicus 11e",
-  "revision": "11.1.6",
+  "revision": "11.1.14",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -2028,7 +2028,58 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Noospheric Recon**\n- Friendly **Pteraxii/Infiltrators/Rangers/Serberys Raiders/Serberys Sulphurhounds** units have **Recon Augury**.\n\n- Friendly **Recon Augury** units have the following ability:\n\n**Enhanced Augurs:** In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **analysed**: \n\n- While a unit is **analysed**, that unit has +3\" **detection range**."
+        "text": "**NOOSPHERIC RECON**\n\n- Friendly **PTERAXII/INFILTRATORS/RANGERS/SERBERYS RAIDERS/SERBERYS SULPHURHOUNDS** units have **RECON AUGURY**.\n\n- Friendly **RECON AUGURY** units have the following ability:\n\n**Enhanced Augurs:** In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **analysed**: \n\n- While a unit is **analysed**, that unit has +3\" **detection range**.",
+        "rules": {
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Repolarised Augurs"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Clandestine Reposition"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Defect Scrutiny"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        }
       },
       "Detachment§Cohort Cybernetica": {
         "keywords": {
@@ -2037,7 +2088,7 @@
           ]
         },
         "rules": {
-          "assignStratagem": {
+          "assignStratagems": {
             "actions": [
               {
                 "actionType": "add",
@@ -2066,6 +2117,20 @@
                   ]
                 ],
                 "value": "Stratagem§Auto-divinatory Targeting"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Benevolence of the Omnissiah"
               },
               {
                 "actionType": "add",
@@ -2108,20 +2173,6 @@
                   ]
                 ],
                 "value": "Stratagem§Transcendent Cogitation"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Benevolence of the Omnissiah"
               }
             ],
             "evals": [],
@@ -2134,7 +2185,7 @@
             "value": 1
           }
         },
-        "text": "## Cyber-Psalm Programming\n\nAdd 2\" to the Move characteristic of models in LEGIO CYBERNETICA units from your army. In addition, unless that unit is Battle-shocked, add 1 to the Objective Control characteristic of models in that unit."
+        "text": "**CYBER-PSALM PROGRAMMING**\n\nAdd 2\" to the Move characteristic of models in **LEGIO CYBERNETICA** units from your army. In addition, unless that unit is Battle‐shocked, add 1 to the Objective Control characteristic of models in that unit."
       },
       "Detachment§Data-psalm Conclave": {
         "keywords": {
@@ -2143,7 +2194,28 @@
           ]
         },
         "rules": {
-          "assignStratagem": {
+          "removeSameTagDetachments": {
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Luminen Auto-Choir"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 10
+          },
+          "assignStratagems": {
             "actions": [
               {
                 "actionType": "add",
@@ -2185,6 +2257,20 @@
                     "traits"
                   ]
                 ],
+                "value": "Stratagem§Luminescent Blessing"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
                 "value": "Stratagem§Verse of Vengeance"
               },
               {
@@ -2213,47 +2299,12 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Luminescent Blessing"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
                 "value": "Stratagem§Litany of the Electromancer"
               }
             ],
             "evals": [],
             "evaluate": "AND",
             "failState": "pass"
-          },
-          "removeSameTagDetachments": {
-            "actions": [
-              {
-                "actionType": "remove",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "stats",
-                    "Detachment",
-                    "ranks"
-                  ]
-                ],
-                "value": "Luminen Auto-Choir"
-              }
-            ],
-            "evals": [],
-            "evaluate": "AND",
-            "failState": "pass",
-            "order": 10
           }
         },
         "stats": {
@@ -2261,7 +2312,7 @@
             "value": 2
           }
         },
-        "text": "At the start of the first battle round, select one of the following Benedictions of the Omnissiah to be active for Cult Mechanicus units from your army until the end of the battle:\n\n\n### PANEGYRIC PROCESSION\nEach time a Cult Mechanicus model from your army makes a ranged attack that targets a unit within half range, improve the Armour Penetration characteristic of that attack by 1.\n\n\n### CITATION IN SAVAGERY\nEach time a Cult Mechanicus unit from your army is selected to fight, if that unit made a Charge move this turn, until the end of the phase, add 1 to the Strength and Attacks characteristics of melee weapons equipped by models in that unit."
+        "text": "**BENEDICTIONS OF THE OMNISSIAH**\n\nAt the start of the first battle round, select one of the following Benedictions of the Omnissiah to be active for **Cult Mechanicus** units from your army until the end of the battle:\n\nPANEGYRIC PROCESSION\n\nEach time a **CULT MECHANICUS** model from your army makes a ranged attack that targets a unit within half range, improve the Armour Penetration characteristic of that attack by 1.\n\nCITATION IN SAVAGERY\n\nEach time a **CULT MECHANICUS** unit from your army is selected to fight, if that unit made a Charge move this turn, until the end of the phase, add 1 to the Strength and Attacks characteristics of melee weapons equipped by models in that unit."
       },
       "Detachment§Eradication Cohort": {
         "keywords": {
@@ -2284,49 +2335,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Analytic Reprisals"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Unshackled Wrath"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
                 "value": "Stratagem§Precision Onslaught"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Threat-Cogitation Targeters"
               },
               {
                 "actionType": "add",
@@ -2354,7 +2363,49 @@
                     "traits"
                   ]
                 ],
+                "value": "Stratagem§Analytic Reprisals"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
                 "value": "Stratagem§Servo-Driven Charge"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Unshackled Wrath"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Threat-Cogitation Targeters"
               }
             ],
             "evals": [],
@@ -2367,7 +2418,7 @@
             "value": 2
           }
         },
-        "text": "## MURDEROUS IMPERATIVE\n\nEach time a model in a Skitarii unit from\nyour army makes an attack:\n\n■ If the Protector Imperative is active for\nthat unit, re‑roll a Hit roll of 1.\n\n■ If the Conqueror Imperative is active\nfor that unit, re‑roll a Wound roll of 1."
+        "text": "**MURDEROUS IMPERATIVE**\n\nEach time a model in a **SKITARII** unit from your army makes an attack:\n\n■ If the Protector Imperative is active for that unit, re-roll a Hit roll of 1.\n■ If the Conqueror Imperative is active for that unit, re-roll a Wound roll of 1."
       },
       "Detachment§Explorator Maniple": {
         "keywords": {
@@ -2390,49 +2441,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Cached Acquisition"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
                 "value": "Stratagem§Priority Reclamation"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Infoslave Skull"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Reactive Safeguard"
               },
               {
                 "actionType": "add",
@@ -2460,6 +2469,48 @@
                     "traits"
                   ]
                 ],
+                "value": "Stratagem§Cached Acquisition"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Reactive Safeguard"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Infoslave Skull"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
                 "value": "Stratagem§Incense Exhausts"
               }
             ],
@@ -2473,7 +2524,7 @@
             "value": 2
           }
         },
-        "text": "At the start of your Command phase, select one objective marker. Until the start of your next Command phase, that objective marker is your Acquisition objective marker. Each time an Adeptus Mechanicus model from your army makes an attack, if that model’s unit is within range of your Acquisition objective marker, or if the target of that attack is within range of your Acquisition objective marker, re-roll a Wound roll of 1."
+        "text": "**ACQUISITION AT ANY COST**\n\nAt the start of your Command phase, select one objective marker. Until the start of your next Command phase, that objective marker is your Acquisition objective marker. Each time an **ADEPTUS MECHANICUS** model from your army makes an attack, if that model’s unit is within range of your Acquisition objective marker, or if the target of that attack is within range of your Acquisition objective marker, re-roll a Wound roll of 1."
       },
       "Detachment§Haloscreed Battle Clade": {
         "keywords": {
@@ -2525,6 +2576,20 @@
                     "traits"
                   ]
                 ],
+                "value": "Stratagem§Guided Retreat"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
                 "value": "Stratagem§Neural Overload"
               },
               {
@@ -2553,20 +2618,6 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Guided Retreat"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
                 "value": "Stratagem§Analytical Divination"
               }
             ],
@@ -2580,7 +2631,7 @@
             "value": 3
           }
         },
-        "text": "**Noospheric Transference**\n\nIn your Command phase, select one or more **Adeptus Mechanicus** units from your army (including units that are embarked within Transports). The maximum number of units you can select depends on the battle size, as follows:\n\n|||\n|---|---|\n|INCURSION|1 UNITS|\n|STRIKE FORCE| 2 UNITS|\n|ONSLAUGHT|3 UNITS|\n\nUntil the start of your next Command phase, those units gain the Halo Override keyword. Then, select one of the Override abilities below. Until the start of your next Command phase, units from your army with the Halo Override keyword have the selected Override ability: Electromotive Energisation Add 2\" to the Move characteristic of models in this unit. Microactuator Bracing Add 1 to the Toughness characteristic of models in this unit. Predation Protocols This unit is eligible to declare a charge in a turn in which it Advanced. Muted Servomotors Models in this unit have the Stealth ability"
+        "text": "**NOOSPHERIC TRANSFERENCE**\n\nIn your Command phase, select one or more **ADEPTUS MECHANICUS** units from your army (including units that are embarked within **TRANSPORTS**). The maximum number of units you can select depends on the battle size, as follows:\n\nUntil the start of your next Command phase, those units gain the **HALO OVERRIDE** keyword. Then, select one of the Override abilities below. Until the start of your next Command phase, units from your army with the **HALO OVERRIDE** keyword have the selected Override ability:\n\nElectromotive Energisation\n\nAdd 2\" to the Move characteristic of models in this unit.\n\nMicroactuator Bracing\n\nAdd 1 to the Toughness characteristic of models in this unit.\n\nPredation Protocols\n\nThis unit is eligible to declare a charge in a turn in which it Advanced.\n\nMuted Servomotors\n\nModels in this unit have the Stealth ability."
       },
       "Detachment§Lords Of The Forge": {
         "keywords": {
@@ -2593,7 +2644,58 @@
             "value": 2
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**War-form Mantles**\nFriendly **Tech-Priest** models have: \n\n- 4+ **InSv**.\n\n- **Feel No Pain 5+**.\nFriendly **TECH-PRIEST** models have the following ability:\n\nBaffling Data Screed: In your Shooting phase, when this unit is **selected to shoot**, if this unit is not **battle-shocked**, you can use this ability. If you do, roll one D6:\n\n- On a 2+, select one enemy **VEHICLE** unit within 12\" of this unit. That enemy unit makes a **battle-shock roll**, with -1 to that **battle-shock roll**. A unit cannot be selected for this ability more than once per turn.\n\n- __Or:__ On 2+, those ranged attacks do not prevent this unit from being **hidden**."
+        "text": "**WAR-FORM MANTLES**\n\nFriendly **TECH-PRIEST** models have: \n\n- 4+ **InSv**.\n\n- **Feel No Pain 5+**.\nFriendly **TECH-PRIEST** models have the following ability:\n\nBaffling Data Screed: In your Shooting phase, when this unit is **selected to shoot**, if this unit is not **battle-shocked**, you can use this ability. If you do, roll one D6:\n\n- On a 2+, select one enemy **VEHICLE** unit within 12\" of this unit. That enemy unit makes a **battle-shock roll**, with -1 to that **battle-shock roll**. A unit cannot be selected for this ability more than once per turn.\n\n- __Or:__ On 2+, those ranged attacks do not prevent this unit from being **hidden**.",
+        "rules": {
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Scriptural Prognosis"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Overloaded Safeguards"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Holy Avarice"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        }
       },
       "Detachment§Luminen Auto-Choir": {
         "keywords": {
@@ -2606,7 +2708,7 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Cyber-static Canticles**\n- Friendly **CORPUSCARII** units’ ranged attacks have **[Lethal Hits]**.\n\n- When a friendly **FULGURITE** unit has fought, that unit **heals** D3 wounds.\nThis **detachment** has the **DATA-PSALM** tag and cannot be taken with another **DATA-PSALM** **detachment**.",
+        "text": "**CYBER-STATIC CANTICLES**\n\n- Friendly **CORPUSCARII** units’ ranged attacks have **[LETHAL HITS]**.\n\n- When a friendly **FULGURITE** unit has fought, that unit **heals** D3 wounds.\nThis **detachment** has the **DATA-PSALM** tag and cannot be taken with another **DATA-PSALM** **detachment**.",
         "rules": {
           "removeSameTagDetachments": {
             "actions": [
@@ -2628,16 +2730,7 @@
             "evaluate": "AND",
             "failState": "pass",
             "order": 10
-          }
-        }
-      },
-      "Detachment§Rad-Zone Corps": {
-        "keywords": {
-          "Role": [
-            "Take And Hold"
-          ]
-        },
-        "rules": {
+          },
           "assignStratagems": {
             "actions": [
               {
@@ -2652,7 +2745,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Baleful Halo"
+                "value": "Stratagem§Chant of Electrotraction"
               },
               {
                 "actionType": "add",
@@ -2666,7 +2759,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Extinction Order"
+                "value": "Stratagem§Echoes of the Conduit Wars"
               },
               {
                 "actionType": "add",
@@ -2680,8 +2773,24 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Lethal Dosage"
-              },
+                "value": "Stratagem§Momentum Feedback"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        }
+      },
+      "Detachment§Rad-Zone Corps": {
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
+        "rules": {
+          "assignStratagems": {
+            "actions": [
               {
                 "actionType": "add",
                 "iterations": 1,
@@ -2722,7 +2831,49 @@
                     "traits"
                   ]
                 ],
+                "value": "Stratagem§Baleful Halo"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
                 "value": "Stratagem§Bulwark Imperative"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Extinction Order"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Lethal Dosage"
               }
             ],
             "evals": [],
@@ -2735,7 +2886,7 @@
             "value": 2
           }
         },
-        "text": "### BOMBARDMENT\nAt the start of the first battle round, for each enemy unit within your opponent’s deployment zone, your opponent must decide whether that unit will take cover or stand firm. You then roll one D6 for each of those enemy units and apply the relevant result below:\n\n* Unit Standing Firm: On a 3+, that unit suffers D3 mortal wounds.\n\n* Unit Taking Cover: Until the end of the battle round, that unit is Battle-shocked and, on a 5+, that unit suffers D3 mortal wounds.\n\n### FALLOUT\nAt the start of your Command phase during the second, third, fourth and fifth battle rounds, roll one D6 for each enemy unit within your opponent’s deployment zone. On a 3+, that unit suffers 1 mortal wound and must take a Battle-shock test."
+        "text": "**RAD-BOMBARDMENT**\n\nBOMBARDMENT\n\nAt the start of the first battle round, for each enemy unit within your opponent’s deployment zone, your opponent must decide whether that unit will take cover or stand firm. You then roll one D6 for each of those enemy units and apply the relevant result below:\n\n■ **Unit Standing Firm:** On a 3+, that unit suffers D3 mortal wounds.\n■ **Unit Taking Cover:** That unit is **battle-shocked**. On a 5+, that unit suffers D3 **mortal wounds**.\n\nFALLOUT\n\nAt the start of your Command phase during the second, third, fourth and fifth battle rounds, roll one D6 for each enemy unit within your opponent’s deployment zone. On a 3+, that unit suffers 1 mortal wound and must take a Battle-shock test."
       },
       "Detachment§Skitarii Hunter Cohort": {
         "keywords": {
@@ -2746,34 +2897,6 @@
         "rules": {
           "assignStratagems": {
             "actions": [
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Bionic Endurance"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Binharic Offence"
-              },
               {
                 "actionType": "add",
                 "iterations": 1,
@@ -2828,7 +2951,35 @@
                     "traits"
                   ]
                 ],
+                "value": "Stratagem§Bionic Endurance"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
                 "value": "Stratagem§Expedited Purge Protocol"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Binharic Offence"
               }
             ],
             "evals": [],
@@ -2841,7 +2992,7 @@
             "value": 2
           }
         },
-        "text": "Skitarii Infantry, Skitarii Mounted and Ironstrider Ballistarii units from your army have the Stealth ability, and each time a ranged attack targets a Sicarian unit from your army, unless the attacking model is within 12″, the target has the Benefit of Cover against that attack."
+        "text": "**STEALTH OPTIMISATION**\n\nFriendly **SKITARII INFANTRY**, **SKITARII MOUNTED** and **IRONSTRIDER BALLISTARII** units have **Stealth**."
       },
       "Enhancement§Arch-negator": {
         "keywords": {
@@ -2921,7 +3072,7 @@
             "value": 5
           }
         },
-        "text": "Tech-Priest model only. Ranged weapons equipped by the bearer have the [ANTI-VEHICLE 4+] ability."
+        "text": "**TECH-PRIEST** model only. Ranged weapons equipped by the bearer have the **[ANTI-VEHICLE 4+]** ability."
       },
       "Enhancement§Artisan": {
         "keywords": {
@@ -2956,7 +3107,7 @@
             "value": 10
           }
         },
-        "text": "Tech-Priest model only. While the bearer is leading a unit that is within range of your Acquisition objective marker, once per phase, you can change the result of one Hit roll, one Wound roll or one saving throw made for that unit to an unmodified 6."
+        "text": "**TECH-PRIEST** model only. While the bearer is leading a unit that is within range of your Acquisition objective marker, once per phase, you can change the result of one Hit roll, one Wound roll or one saving throw made for that unit to an unmodified 6."
       },
       "Enhancement§Autoclavic Denunciation": {
         "keywords": {
@@ -3046,6 +3197,26 @@
             "evaluate": "AND",
             "failState": "pass",
             "order": 90
+          },
+          "ADEPTUS MECHANICUS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Adeptus Mechanicus"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
           }
         },
         "stats": {
@@ -3053,7 +3224,7 @@
             "value": 15
           }
         },
-        "text": "Adeptus Mechanicus model only. Ranged weapons equipped by the bearer have the [ANTI-INFANTRY 2+] and [ANTI-MONSTER 4+] abilities."
+        "text": "**ADEPTUS MECHANICUS** model only. Ranged weapons equipped by the bearer have the **[ANTI-INFANTRY 2+]** and **[ANTI-MONSTER 4+]** abilities."
       },
       "Enhancement§Battle-sphere Uplink": {
         "keywords": {
@@ -3088,7 +3259,7 @@
             "value": 25
           }
         },
-        "text": "Skitarii model only. In your Shooting phase, after the bearer’s unit has shot, if it is not within Engagement Range of one or more enemy units, that unit can make a Normal move of up to 6″. If it does, until the end of the turn, that unit is not eligible to declare a charge."
+        "text": "**SKITARII** model only. In your Shooting phase, after the bearer’s unit has shot, if it is not within Engagement Range of one or more enemy units, that unit can make a Normal move of up to 6\". If it does, until the end of the turn, that unit is not eligible to declare a charge."
       },
       "Enhancement§Belicosa-class Capacitor Vanes": {
         "keywords": {
@@ -3233,7 +3404,7 @@
             "value": 25
           }
         },
-        "text": "**ADEPTUS MECHANICUS** model only. Add 6\" to the Range characteristic of ranged weapons equipped by models in the bearer's unit, and add 1 to the Strength characteristic of those weapons."
+        "text": "**ADEPTUS MECHANICUS** model only. Add 6\" to the Range characteristic of ranged weapons equipped by models in the bearer’s unit, and add 1 to the Strength characteristic of those weapons."
       },
       "Enhancement§Cantic Thrallnet": {
         "keywords": {
@@ -3268,7 +3439,7 @@
             "value": 25
           }
         },
-        "text": "Skitarii Marshal model only. At the start of the battle round, you can select one friendly Skitarii unit within 12″ of the bearer. Until the start of the next battle round, the Protector Imperative and the Conqueror Imperative are both active for that unit."
+        "text": "**SKITARII MARSHAL** model only. At the start of the battle round, you can select one friendly **SKITARII** unit within 12\" of the bearer. Until the start of the next battle round, the Protector Imperative and the Conqueror Imperative are both active for that unit."
       },
       "Enhancement§Clandestine Infiltrator": {
         "keywords": {
@@ -3346,7 +3517,7 @@
             "value": 15
           }
         },
-        "text": "Skitarii model only. The bearer, and models in any unit they are leading, have the Infiltrators and Scouts 6″ abilities."
+        "text": "**SKITARII** model only. The bearer, and models in any unit they are leading, have the Infiltrators and Scouts 6\" abilities."
       },
       "Enhancement§Cognitive Reinforcement": {
         "keywords": {
@@ -3381,7 +3552,7 @@
             "value": 30
           }
         },
-        "text": "Adeptus Mechanicus model only (excluding Cybernetica Datasmith models). The Conqueror Imperative and Protector Imperative are both active for the bearer’s unit."
+        "text": "**ADEPTUS MECHANICUS** model only (excluding **CYBERNETICA DATASMITH** models). The Conqueror Imperative and Protector Imperative are both active for the bearer’s unit."
       },
       "Enhancement§Data-blessed Autosermon": {
         "keywords": {
@@ -3416,7 +3587,7 @@
             "value": 15
           }
         },
-        "text": "Tech-Priest model only. Once per battle, at the start of your Command phase, you can select the Benediction of the Omnissiah you did not select at the start of the first battle round. Until the start of your next Command phase, that Benediction of the Omnissiah is active for the bearer’s unit in addition to the one that is currently active for your army."
+        "text": "**TECH-PRIEST** model only. Once per battle, at the start of your Command phase, you can select the Benediction of the Omnissiah you did not select at the start of the first battle round. Until the start of your next Command phase, that Benediction of the Omnissiah is active for the bearer’s unit in addition to the one that is currently active for your army."
       },
       "Enhancement§Electromiasmic Brazier": {
         "keywords": {
@@ -3429,7 +3600,29 @@
             "value": 10
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Tech‑Priest** model only. This unit has **Stealth**."
+        "text": "**TECH-PRIEST** model only. This unit has **Stealth**.",
+        "rules": {
+          "TECH-PRIEST model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Tech-Priest"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Emotionless Clarity": {
         "keywords": {
@@ -3464,7 +3657,7 @@
             "value": 10
           }
         },
-        "text": "Tech-Priest model only. Once per turn, when a friendly Legio Cybernetica or Adeptus Mechanicus Vehicle model with the Deadly Demise ability that is within 12″ of the bearer is destroyed, the bearer can use this Enhancement. If it does, do not roll to determine whether any mortal wounds are inflicted as a result of that model’s Deadly Demise ability. Instead, mortal wounds are automatically inflicted."
+        "text": "**TECH-PRIEST** model only. Once per turn, when a friendly **LEGIO CYBERNETICA** or **ADEPTUS MECHANICUS VEHICLE** model with the Deadly Demise ability that is within 12\" of the bearer is destroyed, the bearer can use this Enhancement. If it does, do not roll to determine whether any mortal wounds are inflicted as a result of that model’s Deadly Demise ability. Instead, mortal wounds are automatically inflicted."
       },
       "Enhancement§Explorator Dispensation": {
         "keywords": {
@@ -3477,7 +3670,43 @@
             "value": 20
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Skitarii Marshal** model only. This unit has **Infiltrators**."
+        "text": "**SKITARII MARSHAL** model only. This unit has **Infiltrators**.",
+        "rules": {
+          "SKITARII MARSHAL model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Skitarii"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Marshal"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Genetor": {
         "keywords": {
@@ -3512,7 +3741,7 @@
             "value": 20
           }
         },
-        "text": "Tech-Priest model only. While the bearer is leading a unit that is within range of your Acquisition objective marker, models in that unit have a 4+ invulnerable save."
+        "text": "**TECH-PRIEST** model only. While the bearer is leading a unit that is within range of your Acquisition objective marker, models in that unit have a 4+ invulnerable save."
       },
       "Enhancement§Inloaded Lethality": {
         "keywords": {
@@ -3642,7 +3871,7 @@
             "value": 15
           }
         },
-        "text": "Tech‑Priest Dominus or Tech‑Priest Manipulus model only. Add 3 to the Attacks characteristic of the bearer’s melee weapons and add 1 to the Damage characteristic of the bearer’s melee weapons."
+        "text": "**TECH-PRIEST DOMINUS** or **TECH-PRIEST MANIPULUS** model only. Add 3 to the Attacks characteristic of the bearer’s melee weapons and add 1 to the Damage characteristic of the bearer’s melee weapons."
       },
       "Enhancement§Logis": {
         "keywords": {
@@ -3677,7 +3906,7 @@
             "value": 15
           }
         },
-        "text": "Tech-Priest model only. While the bearer is leading a unit, each time a model in that unit makes an attack that targets a unit within range of your Acquisition objective marker, add 1 to the Hit roll."
+        "text": "**TECH-PRIEST** model only. While the bearer is leading a unit, each time a model in that unit makes an attack that targets a unit within range of your Acquisition objective marker, add 1 to the Hit roll."
       },
       "Enhancement§Lord of Machines": {
         "keywords": {
@@ -3712,7 +3941,7 @@
             "value": 15
           }
         },
-        "text": "Tech-Priest model only. Once per turn, at the start of your opponent’s Shooting phase, select one enemy Vehicle unit within 12″ of and visible to the bearer. That unit must take a Leadership test: if that test is passed, until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll; if that test is failed, that unit is not eligible to shoot this phase."
+        "text": "**TECH-PRIEST** model only. Once per turn, at the start of your opponent’s Shooting phase, select one enemy **VEHICLE** unit within 12\" of and visible to the bearer. That unit must take a Leadership test: if that test is passed, until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll; if that test is failed, that unit is not eligible to shoot this phase."
       },
       "Enhancement§Magos": {
         "keywords": {
@@ -3747,7 +3976,7 @@
             "value": 10
           }
         },
-        "text": "Tech-Priest model only. At the end of your Command phase, if the bearer is within range of your Acquisition objective marker, roll one D6: on a 4+, you gain 1CP."
+        "text": "**TECH-PRIEST** model only. At the end of your Command phase, if the bearer is within range of your Acquisition objective marker, roll one D6: on a 4+, you gain 1CP."
       },
       "Enhancement§Malphonic Susurrus": {
         "keywords": {
@@ -3760,7 +3989,29 @@
             "value": 20
           }
         },
-        "text": "Adeptus Mechanicus model only. While the bearer is leading a unit, models in that unit have the Stealth ability."
+        "text": "**ADEPTUS MECHANICUS** model only. While the bearer is leading a unit, models in that unit have the Stealth ability.",
+        "rules": {
+          "ADEPTUS MECHANICUS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Adeptus Mechanicus"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Mantle of the Gnosticarch": {
         "keywords": {
@@ -3795,7 +4046,7 @@
             "value": 10
           }
         },
-        "text": "Tech-Priest model only. Each time an attack is allocated to the bearer, change the Damage characteristic of that attack to 1."
+        "text": "**TECH-PRIEST** model only. Each time an attack is allocated to the bearer, change the Damage characteristic of that attack to 1."
       },
       "Enhancement§Martial Signatum Amplificator": {
         "keywords": {
@@ -3863,7 +4114,7 @@
             "value": 15
           }
         },
-        "text": "**TECH-PRIEST** model only. Models in the bearer's unit have the **SKITARII** keyword."
+        "text": "**TECH-PRIEST** model only. Models in the bearer’s unit have the **SKITARII** keyword"
       },
       "Enhancement§Mechanicus Locum": {
         "keywords": {
@@ -3898,7 +4149,7 @@
             "value": 5
           }
         },
-        "text": "Tech-Priest model only. The bearer has a Leadership characteristic of 6+ and, once per battle, at the start of any phase, you can select one friendly Cult Mechanicus unit that is Battle-shocked and within 12″ of the bearer. That unit is no longer Battle-shocked."
+        "text": "**TECH-PRIEST** model only. The bearer has a Leadership characteristic of 6+ and, once per battle, at the start of any phase, you can select one friendly **CULT MECHANICUS** unit that is Battle-shocked and within 12\" of the bearer. That unit is no longer Battle-shocked."
       },
       "Enhancement§Necromechanic": {
         "keywords": {
@@ -3933,7 +4184,7 @@
             "value": 20
           }
         },
-        "text": "Tech-Priest model only. Once per battle round, when a saving throw made for a friendly Legio Cybernetica or Adeptus Mechanicus Vehicle model within 12″ of the bearer is failed, the bearer can use this Enhancement. If they do, change the Damage characteristic of that attack to 0."
+        "text": "**TECH-PRIEST** model only. Once per battle round, when a saving throw made for a friendly **LEGIO CYBERNETICA** or **ADEPTUS MECHANICUS VEHICLE** model within 12\" of the bearer is failed, the bearer can use this Enhancement. If they do, change the Damage characteristic of that attack to 0."
       },
       "Enhancement§Omnicogitator": {
         "keywords": {
@@ -3968,7 +4219,7 @@
             "value": 25
           }
         },
-        "text": "**SKITARII MARSHAL** model only. The Conqueror Imperative and Protector Imperative are both active for the bearer's unit."
+        "text": "**SKITARII MARSHAL** model only. The Conqueror Imperative and Protector Imperative are both active for the bearer’s unit."
       },
       "Enhancement§Omnissiah's Fury": {
         "rules": {
@@ -4103,7 +4354,43 @@
             "value": 10
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**SKITARII MARSHAL** model only. Add 2 to the Attacks characteristic of melee weapons equipped by the bearer, and improve the Armour Penetration and Damage characteristics of those weapons by 1."
+        "text": "**SKITARII MARSHAL** model only. Add 2 to the Attacks characteristic of melee weapons equipped by the bearer, and improve the Armour Penetration and Damage characteristics of those weapons by 1.",
+        "rules": {
+          "SKITARII MARSHAL model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Skitarii"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Marshal"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Peerless Eradicator": {
         "keywords": {
@@ -4116,7 +4403,29 @@
             "value": 20
           }
         },
-        "text": "Adeptus Mechanicus model only. While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+        "text": "**ADEPTUS MECHANICUS** model only. While the bearer is leading a unit, ranged weapons equipped by models in that unit have the **[SUSTAINED HITS 1]** ability.",
+        "rules": {
+          "ADEPTUS MECHANICUS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Adeptus Mechanicus"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Radial Suffusion": {
         "keywords": {
@@ -4129,7 +4438,29 @@
             "value": 25
           }
         },
-        "text": "Adeptus Mechanicus model only. From the second battle round onwards, when resolving the Fallout effect of the Rad-bombardment Detachment rule, if the bearer is on the battlefield, roll one D6 for each enemy unit within 6″ of your opponent’s deployment zone, in addition to those that are within your opponent’s deployment zone."
+        "text": "**ADEPTUS MECHANICUS** model only. From the second battle round onwards, when resolving the Fallout effect of the Rad-bombardment Detachment rule, if the bearer is on the battlefield, roll one D6 for each enemy unit within 6\" of your opponent’s deployment zone, in addition to those that are within your opponent’s deployment zone.",
+        "rules": {
+          "ADEPTUS MECHANICUS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Adeptus Mechanicus"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Sanctified Ordnance": {
         "keywords": {
@@ -4142,7 +4473,29 @@
             "value": 10
           }
         },
-        "text": "Adeptus Mechanicus model only. Add 6\" to the range characteristic of ranged weapons equipped by models in the bearer’s unit and, each time a Hazardous test is taken for that unit, you can re‑roll the result."
+        "text": "**ADEPTUS MECHANICUS** model only. Add 6\" to the range characteristic of ranged weapons equipped by models in the bearer’s unit and, each time a Hazardous test is taken for that unit, you can re-roll the result.",
+        "rules": {
+          "ADEPTUS MECHANICUS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Adeptus Mechanicus"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Stealth-screened Cybercanids (Upgrade)": {
         "keywords": {
@@ -4158,7 +4511,7 @@
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Serberys Raiders** unit only. This unit has **Lone Operative 15\"**.",
+        "text": "**SERBERYS RAIDERS** unit only. This unit has **Lone Operative 15\"**.",
         "removed": {
           "keywords": {
             "Tags": [
@@ -4168,6 +4521,28 @@
         },
         "aspects": {
           "Unique": false
+        },
+        "rules": {
+          "SERBERYS RAIDERS unit only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Serberys Raiders"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
         }
       },
       "Enhancement§Temporcopia": {
@@ -4222,7 +4597,7 @@
             "value": 20
           }
         },
-        "text": "Tech-Priest model only. The bearer’s unit has the Fights First ability."
+        "text": "**TECH-PRIEST** model only. The bearer’s unit has the Fights First ability."
       },
       "Enhancement§TL-4ø9": {
         "keywords": {
@@ -4235,7 +4610,29 @@
             "value": 30
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Tech-Priest** model only. This model has the following weapon:"
+        "text": "**TECH-PRIEST** model only. This model has the following weapon:",
+        "rules": {
+          "TECH-PRIEST model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Tech-Priest"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Transoracular Dyad Wafers": {
         "keywords": {
@@ -4270,7 +4667,7 @@
             "value": 15
           }
         },
-        "text": "Cybernetica Datasmith model only. When the\nbearer is attached to a Kastelan Robots unit,\nuntil the end of the battle, models in that unit gain the Halo Override keyword. That unit cannot be selected when selecting units as part of the Noospheric Transference Detachment rule."
+        "text": "**CYBERNETICA DATASMITH** model only. When the bearer is attached to a **KASTELAN ROBOTS** unit, until the end of the battle, models in that unit gain the **HALO OVERRIDE** keyword. That unit cannot be selected when selecting units as part of the Noospheric Transference Detachment rule."
       },
       "Enhancement§Veiled Hunter": {
         "keywords": {
@@ -4305,7 +4702,7 @@
             "value": 10
           }
         },
-        "text": "Skitarii Marshal model only. After both players have deployed their armies, you can select up to three Skitarii Infantry units from your army and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+        "text": "**SKITARII MARSHAL** model only. After both players have deployed their armies, you can select up to three **SKITARII INFANTRY** units from your army and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves."
       },
       "Enhancement§Vingh’s Wafers of Dynamism": {
         "keywords": {
@@ -4318,7 +4715,29 @@
             "value": 25
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Cybernetica Datasmith** model only. At the start of the first battle round, if this unit is an **attached unit**, this unit has **Mobile** until the end of the battle."
+        "text": "**CYBERNETICA DATASMITH** model only. At the start of the first battle round, if this unit is an **attached unit**, this unit has **MOBILE** until the end of the battle.",
+        "rules": {
+          "CYBERNETICA DATASMITH model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Cybernetica Datasmith"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Voltagheist Reliquary": {
         "keywords": {
@@ -4331,7 +4750,29 @@
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**TECH-PRIEST** model only. Enemy units cannot target this unit with **snap shooting** attacks."
+        "text": "**TECH-PRIEST** model only. Enemy units cannot target this unit with **snap shooting** attacks.",
+        "rules": {
+          "TECH-PRIEST model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Tech-Priest"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Melee Weapon§Archaeopter Fusilave—Armoured hull": {
         "aspects": {
@@ -11827,9 +12268,15 @@
           "Keywords": [
             "Adeptus Mechanicus",
             "Haloscreed Battle Clade"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Movement"
           ]
         },
-        "text": "**WHEN**: Your Movement phase.\n\n**TARGET**: One Skorpius Dunerider model from your army that has not been selected to move this phase.\n\n**EFFECT**: Until the end of the turn, each time an Adeptus Mechanicus unit disembarks from that model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+        "text": "**WHEN:** Your Movement phase.\n\n**TARGET:** One **SKORPIUS DUNERIDER** model from your army that has not been selected to move this phase.\n\n**EFFECT:** Until the end of the turn, each time an **ADEPTUS MECHANICUS** unit disembarks from that model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
       },
       "Stratagem§Aggressor Imperative": {
         "keywords": {
@@ -11847,11 +12294,12 @@
             "Yours"
           ]
         },
-        "text": "**WHEN**: Your Movement phase.\n\n**TARGET**: One Skitarii unit from your army that has not been selected to move this phase. If that unit is Battleline, you can also target one friendly Skitarii unit (excluding Battleline units) within 6″ of it.\n\n**EFFECT**: Until the end of the phase, each time one of those units Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6″ to the Move characteristic of models in that unit."
+        "text": "**WHEN:** Your Movement phase.\n\n**TARGET:** One **SKITARII** unit from your army that has not been selected to move this phase. If that unit is **BATTLELINE**, you can also target one friendly **Skitarii** unit (excluding **BATTLELINE** units) within 6\" of it.\n\n**EFFECT:** Until the end of the phase, each time one of those units Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in that unit."
       },
       "Stratagem§Analytic Reprisals": {
         "keywords": {
           "Keywords": [
+            "Adeptus Mechanicus",
             "Eradication Cohort"
           ],
           "Category": [
@@ -11864,12 +12312,7 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your opponent's Shooting phase, just after an enemy unit has shot.\n\n**TARGET**: One SKITARII INFANTRY unit from your army that lost one or more models as a result of the attacking unit's attacks.\n\n**EFFECT**: Your unit can shoot as if it were your Shooting phase, but must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target."
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has shot.\n\n**TARGET:** One **SKITARII** Infantry unit from your army that lost one or more models as a result of the attacking unit’s attacks.\n\n**EFFECT:** Your unit can shoot as if it were your Shooting phase, but must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target."
       },
       "Stratagem§Analytical Divination": {
         "keywords": {
@@ -11887,7 +12330,7 @@
             "Strategic Ploy"
           ]
         },
-        "text": "**WHEN**: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\n**TARGET**: One Adeptus Mechanicus Infantry unit (excluding Kataphron units) from your army that is within 9\" of that enemy unit and not within Engagement Range of one or more enemy units.\n\n**EFFECT**: Your unit can make a Normal move of up to D6\", or up to 6\" instead if it is a Halo Override unit."
+        "text": "**WHEN:** Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\n**TARGET:** One **ADEPTUS MECHANICUS INFANTRY** unit (excluding **KATAPHRON** units) from your army that is within 8\" of that enemy unit and not within Engagement Range of one or more enemy units.\n\n**EFFECT:** Your unit can make a Normal move of up to D6\", or up to 6\" instead if it is a **HALO OVERRIDE** unit."
       },
       "Stratagem§Auto-divinatory Targeting": {
         "keywords": {
@@ -11905,7 +12348,7 @@
             "Cohort Cybernetica"
           ]
         },
-        "text": "**WHEN**: Your Command phase.\n\n**TARGET**: One Legio Cybernetica or Adeptus Mechanicus Vehicle unit from your army, and one objective marker.\n\n**EFFECT**: Until the start of your next Command phase, ranged weapons equipped by models in your unit have a Ballistic Skill characteristic of 3+ and the [IGNORES COVER] ability, but they can only target units within range of the selected objective marker."
+        "text": "**WHEN:** Your Command phase.\n\n**TARGET:** One **LEGIO CYBERNETICA** or **ADEPTUS MECHANICUS VEHICLE** unit from your army, and one objective marker.\n\n**EFFECT:** Until the start of your next Command phase, ranged weapons equipped by models in your unit have a Ballistic Skill characteristic of 3+ and the **[IGNORES COVER]** ability, but they can only target units within range of the selected objective marker."
       },
       "Stratagem§Auto-oracular Retrieval": {
         "keywords": {
@@ -11928,7 +12371,7 @@
             "value": 2
           }
         },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One Adeptus Mechanicus unit from your army that disembarked from a Transport this turn.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit within range of your Acquisition objective marker, add 1 to the Wound roll."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **ADEPTUS MECHANICUS** unit from your army that disembarked from a **TRANSPORT** this turn.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit within range of your Acquisition objective marker, add 1 to the Wound roll."
       },
       "Stratagem§Baleful Halo": {
         "keywords": {
@@ -11943,8 +12386,8 @@
             "Battle Tactic"
           ],
           "Turn": [
-            "Opponent’s",
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ]
         },
         "stats": {
@@ -11952,7 +12395,7 @@
             "value": 2
           }
         },
-        "text": "**WHEN**: Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One Adeptus Mechanicus unit from your army (excluding Vehicle units) that was selected as the target of one or more of that enemy unit’s attacks.\n\n**EFFECT**: Until the end of the turn, each time an attack is made that targets your unit, subtract 1 from the Wound roll."
+        "text": "**WHEN:** Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **ADEPTUS MECHANICUS** unit from your army (excluding **VEHICLE** units) that was selected as the target of one or more of the attacking unit’s attacks. If that unit is **BATTLELINE**, you can also target one friendly **SKITARII** unit (excluding **BATTLELINE** units) within 6\" of it.\n\n**EFFECT:** Until the end of the phase, each time an attack targets one of those units from your army, subtract 1 from the Wound roll."
       },
       "Stratagem§Benevolence of the Omnissiah": {
         "keywords": {
@@ -11970,7 +12413,7 @@
             "Cohort Cybernetica"
           ]
         },
-        "text": "**WHEN**: Your Command phase.\n\n**TARGET**: One Legio Cybernetica or Adeptus Mechanicus Vehicle unit from your army.\n\n**EFFECT**: Until the start of your next Command phase, models in your unit have the Feel No Pain 6+ ability, which is improved to Feel No Pain 5+ against mortal wounds."
+        "text": "**WHEN:** Your Command phase.\n\n**TARGET:** One **LEGIO CYBERNETICA** or **ADEPTUS MECHANICUS VEHICLE** unit from your army.\n\n**EFFECT:** Until the start of your next Command phase, models in your unit have the Feel No Pain 6+ ability, which is improved to Feel No Pain 5+ against mortal wounds."
       },
       "Stratagem§Binharic Offence": {
         "keywords": {
@@ -11978,7 +12421,8 @@
             "Strategic Ploy"
           ],
           "Turn": [
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Phase": [
             "Fight",
@@ -11994,7 +12438,7 @@
             "value": 2
           }
         },
-        "text": "**WHEN**: The start of your Shooting phase or the start of the Fight phase.\n\n**TARGET**: Two Skitarii units from your army that have not been selected to shoot or fight this phase, and one enemy unit.\n\n**EFFECT**: Until the end of the phase, improve the Armour Penetration characteristic of weapons equipped by models in both of your units by 1.\n\n**RESTRICTIONS**: Until the end of the phase, each time a model in either of your units makes an attack, it can only target that enemy unit (and only if it is an eligible target)."
+        "text": "**WHEN:** The start of your Shooting phase or the start of the Fight phase.\n\n**TARGET:** Two **SKITARII** units from your army that have not been selected to shoot or fight this phase, and one enemy unit.\n\n**EFFECT:** Until the end of the phase, improve the Armour Penetration characteristic of weapons equipped by models in both of your units by 1.\n\n**RESTRICTIONS:** Until the end of the phase, each time a model in either of your units makes an attack, it can only target that enemy unit (and only if it is an eligible target)."
       },
       "Stratagem§Bionic Endurance": {
         "keywords": {
@@ -12010,10 +12454,11 @@
             "Shooting"
           ],
           "Turn": [
+            "Yours",
             "Opponent’s"
           ]
         },
-        "text": "**WHEN**: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One Sicarian, Pteraxii or Sydonian unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT**: Until the end of the phase, models in your unit have the Feel No Pain 5+ ability."
+        "text": "**WHEN:** Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **SICARIAN**, **PTERAXII** or **SYDONIAN** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, models in your unit have the Feel No Pain 5+ ability."
       },
       "Stratagem§Bulwark Imperative": {
         "keywords": {
@@ -12036,7 +12481,7 @@
             "value": 2
           }
         },
-        "text": "**WHEN**: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One Skitarii unit from your army that was selected as the target of one or more of that enemy unit’s attacks.\n\n**EFFECT**: Until the end of the turn, models in your unit have a 4+ invulnerable save."
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **SKITARII** unit from your army that was selected as the target of one or more of the attacking unit’s attacks. If that unit is **BATTLELINE**, you can also target one friendly **SKITARII** unit (excluding **BATTLELINE** units) within 6\" of it.\n\n**EFFECT:** Until the end of the phase, models in those units from your army have a 4+ invulnerable save."
       },
       "Stratagem§Cached Acquisition": {
         "keywords": {
@@ -12051,11 +12496,11 @@
             "Explorator Maniple"
           ],
           "Turn": [
-            "Opponent’s",
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ]
         },
-        "text": "**WHEN**: Any phase.\n\n\n**TARGET**: One Adeptus Mechanicus unit from your army that was just destroyed while it was within range of an objective marker you controlled. You can use this Stratagem on that unit even though it was just destroyed.\n\n\n**EFFECT**: That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+        "text": "**WHEN:** Any phase.\n\n**TARGET:** One **ADEPTUS MECHANICUS** unit from your army that was just destroyed while it was within range of an objective marker you controlled. You can use this Stratagem on that unit even though it was just destroyed.\n\n**EFFECT:** That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
       },
       "Stratagem§Chant of the Remorseless Fist": {
         "keywords": {
@@ -12067,14 +12512,14 @@
             "Fight"
           ],
           "Turn": [
-            "Opponent’s",
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Category": [
             "Battle Tactic"
           ]
         },
-        "text": "**WHEN**: Fight phase.\n\n**TARGET**: One Cult Mechanicus unit from your army that has not been selected to fight this phase.\n\n**EFFECT**: Until the end of the phase, each time a Cult Mechanicus model in your unit makes a melee attack, add 1 to the Wound roll."
+        "text": "**WHEN:** Fight phase.\n\n**TARGET:** One **CULT MECHANICUS** unit from your army that has not been selected to fight this phase.\n\n**EFFECT:** Until the end of the phase, each time a **CULT MECHANICUS** model in your unit makes a melee attack, add 1 to the Wound roll."
       },
       "Stratagem§Eradication Protocols": {
         "keywords": {
@@ -12086,15 +12531,15 @@
             "Battle Tactic"
           ],
           "Turn": [
-            "Opponent’s",
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Phase": [
             "Fight",
             "Shooting"
           ]
         },
-        "text": "**WHEN**: Your Shooting phase or the Fight phase.\n\n**TARGET**: One Adeptus Mechanicus unit from your army that has not been selected to shoot or fight this phase.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes an attack, re‑roll a Wound roll of 1, and, if it is a Halo Override unit, re‑roll a Hit roll of 1."
+        "text": "**WHEN:** Your Shooting phase or the Fight phase.\n\n**TARGET:** One **ADEPTUS MECHANICUS** unit from your army that has not been selected to shoot or fight this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack, re-roll a Wound roll of 1, and, if it is a **HALO OVERRIDE** unit, re-roll a Hit roll of 1."
       },
       "Stratagem§Expedited Purge Protocol": {
         "keywords": {
@@ -12112,7 +12557,7 @@
             "Yours"
           ]
         },
-        "text": "**WHEN**: Your Charge phase.\n\n**TARGET**: One Skitarii unit from your army.\n\n**EFFECT**: Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced."
+        "text": "**WHEN:** Your Charge phase.\n\n**TARGET:** One **SKITARII** unit from your army.\n\n**EFFECT:** Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced."
       },
       "Stratagem§Extinction Order": {
         "keywords": {
@@ -12130,12 +12575,12 @@
             "Yours"
           ]
         },
-        "text": "**WHEN**: Your Command phase.\n\n**TARGET**: One Tech-Priest model from your army and one objective marker within 24″ of that model.\n\n**EFFECT**: Roll one D6 for each enemy unit within range of that objective marker. On a 4+, that unit suffers 1 mortal wound and it must take a Battle-shock test."
+        "text": "**WHEN:** Your Command phase.\n\n**TARGET:** One **TECH-PRIEST** model from your army and one objective marker within 24\" of that model.\n\n**EFFECT:** Roll one D6 for each enemy unit within range of that objective marker. On a 4+, that unit suffers 1 mortal wound and must take a Battle-shock test."
       },
       "Stratagem§Guided Retreat": {
         "keywords": {
           "Category": [
-            "Strategic Ploy"
+            "Battle Tactic"
           ],
           "Keywords": [
             "Adeptus Mechanicus",
@@ -12148,7 +12593,7 @@
             "Movement"
           ]
         },
-        "text": "**WHEN**: Your Movement phase, just after an Adeptus Mechanicus unit from your army makes a Fall Back move.\n\n**TARGET**: That Adeptus Mechanicus unit.\n\n**EFFECT**: Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back, and, if it is a Halo Override unit, you can re‑roll Desperate Escape tests taken for it."
+        "text": "**WHEN:** Your Movement phase, just after an **ADEPTUS MECHANICUS** unit from your army is selected to make a Fall Back move.\n\n**TARGET:** That **ADEPTUS MECHANICUS** unit.\n\n**EFFECT:** ▫ If your unit is a **HALO OVERRIDE** unit, your unit can re-roll **hazard rolls**.\n▫ That **fall-back move** does not prevent your unit from:\n▫ Being **eligible to shoot**.\n▫ Being **eligible to declare a charge**."
       },
       "Stratagem§Incantation of the Iron Soul": {
         "keywords": {
@@ -12163,11 +12608,11 @@
             "Any"
           ],
           "Turn": [
-            "Opponent’s",
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ]
         },
-        "text": "**WHEN**: Any phase, just after you allocate a mortal wound to a Cult Mechanicus model from your army.\n\n**TARGET**: That Cult Mechanicus model’s unit.\n\n**EFFECT**: Until the end of the phase, Cult Mechanicus models in your unit have the Feel No Pain 4+ ability against mortal wounds."
+        "text": "**WHEN:** Any phase, just after you allocate a mortal wound to a **CULT MECHANICUS** model from your army.\n\n**TARGET:** That **CULT MECHANICUS** model’s unit.\n\n**EFFECT:** Until the end of the phase, **CULT MECHANICUS** models in your unit have the Feel No Pain 4+ ability against mortal wounds."
       },
       "Stratagem§Incense Exhausts": {
         "keywords": {
@@ -12185,7 +12630,7 @@
             "Explorator Maniple"
           ]
         },
-        "text": "**WHEN**: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One Adeptus Mechanicus Infantry unit from your army that was selected as the target of one or more of the attacking unit’s attacks, and one friendly Adeptus Mechanicus Smoke unit within 6″ of it.\n\n**EFFECT**: Until the end of the phase, both of those units have the Stealth ability and the Benefit of Cover."
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **ADEPTUS MECHANICUS INFANTRY** unit from your army that was selected as the target of one or more of the attacking unit’s attacks, and one friendly **ADEPTUS MECHANICUS SMOKE** unit within 6\" of it.\n\n**EFFECT:** Until the end of the phase, both of those units have the Stealth ability and the Benefit of Cover."
       },
       "Stratagem§Infoslave Skull": {
         "keywords": {
@@ -12203,7 +12648,7 @@
             "Yours"
           ]
         },
-        "text": "**WHEN**: Your Command phase.\n\n**TARGET**: One Tech-Priest model from your army and one objective marker within 24″ of that model (excluding your Acquisition objective marker).\n\n**EFFECT**: Until the start of your next Command phase, that objective marker is also considered to be one of your Acquisition objective markers for all rules purposes."
+        "text": "**WHEN:** Your Command phase.\n\n**TARGET:** One **TECH-PRIEST** model from your army and one objective marker within 24\" of that model (excluding your Acquisition objective marker).\n\n**EFFECT:** Until the start of your next Command phase, that objective marker is also considered to be one of your Acquisition objective markers for all rules purposes."
       },
       "Stratagem§Isolate and Destroy": {
         "keywords": {
@@ -12221,7 +12666,7 @@
             "Skitarii Hunter Cohort"
           ]
         },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One Sicarian, Pteraxii, Sydonian, Ironstrider Ballistarii or Skitarii Mounted unit from your army that has not been selected to shoot this phase.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes an attack, if there are no other enemy units within 6″ of the unit targeted by that attack, add 1 to the Wound roll."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **SICARIAN**, **PTERAXII**, **SYDONIAN**, **IRONSTRIDER BALLISTARII** or **SKITARII MOUNTED** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack, if there are no other enemy units within 6\" of the unit targeted by that attack, add 1 to the Wound roll."
       },
       "Stratagem§Lethal Dosage": {
         "keywords": {
@@ -12239,7 +12684,7 @@
             "Yours"
           ]
         },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One Adeptus Mechanicus unit from your army that has not been selected to shoot this phase.\n\n**EFFECT**: Until the end of the phase, ranged weapons equipped by models in your unit have the [LETHAL HITS] ability."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **ADEPTUS MECHANICUS** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, ranged weapons equipped by models in your unit have the **[LETHAL HITS]** ability."
       },
       "Stratagem§Litany of the Electromancer": {
         "keywords": {
@@ -12257,7 +12702,7 @@
             "Data-psalm Conclave"
           ]
         },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One Cult Mechanicus unit from your army.\n\n**EFFECT**: Roll one D6 for each enemy unit within 6″ of one or more Cult Mechanicus models in your unit, adding 1 to the result if that model is an Electro-Priest. On a 5+, that enemy unit suffers D3 mortal wounds."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **CULT MECHANICUS** unit from your army.\n\n**EFFECT:** Roll one D6 for each enemy unit within 6\" of one or more **Cult Mechanicus** models in your unit, adding 1 to the result if that model is an **ELECTRO-PRIEST**. On a 5+, that enemy unit suffers D3 mortal wounds."
       },
       "Stratagem§Luminescent Blessing": {
         "keywords": {
@@ -12275,7 +12720,7 @@
             "Shooting"
           ]
         },
-        "text": "**WHEN**: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One Cult Mechanicus unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT**: Until the end of the phase, Cult Mechanicus models in your unit have a 4+ invulnerable save."
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **CULT MECHANICUS** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, **CULT MECHANICUS** models in your unit have a 4+ invulnerable save."
       },
       "Stratagem§Machine Spirit Resurgent": {
         "keywords": {
@@ -12293,7 +12738,7 @@
             "Command"
           ]
         },
-        "text": "**WHEN**: Your Command phase.\n\n**TARGET**: One Legio Cybernetica or Adeptus Mechanicus Vehicle unit from your army that is below its Starting Strength.\n\n**EFFECT**: Until the start of your next Command phase, each time a model in your unit makes an attack, you can re-roll the Hit roll. If your unit is Below Half-strength, you can re-roll the Wound roll as well."
+        "text": "**WHEN:** Your Command phase.\n\n**TARGET:** One **LEGIO CYBERNETICA** or **ADEPTUS MECHANICUS VEHICLE** unit from your army that is below its Starting Strength.\n\n**EFFECT:** Until the start of your next Command phase, each time a model in your unit makes an attack, you can re-roll the Hit roll. If your unit is Below Half-strength, you can re-roll the Wound roll as well."
       },
       "Stratagem§Machine Superiority": {
         "keywords": {
@@ -12311,7 +12756,7 @@
             "Cohort Cybernetica"
           ]
         },
-        "text": "**WHEN**: Your Command phase.\n\n**TARGET**: One Legio Cybernetica or Adeptus Mechanicus Vehicle unit from your army.\n\n**EFFECT**: Until the end of the turn, your unit is eligible to shoot in a turn in which it Fell Back and you can ignore any or all modifiers to its characteristics and/or to any roll or test made for it (excluding modifiers to saving throws)."
+        "text": "**WHEN:** Your Command phase.\n\n**TARGET:** One **LEGIO CYBERNETICA** or **ADEPTUS MECHANICUS VEHICLE** unit from your army.\n\n**EFFECT:** Until the end of the turn, your unit is eligible to shoot in a turn in which it Fell Back and you can ignore any or all modifiers to its characteristics and/or to any roll or test made for it (excluding modifiers to saving throws)."
       },
       "Stratagem§Motive Imperative": {
         "keywords": {
@@ -12329,7 +12774,7 @@
             "Command"
           ]
         },
-        "text": "**WHEN**: Your Command phase.\n\n**TARGET**: One Adeptus Mechanicus Vehicle unit from your army.\n\n**EFFECT**: Until the start of your next Command phase, add 3″ to the Move characteristic of models in your unit and add 1 to Advance and Charge rolls made for it."
+        "text": "**WHEN:** Your Command phase.\n\n**TARGET:** One **ADEPTUS MECHANICUS VEHICLE** unit from your army.\n\n**EFFECT:** Until the start of your next Command phase, add 3\" to the Move characteristic of models in your unit and add 1 to Advance and Charge rolls made for it."
       },
       "Stratagem§Neural Overload": {
         "keywords": {
@@ -12347,7 +12792,7 @@
             "Movement"
           ]
         },
-        "text": "**WHEN**: Your Movement phase.\n\n**TARGET**: One Adeptus Mechanicus unit from your army.\n\n**EFFECT**: If your unit is a Halo Override unit, it suffers D3 mortal wounds. Select one Override ability. Until the start of your next Command phase, that ability is active for your unit.\n\n**Designer’s Note**:This means that if the targeted unit already has the Halo Override keyword, it can be affected by multiple Override abilities at the same time, but suffers mortal wounds to do so. Alternatively, if your unit does not have the Halo Override keyword, it instead has the chosen Override ability until the start of your next Command phase, but does not benefit from any other Override abilities that are active."
+        "text": "**WHEN:** Your Movement phase.\n\n**TARGET:** One **ADEPTUS MECHANICUS** unit from your army.\n\n**EFFECT:** If your unit is a **HALO OVERRIDE** unit, it suffers D3 mortal wounds. Select one Override ability. Until the start of your next Command phase, that ability is active for your unit.\n\n**Designer’s Note**: *This means that if the targeted unit already has the* **HALO OVERRIDE** *keyword, it can be affected by multiple Override abilities at the same time, but suffers mortal wounds to do so. Alternatively, if your unit does not have the* **HALO OVERRIDE** *keyword, it instead has the chosen Override ability until the start of your next Command phase, but does not benefit from any other Override abilities that are active.*"
       },
       "Stratagem§Pre-calibrated Purge Solution": {
         "keywords": {
@@ -12362,14 +12807,15 @@
             "Battle Tactic"
           ],
           "Turn": [
-            "Opponent’s"
+            "Yours"
           ]
         },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One Adeptus Mechanicus unit from your army that has not been selected to shoot this phase. If that unit is Battleline, you can also target one friendly Skitarii unit (excluding Battleline units) within 6″ of it.\n\n**EFFECT**: Until the end of the phase, each time a model in one of those units makes a ranged attack, if the target of that attack is within your opponent’s deployment zone, you can re-roll the Hit roll."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **ADEPTUS MECHANICUS** unit from your army that has not been selected to shoot this phase. If that unit is **BATTLELINE**, you can also target one friendly **SKITARII** unit (excluding **BATTLELINE** units) within 6\" of it.\n\n**EFFECT:** Until the end of the phase, each time a model in one of those units makes a ranged attack, if the target of that attack is within your opponent’s deployment zone, you can re-roll the Hit roll."
       },
       "Stratagem§Precision Onslaught": {
         "keywords": {
           "Keywords": [
+            "Adeptus Mechanicus",
             "Eradication Cohort"
           ],
           "Category": [
@@ -12382,12 +12828,7 @@
             "Charge"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Charge phase, just after a SICARIAN unit from your army declares a charge.\n\n**TARGET**: That SICARIAN unit.\n\n**EFFECT**: Until the end of the phase, when your unit ends a Charge move, select one enemy unit within Engagement Range of it, then roll one D6 for each model in your unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound."
+        "text": "**WHEN:** Your Charge phase, just after a **SICARIAN** unit from your army declares a charge.\n\n**TARGET:** That **SICARIAN** unit.\n\n**EFFECT:** Until the end of the phase, when your unit ends a Charge move, select one enemy unit within Engagement Range of it, then roll one D6 for each model in your unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound."
       },
       "Stratagem§Priority Reclamation": {
         "keywords": {
@@ -12395,8 +12836,8 @@
             "Battle Tactic"
           ],
           "Turn": [
-            "Opponent’s",
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Phase": [
             "Fight"
@@ -12406,7 +12847,7 @@
             "Explorator Maniple"
           ]
         },
-        "text": "**WHEN**: Fight phase, just before an Adeptus Mechanicus unit from your army Consolidates.\n\n**TARGET**: That Adeptus Mechanicus unit.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes a Consolidation move, it can move up to 6″ instead of up to 3″, provided your unit ends that Consolidation move within range of your Acquisition objective marker.\n\n**RESTRICTIONS**: You cannot target a unit with this Stratagem if it is within 3″ of one or more enemy units."
+        "text": "**WHEN:** Fight phase, just before an **ADEPTUS MECHANICUS** unit from your army Consolidates.\n\n**TARGET:** That **ADEPTUS MECHANICUS** unit.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes a Consolidation move, it can move up to 6\" instead of up to 3\", provided your unit ends that Consolidation move within range of your Acquisition objective marker.\n\n**RESTRICTIONS:** You cannot target a unit with this Stratagem if it is within 3\" of one or more enemy units."
       },
       "Stratagem§Programmed Withdrawal": {
         "keywords": {
@@ -12424,7 +12865,7 @@
             "Skitarii Hunter Cohort"
           ]
         },
-        "text": "**WHEN**: End of your opponent’s Fight phase.\n\n**TARGET**: Up to two Sicarian units from your army, or one Skitarii Infantry or Skitarii Mounted unit from your army.\n\n**EFFECT**: Remove those units from the battlefield and place them into Strategic Reserves.\n\n**RESTRICTIONS**: Each unit targeted with this Stratagem must be more than 3″ away from all enemy units."
+        "text": "**WHEN:** End of your opponent’s Fight phase.\n\n**TARGET:** Up to two **SICARIAN** units from your army, or one **SKITARII INFANTRY** or **SKITARII MOUNTED** unit from your army.\n\n**EFFECT:** Remove those units from the battlefield and place them into Strategic Reserves.\n\n**RESTRICTIONS:** Each unit targeted with this Stratagem must be more than 3\" away from all enemy units."
       },
       "Stratagem§Reactive Safeguard": {
         "keywords": {
@@ -12442,11 +12883,12 @@
             "Explorator Maniple"
           ]
         },
-        "text": "**WHEN**: Your opponent’s Charge phase, just after an enemy unit has declared a charge.\n\n**TARGET**: One Adeptus Mechanicus Infantry unit from your army within range of your Acquisition objective marker that was selected as a target of that charge, and one friendly Adeptus Mechanicus Transport.\n\n**EFFECT**: Your unit can embark within that Transport.\n\n**RESTRICTIONS**: Every model in your unit must be within 3″ of that Transport and there must be sufficient transport capacity to embark the entire unit."
+        "text": "**WHEN:** Your opponent’s Charge phase, just after an enemy unit has declared a charge.\n\n**TARGET:** One **ADEPTUS MECHANICUS INFANTRY** unit from your army within range of your Acquisition objective marker that was selected as a target of that charge, and one friendly **ADEPTUS MECHANICUS TRANSPORT**.\n\n**EFFECT:** Your unit can embark within that **TRANSPORT**.\n\n**RESTRICTIONS:** Every model in your unit must be within 3\" of that **TRANSPORT** and there must be sufficient transport capacity to embark the entire unit."
       },
       "Stratagem§Servo-Driven Charge": {
         "keywords": {
           "Keywords": [
+            "Adeptus Mechanicus",
             "Eradication Cohort"
           ],
           "Category": [
@@ -12460,12 +12902,7 @@
             "Fight"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Fight phase.\n\n**TARGET**: One ADEPTUS MECHANICUS unit from your army that has not been selected to fight this phase.\n\n**EFFECT**: Until the end of the phase, melee weapons equipped by models in your unit have the [LANCE] ability."
+        "text": "**WHEN:** Fight phase.\n\n**TARGET:** One **ADEPTUS MECHANICUS** unit from your army that has not been selected to fight this phase.\n\n**EFFECT:** Until the end of the phase, melee weapons equipped by models in your unit have the **[LANCE]** ability."
       },
       "Stratagem§Shroud Protocols": {
         "keywords": {
@@ -12483,7 +12920,7 @@
             "Skitarii Hunter Cohort"
           ]
         },
-        "text": "**WHEN**: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One Skitarii Infantry unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT**: Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 12″."
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **SKITARII INFANTRY** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
       },
       "Stratagem§Targeting Override": {
         "keywords": {
@@ -12495,19 +12932,20 @@
             "Battle Tactic"
           ],
           "Turn": [
-            "Opponent’s",
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Phase": [
             "Fight",
             "Shooting"
           ]
         },
-        "text": "**WHEN**: Your Shooting phase or the Fight phase.\n\n**TARGET**: One Adeptus Mechanicus unit from your army that has not been selected to shoot or fight this phase.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit."
+        "text": "**WHEN:** Your Shooting phase or the Fight phase.\n\n**TARGET:** One **ADEPTUS MECHANICUS** unit from your army that has not been selected to shoot or fight this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit."
       },
       "Stratagem§Threat-Cogitation Targeters": {
         "keywords": {
           "Keywords": [
+            "Adeptus Mechanicus",
             "Eradication Cohort"
           ],
           "Category": [
@@ -12520,12 +12958,7 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One SKITARII VEHICLE unit from your army that has not been selected to shoot this phase.\n\n**EFFECT**: Until the end of the phase, each time a ranged attack made by a model in your unit is allocated to a MONSTER OR VEHICLE model, you can re-roll the Damage roll."
+        "text": "**WHEN:** Your Shooting phase\n\n**TARGET:** One **SKITARII VEHICLE** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, each time a ranged attack made by a model in your unit is allocated to a **MONSTER** or **VEHICLE** model, you can re-roll the Damage roll."
       },
       "Stratagem§Transcendent Cogitation": {
         "keywords": {
@@ -12543,7 +12976,7 @@
             "Cohort Cybernetica"
           ]
         },
-        "text": "**WHEN**: Your Command phase.\n\n**TARGET**: One Legio Cybernetica or Adeptus Mechanicus Vehicle unit from your army.\n\n**EFFECT**: Until the start of your next Command phase, the Conqueror Imperative and Protector Imperative are both active for your unit."
+        "text": "**WHEN:** Your Command phase.\n\n**TARGET:** One **LEGIO CYBERNETICA** or **ADEPTUS MECHANICUS VEHICLE** unit from your army.\n\n**EFFECT:** Until the start of your next Command phase, the Conqueror Imperative and Protector Imperative are both active for your unit."
       },
       "Stratagem§Tribute of Emphatic Veneration": {
         "keywords": {
@@ -12561,11 +12994,12 @@
             "Strategic Ploy"
           ]
         },
-        "text": "**WHEN**: Start of your Movement phase.\n\n**TARGET**: One Cult Mechanicus unit from your army and one enemy unit within 18″ of it.\n\n**EFFECT**: That enemy unit must take a Battle-shock test. If that test is failed, until the start of your next Command phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll."
+        "text": "**WHEN:** Start of your Movement phase.\n\n**TARGET:** One **CULT MECHANICUS** unit from your army and one enemy unit within 18\" of it.\n\n**EFFECT:** That enemy unit must take a Battle-shock test. If that test is failed, until the start of your next Command phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll."
       },
       "Stratagem§Unrelenting Aggression": {
         "keywords": {
           "Keywords": [
+            "Adeptus Mechanicus",
             "Eradication Cohort"
           ],
           "Category": [
@@ -12578,16 +13012,12 @@
             "Movement"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Movement phase, just after an ADEPTUS MECHANICUS unit from your army Falls Back.\n\n**TARGET**: That ADEPTUS MECHANICUS unit.\n\n**EFFECT**: Until the end of the turn, your unit is eligible to shoot in a turn in which it Fell Back. If your unit has the SKITARII keyword, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back instead."
+        "text": "**WHEN:** Your Movement phase, just after an **ADEPTUS MECHANICUS** unit from your army Falls Back.\n\n**TARGET:** That **ADEPTUS MECHANICUS** unit.\n\n**EFFECT:** Until the end of the turn, your unit is eligible to shoot in a turn in which it Fell Back. If your unit has the **SKITARII** keyword, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back instead."
       },
       "Stratagem§Unshackled Wrath": {
         "keywords": {
           "Keywords": [
+            "Adeptus Mechanicus",
             "Eradication Cohort"
           ],
           "Category": [
@@ -12600,12 +13030,7 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One SKITARII unit from your army that has not been selected to shoot this phase.\n\n**EFFECT**: Select the [SUSTAINED HITS 1] or [LETHAL HITS] ability. Until the end of the phase, ranged weapons equipped by models in your unit have the selected ability. You can instead select the [SUSTAINED HITS 1], [LETHAL HITS] and [HAZARDOUS] abilities to apply to those weapons until the end of the phase."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **SKITARlI** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Select the **[SUSTAINED HITS 1]** or **[LETHAL HITS]** ability. Until the end of the phase, ranged weapons equipped by models in your unit have the selected ability. You can instead select the **[SUSTAINED HITS 1]**, **[LETHAL HITS]** and **[HAZARDOUS]** abilities to apply to those weapons until the end of the phase."
       },
       "Stratagem§Verse of Vengeance": {
         "keywords": {
@@ -12613,8 +13038,8 @@
             "Strategic Ploy"
           ],
           "Turn": [
-            "Opponent’s",
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Phase": [
             "Fight"
@@ -12624,7 +13049,7 @@
             "Data-psalm Conclave"
           ]
         },
-        "text": "**WHEN**: Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One Cult Mechanicus unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT**: Until the end of the phase, each time a Cult Mechanicus model in your unit is destroyed, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
+        "text": "**WHEN:** Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **CULT MECHANICUS** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, each time a **CULT MECHANICUS** model in your unit is destroyed, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
       },
       "Unit§Archaeopter Fusilave": {
         "aspects": {
@@ -15936,6 +16361,153 @@
         },
         "aspects": {
           "Type": "game piece"
+        }
+      },
+      "Stratagem§Chant of Electrotraction": {
+        "text": "**WHEN:** Your Movement phase, when a friendly **ELECTRO-PRIESTS** unit is selected to make an **advance move**.\n\n**TARGET:** That **ELECTRO-PRIESTS** unit.\n\n**EFFECT:** That move does not prevent your unit from being **eligible to declare a charge**.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Mechanicus",
+            "Luminen Auto-Choir"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Movement"
+          ]
+        }
+      },
+      "Stratagem§Echoes of the Conduit Wars": {
+        "text": "**WHEN:** Your Shooting phase or the Fight phase, when a friendly **ELECTRO-PRIESTS** unit is **selected to attack**.\n\n**TARGET:** That **ELECTRO-PRIESTS** unit.\n\n**EFFECT:** Your unit’s attacks that target a unit within range of an **objective** can:\n\n- Re-roll **hit rolls** of 1.\n\n- Re-roll **wound rolls** of 1.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Mechanicus",
+            "Luminen Auto-Choir"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Fight",
+            "Shooting"
+          ]
+        }
+      },
+      "Stratagem§Momentum Feedback": {
+        "text": "**WHEN:** Your opponent’s Shooting phase, when an enemy unit that targeted a friendly **unengaged** **ELECTRO-PRIESTS** unit has shot.\n\n**TARGET:** That **ELECTRO-PRIESTS** unit.\n\n**EFFECT:** Your unit can make a **surge move** of up to D6\".",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Mechanicus",
+            "Luminen Auto-Choir"
+          ],
+          "Turn": [
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        }
+      },
+      "Stratagem§Scriptural Prognosis": {
+        "text": "**WHEN:** In your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly **TECH-PRIEST** unit that is within range of an **objective**.\n\n**TARGET:** That **TECH-PRIEST** unit.\n\n**EFFECT:** Attacks that target your unit have -1 **AP** until that enemy unit has attacked.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Mechanicus",
+            "Lords Of The Forge"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Charge",
+            "Command",
+            "Fight",
+            "Movement",
+            "Shooting"
+          ]
+        }
+      },
+      "Stratagem§Overloaded Safeguards": {
+        "text": "**WHEN:** Your Movement phase, when a friendly **TECH-PRIEST** unit is selected to make a **fall-back move**.\n\n**TARGET:** That **TECH-PRIEST** unit.\n\n**EFFECT:** That move does not prevent your unit from being **eligible to shoot/declare a charge**.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Mechanicus",
+            "Lords Of The Forge"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Charge",
+            "Command",
+            "Fight",
+            "Movement",
+            "Shooting"
+          ]
+        }
+      },
+      "Stratagem§Holy Avarice": {
+        "text": "**WHEN:** Your Shooting phase, when a friendly **TECH-PRIEST** unit **starts an action**.\n\n**TARGET:** That **TECH-PRIEST** unit.\n\n**EFFECT:** That **action** does not prevent your unit from being **eligible to shoot**.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Mechanicus",
+            "Lords Of The Forge"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Command"
+          ]
+        }
+      },
+      "Stratagem§Repolarised Augurs": {
+        "text": "**WHEN:** Start of your opponent’s Movement phase.\n\n**TARGET:** One friendly **unengaged** **RECON AUGURY** unit.\n\n**EFFECT:** Your unit has -3\" **detection range** until the end of the turn.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Mechanicus",
+            "Cohort Acquisitus"
+          ],
+          "Turn": [
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Movement"
+          ]
+        }
+      },
+      "Stratagem§Clandestine Reposition": {
+        "text": "**WHEN:** End of your opponent’s Fight phase.\n\n**TARGET:** One friendly **unengaged** **INFILTRATORS/PTERAXII** unit.\n\n**EFFECT:** Place your unit in **strategic reserves**.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Mechanicus",
+            "Cohort Acquisitus"
+          ],
+          "Turn": [
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Fight"
+          ]
+        }
+      },
+      "Stratagem§Defect Scrutiny": {
+        "text": "**WHEN:** Your Shooting phase, when a friendly **ADEPTUS MECHANICUS** unit is **selected to shoot**.\n\n**TARGET:** That **ADEPTUS MECHANICUS** unit.\n\n**EFFECT:** Select one **visible** enemy unit within 12\" of a friendly **RECON AUGURY** unit. Your unit’s ranged attacks that target that enemy unit have **[IGNORES COVER]**.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Mechanicus",
+            "Cohort Acquisitus"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
         }
       }
     },

@@ -1,6 +1,6 @@
 {
   "name": "Grey Knights 11e",
-  "revision": "11.1.5",
+  "revision": "11.1.14",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -1704,7 +1704,58 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Dauntless Champions**\nWhen a friendly **Paladin Squad** unit is **selected to fight**, if the **S** of those attacks is lower than the **T** of the target, those attacks have +1 to **wound rolls**."
+        "text": "**DAUNTLESS CHAMPIONS**\n\nWhen a friendly **PALADIN SQUAD** unit is **selected to fight**, if the **S** of those attacks is lower than the **T** of the target, those attacks have +1 to **wound rolls**.",
+        "rules": {
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Truesilver Aegis"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§A Threat Ended"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Aura of Vengeance"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        }
       },
       "Detachment§Augurium Task Force": {
         "keywords": {
@@ -1730,49 +1781,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Mirage of Echoes"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Redirected Strike"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Necessary End"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Forewarned Evasion"
+                "value": "Stratagem§Aggressive Anticipation"
               },
               {
                 "actionType": "add",
@@ -1800,7 +1809,49 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Aggressive Anticipation"
+                "value": "Stratagem§Forewarned Evasion"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Necessary End"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Redirected Strike"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Mirage of Echoes"
               }
             ],
             "evals": [],
@@ -1813,7 +1864,7 @@
             "value": 2
           }
         },
-        "text": "## PRESCIENT REDEPLOYMENT\n\nFrom the second battle round onwards, at the start of your Movement phase, if you did not select the maximum number of GREY KNIGHTS units from your army using the Teleport Assault ability at the start of your opponent's previous turn, you can select one GREY KNIGHTS unit from your army that is on the battlefield that could have been selected using the Gate of Infinity ability. Remove that unit from the battlefield and place it into Strategic Reserves.\n\nDesigner's Note: This means that your unit can be removed from the battlefield at the start of your Command phase, but is not placed into Strategic Reserves until the start of your Movement phase, to set it up again in your Reinforcements step in another position."
+        "text": "**PRESCIENT REDEPLOYMENT**\n\nFrom the second battle round onwards, at the start of your Movement phase, if you did not select the maximum number of **GREY KNIGHTS** units from your army using the Gate of Infinity ability at the end of your opponent’s previous turn, you can select one **GREY KNIGHTS** unit from your army that is on the battlefield that could have been selected using the Gate of Infinity ability. Remove that unit from the battlefield and place it into Strategic Reserves.\n\n**Designer’s Note:** *This means that your unit can retain its position* on *the battlefield at the end of your Command phase, and then be placed into Strategic Reserves at the start of your Movement phase,* to *set it up again in your Reinforcements step in another position.*"
       },
       "Detachment§Banishers": {
         "keywords": {
@@ -1839,49 +1890,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Shadow of Anarch"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Circle of Sanctuary"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Celerity"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Chaos Bane"
+                "value": "Stratagem§Hexwrought Reprisal"
               },
               {
                 "actionType": "add",
@@ -1909,7 +1918,49 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Hexwrought Reprisal"
+                "value": "Stratagem§Chaos Bane"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Celerity"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Circle of Sanctuary"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Shadow of Anarch"
               }
             ],
             "evals": [],
@@ -1922,7 +1973,7 @@
             "value": 2
           }
         },
-        "text": "## CHANNELLED FORCE\n\nEach time a GREY KNIGHTS unit from your army is selected to fight, if that unit can take a Leadership test, if that test is passed, select one of the following rules. Until the end of the phase, that unit has that rule:\n\n- Melee weapons equipped by models in this unit with the [PSYCHIC] ability also have the [SUSTAINED HITS 1] ability.\n---\n- Melee weapons equipped by models in this unit with the [PSYCHIC] ability also have the [LETHAL HITS] ability."
+        "text": "**CHANNELLED FORCE**\n\nEach time a **GREY KNIGHTS** unit from your army is selected to fight, that unit can take a Leadership test. If that test is passed, select one of the following rules. Until the end of the phase, that unit has that rule.\n\n■ Melee weapons equipped by models in this unit with the **[PSYCHIC]** ability also have the **[SUSTAINED HITS 1]** ability.\n■ Melee weapons equipped by models in this unit with the **[PSYCHIC]** ability also have the **[LETHAL HITS]** ability."
       },
       "Detachment§Brotherhood Strike": {
         "keywords": {
@@ -1948,7 +1999,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Expeditious Exit"
+                "value": "Stratagem§Purgation Pattern"
               },
               {
                 "actionType": "add",
@@ -2004,7 +2055,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Purgation Pattern"
+                "value": "Stratagem§Truesilver Channelling"
               },
               {
                 "actionType": "add",
@@ -2018,7 +2069,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Truesilver Channelling"
+                "value": "Stratagem§Expeditious Exit"
               }
             ],
             "evals": [],
@@ -2031,7 +2082,7 @@
             "value": 2
           }
         },
-        "text": "## FURY OF TITAN\n\nEach time a unit from your army is set up using the Deep Strike ability, until the end of the turn, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+        "text": "**FURY OF TITAN**\n\nEach time a unit from your army is set up using the Deep Strike ability, until the end of the turn, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
       },
       "Detachment§Fires Of Purgation": {
         "keywords": {
@@ -2044,7 +2095,58 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Searing Soulflame**\nWhen you select a unit to be **pinned** by a friendly **Purgation Squad** unit’s **Righteous Persecution** ability, that enemy unit makes a **battle‑shock roll**, with -1 to that **battle‑shock roll**."
+        "text": "**SEARING SOULFLAME**\n\nWhen you select a unit to be **pinned** by a friendly **PURGATION SQUAD** unit’s **Righteous Persecution** ability, that enemy unit makes a **battle-shock roll**, with -1 to that **battle-shock roll**.",
+        "rules": {
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Spiritsear"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Soul-locked"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Focused Immolation"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        }
       },
       "Detachment§Hallowed Conclave": {
         "keywords": {
@@ -2070,49 +2172,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Shining Resolve"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Precognitive Strategies"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Grind Them Underfoot"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Point-blank Purgation"
+                "value": "Stratagem§Giants of the Battlefield"
               },
               {
                 "actionType": "add",
@@ -2140,7 +2200,49 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Giants of the Battlefield"
+                "value": "Stratagem§Point-blank Purgation"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Grind Them Underfoot"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Precognitive Strategies"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Shining Resolve"
               }
             ],
             "evals": [],
@@ -2153,7 +2255,7 @@
             "value": 2
           }
         },
-        "text": "## DUTY BEFORE ALL\n\nGREY KNIGHTS TERMINATOR units from your army are eligible to shoot and declare a charge in a turn in which they fell Back."
+        "text": "**DUTY BEFORE ALL**\n\n**GREY KNIGHTS TERMINATOR** units from your army are eligible to shoot and declare a charge in a turn in which they Fell Back."
       },
       "Detachment§Immaterial Interdiction": {
         "keywords": {
@@ -2166,17 +2268,7 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Echojump**\nIn your Shooting phase, when a friendly **Interceptor Squad** unit has shot, if that unit did not make an **ingress move** this turn, you can use this ability. If you do:\n\n- That unit __cannot__ use its **Personal Teleporters** ability.\n\n- That unit can make a **surge move** of up to D6+1\"."
-      },
-      "Detachment§Sanctic Spearhead": {
-        "keywords": {
-          "Keywords": [
-            "Sanctic Spearhead"
-          ],
-          "Role": [
-            "Priority Assets"
-          ]
-        },
+        "text": "**ECHOJUMP**\n\nIn your Shooting phase, when a friendly **INTERCEPTOR SQUAD** unit has shot, you can use this ability. If you do:\n▫ That unit cannot use its **Personal Teleporters** ability.\n▫ That unit can make a **surge move** of up to D6+1\".’",
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -2192,7 +2284,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Argent Wrath"
+                "value": "Stratagem§By Thought Alone"
               },
               {
                 "actionType": "add",
@@ -2206,7 +2298,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Force Wave"
+                "value": "Stratagem§Responsive Displacement"
               },
               {
                 "actionType": "add",
@@ -2220,22 +2312,27 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Redoubled Assault"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Armoured Aegis"
-              },
+                "value": "Stratagem§Blades from the Beyond"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        }
+      },
+      "Detachment§Sanctic Spearhead": {
+        "keywords": {
+          "Keywords": [
+            "Sanctic Spearhead"
+          ],
+          "Role": [
+            "Priority Assets"
+          ]
+        },
+        "rules": {
+          "assignStratagems": {
+            "actions": [
               {
                 "actionType": "add",
                 "iterations": 1,
@@ -2263,6 +2360,62 @@
                   ]
                 ],
                 "value": "Stratagem§Truesilver Will"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Armoured Aegis"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Redoubled Assault"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Force Wave"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Argent Wrath"
               }
             ],
             "evals": [],
@@ -2275,7 +2428,7 @@
             "value": 2
           }
         },
-        "text": "## MAILED FIST\n\nEach time a GREY KNIGHTS VEHICLE unit from your army Advances, do not make an Advance roll for it. Until the end of the phase, add 6\" to the Move characteristic of models in that unit, and until the end of the turn, ranged weapons equipped by models in that unit have the [ASSAULT] ability."
+        "text": "**MAILED FIST**\n\nEach time a **GREY KNIGHTS VEHICLE** unit from your army Advances, do not make an Advance roll for it; until the end of the phase, add 6\" to the Move characteristic of models in that unit, and until the end of the turn, ranged weapons equipped by models in that unit have the **[ASSAULT]** ability."
       },
       "Detachment§Warpbane Task Force": {
         "keywords": {
@@ -2299,35 +2452,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Sanctified Kill Zone"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
                 "value": "Stratagem§Fires of Covenant"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Flames of Sanctity"
               },
               {
                 "actionType": "add",
@@ -2355,6 +2480,34 @@
                     "traits"
                   ]
                 ],
+                "value": "Stratagem§Repelling Sphere"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Sanctified Kill Zone"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
                 "value": "Stratagem§Hallowed Beacon"
               },
               {
@@ -2369,7 +2522,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Repelling Sphere"
+                "value": "Stratagem§Flames of Sanctity"
               }
             ],
             "evals": [],
@@ -2382,15 +2535,42 @@
             "value": 3
           }
         },
-        "text": "HALLOWED GROUND\n\nCertain areas of the battlefield are within\nyour army’s Hallowed Ground, as follows:\n\n■ Your deployment zone is always within\nyour army’s Hallowed Ground.\n\n■ The area of the battlefield within 6\"\nof one or more Purifier Squad units\nfrom your army is within your army’s\nHallowed Ground.\n\n■ At the start of any phase, if you control\nat least half of the objective markers\nwithin No Man’s Land, until the end\nof that phase, No Man’s Land is within\nyour army’s Hallowed Ground.\n\n■ At the start of any phase, if you control\nat least half of the objective markers\nwithin your opponent’s deployment\nzone, until the end of that phase, your\nopponent’s deployment zone is within\nyour army’s Hallowed Ground.\n\nEach time a model in a Grey Knights unit from your army makes a ranged attack that targets a visible target or makes a melee attack, re‑roll a Hit roll of 1. If that unit is a Purifier Squad and/or is wholly within your army’s Hallowed Ground, you can re‑roll the Hit roll instead."
+        "text": "**HALLOWED GROUND**\n\nCertain areas of the battlefield are within your army’s Hallowed Ground, as follows:\n\n■ Your deployment zone is always within your army’s Hallowed Ground.\n■ The area of the battlefield within 6\" of one or more **PURIFIER SQUAD** units from your army is within your army’s Hallowed Ground.\n■ At the start of any phase, if you control at least half of the objective markers within No Man’s Land, until the end of that phase, No Man’s Land is within your army’s Hallowed Ground.\n■ At the start of any phase, if you control at least half of the objective markers within your opponent’s deployment zone, until the end of that phase, your opponent’s deployment zone is within your army’s Hallowed Ground.\n\nEach time a model in a **GREY KNIGHTS** unit from your army makes a ranged attack that targets a visible target or makes a melee attack, re‐roll a Hit roll of 1. If that unit is a **PURIFIER SQUAD** and/or is wholly within your army’s Hallowed Ground, you can re‐roll the Hit roll instead."
       },
-      "Enhancement§A Foot in the Future": {
+      "Enhancement§One Foot in the Future": {
         "stats": {
           "Points": {
             "value": 15
           }
         },
-        "text": "GREY KNIGHTS model only. Each time the bearer's unit is set up in your Reinforcements step, the bearer can use this Enhancement. If it does, the bearer's unit can make a Normal move of up to D6\". Until the end of the turn, the bearer's unit is not eligible to declare a Charge."
+        "text": "**GREY KNIGHTS** model only. When this unit ends an **ingress move**, you can use this ability. If you do:\n▪ This unit can make a **normal move** of up to D6\".\n▪ Until the end of the turn, this unit is not **eligible to declare a charge**.",
+        "keywords": {
+          "Keywords": [
+            "Augurium Task Force"
+          ]
+        },
+        "rules": {
+          "GREY KNIGHTS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Grey Knights"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Astral Overlap (Upgrade)": {
         "keywords": {
@@ -2406,7 +2586,7 @@
             "value": 10
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Interceptor Squad** unit only. This unit has **Stealth**.",
+        "text": "**INTERCEPTOR SQUAD** unit only. This unit has **Stealth**.",
         "removed": {
           "keywords": {
             "Tags": [
@@ -2416,6 +2596,28 @@
         },
         "aspects": {
           "Unique": false
+        },
+        "rules": {
+          "INTERCEPTOR SQUAD unit only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Interceptor Squad"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
         }
       },
       "Enhancement§Banishing Wave": {
@@ -2431,13 +2633,40 @@
         },
         "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**GREY KNIGHTS** model only. Each time the bearer’s unit is set up using the Deep Strike ability, roll one D6 for each enemy unit within 12\" of the bearer: on a 2-5, that unit suffers 1 mortal wound; on a 6, that unit suffers D3 mortal wounds."
       },
-      "Enhancement§Banishing Wave [Psychic]": {
+      "Enhancement§Banishing Wave (Psychic)": {
         "stats": {
           "Points": {
             "value": 20
           }
         },
-        "text": "GREY KNIGHTS model only. Each time the bearer's unit is set up using the Deep Strike ability, roll one D6 for each enemy unit within 12\" of the bearer: on a 2-5, that unit suffers 1 mortal wound; on a 6, that unit suffers D3 mortal wounds."
+        "text": "**GREY KNIGHTS** model only. Each time the bearer’s unit is set up using the Deep Strike ability, roll one D6 for each enemy unit within 12\" of the bearer: on a 2-5, that unit suffers 1 mortal wound; on a 6, that unit suffers D3 mortal wounds.",
+        "keywords": {
+          "Keywords": [
+            "Brotherhood Strike"
+          ]
+        },
+        "rules": {
+          "GREY KNIGHTS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Grey Knights"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Blinding Aura": {
         "keywords": {
@@ -2450,7 +2679,29 @@
             "value": 10
           }
         },
-        "text": "GREY KNIGHTS model only. Each time the bearer's unit is set up using the Deep Strike ability, until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer's unit."
+        "text": "**GREY KNIGHTS** model only. Each time the bearer’s unit is set up using the Deep Strike ability, until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit.",
+        "rules": {
+          "GREY KNIGHTS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Grey Knights"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Boons of Deimos (Upgrade)": {
         "keywords": {
@@ -2466,7 +2717,7 @@
             "value": 20
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Purgation Squad** unit only. This unit’s ranged attacks have +2 **S**.",
+        "text": "**PURGATION SQUAD** unit only. This unit’s ranged attacks have +2 **S**.",
         "removed": {
           "keywords": {
             "Tags": [
@@ -2476,6 +2727,28 @@
         },
         "aspects": {
           "Unique": false
+        },
+        "rules": {
+          "PURGATION SQUAD unit only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Purgation Squad"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
         }
       },
       "Enhancement§Doomseer's Amulet": {
@@ -2497,7 +2770,29 @@
             "value": 25
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**GREY KNIGHTS** model only. Each time the bearer’s unit is set up in your Reinforcements step, the bearer can use this Enhancement. If it does, select one enemy unit within 12\" of and visible to the bearer. That enemy unit must take a Battle-shock test, subtracting 1 from that test."
+        "text": "**GREY KNIGHTS** model only. Each time the bearer’s unit is set up in your Reinforcements step, the bearer can use this Enhancement. If it does, select one enemy unit within 12\" of and visible to the bearer. That enemy unit must take a Battle-shock test, subtracting 1 from that test.",
+        "rules": {
+          "GREY KNIGHTS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Grey Knights"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Driven by Duty": {
         "keywords": {
@@ -2532,7 +2827,7 @@
             "value": 10
           }
         },
-        "text": "GREY KNIGHTS WALKER model only. Each time the bearer's unit Piles In or Consolidates, the bearer can move up to 6\" instead of up to 3\"."
+        "text": "**GREY KNIGHTS WALKER** model only. Each time the bearer’s unit Piles In or Consolidates, the bearer can move up to 6\" instead of up to 3\"."
       },
       "Enhancement§Ephemeral Tome": {
         "keywords": {
@@ -2567,7 +2862,7 @@
             "value": 15
           }
         },
-        "text": "GREY KNIGHTS INFANTRY model only. At the start of your Shooting phase, if the bearer's unit is not within Engagement Range of one or more enemy units, the bearer can use this Enhancement. If it does, the bearer's unit can make a Normal move of up to D6\", and until the end of the turn, the bearer's unit is not eligible to declare a charge."
+        "text": "**GREY KNIGHTS INFANTRY** model only. At the start of your Shooting phase, if the bearer’s unit is not within Engagement Range of one or more enemy units, the bearer can use this Enhancement. If it does, the bearer’s unit can make a Normal move of up to D6\", and until the end of the turn, the bearer’s unit is not eligible to declare a charge."
       },
       "Enhancement§Eye of the Augurium": {
         "keywords": {
@@ -2580,7 +2875,29 @@
             "value": 25
           }
         },
-        "text": "GREY KNIGHTS model only. Once per battle round, the bearer can use this Enhancement. If it does, you can target the bearer's unit with the Fire Overwatch or Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this turn."
+        "text": "**GREY KNIGHTS** model only. You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n\n▪ That use is -1 CP.\n▪ That use does not prevent any uses of that **stratagem** on other units this phase.",
+        "rules": {
+          "GREY KNIGHTS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Grey Knights"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Grimoire of Conjunctions": {
         "keywords": {
@@ -2593,7 +2910,29 @@
             "value": 10
           }
         },
-        "text": "GREY KNIGHTS model only. Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, add 1 to the Strength characteristic of melee weapons equipped by the bearer."
+        "text": "**GREY KNIGHTS** model only. Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, add 4 to the Strength characteristic of melee weapons equipped by the bearer.",
+        "rules": {
+          "GREY KNIGHTS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Grey Knights"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Inescapable Judgement": {
         "keywords": {
@@ -2607,14 +2946,6 @@
           }
         },
         "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**GREY KNIGHTS** model only. Each time an enemy unit within Engagement Range of the bearer’s unit Falls Back, the bearer can use this Enhancement. If it does, roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds. These mortal wounds are Psychic Attacks."
-      },
-      "Enhancement§Inescapable Judgement [Psychic]": {
-        "stats": {
-          "Points": {
-            "value": 20
-          }
-        },
-        "text": "GREY KNIGHTS model only. Each time an enemy unit within Engagement Range of the bearer's unit Falls Back, the bearer can use this Enhancement. If it does, roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds. These mortal wounds are Psychic Attacks."
       },
       "Enhancement§Mandulian Reliquary": {
         "keywords": {
@@ -2650,6 +2981,26 @@
             "evaluate": "AND",
             "failState": "pass",
             "order": 90
+          },
+          "GREY KNIGHTS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Grey Knights"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
           }
         },
         "stats": {
@@ -2657,7 +3008,7 @@
             "value": 20
           }
         },
-        "text": "Grey Knights model only. While the bearer’s unit is\nnot Battle‑shocked, add 3 to the bearer’s Objective\nControl characteristic."
+        "text": "**GREY KNIGHTS** model only. While the bearer’s unit is not Battle-shocked, add 3 to the bearer’s Objective Control characteristic."
       },
       "Enhancement§Nemesis Rounds": {
         "keywords": {
@@ -2692,20 +3043,7 @@
             "value": 10
           }
         },
-        "text": "GREY KNIGHTS TERMINATOR model only. Each time you target the bearer's unit with the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ while resolving that Stratagem."
-      },
-      "Enhancement§One Foot in the Future": {
-        "keywords": {
-          "Keywords": [
-            "Augurium Task Force"
-          ]
-        },
-        "stats": {
-          "Points": {
-            "value": 15
-          }
-        },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**GREY KNIGHTS** model only. Each time the bearer’s unit is set up in your Reinforcements step, the bearer can use this Enhancement. If it does, the bearer’s unit can make a Normal move of up to D6\", and until the end of the turn, the bearer’s unit is not eligible to declare a Charge."
+        "text": "**GREY KNIGHTS TERMINATOR** model only. Each time you target the bearer’s unit with the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ while resolving that Stratagem."
       },
       "Enhancement§Paragon of Sanctity": {
         "keywords": {
@@ -2718,7 +3056,29 @@
             "value": 10
           }
         },
-        "text": "Grey Knights model only. Once per battle, at the\nstart of any phase, the bearer can select one friendly\nGrey Knights unit within 18\" of and visible to it. If it\ndoes, until the end of the phase, that unit is within\nyour army’s Hallowed Ground."
+        "text": "**GREY KNIGHTS** model only. Once per battle, at the start of any phase, the bearer can select one friendly **GREY KNIGHTS** unit within 18\" of and visible to it. If it does, until the end of the phase, that unit is within your army’s Hallowed Ground.",
+        "rules": {
+          "GREY KNIGHTS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Grey Knights"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Phial of the Abyss": {
         "keywords": {
@@ -2787,7 +3147,7 @@
             "value": 15
           }
         },
-        "text": "Grey Knights Infantry model only. Models in the\nbearer’s unit have the Stealth ability."
+        "text": "**GREY KNIGHTS INFANTRY** model only. Models in the bearer’s unit have the Stealth ability."
       },
       "Enhancement§Precognicient Volleys (Upgrade)": {
         "keywords": {
@@ -2803,7 +3163,7 @@
             "value": 10
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Purgation Squad** unit only. This unit’s **snap shooting** attacks hit on unmodified **hit rolls** of 5+.",
+        "text": "**PURGATION SQUAD** unit only. This unit’s **snap shooting** attacks hit on unmodified **hit rolls** of 5+.",
         "removed": {
           "keywords": {
             "Tags": [
@@ -2813,6 +3173,28 @@
         },
         "aspects": {
           "Unique": false
+        },
+        "rules": {
+          "PURGATION SQUAD unit only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Purgation Squad"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
         }
       },
       "Enhancement§Predestined Coordinates (Upgrade)": {
@@ -2829,7 +3211,7 @@
             "value": 10
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Interceptor Squad** unit only. In your first Movement phase, this unit can make an **ingress move**.",
+        "text": "**INTERCEPTOR SQUAD** unit only. In your first Movement phase, this unit can make an **ingress move**.",
         "removed": {
           "keywords": {
             "Tags": [
@@ -2839,6 +3221,28 @@
         },
         "aspects": {
           "Unique": false
+        },
+        "rules": {
+          "INTERCEPTOR SQUAD unit only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Interceptor Squad"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
         }
       },
       "Enhancement§Psychic Celerity": {
@@ -2852,7 +3256,29 @@
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Terminator** model only. This unit has +1 to **charge rolls**."
+        "text": "**TERMINATOR** model only. This unit has +1 to **charge rolls**.",
+        "rules": {
+          "TERMINATOR model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Terminator"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Purity of Purpose": {
         "keywords": {
@@ -2865,7 +3291,29 @@
             "value": 15
           }
         },
-        "text": "GREY KNIGHTS model only. Each time the bearer's unit is set up using the Deep Strike ability, until the end of the turn, you can re-roll Charge rolls made for the bearer's unit."
+        "text": "**GREY KNIGHTS** model only. Each time the bearer’s unit is set up using the Deep Strike ability, until the end of the turn, you can re-roll Charge rolls made for the bearer’s unit.",
+        "rules": {
+          "GREY KNIGHTS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Grey Knights"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Pyresoul": {
         "keywords": {
@@ -2880,13 +3328,40 @@
         },
         "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**GREY KNIGHTS** model only. At the start of your Shooting phase, the bearer can use this Enhancement. If it does, select one enemy unit within 24\" of and visible to the bearer; that unit suffers D3 mortal wounds."
       },
-      "Enhancement§Pyresoul [Psychic]": {
+      "Enhancement§Pyresoul (Psychic)": {
         "stats": {
           "Points": {
             "value": 20
           }
         },
-        "text": "GREY KNIGHTS model only. At the start of your Shooting phase, the bearer can use this Enhancement. If it does, select one enemy unit within 24\" of and visible to the bearer; that unit suffers D3 mortal wounds."
+        "text": "**GREY KNIGHTS** model only. At the start of your Shooting phase, the bearer can use this Enhancement. If it does, select one enemy unit within 24\" of and visible to the bearer; that unit suffers D3 mortal wounds.",
+        "keywords": {
+          "Keywords": [
+            "Banishers"
+          ]
+        },
+        "rules": {
+          "GREY KNIGHTS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Grey Knights"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Quickening Foci": {
         "keywords": {
@@ -2921,7 +3396,7 @@
             "value": 15
           }
         },
-        "text": "GREY KNIGHTS INFANTRY model only. In your Movement phase, each time the bearer's unit disembarks from a TRANSPORT, until the end of the turn, you can re-roll Charge rolls made for that unit."
+        "text": "**GREY KNIGHTS INFANTRY** model only. In your Movement phase, each time the bearer’s unit disembarks from a **TRANSPORT,** until the end of the turn, you can re-roll Charge rolls made for that unit."
       },
       "Enhancement§Radiant Champion": {
         "keywords": {
@@ -2988,7 +3463,7 @@
             "value": 15
           }
         },
-        "text": "Grey Knights Infantry model only. The bearer’s\nmelee weapons have the [PRECISION] ability, and while\nthe bearer is wholly within your army’s Hallowed\nGround, each time a melee attack made by the bearer\nscores a wound, the target of that attack suffers 1\nmortal wound in addition to any normal damage."
+        "text": "**GREY KNIGHTS INFANTRY** model only. The bearer’s melee weapons have the **[PRECISION]** ability, and while the bearer is wholly within your army’s Hallowed Ground, each time a melee attack made by the bearer scores a wound, the target of that attack suffers 1 mortal wound in addition to any normal damage."
       },
       "Enhancement§Sanctic Reaper": {
         "keywords": {
@@ -3059,7 +3534,7 @@
             "value": 15
           }
         },
-        "text": "GREY KNIGHTS TERMINATOR model only. Add 3 to the Attacks characteristic of the bearer's melee weapons."
+        "text": "**GREY KNIGHTS TERMINATOR** model only. Add 3 to the Attacks characteristic of the bearer’s melee weapons."
       },
       "Enhancement§Shield of Prophecy": {
         "keywords": {
@@ -3072,7 +3547,29 @@
             "value": 20
           }
         },
-        "text": "GREY KNIGHTS model only. Once per battle, at the start of the battle round, the bearer can use this Enhancement. If it does, until the end of the battle round, add 2 to the Toughness characteristic of models in the bearer's unit."
+        "text": "**GREY KNIGHTS** model only. Once per battle, at the start of the battle round, the bearer can use this Enhancement. If it does, until the end of the battle round, add 2 to the Toughness characteristic of models in the bearer’s unit.",
+        "rules": {
+          "GREY KNIGHTS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Grey Knights"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Sigil of Exigence": {
         "keywords": {
@@ -3085,7 +3582,29 @@
             "value": 30
           }
         },
-        "text": "GREY KNIGHTS model only. Once per battle, in your opponent's Shooting phase, when the bearer's unit is selected as the target of a ranged attack, you can remove the bearer's unit from the battlefield and then set it back up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy units. If the bearer's unit is no longer an eligible target, your opponent can then select new targets for any attacks that had targeted the bearer's unit."
+        "text": "**GREY KNIGHTS** model only. Once per battle, in your opponent’s Shooting phase, when the bearer’s unit is selected as the target of a ranged attack, you can remove the bearer’s unit from the battlefield and then set it back up again anywhere on the battlefield that is more than 8\" horizontally away from all enemy units. If the bearer’s unit is no longer an eligible target, your opponent can then select new targets for any attacks that had targeted the bearer’s unit.",
+        "rules": {
+          "GREY KNIGHTS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Grey Knights"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Sigil of the Hunt": {
         "keywords": {
@@ -3098,7 +3617,29 @@
             "value": 10
           }
         },
-        "text": "GREY KNIGHTS model only. In your Shooting phase, each time a model in the bearer's unit makes an attack, re-roll a Hit roll of 1."
+        "text": "**GREY KNIGHTS** model only. In your Shooting phase, each time a model in the bearer’s unit makes an attack, re-roll a Hit roll of 1.",
+        "rules": {
+          "GREY KNIGHTS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Grey Knights"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Sixty-sixth Seal": {
         "keywords": {
@@ -3111,7 +3652,29 @@
             "value": 25
           }
         },
-        "text": "GREY KNIGHTS model only. In your Shooting phase, each time a model in the bearer's unit makes an attack, improve the Armour Penetration characteristic of that attack by 1."
+        "text": "**GREY KNIGHTS** model only. In your Shooting phase, each time a model in the bearer’s unit makes an attack, improve the Armour Penetration characteristic of that attack by 1.",
+        "rules": {
+          "GREY KNIGHTS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Grey Knights"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Spiritus Machina": {
         "keywords": {
@@ -3124,7 +3687,43 @@
             "value": 25
           }
         },
-        "text": "GREY KNIGHTS INFANTRY model only. In your Shooting phase, each time the bearer's unit is selected to shoot, if the bearer's unit disembarked from a TRANSPORT this turn, until the end of the phase, each time a model in the bearer's unit makes an attack, you can re-roll the Wound roll."
+        "text": "**GREY KNIGHTS INFANTRY** model only. In your Shooting phase, each time the bearer’s unit is selected to shoot, if the bearer’s unit disembarked from a **TRANSPORT** this turn, until the end of the phase, each time a model in the bearer’s unit makes an attack, you can re-roll the Wound roll.",
+        "rules": {
+          "GREY KNIGHTS INFANTRY model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Grey Knights"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Infantry"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Tome of Forbidden Ways": {
         "keywords": {
@@ -3137,7 +3736,29 @@
             "value": 25
           }
         },
-        "text": "GREY KNIGHTS model only. While the bearer is on the battlefield or in Strategic Reserves, add 1 to the number of units from your army that you can select for the Gate of Infinity rule."
+        "text": "**GREY KNIGHTS** model only. While the bearer is on the battlefield or in Strategic Reserves, add 1 to the number of units from your army that you can select for the Gate of Infinity rule.",
+        "rules": {
+          "GREY KNIGHTS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Grey Knights"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Vigilance of Titan": {
         "keywords": {
@@ -3150,7 +3771,29 @@
             "value": 20
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Terminator** model only. At the start of your Shooting phase, you can select one **visible** enemy unit within 12\" of this unit. That enemy unit has +6\" **detection range**."
+        "text": "**TERMINATOR** model only. At the start of your Shooting phase, you can select one **visible** enemy unit within 12\" of this unit. That enemy unit has +6\" **detection range**.",
+        "rules": {
+          "TERMINATOR model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Terminator"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Melee Weapon§Brother-captain Stern—Nemesis force sword": {
         "aspects": {
@@ -10653,24 +11296,27 @@
       "Stratagem§Abominus-class Targets": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Sanctic Spearhead"
           ],
           "Category": [
             "Battle Tactic"
           ],
           "Turn": [
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Phase": [
-            "Shooting",
-            "Fight"
+            "Fight",
+            "Shooting"
           ]
         },
-        "text": "**WHEN**: Your Shooting phase or the Fight phase.\n\n**TARGET**: One Grey Knights unit from your army that has not been selected to shoot or fight this phase.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes an attack that targets a Monster or Vehicle unit, add 1 to the Wound roll."
+        "text": "**WHEN:** Your Shooting phase or the Fight phase.\n\n**TARGET:** One **GREY KNIGHTS** unit from your army that has not been selected to shoot or fight this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack that targets a **MONSTER** or **VEHICLE** unit, add 1 to the Wound roll."
       },
       "Stratagem§Aegis Eternal": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Warpbane Task Force"
           ],
           "Category": [
@@ -10683,57 +11329,52 @@
             "Shooting"
           ]
         },
-        "text": "**WHEN**: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One Grey Knights Infantry unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT**: Until the end of the phase, models in your unit that are wholly within your Hallowed Ground have a 4+ invulnerable save."
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **GREY KNIGHTS INFANTRY** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, models in your unit that are wholly within your Hallowed Ground have a 4+ invulnerable save."
       },
       "Stratagem§Aggressive Anticipation": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Augurium Task Force"
           ],
           "Category": [
             "Battle Tactic"
           ],
           "Turn": [
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Phase": [
-            "Shooting",
-            "Fight"
+            "Fight",
+            "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Shooting phase or the Fight phase.\n\n**TARGET**: One Grey Knights Psyker unit from your army that has not been selected to shoot or fight this phase.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes an attack, you can ignore any or all modifiers to that model's weapon skill or Ballistic Skill characteristics and any or all modifiers to the Hit roll."
+        "text": "**WHEN:** Your Shooting phase or the Fight phase.\n\n**TARGET:** One **GREY KNIGHTS PSYKER** unit from your army that has not been selected to shoot or fight this phase.\n\n**EFFECT:** Your unit's attacks can re-roll **hit rolls**."
       },
       "Stratagem§Appointed Hour": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Augurium Task Force"
           ],
           "Category": [
             "Battle Tactic"
           ],
           "Turn": [
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Phase": [
-            "Shooting",
-            "Fight"
+            "Fight",
+            "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Shooting phase or the Fight phase.\n\n**TARGET**: One Grey Knights Psyker unit from your army that has not been selected to shoot or fight this phase.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit."
+        "text": "**WHEN:** Your Shooting phase or the Fight phase.\n\n**TARGET:** One **GREY KNIGHTS PSYKER** unit from your army that has not been selected to shoot or fight this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit."
       },
       "Stratagem§Argent Wrath": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Sanctic Spearhead"
           ],
           "Category": [
@@ -10746,11 +11387,12 @@
             "Charge"
           ]
         },
-        "text": "**WHEN**: Your Charge phase, just after a Grey Knights Vehicle unit from your army ends a Charge move.\n\n**TARGET**: That Grey Knights Vehicle unit.\n\n**EFFECT**: Each enemy unit within 3\" of your unit must take a Battle-shock test, subtracting 1 from that test."
+        "text": "**WHEN:** Your Charge phase, just after a **GREY KNIGHTS VEHICLE** unit from your army ends a Charge move.\n\n**TARGET:** That **GREY KNIGHTS VEHICLE** unit.\n\n**EFFECT:** Each enemy unit within 3\" of your unit must take a Battle-shock test, subtracting 1 from that test."
       },
       "Stratagem§Armoured Aegis": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Sanctic Spearhead"
           ],
           "Category": [
@@ -10763,11 +11405,12 @@
             "Command"
           ]
         },
-        "text": "**WHEN**: Your Command phase.\n\n**TARGET**: One Grey Knights Psyker Vehicle unit from your army.\n\n**EFFECT**: One model in your unit regains up to 3 lost wounds."
+        "text": "**WHEN:** Your Command phase.\n\n**TARGET:** One **GREY KNIGHTS PSYKER VEHICLE** unit from your army.\n\n**EFFECT:** One model in your unit regains up to 3 lost wounds."
       },
       "Stratagem§Celerity": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Banishers"
           ],
           "Category": [
@@ -10780,16 +11423,12 @@
             "Charge"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Charge phase.\n\n**TARGET**: One Grey Knights Psyker Infantry unit from your army.\n\n**EFFECT**: Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Advanced."
+        "text": "**WHEN:** Your Charge phase.\n\n**TARGET:** One **GREY KNIGHTS PSYKER INFANTRY** unit from your army.\n\n**EFFECT:** Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Advanced"
       },
       "Stratagem§Chaos Bane": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Banishers"
           ],
           "Category": [
@@ -10802,16 +11441,12 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One Grey Knights Psyker unit from your army that has not been selected to shoot this phase.\n\n**EFFECT**: Until the end of the phase, ranged weapons equipped by models in your unit have the [ANTI-CHAOS 4+] ability."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **GREY KNIGHTS PSYKER** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, ranged weapons equipped by models in your unit have the **[ANTI-CHAOS 4+]** ability."
       },
       "Stratagem§Circle of Sanctuary": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Banishers"
           ],
           "Category": [
@@ -10824,16 +11459,12 @@
             "Movement"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Start of your opponent's Movement phase.\n\n**TARGET**: One Grey Knights Character model from your army.\n\n**EFFECT**: Until the end of the phase, enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" horizontally of your model."
+        "text": "**WHEN:** Start of your opponent’s Movement phase.\n\n**TARGET:** One **GREY KNIGHTS CHARACTER** model from your army.\n\n**EFFECT:** Until the end of the phase, enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" horizontally of your model."
       },
       "Stratagem§Combat Manifestation": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Brotherhood Strike"
           ],
           "Category": [
@@ -10846,16 +11477,12 @@
             "Movement"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Movement phase.\n\n**TARGET**: One Grey Knights unit from your army that is arriving using the Deep Strike ability this phase.\n\n**EFFECT**: Set your unit up anywhere on the battlefield that is more than 3\" horizontally away from all enemy units, but until the end of the turn, it is not eligible to declare a charge."
+        "text": "**WHEN:** Your Movement phase.\n\n**TARGET:** One **GREY KNIGHTS** unit from your army that is arriving using the Deep Strike ability this phase.\n\n**EFFECT:** Set your unit up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, but until the end of the turn, it is not eligible to declare a charge."
       },
       "Stratagem§Duty Unending": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Brotherhood Strike"
           ],
           "Category": [
@@ -10868,16 +11495,12 @@
             "Movement"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your opponent's Movement phase, just after an enemy unit is set up within Engagement Range of one or more Grey Knights units from your army.\n\n**TARGET**: Any of those Grey Knights units that is not within Engagement Range of one or more enemy units.\n\n**EFFECT**: Your unit has the Deep Strike ability, it can be placed into Strategic Reserves."
+        "text": "**WHEN:** Your opponent’s Movement phase, just after an enemy unit within Engagement Range of one or more **GREY KNIGHTS** units from your army Falls Back.\n\n**TARGET:** One of those **GREY KNIGHTS** units that is not within Engagement Range of one or more enemy units.\n\n**EFFECT:** If your unit has the Deep Strike ability, it can be placed into Strategic Reserves."
       },
       "Stratagem§Expeditious Exit": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Brotherhood Strike"
           ],
           "Category": [
@@ -10895,7 +11518,7 @@
             "value": 2
           }
         },
-        "text": "**WHEN**: End of your opponent's Fight phase.\n\n**TARGET**: One Grey Knights Psyker Infantry unit from your army.\n\n**EFFECT**: If every model in your unit has the Deep Strike ability, remove your unit from the battlefield and place it into Strategic Reserves.\n\n**DESIGNER'S NOTE**: This Stratagem allows you to remove a unit in question that has removed using the Gate of Infinity rule, and that lets you remove a unit within Engagement Range of one or more enemy units."
+        "text": "**WHEN:** End of your opponent’s Fight phase.\n\n**TARGET:** One **GREY KNIGHTS PSYKER INFANTRY** unit from your army.\n\n**EFFECT:** If every model in your unit has the Deep Strike ability, remove your unit from the battlefield and place it into Strategic Reserves.\n\n**Designer’s Note:** *This Stratagem allows you* to *remove a unit in addition* to *those removed using the Gate of Infinity rule, and it allows you* to *remove a unit within Engagement Range of one* or *more enemy units.*"
       },
       "Stratagem§Fires of Covenant": {
         "keywords": {
@@ -10903,6 +11526,7 @@
             "Battle Tactic"
           ],
           "Keywords": [
+            "Grey Knights",
             "Warpbane Task Force"
           ],
           "Turn": [
@@ -10912,28 +11536,31 @@
             "Movement"
           ]
         },
-        "text": "**WHEN**: Start of your opponent’s Movement phase.\n\n**TARGET**: One Grey Knights Infantry unit from your army.\n\n**EFFECT**: Until the end of the phase, each time an enemy unit is set up or ends a Normal, Advance or Fall Back move within 6\" of your unit, roll one D6, adding 2 to the result if your unit is wholly within your army’s Hallowed Ground: on a 4+, that enemy unit suffers D3 mortal wounds."
+        "text": "**WHEN:** Start of your opponent’s Movement phase.\n\n**TARGET:** One **GREY KNIGHTS INFANTRY** unit from your army.\n\n**EFFECT:** Until the end of the phase, each time an enemy unit is set up or ends a Normal, Advance or Fall Back move within 6\" of your unit, roll one D6, adding 2 to the result if your unit is wholly within your army’s Hallowed Ground: on a 4+,  that enemy unit suffers D3 mortal wounds."
       },
       "Stratagem§Flames of Sanctity": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Warpbane Task Force"
           ],
           "Category": [
             "Strategic Ploy"
           ],
           "Turn": [
-            "Any"
+            "Yours",
+            "Opponent’s"
           ],
           "Phase": [
             "Fight"
           ]
         },
-        "text": "**WHEN**: End of the Fight phase.\n\n**TARGET**: One Purifier Squad unit from your army that was eligible to fight this phase.\n\n**EFFECT**: Roll one D6 for each enemy unit within 6\" of your unit, adding 1 to the result if your unit includes Castellan Crowe: on a 4+, that enemy unit suffers D3 mortal wounds."
+        "text": "**WHEN:** End of the Fight phase.\n\n**TARGET:** One **PURIFIER SQUAD** unit from your army that was eligible to fight this phase.\n\n**EFFECT:** Roll one D6 for each enemy unit within 6\" of your unit, adding 1 to the result if your unit includes **CASTELLAN CROWE**: on a 4+, that enemy unit suffers D3 mortal wounds."
       },
       "Stratagem§Force Wave": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Sanctic Spearhead"
           ],
           "Category": [
@@ -10943,82 +11570,73 @@
             "Yours"
           ],
           "Phase": [
-            "Movement",
-            "Charge"
+            "Charge",
+            "Movement"
           ]
         },
-        "text": "**WHEN**: Your Movement phase or your Charge phase.\n\n**TARGET**: One Grey Knights Vehicle unit from your army that has not been selected to move or charge this phase.\n\n**EFFECT**: Until the end of the phase, each time your unit makes a Normal, Advance or Charge move, it can move horizontally through terrain features."
+        "text": "**WHEN:** Your Movement phase or your Charge phase.\n\n**TARGET:** One **GREY KNIGHTS VEHICLE** unit from your army that has not been selected to move or charge this phase\n\n**EFFECT:** Until the end of the phase, each time your unit makes a Normal, Advance or Charge move, it can move horizontally through terrain features"
       },
       "Stratagem§Forewarned Evasion": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Augurium Task Force"
           ],
           "Category": [
             "Epic Deed"
           ],
           "Turn": [
+            "Yours",
             "Opponent’s"
           ],
           "Phase": [
-            "Shooting",
-            "Fight"
+            "Fight",
+            "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One Grey Knights Walker unit from your army that was selected as the target of one or more of the attacking unit's attacks.\n\n**EFFECT**: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
+        "text": "**WHEN:** Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **GREY KNIGHTS WALKER** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
       },
       "Stratagem§Giants of the Battlefield": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Hallowed Conclave"
           ],
           "Category": [
             "Battle Tactic"
           ],
           "Turn": [
-            "Yours"
-          ],
-          "Phase": [
-            "Fight"
-          ]
-        },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Fight phase.\n\n**TARGET**: One Grey Knights Terminator unit from your army that has not been selected to fight this phase.\n\n**EFFECT**: Until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in your unit."
-      },
-      "Stratagem§Grind Them Underfoot": {
-        "keywords": {
-          "Keywords": [
-            "Hallowed Conclave"
-          ],
-          "Category": [
-            "Strategic Ploy"
-          ],
-          "Turn": [
+            "Yours",
             "Opponent’s"
           ],
           "Phase": [
             "Fight"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
+        "text": "**WHEN:** Fight phase.\n\n**TARGET:** One **GREY KNIGHTS TERMINATOR** unit from your army that has not been selected to fight this phase.\n\n**EFFECT:** Until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in your unit."
+      },
+      "Stratagem§Grind Them Underfoot": {
+        "keywords": {
+          "Keywords": [
+            "Grey Knights",
+            "Hallowed Conclave"
+          ],
+          "Category": [
+            "Strategic Ploy"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Charge"
+          ]
         },
-        "text": "**WHEN**: Your opponent's Fight phase, just after a Grey Knights Terminator unit from your army ends a consolidation move.\n\n**TARGET**: That Grey Knights unit.\n\n**EFFECT**: Select one enemy unit within Engagement Range of your unit, then roll one D6 for each model in your unit that is within Engagement Range of that enemy unit. For each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
+        "text": "**WHEN:** Your Charge phase, just after a **GREY KNIGHTS TERMINATOR** unit from your army ends a Charge move.\n\n**TARGET:** That **GREY KNIGHTS** unit.\n\n**EFFECT:** Select one enemy unit within Engagement Range of your unit, then roll one D6 for each model in your unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
       },
       "Stratagem§Hallowed Beacon": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Warpbane Task Force"
           ],
           "Category": [
@@ -11031,11 +11649,12 @@
             "Movement"
           ]
         },
-        "text": "**WHEN**: Reinforcements step of your Movement phase.\n\n**TARGET**: One Grey Knights Infantry unit (excluding Terminator units) that is arriving using the Deep Strike or Teleport Assault abilities this phase.\n\n**EFFECT**: Set up your unit wholly within your army’s Hallowed Ground and more than 6\" horizontally away from all enemy units."
+        "text": "**WHEN:** Reinforcements step of your Movement phase.\n\n**TARGET:** One **GREY KNIGHTS INFANTRY** unit (excluding **TERMINATOR** units) that is arriving using the Deep Strike ability this phase.\n\n**EFFECT:** Set up your unit wholly within your army’s Hallowed Ground and more than 6\" horizontally away from all enemy units."
       },
       "Stratagem§Hexwrought Reprisal": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Banishers"
           ],
           "Category": [
@@ -11049,16 +11668,12 @@
             "Any"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Any phase, just after your unit was targeted with a Psychic Attack and suffered one or more mortal wounds this phase.\n\n**TARGET**: One Grey Knights unit from your army that was targeted with that Psychic Attack.\n\n**EFFECT**: Select one enemy unit which inflicted one or more mortal wounds on your unit this phase, then roll a number of dice equal to the number of mortal wounds your unit suffered this phase. For each 5+, that enemy unit suffers one mortal wound (to a maximum of 6 mortal wounds). These mortal wounds are Psychic Attacks."
+        "text": "**WHEN:** End of any phase.\n\n**TARGET:** One **GREY KNIGHTS PSYKER** unit from your army that is on the battlefield and suffered one or more mortal wounds this phase.\n\n**EFFECT:** Select one enemy unit which inflicted one or more mortal wounds on your unit this phase, then roll a number of dice equal to the number of mortal wounds your unit suffered this phase: for each 2+, that enemy unit suffers one mortal wound (to a maximum of 6 mortal wounds). These mortal wounds are Psychic Attacks."
       },
       "Stratagem§Mirage of Echoes": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Augurium Task Force"
           ],
           "Category": [
@@ -11071,16 +11686,12 @@
             "Movement"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: The Reinforcements step of your opponent's Movement phase, just after an enemy unit is set up.\n\n**TARGET**: One Grey Knights Psyker unit from your army that is within 12\" of that enemy unit and is not within Engagement Range of one or more enemy units.\n\n**EFFECT**: If your unit has the Deep Strike ability, it can be placed into Strategic Reserves."
+        "text": "**WHEN:** The Reinforcements step of your opponent’s Movement phase, just after an enemy unit is set up.\n\n**TARGET:** One **GREY KNIGHTS PSYKER** unit from your army that is within 12\" of that enemy unit and is not within Engagement Range of one or more enemy units.\n\n**EFFECT:** If your unit has the Deep Strike ability, it can be placed into Strategic Reserves."
       },
       "Stratagem§Necessary End": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Augurium Task Force"
           ],
           "Category": [
@@ -11094,16 +11705,12 @@
             "Fight"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Fight phase, just after an enemy Infantry unit has been destroyed.\n\n**TARGET**: One Grey Knights Infantry unit from your army that was selected as the target of one or more of that enemy unit's attacks.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, and if it is your turn and not the current battle round number, do not remove it from play. It can fight after the attacking unit has finished making its attacks, and is then removed from play."
+        "text": "**WHEN:** Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **GREY KNIGHTS INFANTRY** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6. If the result is greater than the current battle round number, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play."
       },
       "Stratagem§Point-blank Purgation": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Hallowed Conclave"
           ],
           "Category": [
@@ -11116,16 +11723,12 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One Grey Knights Infantry unit from your army that has not been selected to shoot this phase.\n\n**EFFECT**: Until the end of the phase, storm bolter weapons equipped by models in your unit have the [PISTOL] and [TWIN-LINKED] abilities."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **GREY KNIGHTS INFANTRY** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, storm bolter weapons equipped by models in your unit have the **[PISTOL]** and **[TWIN-LINKED]** abilities."
       },
       "Stratagem§Precognitive Strategies": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Hallowed Conclave"
           ],
           "Category": [
@@ -11138,16 +11741,12 @@
             "Movement"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your opponent's Movement phase, after an enemy unit ends a Normal, Advance or Fall Back move.\n\n**TARGET**: One Grey Knights Infantry unit from your army that is within 9\" of that enemy unit and not within Engagement Range of one or more enemy units.\n\n**EFFECT**: Your unit can make a Normal move of up to D6\"."
+        "text": "**WHEN:** Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\n**TARGET:** One **GREY KNIGHTS INFANTRY** unit from your army that is within 8\" of that enemy unit and not within Engagement Range of one or more enemy units.\n\n**EFFECT:** Your unit can make a Normal move of up to D6\"."
       },
       "Stratagem§Purgation Pattern": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Brotherhood Strike"
           ],
           "Category": [
@@ -11160,16 +11759,12 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One Grey Knights unit from your army that was set up using the Deep Strike ability this turn and has not been selected to shoot this phase.\n\n**EFFECT**: Until the end of the phase, weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **GREY KNIGHTS** unit from your army that was set up using the Deep Strike ability this turn and has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, weapons equipped by models in your unit have the **[SUSTAINED HITS 1]** ability."
       },
       "Stratagem§Redirected Strike": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Augurium Task Force"
           ],
           "Category": [
@@ -11182,16 +11777,12 @@
             "Command"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: End of your Command phase.\n\n**TARGET**: One Grey Knights Psyker unit from your army that is more than 3\" horizontally away from all enemy units.\n\n**EFFECT**: If your unit has the Deep Strike ability, it can be placed into Strategic Reserves.\n\n**DESIGNER'S NOTE**: This Stratagem lets players utilise abilities that retain control of objective markers and react to their enemies, and likewise with this unit."
+        "text": "**WHEN:** End of your Command phase.\n\n**TARGET:** One **GREY KNIGHTS PSYKER** unit from your army that is not within Engagement Range of one or more enemy units.\n\n**EFFECT:** If your unit has the Deep Strike ability, it can be placed into Strategic Reserves.\n\n**Designer’s Note:** *This Stratagem lets players utilise abilities that retain control of objective markers and react to their missions and objectives with this unit.*"
       },
       "Stratagem§Redoubled Assault": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Sanctic Spearhead"
           ],
           "Category": [
@@ -11204,11 +11795,12 @@
             "Movement"
           ]
         },
-        "text": "**WHEN**: Your Movement phase, just after a Grey Knights Vehicle unit from your army Fell Back.\n\n**TARGET**: That Grey Knights Vehicle unit.\n\n**EFFECT**: Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+        "text": "**WHEN:** Your Movement phase, just after a **GREY KNIGHTS VEHICLE** unit from your army Falls Back.\n\n**TARGET:** That **GREY KNIGHTS VEHICLE** unit.\n\n**EFFECT:** Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
       },
       "Stratagem§Repelling Sphere": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Warpbane Task Force"
           ],
           "Category": [
@@ -11221,30 +11813,32 @@
             "Charge"
           ]
         },
-        "text": "**WHEN**: Start of your opponent’s Charge phase.\n\n**TARGET**: One Grey Knights Infantry unit from your army.\n\n**EFFECT**: Until the end of the phase, each time an enemy unit declares a charge and your unit is one of the targets of that charge, subtract 1 from the Charge roll, or subtract 2 instead if your unit is wholly within your army’s Hallowed Ground."
+        "text": "**WHEN:** Start of your opponent’s Charge phase.\n\n**TARGET:** One **GREY KNIGHTS INFANTRY** unit from your army.\n\n**EFFECT:** Until the end of the phase, each time an enemy unit declares a charge and your unit is one of the targets of that charge, subtract 1 from the Charge roll, or subtract 2 instead if your unit is wholly within your army’s Hallowed Ground."
       },
       "Stratagem§Sanctified Kill Zone": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Warpbane Task Force"
           ],
           "Category": [
             "Battle Tactic"
           ],
           "Turn": [
-            "Opponent’s",
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Phase": [
             "Fight",
             "Shooting"
           ]
         },
-        "text": "**WHEN**: Your Shooting phase or the Fight phase.\n\n**TARGET**: One Grey Knights unit from your army that has not been selected to shoot or fight this phase and that is wholly within your army’s Hallowed Ground.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes an attack, re‑roll a Wound roll of 1, or, re‑roll the Wound roll instead if your unit is a Purifier Squad."
+        "text": "**WHEN:** Your Shooting phase or the Fight phase.\n\n**TARGET:** One **GREY KNIGHTS** unit from your army that has not been selected to shoot or fight this phase and that is wholly within your army’s Hallowed Ground.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack, re-roll a Wound roll of 1, or, re-roll the Wound roll instead if your unit is a **PURIFIER SQUAD**."
       },
       "Stratagem§Shadow of Anarch": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Banishers"
           ],
           "Category": [
@@ -11257,16 +11851,12 @@
             "Movement"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\n**TARGET**: One Grey Knights unit from your army that is within 9\" of that enemy unit and is not within Engagement Range of one or more enemy units.\n\n**EFFECT**: Your unit can make a Normal move of up to 6\" or, if it has the Deep Strike ability, it can be placed into Strategic Reserves."
+        "text": "**WHEN:** Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\n**TARGET:** One **GREY KNIGHTS PSYKER** unit from your army that is within 8\" of that enemy unit and is not within Engagement Range of one or more enemy units.\n\n**EFFECT:** Your unit can make a Normal move of up to 6\" or, if it has the Deep Strike ability, it can be placed into Strategic Reserves."
       },
       "Stratagem§Shining Resolve": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Hallowed Conclave"
           ],
           "Category": [
@@ -11279,16 +11869,12 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your opponent's Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One Grey Knights Infantry unit from your army that was selected as the target of one or more of the attacking unit's attacks.\n\n**EFFECT**: Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll."
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **GREY KNIGHTS INFANTRY** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll."
       },
       "Stratagem§Shining Veil": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Brotherhood Strike"
           ],
           "Category": [
@@ -11301,23 +11887,20 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your opponent's Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One Grey Knights unit that was selected as the target of one or more of the attacking unit's attacks.\n\n**EFFECT**: Until the end of the phase, your unit has the Stealth ability."
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **GREY KNIGHTS** unit that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, your unit has the Stealth ability."
       },
       "Stratagem§Truesilver Channelling": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Brotherhood Strike"
           ],
           "Category": [
             "Strategic Ploy"
           ],
           "Turn": [
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Phase": [
             "Fight"
@@ -11328,71 +11911,66 @@
             "value": 2
           }
         },
-        "text": "**WHEN**: Fight phase.\n\n**TARGET**: One Grey Knights Infantry unit from your army that has not been selected to fight this phase.\n\n**EFFECT**: Until the end of the phase, Psychic weapons equipped by models in your unit have the [DEVASTATING WOUNDS] ability."
+        "text": "**WHEN:** Fight phase.\n\n**TARGET:** One **GREY KNIGHTS INFANTRY** unit from your army that has not been selected to fight this phase.\n\n**EFFECT:** Until the end of the phase, Psychic weapons equipped by models in your unit have the **[DEVASTATING WOUNDS]** ability,"
       },
       "Stratagem§Truesilver Will": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Sanctic Spearhead"
           ],
           "Category": [
             "Epic Deed"
           ],
           "Turn": [
-            "Opponent’s",
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Phase": [
             "Any"
           ]
         },
-        "text": "**WHEN**: Any phase, just after a Grey Knights Psyker Vehicle unit from your army suffers a mortal wound.\n\n**TARGET**: That Grey Knights Psyker Vehicle unit.\n\n**EFFECT**: Until the end of the phase, models in your unit have the Feel No Pain 4+ ability against mortal wounds."
+        "text": "**WHEN:** Any phase, just after a **GREY KNIGHTS PSYKER VEHICLE** unit from your army suffers a mortal wound.\n\n**TARGET:** That **GREY KNIGHTS PSYKER VEHICLE** unit.\n\n**EFFECT:** Until the end of the phase, models in your unit have the Feel No Pain 4+ ability against mortal wounds."
       },
       "Stratagem§Unending Fidelity": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Hallowed Conclave"
           ],
           "Category": [
             "Strategic Ploy"
           ],
           "Turn": [
+            "Yours",
             "Opponent’s"
           ],
           "Phase": [
-            "Shooting",
-            "Fight"
+            "Fight",
+            "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One Grey Knights Infantry unit from your army that was selected as the target of one or more of the attacking unit's attacks.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit is destroyed, if that model has not shot or fought this phase, roll one D6. On a 4+, do not remove the destroyed model from play; it can shoot or fight after the attacking unit has finished making its attacks, and is then removed from play."
+        "text": "**WHEN:** Your opponent’s Shooting phase or the Fight phase.just after an enemy unit has selected its targets.\n\n**TARGET:** One **GREY KNIGHTS INFANTRY** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit is destroyed, if that model has not shot or fought this phase, roll one D6. On a 4+, do not remove the destroyed model from play; it can shoot or fight after the attacking unit has finished making its attacks, and is then removed from play."
       },
       "Stratagem§Warding Chant": {
         "keywords": {
           "Keywords": [
+            "Grey Knights",
             "Banishers"
           ],
           "Category": [
             "Epic Deed"
           ],
           "Turn": [
+            "Yours",
             "Opponent’s"
           ],
           "Phase": [
-            "Shooting",
-            "Fight"
+            "Fight",
+            "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One Grey Knights Psyker unit from your army that was selected as the target of one or more of the attacking unit's attacks.\n\n**EFFECT**: Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against attacks with an unmodified Damage characteristic of 1."
+        "text": "**WHEN:** Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **GREY KNIGHTS PSYKER** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against attacks with an unmodified Damage characteristic of 1."
       },
       "Unit§Brotherhood Terminator Squad": {
         "allowed": {
@@ -14600,6 +15178,180 @@
       },
       "Wargear§Thunderhawk Cluster Bombs": {
         "text": "Each time the bearer ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound."
+      },
+      "Stratagem§Spiritsear": {
+        "text": "**WHEN:** Your Shooting phase, when a friendly **PURGATION SQUAD** unit has shot.\n\n**TARGET:** That **PURGATION SQUAD** unit.\n\n**EFFECT:** Select one **battle-shocked** enemy unit hit by those attacks. That enemy unit suffers D3+1 **mortal wounds**.",
+        "keywords": {
+          "Keywords": [
+            "Grey Knights",
+            "Fires Of Purgation"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        }
+      },
+      "Stratagem§Soul-locked": {
+        "text": "**WHEN:** Your Movement phase, when a friendly **PURGATION SQUAD** unit is selected to make a **fall-back move**.\n\n**TARGET:** That **PURGATION SQUAD** unit.\n\n**EFFECT:** That move does not prevent your unit from being **eligible to shoot**.",
+        "keywords": {
+          "Keywords": [
+            "Grey Knights",
+            "Fires Of Purgation"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Movement"
+          ]
+        }
+      },
+      "Stratagem§Focused Immolation": {
+        "text": "**WHEN:** Your Shooting phase, when a friendly **PURGATION SQUAD** unit is **selected to shoot**.\n\n**TARGET:** That **PURGATION SQUAD** unit.\n\n**EFFECT:** Select one enemy unit. Your unit’s ranged attacks that target that unit have:\n\n- **[DEVASTATING WOUNDS]**.\n\n- **[SUSTAINED HITS 1]**.",
+        "keywords": {
+          "Keywords": [
+            "Grey Knights",
+            "Fires Of Purgation"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        }
+      },
+      "Stratagem§By Thought Alone": {
+        "text": "**WHEN:** Your Shooting phase, when a friendly **INTERCEPTOR SQUAD** unit **starts an action**.\n\n**TARGET:** That **INTERCEPTOR SQUAD** unit.\n\n**EFFECT:** That **action** does not prevent your unit from being **eligible to shoot**.",
+        "keywords": {
+          "Keywords": [
+            "Grey Knights",
+            "Immaterial Interdiction"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        }
+      },
+      "Stratagem§Responsive Displacement": {
+        "text": "**WHEN:** Your opponent’s Movement phase, when an enemy unit that was **engaged** with a friendly **INTERCEPTOR SQUAD** unit ends a **fall-back move**, if that **INTERCEPTOR SQUAD** unit is **unengaged**.\n\n**TARGET:** That **INTERCEPTOR SQUAD** unit.\n\n**EFFECT:** Your unit can make a **normal move** of up to D3+3\".",
+        "keywords": {
+          "Keywords": [
+            "Grey Knights",
+            "Immaterial Interdiction"
+          ],
+          "Turn": [
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Movement"
+          ]
+        }
+      },
+      "Stratagem§Blades from the Beyond": {
+        "text": "**WHEN:** Fight phase, when a friendly **INTERCEPTOR SQUAD** unit that made a **charge move** this turn is **selected to fight**.\n\n**TARGET:** That **INTERCEPTOR SQUAD** unit.\n\n**EFFECT:** Your unit’s melee attacks have **[LANCE]**.",
+        "keywords": {
+          "Keywords": [
+            "Grey Knights",
+            "Immaterial Interdiction"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Fight"
+          ]
+        }
+      },
+      "Stratagem§Truesilver Aegis": {
+        "text": "**WHEN:** Any phase, when a friendly **PALADIN SQUAD** unit suffers a **mortal wound**.\n\n**TARGET:** That **PALADIN SQUAD** unit.\n\n**EFFECT:** Your unit has **Feel No Pain 4+** against **mortal wounds**.",
+        "keywords": {
+          "Keywords": [
+            "Grey Knights",
+            "Argent Assault"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Any"
+          ]
+        }
+      },
+      "Stratagem§A Threat Ended": {
+        "text": "**WHEN:** Fight phase, when a friendly **PALADIN SQUAD** unit is **selected to fight**.\n\n**TARGET:** That **PALADIN SQUAD** unit.\n\n**EFFECT:** Your unit’s melee attacks have **[PRECISION]**.",
+        "keywords": {
+          "Keywords": [
+            "Grey Knights",
+            "Argent Assault"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Fight"
+          ]
+        }
+      },
+      "Stratagem§Aura of Vengeance": {
+        "text": "**WHEN:** Fight phase, when an enemy unit targets a friendly **PALADIN SQUAD** unit.\n\n**TARGET:** That **PALADIN SQUAD** unit.\n\n**EFFECT:** That enemy unit’s melee attacks have **[HAZARDOUS]**.",
+        "keywords": {
+          "Keywords": [
+            "Grey Knights",
+            "Argent Assault"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Fight"
+          ]
+        }
+      },
+      "Enhancement§Inescapable Judgement (Psychic)": {
+        "text": "**GREY KNIGHTS** model only. Each time an enemy unit within Engagement Range of the bearer’s unit Falls Back, the bearer can use this Enhancement. If it does, roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds. These mortal wounds are Psychic Attacks.",
+        "keywords": {
+          "Keywords": [
+            "Hallowed Conclave"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "rules": {
+          "GREY KNIGHTS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Grey Knights"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       }
     },
     "gameModes": {},

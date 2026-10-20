@@ -1,6 +1,6 @@
 {
   "name": "Astra Militarum 11e",
-  "revision": "11.1.6",
+  "revision": "11.1.14",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -5149,7 +5149,7 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Absolutist Principles**\n- Friendly **Bullgryn Squad/Ogryn Squad/Ratlings** units have **Abhuman**.\n\n- Friendly **Commissar** models can:\n\n- Issue the Take Aim! Order.\n\n- Issue 1 Order to a friendly **Abhuman** unit.\nThis **detachment** has the **Abhuman** tag and cannot be taken with another **Abhuman** **detachment**.",
+        "text": "**ABSOLUTIST PRINCIPLES**\n\n- Friendly **BULLGRYN SQUAD/OGRYN SQUAD/RATLINGS** units have **ABHUMAN**.\n\n- Friendly **COMMISSAR** models can:\n\n- Issue the Take Aim! Order.\n\n- Issue 1 Order to a friendly **ABHUMAN** unit.\nThis **detachment** has the **ABHUMAN** tag and cannot be taken with another **ABHUMAN** **detachment**.",
         "rules": {
           "removeSameTagDetachments": {
             "actions": [
@@ -5171,6 +5171,55 @@
             "evaluate": "AND",
             "failState": "pass",
             "order": 10
+          },
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Thick-skulled Obdurance"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Stirred to Action"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Low Profile"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
           }
         }
       },
@@ -5185,7 +5234,100 @@
             "value": 2
           }
         },
-        "text": "## SQUADRON COMMAND\n\nAdd Squadron to the list of units each\nOfficer unit from your army can issue\nOrders to. Add the Order below to those\nlisted in the Voice of Command ability.\n\n---\n## ORDER\n\n**ON MY SIGNAL**\n\nThis Order can only be issued to Armoured Skirmisher units (see below). Each time an enemy unit ends a Normal or Advance move within 9\" of this unit, this unit can make a Normal move of up to D6\". Each unit can only move in this way once per turn.\n\n---\n\n**KEYWORDS** \n\nAstra Militarum Squadron units from your army have the Armoured Skirmisher keyword (excluding Artillery units and units containing one or more models with a Wounds characteristic of 13 or higher)."
+        "text": "**SQUADRON COMMAND**\n\nAdd **SQUADRON** to the list of units each **OFFICER** unit from your army can issue Orders to. Add the Order below to those listed in the Voice of Command ability.\n\n**ORDER**\n\nOn My Signal\n\nThis Order can only be issued to **ARMOURED SKIRMISHER** units (see Keywords). Each time an enemy unit ends a Normal or Advance move within 8\" of this unit, this unit can make a Normal move of up to D6\". Each unit can only move in this way once per turn.",
+        "rules": {
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Order the Advance"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Supporting Ordnance"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Combined Fire"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Opening Salvo"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Mobile Firebase"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Burst of Speed"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        }
       },
       "Detachment§Bridgehead Strike": {
         "keywords": {
@@ -5211,35 +5353,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Bellicosa Drop"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Firing Hot"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Fire and Relocate"
+                "value": "Stratagem§On My Position"
               },
               {
                 "actionType": "add",
@@ -5267,21 +5381,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Aerial Extraction"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§On My Position"
+                "value": "Stratagem§Firing Hot"
               }
             ],
             "evals": [],
@@ -5294,7 +5394,7 @@
             "value": 1
           }
         },
-        "text": "## ONLY THE BEST\n\nEach time an **Astra Militarum Infantry** model from your army makes a ranged attack, re‐roll a Hit roll of 1.\n\n---\n## FIRE ZONE PURGE\n\nEach time a **Militarum Tempestus** model from your army makes a ranged attack in a turn in which it was set up on the battlefield from Reserves or it disembarked from a **Transport**, add 1 to the Hit roll.\n\n---\n## KEYWORDS\n\nIf a **Militarum Tempestus Officer** model from your army is your **Warlord**, **Tempestus Scions** units from your army gain the **Battleline** keyword, and while such a unit is not Battle‑shocked, add 1 to the Objective Control characteristic of **Tempestus Scions** models in that unit."
+        "text": "**FIRE ZONE PURGE**\n\n- If a friendly **MILITARUM TEMPESTUS OFFICER** model is your **WARLORD**, friendly **TEMPESTUS SCIONS** units have:\n\n- **BATTLELINE**.\n\n- +1 **OC**.\n\n- When a friendly **MILITARUM TEMPESTUS** unit is **selected to shoot**, if that unit was set up this turn, that unit’s ranged attacks have +1 to **hit rolls**."
       },
       "Detachment§Combined Arms": {
         "keywords": {
@@ -5306,7 +5406,7 @@
           ]
         },
         "rules": {
-          "addStratagems": {
+          "assignStratagems": {
             "actions": [
               {
                 "actionType": "add",
@@ -5320,7 +5420,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Reinforcements!"
+                "value": "Stratagem§Coordinated Action"
               },
               {
                 "actionType": "add",
@@ -5348,6 +5448,20 @@
                     "traits"
                   ]
                 ],
+                "value": "Stratagem§Stalwart Protector"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
                 "value": "Stratagem§Inspired Command"
               },
               {
@@ -5362,7 +5476,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Coordinated Action"
+                "value": "Stratagem§Reinforcements!"
               },
               {
                 "actionType": "add",
@@ -5377,20 +5491,6 @@
                   ]
                 ],
                 "value": "Stratagem§Flexible Command"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Stalwart Protector"
               }
             ],
             "evals": [],
@@ -5403,7 +5503,7 @@
             "value": 2
           }
         },
-        "text": "## BORN SOLDIERS\n\nEach time a model in a **Regiment** unit from your army makes a ranged attack that targets a visible unit (excluding **Monsters** and **Vehicles**), that attack has the **[LETHAL HITS]** ability.\n\nEach time a model in a **Squadron** unit from your army makes a ranged attack that targets a visible **Monster** or **Vehicle** unit, that attack has the **[LETHAL HITS]** ability."
+        "text": "**BORN SOLDIERS**\n\nEach time a model in a **REGIMENT** unit from your army makes a ranged attack that targets a visible unit (excluding **MONSTERS** and **VEHICLES**), that attack has the **[LETHAL HITS]** ability.\n\nEach time a model in a **SQUADRON** unit from your army makes a ranged attack that targets a visible **MONSTER** or **VEHICLE** unit, that attack has the **[LETHAL HITS]** ability."
       },
       "Detachment§Designation Force": {
         "keywords": {
@@ -5416,7 +5516,7 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Designated Targets**\nFriendly **Scout Sentinel/ASTRA MILITARUM INFANTRY SMOKE** units have the following ability:\n\n**Signal Flares:** In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **designated**:\n\n- While a unit is **designated**, that unit has +3\" **detection range**.\nThis **detachment** has the **RECON** tag and cannot be taken with another **RECON** **detachment**.",
+        "text": "**DESIGNATED TARGETS**\n\nFriendly **SCOUT SENTINEL/ASTRA MILITARUM INFANTRY SMOKE** units have the following ability:\n\n**Signal Flares:** In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **designated**:\n\n- While a unit is **designated**, that unit has +3\" **detection range**.\nThis **detachment** has the **RECON** tag and cannot be taken with another **RECON** **detachment**.",
         "rules": {
           "removeSameTagDetachments": {
             "actions": [
@@ -5438,6 +5538,55 @@
             "evaluate": "AND",
             "failState": "pass",
             "order": 10
+          },
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Sump-smog Screen"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Close-range Detection"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Triggered Alerts"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
           }
         }
       },
@@ -5463,21 +5612,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Additional Armour"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Mordian Minute"
+                "value": "Stratagem§Veteran Sharpshooters"
               },
               {
                 "actionType": "add",
@@ -5505,7 +5640,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Veteran Sharpshooters"
+                "value": "Stratagem§Mordian Minute"
               },
               {
                 "actionType": "add",
@@ -5519,7 +5654,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§No Retreat!"
+                "value": "Stratagem§Additional Armour"
               },
               {
                 "actionType": "add",
@@ -5534,6 +5669,20 @@
                   ]
                 ],
                 "value": "Stratagem§Snap To It"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§No Retreat!"
               }
             ],
             "evals": [],
@@ -5567,7 +5716,7 @@
             "value": 3
           }
         },
-        "text": "## RUTHLESS DISCIPLINE\n\nAdd 1 to the number of Orders each Astra Militarum Officer model from your army can issue, as stated on their datasheet.\n\nWhile an Astra Militarum unit from your army is affected by an Order, each time a model in that unit makes an attack, re‑roll a Hit roll of 1."
+        "text": "**RUTHLESS DISCIPLINE**\n\nAdd 1 to the number of Orders each **ASTRA MILITARUM OFFICER** model from your army can issue, as stated on their datasheet.\n\nWhile an **ASTRA MILITARUM** unit from your army is affected by an Order, each time a model in that unit makes an attack, re-roll a Hit roll of 1."
       },
       "Detachment§Hammer of the Emperor": {
         "keywords": {
@@ -5581,34 +5730,6 @@
         "rules": {
           "assignStratagems": {
             "actions": [
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Final Hour"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Crash Through"
-              },
               {
                 "actionType": "add",
                 "iterations": 1,
@@ -5649,7 +5770,35 @@
                     "traits"
                   ]
                 ],
+                "value": "Stratagem§Final Hour"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
                 "value": "Stratagem§Tactical Withdrawal"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Crash Through"
               },
               {
                 "actionType": "add",
@@ -5676,7 +5825,7 @@
             "value": 2
           }
         },
-        "text": "## Iron Tread\nEach time a **Squadron** unit from your army Advances, do not make a Advance roll for it, until the end of the phase, add 6\" to the Move characteristic of models in that  unit, and when making that advance move, that unit can move within Engagement Range of enemy models but cannot end that move within Engagement Range of enemy models"
+        "text": "**IRON TREAD**\n\nEach time a **SQUADRON** unit from your army Advances, do not make an Advance roll for it; until the end of the phase, add 6\" to the Move characteristic of models in that unit, and when making that Advance move, that unit can move within Engagement Range of enemy models but cannot end that move within Engagement Range of enemy models."
       },
       "Detachment§Mechanised Assault": {
         "keywords": {
@@ -5702,7 +5851,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Vox-Relay"
+                "value": "Stratagem§Clear And Secure"
               },
               {
                 "actionType": "add",
@@ -5730,20 +5879,6 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Rapid Dispersal"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
                 "value": "Stratagem§Hasty Extraction"
               },
               {
@@ -5758,7 +5893,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Clear And Secure"
+                "value": "Stratagem§Rapid Dispersal"
               },
               {
                 "actionType": "add",
@@ -5773,6 +5908,20 @@
                   ]
                 ],
                 "value": "Stratagem§Move Out"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Vox-Relay"
               }
             ],
             "evals": [],
@@ -5785,7 +5934,7 @@
             "value": 2
           }
         },
-        "text": "## Armoured Fist\n\nEach time an **Astra Militarum** models from your army makes a ranged attack in a turn in which it disembarked from a **Transport**, add 1 to the Wound roll."
+        "text": "**ARMOURED FIST**\n\nEach time an **ASTRA MILITARUM** model from your army makes a ranged attack in a turn in which it disembarked from a **TRANSPORT,** add 1 to the Wound roll."
       },
       "Detachment§Recon Element": {
         "keywords": {
@@ -5825,7 +5974,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Courageous Diversion"
+                "value": "Stratagem§Scouting Outriders"
               },
               {
                 "actionType": "add",
@@ -5853,7 +6002,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Tanglefoot Grenades"
+                "value": "Stratagem§Courageous Diversion"
               },
               {
                 "actionType": "add",
@@ -5881,7 +6030,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Scouting Outriders"
+                "value": "Stratagem§Tanglefoot Grenades"
               }
             ],
             "evals": [],
@@ -5915,7 +6064,7 @@
             "value": 2
           }
         },
-        "text": "## Masters of Camouflage\n**Astra Militarum Walker** and **Regiment** models from your army have the Benefit of Cover. While such a model has the Benefit of Cover for any other reason (e.g. because  it is wholly within a **Ruin**), improve the Save characteristic of that model by 1 (to a maximum of 3+)."
+        "text": "**MASTERS OF CAMOUFLAGE**\n\nFriendly **ASTRA MILITARUM** units **(**excluding **TITANIC** units**)** have **Stealth**."
       },
       "Detachment§Siege Regiment": {
         "keywords": {
@@ -5929,20 +6078,6 @@
         "rules": {
           "assignStratagems": {
             "actions": [
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Trench Fighters"
-              },
               {
                 "actionType": "add",
                 "iterations": 1,
@@ -5969,7 +6104,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Over The Top"
+                "value": "Stratagem§Trench Fighters"
               },
               {
                 "actionType": "add",
@@ -5997,7 +6132,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Flare Burst"
+                "value": "Stratagem§Over The Top"
               },
               {
                 "actionType": "add",
@@ -6012,6 +6147,20 @@
                   ]
                 ],
                 "value": "Stratagem§Minefield"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Flare Burst"
               }
             ],
             "evals": [],
@@ -6024,7 +6173,7 @@
             "value": 2
           }
         },
-        "text": "## Artillery Support\n\nAt the start of the battle round, select one of the following types of artillery support.\n\n-  **Creeping Barrage:** Roll one D6 for each enemy unit that is more than 12\" from every model from your army that is on the battlefield: On a 5+, until the end of the battle round, that unit is shaken. While a unit is shaken, subtract 2\" from its move characteristic and subtract 2 *Charge rolls* made for it. *The maximum number of units that can be shaken by this rule in each battle round depends on the battle size, as shown below.*\n\n-  **Incendiary Bombardment:** Select a number of enemy units that is more than 12\" from every model from your army that is on the battlefield: On a 5+, until the end of the battle round, those enemy units are scattered. While a unit is scattered, it cannot have the Benefit of Cover. The maximum number of units that you can select in this way depends on the battle size, as shown below.\n\n-  **Smoke Shells:** Select a number units from your army. Until the end of the battle round, those units have the Stealth ability. The maximum number of units that you can select in this way depends on the battle size, as shown below.\n\n| Battle Size | Maximum Number of  Units |\n| ----------- | ----------- |\n| Incursion | 2 |\n| Strike Force | 3 |\n| Onslaught | 4 |"
+        "text": "**ARTILLERY SUPPORT**\n\nAt the start of the battle round, select one of the following types of artillery support.\n\n■ **Creeping Barrage:** Roll one D6 for each enemy unit that is more than 12\" from every model from your army that is on the battlefield: On a 5+, until the end of the battle round, that unit is shaken. While a unit is shaken, subtract 2” from its Move characteristic and subtract 2 from Charge rolls made for it. The maximum number of units that can be shaken by this rule in each battle round depends on the battle size, as shown below.\n\n■ **Incendiary Bombardment:** Select a number of enemy units more than 12\" from every model from your army that is on the battlefield. Until the end of the battle round, those enemy units are scattered. While a unit is scattered, it cannot have the Benefit of Cover. The maximum number of units you can select in this way depends on the battle size, as shown below.\n\n■ **Smoke Shells:** Select a number of units from your army. Until the end of the battle round, those units have the Stealth ability. The maximum number of units you can select in this way depends on the battle size, as shown below."
       },
       "Detachment§Steel Hammer": {
         "keywords": {
@@ -6061,35 +6210,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Withering Firepower"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Shattering Salvo"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Adamantine Behemoth"
+                "value": "Stratagem§Engine of Wrath"
               },
               {
                 "actionType": "add",
@@ -6117,7 +6238,35 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Engine of Wrath"
+                "value": "Stratagem§Adamantine Behemoth"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Shattering Salvo"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Withering Firepower"
               }
             ],
             "evals": [],
@@ -6130,7 +6279,7 @@
             "value": 2
           }
         },
-        "text": "## CEASELESS CANNONADE\n\nEach time an Astra Militarum Titanic or Astra Militarum Squadron unit from your army is selected to shoot, models in that unit can target enemy units within Engagement Range of that unit (including with Blast weapons), provided no other friendly units are also within Engagement Range of that enemy unit. When doing so, such models do not suffer the penalty to their Hit rolls for being within Engagement Range of one or more enemy units (excluding attacks made with Indirect Fire weapons).\n\n---\n\n**KEYWORDS**\n\nIn the Muster Armies step, you can select one or more Astra Militarum Titanic units from your army to gain the Character keyword.\n\nDesigner’s Note: This means that the selected units can be given Enhancements, and one of them can be selected as your Warlord."
+        "text": "**CEASELESS CANNONADE**\n\nEach time an **ASTRA MILITARUM TITANIC** or **ASTRA MILITARUM SQUADRON** unit from your army is selected to shoot, models in that unit can target enemy units within Engagement Range of that unit (including with Blast weapons), provided no other friendly units are also within Engagement Range of that enemy unit. When doing so, such models do not suffer the penalty to their Hit rolls for being within Engagement Range of one or more enemy units (excluding attacks made with Indirect Fire weapons)."
       },
       "Enhancement§Abhuman Detail": {
         "keywords": {
@@ -6165,79 +6314,7 @@
             "value": 20
           }
         },
-        "text": "**COMMISSAR** model only. Add the **OGRYN** keyword to the list of units this model can issue Orders too (as stated on its datasheet). In the Declare Battle Formations step, the bearer can be attached to an **OGRYN SQUAD** or **BULLGRYN SQUAD** unit."
-      },
-      "Enhancement§Advance Augury": {
-        "rules": {
-          "Infantry Officer model only": {
-            "evals": [
-              {
-                "actionable": true,
-                "contains": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{parent}",
-                    "keywords",
-                    "Keywords"
-                  ]
-                ],
-                "value": "Infantry"
-              },
-              {
-                "actionable": true,
-                "contains": true,
-                "not": true,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{parent}",
-                    "keywords",
-                    "Keywords"
-                  ]
-                ],
-                "value": "Ministorum Priest"
-              },
-              {
-                "actionable": true,
-                "contains": true,
-                "not": true,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{parent}",
-                    "keywords",
-                    "Keywords"
-                  ]
-                ],
-                "value": "Primaris Psyker"
-              },
-              {
-                "actionable": true,
-                "contains": true,
-                "not": true,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{parent}",
-                    "keywords",
-                    "Keywords"
-                  ]
-                ],
-                "value": "Tech-Priest Enginseer"
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "error"
-          }
-        },
-        "stats": {
-          "Points": {
-            "value": 15
-          }
-        },
-        "text": "**Infantry Officer** model only. After both players have deployed their armies, select up to three **Regiment** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+        "text": "**COMMISSAR** model only. Add the **OGRYN** keyword to the list of units this model can issue Orders too (as stated on its datasheet).\n\nIn the Declare Battle Formations step, the bearer can be attached to an **OGRYN SQUAD** or **BULLGRYN SQUAD** unit."
       },
       "Enhancement§Aquilan Eye": {
         "keywords": {
@@ -6398,7 +6475,7 @@
             "value": 30
           }
         },
-        "text": "**ASTRA MILITARUM TITANIC CHARACTER** model only. The bearer has the Voice of Command ability and the **OFFICER** keyword, and can issue up to 2 Orders to **ASTRA MILITARUM TITANIC** and **SQUADRON** units."
+        "text": "**ASTRA MILITARUM TITANIC CHARACTER** model only. The bearer has the Voice of Command ability and the Officer keyword, and can issue up to 2 Orders to **ASTRA MILITARUM TITANIC** and **SQUADRON** units."
       },
       "Enhancement§Bold Leadership": {
         "keywords": {
@@ -6475,7 +6552,7 @@
             "value": 25
           }
         },
-        "text": "**Infantry Officer** model only. If you control an objective marker at the end of your command phase, and the bearer's unit (or any **Transport** it is embarked within) is within range of that objective marker, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+        "text": "**INFANTRY OFFICER** model only. If you control an objective marker at the end of your Command phase, and the bearer’s unit (or any **TRANSPORT** it is embarked within) is within range of that objective marker, that objective marker remains under you control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
       },
       "Enhancement§Bombast-class Vox-array": {
         "keywords": {
@@ -6510,7 +6587,7 @@
             "value": 15
           }
         },
-        "text": "**Militarum Tempestus Officer** model only. Each time the bearer issues an Order, if the bearer’s unit contains one or more models equipped with a master vox, it can issue that Order to up to three different **Regiment** units, instead of only one."
+        "text": "**MILITARUM TEMPESTUS OFFICER** model only. When this model issues an **Order**, if this unit has the **Master Vox** wargear ability, this model can issue that **Order** to up to three different **REGIMENT** units, instead of only one."
       },
       "Enhancement§Calm Under Fire": {
         "keywords": {
@@ -6559,7 +6636,7 @@
             "value": 15
           }
         },
-        "text": "**Vehicle Officer** model only. Once per turn, after the bearer issues an Order to a **Squadron** unit from your army, it can issue that same Order to another **Squadron** unit from your army."
+        "text": "**VEHICLE OFFICER** model only. Once per turn, after the bearer issues an Order to a **SQUADRON** unit from your army, it can issue the same Order to another **SQUADRON** unit from your army."
       },
       "Enhancement§Death Mask of Ollanius": {
         "keywords": {
@@ -6636,7 +6713,7 @@
             "value": 10
           }
         },
-        "text": "**Officer** model only. While the bearer’s unit is Battle-shocked, subtract 1 from the Objective Control characteristic of models in that unit, instead of changing it to 0."
+        "text": "**OFFICER** model only. While the bearer’s unit is Battle-shocked, subtract 1 from the Objective Control characteristic of models in that unit, instead of changing it to 0."
       },
       "Enhancement§Drill Commander": {
         "keywords": {
@@ -6713,7 +6790,7 @@
             "value": 20
           }
         },
-        "text": "**Officer** model only. While the bearer is leading a unit, each time a model in that unit makes a ranged attack, if that unit Remained Stationary this turn, a Critical Hit is scored on a successful unmodified Hit roll of 5+."
+        "text": "**OFFICER** model only. While the bearer is leading a unit, each time a model in that unit makes a ranged attack, if that unit Remained Stationary this turn, a Critical Hit is scored on a successful unmodified Hit roll of 5+."
       },
       "Enhancement§Eager Advance": {
         "keywords": {
@@ -6832,7 +6909,7 @@
             "value": 20
           }
         },
-        "text": "**Infantry Officer** model only. While the bearer is leading a **Regiment** unit, that unit has the Scouts 6\" ability."
+        "text": "**INFANTRY OFFICER** model only. While the bearer is leading a **REGIMENT** unit, that unit has the Scouts 6\" ability."
       },
       "Enhancement§Engine Speaker": {
         "keywords": {
@@ -6867,7 +6944,7 @@
             "value": 15
           }
         },
-        "text": "**ASTRA MILITARUM TECH-PRIEST ENGINSEER** model only. Each time the bearer uses its Omnissiah's Blessing ability, until the start of your next Command phase, add 3\" to the Move characteristic of the selected **VEHICLE** model."
+        "text": "**ASTRA MILITARUM TECH-PRIEST ENGINSEER** model only. Each time the bearer uses its Omnissiah’s Blessing ability, until the start of your next Command phase, add 3\" to the Move characteristic of the selected **VEHICLE** model."
       },
       "Enhancement§Exemplar of Duty (Upgrade)": {
         "keywords": {
@@ -6883,7 +6960,7 @@
             "value": 10
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Commissar** model only. This model has **Feel No Pain 4+**.",
+        "text": "**COMMISSAR** model only. This model has **Feel No Pain 4+**.",
         "removed": {
           "keywords": {
             "Tags": [
@@ -6893,6 +6970,28 @@
         },
         "aspects": {
           "Unique": false
+        },
+        "rules": {
+          "COMMISSAR model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Commissar"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
         }
       },
       "Enhancement§Exemplary Officer": {
@@ -6970,7 +7069,7 @@
             "value": 20
           }
         },
-        "text": "**INFANTRY OFFICER** model only. Each time the bearer issues an Order to its own unit, you can select up to two other **PLATOON** units within 3\" of the bearer's unit. That Order is also issued to each of those units."
+        "text": "**INFANTRY OFFICER** model only. Each time the bearer issues an Order to its own unit, you can select up to two other **PLATOON** units within 3\" of the bearer’s unit. That Order is also issued to each of those units."
       },
       "Enhancement§Flash Grenades": {
         "keywords": {
@@ -7047,7 +7146,7 @@
             "value": 20
           }
         },
-        "text": "**Infantry Officer** model only. Enemy units cannot use the Fire Overwatch Stratagem to shoot the bearer's unit."
+        "text": "**INFANTRY OFFICER** model only. Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit."
       },
       "Enhancement§Grand Strategist": {
         "aspects": {
@@ -7092,9 +7191,9 @@
             "value": "Armoured Infantry"
           }
         },
-        "text": "**OFFICER** model only. After both players have deployed their armies, if the bearer's unit (or any **TRANSPORT** it is embarked within) is on the battlefield, select up to two units with the **REGIMENT** or **SQUADRON** keywords from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+        "text": "**OFFICER** model only. After both players have deployed their armies, if the bearer’s unit (or any **TRANSPORT** it is embarked within) is on the battlefield, select up to two units with the **REGIMENT** or **SQUADRON** keywords from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
       },
-      "Enhancement§Guerilla Honours": {
+      "Enhancement§Guerrilla Honours": {
         "rules": {
           "Infantry Officer model only.": {
             "evals": [
@@ -7164,20 +7263,12 @@
             "value": 25
           }
         },
-        "text": "**Infantry Officer** model only. After both players have deployed their armies, if the bearer's unit is on the battlefield select up to three other **Astra Militarum Infantry** units from your army and redeploy them. When doing so, you can set those units in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
-      },
-      "Enhancement§Guerrilla Honours": {
+        "text": "**INFANTRY OFFICER** model only. After both players have deployed their armies, if the bearer is on the battlefield, select up to three other **ASTRA MILITARUM INFANTRY** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves.",
         "keywords": {
           "Keywords": [
             "Recon Element"
           ]
-        },
-        "stats": {
-          "Points": {
-            "value": 25
-          }
-        },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**INFANTRY OFFICER** model only. After both players have deployed their armies, if the bearer is on the battlefield, select up to three other **ASTRA MILITARUM INFANTRY** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+        }
       },
       "Enhancement§Indomitable Steed": {
         "keywords": {
@@ -7252,7 +7343,7 @@
             "value": 15
           }
         },
-        "text": "**Vehicle Officer** model only. The bearer has the Feel No Pain 6+ ability."
+        "text": "**VEHICLE OFFICER** model only. The bearer has the Feel No Pain 6+ ability."
       },
       "Enhancement§Laud Hailer": {
         "keywords": {
@@ -7406,7 +7497,7 @@
             "value": 10
           }
         },
-        "text": "**Infantry Officer** model only. Add 2 to the Attacks characteristics of the bearer's Pistols."
+        "text": "**INFANTRY OFFICER** model only. Add 2 to the Attacks characteristics of the bearer’s Pistols."
       },
       "Enhancement§Long-range Scout (Upgrade)": {
         "keywords": {
@@ -7422,7 +7513,7 @@
             "value": 10
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Scout Sentinel** unit only. This unit has **Infiltrators**.",
+        "text": "**SCOUT SENTINEL** unit only. This unit has **Infiltrators**.",
         "removed": {
           "keywords": {
             "Tags": [
@@ -7432,6 +7523,42 @@
         },
         "aspects": {
           "Unique": false
+        },
+        "rules": {
+          "SCOUT SENTINEL unit only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Scout"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Sentinel"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
         }
       },
       "Enhancement§Master Manoeuvrist": {
@@ -7509,9 +7636,9 @@
             "value": 15
           }
         },
-        "text": "**INFANTRY OFFICER** model only. At the end of your opponent's Fight phase, if the bearer's unit is not within Engagement Range of one or more enemy units and every model in that unit is within 3\" of an **ASTRA MILITARUM TRANSPORT** from your army, it can embark within that **TRANSPORT**."
+        "text": "**INFANTRY OFFICER** model only. At the end of your opponent’s Fight phase, if the bearer’s unit is not within Engagement Range of one or more enemy units and every model in that unit is within 3\" of an **ASTRA MILITARUM TRANSPORT** from your army, it can embark within that **TRANSPORT.**"
       },
-      "Enhancement§Omnissian Unguents": {
+      "Enhancement§Omnissian Unguents (Aura)": {
         "keywords": {
           "Keywords": [
             "Armoured Infantry"
@@ -7579,7 +7706,7 @@
             "value": 25
           }
         },
-        "text": "**Militarum Tempestus Officer** model only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules."
+        "text": "**MILITARUM TEMPESTUS OFFICER** model only. In your first Movement phase, this unit can make an **ingress move**."
       },
       "Enhancement§Reactive Command": {
         "keywords": {
@@ -7656,7 +7783,7 @@
             "value": 15
           }
         },
-        "text": "Officer model only. Each time an enemy unit is set up within 9\" of the bearer's unit, the bearer can issue one Order. This is not counted towards the number of Orders the bearer can issue in a battle round."
+        "text": "**OFFICER** model only. Each time an enemy unit is set up within 8\" of the bearer’s unit, the bearer can issue one Order. This is not counted towards the number of Orders the bearer can issue in a battle round."
       },
       "Enhancement§Recon Star (Upgrade)": {
         "keywords": {
@@ -7672,7 +7799,7 @@
             "value": 10
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Astra Militarum Infantry Platoon** unit only. In your first Movement phase, this unit can make an **ingress move**.",
+        "text": "**ASTRA MILITARUM INFANTRY PLATOON** unit only. In your first Movement phase, this unit can make an **ingress move**.",
         "removed": {
           "keywords": {
             "Tags": [
@@ -7682,6 +7809,56 @@
         },
         "aspects": {
           "Unique": false
+        },
+        "rules": {
+          "ASTRA MILITARUM INFANTRY PLATOON unit only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Astra Militarum"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Infantry"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Platoon"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
         }
       },
       "Enhancement§Regimental Banner": {
@@ -7752,7 +7929,7 @@
             "value": 20
           }
         },
-        "text": "**Vehicle Officer** model only. Add 3 to the bearer's Objective Control characteristic."
+        "text": "**VEHICLE OFFICER** model only. Add 3 to the bearer’s Objective Control characteristic."
       },
       "Enhancement§Sacred Unguents": {
         "keywords": {
@@ -7787,7 +7964,7 @@
             "value": 10
           }
         },
-        "text": "**Astra Militarum Tech-Priest Enginseer** model only. At the start of your shooting phase, select one **Transport** from your army (Excluding **Aircraft** and **Titanic** units) within 3\" of the bearer. Until the end of the phase, each time that **Transport** makes and attack, you can re-roll the Hit roll."
+        "text": "**ASTRA MILITARUM TECH-PRIEST ENGINSEER** model only. At the start of your Shooting phase, select one **TRANSPORT** from your army (excluding **AIRCRAFT** and **TITANIC** units) within 3\" of the bearer. Until the end of the phase, each time that **TRANSPORT** makes an attack, you can re-roll the Hit roll."
       },
       "Enhancement§Scare Gas Grenades": {
         "keywords": {
@@ -7822,7 +7999,7 @@
             "value": 5
           }
         },
-        "text": "**Astra Militarum Infantry** model only. Once per battle, at the start of any phase, the bearer can use this Enchacement. If it does, select one enemy unit within 8\" of the bearer's unit (excluding **Monster** and **Vehicle** units); that unit must take a battle-shock test."
+        "text": "**ASTRA MILITARUM INFANTRY** model only. Once per battle, at the start of any phase, the bearer can use this Enhancement. If it does, select one enemy unit within 8\" of the bearer’s unit (excluding **MONSTER** and **VEHICLE** units); that unit must take a Battle-shock test."
       },
       "Enhancement§Sharp Eyes (Upgrade)": {
         "keywords": {
@@ -7838,7 +8015,7 @@
             "value": 10
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Ratlings** unit only. When this unit is **selected to shoot**, enemy units have +6\" **detection range** until this unit has shot.",
+        "text": "**RATLINGS** unit only. When this unit is **selected to shoot**, enemy units have +6\" **detection range** until this unit has shot.",
         "removed": {
           "keywords": {
             "Tags": [
@@ -7848,11 +8025,9 @@
         },
         "aspects": {
           "Unique": false
-        }
-      },
-      "Enhancement§Shroud Projector": {
+        },
         "rules": {
-          "Mili Temp Officer model only": {
+          "RATLINGS unit only.": {
             "evals": [
               {
                 "actionable": true,
@@ -7866,19 +8041,13 @@
                     "Keywords"
                   ]
                 ],
-                "value": "Militarum Tempestus"
+                "value": "Ratlings"
               }
             ],
             "evaluate": "AND",
             "failState": "error"
           }
-        },
-        "stats": {
-          "Points": {
-            "value": 15
-          }
-        },
-        "text": "**Militarum Tempestus Officer** model only. Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit."
+        }
       },
       "Enhancement§Smoke Grenades": {
         "keywords": {
@@ -7955,7 +8124,7 @@
             "value": 10
           }
         },
-        "text": "**Infantry Officer** model only. The bearer's unit has the Benefit of Cover and the Stealth ability while the bearer's unit is wholly within 3\" of one or more friendly **Transport** models."
+        "text": "**INFANTRY OFFICER** model only. The bearer’s unit has the Benefit of Cover and the Stealth ability while the bearer’s unit is wholly within 3\" of one or more friendly **TRANSPORT** models."
       },
       "Enhancement§Spec Ops Veteran": {
         "keywords": {
@@ -8117,7 +8286,29 @@
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**OFFICER** model only. While the bearer is leading a unit, when that unit is issued an Order, it is also affected by the Take Cover! Order."
+        "text": "**OFFICER** model only. While the bearer is leading a unit, when that unit is issued an Order, it is also affected by the Take Cover! Order.",
+        "rules": {
+          "OFFICER model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Officer"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Survival Gear": {
         "keywords": {
@@ -8178,7 +8369,7 @@
             "value": 5
           }
         },
-        "text": "**Astra Militarum Infantry** model only. The bearer has the Scouts 6\" ability."
+        "text": "**ASTRA MILITARUM INFANTRY** model only. The bearer has the Scouts 6\" ability."
       },
       "Enhancement§Titan Killer": {
         "keywords": {
@@ -8276,7 +8467,7 @@
             "value": 20
           }
         },
-        "text": "**Astra Militarum Infantry** model only. Each time an enemy **Infantry** or **Mounted** unit ends a Normal, Advance or Charge or Fall Back move within 9\" of the bearer's unit, roll one D6; on a 4+, until the start of your next turn, that enemy unit is stunned. While that unit is stunned, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+        "text": "**ASTRA MILITARUM INFANTRY** model only. Each time an enemy **INFANTRY** or **MOUNTED** unit ends a Normal, Advance, Charge or Fall Back move within 8\" of the bearer’s unit, roll one D6: on a 4+, until the start of your next turn, that enemy unit is stunned. While a unit is stunned, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
       },
       "Enhancement§Vanguard Honours": {
         "keywords": {
@@ -8354,7 +8545,7 @@
             "visibility": "always"
           }
         },
-        "text": "**Infantry Officer** model only. the bearer's unit can disembark from a **Transport** after it has Advanced. if it does, it counts as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn."
+        "text": "**INFANTRY OFFICER** model only. The bearer’s unit can disembark from a **TRANSPORT** after it has Advanced. If it does, it counts as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn."
       },
       "Enhancement§Veteran Crew": {
         "keywords": {
@@ -8403,7 +8594,7 @@
             "value": 20
           }
         },
-        "text": "**Vehicle Officer** model only. Each time a model in the bearer's unit makes a ranged attack, re-reroll a Hit roll of 1."
+        "text": "**VEHICLE OFFICER** model only. Each time a model in the bearer’s unit makes a ranged attack, re-roll a Hit roll of 1."
       },
       "Infantry/Mounted§Artillery Team": {
         "aspects": {
@@ -48274,6 +48465,7 @@
       "Stratagem§Ablative Plating": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Hammer of the Emperor"
           ],
           "Category": [
@@ -48291,11 +48483,12 @@
             "value": 2
           }
         },
-        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n---\n**TARGET:** One **ASTRA MILITARUM VEHICLE** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n---\n**EFFECT:** Until the end of the phase, each time an attack is allocated to your unit, subtract 1 from the Damage characteristic of that attack."
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **ASTRA MILITARUM VEHICLE** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, each time an attack is allocated to your unit, subtract 1 from the Damage characteristic of that attack"
       },
       "Stratagem§Accuracy Under Pressure": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Steel Hammer"
           ],
           "Category": [
@@ -48313,11 +48506,12 @@
             "value": 2
           }
         },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One ASTRA MILITARUM unit from your army that has not been selected to shoot this phase.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **ASTRA MILITARUM** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll."
       },
       "Stratagem§Adamantine Behemoth": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Steel Hammer"
           ],
           "Category": [
@@ -48327,24 +48521,20 @@
             "Yours"
           ],
           "Phase": [
-            "Movement",
-            "Charge"
+            "Charge",
+            "Movement"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Movement phase or your Charge phase.\n\n**TARGET**: One ASTRA MILITARUM VEHICLE unit from your army that has not been selected to move or charge this phase.\n\n**EFFECT**: Until the end of the phase, each time your unit makes a Normal, Advance or Charge move, it can move horizontally through terrain features."
+        "text": "**WHEN:** Your Movement phase or your Charge phase.\n\n**TARGET:** One **ASTRA MILITARUM VEHICLE** unit from your army that has not been selected to move or charge this phase.\n\n**EFFECT:** Until the end of the phase, each time your unit makes a Normal, Advance or Charge move, it can move horizontally through terrain features."
       },
       "Stratagem§Additional Armour": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Grizzled Company"
           ],
           "Category": [
-            "Stratagem"
+            "Battle Tactic"
           ],
           "Turn": [
             "Opponent’s"
@@ -48353,50 +48543,12 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your opponent's Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One ASTRA MILITARUM unit from your army that was selected as the target of one or more of the attacking unit's attacks.\n\n**EFFECT**: Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
-      },
-      "Stratagem§Aerial Extraction": {
-        "keywords": {
-          "Keywords": [
-            "Bridgehead Strike"
-          ],
-          "Category": [
-            "Epic Deed"
-          ],
-          "Turn": [
-            "Opponent’s"
-          ],
-          "Phase": [
-            "Fight"
-          ]
-        },
-        "text": "**WHEN:** End of your opponent’s Fight phase.\n\n\n**TARGET**: One **Astra Militarum** unit from your army that is not within\nEngagement Range of one or more enemy units, if all of its models\nhave the Deep Strike ability, or one **Valkyrie** unit from your army that\nis not within Engagement Range of one or more enemy units.\n\n**EFFECT**: Remove your unit from the battlefield and place it into Strategic Reserves."
-      },
-      "Stratagem§Bellicosa Drop": {
-        "keywords": {
-          "Keywords": [
-            "Bridgehead Strike"
-          ],
-          "Category": [
-            "Battle Tactic"
-          ],
-          "Turn": [
-            "Yours"
-          ],
-          "Phase": [
-            "Movement"
-          ]
-        },
-        "text": "**WHEN:** The Reinforcements step of your Movement phase.\n\n---\n**TARGET:** One **Astra Militarum Infantry** unit from your army that is in Reserves and has the Deep Strike ability.\n\n---\n**EFFECT:** Until the end of the phase, when your unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units.\n\n---\n**RESTRICTIONS:** Until the end of the turn, your unit is not eligible to declare a charge."
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **ASTRA MILITARUM** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
       },
       "Stratagem§Blazing Advance": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Hammer of the Emperor"
           ],
           "Category": [
@@ -48409,11 +48561,12 @@
             "Movement"
           ]
         },
-        "text": "**WHEN:** Your Movement phase, just after a **SQUADRON** unit from your army Advances.\n\n---\n**TARGET:** That **SQUADRON** unit.\n\n---\n**EFFECT:** Until the end of the turn, your unit is eligible to shoot in a turn in which it Advanced."
+        "text": "**WHEN:** Your Movement phase, just after a **SQUADRON** unit from your army Advances.\n\n**TARGET:** That **SQUADRON** unit.\n\n**EFFECT:** Until the end of the turn, your unit is eligible to shoot in a turn in which it Advanced."
       },
       "Stratagem§Burst of Speed": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Armoured Infantry"
           ],
           "Category": [
@@ -48426,16 +48579,12 @@
             "Movement"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: End of your Movement phase.\n\n**TARGET**: One ASTRA MILITARUM unit from your army that did not Remain Stationary or arrive from Reserves this phase.\n\n**EFFECT**: Your unit can make a Normal move of up to D6\"."
+        "text": "**WHEN:** End of your Movement phase.\n\n**TARGET:** One **ASTRA MILITARUM** unit from your army that did not Remain Stationary or arrive from Reserves this phase.\n\n**EFFECT:** Your unit can make a Normal move of up to D6\"."
       },
       "Stratagem§Callous Sacrifice": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Siege Regiment"
           ],
           "Category": [
@@ -48448,11 +48597,12 @@
             "Shooting"
           ]
         },
-        "text": "**WHEN:** Your Shooting phase.\n\n---\n**TARGET:** One **PLATOON** unit from your army that is within Engagement Range of one or more enemy units.\n\n\n---\n**EFFECT:** Until the end of the phase, enemy units are not considered to be within Engagement Range of your unit for the purposes of selecting targets of ranged weapons. Until the end of the phase, each time an enemy model loses a wound, while that model’s unit is within Engagement Range of your unit, roll one D6: on a 4+, one model from your unit is destroyed after the attacking unit has finished making its attacks."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **PLATOON** unit from your army that is within Engagement Range of one or more enemy units.\n\n**EFFECT:** Until the end of the phase, enemy units are not considered to be within Engagement Range of your unit for the purposes of selecting targets of ranged weapons. Until the end of the phase, each time an enemy model loses a wound, while that model’s unit is within Engagement Range of your unit, roll one D6: on a 4+, one model from your unit is destroyed after the attacking unit has finished making its attacks."
       },
       "Stratagem§Clear And Secure": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Mechanised Assault"
           ],
           "Category": [
@@ -48465,11 +48615,12 @@
             "Shooting"
           ]
         },
-        "text": "**WHEN:** Your Shooting phase.\n\n---\n**TARGET:** One ASTRA MILITARUM unit from your army that disembarked from a TRANSPORT this turn and has not been selected to shoot this phase.\n\n---\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack that targets a unit within range of an objective marker, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **ASTRA MILITARUM** unit from your army that disembarked from a **TRANSPORT** this turn and has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack that targets a unit within range of an objective marker, you can re-roll the Hit roll and you can re-roll the Wound roll."
       },
       "Stratagem§Combined Fire": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Armoured Infantry"
           ],
           "Category": [
@@ -48482,12 +48633,7 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Shooting phase, just after an ARMOURED SKIRMISHER unit from your army has shot.\n\n**TARGET**: That ARMOURED SKIRMISHER unit.\n\n**EFFECT**: Select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover, and each time an ARMOURED SKIRMISHER unit from your army makes an attack that targets that unit, improve the Strength characteristic of that attack by 2."
+        "text": "**WHEN:** Your Shooting phase, just after an **ARMOURED SKIRMISHER** unit from your army has shot.\n\n**TARGET:** That **ARMOURED SKIRMISHER** unit.\n\n**EFFECT:** Select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover, and each time an **ARMOURED SKIRMISHER** unit from your army makes an attack that targets that unit, improve the Strength characteristic of that attack by 2."
       },
       "Stratagem§Coordinated Action": {
         "keywords": {
@@ -48498,15 +48644,15 @@
             "Battle Tactic"
           ],
           "Turn": [
-            "Opponent’s",
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Keywords": [
             "Astra Militarum",
             "Combined Arms"
           ]
         },
-        "text": "**WHEN:** Start of any phase.\n\n---\n**TARGET:** One **REGIMENT** unit from your army and one **SQUADRON** unit from your army within 6\" of and visible to that **REGIMENT** unit.\n\n---\n**EFFECT:** Until the end of the phase, Orders affecting one of your units affect the other, and vice versa."
+        "text": "**WHEN:** Start of any phase.\n\n**TARGET:** One **REGIMENT** unit from your army and one **SQUADRON** unit from your army within 6\" of and visible to that **REGIMENT** unit.\n\n**EFFECT:** Until the end of the phase, Orders affecting one of your units affect the other, and vice versa."
       },
       "Stratagem§Courageous Diversion": {
         "keywords": {
@@ -48514,6 +48660,7 @@
             "Strategic Ploy"
           ],
           "Keywords": [
+            "Astra Militarum",
             "Recon Element"
           ],
           "Turn": [
@@ -48523,11 +48670,12 @@
             "Shooting"
           ]
         },
-        "text": "**WHEN:** Start of your opponent’s Shooting phase.\n\n---\n**TARGET:** One **ASTRA MILITARUM INFANTRY** or **ASTRA MILITARUM MOUNTED** unit from your army.\n\n---\n**EFFECT:** Until the end of the phase, your unit has the Feel No Pain 6+ ability, and each time an enemy model makes an attack, if your unit is the closest eligible target, subtract 1 from the Hit roll."
+        "text": "**WHEN:** Start of your opponent’s Shooting phase.\n\n**TARGET:** One **ASTRA MILITARUM INFANTRY** or **ASTRA MILITARUM MOUNTED** unit from your army.\n\n**EFFECT:** Until the end of the phase, your unit has the Feel No Pain 6+ ability, and each time an enemy model makes an attack, if your unit is the closest eligible target, subtract 1 from the hit roll."
       },
       "Stratagem§Crack Shots": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Recon Element"
           ],
           "Category": [
@@ -48540,11 +48688,12 @@
             "Shooting"
           ]
         },
-        "text": "**WHEN:** Your Shooting phase.\n\n---\n**TARGET:** One **PLATOON** unit from your army that has not been selected to shoot this phase.\n\n\n---\n**EFFECT:** Until the end of the phase, ranged weapons equipped by models in your unit have the [PRECISION] ability."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **PLATOON** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, ranged weapons equipped by models in your unit have the **[PRECISION]** ability."
       },
       "Stratagem§Crash Through": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Hammer of the Emperor"
           ],
           "Category": [
@@ -48558,11 +48707,12 @@
             "Yours"
           ]
         },
-        "text": "**WHEN:** Your Movement phase or your Charge phase.\n\n---\n**TARGET:** One **ASTRA MILITARUM VEHICLE** unit from your army that has not been selected to move or charge this phase.\n\n---\n**EFFECT:** Until the end of the phase, each time your unit makes a Normal, Advance or Charge move, it can move horizontally through terrain features as if they were not there."
+        "text": "**WHEN:** Your Movement phase or your Charge phase.\n\n**TARGET:** One **ASTRA MILITARUM VEHICLE** unit from your army that has not been selected to move or charge this phase.\n\n**EFFECT:** Until the end of the phase, each time your unit makes a Normal, Advance or Charge move, it can move horizontally through terrain features as if they were not there."
       },
       "Stratagem§Draw Them Out": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Recon Element"
           ],
           "Category": [
@@ -48575,11 +48725,12 @@
             "Movement"
           ]
         },
-        "text": "**WHEN:** Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\n---\n**TARGET:** One **PLATOON** unit from your army that is within 9\" of that enemy unit, and is not within Engagement Range of one or more enemy units.\n\n---\n**EFFECT:** Your unit can make a Normal move of up to 6\"."
+        "text": "**WHEN:** Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\n**TARGET:** One **PLATOON** unit from your army that is within 8\" of that enemy unit, and is not within Engagement Range of one or more enemy units.\n\n**EFFECT:** Your unit can make a Normal move of up to 6\"."
       },
       "Stratagem§Engine of Wrath": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Steel Hammer"
           ],
           "Category": [
@@ -48593,12 +48744,7 @@
             "Fight"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Fight phase.\n\n**TARGET**: One ASTRA MILITARUM TITANIC unit from your army that has not been selected to fight this phase.\n\n**EFFECT**: Select one enemy unit within Engagement Range of your unit. Until the end of the phase, add 6 to the Attacks characteristic of melee weapons equipped by models in your unit, improve the Armour Penetration characteristic of those weapons by 2, and each time a model in your unit fights, it can only target that enemy unit."
+        "text": "**WHEN:** Fight phase.\n\n**TARGET:** One **ASTRA MILITARUM TITANIC** unit from your army that has not been selected to fight this phase.\n\n**EFFECT:** Select one enemy unit within Engagement Range of your unit. Until the end of the phase, add 6 to the Attacks characteristic of melee weapons equipped by models in your unit, improve the Armour Penetration characteristic of those weapons by 2, and each time a model in your unit fights, it can only target that enemy unit."
       },
       "Stratagem§Fields of Fire": {
         "keywords": {
@@ -48616,14 +48762,12 @@
             "Combined Arms"
           ]
         },
-        "stats": {
-          "Command Cost": {}
-        },
-        "text": "**WHEN:** Your Shooting phase.\n\n---\n**TARGET:** One **REGIMENT** unit and one **SQUADRON** unit from your army that have not been selected to shoot this phase.\n\n---\n**EFFECT:** Select one enemy unit. Until the end of the phase, each time your selected **REGIMENT** and **SQUADRON** units make an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **REGIMENT** unit and one **SQUADRON** unit from your army that have not been selected to shoot this phase.\n\n**EFFECT:** Select one enemy unit. Until the end of the phase, each time your selected **REGIMENT** and **SQUADRON** units make an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1."
       },
       "Stratagem§Final Hour": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Hammer of the Emperor"
           ],
           "Category": [
@@ -48636,28 +48780,12 @@
             "Command"
           ]
         },
-        "text": "**WHEN:** Your Command phase.\n\n---\n**TARGET:** One **SQUADRON** unit from your army that is Below Half-strength (excluding **OFFICER** units).\n\n---\n**EFFECT:** Until the end of the battle round, ranged weapons equipped by models in your unit (excluding [ONE SHOT] weapons) have the [HAZARDOUS] ability, and each time a model in your unit makes a ranged attack, you can ignore any or all modifiers to that attack’s Ballistic Skill characteristic and to the Hit roll."
-      },
-      "Stratagem§Fire and Relocate": {
-        "keywords": {
-          "Keywords": [
-            "Bridgehead Strike"
-          ],
-          "Category": [
-            "Strategic Ploy"
-          ],
-          "Turn": [
-            "Yours"
-          ],
-          "Phase": [
-            "Shooting"
-          ]
-        },
-        "text": "**WHEN:** Your Shooting phase.\n\n---\n**TARGET:** One **Astra Militarum** unit (excluding **Titanic** units) from your army.\n\n---\n**EFFECT:** Until the end of the phase, your unit is eligible to shoot in a turn in which it Advanced."
+        "text": "**WHEN:** Your Command phase.\n\n**TARGET:** One **SQUADRON** unit from your army that is Below Half-strength (excluding **OFFICER** units).\n\n**EFFECT:** Until the end of the battle round, ranged weapons equipped by models in your unit (excluding **[ONE SHOT]** weapons) have the **[HAZARDOUS]** ability, and each time a model in your unit makes a ranged attack, you can ignore any or all modifiers to that attack’s Ballistic Skill characteristic and to the Hit roll."
       },
       "Stratagem§Firing Hot": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Bridgehead Strike"
           ],
           "Category": [
@@ -48675,7 +48803,7 @@
             "value": 2
           }
         },
-        "text": "**WHEN:** Your Shooting phase.\n\n---\n**TARGET:** One **Militarum Tempestus** or **Kasrkin** unit from your army that has not been selected to shoot this phase.\n\n---\n**EFFECT:** Until the end of the phase, when targeting an enemy unit within 12\", improve the Strength and Armour Penetration characteristics of hot‑shot lascarbines, hot‑shot lasguns, hot‑shot laspistols, hot‑shot marksman rifles, hot‑shot volley guns and sentry hot‑shot volley guns equipped by models in your unit by 1."
+        "text": "**WHEN:** Your Shooting phase, when a friendly **MILITARUM TEMPESTUS/KASRKIN** unit is **selected to shoot**.\n\n**TARGET:** That **MILITARUM TEMPESTUS/KASRKIN** unit.\n\n**EFFECT:** Your unit’s Hot-shot Lascarbines, Hot-shot Lasguns, Hot-shot Laspistols, Hot-shot Marksman Rifles, Hot-shot Volley Guns and Sentry Hot-shot Volley Guns weapons that targeted an enemy unit within 12\" have +1 **S** and **AP**."
       },
       "Stratagem§Flare Burst": {
         "keywords": {
@@ -48683,6 +48811,7 @@
             "Wargear"
           ],
           "Keywords": [
+            "Astra Militarum",
             "Siege Regiment"
           ],
           "Turn": [
@@ -48692,12 +48821,12 @@
             "Shooting"
           ]
         },
-        "text": "**WHEN:** Your Shooting phase.\n\n---\n**TARGET:** One **ASTRA MILITARUM CHARACTER** unit from your army that has not been selected to shoot this phase.\n\n\n---\n**EFFECT:** Until the end of the phase, each time your unit makes an attack that targets a visible enemy unit within 12\", you can re-roll the Hit roll."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **ASTRA MILITARUM CHARACTER** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, each time your unit makes an attack that targets a visible enemy unit within 12\", you can re-roll the Hit roll."
       },
       "Stratagem§Flexible Command": {
         "keywords": {
           "Phase": [
-            "Shooting"
+            "Command"
           ],
           "Category": [
             "Strategic Ploy"
@@ -48715,7 +48844,7 @@
             "value": 2
           }
         },
-        "text": "**WHEN:** Your Command phase.\n\n---\n**TARGET:** Any number of **ASTRA MILITARUM OFFICER** units from your army.\n\n---\n**EFFECT:** Until the end of the phase, your Officers can issue Orders to **REGIMENT** units and **SQUADRON** units."
+        "text": "**WHEN:** Your Command phase.\n\n**TARGET:** Any number of **ASTRA MILITARUM OFFICER** units from your army.\n\n**EFFECT:** Until the end of the phase, your **OFFICERS** can issue Orders to **REGIMENT** units and **SQUADRON** units."
       },
       "Stratagem§Furious Cannonade": {
         "keywords": {
@@ -48723,6 +48852,7 @@
             "Battle Tactic"
           ],
           "Keywords": [
+            "Astra Militarum",
             "Hammer of the Emperor"
           ],
           "Turn": [
@@ -48732,11 +48862,12 @@
             "Shooting"
           ]
         },
-        "text": "**WHEN:** Your Shooting phase.\n\n---\n**TARGET:** One **SQUADRON** unit from your army that has not been selected to shoot this phase.\n\n---\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack that targets a unit within 12\", improve the Armour Penetration characteristic of that attack by 1."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **SQUADRON** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack that targets a unit within 12\", improve the Armour Penetration characteristic of that attack by 1."
       },
       "Stratagem§Furious Fusillade": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Siege Regiment"
           ],
           "Category": [
@@ -48749,7 +48880,7 @@
             "Shooting"
           ]
         },
-        "text": "**WHEN:** Your Shooting phase.\n\n---\n**TARGET:** One **PLATOON** unit from your army that has not been selected to shoot this phase.\n\n\n---\n**EFFECT:** Until the end of the phase, add 1 to the Attacks characteristic of ranged weapons equipped by models in your unit while targeting an enemy unit within half range."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **PLATOON** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, add 1 to the Attacks characteristic of ranged weapons equipped by models in your unit while targeting an enemy unit within half range."
       },
       "Stratagem§Hasty Extraction": {
         "keywords": {
@@ -48757,6 +48888,7 @@
             "Battle Tactic"
           ],
           "Keywords": [
+            "Astra Militarum",
             "Mechanised Assault"
           ],
           "Turn": [
@@ -48766,11 +48898,12 @@
             "Charge"
           ]
         },
-        "text": "**WHEN:** Your opponent’s Charge phase, after an enemy unit has selected targets for its charge but before it makes a Charge move.\n\n---\n**TARGET:** One **ASTRA MILITARUM INFANTRY** unit from your army that was selected as a target of that charge.\n\n---\n**EFFECT:** Provided your unit is not within Engagement Range of one or more enemy units and every model in your unit is within 3\" of an **ASTRA MILITARUM TRANSPORT** from your army, it can embark within that **TRANSPORT**."
+        "text": "**WHEN:** Your opponent’s Charge phase, after an enemy unit has selected targets for its charge but before it makes a Charge move.\n\n**TARGET:** One **ASTRA MILITARUM INFANTRY** unit from your army that was selected as a target of that charge.\n\n**EFFECT:** Provided your unit is not within Engagement Range of one or more enemy units and every model in your unit is within 3\" of an **ASTRA MILITARUM TRANSPORT** from your army, it can embark within that **TRANSPORT.**"
       },
       "Stratagem§Imposing Arrival": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Steel Hammer"
           ],
           "Category": [
@@ -48783,12 +48916,7 @@
             "Movement"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Reinforcements step of your Movement phase, from the second battle round onwards.\n\n**TARGET**: One ASTRA MILITARUM TITANIC unit from your army that is in Reserves.\n\n**EFFECT**: Set up your unit on the battlefield, wholly within 8\" of the battlefield edge and more than 6\" horizontally away from all enemy units."
+        "text": "**WHEN:** Reinforcements step of your Movement phase, from the second battle round onwards.\n\n**TARGET:** One **ASTRA MILITARUM TITANIC** unit from your army that is in Reserves.\n\n**EFFECT:** Set up your unit on the battlefield, wholly within 8\" of the battlefield edge and more than 6\" horizontally away from all enemy units."
       },
       "Stratagem§Inspired Command": {
         "keywords": {
@@ -48806,11 +48934,12 @@
             "Combined Arms"
           ]
         },
-        "text": "**WHEN:** Your opponent’s Command phase.\n\n---\n**TARGET:** One **Astra Militarum Officer** unit from your army.\n\n---\n**EFFECT:** Your **Officer** can issue one Order as if it were your Command phase."
+        "text": "**WHEN:** Your opponent’s Command phase.\n\n**TARGET:** One **ASTRA MILITARUM OFFICER** unit from your army.\n\n**EFFECT:** Your **OFFICER** can issue one Order as if it were your Command phase."
       },
       "Stratagem§Minefield": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Siege Regiment"
           ],
           "Category": [
@@ -48823,11 +48952,12 @@
             "Charge"
           ]
         },
-        "text": "**WHEN:** Start of your opponent’s Charge phase..\n\n---\n**TARGET:** One **PLATOON** unit from your army.\n\n---\n**EFFECT:** Until the end of the phase, each time an enemy unit ends a Charge move within Engagement Range of your unit, roll one D6 for each model in that enemy unit: for each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
+        "text": "**WHEN:** Start of your opponent’s Charge phase.\n\n**TARGET:** One **PLATOON** unit from your army.\n\n**EFFECT:** Until the end of the phase, each time an enemy unit ends a Charge move within Engagement Range of your unit, roll one D6 for each model in that enemy unit: for each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
       },
       "Stratagem§Mobile Firebase": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Armoured Infantry"
           ],
           "Category": [
@@ -48840,20 +48970,16 @@
             "Movement"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Movement phase, just after an ARMOURED SKIRMISHER unit from your army Advances or Falls Back.\n\n**TARGET**: That ARMOURED SKIRMISHER unit.\n\n**EFFECT**: Until the end of the turn, your unit is eligible to shoot in a turn in which it Advanced or Fell Back."
+        "text": "**WHEN:** Your Movement phase, just after an **ARMOURED SKIRMISHER** unit from your army Advances or Falls Back.\n\n**TARGET:** That **ARMOURED SKIRMISHER** unit.\n\n**EFFECT:** Until the end of the turn, your unit is eligible to shoot in a turn in which it Advanced or Fell Back."
       },
       "Stratagem§Mordian Minute": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Grizzled Company"
           ],
           "Category": [
-            "Stratagem"
+            "Battle Tactic"
           ],
           "Turn": [
             "Yours"
@@ -48862,12 +48988,7 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One ASTRA MILITARUM INFANTRY unit from your army affected by the First Rank, Fire! Second Rank, Fire! Order.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes an attack, improve the Strength characteristic of that attack by 1."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **ASTRA MILITARUM INFANTRY** unit from your army affected by the First Rank, Fire! Second Rank, Fire! Order.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack, improve the Strength characteristic of that attack by 1."
       },
       "Stratagem§Move Out": {
         "keywords": {
@@ -48875,6 +48996,7 @@
             "Strategic Ploy"
           ],
           "Keywords": [
+            "Astra Militarum",
             "Mechanised Assault"
           ],
           "Turn": [
@@ -48884,15 +49006,16 @@
             "Fight"
           ]
         },
-        "text": "**WHEN:** End of your opponent’s turn.\n\n---\n**TARGET:** One **ASTRA MILITARUM** unit from your army.\n\n---\n**EFFECT:** Provided your unit is not within Engagement Range of one or more enemy units and every model in your unit is within 3\" of an **ASTRA MILITARUM TRANSPORT** from your army, it can embark within that **TRANSPORT**."
+        "text": "**WHEN:** End of your opponent’s turn.\n\n**TARGET:** One **ASTRA MILITARUM** unit from your army.\n\n**EFFECT:** Provided your unit is not within Engagement Range of one or more enemy units and every model in your unit is within 3\" of an **ASTRA MILITARUM TRANSPORT** from your army, it can embark within that **TRANSPORT.**"
       },
       "Stratagem§No Retreat!": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Grizzled Company"
           ],
           "Category": [
-            "Stratagem"
+            "Strategic Ploy"
           ],
           "Turn": [
             "Yours"
@@ -48901,16 +49024,12 @@
             "Command"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Command phase.\n\n**TARGET**: One ASTRA MILITARUM unit from your army affected by the Duty and Honour! Order.\n\n**EFFECT**: If your unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of a phase."
+        "text": "**WHEN:** Your Command phase.\n\n**TARGET:** One **ASTRA MILITARUM** unit from your army affected by the Duty and Honour! Order.\n\n**EFFECT:** If your unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of a phase."
       },
       "Stratagem§On My Position": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Bridgehead Strike"
           ],
           "Category": [
@@ -48920,14 +49039,15 @@
             "Opponent’s"
           ],
           "Phase": [
-            "Fight"
+            "Charge"
           ]
         },
-        "text": "**WHEN:** End of your opponent’s Fight phase.\n\n---\n**TARGET:** One **Regiment Infantry** unit from your army that is within Engagement Range of one or more enemy units.\n\n---\n**EFFECT:** Roll one D6 for each enemy unit within Engagement Range of your unit: on a 2+, that enemy unit suffers D6 mortal wounds. Then, your unit suffers 3D3 mortal wounds."
+        "text": "**WHEN:** End of your opponent’s Charge phase.\n\n**TARGET:** One friendly **engaged** **REGIMENT** unit.\n\n**EFFECT:** Roll one D6 for each enemy unit **engaged** with your unit:\n\n- On a 2+ that enemy unit suffers D6 **mortal wounds**.\nThen, your unit suffers 3D3 **mortal wounds**."
       },
       "Stratagem§Opening Salvo": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Armoured Infantry"
           ],
           "Category": [
@@ -48940,16 +49060,12 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One ASTRA MILITARUM unit from your army that disembarked from a TRANSPORT this turn and has not been selected to shoot this phase.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Wound roll."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **ASTRA MILITARUM** unit from your army that disembarked from a **TRANSPORT** this turn and has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Wound roll."
       },
       "Stratagem§Order the Advance": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Armoured Infantry"
           ],
           "Category": [
@@ -48958,16 +49074,9 @@
           "Turn": [
             "Yours"
           ],
-          "Phase": [
-            "Movement"
-          ]
+          "Phase": []
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Start of your Movement phase.\n\n**TARGET**: One ASTRA MILITARUM OFFICER unit from your army.\n\n**EFFECT**: Select one or more friendly ASTRA MILITARUM units within 6\" of your unit, until the end of the phase, you can re-roll Advance rolls made for those units."
+        "text": "**WHEN:** Start of your Movement phase.\n\n**TARGET:** One **ASTRA MILITARUM OFFICER** unit from your army.\n\n**EFFECT:** Select one or more friendly **ASTRA MILITARUM** units within 6\" of your unit; until the end of the phase, you can re-roll Advance rolls made for those units."
       },
       "Stratagem§Over The Top": {
         "keywords": {
@@ -48975,6 +49084,7 @@
             "Strategic Ploy"
           ],
           "Keywords": [
+            "Astra Militarum",
             "Siege Regiment"
           ],
           "Turn": [
@@ -48989,15 +49099,16 @@
             "value": 2
           }
         },
-        "text": "**WHEN:** Start of your Command phase.\n\n---\n**TARGET:** One **INFANTRY OFFICER** model from your army.\n\n\n---\n**EFFECT:** Until the end of the phase, when your model issues the Move! Move! Move! Order, it can issue that Order to any number of eligible friendly **INFANTRY REGIMENT** units, regardless of range to your model."
+        "text": "**WHEN:** Start of your Command phase.\n\n**TARGET:** One **INFANTRY OFFICER** model from your army.\n\n**EFFECT:** Until the end of the phase, when your model issues the Move! Move! Move! Order, it can issue that Order to any number of eligible friendly **INFANTRY REGIMENT** units, regardless of range to your model."
       },
       "Stratagem§Purging Fire": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Grizzled Company"
           ],
           "Category": [
-            "Stratagem"
+            "Battle Tactic"
           ],
           "Turn": [
             "Yours"
@@ -49006,12 +49117,7 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One ASTRA MILITARUM unit from your army affected by an Order that has not been selected to shoot this phase.\n\n**EFFECT**: If your unit is within range of an objective marker, until the end of the phase, ranged weapons equipped by models in your unit have the [LETHAL HITS] ability."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **ASTRA MILITARUM** unit from your army affected by an Order that has not been selected to shoot this phase.\n\n**EFFECT:** If your unit is within range of an objective marker, until the end of the phase, ranged weapons equipped by models in your unit have the **[LETHAL HITS]** ability."
       },
       "Stratagem§Rapid Dispersal": {
         "keywords": {
@@ -49019,6 +49125,7 @@
             "Strategic Ploy"
           ],
           "Keywords": [
+            "Astra Militarum",
             "Mechanised Assault"
           ],
           "Turn": [
@@ -49028,7 +49135,7 @@
             "Movement"
           ]
         },
-        "text": "**WHEN:** Your Movement phase.\n\n\n---\n**TARGET:** One **ASTRA MILITARUM INFANTRY** unit from your army that disembarked from a **TRANSPORT** this phase.\n\n---\n**EFFECT:** Your **INFANTRY** unit can make a Normal move of up to D6\"."
+        "text": "**WHEN:** Your Movement phase.\n\n**TARGET:** One **ASTRA MILITARUM INFANTRY** unit from your army that disembarked from a **TRANSPORT** this phase.\n\n**EFFECT:** Your **INFANTRY** unit can make a Normal move of up to D6\"."
       },
       "Stratagem§Reinforcements!": {
         "keywords": {
@@ -49039,8 +49146,8 @@
             "Strategic Ploy"
           ],
           "Turn": [
-            "Opponent’s",
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Keywords": [
             "Astra Militarum",
@@ -49052,11 +49159,12 @@
             "value": 2
           }
         },
-        "text": "**WHEN:** Any phase.\n\n---\n**TARGET:** One **INFANTRY REGIMENT** unit from your army that was just destroyed. You can target that unit with this Stratagem even though it was just destroyed.\n\n---\n**EFFECT:** Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength and with all of its wounds remaining.\n\n---\n**RESTRICTIONS:** This Stratagem cannot be used to return destroyed **CHARACTER** units to Attached units."
+        "text": "**WHEN:** Any phase.\n\n**TARGET:** One **INFANTRY** **REGIMENT** unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.\n\n**EFFECT:** Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength and with all of its wounds remaining.\n\n**RESTRICTIONS:** This Stratagem cannot be used to return destroyed **CHARACTER** units to Attached units. You can only use this Stratagem once per battle."
       },
       "Stratagem§Scouting Outriders": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Recon Element"
           ],
           "Category": [
@@ -49069,11 +49177,12 @@
             "Fight"
           ]
         },
-        "text": "**WHEN:** End of your opponent’s turn.\n\n---\n**TARGET:** One **ASTRA MILITARUM MOUNTED** or **ASTRA MILITARUM WALKER** unit from your army that is wholly within 10\" of one or more battlefield edges and not within Engagement Range of one or more enemy units.\n\n---\n**EFFECT:** Remove your unit from the battlefield and place it into Strategic Reserves."
+        "text": "**WHEN:** End of your opponent’s turn.\n\n**TARGET:** One **ASTRA MILITARUM MOUNTED** or **ASTRA MILITARUM WALKER** unit from your army that is wholly within 10\" of one or more battlefield edges and not within Engagement Range of one or more enemy units.\n\n**EFFECT:** Remove your unit from the battlefield and place it into Strategic Reserves."
       },
       "Stratagem§Scramble Field": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Recon Element"
           ],
           "Category": [
@@ -49086,11 +49195,12 @@
             "Movement"
           ]
         },
-        "text": "**WHEN:** Start of your opponent’s Reinforcements step.\n\n---\n**TARGET:** One **ASTRA MILITARUM INFANTRY** unit from your army.\n\n---\n**EFFECT:** Until the end of the phase, enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of your unit."
+        "text": "**WHEN:** Start of your opponent’s Reinforcements step.\n\n**TARGET:** One **ASTRA MILITARUM INFANTRY** unit from your army.\n\n**EFFECT:** Until the end of the phase, enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of your unit."
       },
       "Stratagem§Servo-Designators": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Bridgehead Strike"
           ],
           "Category": [
@@ -49103,11 +49213,12 @@
             "Shooting"
           ]
         },
-        "text": "**WHEN:** Your Shooting phase, just after an **Astra Militarum Infantry** unit from your army has shot.\n\n---\n**TARGET:** That **Astra Militarum Infantry** unit.\n\n---\n**EFFECT:** Select one enemy unit hit by one or more of those attacks that is visible to your unit. Until the end of the phase, that enemy unit cannot have the Benefit of Cover."
+        "text": "**WHEN:** Your Shooting phase, when a friendly **MILITARUM TEMPESTUS** unit has shot.\n\n**TARGET:** That **MILITARUM TEMPESTUS** unit.\n\n**EFFECT:** Select one enemy unit hit by those ranged attacks. Friendly **MILITARUM TEMPESTUS** units’ ranged attacks that target that enemy unit have **[IGNORES COVER]**."
       },
       "Stratagem§Shattering Salvo": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Steel Hammer"
           ],
           "Category": [
@@ -49120,20 +49231,16 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Shooting phase, just after an ASTRA MILITARUM TITANIC unit from your army has shot.\n\n**TARGET**: That ASTRA MILITARUM TITANIC unit.\n\n**EFFECT**: Select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover."
+        "text": "**WHEN:** Your Shooting phase, just after an **ASTRA MILITARUM TITANIC** unit from your army has shot.\n\n**TARGET:** That **ASTRA MILITARUM TITANIC** unit.\n\n**EFFECT:** Select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover."
       },
       "Stratagem§Snap To It": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Grizzled Company"
           ],
           "Category": [
-            "Stratagem"
+            "Epic Deed"
           ],
           "Turn": [
             "Yours",
@@ -49143,12 +49250,7 @@
             "Any"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Start of any phase .\n\n**TARGET**: One ASTRA MILITARUM OFFICER unit from your army .\n\n**EFFECT**: Your unit's OFFICER model can issue 1 Order as if it were your Command phase."
+        "text": "**WHEN:** Start of any phase.\n\n**TARGET:** One **ASTRA MILITARUM OFFICER** unit from your army.\n\n**EFFECT:** Your unit’s **OFFICER** model can issue 1 Order as if it were your Command phase."
       },
       "Stratagem§Stalwart Protector": {
         "keywords": {
@@ -49166,14 +49268,12 @@
             "Combined Arms"
           ]
         },
-        "stats": {
-          "Command Cost": {}
-        },
-        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n---\n**TARGET:** One **ASTRA MILITARUM VEHICLE** unit from your army.\n\n---\n**EFFECT:** Until the end of the phase, each time a ranged attack is allocated to an **INFANTRY** model from your army, if that model is not fully visible to every model in the attacking unit because of your **VEHICLE**, that model has the Benefit of Cover against that attack."
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **ASTRA MILITARUM VEHICLE** unit from your army.\n\n**EFFECT:** Until the end of the phase, each time a ranged attack is allocated to an **INFANTRY** model from your army, if that model is not fully visible to every model in the attacking unit because of your **VEHICLE,** that model has the Benefit of Cover against that attack."
       },
       "Stratagem§Supporting Ordnance": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Armoured Infantry"
           ],
           "Category": [
@@ -49186,16 +49286,12 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One ARMOURED SKIRMISHER unit from your army that has not been selected to shoot this phase.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes an attack that targets a visible MONSTER or VEHICLE unit, you can re-roll the Hit roll."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **ARMOURED SKIRMISHER** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack that targets a visible **MONSTER** or **VEHICLE** unit, you can re-roll the Hit roll."
       },
       "Stratagem§Swift Interception": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Mechanised Assault"
           ],
           "Category": [
@@ -49208,11 +49304,12 @@
             "Movement"
           ]
         },
-        "text": "**WHEN:** Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\n\n---\n**TARGET:** One **TRANSPORT** unit from your army (excluding **AIRCRAFT** and **TITANIC** units) that is not within Engagement Range of one or more enemy units, and is within 9\" of the enemy unit that just ended that move.\n\n---\n**EFFECT:** Your **TRANSPORT** can make a Normal move of up to 6\".."
+        "text": "**WHEN:** Your opponent’s movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\n**TARGET:** One **TRANSPORT** unit from your army (excluding **AIRCRAFT** and **TITANIC** units) that is not within Engagement Range of one or more enemy units, and is within 8\" of the enemy unit that just ended that move.\n\n**EFFECT:** Your **TRANSPORT** can make a Normal move of up to 6\"."
       },
       "Stratagem§Tactical Withdrawal": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Hammer of the Emperor"
           ],
           "Category": [
@@ -49225,7 +49322,7 @@
             "Movement"
           ]
         },
-        "text": "**WHEN:** Your Movement phase, just after a **SQUADRON** unit from your army Falls Back.\n\n---\n**TARGET:** That **SQUADRON** unit.\n\n---\n**EFFECT:** Until the end of the turn, your unit is eligible to shoot in a turn in which it Fell Back."
+        "text": "**WHEN:** Your Movement phase, just after a **SQUADRON** unit from your army Falls Back.\n\n**TARGET:** That **SQUADRON** unit.\n\n**EFFECT:** Until the end of the turn, your unit is eligible to shoot in a turn in which it Fell Back."
       },
       "Stratagem§Tanglefoot Grenades": {
         "keywords": {
@@ -49233,6 +49330,7 @@
             "Wargear"
           ],
           "Keywords": [
+            "Astra Militarum",
             "Recon Element"
           ],
           "Turn": [
@@ -49242,33 +49340,35 @@
             "Charge"
           ]
         },
-        "text": "**WHEN:** Start of your opponent’s Charge phase.\n\n---\n**TARGET:** One **ASTRA MILITARUM GRENADES** unit from your army.\n\n---\n**EFFECT:** Until the end of the phase, each time an enemy unit selects your unit as the target of a charge, subtract 2 from the Charge roll (this is not cumulative with any other negative modifiers to that Charge roll)."
+        "text": "**WHEN:** Start of your opponent’s Charge phase.\n\n**TARGET:** One **ASTRA MILITARUM GRENADES** unit from your army.\n\n**EFFECT:** Select one visible enemy unit within 12\" of your unit. When that enemy unit declares a charge, that enemy unit has -1 to charge rolls."
       },
       "Stratagem§Trench Fighters": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Siege Regiment"
           ],
           "Category": [
             "Battle Tactic"
           ],
           "Turn": [
-            "Opponent’s",
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Phase": [
             "Fight"
           ]
         },
-        "text": "**WHEN:** Fight phase, just after an enemy unit has selected its targets.\n\n---\n**TARGET:** One **ASTRA MILITARUM INFANTRY** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n\n---\n**EFFECT:** Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 2 to the result if it is a **REGIMENT** model. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play."
+        "text": "**WHEN:** Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **ASTRA MILITARUM INFANTRY** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 2 to the result if it is a **REGIMENT** model. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play."
       },
       "Stratagem§Veteran Sharpshooters": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Grizzled Company"
           ],
           "Category": [
-            "Stratagem"
+            "Battle Tactic"
           ],
           "Turn": [
             "Yours"
@@ -49277,33 +49377,30 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One ASTRA MILITARUM unit from your army that has not been selected to shoot this phase.\n\n**EFFECT**: Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **ASTRA MILITARUM** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, ranged weapons equipped by models in your unit have the **[IGNORES COVER]** ability."
       },
       "Stratagem§Vox-Relay": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Mechanised Assault"
           ],
           "Category": [
             "Wargear"
           ],
           "Turn": [
-            "Opponent’s"
+            "Yours"
           ],
           "Phase": [
-            "Charge"
+            "Command"
           ]
         },
-        "text": "**WHEN:** Your Command phase..\n\n---\n**TARGET:** One **INFANTRY OFFICER** unit from your army embarked within a **TRANSPORT**. You can use this Stratagem on that unit even though it is embarked within a **TRANSPORT**.\n\n---\n**EFFECT:** Until the end of the phase, your unit can issue Orders even though it is not on the battlefield, and it can issue Orders to **ASTRA MILITARUM TRANSPORT** units from your army [excluding **TITANIC** units) regardless of the distance to and from your unit’s **TRANSPORT**."
+        "text": "**WHEN:** Your Command phase.\n\n**TARGET:** One **INFANTRY OFFICER** unit from your army embarked within a **TRANSPORT.** You can use this Stratagem on that unit even though it is embarked within a **TRANSPORT.**\n\n**EFFECT:** Until the end of the phase, your unit can issue Orders even though it is not on the battlefield, and it can issue Orders to **ASTRA MILITARUM TRANSPORT** units from your army (excluding **TITANIC** units) regardless of the distance to and from your unit’s **TRANSPORT.**"
       },
       "Stratagem§Withering Firepower": {
         "keywords": {
           "Keywords": [
+            "Astra Militarum",
             "Steel Hammer"
           ],
           "Category": [
@@ -49316,12 +49413,7 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Shooting phase, just after an ASTRA MILITARUM VEHICLE unit from your army has shot.\n\n**TARGET**: That ASTRA MILITARUM VEHICLE unit.\n\n**EFFECT**: Select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test, subtracting 1 from that test."
+        "text": "**WHEN:** Your Shooting phase, just after an **ASTRA MILITARUM VEHICLE** unit from your army has shot.\n\n**TARGET:** That **ASTRA MILITARUM VEHICLE** unit.\n\n**EFFECT:** Select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test, subtracting 1 from that test."
       },
       "Unit§Earthshaker Platform": {
         "aspects": {
@@ -59691,6 +59783,98 @@
         "keywords": {
           "Tags": [
             "Multi-weapon"
+          ]
+        }
+      },
+      "Stratagem§Thick-skulled Obdurance": {
+        "text": "**WHEN:** Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly **BULLGRYN SQUAD/OGRYN SQUAD** unit that is within range of an **objective**.\n\n**TARGET:** That **BULLGRYN SQUAD/OGRYN SQUAD** unit.\n\n**EFFECT:** Attacks that target your unit have -1 **AP** until that enemy unit has attacked.",
+        "keywords": {
+          "Keywords": [
+            "Astra Militarum",
+            "Abhuman Auxiliaries"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Fight",
+            "Shooting"
+          ]
+        }
+      },
+      "Stratagem§Stirred to Action": {
+        "text": "**WHEN:** Your opponent’s Shooting phase, when an enemy unit that targeted a friendly **unengaged** **BULLGRYN SQUAD/OGRYN SQUAD** unit has shot.\n\n**TARGET:** That **BULLGRYN SQUAD/OGRYN SQUAD** unit.\n\n**EFFECT:** Your unit can make a **surge move** of up to D6\".",
+        "keywords": {
+          "Keywords": [
+            "Astra Militarum",
+            "Abhuman Auxiliaries"
+          ],
+          "Turn": [
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        }
+      },
+      "Stratagem§Low Profile": {
+        "text": "**WHEN:** Your Shooting phase, when a friendly **RATLINGS** unit has shot.\n\n**TARGET:** That **RATLINGS** unit.\n\n**EFFECT:** Those ranged attacks do not prevent your unit from being **hidden**.",
+        "keywords": {
+          "Keywords": [
+            "Astra Militarum",
+            "Abhuman Auxiliaries"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        }
+      },
+      "Stratagem§Sump-smog Screen": {
+        "text": "**WHEN:** Start of your opponent’s Shooting phase\n\n**TARGET:** One friendly **ASTRA MILITARUM INFANTRY SMOKE** unit.\n\n**EFFECT:** When an attack targets either your unit, or a unit that is not **fully visible** to the attacking model because of one or more models in your unit, the target has the **benefit of cover** against that attack.",
+        "keywords": {
+          "Keywords": [
+            "Astra Militarum",
+            "Designation Force"
+          ],
+          "Turn": [
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        }
+      },
+      "Stratagem§Close-range Detection": {
+        "text": "**WHEN:** Start of your Shooting phase.\n\n**TARGET:** One friendly **SCOUT SENTINEL/ASTRA MILITARUM INFANTRY** unit.\n\n**EFFECT:** While a **visible** enemy unit is within 6\" of your unit, that unit has +3\" **detection range**.",
+        "keywords": {
+          "Keywords": [
+            "Astra Militarum",
+            "Designation Force"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        }
+      },
+      "Stratagem§Triggered Alerts": {
+        "text": "**WHEN:** Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly **unengaged** **ASTRA MILITARUM INFANTRY** unit.\n\n**TARGET:** That **ASTRA MILITARUM INFANTRY** unit.\n\n**EFFECT:** Your unit can make a **normal move** of up to D3+3\".",
+        "keywords": {
+          "Keywords": [
+            "Astra Militarum",
+            "Designation Force"
+          ],
+          "Turn": [
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Movement"
           ]
         }
       }

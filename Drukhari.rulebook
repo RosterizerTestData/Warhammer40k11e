@@ -1,6 +1,6 @@
 {
   "name": "Drukhari 11e",
-  "revision": "11.1.9",
+  "revision": "11.1.14",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -1252,6 +1252,20 @@
                     "traits"
                   ]
                 ],
+                "value": "Stratagem§Connoisseurs of Pain"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
                 "value": "Stratagem§Postmortality"
               },
               {
@@ -1280,35 +1294,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Poisoners Art"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Distillers of Fear"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Connoisseurs of Pain"
+                "value": "Stratagem§Poisoner’s Art"
               },
               {
                 "actionType": "add",
@@ -1323,6 +1309,20 @@
                   ]
                 ],
                 "value": "Stratagem§Enfolding Nightmare"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Distillers of Fear"
               }
             ],
             "evals": [],
@@ -1356,7 +1356,7 @@
             "value": 2
           }
         },
-        "text": "## STITCHFLESH ABOMINATIONS\nEach time an attack targets a HAEMONCULUS COVENS unit from your army, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll."
+        "text": "**STITCHFLESH ABOMINATIONS**\n\nEach time an attack targets a **HAEMONCULUS COVENS** unit from your army, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll."
       },
       "Detachment§Exhibition Of Slaughter": {
         "keywords": {
@@ -1369,7 +1369,7 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Exacting Cruelty**\nFriendly **Wych Cult** units' melee attacks have **[Lethal Hits:** **non-****Monster/Vehicle]**.\nThis **detachment** has the **Wych Cult** tag and cannot be taken with another **Wych Cult** **detachment**.",
+        "text": "**EXACTING CRUELTY**\n\nFriendly **WYCH CULT** units' melee attacks have **[LETHAL HITS:** **non-****MONSTER/VEHICLE]**.\nThis **detachment** has the **WYCH CULT** tag and cannot be taken with another **WYCH CULT** **detachment**.",
         "rules": {
           "removeSameTagDetachments": {
             "actions": [
@@ -1391,6 +1391,55 @@
             "evaluate": "AND",
             "failState": "pass",
             "order": 10
+          },
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Planned Strikes"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Acrobatic Display"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Sculpting the Stage"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
           }
         }
       },
@@ -1405,7 +1454,7 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Contracted Harvest**\nFriendly **Blades for Hire/Kabal** units’ ranged attacks have **[SUSTAINED HITS 1:** **non‑****Monster/Vehicle]**.\nThis **detachment** has the **Kabal** tag and cannot be taken with another **Kabal** **detachment**.",
+        "text": "**CONTRACTED HARVEST**\n\nFriendly **BLADES FOR HIRE/KABAL** units’ ranged attacks have **[SUSTAINED HITS 1:** **non-****MONSTER/VEHICLE]**.\nThis **detachment** has the **KABAL** tag and cannot be taken with another **KABAL** **detachment**.",
         "rules": {
           "removeSameTagDetachments": {
             "actions": [
@@ -1427,6 +1476,55 @@
             "evaluate": "AND",
             "failState": "pass",
             "order": 10
+          },
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Shadows’ Reach"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Prioritised Victim"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Killers from the Dark Spires"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
           }
         }
       },
@@ -1454,7 +1552,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Double Cross"
+                "value": "Stratagem§Taken Alive"
               },
               {
                 "actionType": "add",
@@ -1468,7 +1566,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Taken Alive"
+                "value": "Stratagem§Making a Point"
               },
               {
                 "actionType": "add",
@@ -1510,7 +1608,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Making a Point"
+                "value": "Stratagem§Double-cross"
               },
               {
                 "actionType": "add",
@@ -1558,7 +1656,7 @@
             "value": 2
           }
         },
-        "text": "# MURDEROUS AGENDA\nAt the start of the first battle round, select one of the Contracts below, then select one unit from your opponent's army that matches the 'Contract' description. Until that Contract is completed, that unit is your Contract unit, and KABAL and BLADES FOR HIRE units from your army have the ability stated in that Contract. At the start of your Command phase, if your Contract unit is destroyed, that Contract is completed and you gain 3 Pain tokens.\n\n## Trophy Hunters:\n\n**Contract**: One CHARACTER unit.\n\n**Ability**: Each time a KABAL or BLADES FOR HIRE model in this unit makes an attack that targets the Contract unit, that attack has the [PRECISION] ability.\n\n## Sow Fear and Terror:\n\n**Contract**: One INFANTRY or MOUNTED unit (excluding units containing only CHARACTER models). At the start of your Command phase, this Contract is completed if all non-CHARACTER models in that unit are destroyed.\n\n**Ability**: Each time a KABAL or BLADES FOR HIRE model in this unit makes an attack that targets an INFANTRY or MOUNTED unit, that attack has the [SUSTAINED HITS 1] ability.\n\n## Show of Strength:\n\n**Contract**: One MONSTER or VEHICLE unit.\n\n**Ability**: Each time a KABAL or BLADES FOR HIRE model in this unit makes an attack that targets a MONSTER or VEHICLE unit, that attack has the [LETHAL HITS] ability."
+        "text": "**MURDEROUS AGENDA**\n\nAt the start of the first battle round, select one of the Contracts below, then select one unit from your opponent’s army that matches the ‘Contract’ description in that Contract. Until that Contract is completed, that unit is your Contract unit and **KABAL** and **BLADES FOR HIRE** units from your army have the ability stated in that Contract. At the start of your Command phase, if your Contract unit is destroyed, that Contract is completed and you gain 3 Pain tokens.\n\nTrophy Hunters\n\nSow Fear and Terror\n\nShow of Strength"
       },
       "Detachment§Realspace Raiders": {
         "keywords": {
@@ -1572,34 +1670,6 @@
         "rules": {
           "assignStratagems": {
             "actions": [
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Insensible to Pain"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Strike and Fade"
-              },
               {
                 "actionType": "add",
                 "iterations": 1,
@@ -1640,7 +1710,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Raid and Fade"
+                "value": "Stratagem§Eager for the Kill"
               },
               {
                 "actionType": "add",
@@ -1654,7 +1724,35 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Eager for the Kill"
+                "value": "Stratagem§Insensible to Pain"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Dark Harvest"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Raid and Fade"
               }
             ],
             "evals": [],
@@ -1667,7 +1765,7 @@
             "value": 2
           }
         },
-        "text": "##  ALLIANCE OF AGONY\n\n\nAt the start of the battle, you gain 2 Pain tokens for each of the following combinations your army contains (these do not need to be in the same attached unit):\n\n- One or more ARCHON models and one or more KABALITE WARRIORS units.\n\n- One or more SUCCUBUS models and one or more WYCH units.\n\n- One or more HAEMONCULUS models and one or more WRACKS units.\n\nDesigner's Note: These are all cumulative, so if your army contains at least one of all of the combinations listed above, you start the battle with 6 Pain tokens."
+        "text": "**ALLIANCE OF AGONY**\n\nAt the start of the battle, you gain 2 Pain tokens for each of the following combinations your army contains (these do not need to be in the same Attached unit):\n\n■ One or more **ARCHON** models and one or more **KABALITE WARRIORS** units.\n■ One or more **SUCCUBUS** models and one or more **WYCHES** units.\n■ One or more **HAEMONCULUS** models and one or more **WRACKS** units.\n\n**Designer’s Note:** *These are all cumulative, so if your army contains at least one of all of the combinations listed above, you start the battle with 6 Pain tokens.*"
       },
       "Detachment§Reaper's Wager": {
         "keywords": {
@@ -1708,7 +1806,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Shorten the Odds"
+                "value": "Stratagem§Murderer's Circus"
               },
               {
                 "actionType": "add",
@@ -1722,7 +1820,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Fateful Role"
+                "value": "Stratagem§Shorten the Odds"
               },
               {
                 "actionType": "add",
@@ -1750,7 +1848,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Murderer's Circus"
+                "value": "Stratagem§Fateful Role"
               },
               {
                 "actionType": "add",
@@ -1772,7 +1870,7 @@
             "failState": "pass"
           }
         },
-        "text": "**Callous Competition**\nAt the start of the battle, **DRUKHARI** units from your army are winning the wager.\n\nEach time a **DRUKHARI** unit from your army destroys an enemy unit, **DRUKHARI** units from your army are winning the wager.\n\nEach time a **HARLEQUINS** unit from your army destroys an enemy unit, **HARLEQUIN** units from your army are winning the wager.\n\nWhile **DRUKHARI** units from your army are winning the wager, **HARLEQUIN** units from your army are losing the wager, and vice versa.\n\nEach time a **DRUKHARI** or **HARLEQUINS** model from your army makes an attack, if that model’s unit is winning the wager, re‐roll a Hit roll of 1. If that model’s unit is losing the wager, re‐roll a Hit roll of 1 and re‐roll a Wound roll of 1 instead.",
+        "text": "**CALLOUS COMPETITION**\n\nAt the start of the battle, **DRUKHARI** units from your army are winning the wager.\n\nEach time a **DRUKHARI** unit from your army destroys an enemy unit, **DRUKHARI** units from your army are winning the wager.\n\nEach time a **HARLEQUINS** unit from your army destroys an enemy unit, **HARLEQUIN** units from your army are winning the wager.\n\nWhile **DRUKHARI** units from your army are winning the wager, **HARLEQUIN** units from your army are losing the wager, and vice versa.\n\nEach time a **DRUKHARI** or **HARLEQUINS** model from your army makes an attack, if that model’s unit is winning the wager, re‐roll a Hit roll of 1. If that model’s unit is losing the wager, re‐roll a Hit roll of 1 and re‐roll a Wound roll of 1 instead.",
         "stats": {
           "Detachment Points": {
             "value": 3
@@ -1791,6 +1889,20 @@
         "rules": {
           "assignStratagems": {
             "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Skyborne Annihilation"
+              },
               {
                 "actionType": "add",
                 "iterations": 1,
@@ -1845,20 +1957,6 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Skyborne Annihilation"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
                 "value": "Stratagem§Swooping Mockery"
               },
               {
@@ -1886,7 +1984,7 @@
             "value": 2
           }
         },
-        "text": "## RAIN OF CRUELTY\nEach time a DRUKHARI unit from your army disembarks from a TRANSPORT, until the end of the turn:\n\n- Ranged weapons equipped by models in that disembarking unit have the [IGNORES COVER] ability.\n\n- Melee weapons equipped by models in that disembarking unit have the [LANCE] ability."
+        "text": "**RAIN OF CRUELTY**\n\nEach time a **DRUKHARI** unit from your army disembarks from a **TRANSPORT**, until the end of the turn:\n\n■ Ranged weapons equipped by models in that disembarking unit have the **[IGNORES COVER]** ability.\n■ Melee weapons equipped by models in that disembarking unit have the **[LANCE]** ability."
       },
       "Detachment§Spectacle of Spite": {
         "keywords": {
@@ -1912,7 +2010,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Berserk Fugue"
+                "value": "Stratagem§Deadly Debut"
               },
               {
                 "actionType": "add",
@@ -1926,7 +2024,21 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Deadly Debut"
+                "value": "Stratagem§Acrobatic Display"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§A Challenge Met"
               },
               {
                 "actionType": "add",
@@ -1968,21 +2080,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§A Challenge Met"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Acrobatic Display"
+                "value": "Stratagem§Berserk Fugue"
               }
             ],
             "evals": [],
@@ -2016,7 +2114,7 @@
             "value": 2
           }
         },
-        "text": "## COMBAT DRUGS\n\nAt the start of your Command phase, select which Combat Drugs will be active for your army until the start of your next Command phase. To do so, either select one from the list below (you cannot select the same Combat Drug more than once per battle), or randomly select two by rolling two D6. When doing so randomly, Combat Drugs you have previously selected can become active again, but if you randomly select one that is already active for your army, it has no additional effect.\n\n-1 Adrenalight: Add 1 to the Attacks characteristic of melee weapons equipped by WYCH CULT models from your army.\n\n-2 Hypex: Add 2\" to the Move characteristic of WYCH CULT models from your army.\n\n-3 Serpentin: Improve the Weapon Skill characteristic of melee weapons equipped by WYCH CULT models from your army by 1.\n\n-4 Painbringer: Add 1 to the Toughness characteristic of WYCH CULT models from your army.\n\n-5 Grave Lotus: Add 1 to the Strength characteristic of melee weapons equipped by WYCH CULT models from your army.\n\n-6 Splintermind: Improve the Leadership characteristic of WYCH CULT models from your army by 1, and improve the Ballistic Skill characteristic of ranged weapons equipped by WYCH CULT models from your army by 1."
+        "text": "**COMBAT DRUGS**\n\nAt the start of your Command phase, select which Combat Drugs will be active for your army until the start of your next Command phase. To do so, either select one from the list below (you cannot select the same Combat Drug more than once per battle), or randomly select two by rolling two D6. When doing so randomly, Combat Drugs you have previously selected can become active again, but if you randomly select one that is already active for your army, it has no additional effect.\n\n1. Adrenalight\n\nAdd 1 to the Attacks characteristic of melee weapons equipped by **WYCH CULT** models from your army.\n\n2. Hypex\n\nAdd 2\" to the Move characteristic of **WYCH CULT** models from your army.\n\n3. Serpentin\n\nImprove the Weapon Skill characteristic of melee weapons equipped by **WYCH CULT** models from your army by 1.\n\n4. Painbringer\n\nAdd 1 to the Toughness characteristic of **WYCH CULT** models from your army.\n\n5. Grave Lotus\n\nAdd 1 to the Strength characteristic of melee weapons equipped by **WYCH CULT** models from your army.\n\n6. Splintermind\n\nImprove the Leadership characteristic of **WYCH CULT** models from your army by 1, and improve the Ballistic Skill characteristic of ranged weapons equipped by **WYCH CULT** models from your army by 1."
       },
       "Detachment§Tools Of Torment": {
         "keywords": {
@@ -2029,7 +2127,7 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Darkest Artifice**\nAttacks that target friendly **Cronos/Talos** units with a **S** greater than that unit’s **T** have -1 to **wound rolls**.\nThis **detachment** has the **Covens** tag and cannot be taken with another **Covens** **detachment**.",
+        "text": "**DARKEST ARTIFICE**\n\nAttacks that target friendly **CRONOS/TALOS** units with a **S** greater than that unit’s **T** have -1 to **wound rolls**.\nThis **detachment** has the **COVENS** tag and cannot be taken with another **COVENS** **detachment**.",
         "rules": {
           "removeSameTagDetachments": {
             "actions": [
@@ -2051,6 +2149,55 @@
             "evaluate": "AND",
             "failState": "pass",
             "order": 10
+          },
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Urgent Metamorphosis"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Salting the Wound"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Dividends of Agony"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
           }
         }
       },
@@ -2101,7 +2248,7 @@
             "value": 15
           }
         },
-        "text": "**Harlequins** or **Drukhari** model only. In the Declare\nBattle Formations step, if the bearer starts the battle\nembarked within a **Dedicated Transport**, that\n**Dedicated Transport** has the Scouts 9\" ability."
+        "text": "**HARLEQUINS** or **DRUKHARI** model only. In the Declare Battle Formations step, if the bearer starts the battle embarked within a **DEDICATED TRANSPORT**, that **DEDICATED TRANSPORT** has the Scouts 9\" ability."
       },
       "Enhancement§Chronoshard": {
         "keywords": {
@@ -2136,7 +2283,7 @@
             "value": 15
           }
         },
-        "text": "Succubus model only. Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, models in the bearer's unit have the Fights First ability."
+        "text": "**SUCCUBUS** model only. Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, models in the bearer’s unit have the Fights First ability."
       },
       "Enhancement§Conductor of Torment": {
         "keywords": {
@@ -2171,7 +2318,7 @@
             "value": 20
           }
         },
-        "text": "**Drukhari** model only. In your Command phase, you\ncan do one of the following:\n\n■ If your **Drukhari** units are currently losing the\nwager, you can gain 1 Pain token. If you do,\n**Drukhari** units from your army are now winning\nthe wager.\n\n■ If your **Drukhari** units are currently winning the\nwager, you can discard 1 Pain token. If you do,\n**Harlequins** units from your army are now winning\nthe wager."
+        "text": "**DRUKHARI** model only. In your Command phase, you can do one of the following:\n\n■ If your **DRUKHARI** units are currently losing the wager, you can gain 1 Pain token. If you do, **DRUKHARI** units from your army are now winning the wager.\n■ If your **DRUKHARI** units are currently winning the wager, you can discard 1 Pain token. If you do, **HARLEQUINS** units from your army are now winning the wager."
       },
       "Enhancement§Contempt for Rivals": {
         "keywords": {
@@ -2184,7 +2331,29 @@
             "value": 20
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Archon** model only. This unit’s attacks have **[Precision]**."
+        "text": "**ARCHON** model only. This unit’s attacks have **[PRECISION]**.",
+        "rules": {
+          "ARCHON model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Archon"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Crucible of Malediction": {
         "keywords": {
@@ -2217,7 +2386,7 @@
             "value": 15
           }
         },
-        "text": "Haemonculus model only. Once per battle, in your Shooting phase, the bearer can use this Enhancement. If it does, you can spend 1 Pain token. Each enemy unit within 12\" of the bearer must take a Battle-shock test, subtracting 1 from that test if you spent 1 Pain token. Each time a PSYKER unit fails that test, it suffers 3 mortal wounds."
+        "text": "**HAEMONCULUS** model only. Once per battle, in your Shooting phase, the bearer can use this Enhancement. If it does, you can spend 1 Pain token. Then, each enemy unit within 12\" of the bearer must take a Battle-shock test, subtracting 1 from that test if you spent 1 Pain token. Each time a **PSYKER** unit fails that test, it suffers 3 mortal wounds."
       },
       "Enhancement§Dark Vitality": {
         "keywords": {
@@ -2252,7 +2421,7 @@
             "value": 20
           }
         },
-        "text": "Drukhari model only. The bearer’s unit is always Empowered – you do not need to spend any Pain tokens to activate that unit’s Pain abilities."
+        "text": "**DRUKHARI** model only. The bearer’s unit is always Empowered – you do not need to spend any Pain tokens to activate that unit’s Pain abilities."
       },
       "Enhancement§Elixir of the Corpse Courts (Upgrade)": {
         "keywords": {
@@ -2268,7 +2437,7 @@
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**CRONOS/TALOS** unit only. This unit has 5+ **InSv**.",
+        "text": "**CRONOS/TALOS** unit only. This unit has 5+ **InSv**.",
         "removed": {
           "keywords": {
             "Tags": [
@@ -2278,6 +2447,64 @@
         },
         "aspects": {
           "Unique": false
+        },
+        "rules": {
+          "CRONOS/TALOS unit only.": {
+            "evals": [
+              {
+                "actionable": false,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Cronos"
+              },
+              {
+                "actionable": false,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Talos"
+              },
+              {
+                "actionable": true,
+                "not": false,
+                "operator": "OR",
+                "value": true,
+                "paths": [
+                  [
+                    "{this}",
+                    "evals",
+                    "0",
+                    "result",
+                    "truthy"
+                  ],
+                  [
+                    "{this}",
+                    "evals",
+                    "1",
+                    "result",
+                    "truthy"
+                  ]
+                ]
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
         }
       },
       "Enhancement§Eye of Spite": {
@@ -2371,7 +2598,7 @@
             "visibility": "normal"
           }
         },
-        "text": "Succubus model only. Improve the Attacks and Armour Penetration characteristics of the bearer’s melee weapons by 1. While the bearer is Empowered, Improve the Attacks and Armour Penetration characteristics of the bearer’s melee weapons by 2 instead."
+        "text": "**SUCCUBUS** model only. Improve the Attacks and Armour Penetration characteristics of the bearer’s melee weapons by 1. Each time the bearer’s unit is selected to fight, you can spend 1 Pain token; if you do, until the end of the phase, improve the Attacks and Armour Penetration characteristics of the bearer’s melee weapons by 2 instead."
       },
       "Enhancement§Gnarlskin Experimentor": {
         "keywords": {
@@ -2384,7 +2611,29 @@
             "value": 20
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Haemonculus** model only. Attacks that target this unit with a **S** greater than your unit’s **T** have -1 to **wound rolls**."
+        "text": "**HAEMONCULUS** model only. Attacks that target this unit with a **S** greater than your unit’s **T** have -1 to **wound rolls**.",
+        "rules": {
+          "HAEMONCULUS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Haemonculus"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Hyperstimm Trafficker": {
         "keywords": {
@@ -2397,7 +2646,29 @@
             "value": 20
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Succubus** model only. This unit has +1 **T**."
+        "text": "**SUCCUBUS** model only. This unit has +1 **T**.",
+        "rules": {
+          "SUCCUBUS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Succubus"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Informant Network": {
         "keywords": {
@@ -2430,7 +2701,7 @@
             "value": 30
           }
         },
-        "text": "Archon model only. At the start of the Declare Battle Formations step, select up to three KABALITE WARRIORS and/or one of the HAND OF THE ARCHON units from your army; those units gain the Infiltrators ability."
+        "text": "**ARCHON** model only. At the start of the Declare Battle Formations step, select up to three **KABALITE WARRIORS** and/or **HAND OF THE ARCHON** units from your army; those units gain the Infiltrators ability."
       },
       "Enhancement§Labyrinthine Cunning": {
         "keywords": {
@@ -2463,7 +2734,7 @@
             "value": 25
           }
         },
-        "text": "Archon model only. At the start of your Command phase, if the bearer is on the battlefield, you can do one of the following:\n\n-  Spend 1 Pain token and gain 1CP\n-  Roll one D6: on a 4+, you gain 1CP."
+        "text": "**ARCHON** model only. At the start of your Command phase, if the bearer is on the battlefield, you can do one of the following:\n\n■ Spend 1 Pain token and gain 1CP.\n■ Roll one D6: on a 4+, you gain 1CP."
       },
       "Enhancement§Leechbite Plate": {
         "keywords": {
@@ -2517,7 +2788,7 @@
             "value": 5
           }
         },
-        "text": "Archon model only. The bearer has a Save characteristic of 3+. At the start of the other player's Command phase, you can spend 1 Pain token: if you do, the bearer regains all of its lost wounds."
+        "text": "**ARCHON** model only. The bearer has a Save characteristic of 3+. At the start of either player’s Command phase, you can spend 1 Pain token: if you do, the bearer regains all of its lost wounds."
       },
       "Enhancement§Master Artisan": {
         "keywords": {
@@ -2588,7 +2859,7 @@
             "value": 20
           }
         },
-        "text": "Haemonculus model only. Add 1 to the bearer's Wounds characteristic and add 1 to the Toughness characteristic of models in the bearer's unit."
+        "text": "**HAEMONCULUS** model only. Add 1 to the bearer’s Wounds characteristic and add 1 to the Toughness characteristic of models in the bearer’s unit."
       },
       "Enhancement§Master Nemesine": {
         "keywords": {
@@ -2731,7 +3002,7 @@
             "value": 5
           }
         },
-        "text": "Haemonculus model only. The bearer's weapons have the [ANTI-BEAST 2+] and [ANTI-MONSTER 4+] abilities."
+        "text": "**HAEMONCULUS** model only. The bearer’s weapons have the **[ANTI-BEAST 2+]** and **[ANTI-MONSTER 4+]** abilities."
       },
       "Enhancement§Master Regenesist": {
         "keywords": {
@@ -2764,9 +3035,9 @@
             "value": 25
           }
         },
-        "text": "Haemonculus model only. Each time the bearer uses its Fleshcraft ability, you can return up to D3+3 destroyed Bodyguard models to the bearer's unit instead of D3+1."
+        "text": "**HAEMONCULUS** model only. Each time the bearer uses its Fleshcraft ability, you can return up to D3+3 destroyed Bodyguard models to the bearer’s unit instead of D3+1."
       },
-      "Enhancement§Master Repugnomancer": {
+      "Enhancement§Master Repugnomancer (Aura)": {
         "keywords": {
           "Keywords": [
             "Covenite Coterie"
@@ -2797,7 +3068,7 @@
             "value": 15
           }
         },
-        "text": "Haemonculus model only. Add 3\" to the range of the bearer's Fear Incarnate ability, and each time a friendly DRUKHARI unit within 9\" of the bearer fails a Battle-shock test or is destroyed, roll one D6: on a 4+, you gain 1 Pain token."
+        "text": "**HAEMONCULUS** model only. Add 3\" to the range of the bearer’s Fear Incarnate ability, and each time a friendly **DRUKHARI** unit within 9\" of the bearer fails a Battle-shock test or is destroyed, roll one D6: on a 4+, you gain 1 Pain token."
       },
       "Enhancement§Morghenna's Curse": {
         "keywords": {
@@ -2887,7 +3158,29 @@
             "value": 20
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**SUCCUBUS** model only. Improve the Armour Penetration and Damage characteristics of the bearer’s melee weapons by 1."
+        "text": "**SUCCUBUS** model only. Improve the Armour Penetration and Damage characteristics of the bearer’s melee weapons by 1.",
+        "rules": {
+          "SUCCUBUS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Succubus"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Nightmare Shroud": {
         "keywords": {
@@ -2922,13 +3215,13 @@
             "value": 20
           }
         },
-        "text": "Drukhari model only. Each time the bearer’s unit disembarks from a Transport, until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit."
+        "text": "**DRUKHARI** model only. Each time the bearer’s unit disembarks from a **TRANSPORT**, until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit."
       },
       "Enhancement§Periapt of Torments": {
         "keywords": {
           "Keywords": [
-            "Spectacle of Spite",
-            "Exhibition Of Slaughter"
+            "Exhibition Of Slaughter",
+            "Spectacle of Spite"
           ]
         },
         "rules": {
@@ -2964,7 +3257,7 @@
             "value": "Exhibition Of Slaughter"
           }
         },
-        "text": "Succubus model only. Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer's unit."
+        "text": "**SUCCUBUS** model only. Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit."
       },
       "Enhancement§Phantasmal Smoke": {
         "keywords": {
@@ -2999,7 +3292,7 @@
             "value": 15
           }
         },
-        "text": "Drukhari model only. While the bearer’s unit is wholly within 6” of a friendly Drukhari Transport:\n\n* Models in the bearer’s unit have the Stealth ability.\n\n* Each time a ranged attack targets the bearer's unit, models in that unit have the Benefit of Cover against that attack."
+        "text": "**DRUKHARI** model only. While the bearer’s unit is wholly within 6\" of a friendly **DRUKHARI TRANSPORT**:\n\n■ Models in the bearer’s unit have the Stealth ability.\n■ Each time a ranged attack targets the bearer’s unit, models in that unit have the Benefit of Cover against that attack."
       },
       "Enhancement§Pharmacophex": {
         "keywords": {
@@ -3034,7 +3327,7 @@
             "value": 15
           }
         },
-        "text": "Succubus model only. At the start of your Command phase, after selecting which Combat Drugs will be active for your army, roll one D6 and consult the Combat Drugs list. The result applies to the bearer's unit until the start of your next Command phase in addition to any other Combat Drugs active."
+        "text": "**SUCCUBUS** model only. At the start of your Command phase, after selecting which Combat Drugs will be active for your army, roll one D6 and consult the Combat Drugs list (see Detachment Rule). The result rolled applies to the bearer’s unit until the start of your next Command phase in addition to any other Combat Drugs that are active for your army. If you randomly select one that is already active for your army, it has no additional effect."
       },
       "Enhancement§Reaper's Cowl": {
         "keywords": {
@@ -3122,7 +3415,29 @@
             "value": 25
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**HARLEQUINS** model only. Models in the bearer’s unit have the Stealth and Infiltrators abilities."
+        "text": "**HARLEQUINS** model only. Models in the bearer’s unit have the Stealth and Infiltrators abilities.",
+        "rules": {
+          "HARLEQUINS model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Harlequins"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Sadistic Fulcrum": {
         "keywords": {
@@ -3157,7 +3472,7 @@
             "value": 15
           }
         },
-        "text": "Drukhari model only. Each time you spend 1 Pain token to Empower the bearer's unit in the Shooting phase, select one friendly Drukhari Transport within 6\" of the bearer's unit; until the end of the phase, each time that Transport makes an attack, you can re-roll the Hit roll."
+        "text": "**DRUKHARI** model only. Each time you spend 1 Pain token to Empower the bearer’s unit in the Shooting phase, select one friendly **DRUKHARI TRANSPORT** within 6\" of the bearer’s unit; until the end of the phase, each time that **TRANSPORT** makes an attack, you can re-roll the Hit roll."
       },
       "Enhancement§Spiteful Raider": {
         "keywords": {
@@ -3192,13 +3507,13 @@
             "value": 10
           }
         },
-        "text": "Drukhari model only. Each time the bearer's unit destroys an enemy unit in the Fight phase, if that enemy unit was within range of one or more objective markers when the bearer's unit was selected to fight, you gain 1 additional Pain token."
+        "text": "**DRUKHARI** model only. Each time the bearer’s unit destroys an enemy unit in the Fight phase, if that enemy unit was within range of one or more objective markers when the bearer’s unit was selected to fight, you gain 1 additional Pain token."
       },
       "Enhancement§Towering Arrogance": {
         "keywords": {
           "Keywords": [
-            "Kabalite Cartel",
-            "Kabalite Agonysts"
+            "Kabalite Agonysts",
+            "Kabalite Cartel"
           ]
         },
         "rules": {
@@ -3232,7 +3547,7 @@
             "value": "Kabalite Agonysts"
           }
         },
-        "text": "Archon model only. While the bearer is leading a unit, improve the Leadership and Objective Control characteristics of models in that unit by 1."
+        "text": "**ARCHON** model only. While the bearer is leading a unit, improve the Leadership and Objective Control characteristics of models in that unit by 1."
       },
       "Enhancement§Webway Awl": {
         "keywords": {
@@ -3265,7 +3580,7 @@
             "value": 25
           }
         },
-        "text": "Archon model only. Models in the bearer's unit have the Deep Strike ability, and you can target the bearer's unit with the Rapid Ingress Stratagem for 0CP."
+        "text": "**ARCHON** model only. Models in the bearer’s unit have the Deep Strike ability, and you can target the bearer’s unit with the Rapid Ingress Stratagem for 0CP."
       },
       "Enhancement§Webway Walker": {
         "keywords": {
@@ -3338,7 +3653,7 @@
             "value": 15
           }
         },
-        "text": "**Harlequins** or **Drukhari** model only. Models in the\nbearer’s unit have the Deep Strike ability. Each time\nthe bearer’s unit is set up on the battlefield using the\nDeep Strike ability, if that unit is currently losing\nthe wager, until the end of the turn, you can re‑roll\nCharge rolls made for that unit."
+        "text": "**HARLEQUINS** or **DRUKHARI** model only. Models in the bearer’s unit have the Deep Strike ability. Each time the bearer’s unit is set up on the battlefield using the Deep Strike ability, if that unit is currently losing the wager, until the end of the turn, you can re-roll Charge rolls made for that unit."
       },
       "Melee Weapon§Archon—Agoniser": {
         "aspects": {
@@ -10824,7 +11139,7 @@
             "Battle Tactic"
           ],
           "Turn": [
-            "Opponent's"
+            "Opponent’s"
           ]
         },
         "stats": {
@@ -10832,13 +11147,13 @@
             "value": 2
           }
         },
-        "text": "**WHEN**: End of your opponent's Movement phase.\n\n**TARGET**: One WYCH CULT unit from your army that would be able to declare a charge if it were your Charge phase.\n\n**EFFECT**: Select one enemy unit within 9\" of your unit that was set up on the battlefield this phase or that ended a Normal or Advance move this phase. Your unit now declares a charge that targets only that enemy unit, and you resolve that charge.\n\n**RESTRICTIONS**: Even if that charge is successful, your unit does not receive any Charge bonus this turn."
+        "text": "**WHEN:** Your opponent’s Movement phase, when an enemy unit ends a **fall-back move**.\n\n**TARGET:** One friendly unengaged **WYCH CULT** unit that is within 6\" of that enemy unit.\n\n**EFFECT:** Declare a charge with your unit. When selecting **charge targets**, you can only select enemy units that made a **fall-back move** this phase and are within the **maximum distance**."
       },
       "Stratagem§Acrobatic Display": {
         "keywords": {
           "Keywords": [
             "Drukhari",
-            "Spectacle of Spite"
+            "Exhibition Of Slaughter"
           ],
           "Phase": [
             "Shooting"
@@ -10847,15 +11162,10 @@
             "Battle Tactic"
           ],
           "Turn": [
-            "Opponent's"
+            "Opponent’s"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your opponent's Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One WYCH CULT unit from your army that was selected as the target of one or more of the attacking unit's attacks.\n\n**EFFECT**: Until the end of the phase, models in your unit have a 5+ invulnerable save."
+        "text": "**WHEN:** Your opponent’s Shooting phase, when an enemy unit targets a friendly **WYCH CULT** unit.\n\n**TARGET:** That **WYCH CULT** unit.\n\n**EFFECT:** Your unit has 5+ **InSv**."
       },
       "Stratagem§Berserk Fugue": {
         "keywords": {
@@ -10870,7 +11180,8 @@
             "Strategic Ploy"
           ],
           "Turn": [
-            "Opponent's"
+            "Yours",
+            "Opponent’s"
           ]
         },
         "stats": {
@@ -10878,7 +11189,7 @@
             "value": 2
           }
         },
-        "text": "**WHEN**: Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One WYCH CULT unit from your army that was selected as the target of one or more of the attacking unit's attacks.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+        "text": "**WHEN:** Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **WYCH CULT** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
       },
       "Stratagem§Connoisseurs of Pain": {
         "keywords": {
@@ -10887,26 +11198,23 @@
             "Covenite Coterie"
           ],
           "Phase": [
-            "Shooting",
-            "Fight"
+            "Fight",
+            "Shooting"
           ],
           "Category": [
             "Battle Tactic"
           ],
           "Turn": [
-            "Opponent's"
+            "Yours",
+            "Opponent’s"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One DRUKHARI unit from your army that was selected as the target of one or more of the attacking unit's attacks.\n\n**EFFECT**: Spend 1 Pain token. Until the end of the phase, each time an attack is allocated to a model in your unit, worsen the Armour Penetration characteristic of that attack by 1. At the end of the phase, if your unit is still on the battlefield and it is a HAEMONCULUS COVENS unit, you gain 1 Pain token."
+        "text": "**WHEN:** Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **DRUKHARI** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Spend 1 Pain Token. Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1. At the end of the phase, if your unit is still on the battlefield and it is a **HAEMONCULUS COVENS** unit, you gain 1 Pain Token."
       },
       "Stratagem§Dance Macabre": {
         "keywords": {
           "Keywords": [
+            "Drukhari",
             "Reaper's Wager"
           ],
           "Category": [
@@ -10924,7 +11232,7 @@
             "value": 2
           }
         },
-        "text": "**WHEN:** Your opponent’s Movement phase, just\nafter an enemy unit ends a Normal, Advance or Fall\nBack move.\n\n**TARGET:** One **Drukhari Infantry** or **Harlequins\nInfantry** unit from your army that is within 9\" of that\nenemy unit.\n\nEFFECT: Your unit can make a Normal move of up to\nD6\". If your unit is currently losing the wager, it can\nmake a Normal move of up to 6\" instead."
+        "text": "**WHEN:** Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\n**TARGET:** One **DRUKHARI INFANTRY** or **HARLEQUINS INFANTRY** unit from your army that is within 8\" of that enemy unit.\n\n**EFFECT:** Your unit can make a Normal move of up to D6\". If your unit is currently losing the wager, it can make a Normal move of up to 6\" instead."
       },
       "Stratagem§Dark Harvest": {
         "keywords": {
@@ -10939,15 +11247,11 @@
             "Strategic Ploy"
           ],
           "Turn": [
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Start of the Fight phase.\n\n**TARGET**: Up to two WRACKS units from your army, or one other DRUKHARI unit from your army.\n\n**EFFECT**: Until the end of the phase, melee weapons equipped by models in each of those units have the [LETHAL HITS] ability."
+        "text": "**WHEN:** Start of the Fight phase.\n\n**TARGET:** Up to two **WRACKS** units from your army, or one other **DRUKHARI** unit from your army.\n\n**EFFECT:** Until the end of the phase, melee weapons equipped by models in each of those units have the **[LETHAL HITS]** ability."
       },
       "Stratagem§Deadly Debut": {
         "keywords": {
@@ -10962,15 +11266,11 @@
             "Battle Tactic"
           ],
           "Turn": [
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Fight phase.\n\n**TARGET**: One DRUKHARI unit from your army that made a Charge move this turn and has not been selected to fight this phase.\n\n**EFFECT**: Until the end of the phase, melee weapons equipped by models in your unit have the [LETHAL HITS] ability. If your unit is a WYCHES unit, until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in your unit by 1 as well."
+        "text": "**WHEN:** Fight phase.\n\n**TARGET:** One **DRUKHARI** unit from your army that made a Charge move this turn and has not been selected to fight this phase.\n\n**EFFECT:** Until the end of the phase, melee weapons equipped by models in your unit have the **[LETHAL HITS]** ability. If your unit is a **WYCHES** unit, until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in your unit by 1 as well."
       },
       "Stratagem§Deadly Deceivers": {
         "keywords": {
@@ -10985,15 +11285,10 @@
             "Strategic Ploy"
           ],
           "Turn": [
-            "Opponent's"
+            "Opponent’s"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your opponent's Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One KABAL or BLADES FOR HIRE unit from your army that was selected as the target of one or more of the attacking unit's attacks.\n\n**EFFECT**: Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **KABAL** or **BLADES FOR HIRE** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
       },
       "Stratagem§Distillers of Fear": {
         "keywords": {
@@ -11008,7 +11303,8 @@
             "Strategic Ploy"
           ],
           "Turn": [
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ]
         },
         "stats": {
@@ -11016,9 +11312,9 @@
             "value": 2
           }
         },
-        "text": "**WHEN**: Fight phase.\n\n**TARGET**: One HAEMONCULUS COVENS unit from your army that has not been selected to fight this phase.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit that is Battle-shocked, that attack has the [DEVASTATING WOUNDS] ability."
+        "text": "**WHEN:** Fight phase.\n\n**TARGET:** One **HAEMONCULUS COVENS** unit from your army that has not been selected to fight this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit that is Battle-shocked, that attack has the **[DEVASTATING WOUNDS]** ability."
       },
-      "Stratagem§Double Cross": {
+      "Stratagem§Double-cross": {
         "keywords": {
           "Keywords": [
             "Drukhari",
@@ -11031,15 +11327,11 @@
             "Strategic Ploy"
           ],
           "Turn": [
-            "Opponent's"
+            "Yours",
+            "Opponent’s"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One KABAL or BLADES FOR HIRE unit from your army that was selected as the target of one or more of the attacking unit's attacks, and one friendly DRUKHARI unit (excluding VEHICLES).\n\n**EFFECT**: Until the end of the phase, each time you would allocate an attack to a model in your KABAL or BLADES FOR HIRE unit, if your DRUKHARI unit is within Engagement Range of the attacking model, you can choose for it to be the target of that attack instead. If you do, your DRUKHARI unit suffers a number of mortal wounds equal to the Damage characteristic of that attack."
+        "text": "**WHEN:** Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **KABAL** or **BLADES FOR HIRE** unit from your army that was selected as the target of one or more of the attacking unit’s attacks, and one friendly **DRUKHARI** unit (excluding **VEHICLES**).\n\n**EFFECT:** Until the end of the phase, each time you would allocate an attack to a model in your **KABAL** or **BLADES FOR HIRE** unit, if your **DRUKHARI** unit is within Engagement Range of the attacking model, no saving throw is made for that attack; instead, your **DRUKHARI** unit suffers a number of mortal wounds equal to the Damage characteristic of that attack."
       },
       "Stratagem§Eager for the Kill": {
         "keywords": {
@@ -11057,12 +11349,7 @@
             "Yours"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Start of your Movement phase.\n\n**TARGET**: Up to two WYCHES units from your army, or one other DRUKHARI unit from your army, that have not been selected to move this phase.\n\n**EFFECT**: Until the end of the phase, each time one of those units Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in that unit (this is not cumulative with the REAVERS' Matchless Swiftness ability)."
+        "text": "**WHEN:** Start of your Movement phase.\n\n**TARGET:** Up to two **WYCHES** units from your army, or one other **DRUKHARI** unit from your army, that have not been selected to move this phase.\n\n**EFFECT:** Until the end of the phase, each time one of those units Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in that unit (this is not cumulative with the **REAVERS**’ Matchless Swiftness ability)."
       },
       "Stratagem§Enemies Without Number": {
         "keywords": {
@@ -11080,12 +11367,7 @@
             "Yours"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Command phase, just after you complete a Contract (see opposite).\n\n**TARGET**: One ARCHON WARLORD from your army.\n\n**EFFECT**: Select one new Contract from those listed opposite (this can be one you have already completed), then select one unit from your opponent's army that is on the battlefield and matches the 'Contract' description for that Contract. Until that Contract is completed, that unit is your Contract unit and the Murderous Agenda Detachment rule applies as normal."
+        "text": "**WHEN:** Your Command phase, just after you complete a Contract (see Murderous Agenda Detachment rule).\n\n**TARGET:** One **ARCHON WARLORD** from your army.\n\n**EFFECT:** Select one new Contract from those listed in the Murderous Agenda Detachment rule (this can be one you have already completed), then select one unit from your opponent’s army that is on the battlefield and matches the ‘Contract’ description in that Contract. Until that Contract is completed, that unit is your Contract unit and the Murderous Agenda Detachment rule applies as normal."
       },
       "Stratagem§Enfolding Nightmare": {
         "keywords": {
@@ -11100,32 +11382,29 @@
             "Strategic Ploy"
           ],
           "Turn": [
-            "Opponent's"
+            "Opponent’s"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your opponent's Shooting phase, just after an enemy unit has shot.\n\n**TARGET**: One HAEMONCULUS COVENS unit from your army that was selected as the target of one or more of the attacking unit's attacks.\n\n**EFFECT**: Roll one D6: your unit can be moved a number of inches up to the result, but it must end that move as close as possible to the closest enemy unit (excluding AIRCRAFT) that it can. In doing so, those models can be moved within Engagement Range of that enemy unit."
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has shot.\n\n**TARGET:** One **HAEMONCULUS COVENS** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Your unit can make a **surge move** of up to D6\"."
       },
       "Stratagem§Fateful Role": {
         "keywords": {
           "Keywords": [
+            "Drukhari",
             "Reaper's Wager"
           ],
           "Category": [
             "Strategic Ploy"
           ],
           "Turn": [
+            "Yours",
             "Opponent’s"
           ],
           "Phase": [
             "Fight"
           ]
         },
-        "text": "**WHEN:** Fight phase, just after an enemy unit has\nselected its targets.\n\n**TARGET:** One **Drukhari** or **Harlequins** unit from\nyour army that was selected as the target of one or\nmore of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, each time a\nmodel in your unit is destroyed, if that model has not\nfought this phase, roll one D6, adding 1 to the result\nif that unit is losing the wager: on a 4+, do not remove\nit from play. That destroyed model can fight after\nthe attacking model’s unit has finished making its\nattacks, and is then removed from play."
+        "text": "**WHEN:** Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **DRUKHARI** or **HARLEQUINS** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if that unit is losing the wager: on a 4+, do not remove it from play. That destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
       },
       "Stratagem§Feigned Weakness": {
         "keywords": {
@@ -11143,12 +11422,7 @@
             "Yours"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Movement phase, just after a DRUKHARI unit from your army Falls Back.\n\n**TARGET**: That DRUKHARI unit.\n\n**EFFECT**: Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+        "text": "**WHEN:** Your Movement phase, just after a **DRUKHARI** unit from your army Falls Back.\n\n**TARGET:** That **DRUKHARI** unit.\n\n**EFFECT:** Until the end of the turn, your unit is eligible to shoot and declare a charge in turn in which it Fell Back."
       },
       "Stratagem§Fighting Shadows": {
         "keywords": {
@@ -11157,22 +11431,18 @@
             "Realspace Raiders"
           ],
           "Phase": [
-            "Shooting",
-            "Fight"
+            "Fight",
+            "Shooting"
           ],
           "Category": [
             "Battle Tactic"
           ],
           "Turn": [
-            "Opponent's"
+            "Yours",
+            "Opponent’s"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One DRUKHARI unit from your army (excluding HAEMONCULUS COVENS units) that was selected as the target of one or more of the attacking unit's attacks.\n\n**EFFECT**: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
+        "text": "**WHEN:** Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **DRUKHARI** unit from your army (excluding **HAEMONCULUS COVENS** units) that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
       },
       "Stratagem§Insensible to Pain": {
         "keywords": {
@@ -11181,14 +11451,15 @@
             "Realspace Raiders"
           ],
           "Phase": [
-            "Shooting",
-            "Fight"
+            "Fight",
+            "Shooting"
           ],
           "Category": [
             "Battle Tactic"
           ],
           "Turn": [
-            "Opponent's"
+            "Yours",
+            "Opponent’s"
           ]
         },
         "stats": {
@@ -11196,7 +11467,7 @@
             "value": 2
           }
         },
-        "text": "**WHEN**: Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One HAEMONCULUS COVENS unit from your army that was selected as the target of one or more of the attacking unit's attacks.\n\n**EFFECT**: Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack."
+        "text": "**WHEN:** Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **HAEMONCULUS COVENS** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack."
       },
       "Stratagem§Instinctive Spite": {
         "keywords": {
@@ -11205,22 +11476,18 @@
             "Realspace Raiders"
           ],
           "Phase": [
-            "Shooting",
-            "Fight"
+            "Fight",
+            "Shooting"
           ],
           "Category": [
             "Battle Tactic"
           ],
           "Turn": [
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Start of your Shooting phase or the start of the Fight phase.\n\n**TARGET**: Up to two DRUKHARI BATTLELINE units from your army, or one other DRUKHARI unit from your army.\n\n**EFFECT**: You can spend 1 Pain token. Until the end of the phase, each time a model in each of those units makes an attack that targets an enemy unit that is Below Half-strength, add 1 to the Hit roll. If you spent 1 Pain token, add 1 to the Wound roll as well."
+        "text": "**WHEN:** Start of your Shooting phase or the start of the Fight phase.\n\n**TARGET:** Up to two **DRUKHARI BATTLELINE** units from your army, or one other **DRUKHARI** unit from your army.\n\n**EFFECT:** You can spend 1 Pain token. Until the end of the phase, each time a model in each of those units makes an attack that targets an enemy unit that is Below Half-strength, add 1 to the Hit roll. If you spent 1 Pain token, add 1 to the Wound roll as well."
       },
       "Stratagem§Making a Point": {
         "keywords": {
@@ -11238,47 +11505,46 @@
             "Yours"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One KABALITE WARRIORS or HAND OF THE ARCHON unit from your army that has not been selected to shoot this phase.\n\n**EFFECT**: Until the end of the phase, improve the Ballistic Skill and Armour Penetration characteristics of ranged weapons equipped by models in your unit by 1."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **KABALITE WARRIORS** or **HAND OF THE ARCHON** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, improve the Ballistic Skill and Armour Penetration characteristics of ranged weapons equipped by models in your unit by 1."
       },
       "Stratagem§Malicious Frenzy": {
         "keywords": {
           "Keywords": [
+            "Drukhari",
             "Reaper's Wager"
           ],
           "Category": [
             "Battle Tactic"
           ],
           "Turn": [
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Phase": [
             "Fight",
             "Shooting"
           ]
         },
-        "text": "**WHEN:** Your Shooting phase or the Fight phase.\n\n**TARGET:** One **Drukhari** or **Harlequins** unit from\nyour army that has not been selected to shoot or\nfight this phase.\n\n**EFFECT:** Select **[LETHAL HITS]** or **[SUSTAINED HITS 1]**.\nUntil the end of the phase, weapons equipped by\nmodels in your unit have the selected ability."
+        "text": "**WHEN:** Your Shooting phase or the Fight phase.\n\n**TARGET:** One **DRUKHARI** or **HARLEQUINS** unit from your army that has not been selected to shoot or fight this phase.\n\n**EFFECT:** Select **[LETHAL HITS]** or **[SUSTAINED HITS 1]**. Until the end of the phase, weapons equipped by models in your unit have the selected ability."
       },
       "Stratagem§Murderer's Circus": {
         "keywords": {
           "Keywords": [
+            "Drukhari",
             "Reaper's Wager"
           ],
           "Category": [
             "Battle Tactic"
           ],
           "Turn": [
+            "Yours",
             "Opponent’s"
           ],
           "Phase": [
             "Fight"
           ]
         },
-        "text": "**WHEN:** Fight phase, just after an enemy unit has\nselected its targets.\n\n**TARGET:** One **Drukhari** or **Harlequins** unit from\nyour army that was selected as the target of one or\nmore of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, each time an\nattack targets your unit, subtract 1 from the Hit roll."
+        "text": "**WHEN:** Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **DRUKHARI** or **HARLEQUINS** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
       },
       "Stratagem§Night Shield": {
         "keywords": {
@@ -11293,17 +11559,12 @@
             "Wargear"
           ],
           "Turn": [
-            "Opponent's"
+            "Opponent’s"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your opponent's Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One DRUKHARI VEHICLE unit from your army that was selected as the target of one or more of the attacking unit's attacks.\n\n**EFFECT**: Until the end of the phase, models in your unit have a 4+ invulnerable save."
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **DRUKHARI VEHICLE** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, models in your unit have a 4+ invulnerable save."
       },
-      "Stratagem§Poisoners Art": {
+      "Stratagem§Poisoner’s Art": {
         "keywords": {
           "Keywords": [
             "Drukhari",
@@ -11316,15 +11577,11 @@
             "Epic Deed"
           ],
           "Turn": [
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Fight phase, just after a HAEMONCULUS COVENS unit from your army has fought.\n\n**TARGET**: That HAEMONCULUS COVENS unit.\n\n**EFFECT**: Select one enemy unit (excluding VEHICLES) hit by one or more of your unit's attacks this phase. Until the end of the battle, that enemy unit is poisoned. At the start of each Command phase, roll one D6 for each poisoned unit on the battlefield; on a 4+, that unit suffers D3 mortal wounds."
+        "text": "**WHEN:** Fight phase, just after a **HAEMONCULUS COVENS** unit from your army has fought.\n\n**TARGET:** That **HAEMONCULUS COVENS** unit.\n\n**EFFECT:** Select one enemy unit (excluding **VEHICLES**) hit by one or more of your unit’s attacks this phase. Until the end of the battle, that enemy unit is poisoned. At the start of each Command phase, roll one D6 for each poisoned unit on the battlefield: on a 4+, that unit suffers D3 mortal wounds."
       },
       "Stratagem§Postmortality": {
         "keywords": {
@@ -11340,15 +11597,10 @@
           ],
           "Turn": [
             "Yours",
-            "Opponent's"
+            "Opponent’s"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Any phase.\n\n**TARGET**: One HAEMONCULUS model from your army that was just destroyed. You can use this Stratagem on that model even though it was just destroyed.\n\n**EFFECT**: Spend 1-3 Pain tokens. At the end of the phase, set the destroyed model back up on the battlefield, as close as possible to where it was destroyed but not within Engagement Range of any enemy units, with a number of wounds remaining equal to the number of Pain tokens you just spent.\n\n**RESTRICTIONS**: You cannot use this Stratagem if you have 0 Pain tokens, and you cannot target the same HAEMONCULUS model with this Stratagem more than once per battle."
+        "text": "**WHEN:** Any phase.\n\n**TARGET:** One **HAEMONCULUS** model from your army that was just destroyed. You can use this Stratagem on that model even though it was just destroyed.\n\n**EFFECT:** Spend 1-3 Pain tokens. At the end of the phase, set up the **destroyed** model on the battlefield, **unengaged** and as close as possible to where it was **destroyed**. That model is not part of an **attached** unit and its unit has a **starting strength** of 1. That model has a number of wounds remaining equal to the number of Pain tokens you just spent.\n\n**RESTRICTIONS:** You cannot use this Stratagem if you have 0 Pain tokens, and you cannot target the same **HAEMONCULUS** model with this Stratagem more than once per battle."
       },
       "Stratagem§Pounce on the Prey": {
         "keywords": {
@@ -11366,12 +11618,7 @@
             "Yours"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Movement phase, just after a DRUKHARI INFANTRY unit from your army disembarks from a TRANSPORT that made a Normal move this phase.\n\n**TARGET**: That INFANTRY unit.\n\n**EFFECT**: Until the end of the turn, your unit is eligible to declare a charge."
+        "text": "**WHEN:** Your Movement phase, just after a **DRUKHARI INFANTRY** unit from your army disembarks from a **TRANSPORT** that made a Normal move this phase.\n\n**TARGET:** That **INFANTRY** unit.\n\n**EFFECT:** Until the end of the turn, your unit is eligible to declare a charge."
       },
       "Stratagem§Preternatural Agility": {
         "keywords": {
@@ -11380,8 +11627,8 @@
             "Spectacle of Spite"
           ],
           "Phase": [
-            "Movement",
-            "Charge"
+            "Charge",
+            "Movement"
           ],
           "Category": [
             "Strategic Ploy"
@@ -11390,12 +11637,7 @@
             "Yours"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Start of your Movement or Charge phase.\n\n**TARGET**: One WYCH CULT unit from your army.\n\n**EFFECT**: Until the end of the phase, each time your unit makes a Normal, Advance or Charge move, you can ignore any or all modifiers to its Move characteristic, Advance roll or Charge roll. Instead, until the end of the phase, each time a model in your unit makes such a move, it can move horizontally through models (when doing so, such a model can move within Engagement Range of other models but cannot end a Normal or Advance move within Engagement Range of them)."
+        "text": "**WHEN:** Start of your Movement or Charge phase.\n\n**TARGET:** One **WYCH CULT** unit from your army.\n\n**EFFECT:** Until the end of the phase, each time your unit makes a Normal, Advance or Charge move, you can ignore any or all modifiers to its Move characteristic and to Advance and Charge rolls made for it and, until the end of the turn, each time a model in your unit makes such a move, it can move horizontally through models (when doing so, such a model can move within Engagement Range of such models but cannot end a Normal or Advance move within Engagement Range of them)."
       },
       "Stratagem§Raid and Fade": {
         "keywords": {
@@ -11418,11 +11660,12 @@
             "value": 2
           }
         },
-        "text": "**WHEN**: End of your Shooting phase.\n\n**TARGET**: Up to two KABALITE WARRIORS units from your army, or one other DRUKHARI unit from your army (excluding SCOURGES and AIRCRAFT).\n\n**EFFECT**: Each of those units can make a Normal move of up to 6\".\n\n**RESTRICTIONS**: You cannot select units that are within Engagement Range of one or more enemy units. Until the end of the turn, those units are not eligible to declare a charge."
+        "text": "**WHEN:** End of your Shooting phase.\n\n**TARGET:** Up to two **KABALITE WARRIORS** units from your army, or one other **DRUKHARI** unit from your army (excluding **SCOURGES** and **AIRCRAFT**).\n\n**EFFECT:** Each of those units can make a Normal move of up to 6\".\n\n**RESTRICTIONS:** You cannot select units that are within Engagement Range of one or more enemy units. Until the end of the turn, those units are not eligible to declare a charge."
       },
       "Stratagem§Scintillating Tempo": {
         "keywords": {
           "Keywords": [
+            "Drukhari",
             "Reaper's Wager"
           ],
           "Category": [
@@ -11436,11 +11679,12 @@
             "Movement"
           ]
         },
-        "text": "**WHEN:** Your Movement phase or your Charge phase,\njust after a **Drukhari** or **Harlequins** unit from your\narmy is selected to make a Normal, Advance or Fall\nBack move, is set up on the battlefield, or declares\na charge.\n\n**TARGET:** That unit.\n\n**EFFECT:** Until the end of the turn, enemy units\ncannot use the Fire Overwatch Stratagem to shoot\nat your unit."
+        "text": "**WHEN:** Your Movement phase or your Charge phase, just after a **DRUKHARI** or **HARLEQUINS** unit from your army is selected to make a Normal, Advance or Fall Back move, is set up on the battlefield, or declares a charge.\n\n**TARGET:** That unit.\n\n**EFFECT:** Until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at your unit."
       },
       "Stratagem§Shorten the Odds": {
         "keywords": {
           "Keywords": [
+            "Drukhari",
             "Reaper's Wager"
           ],
           "Category": [
@@ -11453,7 +11697,7 @@
             "Movement"
           ]
         },
-        "text": "**WHEN:** Your Movement phase, just after a **Drukhari**\nor **Harlequins** unit from your army has Advanced.\n\n**TARGET:** That unit.\n\n**EFFECT:** Until the end of the turn, your unit is eligible\nto shoot and declare a charge in a turn in which\nit Advanced."
+        "text": "**WHEN:** Your Movement phase, just after a **DRUKHARI** or **HARLEQUINS** unit from your army has Advanced.\n\n**TARGET:** That unit.\n\n**EFFECT:** Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced."
       },
       "Stratagem§Skyborne Annihilation": {
         "keywords": {
@@ -11471,12 +11715,7 @@
             "Yours"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One DRUKHARI unit from your army that has not been selected to shoot this phase and that disembarked from a TRANSPORT this turn.\n\n**EFFECT**: Until the end of the phase, ranged weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability, or the [SUSTAINED HITS 2] ability if your unit is a KABALITE WARRIORS or HAND OF THE ARCHON unit."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **DRUKHARI** unit from your army that has not been selected to shoot this phase and that disembarked from a **TRANSPORT** this turn.\n\n**EFFECT:** Until the end of the phase, ranged weapons equipped by models in your unit have the **[SUSTAINED HITS 1]** ability, or the **[SUSTAINED HITS 2]** ability if your unit is a **KABALITE WARRIORS** or **HAND OF THE ARCHON** unit."
       },
       "Stratagem§Swooping Mockery": {
         "keywords": {
@@ -11491,15 +11730,10 @@
             "Strategic Ploy"
           ],
           "Turn": [
-            "Opponent's"
+            "Opponent’s"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\n**TARGET**: One DRUKHARI TRANSPORT from your army that is within 9\" of that enemy unit.\n\n**EFFECT**: Your TRANSPORT can make a Normal move of up to 6\"."
+        "text": "**WHEN:** Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\n**TARGET:** One **DRUKHARI TRANSPORT** from your army that is within 8\" of that enemy unit.\n\n**EFFECT:** Your **TRANSPORT** can make a Normal move of up to 6\"."
       },
       "Stratagem§Symphony of Suffering": {
         "keywords": {
@@ -11514,15 +11748,11 @@
             "Epic Deed"
           ],
           "Turn": [
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Fight phase, just after a DRUKHARI unit from your army destroys an enemy unit.\n\n**TARGET**: That DRUKHARI unit.\n\n**EFFECT**: Each enemy unit within 9\" of and visible to your unit must take a Battle-shock test, subtracting 1 from that test if your unit is a HAEMONCULUS COVENS unit."
+        "text": "**WHEN:** Fight phase, just after a **DRUKHARI** unit from your army destroys an enemy unit.\n\n**TARGET:** That **DRUKHARI** unit.\n\n**EFFECT:** Each enemy unit within 9\" of and visible to your unit must take a Battle-shock test, subtracting 1 from that test if your unit is a **HAEMONCULUS COVENS** unit."
       },
       "Stratagem§Tailored Toxins": {
         "keywords": {
@@ -11531,22 +11761,18 @@
             "Kabalite Cartel"
           ],
           "Phase": [
-            "Shooting",
-            "Fight"
+            "Fight",
+            "Shooting"
           ],
           "Category": [
             "Epic Deed"
           ],
           "Turn": [
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Shooting phase or the Fight phase.\n\n**TARGET**: One KABAL or BLADES FOR HIRE unit from your army that has not been selected to shoot or fight this phase.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes an attack that targets your Contract unit, an unmodified Hit roll of 5+ scores a Critical Hit."
+        "text": "**WHEN:** Your Shooting phase or the Fight phase.\n\n**TARGET:** One **KABAL** or **BLADES FOR HIRE** unit from your army that has not been selected to shoot or fight this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack that targets your Contract unit, an unmodified Hit roll of 5+ scores a Critical Hit."
       },
       "Stratagem§Taken Alive": {
         "keywords": {
@@ -11561,15 +11787,11 @@
             "Battle Tactic"
           ],
           "Turn": [
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Fight phase.\n\n**TARGET**: One DRUKHARI unit from your army that has not been selected to fight this phase.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Hit roll. If your Contract unit is destroyed as a result of those attacks, every unit in your opponent's army must take a Battle-shock test. You cannot gain more than 3 Pain tokens as a result of failed Battle-shock tests caused by this Stratagem."
+        "text": "**WHEN:** Fight phase.\n\n**TARGET:** One **DRUKHARI** unit from your army that has not been selected to fight this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Hit roll. If your Contract unit is destroyed as a result of those attacks, every unit in your opponent’s army must take a Battle-shock test. You cannot gain more than 3 Pain tokens as a result of failed Battle-shock tests caused by this Stratagem."
       },
       "Stratagem§Vicious Blades": {
         "keywords": {
@@ -11585,15 +11807,10 @@
           ],
           "Turn": [
             "Yours",
-            "Opponent's"
+            "Opponent’s"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Fight phase, just after a DRUKHARI Transport from your army has selected its targets.\n\n**TARGET**: That Transport.\n\n**EFFECT**: After your Transport has fought, select one enemy unit that was the target of one or more of those attacks and roll one D6 for each model embarked within your TRANSPORT, adding 1 to the result if that embarked model is a WRACKS model: for each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
+        "text": "**WHEN:** Fight phase, just after a **DRUKHARI TRANSPORT** from your army has selected its targets.\n\n**TARGET:** That **TRANSPORT**.\n\n**EFFECT:** After your **TRANSPORT** has fought, select one enemy unit that was the target of one or more of those attacks and roll one D6 for each model embarked within your **TRANSPORT**, adding 1 to the result if that embarked model is a **WRACKS** model: for each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
       },
       "Stratagem§Wraithlike Retreat": {
         "keywords": {
@@ -11609,15 +11826,10 @@
           ],
           "Turn": [
             "Yours",
-            "Opponent's"
+            "Opponent’s"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: End of the Fight phase.\n\n**TARGET**: One DRUKHARI Infantry unit from your army that fought this phase.\n\n**EFFECT**: Your unit can make a Normal or Fall Back move, but unless it is a WYCHES unit, it must end that move wholly within 3\" horizontally and 5\" vertically of a friendly DRUKHARI TRANSPORT and must embark within that TRANSPORT at the end of that move (otherwise, it cannot make that move)."
+        "text": "**WHEN:** End of the Fight phase.\n\n**TARGET:** One **DRUKHARI INFANTRY** unit from your army that fought this phase.\n\n**EFFECT:** Your unit can make a Normal or Fall Back move, but unless it is a **WYCHES** unit, it must end that move wholly within 3\" horizontally and 5\" vertically of a friendly **DRUKHARI TRANSPORT** and must embark within that **TRANSPORT** at the end of that move (otherwise, it cannot make that move). Your unit can embark within that **TRANSPORT** in a turn it disembarked from that **TRANSPORT**."
       },
       "Unit§Court of the Archon": {
         "allowed": {
@@ -14179,6 +14391,131 @@
       },
       "Wargear§Stimm-needler": {
         "text": "Once per turn, the first time a saving throw is failed for a model in the bearer’s unit, change the Damage characteristic of that attack to 0."
+      },
+      "Stratagem§Shadows’ Reach": {
+        "text": "**WHEN:** Your Shooting phase, when a friendly **BLADES FOR HIRE/KABAL** unit has shot.\n\n**TARGET:** That **BLADES FOR HIRE/KABAL** unit.\n\n**EFFECT:** Those attacks do not prevent your unit from being **hidden**.",
+        "keywords": {
+          "Keywords": [
+            "Drukhari",
+            "Kabalite Agonysts"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        }
+      },
+      "Stratagem§Prioritised Victim": {
+        "text": "**WHEN:** Your Shooting phase or the Fight phase, when a friendly **BLADES FOR HIRE/KABAL** unit targets a **CHARACTER** unit.\n\n**TARGET:** That **BLADES FOR HIRE/KABAL** unit.\n\n**EFFECT:** Your unit’s attacks that target a **CHARACTER** unit can:\n\n- Re-roll **hit rolls** of 1.\n\n- Re-roll **wound rolls** of 1.",
+        "keywords": {
+          "Keywords": [
+            "Drukhari",
+            "Kabalite Agonysts"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Fight",
+            "Shooting"
+          ]
+        }
+      },
+      "Stratagem§Killers from the Dark Spires": {
+        "text": "**WHEN:** Your Shooting phase, when a friendly **KABALITE WARRIORS** unit is **selected to shoot**.\n\n**TARGET:** That **KABALITE WARRIORS** unit.\n\n**EFFECT:** Your unit’s ranged attacks have **[IGNORES COVER]**.",
+        "keywords": {
+          "Keywords": [
+            "Drukhari",
+            "Kabalite Agonysts"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        }
+      },
+      "Stratagem§Urgent Metamorphosis": {
+        "text": "**WHEN:** Your Movement phase, when a friendly **HAEMONCULUS COVENS** unit is selected to make a **fall-back move**.\n\n**TARGET:** That **HAEMONCULUS COVENS** unit.\n\n**EFFECT:** That move does not prevent your unit from being **eligible to declare a charge**.",
+        "keywords": {
+          "Keywords": [
+            "Drukhari",
+            "Tools Of Torment"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Movement"
+          ]
+        }
+      },
+      "Stratagem§Salting the Wound": {
+        "text": "**WHEN:** Fight phase, when a friendly **CRONOS/TALOS** unit is **selected to fight**.\n\n**TARGET:** That **CRONOS/TALOS** unit.\n\n**EFFECT:** Your unit’s attacks that target a **battle-shocked** unit have **[DEVASTATING WOUNDS]**.",
+        "keywords": {
+          "Keywords": [
+            "Drukhari",
+            "Tools Of Torment"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Fight"
+          ]
+        }
+      },
+      "Stratagem§Dividends of Agony": {
+        "text": "**WHEN:** Fight phase, when a friendly **HAEMONCULUS COVENS** unit **destroys** an enemy unit.\n\n**TARGET:** That **HAEMONCULUS COVENS** unit.\n\n**EFFECT:** Select one **visible** enemy unit within 12\" of your unit. That enemy unit makes a **battle-shock** roll, with -1 to that **battle-shock roll**.",
+        "keywords": {
+          "Keywords": [
+            "Drukhari",
+            "Tools Of Torment"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Fight"
+          ]
+        }
+      },
+      "Stratagem§Planned Strikes": {
+        "text": "**WHEN:** Fight phase, when a friendly **WYCH CULT** unit is **selected to fight**.\n\n**TARGET:** That **WYCH CULT** unit.\n\n**EFFECT:** Your unit’s melee attacks have **[LETHAL HITS]**.",
+        "keywords": {
+          "Keywords": [
+            "Drukhari",
+            "Exhibition Of Slaughter"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Fight"
+          ]
+        }
+      },
+      "Stratagem§Sculpting the Stage": {
+        "text": "**WHEN:** Your Movement phase, when a friendly **WYCH CULT** unit is selected to make an **advance/fall-back move**.\n\n**TARGET:** That **WYCH CULT** unit.\n\n**EFFECT:** That move does not prevent your unit from being **eligible to start an action**.",
+        "keywords": {
+          "Keywords": [
+            "Drukhari",
+            "Exhibition Of Slaughter"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Movement"
+          ]
+        }
       }
     },
     "gameModes": {},

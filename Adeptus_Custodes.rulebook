@@ -1,6 +1,6 @@
 {
   "name": "Adeptus Custodes 11e",
-  "revision": "11.1.6",
+  "revision": "11.1.14",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -2739,114 +2739,6 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Slayer of Champions"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Earning a Name"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Shoulder the Mantle"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Superhuman Reserves"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§The Emperor’s Auspice"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Vigil Unending"
-              }
-            ],
-            "evals": [],
-            "evaluate": "AND",
-            "failState": "pass"
-          }
-        },
-        "stats": {
-          "Detachment Points": {
-            "value": 2
-          }
-        },
-        "text": "**Assemblage of Might**\n\nAt the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, each time a model in an **Adeptus Custodes Character** unit from your army makes an attack that targets that enemy unit, add 1 to the Wound roll."
-      },
-      "Detachment§Lions of the Emperor": {
-        "keywords": {
-          "Keywords": [],
-          "Role": [
-            "Take And Hold",
-            "Disruption"
-          ]
-        },
-        "rules": {
-          "assignStratagems": {
-            "actions": [
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
                 "value": "Stratagem§Gilded Champion"
               },
               {
@@ -2861,8 +2753,32 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Defiant To The Last"
-              },
+                "value": "Stratagem§Duty Unto Death"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
+        "text": "**ASSEMBLAGE OF MIGHT**\n\nIn your Command phase, you can select one enemy unit to be a **dreadful foe** unit until the start of your next Command phase. Friendly **ADEPTUS CUSTODES CHARACTER** models’ attacks that target a **dreadful foe** unit have +1 to **wound rolls**."
+      },
+      "Detachment§Lions of the Emperor": {
+        "keywords": {
+          "Keywords": [],
+          "Role": [
+            "Take And Hold",
+            "Disruption"
+          ]
+        },
+        "rules": {
+          "assignStratagems": {
+            "actions": [
               {
                 "actionType": "add",
                 "iterations": 1,
@@ -2889,7 +2805,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Manoeuvre And Fire"
+                "value": "Stratagem§Fury of the Emperor"
               },
               {
                 "actionType": "add",
@@ -2903,21 +2819,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Peerless Warrior"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Swift As The Eagle"
+                "value": "Stratagem§Vigil Unending"
               }
             ],
             "evals": [],
@@ -2951,7 +2853,7 @@
             "value": 3
           }
         },
-        "text": "## AGAINST ALL ODDS\n\nEach time a model in an **Adeptus Custodes** unit from your army (excluding **Vehicles**) makes an attack, if there are no other friendly units within 6\" of that unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        "text": "**ON GILDED WINGS**\n\nAt the end of your opponent’s Fight phase, if a friendly **ADEPTUS CUSTODES TERMINATOR** unit is **unengaged**, you can place that unit in **strategic reserves**."
       },
       "Detachment§Might Of The Moritoi": {
         "keywords": {
@@ -2964,7 +2866,7 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**March of the Honoured Dead**\nFriendly **Adeptus Custodes Walker** units: \n\n- Have +2\" **M**.\n\n- Have +1 to **advance rolls** and **charge rolls**.\nThis **detachment** has the **Armoury** tag and cannot be taken with another **Armoury** **detachment**.",
+        "text": "**MORITOI ANCIENTS**\n\n- While a friendly **ADEPTUS CUSTODES DREADNOUGHT** unit is at **starting strength**, that unit has +2 **OC**.\n\n- While a friendly **ADEPTUS CUSTODES DREADNOUGHT** unit is below **starting strength**, that unit’s attacks can re-roll **hit rolls** of 1.\n\n- While a friendly **ADEPTUS CUSTODES DREADNOUGHT** unit is **below half-strength**, that unit’s attacks can:\n\n-  Re-roll **hit rolls** of 1.\n\n-  Re-roll **wound rolls** of 1.",
         "rules": {
           "removeSameTagDetachments": {
             "actions": [
@@ -2986,6 +2888,55 @@
             "evaluate": "AND",
             "failState": "pass",
             "order": 10
+          },
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Unceasing Onslaught"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Honoured Interred"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Unstoppable momentum"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
           }
         }
       },
@@ -2996,7 +2947,7 @@
           ]
         },
         "rules": {
-          "assignstratagems": {
+          "assignStratagems": {
             "actions": [
               {
                 "actionType": "add",
@@ -3024,20 +2975,6 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Desperation’s Price"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
                 "value": "Stratagem§Psy-Chaff Volley"
               },
               {
@@ -3052,40 +2989,35 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Psychic Abominations"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
                 "value": "Stratagem§Purgation Sweep"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Witch Hunters"
               }
             ],
             "evals": [],
             "evaluate": "AND",
             "failState": "pass"
+          },
+          "assignBattleline": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "assets",
+                    "item",
+                    "Unit§Prosecutors",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Battleline"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 3
           }
         },
         "stats": {
@@ -3093,12 +3025,15 @@
             "value": 2
           }
         },
-        "text": "**Creeping Dread (AURA)**\n\nIn the Battle-shock step of your opponent’s Command phase, if an enemy unit that is either a PSYKER unit or below its Starting Strength is within 12″ of one or more ANATHEMA PSYKANA models from your army, that enemy unit must take a Battle-shock test. If that unit is Below Half-strength, it must subtract 1 from its Battle-shock test this phase instead.\n\nDesigner’s Note: This means that all enemy PSYKER units within range of this Aura ability and all enemy units within range of this Aura ability that have lost one or more models must take a Battle-shock test in your opponent’s Command phase, not just those that are Below Half-strength.\n\n**KEYWORDS**\n\nIf you select this Detachment, PROSECUTORS units from your army have the BATTLELINE keyword."
+        "text": "**SILENT SISTERHOOD**\n\n- When mustering your army, you can select a friendly **ANATHEMA PSYKANA CHARACTER** model to be your **WARLORD**.\n\n- Friendly **PROSECUTOR SQUAD** units have **BATTLELINE**.\n\n- Friendly **ANATHEMA PSYKANA** units have the following ability:\n\n**Creeping Dread (Aura):** In the Battle-shock step of your opponent’s Command phase, each enemy unit within 12\" of this unit that is a **PSYKER** unit/below **starting strength** makes a **battle-shock roll**, with -1 to that **battle-shock roll**."
       },
       "Detachment§Shield Host": {
         "keywords": {
           "Role": [
             "Purge The Foe"
+          ],
+          "Source": [
+            "Legends"
           ]
         },
         "rules": {
@@ -3205,6 +3140,9 @@
         "keywords": {
           "Role": [
             "Reconnaissance"
+          ],
+          "Source": [
+            "Legends"
           ]
         },
         "stats": {
@@ -3218,6 +3156,9 @@
         "keywords": {
           "Role": [
             "Take And Hold"
+          ],
+          "Source": [
+            "Legends"
           ]
         },
         "rules": {
@@ -3346,6 +3287,9 @@
           "Role": [
             "Take And Hold",
             "Priority Assets"
+          ],
+          "Source": [
+            "Legends"
           ]
         },
         "rules": {
@@ -3452,6 +3396,9 @@
         "keywords": {
           "Role": [
             "Disruption"
+          ],
+          "Source": [
+            "Legends"
           ]
         },
         "stats": {
@@ -3883,7 +3830,7 @@
       "Enhancement§Castellan’s Mark": {
         "keywords": {
           "Keywords": [
-            "Shield Host"
+            "Guardians of the Throne"
           ]
         },
         "rules": {
@@ -3913,7 +3860,7 @@
             "value": 20
           }
         },
-        "text": "**Shield-captain** model only. After both players have deployed their armies, you can select up to two **Adeptus Custodes** units from your army (excluding **Anathema Psykana** units) and redeploy all of those units. When doing so, any of those units can be placed unto Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+        "text": "**ADEPTUS CUSTODES** model only. When both players have deployed their armies, you can redeploy up to three friendly **ADEPTUS CUSTODES** units. When doing so, you can set those units up in **strategic reserves**, regardless of how many units are already in **strategic reserves**."
       },
       "Enhancement§Champion of the Imperium": {
         "keywords": {
@@ -4027,7 +3974,7 @@
       "Enhancement§From the Hall of Armouries": {
         "keywords": {
           "Keywords": [
-            "Shield Host"
+            "Emperor’s Chosen"
           ]
         },
         "rules": {
@@ -4120,7 +4067,7 @@
             "value": 20
           }
         },
-        "text": "**Shield-Captain** model only. Add 1 to Strength and Damage characteristics of the bearer’s melee weapon."
+        "text": "**ADEPTUS CUSTODES** model only. This model’s melee attacks have **[DEVASTATING WOUNDS]**."
       },
       "Enhancement§Gift of Terran Artifice": {
         "keywords": {
@@ -4203,7 +4150,7 @@
             "value": 15
           }
         },
-        "text": "ANATHEMA PSYKANA model only. In your Command phase, select one enemy unit within 12″ of the bearer. That unit must take a Battle-shock test."
+        "text": "**ANATHEMA PSYKANA** model only. In your Movement phase, you can select one **visible** enemy unit within 12\" of this unit. That unit makes a **battle-shock roll**, with -1 to that **battle-shock roll**."
       },
       "Enhancement§Inspirational Exemplar": {
         "keywords": {
@@ -4232,6 +4179,40 @@
             "evals": [],
             "evaluate": "AND",
             "failState": "pass"
+          },
+          "ADEPTUS CUSTODES INFANTRY model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Adeptus Custodes"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Infantry"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
           }
         },
         "stats": {
@@ -4239,7 +4220,7 @@
             "value": 10
           }
         },
-        "text": "Adeptus Custodes model only. The bearer has a Leadership characteristic of 5+. Once per battle, at the start of any phase, you can select one friendly Adeptus Custodes unit that is Battle-shocked and within 12″ of the bearer; that unit is no longer Battle-shocked."
+        "text": "**ADEPTUS CUSTODES INFANTRY** model only. (Once per battle round, per army) At the start of any phase, you can select one friendly **battle-shocked** **ADEPTUS CUSTODES** unit within 9\" of this model. That unit is no longer **battle-shocked**."
       },
       "Enhancement§Interred Expertise (Upgrade)": {
         "keywords": {
@@ -4326,7 +4307,7 @@
             "value": 25
           }
         },
-        "text": "ANATHEMA PSYKANA model only. While the bearer is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll. If that attack targeted an enemy PSYKER unit, add 1 to the Wound roll as well."
+        "text": "**ANATHEMA PSYKANA** model only. This unit’s attacks have: \n\n- +1 to **hit rolls**.\n\n- __Or:__ If this unit targets a **PSYKER**/**battle-shocked** unit, +1 to **hit rolls** and **wound rolls**."
       },
       "Enhancement§Panoptispex": {
         "keywords": {
@@ -4451,7 +4432,7 @@
       "Enhancement§Radiant Mantle": {
         "keywords": {
           "Keywords": [
-            "Talons of the Emperor"
+            "Emperor’s Chosen"
           ]
         },
         "stats": {
@@ -4459,7 +4440,43 @@
             "value": 30
           }
         },
-        "text": "ADEPTUS CUSTODES model only. Each time an attack targets the bearer’s unit, if the attacking model is within 12″, subtract 1 from the Hit roll."
+        "text": "**ADEPTUS CUSTODES INFANTRY** model only. Attacks that target this unit have -1 to **hit rolls**.",
+        "rules": {
+          "ADEPTUS CUSTODES INFANTRY model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Adeptus Custodes"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Infantry"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Raptor Blade": {
         "keywords": {
@@ -4590,7 +4607,7 @@
       "Enhancement§Superior Creation": {
         "keywords": {
           "Keywords": [
-            "Lions of the Emperor"
+            "Auric Champions"
           ]
         },
         "rules": {
@@ -4620,7 +4637,7 @@
             "value": 25
           }
         },
-        "text": "**Adeptus Custodes Infantry** model only. The first time the bearer is destroyed, roll one D6 at the end of the phase. On a 2+, set the bearer back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with its full wounds remaining."
+        "text": "**ADEPTUS CUSTODES INFANTRY** model only. (Once per battle, per army) At the end of a phase in which this model is **destroyed**, roll one D6:\n\n- On a 2+, set this model back up on the battlefield as close as possible to where it was **destroyed**, **unengaged**, with 3 wounds remaining."
       },
       "Enhancement§Veiled Blade": {
         "keywords": {
@@ -9100,6 +9117,94 @@
             ],
             "evaluate": "AND",
             "failState": "error"
+          },
+          "hideLegendsDetachments (Adeptus_Custodes)": {
+            "evals": [
+              {
+                "actionable": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Legends",
+                    "value"
+                  ]
+                ],
+                "value": "-"
+              }
+            ],
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Shield Host"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Silent Hunters"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Solar Spearhead"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Talons of the Emperor"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Tharanatoi Hammerblow"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 9
           }
         },
         "stats": {
@@ -9176,6 +9281,78 @@
                     "trait": "Detachment§Tharanatoi Hammerblow"
                   }
                 ]
+              },
+              "Shadowkeepers": {
+                "order": 10,
+                "traits": [
+                  {
+                    "trait": "Detachment§Shadowkeepers"
+                  }
+                ]
+              },
+              "Honoured Companions": {
+                "order": 11,
+                "traits": [
+                  {
+                    "trait": "Detachment§Honoured Companions"
+                  }
+                ]
+              },
+              "Grav-Assault Force": {
+                "order": 12,
+                "traits": [
+                  {
+                    "trait": "Detachment§Grav-Assault Force"
+                  }
+                ]
+              },
+              "Emperor’s Chosen": {
+                "order": 13,
+                "traits": [
+                  {
+                    "trait": "Detachment§Emperor’s Chosen"
+                  }
+                ]
+              },
+              "Dread Host": {
+                "order": 14,
+                "traits": [
+                  {
+                    "trait": "Detachment§Dread Host"
+                  }
+                ]
+              },
+              "Solar Watch": {
+                "order": 15,
+                "traits": [
+                  {
+                    "trait": "Detachment§Solar Watch"
+                  }
+                ]
+              },
+              "Emissaries Imperatus": {
+                "order": 16,
+                "traits": [
+                  {
+                    "trait": "Detachment§Emissaries Imperatus"
+                  }
+                ]
+              },
+              "Guardians of the Throne": {
+                "order": 17,
+                "traits": [
+                  {
+                    "trait": "Detachment§Guardians of the Throne"
+                  }
+                ]
+              },
+              "Aquilan Shield": {
+                "order": 18,
+                "traits": [
+                  {
+                    "trait": "Detachment§Aquilan Shield"
+                  }
+                ]
               }
             },
             "value": "Shield Host"
@@ -9229,14 +9406,14 @@
             "Null Maiden Vigil"
           ],
           "Turn": [
-            "Opponent’s",
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Phase": [
             "Fight"
           ]
         },
-        "text": "**WHEN**: Fight phase.\n\n**TARGET**: One VIGILATORS unit from your army that has not been selected to fight this phase.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes a melee attack, you can re-roll the Hit roll. If the target of that attack is Battle-shocked or a PSYKER, you can re-roll the Wound roll as well."
+        "text": "**WHEN:** Fight phase, when a friendly **VIGILATOR SQUAD** unit is **selected to fight**.\n\n**TARGET:** That **VIGILATOR SQUAD** unit.\n\n**EFFECT:** Your unit’s attacks have: \n\n- **[SUSTAINED HITS 1]**\n\n- __Or:__ **[LETHAL HITS]**."
       },
       "Stratagem§Arcane Genetic Alchemy": {
         "keywords": {
@@ -9282,7 +9459,7 @@
         "keywords": {
           "Keywords": [
             "Adeptus Custodes",
-            "Shield Host"
+            "Honoured Companions"
           ],
           "Phase": [
             "Fight"
@@ -9291,67 +9468,11 @@
             "Strategic Ploy"
           ],
           "Turn": [
-            "Opponent’s",
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ]
         },
-        "text": "**WHEN**: Start of the Fight phase.\n\n**TARGET**: One **Adeptus Custodes** unit from your army (excluding **Anathema Psykana** models) that is below its Starting Strength.\n\n**EFFECT**: Until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit. If that unit is Below Half-strength, until the end of the phase, add 2 to the Attacks characteristic of those melee weapons instead."
-      },
-      "Stratagem§Defiant To The Last": {
-        "keywords": {
-          "Keywords": [
-            "Lions of the Emperor"
-          ],
-          "Category": [
-            "Strategic Ploy"
-          ],
-          "Turn": [
-            "Opponent’s",
-            "Yours"
-          ],
-          "Phase": [
-            "Fight"
-          ]
-        },
-        "text": "**WHEN:** Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **Adeptus Custodes** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 2 to the result if that model has the **Character** keyword. On a 4+, do not remove it from play; the destroyed model can fight after the attacking unit has finished making its attacks (when doing so, it is treated as having 1 wound remaining), and is then removed from play."
-      },
-      "Stratagem§Desperation’s Price": {
-        "keywords": {
-          "Category": [
-            "Strategic Ploy"
-          ],
-          "Keywords": [
-            "Adeptus Custodes",
-            "Null Maiden Vigil"
-          ],
-          "Turn": [
-            "Opponent’s",
-            "Yours"
-          ],
-          "Phase": [
-            "Any"
-          ]
-        },
-        "text": "**WHEN**: Any phase, just after an enemy PSYKER unit has either finished using a Psychic ability that targets a unit, or finished making Psychic Attacks.\n\n**TARGET**: One ANATHEMA PSYKANA unit from your army within 18″ of that enemy PSYKER unit.\n\n**EFFECT**: That enemy PSYKER unit must take a Leadership test. If the test is passed, that PSYKER unit is Battle-shocked; if the test is failed that PSYKER unit suffers 3 mortal wounds and is Battle-shocked."
-      },
-      "Stratagem§Earning a Name": {
-        "keywords": {
-          "Category": [
-            "Epic Deed"
-          ],
-          "Keywords": [
-            "Adeptus Custodes",
-            "Auric Champions"
-          ],
-          "Phase": [
-            "Fight"
-          ],
-          "Turn": [
-            "Opponent’s",
-            "Yours"
-          ]
-        },
-        "text": "**WHEN**: Fight phase.\n\n**TARGET**: Up to two **ADEPTUS CUSTODES CHARACTER** units from your army that have not been selected to fight this phase.\n\n**EFFECT:** Until the end of the phase, each time a **CHARACTER** model in either of your units makes an attack that targets a **MONSTER** or **VEHICLE** unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        "text": "**WHEN:** Fight phase, when a friendly **TRUSTED SENTINEL** unit that is below **starting strength** is **selected to fight**.\n\n**TARGET:** That **TRUSTED SENTINEL** unit.\n\n**EFFECT:** Your unit’s melee attacks (excluding those made by **CHARACTER** models) have +2 **A**."
       },
       "Stratagem§Emperor’s Executioners": {
         "keywords": {
@@ -9437,20 +9558,21 @@
       "Stratagem§Gilded Champion": {
         "keywords": {
           "Keywords": [
-            "Lions of the Emperor"
+            "Adeptus Custodes",
+            "Auric Champions"
           ],
           "Category": [
             "Strategic Ploy"
           ],
           "Turn": [
-            "Opponent’s",
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Phase": [
             "Any"
           ]
         },
-        "text": "**WHEN:** Any phase, just after an **Adeptus Custodes Character** model from your army has used an ability on its datasheet that states it can only be used ‘once per battle’.\n\n**TARGET:**  That **Adeptus Custodes Character** model.\n\n**EFFECT:** Your model can use that ‘once per battle’ ability one additional time during the battle (but not in the same phase).\n\n**RESTRICTIONS:** : You cannot use this Stratagem on the same **Adeptus Custodes Character** model more than once per battle."
+        "text": "**WHEN:** Any phase, when a friendly **ADEPTUS CUSTODES CHARACTER** model has used a (Once per battle, per unit) datasheet ability.\n\n**TARGET:** That **ADEPTUS CUSTODES CHARACTER** model.\n\n**EFFECT:** Your model can use that (Once per battle, per unit) datasheet ability one additional time, but not in the same phase.\n\n**RESTRICTIONS:** You cannot use this **stratagem** on the same **ADEPTUS CUSTODES CHARACTER** model more than once per battle."
       },
       "Stratagem§Hunt as One": {
         "keywords": {
@@ -9473,7 +9595,8 @@
       "Stratagem§Manoeuvre And Fire": {
         "keywords": {
           "Keywords": [
-            "Lions of the Emperor"
+            "Adeptus Custodes",
+            "Aquilan Shield"
           ],
           "Category": [
             "Strategic Ploy"
@@ -9485,7 +9608,7 @@
             "Movement"
           ]
         },
-        "text": "**WHEN:** Your Movement phase, just after an **Adeptus Custodes** unit from your army Falls Back.\n\n**TARGET:** That **Adeptus Custodes** unit.\n\n**EFFECT:** Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+        "text": "**WHEN:** Your Movement phase, when a friendly **ADEPTUS CUSTODES** unit is selected to make a **fall-back move**.\n\n**TARGET:** That **ADEPTUS CUSTODES** unit.\n\n**EFFECT:** That move does not prevent your unit from being **eligible to shoot/declare a charge**."
       },
       "Stratagem§Multipotentiality": {
         "keywords": {
@@ -9505,24 +9628,6 @@
         },
         "text": "**WHEN**: Your Movement phase.\n\n**TARGET**: One **Adeptus Custodes** unit from your army Fell Back this phase.\n\n**EFFECT**: Until the end of your turn, that unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
       },
-      "Stratagem§Peerless Warrior": {
-        "keywords": {
-          "Keywords": [
-            "Lions of the Emperor"
-          ],
-          "Category": [
-            "Battle Tactic"
-          ],
-          "Turn": [
-            "Opponent’s",
-            "Yours"
-          ],
-          "Phase": [
-            "Fight"
-          ]
-        },
-        "text": "**WHEN:** Fight phase.\n\n**TARGET:** One **Adeptus Custodes** unit from your army that has not been selected to fight this phase.\n\n**EFFECT:** Until the end of the phase, melee weapons equipped by models in your unit have the **[PRECISION]** ability."
-      },
       "Stratagem§Psy-Chaff Volley": {
         "keywords": {
           "Keywords": [
@@ -9539,25 +9644,7 @@
             "Shooting"
           ]
         },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One PROSECUTORS unit from your army that has just shot.\n\n**EFFECT**: Select one enemy unit hit by one or more of those attacks. Until the start of your next turn, while your unit is on the battlefield, that enemy unit is prosecuted. While a unit is prosecuted, each time an ANATHEMA PSYKANA model makes an attack against that unit, improve the Armour Penetration characteristic of that attack by 1. While a PSYKER or Battle-shocked unit is prosecuted, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
-      },
-      "Stratagem§Psychic Abominations": {
-        "keywords": {
-          "Category": [
-            "Strategic Ploy"
-          ],
-          "Keywords": [
-            "Adeptus Custodes",
-            "Null Maiden Vigil"
-          ],
-          "Turn": [
-            "Opponent’s"
-          ],
-          "Phase": [
-            "Shooting"
-          ]
-        },
-        "text": "**WHEN**: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One ANATHEMA PSYKANA INFANTRY unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT**: Until the end of the phase, your unit has the Stealth ability, and Battle-shocked and PSYKER models can only select your unit as a target of a ranged attack if they are within 12″."
+        "text": "**WHEN:** Your Shooting phase, when a friendly **PROSECUTOR SQUAD** unit has shot.\n\n**TARGET:** That **PROSECUTOR SQUAD** unit.\n\n**EFFECT:** Select one enemy unit hit by those attacks. That unit is **prosecuted** until the end of the turn:\n\n- Attacks that target a **prosecuted** unit have +1 **AP**."
       },
       "Stratagem§Punishment Inescapable": {
         "keywords": {
@@ -9592,7 +9679,7 @@
             "Shooting"
           ]
         },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One WITCHSEEKERS unit from your army that has not been selected to shoot this phase.\n\n**EFFECT**: Until the end of the phase, add 1 to the Attacks characteristic of Torrent weapons equipped by models in your unit. If such a weapon targets a PSYKER or Battle-shocked unit this phase, add 2 to its Attacks characteristic instead."
+        "text": "**WHEN:** Your Shooting phase, when a friendly **WITCHSEEKER SQUAD** unit is **selected to shoot**.\n\n**TARGET:** That **WITCHSEEKER SQUAD** unit.\n\n**EFFECT:** Your unit’s **[TORRENT]** attacks have:\n\n- +1 **A**.\n\n- __Or:__ If those attacks target a **PSYKER**/**battle shocked** unit, +2 **A**."
       },
       "Stratagem§Relentless Persecution": {
         "keywords": {
@@ -9618,82 +9705,23 @@
           ],
           "Keywords": [
             "Adeptus Custodes",
-            "Talons of the Emperor"
+            "Guardians of the Throne"
           ],
           "Turn": [
+            "Yours",
             "Opponent’s"
           ],
           "Phase": [
-            "Shooting"
+            "Fight"
           ]
         },
-        "text": "**WHEN**: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One **ANATHEMA PSYKANA INFANTRY** unit from your army that was selected as the target of one or more of the attacking unit’s attacks, and one other friendly ADEPTUS CUSTODES INFANTRY unit (excluding ANATHEMA PSYKANA units) within 6″ of that ANATHEMA PSYKANA INFANTRY unit.\n\n**EFFECT**: Until the end of the phase, any attack that targets your **ANATHEMA PSYKANA** unit must instead target your other **ADEPTUS CUSTODES** unit (unless it is not an eligible target)."
-      },
-      "Stratagem§Shoulder the Mantle": {
-        "keywords": {
-          "Keywords": [
-            "Adeptus Custodes",
-            "Auric Champions"
-          ],
-          "Category": [
-            "Epic Deed"
-          ],
-          "Turn": [
-            "Yours"
-          ],
-          "Phase": [
-            "Movement"
-          ]
-        },
-        "text": "**WHEN**: Your Movement phase, before the Reinforcements step.\n\n**TARGET**: One **ADEPTUS CUSTODES CHARACTER** model from your army that is not leading a unit.\n\n**EFFECT**: Select one friendly unit (excluding Battle-shocked and Attached units) within 2\" horizontally and 5\" vertically of your model that it could lead (as described in the Leader section of its datasheet). Your model attaches to that unit as a Leader. Change that unit’s Starting Strength accordingly.\n\n**RESTRICTIONS**: Your **CHARACTER** model cannot attach to a unit that is already an Attached unit."
-      },
-      "Stratagem§Slayer of Champions": {
-        "keywords": {
-          "Keywords": [
-            "Adeptus Custodes",
-            "Auric Champions"
-          ],
-          "Category": [
-            "Epic Deed"
-          ],
-          "Phase": [
-            "Any"
-          ],
-          "Turn": [
-            "Opponent’s",
-            "Yours"
-          ]
-        },
-        "text": "**WHEN**: Any phase.\n\n**TARGET**: One **ADEPTUS CUSTODES CHARACTER** unit\nfrom your army that has just destroyed the unit you\nselected at the start of your Command phase as the\ntarget of your Assemblage of Might ability.\n\n**EFFECT**: Select one enemy unit on the battlefield.\nUntil the start of your next Command phase, each\ntime an **ADEPTUS CUSTODES CHARACTER** model from\nyour army makes an attack that target that enemy\nunit, add 1 to the Wound roll. In addition, if the\ndestroyed unit was a **CHARACTER** unit, gain 1CP."
-      },
-      "Stratagem§Superhuman Reserves": {
-        "keywords": {
-          "Category": [
-            "Epic Deed"
-          ],
-          "Keywords": [
-            "Adeptus Custodes",
-            "Auric Champions"
-          ],
-          "Phase": [
-            "Any"
-          ],
-          "Turn": [
-            "Opponent’s",
-            "Yours"
-          ]
-        },
-        "stats": {
-          "Command Cost": {
-            "value": 2
-          }
-        },
-        "text": "**WHEN**: Any phase, just after an **ADEPTUS CUSTODES WARLORD** model from your\narmy has used an ability on its datasheet or from an Enhancement that says it can only be used ’Once per battle’.\n\n**TARGET**: That **ADEPTUS CUSTODES WARLORD** model.\n\n**EFFECT**: Your model can use its ’Once per battle’ ability one additional time during this battle (but not in the same phase).\n\n**RESTRICTIONS**: You cannot use this Stratagem more than once per battle."
+        "text": "**WHEN:** Start of the Fight phase.\n\n**TARGET:** One friendly **ADEPTUS CUSTODES INFANTRY/MOUNTED** unit.\n\n**EFFECT:** When an enemy model **engaged** with your unit selects targets, if that enemy model does __not__ select your unit as the target of __all__ of its attacks, that enemy model’s attacks have:\n\n- -1 to **hit rolls.**\n\n- -1 to **wound rolls**."
       },
       "Stratagem§Swift As The Eagle": {
         "keywords": {
           "Keywords": [
-            "Lions of the Emperor"
+            "Adeptus Custodes",
+            "Guardians of the Throne"
           ],
           "Category": [
             "Strategic Ploy"
@@ -9702,10 +9730,10 @@
             "Opponent’s"
           ],
           "Phase": [
-            "Shooting"
+            "Movement"
           ]
         },
-        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has shot.\n\n**TARGET:** One **Adeptus Custodes** unit from your army (excluding **VEHICLE** units) that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Your unit can make a Normal move of up to D6\"."
+        "text": "**WHEN:** Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly **unengaged** **TRUSTED SENTINEL** unit.\n\n**TARGET:** That **TRUSTED SENTINEL** unit.\n\n**EFFECT:** Your unit can make a **normal move** of up to D3+3\"."
       },
       "Stratagem§Taloned Pincer": {
         "keywords": {
@@ -9743,28 +9771,10 @@
         },
         "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: Up to two **ADEPTUS CUSTODES INFANTRY** units from your army, and one enemy unit that is an eligible target for all of those units.\n\n**EFFECT**: Until the end of the phase, your units can only target that enemy unit, but each time a model in one of your units makes a ranged attack, improve the Strength and Armour Penetration characteristics. of that attack by 1.\n\n**RESTRICTIONS**: You can only select two units if one (and only one) of them is an **ANATHEMA PSYKANA** unit and both are within 6″ of each other."
       },
-      "Stratagem§The Emperor’s Auspice": {
-        "keywords": {
-          "Category": [
-            "Epic Deed"
-          ],
-          "Keywords": [
-            "Adeptus Custodes",
-            "Auric Champions"
-          ],
-          "Phase": [
-            "Fight",
-            "Shooting"
-          ],
-          "Turn": [
-            "Opponent’s"
-          ]
-        },
-        "text": "**WHEN**: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One **ADEPTUS CUSTODES CHARACTER** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT**: Until the end of the phase, **CHARACTER** models in your unit have the Feel No Pain 4+ ability."
-      },
       "Stratagem§Unleash The Lions": {
         "keywords": {
           "Keywords": [
+            "Adeptus Custodes",
             "Lions of the Emperor"
           ],
           "Category": [
@@ -9777,7 +9787,7 @@
             "Command"
           ]
         },
-        "text": "**WHEN:** Your Command phase.\n\n**TARGET:** One **Allarus Custodians** or **Aquilon Custodians** unit from your army that is on the battlefield.\n\n**EFFECT:** That unit is split into separate units, each containing one model. These new units each have a Starting Strength of 1."
+        "text": "**WHEN:** Your Command phase.\n\n**TARGET:** One friendly **ADEPTUS CUSTODES TERMINATOR** unit that has 2+ models.\n\n**EFFECT:** Your unit is split into separate units, each containing __one__ model. These new units each have a **starting strength** of 1."
       },
       "Stratagem§Unstoppable": {
         "keywords": {
@@ -9822,17 +9832,18 @@
         "keywords": {
           "Keywords": [
             "Adeptus Custodes",
-            "Auric Champions"
+            "Lions of the Emperor"
           ],
           "Category": [
             "Epic Deed"
           ],
           "Turn": [
-            "Opponent’s",
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Phase": [
-            "Fight"
+            "Fight",
+            "Shooting"
           ]
         },
         "stats": {
@@ -9840,7 +9851,7 @@
             "value": 2
           }
         },
-        "text": "**WHEN**: Fight phase.\n\n**TARGET**: One **ADEPTUS CUSTODES CHARACTER** model from your army that was just destroyed and has not fought this phase. You can use this Stratagem on that unit even though it was just destroyed.\n\n**EFFECT**: Do not remove your destroyed model from play. The destroyed model can fight after the attacking unit has finished making attacks, and is then removed from play."
+        "text": "**WHEN:** Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly **ADEPTUS CUSTODES TERMINATOR** unit.\n\n**TARGET:** That **ADEPTUS CUSTODES TERMINATOR** unit.\n\n**EFFECT:** Attacks that target your unit have -1 **D** until that enemy unit has attacked."
       },
       "Stratagem§Vigililance Eternal": {
         "keywords": {
@@ -9859,26 +9870,6 @@
           ]
         },
         "text": "**WHEN**: Your Movement phase.\n\n**TARGET**: One **Adeptus Custodes Battleline** unit from your army (excluding **Anathema Psykana** units) within range of an objective marker you control.\n\n**EFFECT**: That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
-      },
-      "Stratagem§Witch Hunters": {
-        "keywords": {
-          "Category": [
-            "Battle Tactic"
-          ],
-          "Keywords": [
-            "Adeptus Custodes",
-            "Null Maiden Vigil"
-          ],
-          "Turn": [
-            "Opponent’s",
-            "Yours"
-          ],
-          "Phase": [
-            "Fight",
-            "Shooting"
-          ]
-        },
-        "text": "**WHEN**: Your Shooting phase or the Fight phase.\n\n**TARGET**: One ANATHEMA PSYKANA unit from your army that has not been selected to shoot or fight this phase.\n\n**EFFECT**: Select either the [LETHAL HITS] or [SUSTAINED HITS 1] ability. Until the end of the phase, weapons equipped by models in your unit have the selected ability, but models in your unit can only target PSYKER units with their attacks."
       },
       "Stratagem§Wrathful Advance": {
         "keywords": {
@@ -12923,6 +12914,2161 @@
         "stats": {
           "Points": {
             "value": 5
+          }
+        }
+      },
+      "Detachment§Shadowkeepers": {
+        "text": "**WARDENS OF THE DARK CELLS**\n\nWhile a friendly **ADEPTUS CUSTODES** unit (excluding **MONSTER/VEHICLE** units) is within range of an **objective**, melee attacks that target that unit with a **S** greater than that unit’s **T** have -1 to **wound rolls**.\n\n**Favoured ka’tah**\n**Kaptaris**\n\n\u0007**Additional Effect:** You can select one enemy unit **engaged** with your unit. That enemy unit must make a **battle-shock roll**, with -1 to that **battle-shock roll**. You cannot select the same enemy unit for this effect more than once per phase.",
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
+        "rules": {
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Grim Responsibility"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Indomitable Guardians"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§No Escape"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        }
+      },
+      "Detachment§Honoured Companions": {
+        "text": "**COMPANION’S WATCH**\n\nWhile a friendly **TRUSTED SENTINEL** unit is within range of an **objective**, that unit’s attacks can re-roll **wound rolls** of 1.",
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
+        "rules": {
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Emperor’s Domain"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Avenge the Fallen"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Swift As The Eagle"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        }
+      },
+      "Detachment§Grav-Assault Force": {
+        "text": "",
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "keywords": {
+          "Role": [
+            "Reconnaissance"
+          ]
+        },
+        "rules": {
+          "assignStratagems": {
+            "actions": [],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        }
+      },
+      "Detachment§Emperor’s Chosen": {
+        "text": "**MAGNA IMPERATOR**\n\nWhen a friendly **ADEPTUS CUSTODES** unit is selected to attack, that unit’s attacks can:\n\n- Re-roll __one__ **hit roll**.\n\n- Re-roll __one__ **wound roll**.\n\n**Favoured ka’tah**\n**Rendax**\n\n**Additional Effect:** You can select one enemy **MONSTER/VEHICLE** unit **engaged** with your unit and roll one D6:\n\n- On a 1-2, that enemy unit suffers 1 **mortal wound**.\n\n- On a 3-5, that enemy unit suffers D3 **mortal wounds**.\n\n- On a 6, that enemy unit suffers 3 **mortal wounds**.",
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
+        "rules": {
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Impenetrable Bastion"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§In Auramite clad"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Superhuman Focus"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        }
+      },
+      "Detachment§Dread Host": {
+        "text": "**INSTRUMENTS OF THE EMPEROR’S WRATH**\n\nFriendly **ADEPTUS CUSTODES** units can re-roll **charge rolls**.\n\n**Favoured ka’tah**\n**Dacatarai**\n\n\u0007**Additional Effect:** When an enemy unit **engaged** with your unit makes a **pile-in/consolidation move**, -2\" from that **pile-in/consolidation move**.",
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        },
+        "rules": {
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Lightning Wrath"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Preternatural Rapidity"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Golden Light of the Moiraides"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        }
+      },
+      "Detachment§Solar Watch": {
+        "text": "**TALON SORTIE**\n\nWhen a friendly **ADEPTUS CUSTODES** unit makes a **fall-back move**, that **fall-back move** does not prevent that unit from being **eligible to charge**.\n\n**Favoured ka’tah**\n**Calistus**\n\n**Additional Effect:** Your unit has +2\" **M**.",
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "keywords": {
+          "Role": [
+            "Reconnaissance"
+          ]
+        },
+        "rules": {
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Inexorable"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Gravimetric Grenade"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§At Spear’s Length"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        }
+      },
+      "Detachment§Emissaries Imperatus": {
+        "text": "**HERALDS OF THE THRONE**\n\nFriendly **ADEPTUS CUSTODES** units have **Fights First.**\n\n**Favoured Ka’tah**\n**Conservai**\n\n\u0007**Additional Effect:** Until the end of the turn, being selected to make an **advance/fall-back move** does not prevent your unit from being **eligible to start an action**.",
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        },
+        "rules": {
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Bearers of His Light"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Selfless Service"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Slayers of Nightmares"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        }
+      },
+      "Detachment§Guardians of the Throne": {
+        "text": "**MARTIAL MASTERY**\n\nIn the Fight phase, when a friendly **ADEPTUS CUSTODES** unit is **selected to fight**, that unit’s melee attacks have: \n\n- **[SUSTAINED HITS 1]**.\n\n- __Or:__ **[LETHAL HITS]**.",
+        "stats": {
+          "Detachment Points": {
+            "value": 3
+          }
+        },
+        "keywords": {
+          "Role": [
+            "Priority Assets",
+            "Purge The Foe"
+          ]
+        },
+        "rules": {
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Prime Target"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Shield of Honour"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Swift As The Eagle"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Superhuman Focus"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§In Auramite clad"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Unlimited Endurance"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        }
+      },
+      "Detachment§Aquilan Shield": {
+        "text": "**GILDED GUARDIANS**\n\nWhile a friendly **ADEPTUS CUSTODES** unit (excluding **MONSTER/VEHICLE** units) is within range of an **objective**, ranged attacks that target that unit with a **S** greater than that unit’s **T** have -1 to **wound rolls**.\n\n**Favoured ka’tah**\n**Salvus**\n\n**Additional Effect:** Your unit’s ranged attacks have +6\" **R**.",
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        },
+        "rules": {
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Rapid Reactions"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Manoeuvre And Fire"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Tip of the Talon"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        }
+      },
+      "Stratagem§Grim Responsibility": {
+        "text": "**WHEN:** Fight phase, when a friendly **ADEPTUS CUSTODES INFANTRY** unit is **selected to fight**.\n\n**TARGET:** That **ADEPTUS CUSTODES** unit.\n\n**EFFECT:** Your unit’s melee attacks have **[LETHAL HITS: CHARACTER/MONSTER]**.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Custodes",
+            "Shadowkeepers"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Fight"
+          ]
+        }
+      },
+      "Stratagem§Indomitable Guardians": {
+        "text": "**WHEN:** Your opponent’s Fight phase, when an enemy unit has fought.\n\n**TARGET:** One friendly **ADEPTUS CUSTODES** unit that is within range of an **objective** and is **eligible to fight**.\n\n**EFFECT:** Your unit has **Fights First** and __must__ be the next unit you **select to fight**.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Custodes",
+            "Shadowkeepers"
+          ],
+          "Turn": [
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Fight"
+          ]
+        }
+      },
+      "Stratagem§Emperor’s Domain": {
+        "text": "**WHEN:** Fight phase, when a friendly **TRUSTED SENTINEL** unit is selected to make a **consolidation move**.\n\n**TARGET:** That **TRUSTED SENTINEL** unit.\n\n**EFFECT:** You can select the **objective consolidation mode** for that **consolidation move**, regardless of that **consolidation move**’s Before Moving restrictions.\n_This means your unit can move out of _engagement range_ with enemy units, provided it meets the conditions of the _objective consolidation mode_._",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Custodes",
+            "Honoured Companions"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Fight"
+          ]
+        }
+      },
+      "Stratagem§Advanced Stabilisers": {
+        "text": "**WHEN:** Your Shooting phase, when a friendly **GRAV-ASSAULT** unit is **selected to shoot**.\n\n**TARGET:** That **GRAV-ASSAULT** unit.\n\n**EFFECT:** Your unit’s ranged attacks have **[ASSAULT]**.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Custodes",
+            "Grav‑Assault Force"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        }
+      },
+      "Stratagem§Inevitable Annihilation": {
+        "text": "**WHEN:** Your Shooting phase, when a friendly **GRAV-ASSAULT** unit is **selected to shoot**.\n\n**TARGET:** That **GRAV-ASSAULT** unit.\n\n**EFFECT:** Your unit can ignore modifiers to your unit’s:\n\n- **BS**.\n\n- **Hit rolls**.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Custodes",
+            "Grav‑Assault Force"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        }
+      },
+      "Stratagem§Victory Before Death": {
+        "text": "**WHEN:** Any phase, when a friendly **GRAV-ASSAULT** unit within range of an **objective** is **destroyed**.\n\n**TARGET:** That **GRAV-ASSAULT** unit. You can target that unit with this **stratagem** even though it is **destroyed**.\n\n**EFFECT:** Select one **objective** that:\n\n- Your unit was controlling when it was **destroyed**.\n\n- Has no enemy units (excluding **AIRCRAFT** units) within range of it.\nThat **objective** is **secured**.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Custodes",
+            "Grav‑Assault Force"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Any"
+          ]
+        }
+      },
+      "Stratagem§Impenetrable Bastion": {
+        "text": "**WHEN:** End of your Movement phase.\n\n**TARGET:** One friendly **ADEPTUS CUSTODES** unit (excluding **MONSTER/VEHICLE** units).\n\n**EFFECT:** Select one **objective** your unit is controlling. That **objective** is **secured**.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Custodes",
+            "Emperor’s Chosen"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Movement"
+          ]
+        }
+      },
+      "Stratagem§In Auramite clad": {
+        "text": "**WHEN:** Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly **ADEPTUS CUSTODES** unit (excluding **CUSTODIAN WARDENS** units).\n\n**TARGET:** That **ADEPTUS CUSTODES** unit.\n\n**EFFECT:** Attacks that target your unit have -1 **AP** until that enemy unit has attacked.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Custodes",
+            "Guardians of the Throne"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Fight",
+            "Shooting"
+          ]
+        }
+      },
+      "Stratagem§Superhuman Focus": {
+        "text": "**WHEN:** End of any phase.\n\n**TARGET:** One friendly **ADEPTUS CUSTODES** unit that is not **readied**.\n\n**EFFECT:** Your unit is **readied**.\n\n**RESTRICTIONS:** You cannot select the same unit as the target of this Stratagem more than once per battle round.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Custodes",
+            "Guardians of the Throne"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Any"
+          ]
+        }
+      },
+      "Stratagem§Unceasing Onslaught": {
+        "text": "**WHEN:** Your Movement phase, when a friendly **ADEPTUS CUSTODES DREADNOUGHT** unit ends an **advance move**.\n\n**TARGET:** That **ADEPTUS CUSTODES DREADNOUGHT** unit.\n\n**EFFECT:** - Your unit’s ranged attacks have **[ASSAULT]** until the end of the turn.\n\n- That move does not prevent your unit from being **eligible to declare a charge**.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Custodes",
+            "Might Of The Moritoi"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Movement"
+          ]
+        }
+      },
+      "Stratagem§Honoured Interred": {
+        "text": "**WHEN:** Your Shooting phase or the Fight phase.\n\n**TARGET:** One friendly **ADEPTUS CUSTODES DREADNOUGHT** unit.\n\n**EFFECT:** Your unit has the following ability:\n**Honoured Interred (Aura):** Friendly **ADEPTUS CUSTODES** units within 6\" of this unit can re-roll **hit rolls** of 1.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Custodes",
+            "Might Of The Moritoi"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Fight",
+            "Shooting"
+          ]
+        }
+      },
+      "Stratagem§Unstoppable momentum": {
+        "text": "**WHEN:** Your Movement/Charge phase, when a friendly **ADEPTUS CUSTODES DREADNOUGHT** unit is **selected to move** or **declares a charge**.\n\n**TARGET:** That **ADEPTUS CUSTODES DREADNOUGHT** unit.\n\n**EFFECT:** Your unit has **MOBILE**.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Custodes",
+            "Might Of The Moritoi"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Charge",
+            "Movement"
+          ]
+        }
+      },
+      "Stratagem§Fury of the Emperor": {
+        "text": "**WHEN:** Your Charge phase, when a friendly **ADEPTUS CUSTODES TERMINATOR** unit that made an **ingress move** this turn is selected to **declare a charge**.\n\n**TARGET:** That **ADEPTUS CUSTODES TERMINATOR** unit.\n\n**EFFECT:** Your unit has +2 to **charge rolls**.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Custodes",
+            "Lions of the Emperor"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Charge"
+          ]
+        }
+      },
+      "Stratagem§Lightning Wrath": {
+        "text": "**WHEN:** Fight phase, when a friendly **ADEPTUS CUSTODES** unit is selected to make a **pile-in move**.\n\n**TARGET:** That **ADEPTUS CUSTODES** unit.\n\n**EFFECT:** When making that **pile-in move**, your unit can move up to D3+3\".",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Custodes",
+            "Dread Host"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Fight"
+          ]
+        }
+      },
+      "Stratagem§Preternatural Rapidity": {
+        "text": "**WHEN:** Your Movement phase, when a friendly **ADEPTUS CUSTODES** unit ends an **advance move**.\n\n**TARGET:** That **ADEPTUS CUSTODES** unit.\n\n**EFFECT:** That **advance move** does not prevent your unit from being **eligible to declare a charge**.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Custodes",
+            "Dread Host"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Movement"
+          ]
+        }
+      },
+      "Stratagem§Inexorable": {
+        "text": "**WHEN:** Your Movement phase, when a friendly **ADEPTUS CUSTODES** unit is **selected to move**.\n\n**TARGET:** That **ADEPTUS CUSTODES** unit.\n\n**EFFECT:** Until the end of the turn, your unit can ignore modifiers to your unit’s:\n\n-  **M**.\n\n- **Advance rolls** and **charge rolls**.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Custodes",
+            "Solar Watch"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Movement"
+          ]
+        }
+      },
+      "Stratagem§Gravimetric Grenade": {
+        "text": "**WHEN:** Start of your opponent’s Charge phase.\n\n**TARGET:** One friendly **unengaged** **ADEPTUS CUSTODES** unit.\n\n**EFFECT:** Select one **visible** enemy unit within 12\" of your unit. When that enemy unit **declares a charge**, that enemy unit has -1 to **charge rolls**.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Custodes",
+            "Solar Watch"
+          ],
+          "Turn": [
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Charge"
+          ]
+        }
+      },
+      "Stratagem§At Spear’s Length": {
+        "text": "**WHEN:** Your Movement phase, when a friendly **ADEPTUS CUSTODES** unit is selected to make a **fall-back move**.\n\n**TARGET:** That **ADEPTUS CUSTODES** unit.\n\n**EFFECT:** That **fall-back move** does not prevent your unit from being **eligible to shoot**.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Custodes",
+            "Solar Watch"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Movement"
+          ]
+        }
+      },
+      "Stratagem§Duty Unto Death": {
+        "text": "**WHEN:** Fight phase, when an enemy unit targets a friendly **ADEPTUS CUSTODES** unit.\n\n**TARGET:** That **ADEPTUS CUSTODES** unit.\n\n**EFFECT:** When a model in your unit is **destroyed**, if your unit has not been **selected to fight** this phase, roll one D6, with +1 to that roll if that model is a **CHARACTER** model:\n\n- On a 3+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Custodes",
+            "Auric Champions"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Fight"
+          ]
+        }
+      },
+      "Stratagem§Bearers of His Light": {
+        "text": "**WHEN:** Fight phase, when a friendly **ADEPTUS CUSTODES** unit is **selected to fight**.\n\n**TARGET:** That **ADEPTUS CUSTODES** unit.\n\n**EFFECT:** Your unit’s melee attacks can ignore modifiers to **hit rolls** and **wound rolls**.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Custodes",
+            "Emissaries Imperatus"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Fight"
+          ]
+        }
+      },
+      "Stratagem§Selfless Service": {
+        "text": "**WHEN:** End of your opponent’s Charge phase.\n\n**TARGET:** One friendly **unengaged** **ADEPTUS CUSTODES** unit within 6\" of an enemy unit. You can only select a **VEHICLE** unit if it is a **CHARACTER/WALKER** unit.\n\n**EFFECT:** **Declare a charge** with your unit:\n\n- When making the **charge roll**, if the result is greater than 6 (after modifiers), change it to 6.\n\n- When selecting **charge targets**, you can select __any__ enemy units that are within 6\" of your unit and within the **maximum distance**.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Custodes",
+            "Emissaries Imperatus"
+          ],
+          "Turn": [
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Charge"
+          ]
+        }
+      },
+      "Stratagem§Slayers of Nightmares": {
+        "text": "**WHEN:** Fight phase, when a friendly **ADEPTUS CUSTODES** unit is **selected to fight**.\n\n**TARGET:** That **ADEPTUS CUSTODES** unit.\n\n**EFFECT:** Your unit’s melee attacks that target a unit with a **T** greater than this unit’s **T** have +1 to **wound rolls**.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Custodes",
+            "Emissaries Imperatus"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Fight"
+          ]
+        }
+      },
+      "Stratagem§Prime Target": {
+        "text": "**WHEN:** Your Shooting phase, when a friendly **ADEPTUS CUSTODES** unit is **selected to shoot**.\n\n**TARGET:** That **ADEPTUS CUSTODES** unit.\n\n**EFFECT:** Your unit’s ranged attacks can:\n\n- Re-roll __one__ **hit roll**.\n\n- Re-roll __one__ **wound roll**.\n\n- Re-roll __one__ **damage roll**.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Custodes",
+            "Guardians of the Throne"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        }
+      },
+      "Stratagem§Unlimited Endurance": {
+        "text": "**WHEN:** Your Movement phase, when a friendly **ADEPTUS CUSTODES** unit ends an **advance move**.\n\n**TARGET:** That **ADEPTUS CUSTODES** unit.\n\n**EFFECT:** Until the end of the turn:\n\n- Your unit’s ranged attacks have **[ASSAULT]**.\n\n- That **advance move** does not prevent your unit from being **eligible to declare a charge**.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Custodes",
+            "Guardians of the Throne"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Movement"
+          ]
+        }
+      },
+      "Stratagem§Rapid Reactions": {
+        "text": "**WHEN:** Your opponent’s Movement phase, when an enemy unit ends a **fall-back move**.\n\n**TARGET:** One friendly **ADEPTUS CUSTODES INFANTRY** unit that was **engaged** with that enemy unit at the start of the phase.\n\n**EFFECT:** Your unit shoots using **normal shooting**, but while doing so your unit can only target that enemy unit.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Custodes",
+            "Aquilan Shield"
+          ],
+          "Turn": [
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Movement"
+          ]
+        }
+      },
+      "Stratagem§Tip of the Talon": {
+        "text": "**WHEN:** Your Shooting phase, when a friendly **ADEPTUS CUSTODES** unit is **selected to shoot**.\n\n**TARGET:** That **ADEPTUS CUSTODES** unit.\n\n**EFFECT:** Your unit’s ranged attacks that target an enemy unit within 9\" of your unit have +1 **S**.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Custodes",
+            "Aquilan Shield"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        }
+      },
+      "Stratagem§No Escape": {
+        "text": "**WHEN:** Your opponent’s Movement phase, when an enemy unit ends a **fall-back move**.\n\n**TARGET:** One friendly **unengaged** **ADEPTUS CUSTODES INFANTRY** unit that is within 6\" of that enemy unit.\n\n**EFFECT:** **Declare a charge** with your unit. When selecting **charge targets**, you can only select enemy units that made a **fall-back move** this phase and are within the **maximum distance**.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Custodes",
+            "Shadowkeepers"
+          ],
+          "Turn": [
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Movement"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 2
+          }
+        }
+      },
+      "Stratagem§Golden Light of the Moiraides": {
+        "text": "**WHEN:** Your Movement phase, when a friendly **ADEPTUS CUSTODES** unit is selected to make an **ingress move**.\n\n**TARGET:** That **ADEPTUS CUSTODES** Unit.\n\n**EFFECT:** Until the start of your next turn: \n\n- Attacks that target your unit have -1 to **hit rolls**.\n\n- Enemy units cannot target your unit with **snap shooting** attacks.",
+        "keywords": {
+          "Keywords": [
+            "Adeptus Custodes",
+            "Dread Host"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Movement"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 2
+          }
+        }
+      },
+      "Enhancement§Not a Shell Wasted": {
+        "text": "**ADEPTUS CUSTODES INFANTRY** model only. This unit’s ranged attacks have +1 **A**.",
+        "keywords": {
+          "Keywords": [
+            "Aquilan Shield"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "rules": {
+          "ADEPTUS CUSTODES INFANTRY model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Adeptus Custodes"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Infantry"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
+      },
+      "Enhancement§Celeritous Sentries (Upgrade)": {
+        "text": "**TRUSTED SENTINEL** unit only. (Once per phase, per unit) You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n\n- That use is -1 CP.\n\n- That use does __not__ prevent any uses of that **stratagem** on other units this phase.",
+        "keywords": {
+          "Keywords": [
+            "Honoured Companions"
+          ],
+          "Tags": [
+            "Upgrade"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        },
+        "rules": {
+          "TRUSTED SENTINEL unit only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Trusted"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Sentinel"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
+      },
+      "Enhancement§Anti-gravitic Mobility (Upgrade)": {
+        "text": "**GRAV-ASSAULT** unit only. When this unit makes a **fall-back move**, that **fall-back move** does not prevent this unit from being **eligible to shoot**.",
+        "keywords": {
+          "Keywords": [
+            "Grav‑Assault Force"
+          ],
+          "Tags": [
+            "Upgrade"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        },
+        "rules": {
+          "GRAV-ASSAULT unit only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Grav-Assault"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
+      },
+      "Enhancement§Auric Exemplar": {
+        "text": "**ADEPTUS CUSTODES** model only. This model’s melee attacks have **[CLEAVE 1]**.",
+        "keywords": {
+          "Keywords": [
+            "Dread Host"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "rules": {
+          "ADEPTUS CUSTODES model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Adeptus Custodes"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
+      },
+      "Enhancement§Flawless Bladework": {
+        "text": "**ADEPTUS CUSTODES** model only. This model’s melee attacks have **[SUSTAINED HITS 1]**.",
+        "keywords": {
+          "Keywords": [
+            "Dread Host"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "rules": {
+          "ADEPTUS CUSTODES model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Adeptus Custodes"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
+      },
+      "Enhancement§Auric Eagle (Upgrade)": {
+        "text": "**ADEPTUS CUSTODES INFANTRY/MOUNTED** unit only (excluding **TERMINATOR** units). This unit has +1 to **advance rolls** and **charge rolls**.",
+        "keywords": {
+          "Keywords": [
+            "Solar Watch"
+          ],
+          "Tags": [
+            "Upgrade"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        },
+        "rules": {
+          "Adeptus Custodes Infantry/Mounted unit only (excluding Terminator units).": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Adeptus Custodes"
+              },
+              {
+                "actionable": false,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Infantry"
+              },
+              {
+                "actionable": false,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Mounted"
+              },
+              {
+                "actionable": true,
+                "not": false,
+                "operator": "OR",
+                "value": true,
+                "paths": [
+                  [
+                    "{this}",
+                    "evals",
+                    "1",
+                    "result",
+                    "truthy"
+                  ],
+                  [
+                    "{this}",
+                    "evals",
+                    "2",
+                    "result",
+                    "truthy"
+                  ]
+                ]
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": true,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Terminator"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
+      },
+      "Enhancement§Edge of the Blade": {
+        "text": "**ADEPTUS CUSTODES** model only. If this unit made a **charge move** this turn, this model’s attacks can:\n\n- Re-roll **hit rolls** of 1.\n\n- Re-roll **wound rolls** of 1.",
+        "keywords": {
+          "Keywords": [
+            "Emissaries Imperatus"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "rules": {
+          "ADEPTUS CUSTODES model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Adeptus Custodes"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
+      },
+      "Enhancement§Emperor’s Light": {
+        "text": "**ADEPTUS CUSTODES** model only. This model has the following weapon:",
+        "keywords": {
+          "Keywords": [
+            "Guardians of the Throne"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "rules": {
+          "ADEPTUS CUSTODES model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Adeptus Custodes"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
+      },
+      "Enhancement§Arae-Shrike": {
+        "text": "**ADEPTUS CUSTODES INFANTRY** model only. Enemy units that are selected to make an **ingress move** cannot be set up within 12\" of this unit.",
+        "keywords": {
+          "Keywords": [
+            "Honoured Companions"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "rules": {
+          "ADEPTUS CUSTODES INFANTRY model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Adeptus Custodes"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Infantry"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
+      },
+      "Enhancement§Combat Deployment (Upgrade)": {
+        "text": "**GRAV-ASSAULT TRANSPORT** model only. When a friendly **ADEPTUS CUSTODES** unit is selected to make a **disembark move** from this unit, until the end of the turn:\n\n- That unit can re-roll **charge rolls**.\n\n- Enemy units cannot target that unit with **snap shooting** attacks.",
+        "keywords": {
+          "Keywords": [
+            "Grav‑Assault Force"
+          ],
+          "Tags": [
+            "Upgrade"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        },
+        "rules": {
+          "GRAV-ASSAULT TRANSPORT model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Grav-Assault"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Transport"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
+      },
+      "Enhancement§Lightning Descent": {
+        "text": "**SHIELD-CAPTAIN IN ALLARUS TERMINATOR ARMOUR** model only. In your first Movement phase, this unit can make an **ingress move**.",
+        "keywords": {
+          "Keywords": [
+            "Lions of the Emperor"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "rules": {
+          "SHIELD-CAPTAIN IN ALLARUS TERMINATOR ARMOUR model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Shield-captain"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "In"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Allarus"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Terminator"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Armour"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
+      },
+      "Enhancement§Leonine Ferocity": {
+        "text": "**SHIELD-CAPTAIN IN ALLARUS TERMINATOR ARMOUR** model only. (Once per phase, per army) You can target this unit with the **Rapid Ingress stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n\n- That use is -1 CP.\n\n- That use does __not__ prevent any uses of that **stratagem** on other units this phase.",
+        "keywords": {
+          "Keywords": [
+            "Lions of the Emperor"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "rules": {
+          "SHIELD-CAPTAIN IN ALLARUS TERMINATOR ARMOUR model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Shield-captain"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "In"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Allarus"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Terminator"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Armour"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
+      },
+      "Enhancement§Shroud of the Hidden Blade": {
+        "text": "**ADEPTUS CUSTODES** model only. This model has:\n\n- **Stealth**\n\n- **Lone Operative**.",
+        "keywords": {
+          "Keywords": [
+            "Auric Champions"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "rules": {
+          "ADEPTUS CUSTODES model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Adeptus Custodes"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
+      },
+      "Enhancement§Auriferous Orb": {
+        "text": "**ADEPTUS CUSTODES** model only. This model has the following weapon:",
+        "keywords": {
+          "Keywords": [
+            "Emissaries Imperatus"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "rules": {
+          "ADEPTUS CUSTODES model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Adeptus Custodes"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
+      },
+      "Enhancement§Bane of Abominations": {
+        "text": "**ADEPTUS CUSTODES** model only. This model’s attacks that target an enemy **CHARACTER/MONSTER/VEHICLE** unit have +1 to **wound rolls**.",
+        "keywords": {
+          "Keywords": [
+            "Guardians of the Throne"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "rules": {
+          "ADEPTUS CUSTODES model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Adeptus Custodes"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
+      },
+      "Enhancement§Unstoppable Destroyer": {
+        "text": "**ADEPTUS CUSTODES INFANTRY** model only. When this unit is selected to make a **pile-in/consolidation move**:\n\n- This unit can move up to 4\".\n\n- You can select any **consolidation mode** for that **consolidation move**, regardless of that **consolidation move**’s Before Moving restrictions.",
+        "keywords": {
+          "Keywords": [
+            "Shadowkeepers"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "rules": {
+          "ADEPTUS CUSTODES INFANTRY model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Adeptus Custodes"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Infantry"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
+      },
+      "Enhancement§Genalchemic Warding": {
+        "text": "**ADEPTUS CUSTODES** model only. This model has **Feel No Pain 5+**.",
+        "keywords": {
+          "Keywords": [
+            "Shadowkeepers"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 30
+          }
+        },
+        "rules": {
+          "ADEPTUS CUSTODES model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Adeptus Custodes"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
+      },
+      "Enhancement§Memento Moritoi (one per army) (Upgrade)": {
+        "text": "**ADEPTUS CUSTODES DREADNOUGHT** model only. This model’s melee attacks have +1 **A**, **S** and **D**.",
+        "keywords": {
+          "Keywords": [
+            "Might Of The Moritoi"
+          ],
+          "Tags": [
+            "Upgrade"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 30
+          }
+        },
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        },
+        "rules": {
+          "ADEPTUS CUSTODES DREADNOUGHT model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Adeptus Custodes"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Dreadnought"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
+      },
+      "Enhancement§Augury Uplink (one per army) (Upgrade)": {
+        "text": "**ADEPTUS CUSTODES DREADNOUGHT** model only. This model has **Feel No Pain 5+**.",
+        "keywords": {
+          "Keywords": [
+            "Might Of The Moritoi"
+          ],
+          "Tags": [
+            "Upgrade"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 30
+          }
+        },
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        },
+        "rules": {
+          "ADEPTUS CUSTODES DREADNOUGHT model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Adeptus Custodes"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Dreadnought"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
+      },
+      "Enhancement§Sally Forth": {
+        "text": "**ADEPTUS CUSTODES SHIELD-CAPTAIN** model only. At the start of your Charge phase, select one friendly **ADEPTUS CUSTODES INFANTRY** unit within 6\" of this model. If that unit made an **advance move** this turn, that **advance move** does not prevent that unit from being **eligible to declare a charge**.",
+        "keywords": {
+          "Keywords": [
+            "Solar Watch"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 30
+          }
+        },
+        "rules": {
+          "ADEPTUS CUSTODES SHIELD-CAPTAIN model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Adeptus Custodes"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Shield-captain"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
+      },
+      "Enhancement§Eagle’s Eye": {
+        "text": "**ADEPTUS CUSTODES** model only.\n\n- This model has +1 **W**.\n\n- (Once per battle, per army) When attacks are allocated to this model, you can use this ability. If you do, this model has 3+ **InSv**.",
+        "keywords": {
+          "Keywords": [
+            "Guardians of the Throne"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 30
+          }
+        },
+        "rules": {
+          "ADEPTUS CUSTODES model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Adeptus Custodes"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
+      },
+      "Enhancement§Pareldor’s Caducatrix": {
+        "text": "**ADEPTUS CUSTODES** model only. (Once per battle, per army) At the start of any phase, this model **heals** D3+3 wounds.",
+        "keywords": {
+          "Keywords": [
+            "Aquilan Shield"
+          ]
+        },
+        "stats": {
+          "Points": {
+            "value": 30
+          }
+        },
+        "rules": {
+          "ADEPTUS CUSTODES model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Adeptus Custodes"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
           }
         }
       }

@@ -1,6 +1,6 @@
 {
   "name": "Leagues of Votann 11e",
-  "revision": "11.1.6",
+  "revision": "11.1.14",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -939,17 +939,7 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Sagitaur Spearhead**\nFriendly **SAGITAUR** units have **Scouts 6\"**."
-      },
-      "Detachment§Brandfast Oathband": {
-        "keywords": {
-          "Keywords": [
-            "Brandfast Oathband"
-          ],
-          "Role": [
-            "Take And Hold"
-          ]
-        },
+        "text": "**SAGITAUR SPEARHEAD**\n\nFriendly **SAGITAUR** units have **Scouts 6\"**.",
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -965,7 +955,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Opportunistic Escalation"
+                "value": "Stratagem§Coordinated Crossfire"
               },
               {
                 "actionType": "add",
@@ -979,7 +969,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Inexorable Efficiency"
+                "value": "Stratagem§Outflanking Armour"
               },
               {
                 "actionType": "add",
@@ -993,8 +983,27 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Illuminated Priority"
-              },
+                "value": "Stratagem§Built To Last"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        }
+      },
+      "Detachment§Brandfast Oathband": {
+        "keywords": {
+          "Keywords": [
+            "Brandfast Oathband"
+          ],
+          "Role": [
+            "Take And Hold"
+          ]
+        },
+        "rules": {
+          "assignStratagems": {
+            "actions": [
               {
                 "actionType": "add",
                 "iterations": 1,
@@ -1035,7 +1044,49 @@
                     "traits"
                   ]
                 ],
+                "value": "Stratagem§Inexorable Efficiency"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Opportunistic Escalation"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
                 "value": "Stratagem§Vengeance Flare"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Illuminated Priority"
               }
             ],
             "evals": [],
@@ -1048,7 +1099,7 @@
             "value": 2
           }
         },
-        "text": "## MOBILE SENSOR RELAYS\n\nLEAGUES OF VOTANN TRANSPORT units from your army have the following ability:\n\n**Firebase Control (Aura):**\n\nWhile a friendly LEAGUES OF VOTANN INFANTRY unit is wholly within 6\" of this TRANSPORT, ranged weapons equipped by models in that INFANTRY unit have the [SUSTAINED HITS 1] ability."
+        "text": "**MOBILE SENSOR RELAYS**\n\n**LEAGUES OF VOTANN TRANSPORT** units from your army have the following ability: \n\n**Firebase Control (Aura):** While a friendly **LEAGUES OF VOTANN INFANTRY** unit is wholly within 6\" of this **TRANSPORT**, ranged weapons equipped by models in that **INFANTRY** unit have the **[SUSTAINED HITS 1]** ability."
       },
       "Detachment§Dêlve Assault Shift": {
         "keywords": {
@@ -1060,7 +1111,29 @@
           ]
         },
         "rules": {
-          "addStratagems": {
+          "apply": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "assets",
+                    "item",
+                    "Unit§Cthonian Beserks",
+                    "traits"
+                  ]
+                ],
+                "value": "Ability§Deep Strike"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 3
+          },
+          "assignStratagems": {
             "actions": [
               {
                 "actionType": "add",
@@ -1074,49 +1147,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Hidden Accessways"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Weavewurke Buttress"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Tectonic Fracture"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Augmented Assault"
+                "value": "Stratagem§Cyberstimm Infusion"
               },
               {
                 "actionType": "add",
@@ -1144,29 +1175,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Cyberstimm Infusion"
-              }
-            ],
-            "evals": [],
-            "evaluate": "AND",
-            "failState": "pass"
-          },
-          "apply": {
-            "actions": [
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "assets",
-                    "item",
-                    "Unit§Cthonian Beserks",
-                    "keywords",
-                    "Keywords"
-                  ]
-                ],
-                "value": "Battleline"
+                "value": "Stratagem§Augmented Assault"
               },
               {
                 "actionType": "add",
@@ -1174,19 +1183,46 @@
                 "paths": [
                   [
                     "{roster}",
-                    "assets",
+                    "traits",
                     "item",
-                    "Unit§Cthonian Beserks",
+                    "Stratagems§Stratagems",
                     "traits"
                   ]
                 ],
-                "value": "Ability§Deep Strike"
+                "value": "Stratagem§Tectonic Fracture"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Weavewurke Buttress"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Hidden Accessways"
               }
             ],
             "evals": [],
             "evaluate": "AND",
-            "failState": "pass",
-            "order": 3
+            "failState": "pass"
           }
         },
         "stats": {
@@ -1194,7 +1230,7 @@
             "value": 2
           }
         },
-        "text": "## Fury from the DÊLVE\n\n- CTHONIAN BESERKS units from your army have the Deep Strike ability. \n\n- CTHONIAN BESERKS units from your army gain the BATTLELINE keyword."
+        "text": "**FURY FROM THE DÊLVE**\n\n**CTHONIAN BESERKS** units from your army have the Deep Strike ability."
       },
       "Detachment§Farseekers": {
         "keywords": {
@@ -1207,7 +1243,58 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Eye of the Hunt**\nFriendly **HERNKYN** units’ ranged attacks that target a unit within 12\" have +1 to **hit rolls**."
+        "text": "**EYE OF THE HUNT**\n\nFriendly **HERNKYN** units’ ranged attacks that target a unit within 12\" have +1 to **hit rolls**.",
+        "rules": {
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§No Shot Wasted"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Economy of Motion"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Scornful Analysis"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        }
       },
       "Detachment§Hearthband": {
         "keywords": {
@@ -1232,7 +1319,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Brekkeknots"
+                "value": "Stratagem§Brëkkeknots"
               },
               {
                 "actionType": "add",
@@ -1246,35 +1333,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Unyielding Aggression"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Sure of Purpose"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Materialisation Matrices"
+                "value": "Stratagem§Fury of the Hearth"
               },
               {
                 "actionType": "add",
@@ -1302,7 +1361,35 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Fury of the Hearth"
+                "value": "Stratagem§Sure of Purpose"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Unyielding Aggression"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Materialisation Matrices"
               }
             ],
             "evals": [],
@@ -1336,7 +1423,7 @@
             "value": 3
           }
         },
-        "text": "**METHODICAL ANNIHILATION**\n\nEach time a **Leagues of Votann** model\nfrom your army makes an attack with a\nweapon (excluding Blast weapons) that\ntargets the closest eligible target or a\ntarget that is within Engagement Range\nof that model’s unit:\n\n■ Re‑roll a Hit roll of 1.\n\n■ If your unit is a Kâhl, Einhyr\nHearthguard or Ûthar the Destined\nunit, improve the Armour Penetration\ncharacteristic of that attack by 1."
+        "text": "**METHODICAL ANNIHILATION**\n\nEach time a **LEAGUES OF VOTANN** model from your army makes an attack with a weapon that targets the closest eligible target or a target that is within Engagement Range of that model’s unit:\n\n■ Re‐roll a Wound roll of 1.\n■ If your unit is a **KÂHL**, **EINHYR HEARTHGUARD** or **ÛTHAR THE DESTINED** unit, improve the Armour Penetration characteristic of that attack by 1."
       },
       "Detachment§Hearthfyre Arsenal": {
         "keywords": {
@@ -1350,6 +1437,20 @@
         "rules": {
           "assignStratagems": {
             "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Wall of Steel"
+              },
               {
                 "actionType": "add",
                 "iterations": 1,
@@ -1377,20 +1478,6 @@
                   ]
                 ],
                 "value": "Stratagem§First Concern"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Delayed-fire Rounds"
               },
               {
                 "actionType": "add",
@@ -1432,7 +1519,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Wall of Steel"
+                "value": "Stratagem§Delayed-fire Rounds"
               }
             ],
             "evals": [],
@@ -1445,7 +1532,7 @@
             "value": 2
           }
         },
-        "text": "## Optimal Application\n\n\nAt the end of your Command phase, you gain 1YP for each objective marker you control that is not within your deployment zone and has one or more IRON-MASTER and/or MEMNYR STRATEGIST models from your army within range of it (to a maximum of 2YP gained from this Detachment rule per turn). In your Shooting phase, each time a BRÔKHYR, IRONKIN STEELJACKS or ARKANYST EVALUATOR unit from your army is selected to shoot, you can spend 1YP. If you do, until the end of the phase, each time a model in that unit makes an attack, re-roll a Hit roll of 1."
+        "text": "**OPTIMAL APPLICATION**\n\nAt the end of your Command phase, you gain 1YP for each objective marker you control that is not within your deployment zone and has one or more **IRON-MASTER** and/or **MEMNYR STRATEGIST** models from your army within range of it (to a maximum of 2YP gained from this Detachment rule per turn).\n\nIn your Shooting phase, each time a **BRÔKHYR**, **IRONKIN STEELJACKS** or **ARKANYST EVALUATOR** unit from your army is selected to shoot, you can spend 1YP. If you do, until the end of the phase, each time a model in that unit makes an attack, re-roll a Hit roll of 1."
       },
       "Detachment§Hearthguard Covenant": {
         "keywords": {
@@ -1458,7 +1545,7 @@
             "value": 1
           }
         },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Avatars of the Ancestors**\nFriendly **Kâhl/Einhyr champion/Einhyr Hearthguard/Ûthar the Destined** units’ ranged attacks that target a unit within 9\" can re‑roll **wound rolls** of 1.\nThis **detachment** has the **HEARTHGUARD** tag and cannot be taken with another **HEARTHGUARD** **detachment**.",
+        "text": "**AVATARS OF THE ANCESTORS**\n\nFriendly **KÂHL/EINHYR CHAMPION/EINHYR HEARTHGUARD/ÛTHAR THE DESTINED** units’ ranged attacks that target a unit within 9\" can re-roll **wound rolls** of 1.\nThis **detachment** has the **HEARTHGUARD** tag and cannot be taken with another **HEARTHGUARD** **detachment**.",
         "rules": {
           "removeSameTagDetachments": {
             "actions": [
@@ -1480,6 +1567,55 @@
             "evaluate": "AND",
             "failState": "pass",
             "order": 10
+          },
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Fury of the Hearth"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Materialisation Matrices"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Brëkkeknots"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
           }
         }
       },
@@ -1507,7 +1643,21 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Mobile Exploitation"
+                "value": "Stratagem§Auxiliary Contract"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Grand Artifice"
               },
               {
                 "actionType": "add",
@@ -1535,7 +1685,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Grand Artifice"
+                "value": "Stratagem§Mobile Exploitation"
               },
               {
                 "actionType": "add",
@@ -1564,20 +1714,6 @@
                   ]
                 ],
                 "value": "Stratagem§Privateer Arsenal"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Auxiliary Contract"
               }
             ],
             "evals": [],
@@ -1590,7 +1726,7 @@
             "value": 2
           }
         },
-        "text": "## RUTHLESS REINVESTMENT\n\nYour **Leagues of Votann** units do not have the Hostile Acquisition or Fortify Takeover abilities except as described in this rule. At the start of the battle, your **Leagues of Votann** units have the Hostile Acquisition ability. At the end of your Command phase, you can spend 3YP. If you do, **Leagues of Votann** units from your army lose the Hostile Acquisition ability and gain the Fortify Takeover ability, or vice versa."
+        "text": "**RUTHLESS REINVESTMENT**\n\nYour **LEAGUES OF VOTANN** units do not have the Hostile Acquisition or Fortify Takeover abilities except as described in this rule. At the start of the battle, your **LEAGUES OF VOTANN** units have the Hostile Acquisition ability. At the end of your Command phase, you can spend 3YP. If you do, **LEAGUES OF VOTANN** units from your army lose the Hostile Acquisition ability and gain the Fortify Takeover ability, or vice versa."
       },
       "Detachment§Needgaârd Oathband": {
         "keywords": {
@@ -1604,20 +1740,6 @@
         "rules": {
           "assignStratagems": {
             "actions": [
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Hunter's Mark"
-              },
               {
                 "actionType": "add",
                 "iterations": 1,
@@ -1644,7 +1766,21 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Reactive Reprisal"
+                "value": "Stratagem§Ancestral Sentence"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Hunter's Mark"
               },
               {
                 "actionType": "add",
@@ -1672,7 +1808,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Void Hardened"
+                "value": "Stratagem§Reactive Reprisal"
               },
               {
                 "actionType": "add",
@@ -1686,7 +1822,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Ancestral Sentence"
+                "value": "Stratagem§Void Hardened"
               }
             ],
             "evals": [],
@@ -1699,7 +1835,7 @@
             "value": 2
           }
         },
-        "text": "## Martial Leverage\nEach time an enemy unit is destroyed, you gain 1YP"
+        "text": "**MARTIAL LEVERAGE**\n\nEach time an enemy unit is destroyed, you gain 1YP."
       },
       "Detachment§Persecution Prospect": {
         "keywords": {
@@ -1725,49 +1861,7 @@
                     "traits"
                   ]
                 ],
-                "value": "Stratagem§Dispersed Formation"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Claimstalker Reflex"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
                 "value": "Stratagem§Ranger Tactics"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Exposed Flaws"
               },
               {
                 "actionType": "add",
@@ -1795,6 +1889,48 @@
                     "traits"
                   ]
                 ],
+                "value": "Stratagem§Exposed Flaws"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Claimstaker Reflex"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Dispersed Formation"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
                 "value": "Stratagem§Adaptable Avarice"
               }
             ],
@@ -1808,7 +1944,7 @@
             "value": 2
           }
         },
-        "text": "## Assailed from every Angle\nLEAGUES OF VOTANN units from your army have the following ability:\n\n**Guerrilla Adepts**: In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding MONSTERS and VEHICLES). Until the end of the phase, attacks made by models in this unit can only target that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements and Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+        "text": "**ASSAILED FROM EVERY ANGLE**\n\n**LEAGUES OF VOTANN** units from your army have the following ability:\n\n**Guerrilla Adepts:** In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding **MONSTERS** and **VEHICLES**). Until the end of the phase, attacks made by models in this unit can only target that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements and Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
       },
       "Enhancement§Ancestral Crest": {
         "keywords": {
@@ -1821,7 +1957,29 @@
             "value": 15
           }
         },
-        "text": "Leagues of Votann model only. Once per turn, when you target the bearer's unit with the Command Re-roll Stratagem, the bearer can use this Enhancement. If it does, spend 1YP and reduce the CP cost of that use of that Stratagem by 1CP."
+        "text": "**LEAGUES OF VOTANN** model only. Once per turn, when you target the bearer’s unit with the Command Re-roll Stratagem, the bearer can use this Enhancement. If it does, spend 1YP and reduce the CP cost of that use of that Stratagem by 1CP.",
+        "rules": {
+          "LEAGUES OF VOTANN model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Leagues of Votann"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Asset Manipulator": {
         "keywords": {
@@ -1869,7 +2027,29 @@
             "value": 25
           }
         },
-        "text": "**Leagues of Votann** model only. Each time a ranged\nattack targets the bearer’s unit, if the attacking model\nis within 12\" of the bearer’s unit, worsen the Armour\nPenetration characteristic of that attack by 1."
+        "text": "**LEAGUES OF VOTANN** model only. Each time a ranged attack targets the bearer’s unit, if the attacking model is within 12\" of the bearer’s unit, worsen the Armour Penetration characteristic of that attack by 1. If you spend 1YP, until the end of the phase, if the attacking model is within 18\" of the bearer’s unit, worsen the Armour Penetration characteristic of that attack by 1 instead.",
+        "rules": {
+          "LEAGUES OF VOTANN model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Leagues of Votann"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Calculated Tenacity": {
         "keywords": {
@@ -1952,7 +2132,7 @@
             "value": 15
           }
         },
-        "text": "IRON-MASTER or MEMNYR STRATEGIST model only. While the bearer is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
+        "text": "**IRON-MASTER** or **MEMNYR STRATEGIST** model only. While the bearer is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
       },
       "Enhancement§Dead Reckoning": {
         "keywords": {
@@ -1965,28 +2145,64 @@
             "value": 10
           }
         },
-        "text": "Leagues of Votann model only. At the end of the turn, if the bearer is on the battlefield and you spent no YP in that turn, you can gain 1YP."
+        "text": "**LEAGUES OF VOTANN** model only. At the end of the turn, if the bearer is on the battlefield and you spent no YP in that turn, you can gain 1YP.",
+        "rules": {
+          "LEAGUES OF VOTANN model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Leagues of Votann"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Dêlvewerke Navigator": {
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "**LEAGUES OF VOTANN** model only. In the Reinforcements step of your Movement phase, the bearer can use this Enhancement. If it does, select one friendly **CTHONIAN BESERKS** unit visible to the bearer and then spend any number of YP. Return one destroyed model (excluding **CHARACTER** models) to that unit and then, for every 2YP you just spent, return up to one additional destroyed model (excluding **CHARACTER** models) to that unit.",
         "keywords": {
           "Keywords": [
             "Dêlve Assault Shift"
           ]
         },
-        "stats": {
-          "Points": {
-            "value": 25
+        "rules": {
+          "LEAGUES OF VOTANN model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Leagues of Votann"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
           }
-        },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**LEAGUES OF VOTANN** model only. In the Reinforcements step of your Movement phase, the bearer can use this Enhancement. If it does, select one friendly **CTHONIAN BESERKS** unit visible to the bearer and then spend any number of YP. Return one destroyed model to that unit and then, for every 2YP you just spent, return up to one additional destroyed model to that unit."
-      },
-      "Enhancement§Dêlwerke Navigator": {
-        "stats": {
-          "Points": {
-            "value": 25
-          }
-        },
-        "text": "Leagues of Votann model only. In the Reinforcements step of your Movement phase, the bearer can use this Enhancement. If it does, select one friendly CTHONIAN BESERKS unit visible to the bearer and then spend any number of YP. Return one destroyed model to that unit and then, for every 2YP you just spent, return up to one additional destroyed model to that unit."
+        }
       },
       "Enhancement§Etacarn SB9 Targeting Implant": {
         "keywords": {
@@ -2021,28 +2237,42 @@
             "value": 15
           }
         },
-        "text": "**LEAGUES OF VOTANN** model only. Each time a model in the bearer's unit makes an attack, re-roll a Hit roll of 1. Each time the bearer's unit is selected to shoot or fight, you can spend 3YP. If you do, until the end of the phase, each time a model in the bearer's unit makes an attack, that attack has the **[SUSTAINED HITS 1]** ability."
+        "text": "**LEAGUES OF VOTANN** model only. Each time a model in the bearer’s unit makes an attack, re-roll a Hit roll of 1. Each time the bearer’s unit is selected to shoot or fight, you can spend 3YP. If you do, until the end of the phase, each time a model in the bearer’s unit makes an attack, that attack has the **[SUSTAINED HITS 1]** ability."
       },
       "Enhancement§Eye for Weakness": {
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "**LEAGUES OF VOTANN** model only. Each time a model in the bearer’s unit makes an attack that targets an assailed unit, add 1 to the Wound roll.",
         "keywords": {
           "Keywords": [
             "Persecution Prospect"
           ]
         },
-        "stats": {
-          "Points": {
-            "value": 25
+        "rules": {
+          "LEAGUES OF VOTANN model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Leagues of Votann"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
           }
-        },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**LEAGUES OF VOTANN** model only. Each time a model in the bearer’s unit makes an attack that targets an assailed unit, add 1 to the Wound roll."
-      },
-      "Enhancement§Eye of Weakness": {
-        "stats": {
-          "Points": {
-            "value": 25
-          }
-        },
-        "text": "Leagues of Votann model only. Each time a model in the bearer's unit makes an attack that targets an assailed unit, add 1 to the Wound roll."
+        }
       },
       "Enhancement§Fârstrydr Node": {
         "keywords": {
@@ -2110,7 +2340,7 @@
             "value": 20
           }
         },
-        "text": "IRON-MASTER or MEMNYR STRATEGIST model only. Models in the bearer's unit have the Deep Strike ability."
+        "text": "**IRON-MASTER** or **MEMNYR STRATEGIST** model only. Models in the bearer’s unit have the Deep Strike ability."
       },
       "Enhancement§Graviton Vault": {
         "keywords": {
@@ -2145,12 +2375,13 @@
             "value": 5
           }
         },
-        "text": "IRON-MASTER model only.  In your Shooting phase, after the bearer has shot, and in the Fight phase, after the bearer has fought, select one enemy MONSTER or VEHICLE unit hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+        "text": "**IRON-MASTER** model only. In your Shooting phase, after the bearer has shot, and in the Fight phase, after the bearer has fought, select one enemy **MONSTER** or **VEHICLE** unit hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
       },
       "Enhancement§High Kâhl": {
         "keywords": {
           "Keywords": [
-            "Hearthguard Covenant"
+            "Hearthguard Covenant",
+            "Hearthband"
           ]
         },
         "rules": {
@@ -2180,7 +2411,7 @@
             "value": 30
           }
         },
-        "text": "**Kâhl** model only. Each time a model in the bearer’s\nunit is destroyed by a melee attack, if it has not fought\nthis phase, roll one D6: on a 4+, do not remove it\nfrom play. The destroyed model can fight after the\nattacking unit has finished making its attacks, and is\n1 then removed from play."
+        "text": "**KÂHL** model only. Each time a model in the bearer’s unit is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
       },
       "Enhancement§Iron Ambassador": {
         "keywords": {
@@ -2220,12 +2451,13 @@
             "value": 5
           }
         },
-        "text": "Leagues of Votann model equipped with an Autoch-pattern combi-bolter only. Once per battle, when the bearer's unit is selected to shoot, the bearer can use this Enhancement. If it does, spend up to 3YP and, until the end of the phase, add the number of YP you just spent to the Damage characteristic of the bearer's ranged weapons."
+        "text": "**LEAGUES OF VOTANN** model equipped with an Autoch-pattern combi-bolter only. Once per battle, when the bearer’s unit is selected to shoot, the bearer can use this Enhancement. If it does, spend up to 3YP and, until the end of the phase, add the number of YP you just spent to the Damage characteristic of the bearer’s ranged weapons"
       },
       "Enhancement§Ironskein": {
         "keywords": {
           "Keywords": [
-            "Hearthguard Covenant"
+            "Hearthguard Covenant",
+            "Hearthband"
           ]
         },
         "rules": {
@@ -2248,6 +2480,26 @@
             "evals": [],
             "evaluate": "AND",
             "failState": "pass"
+          },
+          "KÂHL model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Kâhl"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
           }
         },
         "stats": {
@@ -2255,7 +2507,7 @@
             "value": 10
           }
         },
-        "text": "**Leagues of Votann** model only. Add 2 to the bearer’s\nWounds characteristic."
+        "text": "**LEAGUES OF VOTANN** model only. Add 2 to the bearer’s Wounds characteristic."
       },
       "Enhancement§Mantle of Elders": {
         "keywords": {
@@ -2324,7 +2576,7 @@
             "value": 10
           }
         },
-        "text": "MEMNYR STRATEGIST model only. Each time the bearer's unit is selected to shoot, if you spend YP using the Optimal Application Detachment rule when doing so, you can roll one D6: on a 2+, you gain 1YP,"
+        "text": "**MEMNYR STRATEGIST** model only. Each time the bearer’s unit is selected to shoot, if you spend YP using the Optimal Application Detachment rule when doing so, you can roll one D6: on a 2+, you gain 1YP."
       },
       "Enhancement§Mercenary Prospector": {
         "keywords": {
@@ -2359,7 +2611,7 @@
             "value": 20
           }
         },
-        "text": "**KAHL** model only. Each time an enemy unit is destroyed by the bearer's unit, gain 2YP."
+        "text": "**KÂHL** model only. Each time an enemy unit is destroyed by the bearer’s unit, gain 2YP."
       },
       "Enhancement§Metaphysical Brokerage": {
         "keywords": {
@@ -2407,7 +2659,29 @@
             "value": 10
           }
         },
-        "text": "Leagues of Votann model only. Once per battle, in your Movement phase, if the bearer is on the battlefield, it can use this Enhancement. If it does, select one friendly CTHONIAN unit that is in Reserves. Until the end of the phase, for the purposes of setting up that unit on the battlefield, treat the current battle round number as being one higher than it actually is."
+        "text": "**LEAGUES OF VOTANN** model only. Once per battle, in your Movement phase, if the bearer is on the battlefield, it can use this Enhancement. If it does, select one friendly **CTHONIAN** unit that is in Reserves. Until the end of the phase, for the purposes of setting up that unit on the battlefield, treat the current battle round number as being one higher than it actually is.",
+        "rules": {
+          "LEAGUES OF VOTANN model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Leagues of Votann"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Nomad Strategist": {
         "keywords": {
@@ -2420,28 +2694,64 @@
             "value": 20
           }
         },
-        "text": "Leagues of Votann model only. Once per battle, at the end of your opponent's Fight phase, if the bearer is on the battlefield, it can use this Enhancement. If it does, you can spend up to 4YP. Select one HERNKYN unit from your army, and, for every 2YP you just spent, select up to one additional HERNKYN unit from your army. You can remove those units from the battlefield and place them into Strategic Reserves. You cannot select a unit that is within Engagement Range of one or more enemy units (excluding assailed units)."
+        "text": "**LEAGUES OF VOTANN** model only. Once per battle, at the end of your opponent’s Fight phase, if the bearer is on the battlefield, it can use this Enhancement. If it does, you can spend up to 4YP. Select one **HERNKYN** unit from your army, and, for every 2YP you just spent, select up to one additional **HERNKYN** unit from your army. You can remove those units from the battlefield and place them into Strategic Reserves. You cannot select a unit that is within Engagement Range of one or more enemy units (excluding assailed units).",
+        "rules": {
+          "LEAGUES OF VOTANN model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Leagues of Votann"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
-      "Enhancement§Oathband Speculator": {
+      "Enhancement§Oathbound Speculator": {
         "stats": {
           "Points": {
             "value": 30
           }
         },
-        "text": "Leagues of Votann model only. Each time a model in the bearer's unit makes an attack, re-roll a Wound roll of 1. Each time the bearer's unit is selected to shoot or fight, you can spend 3YP. If you do, until the end of the phase, each time a model in the bearer's unit makes an attack, add 1 to the Wound roll."
-      },
-      "Enhancement§Oathbound Speculator": {
+        "text": "**LEAGUES OF VOTANN** model only. Each time a model in the bearer’s unit makes an attack, re-roll a Wound roll of 1. Each time the bearer’s unit is selected to shoot or fight, you can spend 3YP. If you do, until the end of the phase, each time a model in the bearer’s unit makes an attack, add 1 to the Wound roll.",
         "keywords": {
           "Keywords": [
             "Needgaârd Oathband"
           ]
         },
-        "stats": {
-          "Points": {
-            "value": 30
+        "rules": {
+          "LEAGUES OF VOTANN model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Leagues of Votann"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
           }
-        },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**LEAGUES OF VOTANN** model only. Each time a model in the bearer’s unit makes an attack, re‑roll a Wound roll of 1. Each time the bearer’s unit is selected to shoot or fight, you can spend 3YP. If you do, until the end of the phase, each time a model in the bearer’s unit makes an attack, add 1 to the Wound roll."
+        }
       },
       "Enhancement§Optimised Attack Lines (Upgrade)": {
         "keywords": {
@@ -2457,7 +2767,7 @@
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Sagitaur** unit only. This unit has **Mobile**.",
+        "text": "**SAGITAUR** unit only. This unit has **MOBILE**.",
         "removed": {
           "keywords": {
             "Tags": [
@@ -2467,6 +2777,28 @@
         },
         "aspects": {
           "Unique": false
+        },
+        "rules": {
+          "SAGITAUR unit only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Sagitaur"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
         }
       },
       "Enhancement§Pan-spectral Lockons (Upgrade)": {
@@ -2483,7 +2815,7 @@
             "value": 10
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**PIONEERS** unit only. In your Shooting phase, you can select one **visible** enemy unit within 12\" of this unit. That enemy unit is **spotted**:\n\n- While a unit is **spotted**, that unit has +3\" **detection range**.",
+        "text": "**PIONEERS** unit only. In your Shooting phase, you can select one **visible** enemy unit within 12\" of this unit. That enemy unit is **spotted**:\n\n- While a unit is **spotted**, that unit has +3\" **detection range**.",
         "removed": {
           "keywords": {
             "Tags": [
@@ -2493,6 +2825,28 @@
         },
         "aspects": {
           "Unique": false
+        },
+        "rules": {
+          "PIONEERS unit only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Pioneers"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
         }
       },
       "Enhancement§Piledriver": {
@@ -2506,7 +2860,29 @@
             "value": 15
           }
         },
-        "text": "Leagues of Votann model only. Each time the bearer's unit is selected to fight, the bearer can use this Enhancement. If it does, spend up to 2YP and, until the end of the phase, add the number of YP to the Damage characteristic of the bearer's melee weapons."
+        "text": "**LEAGUES OF VOTANN** model only. Each time the bearer’s unit is selected to fight, the bearer can use this Enhancement. If it does, spend up to 2YP and, until the end of the phase, add the number of YP you just spent to the Damage characteristic of the bearer’s melee weapons.",
+        "rules": {
+          "LEAGUES OF VOTANN model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Leagues of Votann"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Precursive Judgement": {
         "keywords": {
@@ -2541,7 +2917,7 @@
             "value": 15
           }
         },
-        "text": "KÂHL model only. While the bearer's unit is wholly within 6\" of one or more friendly LEAGUES OF VOTANN TRANSPORT units, you can target the bearer's unit with the Fire Overwatch Stratagem for 0CP and hits are scored on unmodified Hit rolls of 5+ while resolving that Stratagem."
+        "text": "**KÂHL** model only. While the bearer’s unit is wholly within 6\" of one or more friendly **LEAGUES OF VOTANN TRANSPORT** units, you can target the bearer’s unit with the Fire Overwatch Stratagem for 0CP and hits are scored on unmodified Hit rolls of 5+ while resolving that Stratagem."
       },
       "Enhancement§Quake Multigenerator": {
         "keywords": {
@@ -2576,7 +2952,7 @@
             "value": 15
           }
         },
-        "text": "**Kâhl** model only. In your Shooting phase, after the\nbearer has shot, select one enemy unit (excluding\n**Titanic** units) hit by one or more of those attacks.\nUntil the start of your next turn, that enemy unit is\nsuppressed. While a unit is suppressed, each time a\nmodel in that unit makes an attack, subtract 1 from\nthe Hit roll."
+        "text": "**KÂHL** model only. In your Shooting phase, after the bearer has shot, select one enemy unit (excluding **TITANIC** units) hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
       },
       "Enhancement§Quake Supervisor": {
         "keywords": {
@@ -2589,7 +2965,29 @@
             "value": 20
           }
         },
-        "text": "Leagues of Votann model only. While the bearer is within 3\" of one or more friendly LEAGUES OF VOTANN ARTILLERY units, the bearer has the Lone Operative ability, and each time one of those ARTILLERY units makes a ranged attack that targets an enemy unit visible to the bearer, add 1 to the Hit roll."
+        "text": "**LEAGUES OF VOTANN** model only. While the bearer is within 3\" of one or more friendly **LEAGUES OF VOTANN ARTILLERY** units, the bearer has the Lone Operative ability, and each time one of those **ARTILLERY** units makes a ranged attack that targets an enemy unit visible to the bearer, add 1 to the Hit roll.",
+        "rules": {
+          "LEAGUES OF VOTANN model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Leagues of Votann"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Saturation Rounds (Upgrade)": {
         "keywords": {
@@ -2605,7 +3003,7 @@
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Sagitaur** unit only. This unit’s ranged attacks have **[Ignores Cover]**.",
+        "text": "**SAGITAUR** unit only. This unit’s ranged attacks have **[IGNORES COVER]**.",
         "removed": {
           "keywords": {
             "Tags": [
@@ -2615,6 +3013,28 @@
         },
         "aspects": {
           "Unique": false
+        },
+        "rules": {
+          "SAGITAUR unit only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Sagitaur"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
         }
       },
       "Enhancement§Shroudwërke Talismans (Upgrade)": {
@@ -2631,7 +3051,7 @@
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Yaegirs** unit only. This unit has ‑3\" **detection range**.",
+        "text": "**YAEGIRS** unit only. This unit has -3\" **detection range**.",
         "removed": {
           "keywords": {
             "Tags": [
@@ -2641,6 +3061,28 @@
         },
         "aspects": {
           "Unique": false
+        },
+        "rules": {
+          "YAEGIRS unit only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Yaegirs"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
         }
       },
       "Enhancement§Signature Restoration": {
@@ -2676,7 +3118,7 @@
             "value": 5
           }
         },
-        "text": "IRON-MASTER model only. Each time a friendly LEAGUES OF VOTANN model is repaired using the bearer's Forgewrought Expertise ability, that model regains 1 additional lost wound."
+        "text": "**IRON-MASTER** model only. Each time a friendly **LEAGUES OF VOTANN** model is repaired using the bearer’s Forgewrought Expertise ability, that model regains 1 additional lost wound."
       },
       "Enhancement§Surgical Saboteur": {
         "keywords": {
@@ -2689,7 +3131,29 @@
             "value": 10
           }
         },
-        "text": "Leagues of Votann model only. In your Shooting phase, after the bearer's unit has shot, select one MONSTER or VEHICLE unit hit by one or more of those attacks; until the start of your next Shooting phase, that unit is pinned."
+        "text": "**LEAGUES OF VOTANN** model only. In your Shooting phase, after the bearer’s unit has shot, select one **MONSTER** or **VEHICLE** unit hit by one or more of those attacks; until the start of your next Shooting phase, that unit is pinned.",
+        "rules": {
+          "LEAGUES OF VOTANN model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Leagues of Votann"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Tactical Alchemy": {
         "keywords": {
@@ -2724,7 +3188,7 @@
             "value": 10
           }
         },
-        "text": "KÂHL model only. In your Command phase, if the bearer's unit is within range of one or more objective markers you control that are not within your deployment zone, you can spend 1YP. If you do, roll one D6: on a 4+, you gain 1CP."
+        "text": "**KÂHL** model only. In your Command phase, if the bearer’s unit is within range of one or more objective markers you control that are not within your deployment zone, you can spend 1YP. If you do, roll one D6: on a 4+, you gain 1CP."
       },
       "Enhancement§Trivärg Cyber Implant": {
         "keywords": {
@@ -2737,7 +3201,29 @@
             "value": 40
           }
         },
-        "text": "Leagues of Votann model only. In your Shooting phase, each time the bearer's unit is selected to shoot, if it disembarked from a TRANSPORT this turn, or if you spend 2YP, until the end of the phase, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 2] ability."
+        "text": "**LEAGUES OF VOTANN** model only. In your Shooting phase, each time the bearer’s unit is selected to shoot, if it disembarked from a **TRANSPORT** this turn, or if you spend 2YP, until the end of the phase, ranged weapons equipped by models in that unit have the **[SUSTAINED HITS 2]** ability.",
+        "rules": {
+          "LEAGUES OF VOTANN model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Leagues of Votann"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Enhancement§Writ of Acquisition": {
         "keywords": {
@@ -2750,7 +3236,29 @@
             "value": 10
           }
         },
-        "text": "Leagues of Votann model only. In your Shooting phase, after the bearer's unit has shot, you gain 1YP for each assailed enemy unit hit by one or more of those attacks (to a maximum of 3YP)."
+        "text": "**LEAGUES OF VOTANN** model only. In your Shooting phase, after the bearer’s unit has shot, you gain 1YP for each assailed enemy unit hit by one or more of those attacks (to a maximum of 3YP).",
+        "rules": {
+          "LEAGUES OF VOTANN model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Leagues of Votann"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        }
       },
       "Melee Weapon§Arkanyst Evaluator—Close combat weapon": {
         "aspects": {
@@ -7754,6 +8262,7 @@
       "Stratagem§Adaptable Avarice": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Persecution Prospect"
           ],
           "Category": [
@@ -7767,16 +8276,12 @@
             "Any"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Start of any phase, if units from your army have Fortify Takeover.\n\n**TARGET**: One LEAGUES OF VOTANN Character unit from your army.\n\n**EFFECT**: Each time you use this Stratagem, you can spend any number of YP. Once you have done so, if you have 6 or fewer YP, until the start of your next turn, units from your army have Hostile Acquisition instead."
+        "text": "**WHEN:** Start of any phase, if units from your army have Fortify Takeover.\n\n**TARGET:** One **LEAGUES OF VOTANN CHARACTER** unit from your army.\n\n**EFFECT:** Each time you use this Stratagem, you can spend any number of YP. Once you have done so, if you have 6 or fewer YP, until the start of your next turn, units from your army have Hostile Acquisition instead."
       },
       "Stratagem§Ancestral Sentence": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Needgaârd Oathband"
           ],
           "Category": [
@@ -7789,16 +8294,12 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One LEAGUES OF VOTANN unit from your army that has not been selected to Shoot this phase.\n\n**EFFECT**: Each time you use this Stratagem, you can spend 3YP. Until the end of the phase, ranged weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability. If you spent YP during this use of this stratagem, until the end of the phase, those weapons have the [SUSTAINED HITS 2] ability instead."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **LEAGUES OF VOTANN** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Each time you use this Stratagem, you can spend 3YP. Until the end of the phase, ranged weapons equipped by models in your unit have the **[SUSTAINED HITS 1]** ability. If you spent YP during this use of this Stratagem, until the end of the phase, those weapons have the **[SUSTAINED HITS 2]** ability instead."
       },
       "Stratagem§Augmented Assault": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Dêlve Assault Shift"
           ],
           "Category": [
@@ -7811,66 +8312,19 @@
             "Movement"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Movement phase.\n\n**TARGET**: One Cthonian Beserks unit from your army that has not been selected to move this phase.\n\n**EFFECT**: Each time you use this Stratagem, you can spend up to 2YP. Until the end of the turn, add X\" to the move characteristic of models in your unit, where X is the number of YP you spent during this use of this stratagem, and your unit is eligible to declare a charge in a turn in which it advanced."
+        "text": "**WHEN:** Your Movement phase.\n\n**TARGET:** One **CTHONIAN BESERKS** unit from your army that has not been selected to move this phase.\n\n**EFFECT:** Each time you use this Stratagem, you can spend up to 2YP. Until the end of the turn, add X\" to the Move characteristic of models in your unit, where X is the number of YP you spent during this use of this Stratagem, and your unit is eligible to declare a charge in a turn in which it Advanced."
       },
       "Stratagem§Auxiliary Contract": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Mercenary Oathband"
           ],
           "Category": [
             "Strategic Ploy"
           ],
           "Turn": [
-            "Yours"
-          ],
-          "Phase": [
-            "Shooting"
-          ]
-        },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One LEAGUES OF VOTANN INFANTRY unit from your army that has not been selected to shoot this phase.\n\n**EFFECT**: Each time you use this Stratagem, you can spend 3YP. Until the end of the phase, each time a model in your unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1. If you spent YP during this usage of this Stratagem, you can re-roll the Hit roll and re-roll a Wound roll of 1 instead."
-      },
-      "Stratagem§Bastion Running": {
-        "keywords": {
-          "Keywords": [
-            "Brandfast Oathband"
-          ],
-          "Category": [
-            "Battle Tactic"
-          ],
-          "Turn": [
-            "Yours"
-          ],
-          "Phase": [
-            "Movement"
-          ]
-        },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Movement phase.\n\n**TARGET**: One HEKATON LAND FORTRESS unit from your army that has not been selected to move this phase.\n\n**EFFECT**: Until the end of the phase, each time your unit makes a Normal or Advance move, it can move horizontally through terrain features."
-      },
-      "Stratagem§Brekkeknots": {
-        "keywords": {
-          "Keywords": [
-            "Hearthband"
-          ],
-          "Category": [
-            "Battle Tactic"
-          ],
-          "Turn": [
+            "Yours",
             "Opponent’s"
           ],
           "Phase": [
@@ -7878,11 +8332,50 @@
             "Shooting"
           ]
         },
-        "text": "**WHEN:** Your opponent’s Shooting phase or the\nFight phase, just after an enemy unit has selected\nits targets.\n\n**TARGET:** One **Kâhl, Ûthar the Destined** or **Einhyr\nHearthguard** unit from your army that was\nselected as the target of one or more of the attacking\nunit’s attacks.\n\n**EFFECT:** Until the end of the phase, models in your\nunit have a 4+ invulnerable save."
+        "text": "**WHEN:** Your Shooting phase or the Fight phase.\n\n**TARGET:** One **LEAGUES OF VOTANN INFANTRY** or **LEAGUES OF VOTANN MOUNTED** unit from your army that has not been selected to shoot or fight this phase.\n\n**EFFECT:** Until the end of the phase, weapons equipped by models in your unit have the **[PRECISION]** ability."
       },
-      "Stratagem§Claimstalker Reflex": {
+      "Stratagem§Bastion Running": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
+            "Brandfast Oathband"
+          ],
+          "Category": [
+            "Battle Tactic"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Movement"
+          ]
+        },
+        "text": "**WHEN:** Your Movement phase.\n\n**TARGET:** One **HEKATON LAND FORTRESS** unit from your army that has not been selected to move this phase.\n\n**EFFECT:** Until the end of the phase, each time your unit makes a Normal or Advance move, it can move horizontally through terrain features."
+      },
+      "Stratagem§Brëkkeknots": {
+        "keywords": {
+          "Keywords": [
+            "Leagues of Votann",
+            "Hearthguard Covenant"
+          ],
+          "Category": [
+            "Battle Tactic"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Fight",
+            "Shooting"
+          ]
+        },
+        "text": "**WHEN:** Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly **EINHYR HEARTHGUARD** unit.\n\n**TARGET:** That **EINHYR HEARTHGUARD** unit.\n\n**EFFECT:** Your unit has 4+ **InSv**."
+      },
+      "Stratagem§Claimstaker Reflex": {
+        "keywords": {
+          "Keywords": [
+            "Leagues of Votann",
             "Persecution Prospect"
           ],
           "Category": [
@@ -7895,16 +8388,12 @@
             "Movement"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\n**TARGET**: One LEAGUES OF VOTANN unit from your army (excluding Artillery and VEHICLE units) that is within 9\" of that enemy unit.\n\n**EFFECT**: Each time you use this Stratagem, you can spend 2YP. Your unit can make a Normal move of up to D6\". If you spent YP during this use of this Stratagem, your unit can make a Normal move of up to 6\" instead.\n\n**RESTRICTIONS**: A unit cannot embark within a TRANSPORT as part of this move."
+        "text": "**WHEN:** Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\n**TARGET:** One **LEAGUES OF VOTANN** unit from your army (excluding **ARTILLERY** and **VEHICLE** units) that is within 8\" of that enemy unit.\n\n**EFFECT:** Each time you use this Stratagem, you can spend 2YP. Your unit can make a Normal move of up to D6\". If you spent YP during this use of this Stratagem, your unit can make a Normal move of up to 6\" instead.\n\n**RESTRICTIONS:** A unit cannot embark within a **TRANSPORT** as part of this move."
       },
       "Stratagem§Cogitated Need": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Hearthfyre Arsenal"
           ],
           "Category": [
@@ -7917,38 +8406,31 @@
             "Movement"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: End of your opponent's Movement phase.\n\n**TARGET**: One Ironkin Steeljacks unit from your army.\n\n**EFFECT**: Your unit can make a Normal move. When doing so, your unit must end that move as close as possible to the closest objective marker."
+        "text": "**WHEN:** End of your opponent’s Movement phase.\n\n**TARGET:** One **IRONKIN STEELJACKS** unit from your army.\n\n**EFFECT:** Your unit can make a Normal move. When doing so, your unit must end that move as close as possible to the closest objective marker."
       },
       "Stratagem§Cyberstimm Infusion": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Dêlve Assault Shift"
           ],
           "Category": [
             "Battle Tactic"
           ],
           "Turn": [
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Phase": [
             "Fight"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Fight phase.\n\n**TARGET**: One Cthonian Beserks unit from your army that has not been selected to fight this phase.\n\n**EFFECT**: Each time you use this stratagem, you can spend 2YP. Until the end of the phase, each time a model in your unit makes an attack, re-roll a wound roll of 1. If you spent YP during this use of this stratagem, you can re-roll the wound roll instead."
+        "text": "**WHEN:** Fight phase.\n\n**TARGET:** One **CTHONIAN BESERKS** unit from your army that has not been selected to fight this phase.\n\n**EFFECT:** Each time you use this Stratagem, you can spend 2YP. Until the end of the phase, each time a model in your unit makes an attack, re-roll a Wound roll of 1. If you spent YP during this use of this Stratagem, you can re-roll the Wound roll instead."
       },
       "Stratagem§Delayed-fire Rounds": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Hearthfyre Arsenal"
           ],
           "Category": [
@@ -7961,16 +8443,12 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your shooting phase, just after a Brokhyr, Ironkin Steeljacks or Arkanyst Evaluator unit from your army has shot.\n\n**TARGET**: That Brokhyr, Ironkin Steeljacks or Arkanyst Evaluator unit.\n\n**EFFECT**: Select one enemy unit (excluding Monsters and Vehicles) hit by one or more of those attacks. Until the start of your next shooting phase, each time that enemy unit makes a normal, advance or fall back move, roll one D6 for each model in that unit for each 1, that unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
+        "text": "**WHEN:** Your Shooting phase, just after a **BRÔKHYR**, **IRONKIN STEELJACKS** or **ARKANYST EVALUATOR** unit from your army has shot.\n\n**TARGET:** That **BRÔKHYR**, **IRONKIN STEELJACKS** or **ARKANYST EVALUATOR** unit.\n\n**EFFECT:** Select one enemy unit (excluding **MONSTERS** and **VEHICLES**) hit by one or more of those attacks. Until the start of your next Shooting phase, each time that enemy unit makes a Normal, Advance or Fall Back move, roll one D6 for each model in that unit: for each 1, that unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
       },
       "Stratagem§Dispersed Formation": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Persecution Prospect"
           ],
           "Category": [
@@ -7983,16 +8461,12 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your opponent's Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One LEAGUES OF VOTANN INFANTRY or LEAGUES OF VOTANN MOUNTED unit from your army that was selected as the target of one or more of the attacking unit's attacks.\n\n**EFFECT**: Until the end of the phase, your unit has the Stealth ability and each time a ranged attack targets your unit, models in your unit have the benefit of cover against that attack."
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **LEAGUES OF VOTANN INFANTRY** or **LEAGUES OF VOTANN MOUNTED** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, your unit has the Stealth ability and each time a ranged attack targets your unit, models in your unit have the Benefit of Cover against that attack."
       },
       "Stratagem§Exposed Flaws": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Persecution Prospect"
           ],
           "Category": [
@@ -8005,16 +8479,12 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One HERNKYN unit from your army that has not been selected to shoot this phase.\n\n**EFFECT**: Each time you use this Stratagem, you can spend 2YP. Until the end of the phase, each time a model in your unit makes an attack, if you spent YP during this use of this Stratagem and/or if that attack targets an assailed unit, you can re-roll the Wound roll."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **HERNKYN** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Each time you use this Stratagem, you can spend 2YP. Until the end of the phase, each time a model in your unit makes an attack, if you spent YP during this use of this Stratagem and/or if that attack targets an assailed unit, you can re-roll the Wound roll."
       },
       "Stratagem§First Concern": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Hearthfyre Arsenal"
           ],
           "Category": [
@@ -8027,16 +8497,12 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your shooting phase, just after a Brokhyr, Ironkin Steeljacks or Arkanyst Evaluator unit from your army has shot.\n\n**TARGET**: That Brokhyr, Ironkin Steeljacks or Arkanyst Evaluator unit.\n\n**EFFECT**: If your unit remained stationary in your Movement phase this turn, it can make a Normal move."
+        "text": "**WHEN:** Your Shooting phase, just after a **BRÔKHYR**, **IRONKIN STEELJACKS** or **ARKANYST EVALUATOR** unit from your army has shot.\n\n**TARGET:** That **BRÔKHYR**, **IRONKIN STEELJACKS** or **ARKANYST EVALUATOR** unit.\n\n**EFFECT:** If your unit Remained Stationary in your Movement phase this turn, it can make a Normal move."
       },
       "Stratagem§Frontier Momentum": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Persecution Prospect"
           ],
           "Category": [
@@ -8049,17 +8515,13 @@
             "Movement"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Movement phase.\n\n**TARGET**: One HERNKYN unit from your army that has not been selected to move this phase.\n\n**EFFECT**: Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit."
+        "text": "**WHEN:** Your Movement phase.\n\n**TARGET:** One **HERNKYN** unit from your army that has not been selected to move this phase.\n\n**EFFECT:** Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit."
       },
       "Stratagem§Fury of the Hearth": {
         "keywords": {
           "Keywords": [
-            "Hearthband"
+            "Leagues of Votann",
+            "Hearthguard Covenant"
           ],
           "Category": [
             "Battle Tactic"
@@ -8071,11 +8533,12 @@
             "Shooting"
           ]
         },
-        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **Einhyr Hearthguard** unit from your\narmy that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, ranged weapons\n(excluding Blast weapons) equipped by models in\nyour unit have the **[RAPID FIRE 1]** ability."
+        "text": "**WHEN:** Your Shooting phase, when a friendly **EINHYR HEARTHGUARD** unit is **selected to shoot**.\n\n**TARGET:** That **EINHYR HEARTHGUARD** unit.\n\n**EFFECT:** Your unit’s ranged attacks have:\n\n- +1 **S**.\n\n- If you spend 1 **YP**, **[SUSTAINED HITS 1]**."
       },
       "Stratagem§Grand Artifice": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Mercenary Oathband"
           ],
           "Category": [
@@ -8088,16 +8551,12 @@
             "Movement"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Movement phase, just after a LEAGUES OF VOTANN unit from your army Falls Back.\n\n**TARGET**: That LEAGUES OF VOTANN unit.\n\n**EFFECT**: Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+        "text": "**WHEN:** Your Movement phase, just after a **LEAGUES OF VOTANN** unit from your army Falls Back.\n\n**TARGET:** That **LEAGUES OF VOTANN** unit.\n\n**EFFECT:** Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
       },
       "Stratagem§Hidden Accessways": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Dêlve Assault Shift"
           ],
           "Category": [
@@ -8110,38 +8569,31 @@
             "Fight"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: End of your opponent's Fight phase.\n\n**TARGET**: One Cthonian Beserks, Hearthkyn Warriors or Hernkyn Yaegirs unit from your army that is not within Engagement range of one or more enemy units.\n\n**EFFECT**: Remove your unit from the battlefield and place it into Strategic Reserves."
+        "text": "**WHEN:** End of your opponent’s Fight phase.\n\n**TARGET:** One **CTHONIAN BESERKS**, **HEARTHKYN WARRIORS** or **HERNKYN YAEGIRS** unit from your army that is not within Engagement Range of one or more enemy units.\n\n**EFFECT:** Remove your unit from the battlefield and place it into Strategic Reserves."
       },
       "Stratagem§Honour of the Hold": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Needgaârd Oathband"
           ],
           "Category": [
             "Battle Tactic"
           ],
           "Turn": [
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Phase": [
             "Fight"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Fight phase.\n\n**TARGET**: One LEAGUES OF VOTANN unit from your army that has not been selected to fight this phase.\n\n**EFFECT**: Each time you use this Stratagem you can spend 3YP. Select one enemy unit within Engagement range of your unit. Until the end of the phase, each time a model in your unit makes a melee attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. If you spent YP during this use of this Stratagem, improve the Armour Penetration characteristic of that attack by 2."
+        "text": "**WHEN:** Fight phase.\n\n**TARGET:** One **LEAGUES OF VOTANN** unit from your army that has not been selected to fight this phase.\n\n**EFFECT:** Each time you use this Stratagem, you can spend 3YP. Select one enemy unit within Engagement Range of your unit. Until the end of the phase, each time a model in your unit makes a melee attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. If you spent YP during this use of this Stratagem, improve the Armour Penetration characteristic of that attack by 2 instead."
       },
       "Stratagem§Hunter's Mark": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Needgaârd Oathband"
           ],
           "Category": [
@@ -8154,16 +8606,12 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One LEAGUES OF VOTANN unit from your army that has not been selected to Shoot this phase.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **LEAGUES OF VOTANN** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
       },
       "Stratagem§Illuminated Priority": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Brandfast Oathband"
           ],
           "Category": [
@@ -8176,16 +8624,12 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Shooting phase, just after a LEAGUES OF VOTANN VEHICLE unit from your army has shot.\n\n**TARGET**: That LEAGUES OF VOTANN VEHICLE unit.\n\n**EFFECT**: Select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a LEAGUES OF VOTANN INFANTRY model from your army makes an attack that targets that enemy unit, re-roll a Hit roll of 1."
+        "text": "**WHEN:** Your Shooting phase, just after a **LEAGUES OF VOTANN VEHICLE** unit from your army has shot.\n\n**TARGET:** That **LEAGUES OF VOTANN VEHICLE** unit.\n\n**EFFECT:** Select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a **LEAGUES OF VOTANN INFANTRY** model from your army makes an attack that targets that enemy unit, re-roll a Hit roll of 1."
       },
       "Stratagem§Inexorable Efficiency": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Brandfast Oathband"
           ],
           "Category": [
@@ -8198,17 +8642,13 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One LEAGUES OF VOTANN unit from your army.\n\n**EFFECT**: Until the end of the phase, your unit is eligible to shoot in a turn in which it Fell Back."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **LEAGUES OF VOTANN** unit from your army.\n\n**EFFECT:** Until the end of the phase, your unit is eligible to shoot in a turn in which it Fell Back."
       },
       "Stratagem§Materialisation Matrices": {
         "keywords": {
           "Keywords": [
-            "Hearthband"
+            "Leagues of Votann",
+            "Hearthguard Covenant"
           ],
           "Category": [
             "Strategic Ploy"
@@ -8220,11 +8660,12 @@
             "Movement"
           ]
         },
-        "text": "**WHEN:** The Reinforcements step of your\nMovement phase.\n\n**TARGET:** One **Leagues of Votann** unit from\nyour army that is in Reserves and has the Deep\nStrike ability.\n\nEFFECT: Until the end of the phase, when your unit is\nset up on the battlefield using the Deep Strike ability,\nit can be set up anywhere on the battlefield that is\nmore than 6\" horizontally away from all enemy units.\n\nRESTRICTIONS: Until the end of the turn, your unit is\nnot eligible to declare a charge."
+        "text": "**WHEN:** Your Movement phase, when a friendly **EINHYR HEARTHGUARD** unit with **Deep Strike** is selected to make an **ingress move**.\n\n**TARGET:** That **EINHYR HEARTHGUARD** unit.\n\n**EFFECT:** - Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally from all enemy units, even if that is within your opponent’s deployment zone.\n\n- Your unit is __not__ **eligible to declare a charge** until the end of the turn."
       },
       "Stratagem§Mobile Exploitation": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Mercenary Oathband"
           ],
           "Category": [
@@ -8237,16 +8678,12 @@
             "Fight"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: End of your opponent's Fight phase.\n\n**TARGET**: One HERNKYN unit from your army that is not within Engagement Range of one or more enemy units. Alternatively, you can spend 2YP and target up to two HERNKYN units from your army that are not within Engagement Range of one or more enemy units instead.\n\n**EFFECT**: Remove your units from the battlefield and place them into Strategic Reserves."
+        "text": "**WHEN:** End of your opponent’s Fight phase.\n\n**TARGET:** One **HERNKYN** unit from your army that is not within Engagement Range of one or more enemy units. Alternatively, you can spend 2YP and target up to two **HERNKYN** units from your army that are not within Engagement Range of one or more enemy units instead.\n\n**EFFECT:** Remove your units from the battlefield and place them into Strategic Reserves."
       },
       "Stratagem§New Horizons": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Mercenary Oathband"
           ],
           "Category": [
@@ -8259,12 +8696,7 @@
             "Fight"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: End of your opponent's Fight phase.\n\n**TARGET**: One LEAGUES OF VOTANN INFANTRY unit from your army that is not within Engagement range of one or more enemy units and one friendly TRANSPORT it is able to embark within.\n\n**EFFECT**: If your LEAGUES OF VOTANN unit is wholly within 6\" of that TRANSPORT, it can embark within it."
+        "text": "**WHEN:** End of your opponent’s Fight phase.\n\n**TARGET:** One **LEAGUES OF VOTANN INFANTRY** unit from your army that is not within Engagement range of one or more enemy units and one friendly **TRANSPORT** it is able to embark within\n\n**EFFECT:** If your **LEAGUES OF VOTANN** unit is wholly within 6\" of that **TRANSPORT**, it can embark within it."
       },
       "Stratagem§Newfound Nemesis": {
         "keywords": {
@@ -8288,6 +8720,7 @@
       "Stratagem§Opportunistic Escalation": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Brandfast Oathband"
           ],
           "Category": [
@@ -8300,16 +8733,12 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your opponent's Shooting phase, just after an enemy unit has shot, if units from your army have Hostile Acquisition.\n\n**TARGET**: One Leagues of Votann Vehicle unit from your army (excluding Hekaton Land Fortress units) that was hit by one or more of those attacks.\n\n**EFFECT**: Your unit can make a Normal move of up to D6\"."
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has shot, if units from your army have Hostile Acquisition.\n\n**TARGET:** One **LEAGUES OF VOTANN VEHICLE** unit from your army (excluding **HEKATON LAND FORTRESS** units) that was hit by one or more of those attacks.\n\n**EFFECT:** Your unit can make a Normal move of up to D6\"."
       },
       "Stratagem§Optimal Expenditure": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Mercenary Oathband"
           ],
           "Category": [
@@ -8323,16 +8752,12 @@
             "Fight"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: The Fight phase.\n\n**TARGET**: One LEAGUES OF VOTANN INFANTRY unit from your army that has not been selected to fight this phase.\n\n**EFFECT**: Each time you use this Stratagem, you can spend 3YP. Until the end of the phase, each time a model in your unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1. If you spent YP during this usage of this Stratagem, you can re-roll a Hit roll of 1 and re-roll the Wound roll instead."
+        "text": "**WHEN:** The Fight phase\n\n**TARGET:** One **LEAGUES OF VOTANN INFANTRY** unit from your army that has not been selected to fight this phase.\n\n**EFFECT:** Each time you use this Stratagem, you can spend 3YP. Until the end of the phase, each time a model in your unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1. If you spent YP during this usage of this Stratagem, you can re-roll a Hit roll of 1 and re-roll the Wound roll instead."
       },
       "Stratagem§Ordered Retreat": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Needgaârd Oathband"
           ],
           "Category": [
@@ -8345,16 +8770,12 @@
             "Movement"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Movement phase, just after a LEAGUES OF VOTANN unit from your army Falls Back.\n\n**TARGET**: That LEAGUES OF VOTANN unit.\n\n**EFFECT**: Until the end of the turn, your unit is eligible to Shoot and declare a Charge in a turn in which it Fell Back."
+        "text": "**WHEN:** Your Movement phase, just after a **LEAGUES OF VOTANN** unit from your army Falls Back.\n\n**TARGET:** That **LEAGUES OF VOTANN** unit.\n\n**EFFECT:** Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
       },
       "Stratagem§Preventative Purge": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Hearthfyre Arsenal"
           ],
           "Category": [
@@ -8367,40 +8788,30 @@
             "Movement"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your opponent's Movement phase, just after an enemy unit ends a Fall Back move.\n\n**TARGET**: One Brokhyr Thunderkyn or Ironkin Steeljacks unit from your army.\n\n**EFFECT**: Your unit can shoot as if it were your Shooting phase. When doing so, models in your unit can only target that enemy unit (and only if it is an eligible) and each time a model in your unit makes an attack, subtract 1 from the Hit roll."
+        "text": "**WHEN:** Your opponent’s Movement phase, just after an enemy unit ends a Fall Back move.\n\n**TARGET:** One **BRÔKHYR THUNDERKYN** or **IRONKIN STEELJACKS** unit from your army.\n\n**EFFECT:** Your unit can shoot as if it were your Shooting phase. When doing so, models in your unit can only target that enemy unit (and only if it is an eligible target) and each time a model in your unit makes an attack, subtract 1 from the Hit roll."
       },
       "Stratagem§Privateer Arsenal": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Mercenary Oathband"
           ],
           "Category": [
             "Wargear"
           ],
           "Turn": [
-            "Yours",
-            "Opponent’s"
+            "Yours"
           ],
           "Phase": [
-            "Shooting",
-            "Fight"
+            "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Shooting phase or the Fight phase.\n\n**TARGET**: One LEAGUES OF VOTANN INFANTRY or LEAGUES OF VOTANN MOUNTED unit from your army that has not been selected to shoot or fight this phase.\n\n**EFFECT**: Until the end of the phase, weapons equipped by models in your unit have the [PRECISION] ability."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **LEAGUES OF VOTANN INFANTRY** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Each time you use this Stratagem, you can spend 3YP. Until the end of the phase, each time a model in your unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1. If you spent YP during this usage of this Stratagem, you can re-roll the Hit roll and re-roll a Wound roll of 1 instead."
       },
       "Stratagem§Ranger Tactics": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Persecution Prospect"
           ],
           "Category": [
@@ -8413,16 +8824,12 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One LEAGUES OF VOTANN unit from your army that has not been selected to shoot this phase.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes an attack that targets an assailed unit and/or if your unit has the HERNKYN keyword, you can re-roll the Hit roll."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **LEAGUES OF VOTANN** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack, if that attack targets an assailed unit and/or if your unit has the **HERNKYN** keyword, you can re-roll the Hit roll."
       },
       "Stratagem§Reactive Reprisal": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Needgaârd Oathband"
           ],
           "Category": [
@@ -8440,34 +8847,34 @@
             "value": 2
           }
         },
-        "text": "**WHEN**: Your opponent's shooting phase, just after an enemy unit has shot, if units from your army have Fortify takeover.\n\n**TARGET**: One LEAGUES OF VOTANN unit from your army that was selected as the target of one or more of the attacking unit's attacks.\n\n**EFFECT**: Your unit can Shoot as if it were your shooting phase, and can target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target."
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has shot, if units from your army have Fortify Takeover.\n\n**TARGET:** One **LEAGUES OF VOTANN** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Your unit can shoot as if it were your Shooting phase, can only target that enemy unit when doing so, and can only do so if that enemy unit is an eligible target."
       },
       "Stratagem§Secure Positions": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Brandfast Oathband"
           ],
           "Category": [
             "Strategic Ploy"
           ],
           "Turn": [
-            "Yours",
-            "Opponent’s"
+            "Yours"
           ],
           "Phase": [
-            "Any"
+            "Charge",
+            "Command",
+            "Fight",
+            "Movement",
+            "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: End of any of your phases.\n\n**TARGET**: One LEAGUES OF VOTANN transport unit from your army.\n\n**EFFECT**: One LEAGUES OF VOTANN unit embarked within your TRANSPORT can disembark. When doing so, models in that unit can be set up anywhere on the battlefield wholly within 6\" of your TRANSPORT."
+        "text": "**WHEN:** End of any of your phases.\n\n**TARGET:** One **LEAGUES OF VOTANN TRANSPORT** unit from your army.\n\n**EFFECT:** One **LEAGUES OF VOTANN** unit embarked within your **TRANSPORT** can disembark. When doing so, models in that unit can be set up anywhere on the battlefield wholly within 6\" of your **TRANSPORT**. That unit cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn."
       },
       "Stratagem§Superior Craftsmanship": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Hearthband"
           ],
           "Category": [
@@ -8475,6 +8882,10 @@
           ],
           "Phase": [
             "Fight"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
           ]
         },
         "stats": {
@@ -8482,11 +8893,12 @@
             "value": 2
           }
         },
-        "text": "**WHEN:** Fight phase.\n\n**TARGET:** One **Leagues of Votann** unit from your\narmy that has not been selected to fight this phase.\n\n**EFFECT:** Until the end of the phase, each time a\nmodel in your unit makes an attack that targets\na Monster or Vehicle unit, add 1 to the Damage\ncharacteristic of that attack."
+        "text": "**WHEN:** Fight phase.\n\n**TARGET:** One **LEAGUES OF VOTANN** unit from your army that has not been selected to fight this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack that targets a **MONSTER** or **VEHICLE** unit, add 1 to the Damage characteristic of that attack."
       },
       "Stratagem§Sure of Purpose": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Hearthband"
           ],
           "Category": [
@@ -8494,13 +8906,18 @@
           ],
           "Phase": [
             "Fight"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
           ]
         },
-        "text": "**WHEN:** Fight phase.\n\n**TARGET:** One **Leagues of Votann** unit from your\narmy that has not been selected to fight this phase.\n\nEFFECT: Until the end of the phase, each time a\nmodel in your unit makes a Pile‑in or Consolidation\nmove, it can move up to 6\" instead of up to 3\"."
+        "text": "**WHEN:** Fight phase.\n\n**TARGET:** One **LEAGUES OF VOTANN** unit from your army that has not been selected to fight this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\"."
       },
       "Stratagem§Tectonic Fracture": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Dêlve Assault Shift"
           ],
           "Category": [
@@ -8513,38 +8930,31 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Shooting phase, just after a Cthonian Earthshakers unit from your army has shot.\n\n**TARGET**: That Cthonian Earthshakers unit.\n\n**EFFECT**: Each time you use this stratagem, you can spend 2 YP. Select one enemy unit hit by one or more of your unit's attacks this phase. Until the start of your next shooting phase, subtract 2 from that unit's move characteristic and, if you spent YP during this use of this stratagem, subtract 2 from charge rolls made for that unit."
+        "text": "**WHEN:** Your Shooting phase, just after a **CTHONIAN EARTHSHAKERS** unit from your army has shot.\n\n**TARGET:** That **CTHONIAN EARTHSHAKERS** unit.\n\n**EFFECT:** Each time you use this Stratagem, you can spend 2YP. Select one enemy unit hit by one or more of your unit’s attacks this phase. Until the start of your next Shooting phase, subtract 2 from that unit’s Move characteristic and, if you spent YP during this use of this Stratagem, subtract 2 from Charge rolls made for that unit."
       },
       "Stratagem§Unstoppable Force": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Dêlve Assault Shift"
           ],
           "Category": [
             "Strategic Ploy"
           ],
           "Turn": [
-            "Yours"
+            "Yours",
+            "Opponent’s"
           ],
           "Phase": [
             "Fight"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Fight phase.\n\n**TARGET**: One LEAGUES OF VOTANN unit from your army that has not been selected to fight this phase.\n\n**EFFECT**: Each time your unit Piles In or Consolidates, each model in that unit can move up to 6\" instead of up to 3\"."
+        "text": "**WHEN:** Fight phase.\n\n**TARGET:** One **LEAGUES OF VOTANN** unit from your army that has not been selected to fight this phase.\n\n**EFFECT:** Until the end of the phase, each time your unit Piles In or Consolidates, each model in that unit can move up to 6\" instead of up to 3\"."
       },
       "Stratagem§Unwavering Accuracy": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Hearthfyre Arsenal"
           ],
           "Category": [
@@ -8562,11 +8972,12 @@
             "value": 2
           }
         },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One Brokhyr Thudnerkyn unit from your army that has not been selected to shoot this phase.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes an attack, you can ignore any or all modifiers to the following: that attack's Ballistic Skill characteristic; the hit roll; the wound roll; that attack's Armour Penetration characteristic."
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **BRÔKHYR THUNDERKYN** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack, you can ignore any or all modifiers to the following: that attack’s Ballistic Skill characteristic; the Hit roll; the Wound roll; that attack’s Armour Penetration characteristic."
       },
       "Stratagem§Unyielding Aggression": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Hearthband"
           ],
           "Category": [
@@ -8579,11 +8990,12 @@
             "Movement"
           ]
         },
-        "text": "**WHEN:** Your Movement phase, just after a **Leagues\nof Votann Infantry** unit from your army Falls Back.\n\n**TARGET:** That **Leagues of Votann Infantry** unit.\n\n**EFFECT:** Until the end of the turn, your unit is eligible\nto shoot and declare a charge in a turn in which it\nFell Back."
+        "text": "**WHEN:** Your Movement phase, just after a **LEAGUES OF VOTANN INFANTRY** unit from your army Falls Back.\n\n**TARGET:** That **LEAGUES OF VOTANN INFANTRY** unit.\n\n**EFFECT:** Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
       },
       "Stratagem§Vengeance Flare": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Brandfast Oathband"
           ],
           "Category": [
@@ -8601,7 +9013,7 @@
             "value": 2
           }
         },
-        "text": "**WHEN**: Your opponent's Shooting phase, just after an enemy unit has shot.\n\n**TARGET**: One LEAGUES OF VOTANN INFANTRY unit that was hit by one or more of those attacks.\n\n**EFFECT**: Each time you use this Stratagem, you can spend 2YP to select one friendly KÂHL or E-COG unit within 6\" of your INFANTRY unit. If you spent YP during this use of this Stratagem, you can select one friendly HEKATON LAND FORTRESS unit within 6\" of your INFANTRY unit instead. The selected unit can shoot as if it were your Shooting phase. When doing so, models in the selected unit can only target that enemy unit (and only if it is an eligible target)."
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has shot.\n\n**TARGET:** One **LEAGUES OF VOTANN INFANTRY** unit that was hit by one or more of those attacks.\n\n**EFFECT:** Each time you use this Stratagem, you can spend 2YP. Select one friendly **KAPRICUS** or **SAGITAUR** unit within 6\" of your **INFANTRY** unit. If you spent YP during this use of this Stratagem, you can select one friendly **HEKATON LAND FORTRESS** unit within 6\" of your **INFANTRY** unit instead. The selected unit can shoot as if it were your Shooting phase. When doing so, models in the selected unit can only target that enemy unit (and only if it is an eligible target)."
       },
       "Stratagem§Void Armour": {
         "keywords": {
@@ -8625,27 +9037,27 @@
       "Stratagem§Void Hardened": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Needgaârd Oathband"
           ],
-          "Category": [],
+          "Category": [
+            "Wargear"
+          ],
           "Turn": [
+            "Yours",
             "Opponent’s"
           ],
           "Phase": [
-            "Shooting",
-            "Fight"
+            "Fight",
+            "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your opponent's Shooting Phase or the Fight Phase, just after an enemy unit has selected its targets, if units from your army have Fortify Takeover. \n\n**TARGET**: One LEAGUES OF VOTANN unit from your army that was selected as the target of one or more of the attacking unit's attacks. \n\n**EFFECT**: Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1. "
+        "text": "**WHEN:** Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets, if units from your army have Fortify Takeover.\n\n**TARGET:** One **LEAGUES OF VOTANN** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
       },
       "Stratagem§Wall of Steel": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Hearthfyre Arsenal"
           ],
           "Category": [
@@ -8658,12 +9070,7 @@
             "Charge"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your Charge phase, just after an Ironkin Steeljacks unit from your army ends a Charge move.\n\n**TARGET**: That Ironkin Steeljacks unit.\n\n**EFFECT**: Each time you use this Stratagem, you can spend 2YP. Select one enemy unit (excluding Monsters and Vehicles) within Engagement range of your unit and roll one D6 for each model in your unit, rolling two additional D6 if you spent YP during this use of this Stratagem: for each 4+, that enemy unit suffers 1 Mortal Wound (to a maximum of 6 Mortal Wounds)."
+        "text": "**WHEN:** Your Charge phase, just after an **IRONKIN STEELJACKS** unit from your army ends a Charge move.\n\n**TARGET:** That **IRONKIN STEELJACKS** unit.\n\n**EFFECT:** Each time you use this Stratagem, you can spend 2YP. Select one enemy unit (excluding **MONSTERS** and **VEHICLES**) within Engagement Range of your unit and roll one D6 for each model in your unit, rolling two additional D6 if you spent YP during this use of this Stratagem: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
       },
       "Stratagem§Warrior Pride": {
         "keywords": {
@@ -8687,6 +9094,7 @@
       "Stratagem§Weavewurke Buttress": {
         "keywords": {
           "Keywords": [
+            "Leagues of Votann",
             "Dêlve Assault Shift"
           ],
           "Category": [
@@ -8699,12 +9107,7 @@
             "Shooting"
           ]
         },
-        "stats": {
-          "Command Cost": {
-            "value": 1
-          }
-        },
-        "text": "**WHEN**: Your opponent's Shooting phase, just after an enemy unit that has selected its targets, if units from your army have Hostile Acquisition.\n\n**TARGET**: One LEAGUES OF VOTANN Infantry unit from your army that was selected as the target of one or more of the attacking unit's attacks.\n\n**EFFECT**: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Wound roll."
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has selected its targets, if units from your army have Hostile Acquisition.\n\n**TARGET:** One **LEAGUES OF VOTANN INFANTRY** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, each time an attack targets your unit, subtract 1 from the Wound roll."
       },
       "Unit§Brôkhyr Thunderkyn": {
         "allowed": {
@@ -10480,6 +10883,97 @@
           "Label": "Weavefield Crest"
         },
         "text": "Models in the bearer's unit have a 5+ Invulnerable save."
+      },
+      "Stratagem§No Shot Wasted": {
+        "text": "**WHEN:** Your Shooting phase, when a friendly **HERNKYN** unit is **selected to shoot**.\n\n**TARGET:** That **HERNKYN** unit.\n\n**EFFECT:** Your unit’s ranged attacks have **[LETHAL HITS]**.",
+        "keywords": {
+          "Keywords": [
+            "Leagues of Votann",
+            "Farseekers"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        }
+      },
+      "Stratagem§Economy of Motion": {
+        "text": "**WHEN:** Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly **unengaged** **PIONEERS** unit.\n\n**TARGET:** That **PIONEERS** unit.\n\n**EFFECT:** Your unit can make a **normal move** of up to D3+3\".",
+        "keywords": {
+          "Keywords": [
+            "Leagues of Votann",
+            "Farseekers"
+          ],
+          "Turn": [
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Movement"
+          ]
+        }
+      },
+      "Stratagem§Scornful Analysis": {
+        "text": "**WHEN:** Start of your Shooting phase.\n\n**TARGET:** One friendly **HERNKYN** unit.\n\n**EFFECT:** Select one **visible** enemy unit within 12\" of your unit. Friendly **LEAGUES OF VOTANN** units’ attacks that target that enemy unit have **[IGNORES COVER]**.",
+        "keywords": {
+          "Keywords": [
+            "Leagues of Votann",
+            "Farseekers"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        }
+      },
+      "Stratagem§Coordinated Crossfire": {
+        "text": "**WHEN:** Start of your Shooting phase.\n\n**TARGET:** Up to two friendly **SAGITAUR** units.\n\n**EFFECT:** Select one enemy unit. Your units’ ranged attacks that target that enemy unit can:\n\n- Re-roll **hit rolls** of 1.\n\n- Re-roll **wound rolls** of 1.",
+        "keywords": {
+          "Keywords": [
+            "Leagues of Votann",
+            "Armoured Trailblazers"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        }
+      },
+      "Stratagem§Outflanking Armour": {
+        "text": "**WHEN:** End of your opponent’s Movement phase, from the second battle round onwards.\n\n**TARGET:** Up to two friendly **SAGITAUR** units in **strategic reserves**.\n\n**EFFECT:** Your units each make an **ingress move**.",
+        "keywords": {
+          "Keywords": [
+            "Leagues of Votann",
+            "Armoured Trailblazers"
+          ],
+          "Turn": [
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Movement"
+          ]
+        }
+      },
+      "Stratagem§Built To Last": {
+        "text": "**WHEN:** Your opponent’s Shooting phase, when an enemy unit targets a friendly **SAGITAUR** unit.\n\n**TARGET:** That **SAGITAUR** unit.\n\n**EFFECT:** Ranged attacks that target your unit with a **S** greater than your unit’s **T** have -1 to **wound rolls**.",
+        "keywords": {
+          "Keywords": [
+            "Leagues of Votann",
+            "Armoured Trailblazers"
+          ],
+          "Turn": [
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Fight",
+            "Shooting"
+          ]
+        }
       }
     },
     "gameModes": {},
