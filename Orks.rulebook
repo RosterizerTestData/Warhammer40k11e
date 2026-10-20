@@ -1,6 +1,6 @@
 {
   "name": "Orks 11e",
-  "revision": "11.1.11",
+  "revision": "11.1.12",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -21270,6 +21270,38 @@
                     "trait": "Detachment§Madcap Meks"
                   }
                 ]
+              },
+              "More Dakka!": {
+                "order": 8,
+                "traits": [
+                  {
+                    "trait": "Detachment§More Dakka!"
+                  }
+                ]
+              },
+              "Freebooter Krew": {
+                "order": 9,
+                "traits": [
+                  {
+                    "trait": "Detachment§Freebooter Krew"
+                  }
+                ]
+              },
+              "Speedwaaagh!": {
+                "order": 10,
+                "traits": [
+                  {
+                    "trait": "Detachment§Speedwaaagh!"
+                  }
+                ]
+              },
+              "Rollin’ Deff": {
+                "order": 12,
+                "traits": [
+                  {
+                    "trait": "Detachment§Rollin’ Deff"
+                  }
+                ]
               }
             }
           },
@@ -21285,6 +21317,83 @@
           "Faction Group": {
             "dynamic": false,
             "value": "Xenos"
+          }
+        },
+        "rules": {
+          "hideLegendsDetachments (Orks)": {
+            "evals": [
+              {
+                "actionable": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Legends",
+                    "value"
+                  ]
+                ],
+                "value": "-"
+              }
+            ],
+            "actions": [
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Freebooter Krew"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "More Dakka!"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Rollin’ Deff"
+              },
+              {
+                "actionType": "remove",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Detachment",
+                    "ranks"
+                  ]
+                ],
+                "value": "Speedwaaagh!"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 9
           }
         }
       },
@@ -39399,6 +39508,1200 @@
       },
       "Ability§Unstable Energies": {
         "text": "**ORKS PSYKER** units with this ability have a **psyker level** of 1 or higher, specified in that unit's abilities. Each **psychic ability** has a **psychic level** of 1 or higher, specified in that ability's name.\nIn a battle round, a friendly **ORKS PSYKER** unit can use a number of **psychic abilities** whose total **psychic level** does not exceed that **PSYKER** unit's **psyker level**.\nExample: In a battle round, a **psyker level 3** **PSYKER** unit could use three **psychic level 1**abilities, or one **psychic level 1** ability and one **psychic level 2** ability, or one **psychic level 3** ability."
+      },
+      "Detachment§More Dakka!": {
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ],
+          "Source": [
+            "Legends"
+          ]
+        },
+        "rules": {
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Long, Uncontrolled Bursts"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Speshul Shells"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Call Dat Dakka?"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "**DAKKA! DAKKA! DAKKA!**\n\n- Friendly **Orks Infantry** units’ ranged attacks have **[Assault]**.\n\n- In your Shooting phase, if the Waaagh! is active for your army, friendly **Orks Infantry** units’ ranged attacks have **[Sustained Hits 1]**."
+      },
+      "Enhancement§Dead Shiny Shootas (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "More Dakka!"
+          ],
+          "Tags": [
+            "Upgrade"
+          ]
+        },
+        "rules": {
+          "Orks Infantry unit only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Orks"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Infantry"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "**Orks Infantry** unit only. This unit’s ranged attacks have:\n\n- **[Rapid Fire 1]**.\n\n- __Or:__ If that attack already has **[Rapid Fire]**, +1 to the value of that **[Rapid Fire]** (e.g. **[Rapid Fire 1]** becomes **[Rapid Fire 2]**).",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
+      },
+      "Stratagem§Speshul Shells": {
+        "keywords": {
+          "Category": [
+            "Wargear"
+          ],
+          "Keywords": [
+            "More Dakka!"
+          ],
+          "Phase": [
+            "Shooting"
+          ],
+          "Turn": [
+            "Yours"
+          ]
+        },
+        "text": "**WHEN:** Your Shooting phase, when a friendly **Orks Infantry** unit is **selected to shoot**.\n\n**TARGET:** That **Orks Infantry** unit.\n\n**EFFECT:** Your unit’s ranged attacks that target a unit within 9\" have +1 **AP**."
+      },
+      "Stratagem§Call Dat Dakka?": {
+        "keywords": {
+          "Category": [
+            "Strategic Ploy"
+          ],
+          "Keywords": [
+            "More Dakka!"
+          ],
+          "Phase": [
+            "Shooting"
+          ],
+          "Turn": [
+            "Opponent’s"
+          ]
+        },
+        "text": "**WHEN:** Your opponent’s Shooting phase, when an enemy unit that targeted a friendly **Orks Infantry** unit has shot.\n\n**TARGET:** That **Orks Infantry** unit.\n\n**EFFECT:** Your unit shoots using **snap shooting**, but while doing so your unit can only target that enemy unit."
+      },
+      "Detachment§Freebooter Krew": {
+        "keywords": {
+          "Keywords": [
+            "Freebooter Krew"
+          ],
+          "Role": [
+            "Take And Hold"
+          ],
+          "Source": [
+            "Legends"
+          ]
+        },
+        "rules": {
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Krump and Run"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Rolling Loot-Heap"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Deck Fraggers"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Boardin' Rush"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Grab and Bash"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Bash and Grab"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
+        "text": "## HERE BE LOOT\n\nAt the start of your Command phase,\nselect one objective marker. Until the\nstart of your next Command phase, that\nobjective marker is your loot objective.\n\nEach time a model in an Orks Infantry, Orks Mounted or Orks Walker unit from your army makes an attack, that attack has the [SUSTAINED HITS 1] ability if either or both of the following are true:\n\n■ That model’s unit is within range of\nyour loot objective.\n\n■ That attack targets a unit within range\nof your loot objective."
+      },
+      "Enhancement§Bionik Workshop": {
+        "keywords": {
+          "Keywords": [
+            "Freebooter Krew"
+          ]
+        },
+        "rules": {
+          "Big Mek or Painboy model only": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Big Mek"
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Painboy"
+              }
+            ],
+            "evaluate": "OR",
+            "failState": "error"
+          }
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "**BIG MEK** or **PAINBOY** model only. At the start of the battle, roll one D3 and compare the result to the list below. Until the end of the battle, models in the bearer's unit have that bioniks ability.\n1. **Bionik Legs**: Add 2\" to the Move characteristic of this model.\n2. **Bionik Arms**: Add 1 to the Strength characteristic of melee weapons equipped by this model.\n3. **Bionik Bonce**: Improve the Weapon Skill characteristic of melee weapons equipped by this model by 1."
+      },
+      "Enhancement§Da Kaptin": {
+        "keywords": {
+          "Keywords": [
+            "Freebooter Krew"
+          ]
+        },
+        "rules": {
+          "Warboss model only": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Warboss"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "text": "**WARBOSS** model only. Once per battle round, at the start of any phase, you can select one friendly **ORKS** unit that is Battle-shocked and within 12\" of the bearer. That unit suffers D3 mortal wounds and it is no longer Battle-shocked."
+      },
+      "Enhancement§Git-Spotter Squig": {
+        "keywords": {
+          "Keywords": [
+            "Freebooter Krew"
+          ]
+        },
+        "rules": {
+          "apply": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{parent}",
+                    "assets",
+                    "classification",
+                    "Ranged Weapon",
+                    "traits"
+                  ],
+                  [
+                    "{parent}",
+                    "assets",
+                    "classIdentity",
+                    "Weapon",
+                    "assets",
+                    "classification",
+                    "Ranged Weapon",
+                    "traits"
+                  ],
+                  [
+                    "{parent}",
+                    "{parent}",
+                    "assets",
+                    "classification",
+                    "Ranged Weapon",
+                    "traits"
+                  ],
+                  [
+                    "{parent}",
+                    "{parent}",
+                    "assets",
+                    "classIdentity",
+                    "Weapon",
+                    "assets",
+                    "classification",
+                    "Ranged Weapon",
+                    "traits"
+                  ]
+                ],
+                "value": "Ability§Ignores Cover"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 90
+          }
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "**ORKS** model only. Ranged weapons equipped by models in the bearer's unit have the **[IGNORES COVER]** ability."
+      },
+      "Enhancement§Razgit’s Magik Map": {
+        "keywords": {
+          "Keywords": [
+            "Freebooter Krew"
+          ]
+        },
+        "rules": {
+          "Orks model only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Faction"
+                  ]
+                ],
+                "value": "Orks"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "**ORKS** model only. After both players have deployed their armies, select up to three **ORKS INFANTRY** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+      },
+      "Stratagem§Krump and Run": {
+        "keywords": {
+          "Keywords": [
+            "Freebooter Krew"
+          ],
+          "Category": [
+            "Strategic Ploy"
+          ],
+          "Turn": [
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Movement"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 1
+          }
+        },
+        "text": "**WHEN:** Your opponent’s Movement phase, just after an enemy unit falls back.\n\n**TARGET:** One **ORKS** unit from your army that was within engagement range of that enemy unit at the start of the phase and is not within range of one or more enemy units.\n\n**EFFECT:** Your unit can make a Normal move of up to 6\"."
+      },
+      "Stratagem§Rolling Loot-Heap": {
+        "keywords": {
+          "Keywords": [
+            "Freebooter Krew"
+          ],
+          "Category": [
+            "Strategic Ploy"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 1
+          }
+        },
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **FLASH GITZ** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, ranged weapons equipped by models in your unit have the **[ANTI-VEHICLE 4+]** ability."
+      },
+      "Stratagem§Deck Fraggers": {
+        "keywords": {
+          "Keywords": [
+            "Freebooter Krew"
+          ],
+          "Category": [
+            "Strategic Ploy"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 1
+          }
+        },
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **ORKS** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit targets an **INFANTRY** unit with a ranged weapon, that weapon has the **[BLAST]** ability."
+      },
+      "Stratagem§Boardin' Rush": {
+        "keywords": {
+          "Keywords": [
+            "Freebooter Krew"
+          ],
+          "Category": [
+            "Battle Tactic"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Movement"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 1
+          }
+        },
+        "text": "**WHEN:** Your Movement phase.\n\n**TARGET:** One **ORKS** unit from your army that has not been selected to move this phase.\n\n**EFFECT:** Until the end of the phase, each time your unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit."
+      },
+      "Stratagem§Grab and Bash": {
+        "keywords": {
+          "Keywords": [
+            "Freebooter Krew"
+          ],
+          "Category": [
+            "Strategic Ploy"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Command"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 1
+          }
+        },
+        "text": "**WHEN:** Your Command phase.\n\n**TARGET:** One **ORKS** unit from your army (excluding **GRETCHIN** units) that is within range of the loot objective.\n\n**EFFECT:** Until the start of your next Command phase, the Waaagh! is active for your unit, even if you have already called a Waaagh! this battle.\n\n**Designer’s Note:** *This means that any abilities that are in effect while the Waaagh! is active for your army will be in effect for your unit.*"
+      },
+      "Stratagem§Bash and Grab": {
+        "keywords": {
+          "Keywords": [
+            "Freebooter Krew"
+          ],
+          "Category": [
+            "Battle Tactic"
+          ],
+          "Turn": [
+            "Yours",
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Fight"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 1
+          }
+        },
+        "text": "**WHEN:** The Fight phase.\n\n**TARGET:** One **ORKS** unit from your army that has not been selected to fight this phase.\n\n**EFFECT:** Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit within range of the loot objective, you can re-roll the Wound roll."
+      },
+      "Detachment§Speedwaaagh!": {
+        "keywords": {
+          "Role": [
+            "Reconnaissance"
+          ],
+          "Source": [
+            "Legends"
+          ]
+        },
+        "rules": {
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Evasive Manoova"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Dust Trails"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Ded Killy Construction"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Speshul Ammo"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Mobile Dakkastorm"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§On Da Move"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
+        "text": "## TURBO BOOSTAS\n\nEach time a Speed Freeks or Trukk unit (excluding Aircraft) from your army Advances, it can use its turbo. If it does, do not make an Advance roll for it; instead, until the end of the phase, models in that unit have a Move characteristic of 24\" but can only move in one straight line, and until the end of the turn, ranged weapons equipped by those models have the [ASSAULT] ability and that unit cannot declare a charge.\n\nDesigner’s Note: When a unit uses its turbo, the models in that unit cannot pivot, and they cannot make a move of two or more straight lines (e.g. to navigate around obstacles). That unit also cannot declare a charge, even if another rule would let it declare a charge in a turn in which it Advanced."
+      },
+      "Enhancement§Dakkamek": {
+        "keywords": {
+          "Keywords": [
+            "Speedwaaagh!"
+          ]
+        },
+        "rules": {
+          "Mek model only": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Mek"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        },
+        "stats": {
+          "Points": {
+            "value": 25
+          }
+        },
+        "text": "**MEK** model only. Each time the bearer uses its Mekaniak ability, until the start of your next Command phase, ranged weapons equipped by the selected **VEHICLE** model have the **[RAPID FIRE 1]** ability."
+      },
+      "Enhancement§Kustom Shokk Box": {
+        "keywords": {
+          "Keywords": [
+            "Speedwaaagh!"
+          ]
+        },
+        "rules": {
+          "Deffkilla Wartrike model only": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Deffkilla Wartrike"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "text": "**DEFFKILLA WARTRIKE** model only. Each time the bearer uses its turbo, its unit can move horizontally through terrain features."
+      },
+      "Enhancement§Master Meknologist": {
+        "keywords": {
+          "Keywords": [
+            "Speedwaaagh!"
+          ]
+        },
+        "rules": {
+          "apply": {
+            "actions": [
+              {
+                "actionType": "modify",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{parent}",
+                    "assets",
+                    "classification",
+                    "Ranged Weapon",
+                    "stats",
+                    "BS",
+                    "value"
+                  ],
+                  [
+                    "{parent}",
+                    "assets",
+                    "classIdentity",
+                    "Weapon",
+                    "assets",
+                    "classification",
+                    "Ranged Weapon",
+                    "stats",
+                    "BS",
+                    "value"
+                  ]
+                ],
+                "value": -1
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 999
+          },
+          "Big Mek model only": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Big Mek"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        },
+        "stats": {
+          "Points": {
+            "value": 20
+          }
+        },
+        "text": "**BIG MEK** model only. Improve the Ballistic Skill characteristic of the bearer's ranged weapons by 1."
+      },
+      "Enhancement§Supa-Burny Fuel": {
+        "keywords": {
+          "Keywords": [
+            "Speedwaaagh!"
+          ]
+        },
+        "rules": {
+          "Deffkilla Wartrike model only": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Deffkilla Wartrike"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        },
+        "stats": {
+          "Points": {
+            "value": 15
+          }
+        },
+        "text": "**DEFFKILLA WARTRIKE** model only. Change the Attacks characteristic of the bearer's killa jet - burna weapon to 3D6, and change the Attacks characteristic of the bearer's killa jet cutta weapon to 3."
+      },
+      "Stratagem§Evasive Manoova": {
+        "keywords": {
+          "Keywords": [
+            "Speedwaaagh!"
+          ],
+          "Category": [
+            "Strategic Ploy"
+          ],
+          "Turn": [
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Fight"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 1
+          }
+        },
+        "text": "**WHEN:** End of your opponent’s Fight phase.\n\n**TARGET:** **SPEED FREEKS** or **TRUKK** unit from your army that is not within Engagement Range of one or more enemy units.\n\n**EFFECT:** Remove your unit from the battlefield and place it into Strategic Reserves."
+      },
+      "Stratagem§Dust Trails": {
+        "keywords": {
+          "Keywords": [
+            "Speedwaaagh!"
+          ],
+          "Category": [
+            "Strategic Ploy"
+          ],
+          "Turn": [
+            "Opponent’s"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 1
+          }
+        },
+        "text": "**WHEN:** Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\n**TARGET:** One **ORKS** unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT:** Until the end of the phase, your unit has the Benefit of Cover."
+      },
+      "Stratagem§Ded Killy Construction": {
+        "keywords": {
+          "Keywords": [
+            "Speedwaaagh!"
+          ],
+          "Category": [
+            "Strategic Ploy"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Fight"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 1
+          }
+        },
+        "text": "**WHEN:** Your Fight phase.\n\n**TARGET:** One **SPEED FREEKS** or **TRUKK** unit from your army that has not been selected to fight this phase.\n\n**EFFECT:** Until the end of the phase, melee weapons equipped by models in your unit have the **[LANCE]** ability and, if your unit made a Charge move this turn, until the end of the phase, add 1 to the Damage characteristic of those weapons."
+      },
+      "Stratagem§Speshul Ammo": {
+        "keywords": {
+          "Keywords": [
+            "Speedwaaagh!"
+          ],
+          "Category": [
+            "Wargear"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 1
+          }
+        },
+        "text": "**WHEN:** Your Shooting phase.\n\n**TARGET:** One **ORKS** unit from your army that has not been selected to shoot this phase.\n\n**EFFECT:** Until the end of the phase, ranged weapons equipped by models in your unit (excluding Torrent weapons) have the **[ANTI-MONSTER 4+]** and **[ANTI-VEHICLE 4+]** abilities."
+      },
+      "Stratagem§Mobile Dakkastorm": {
+        "keywords": {
+          "Keywords": [
+            "Speedwaaagh!"
+          ],
+          "Category": [
+            "Strategic Ploy"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 1
+          }
+        },
+        "text": "**WHEN:** Your Shooting phase, just after a Speed Freeks or Trukk unit from your army has shot.\n\n**TARGET:** That **SPEED FREEKS** or **TRUKK** unit.\n\n**EFFECT:** Select one enemy unit hit by one or more of those attacks (excluding attacks made with Indirect Fire weapons). Until the end of the phase, each time a model in a **SPEED FREEKS** or **TRUKK** unit from your army makes an attack that targets that unit, improve the Strength characteristic of that attack by 2."
+      },
+      "Stratagem§On Da Move": {
+        "keywords": {
+          "Keywords": [
+            "Speedwaaagh!"
+          ],
+          "Category": [
+            "Strategic Ploy"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Movement"
+          ]
+        },
+        "stats": {
+          "Command Cost": {
+            "value": 1
+          }
+        },
+        "text": "**WHEN:** Your Movement phase.\n\n**TARGET:** One **ORKS** unit from your army that has not been selected to move this phase.\n\n**EFFECT:** Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back or Advanced (unless it used its turbo this turn)."
+      },
+      "Detachment§Rollin’ Deff": {
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ],
+          "Source": [
+            "Legends"
+          ]
+        },
+        "rules": {
+          "applyKeywords": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "assets",
+                    "item",
+                    [
+                      "Unit§Battlewagon",
+                      "Unit§Hunta Rig",
+                      "Unit§Kill Rig"
+                    ],
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Wagon"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 3
+          },
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Impending Crunch"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Devastating Drift"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Brutal Broadside"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        },
+        "stats": {
+          "Detachment Points": {
+            "value": 1
+          }
+        },
+        "text": "**THUNDERING WAGONS**\n\n- Friendly **Battlewagon/Hunta Rig/Kill Rig** units have **Wagon**.\n\n- Friendly **Wagon** units can re-roll **charge rolls**.\n\n- When a friendly **Wagon** unit is selected to make an **advance move**, that unit can change **advance rolls** to a 6.\nThis **detachment** has the **WAGONS** tag and cannot be taken with another **WAGONS** **detachment**."
+      },
+      "Enhancement§Boarding Ramps (Upgrade)": {
+        "keywords": {
+          "Keywords": [
+            "Rollin’ Deff"
+          ],
+          "Tags": [
+            "Upgrade"
+          ]
+        },
+        "rules": {
+          "Wagon unit only.": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Wagon"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        },
+        "stats": {
+          "Points": {
+            "value": 10
+          }
+        },
+        "text": "**Wagon** unit only. When a unit embarked within this unit is selected to make a **disembark move**, that unit has +1 to **charge rolls** until the end of the turn.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
+      },
+      "Stratagem§Impending Crunch": {
+        "keywords": {
+          "Keywords": [
+            "Rollin’ Deff"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Charge"
+          ]
+        },
+        "text": "**WHEN:** Your Charge phase, when a friendly **Wagon** unit ends a **charge move**.\n\n**TARGET:** That **Wagon** unit.\n\n**EFFECT:** Each enemy unit **engaged** with your unit makes a **battle-shock roll**, with -1 to that **battle-shock roll**."
+      },
+      "Stratagem§Devastating Drift": {
+        "keywords": {
+          "Keywords": [
+            "Rollin’ Deff"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Fight"
+          ]
+        },
+        "text": "**WHEN:** Your Fight phase, when a friendly **Wagon** unit that made a **charge move** this turn is **selected to fight**.\n\n**TARGET:** That **Wagon** unit.\n\n**EFFECT:** Your unit’s melee attacks have **[Cleave 1]**."
+      },
+      "Stratagem§Brutal Broadside": {
+        "keywords": {
+          "Keywords": [
+            "Rollin’ Deff"
+          ],
+          "Turn": [
+            "Yours"
+          ],
+          "Phase": [
+            "Shooting"
+          ]
+        },
+        "text": "**WHEN:** Your Shooting phase, when a friendly **Battlewagon** unit is **selected to shoot**.\n\n**TARGET:** That **Battlewagon** unit.\n\n**EFFECT:** Your unit’s ranged attacks (excluding attacks made by weapons selected with **Firing Deck**) have **[Rapid Fire X]**, where **X** is that attack’s **A**."
       }
     },
     "gameModes": {},
