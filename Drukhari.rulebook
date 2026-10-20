@@ -1,6 +1,6 @@
 {
   "name": "Drukhari 11e",
-  "revision": "11.1.6",
+  "revision": "11.1.9",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -1772,26 +1772,12 @@
             "failState": "pass"
           }
         },
-        "text": "CALLOUS COMPETITION\n\nAt the start of the battle, **Drukhari** units\nfrom your army are winning the wager.\n\nEach time a **Drukhari** unit from your\narmy destroys an enemy unit, **Drukhari**\nunits from your army are winning\nthe wager.\n\nEach time a **Harlequins** unit from your\narmy destroys an enemy unit, **Harlequin**\nunits from your army are winning\nthe wager.\n\nWhile **Drukhari** units from your army\nare winning the wager, **Harlequin** units\nfrom your army are losing the wager, and\nvice versa.\n\nEach time a **Drukhari** or **Harlequins**\nmodel from your army makes an attack,\nif that model’s unit is winning the wager, re‑roll a Hit roll of 1. If that model’s unit is losing the wager, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1 instead.\n\n**HARLEQUINS**\n\nYou can include **Harlequins** units in your\narmy (see *Index: Aeldari*). The combined\npoints cost of such units depends on your\nbattle size:\n\n■ Incursion: Up to 500 pts\n\n■ Strike Force: Up to 1000 pts\n\n■ Onslaught: Up to 1500 pts\n\nNo **Harlequins** models from your army\ncan be your Warlord.",
+        "text": "**Callous Competition**\nAt the start of the battle, **DRUKHARI** units from your army are winning the wager.\n\nEach time a **DRUKHARI** unit from your army destroys an enemy unit, **DRUKHARI** units from your army are winning the wager.\n\nEach time a **HARLEQUINS** unit from your army destroys an enemy unit, **HARLEQUIN** units from your army are winning the wager.\n\nWhile **DRUKHARI** units from your army are winning the wager, **HARLEQUIN** units from your army are losing the wager, and vice versa.\n\nEach time a **DRUKHARI** or **HARLEQUINS** model from your army makes an attack, if that model’s unit is winning the wager, re‐roll a Hit roll of 1. If that model’s unit is losing the wager, re‐roll a Hit roll of 1 and re‐roll a Wound roll of 1 instead.",
         "stats": {
           "Detachment Points": {
             "value": 3
           }
         }
-      },
-      "Detachment§Reaper’s Wager": {
-        "keywords": {
-          "Role": [
-            "Priority Assets",
-            "Purge The Foe"
-          ]
-        },
-        "stats": {
-          "Detachment Points": {
-            "value": 3
-          }
-        },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Callous Competition**\nAt the start of the battle, **DRUKHARI** units from your army are winning the wager.\n\nEach time a **DRUKHARI** unit from your army destroys an enemy unit, **DRUKHARI** units from your army are winning the wager.\n\nEach time a **HARLEQUINS** unit from your army destroys an enemy unit, **HARLEQUIN** units from your army are winning the wager.\n\nWhile **DRUKHARI** units from your army are winning the wager, **HARLEQUIN** units from your army are losing the wager, and vice versa.\n\nEach time a **DRUKHARI** or **HARLEQUINS** model from your army makes an attack, if that model’s unit is winning the wager, re‐roll a Hit roll of 1. If that model’s unit is losing the wager, re‐roll a Hit roll of 1 and re‐roll a Wound roll of 1 instead."
       },
       "Detachment§Skysplinter Assault": {
         "keywords": {
@@ -2071,7 +2057,7 @@
       "Enhancement§Archraider": {
         "keywords": {
           "Keywords": [
-            "Reaper’s Wager"
+            "Reaper's Wager"
           ]
         },
         "rules": {
@@ -2155,7 +2141,7 @@
       "Enhancement§Conductor of Torment": {
         "keywords": {
           "Keywords": [
-            "Reaper’s Wager"
+            "Reaper's Wager"
           ]
         },
         "rules": {
@@ -3128,7 +3114,7 @@
       "Enhancement§Reaper’s Cowl": {
         "keywords": {
           "Keywords": [
-            "Reaper’s Wager"
+            "Reaper's Wager"
           ]
         },
         "stats": {
@@ -3284,7 +3270,7 @@
       "Enhancement§Webway Walker": {
         "keywords": {
           "Keywords": [
-            "Reaper’s Wager"
+            "Reaper's Wager"
           ]
         },
         "rules": {
@@ -10796,14 +10782,6 @@
                 "traits": [
                   {
                     "trait": "Detachment§Kabalite Agonysts"
-                  }
-                ]
-              },
-              "Reaper’s Wager": {
-                "order": 9,
-                "traits": [
-                  {
-                    "trait": "Detachment§Reaper’s Wager"
                   }
                 ]
               },

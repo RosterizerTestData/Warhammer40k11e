@@ -1,6 +1,6 @@
 {
   "name": "Aeldari 11e",
-  "revision": "11.1.6",
+  "revision": "11.1.9",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -5797,19 +5797,6 @@
                     "ranks"
                   ]
                 ],
-                "value": "Serpent’s Brood"
-              },
-              {
-                "actionType": "remove",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "stats",
-                    "Detachment",
-                    "ranks"
-                  ]
-                ],
                 "value": "Twilight Flickers"
               }
             ],
@@ -6021,19 +6008,6 @@
                   ]
                 ],
                 "value": "Serpent's Brood"
-              },
-              {
-                "actionType": "remove",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "stats",
-                    "Detachment",
-                    "ranks"
-                  ]
-                ],
-                "value": "Serpent’s Brood"
               },
               {
                 "actionType": "remove",
@@ -6515,72 +6489,10 @@
             "order": 10
           }
         },
-        "text": "## BOONS OF THE BROOD\n\nWeapons equipped by Harlequins Mounted and Harlequins Vehicle models from your army have the [SUSTAINED HITS 1] ability.\n\nEach time a Harlequins unit from your army disembarks from a Transport, until the end of the turn, that unit’s weapons have the [SUSTAINED HITS 1] ability.\n\n**TRAVELLING PLAYERS**\n\n■ Troupe units from your army gain the Battleline keyword, and Troupe models in those units have an Objective Control characteristic of 2.\n\n■ You can include up to three of each of the following models in your army: Death Jester, Shadowseer, Troupe Master",
+        "text": "**Boons of the Brood**\nWeapons equipped by **HARLEQUINS MOUNTED** and **HARLEQUINS VEHICLE** models from your army have the **[SUSTAINED HITS 1]** ability.\n\nEach time a **HARLEQUINS** unit from your army disembarks from a **TRANSPORT**, until the end of the turn, that unit’s weapons have the **[SUSTAINED HITS 1]** ability.",
         "stats": {
           "Detachment Points": {
             "value": 2
-          }
-        }
-      },
-      "Detachment§Serpent’s Brood": {
-        "keywords": {
-          "Role": [
-            "Purge The Foe"
-          ]
-        },
-        "stats": {
-          "Detachment Points": {
-            "value": 2
-          }
-        },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Boons of the Brood**\nWeapons equipped by **HARLEQUINS MOUNTED** and **HARLEQUINS VEHICLE** models from your army have the **[SUSTAINED HITS 1]** ability.\n\nEach time a **HARLEQUINS** unit from your army disembarks from a **TRANSPORT**, until the end of the turn, that unit’s weapons have the **[SUSTAINED HITS 1]** ability.",
-        "rules": {
-          "removeSameTagDetachments": {
-            "actions": [
-              {
-                "actionType": "remove",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "stats",
-                    "Detachment",
-                    "ranks"
-                  ]
-                ],
-                "value": "Fateful Performance"
-              },
-              {
-                "actionType": "remove",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "stats",
-                    "Detachment",
-                    "ranks"
-                  ]
-                ],
-                "value": "Ghosts of the Webway"
-              },
-              {
-                "actionType": "remove",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "stats",
-                    "Detachment",
-                    "ranks"
-                  ]
-                ],
-                "value": "Twilight Flickers"
-              }
-            ],
-            "evals": [],
-            "evaluate": "AND",
-            "failState": "pass",
-            "order": 10
           }
         }
       },
@@ -6772,19 +6684,6 @@
                   ]
                 ],
                 "value": "Serpent's Brood"
-              },
-              {
-                "actionType": "remove",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "stats",
-                    "Detachment",
-                    "ranks"
-                  ]
-                ],
-                "value": "Serpent’s Brood"
               }
             ],
             "evals": [],
@@ -7529,7 +7428,7 @@
       "Enhancement§Fanged Leer": {
         "keywords": {
           "Keywords": [
-            "Serpent’s Brood"
+            "Serpent's Brood"
           ]
         },
         "rules": {
@@ -7843,7 +7742,7 @@
       "Enhancement§Key of Ghosts": {
         "keywords": {
           "Keywords": [
-            "Serpent’s Brood"
+            "Serpent's Brood"
           ]
         },
         "rules": {
@@ -8628,7 +8527,7 @@
       "Enhancement§Shedskin Raiment": {
         "keywords": {
           "Keywords": [
-            "Serpent’s Brood"
+            "Serpent's Brood"
           ]
         },
         "rules": {
@@ -9015,7 +8914,7 @@
       "Enhancement§Weavers' Wail": {
         "keywords": {
           "Keywords": [
-            "Serpent’s Brood"
+            "Serpent's Brood"
           ]
         },
         "rules": {
@@ -28267,14 +28166,6 @@
                 "traits": [
                   {
                     "trait": "Detachment§Path Of The Outcast"
-                  }
-                ]
-              },
-              "Serpent’s Brood": {
-                "order": 15,
-                "traits": [
-                  {
-                    "trait": "Detachment§Serpent’s Brood"
                   }
                 ]
               },

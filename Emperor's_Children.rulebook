@@ -1,6 +1,6 @@
 {
   "name": "Emperor's Children 11e",
-  "revision": "11.1.5",
+  "revision": "11.1.9",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -1774,7 +1774,7 @@
             "failState": "pass"
           }
         },
-        "text": "## INTERNAL RIVALRIES\n\n**Emperor's Children Character** units from your army can ignore any or all modifiers to their Move characteristic and any or all modifiers to Advance and Charge rolls made for them.\n\nAt the start of the battle, your **Warlord's** unit is your army's Favoured Champions. The first time in each player's turn that an **Emperor's Children Character** unit from your army destroys an enemy unit, after resolving all of its attacks, that **Character** unit becomes your army's new Favoured Champions, replacing the old one.\n\nEach time a model in your army's Favoured Champion's unit makes an attack, you can re-roll the Wound roll.",
+        "text": "**Internal Rivalries**\n**EMPEROR’S CHILDREN CHARACTER** units from your army can ignore any or all modifiers to their Move characteristic and any or all modifiers to Advance and Charge rolls made for them.\n\nAt the start of the battle, your **WARLORD**’s unit is your army’s Favoured Champions. The first time in each player’s turn that an **EMPEROR’S CHILDREN CHARACTER** unit from your army destroys an enemy unit, after resolving all of its attacks, that **CHARACTER** unit becomes your army’s new Favoured Champions, replacing the old one.\n\nEach time a model in your army’s Favoured Champions unit makes an attack, you can re-roll the Wound roll",
         "stats": {
           "Detachment Points": {
             "value": 1
@@ -1785,19 +1785,6 @@
             "Purge The Foe"
           ]
         }
-      },
-      "Detachment§Slaanesh’s Chosen": {
-        "keywords": {
-          "Role": [
-            "Purge The Foe"
-          ]
-        },
-        "stats": {
-          "Detachment Points": {
-            "value": 1
-          }
-        },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Internal Rivalries**\n**EMPEROR’S CHILDREN CHARACTER** units from your army can ignore any or all modifiers to their Move characteristic and any or all modifiers to Advance and Charge rolls made for them.\n\nAt the start of the battle, your **WARLORD**’s unit is your army’s Favoured Champions. The first time in each player’s turn that an **EMPEROR’S CHILDREN CHARACTER** unit from your army destroys an enemy unit, after resolving all of its attacks, that **CHARACTER** unit becomes your army’s new Favoured Champions, replacing the old one.\n\nEach time a model in your army’s Favoured Champions unit makes an attack, you can re-roll the Wound roll"
       },
       "Detachment§Spectacle Of Slaughter": {
         "keywords": {
@@ -2034,7 +2021,7 @@
       "Enhancement§Eager to Prove": {
         "keywords": {
           "Keywords": [
-            "Slaanesh’s Chosen"
+            "Slaanesh's Chosen"
           ]
         },
         "stats": {
@@ -2413,7 +2400,7 @@
       "Enhancement§Proud and Vainglorious": {
         "keywords": {
           "Keywords": [
-            "Slaanesh’s Chosen"
+            "Slaanesh's Chosen"
           ]
         },
         "stats": {
@@ -2426,7 +2413,7 @@
       "Enhancement§Repulsed by Weakness": {
         "keywords": {
           "Keywords": [
-            "Slaanesh’s Chosen"
+            "Slaanesh's Chosen"
           ]
         },
         "stats": {
@@ -2474,7 +2461,7 @@
       "Enhancement§Slayer of Champions": {
         "keywords": {
           "Keywords": [
-            "Slaanesh’s Chosen"
+            "Slaanesh's Chosen"
           ]
         },
         "rules": {
@@ -5052,14 +5039,6 @@
                 "traits": [
                   {
                     "trait": "Detachment§Frenzied Host"
-                  }
-                ]
-              },
-              "Slaanesh’s Chosen": {
-                "order": 10,
-                "traits": [
-                  {
-                    "trait": "Detachment§Slaanesh’s Chosen"
                   }
                 ]
               },
