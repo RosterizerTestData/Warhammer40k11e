@@ -1373,7 +1373,7 @@
             "value": 3
           },
           "Points": {
-            "value": 180
+            "value": 170
           },
           "Sv": {
             "value": 2
@@ -1449,7 +1449,7 @@
             "value": 3
           },
           "Points": {
-            "value": 170
+            "value": 180
           },
           "Sv": {
             "value": 2
@@ -1459,6 +1459,12 @@
           },
           "W": {
             "value": 10
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 2
           }
         }
       },
@@ -3118,19 +3124,6 @@
             "failState": "error"
           }
         }
-      },
-      "Enhancement§Eldritch Vortex of E’taph": {
-        "keywords": {
-          "Keywords": [
-            "Grand Coven"
-          ]
-        },
-        "stats": {
-          "Points": {
-            "value": 35
-          }
-        },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**THOUSAND SONS** model only. Add 1 to the Strength and Damage characteristics of Psychic weapons equipped by the bearer."
       },
       "Enhancement§Empowered Manifestation": {
         "keywords": {
@@ -8679,64 +8672,6 @@
             "value": 90
           }
         }
-      },
-      "Unit§Daemon Prince Of Tzeentch": {
-        "stats": {
-          "Points": {
-            "value": 170
-          },
-          "M": {
-            "value": 9
-          },
-          "T": {
-            "value": 10
-          },
-          "Sv": {
-            "value": 2
-          },
-          "W": {
-            "value": 10
-          },
-          "Ld": {
-            "value": 6
-          },
-          "OC": {
-            "value": 3
-          }
-        },
-        "text": "WARNING: this unit was not in 10e and needs importing.\n\n**Servile Pawns**\nWhile this model is within 3\" of one or more friendly **THOUSAND SONS INFANTRY** units, this model has the Lone Operative ability.\n\n**Spirit Snare**\nEach time a friendly **THOUSAND SONS PSYKER** model with the Cabal of Sorcerers ability is destroyed while within 9\" of one or more models with this ability, select one of those models with this ability: until the end of the battle, each time the selected model attempts a Ritual, add 1 to the Psychic test result (to a maximum of +2).\n\n**Glamour of Tzeentch**\nWhile a friendly **THOUSAND SONS INFANTRY** unit is within 6\" of this model, models in that unit have the Stealth ability."
-      },
-      "Unit§Daemon Prince Of Tzeentch With Wings": {
-        "stats": {
-          "Points": {
-            "value": 180
-          },
-          "unitDiscount": {
-            "value": 10
-          },
-          "unitDiscountThreshold": {
-            "value": 2
-          },
-          "M": {
-            "value": 13
-          },
-          "T": {
-            "value": 9
-          },
-          "Sv": {
-            "value": 2
-          },
-          "W": {
-            "value": 10
-          },
-          "Ld": {
-            "value": 6
-          },
-          "OC": {
-            "value": 3
-          }
-        },
-        "text": "WARNING: this unit was not in 10e and needs importing.\n\n**Hunter of Souls**\nEach time this model makes an attack that targets a **CHARACTER** unit, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1 (if that attack targets a **PSYKER CHARACTER** unit, you can re‑roll the Hit roll and you can re‑roll the Wound roll instead). Each time this model destroys a **CHARACTER** unit, this model regains up to D3 lost wounds (if that **CHARACTER** unit was a **PSYKER** unit, this model regains up to 3 lost wounds instead).\n\n**Aetherstride**\nIn your Movement phase, when this model is set up on the battlefield using the Deep Strike ability, it can perform an aetherstride. If it does:\n■ It can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units.\n■ Until the end of the turn, its Dark Blessing has the **[SUSTAINED HITS D3]** ability.\n■ Until the end of the turn, it is not eligible to declare a charge."
       },
       "Unit§Flamers": {
         "assets": {
