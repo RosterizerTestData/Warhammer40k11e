@@ -125,7 +125,14 @@ def refs(cat, key, pattern):
     blob = json.dumps(cat.get(key, {}), ensure_ascii=False)
     mods = [m for m in dict.fromkeys(re.findall(r'"(Model§[^"]+)"', blob)) if m in cat]
     blob += "".join(json.dumps(cat[m], ensure_ascii=False) for m in mods)
-    return mods, sorted(set(k for k in re.findall(r'"(' + pattern + r'[^"]+)"', blob) if k in cat))
+    found = set(k for k in re.findall(r'"(' + pattern + r'[^"]+)"', blob) if k in cat)
+    todo = list(found)
+    while todo:   # multi-profile parents reference their profiles
+        k = todo.pop()
+        for c in re.findall(r'"(' + pattern + r'[^"]+)"', json.dumps(cat[k].get("assets") or {}, ensure_ascii=False)):
+            if c in cat and c not in found:
+                found.add(c); todo.append(c)
+    return mods, sorted(found)
 
 
 def sval(a, s):
@@ -277,7 +284,8 @@ for did, d in ds.items():
     GENERIC = {"leader", "support", "invulnerable", "damaged", "transport", "objectivesecured"}
     rz_ab = {n(re.sub(r"\s*\(.*?\)$", "", item(t).split("§", 1)[1])) for t in (a.get("assets") or {}).get("traits") or [] if item(t) and item(t).startswith("Ability§")}
     w_ab = {n(re.sub(r"\s*\(.*?\)$", "", html(ab["name"] or abil_lib.get(ab["ability_id"], {}).get("name", "")))) for ab in abils[did]}
-    for x in sorted(rz_ab - w_ab):
+    legends_unit = "Legends" in ((a.get("keywords") or {}).get("Source") or [])
+    for x in sorted(rz_ab - w_ab) if not legends_unit else []:   # Legends units keep their abilities
         if not any(x.startswith(g_) for g_ in GENERIC) and not any(x.startswith(y) or y.startswith(x) for y in w_ab if len(y) > 4):
             R[stem]["ability stale"].append(f"{d['name']}: {x}")
     for ab in abils[did]:

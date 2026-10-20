@@ -105,8 +105,12 @@ def weapon_asset(kind, pr, base=None):
             st[stat] = v
     if kind == "Melee":
         st["Range"] = {"statType": "term", "value": "Melee"}
-    traits = [t for t in (a.get("assets") or {}).get("traits", []) if (t if isinstance(t, str) else t.get("item")) not in WA_ITEMS]
-    traits += [t for t in (weapon_trait(k) for k in pr.get("keywords") or []) if t]
+    old = (a.get("assets") or {}).get("traits", [])
+    traits = [t for t in old if (t if isinstance(t, str) else t.get("item")) not in WA_ITEMS]
+    new_kw = [t for t in (weapon_trait(k) for k in pr.get("keywords") or []) if t]
+    old_kw = [t for t in old if (t if isinstance(t, str) else t.get("item")) in WA_ITEMS]
+    same = sorted(json.dumps(t, sort_keys=True) for t in new_kw) == sorted(json.dumps(t, sort_keys=True) for t in old_kw)
+    traits = old if same else traits + new_kw   # identical keyword set: keep the book's order (no churn)
     if traits:
         a.setdefault("assets", {})["traits"] = traits
     elif "assets" in a:
@@ -163,7 +167,7 @@ def sync_weapons(U, ds, created_ok=True, inherited_unit=False):
     refs = referenced(U)
     def find_w(pre, name):
         kind = pre.split("§")[0]
-        k = find(pre, name) or refs.get((kind, n(name)))
+        k = refs.get((kind, n(name))) or find(pre, name)   # the weapon the unit actually uses wins over a same-named stray
         if not k and inherited_unit:
             dk = next((x for x in DEP_CAT if x.startswith(pre) and n(x[len(pre):]) == n(name)), None)
             if dk:
@@ -334,6 +338,8 @@ def sync_profile(uk, ds):
         want = {"item": "Ability§Damaged:", "stats": {"x": {"value": rng}}}
         if desc and desc != DAMAGED_STD.format(r=rng):
             want["text"] = desc
+        elif t is not None and isinstance(t, dict) and t.get("text"):
+            want["text"] = t["text"]   # source gives only the range: keep the book's custom damaged text (e.g. Knights' OC loss)
         if t is None:
             tr.append(want); log.append(f"~ {uk}: + damaged {rng}")
         elif t != want:
