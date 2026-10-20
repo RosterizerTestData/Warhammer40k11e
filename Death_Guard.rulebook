@@ -803,7 +803,7 @@
                 }
               }
             },
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             "Ability§Foul Infusion",
             "Ability§Extraction of Fresh Disease",
             "Ranged Weapon§Biologus Putrifier—Hyper blight grenades",
@@ -1305,7 +1305,7 @@
                 }
               }
             },
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             "Ability§Death Guard Defender",
             {
               "item": "Ability§Invulnerable",
@@ -1376,7 +1376,7 @@
                 }
               }
             },
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             "Ability§Enfeebling Miasma (Aura)",
             "Ability§Horrifying Visage",
             {
@@ -1633,7 +1633,7 @@
               "item": "Ability§Leader",
               "text": "This model can be attached to the following units:\n\n* Plague Marines"
             },
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             "Ability§Putrefying Stink",
             "Ranged Weapon§Foul Blightspawn—Plague sprayer",
             "Melee Weapon§Foul Blightspawn—Close combat weapon",
@@ -1787,7 +1787,7 @@
               "item": "Ability§Leader",
               "text": "This model can be attached to the following units:\n\n* Plague Marines"
             },
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             "Ability§Unclean Icon",
             "Ability§Blessed Icon of Disease",
             "Ranged Weapon§Icon Bearer—Plague boltgun",
@@ -1880,7 +1880,7 @@
               "item": "Ability§Leader",
               "text": "This model can be attached to the following units:\n\n* Blightlord Terminators\n\n* Deathshroud Terminators"
             },
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             "Ability§Vector of Disease",
             "Ability§Unholy Resilience",
             {
@@ -1947,7 +1947,7 @@
             },
             "Ranged Weapon§Lord of Poxes—Plasma pistol",
             "Melee Weapon§Lord of Poxes—Great plague blade",
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             "Ability§Gift of Poxes",
             "Ability§Shroud of Disease",
             {
@@ -2011,7 +2011,7 @@
               "item": "Ability§Leader",
               "text": "This model can be attached to the following units:\n\n* Blightlord Terminators\n\n* Deathshroud Terminators"
             },
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             "Ability§Virulent Aura",
             "Ability§Blight Bombardment",
             {
@@ -2076,7 +2076,7 @@
               "item": "Ability§Leader",
               "text": "This model can be attached to the following units:\n\n* Plague Marines\n\n* Poxwalkers"
             },
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             "Ability§Gift of Contagion",
             "Ability§Pestilent Fallout (psychic)",
             "Ranged Weapon§Malignant Plaguecaster—Plague bolt pistol",
@@ -2149,7 +2149,7 @@
                 }
               }
             },
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             "Ability§Lord of the Death Guard",
             {
               "item": "Ability§Damaged:",
@@ -2243,7 +2243,7 @@
               "item": "Ability§Leader",
               "text": "This model can be attached to the following units:\n\n* Plague Marines\n\n* Poxwalkers"
             },
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             "Ability§Sickening Vitality",
             "Ability§Tocsin of Misery (Aura)",
             "Melee Weapon§Noxious Blightbringer—Cursed plague bell",
@@ -2349,7 +2349,7 @@
               "item": "Ability§Leader",
               "text": "This model can be attached to the following units:\n\n* Plague Marines"
             },
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             "Ability§Tainted Narthecium",
             "Ability§Inflamed Infections",
             "Ranged Weapon§Plague Surgeon—Plague bolt pistol",
@@ -2481,7 +2481,7 @@
               "item": "Ability§Leader",
               "text": "This model can be attached to the following units:\n\n* Plague Marines"
             },
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             "Ability§Malicious Calculations",
             "Ability§Seven-fold Chant",
             "Melee Weapon§Tallyman—Close combat weapon",
@@ -2591,7 +2591,7 @@
               "item": "Ability§Leader",
               "text": "This model can be attached to the following units:\n\n* Blightlord Terminators\n\n* Deathshroud Terminators\n\n* Poxwalkers"
             },
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             "Ability§The Destroyer Hive",
             {
               "item": "Ability§Invulnerable",
@@ -5794,13 +5794,6 @@
           }
         }
       },
-      "Melee Weapon§Great Unclean One—Bilesword – sweep": {
-        "stats": {
-          "S": {
-            "value": 7
-          }
-        }
-      },
       "Melee Weapon§Icon Bearer—Plague knife": {
         "aspects": {
           "Label": "Plague knife"
@@ -6908,6 +6901,9 @@
           },
           "T": {
             "value": 7
+          },
+          "M": {
+            "value": 8
           }
         }
       },
@@ -9893,33 +9889,8 @@
         }
       },
       "Ranged Weapon§Rotigus—Streams of brackish filth": {
-        "stats": {
-          "S": {
-            "value": 8
-          },
-          "Range": {
-            "value": 12
-          },
-          "A": {
-            "format": "2D6",
-            "value": 0
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 1
-          }
-        },
         "aspects": {
           "Label": "Streams of brackish filth"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
-          ]
         }
       },
       "Ranged Weapon§Tallyman—Plasma pistol": {
@@ -11110,7 +11081,7 @@
         "assets": {
           "traits": [
             "Ability§Deep Strike",
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             "Ability§Blistering Fusillade",
             {
               "item": "Ability§Invulnerable",
@@ -11600,7 +11571,7 @@
         "assets": {
           "traits": [
             "Ability§Deep Strike",
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             "Ability§Silent Bodyguard",
             {
               "item": "Ability§Invulnerable",
@@ -11691,7 +11662,7 @@
                 }
               }
             },
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             "Ability§Hovering Death",
             {
               "item": "Ability§Invulnerable",
@@ -11796,7 +11767,7 @@
                 }
               }
             },
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             {
               "item": "Ability§Invulnerable",
               "stats": {
@@ -11868,14 +11839,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Nurgle’s Gift"
+            "Ability§Nurgle’s Gift (Aura)"
           ]
-        },
-        "stats": {
-          "M": {
-            "statType": "term",
-            "value": "-"
-          }
         }
       },
       "Unit§Hell Talon": {
@@ -11886,14 +11851,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Nurgle’s Gift"
+            "Ability§Nurgle’s Gift (Aura)"
           ]
-        },
-        "stats": {
-          "M": {
-            "statType": "term",
-            "value": "-"
-          }
         }
       },
       "Unit§Miasmic Malignifier": {
@@ -11910,7 +11869,7 @@
                 }
               }
             },
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             "Ability§Putrescent Fog",
             "Ability§Diseased Cover",
             "Ability§Fortification",
@@ -11976,7 +11935,7 @@
                 }
               }
             },
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             "Ability§Tank Hunters",
             {
               "item": "Ability§Invulnerable",
@@ -12126,7 +12085,7 @@
         },
         "assets": {
           "traits": [
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             "Ability§Infused with the Blessings of Nurgle",
             "Model§Plague Champion",
             {
@@ -12405,7 +12364,7 @@
                 }
               }
             },
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             "Ability§Spore-laced Shock Waves",
             {
               "item": "Ability§Damaged:",
@@ -12553,7 +12512,7 @@
                 }
               }
             },
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             "Ability§Curse of the Walking Pox",
             {
               "item": "Model§Poxwalker",
@@ -12741,7 +12700,7 @@
         },
         "assets": {
           "traits": [
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             "Ability§Fire Support (Rhino)",
             {
               "item": "Ability§Transport",
@@ -12769,6 +12728,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Lethal Hits",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -12776,8 +12736,7 @@
                   "value": "2"
                 }
               }
-            },
-            "Ability§Lethal Hits"
+            }
           ]
         },
         "stats": {
@@ -12895,7 +12854,7 @@
         },
         "assets": {
           "traits": [
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             {
               "item": "Ability§Damaged:",
               "stats": {
@@ -13095,7 +13054,7 @@
         },
         "assets": {
           "traits": [
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             "Ability§Metalophagic Infection"
           ]
         },
@@ -13192,6 +13151,7 @@
       "Ranged Weapon§Chaos Predator Destructor—Predator autocannon": {
         "assets": {
           "traits": [
+            "Ability§Lethal Hits",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -13199,8 +13159,7 @@
                   "value": "2"
                 }
               }
-            },
-            "Ability§Lethal Hits"
+            }
           ]
         },
         "aspects": {
@@ -13317,7 +13276,7 @@
         },
         "assets": {
           "traits": [
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             "Ability§Hail of Corrosive Disease",
             {
               "item": "Ability§Damaged:",
@@ -13364,8 +13323,8 @@
       "Ranged Weapon§Defiler—Ectoplasma destructor": {
         "assets": {
           "traits": [
-            "Ability§Lethal Hits",
-            "Ability§Blast"
+            "Ability§Blast",
+            "Ability§Lethal Hits"
           ]
         },
         "aspects": {
@@ -13426,8 +13385,8 @@
       "Ranged Weapon§Defiler—Hades battle cannon": {
         "assets": {
           "traits": [
-            "Ability§Lethal Hits",
-            "Ability§Blast"
+            "Ability§Blast",
+            "Ability§Lethal Hits"
           ]
         },
         "aspects": {
@@ -13492,6 +13451,7 @@
       "Ranged Weapon§Defiler—Heavy missile launcher – frag": {
         "assets": {
           "traits": [
+            "Ability§Blast",
             "Ability§Lethal Hits"
           ]
         }
@@ -13506,6 +13466,8 @@
       "Ranged Weapon§Defiler—Heavy reaper autocannon": {
         "assets": {
           "traits": [
+            "Ability§Devastating Wounds",
+            "Ability§Lethal Hits",
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -13513,9 +13475,7 @@
                   "value": "1"
                 }
               }
-            },
-            "Ability§Lethal Hits",
-            "Ability§Devastating Wounds"
+            }
           ]
         },
         "stats": {
@@ -13548,6 +13508,7 @@
       "Ranged Weapon§Defiler—Magma cutters": {
         "assets": {
           "traits": [
+            "Ability§Lethal Hits",
             {
               "item": "Ability§Melta",
               "stats": {
@@ -13555,8 +13516,7 @@
                   "value": "2"
                 }
               }
-            },
-            "Ability§Lethal Hits"
+            }
           ]
         },
         "aspects": {
@@ -13606,7 +13566,7 @@
         },
         "assets": {
           "traits": [
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             "Ability§Barrage of Filth",
             {
               "item": "Ability§Deadly Demise",
@@ -13634,27 +13594,6 @@
         },
         "aspects": {
           "Label": "Close combat weapon"
-        },
-        "stats": {
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "A": {
-            "value": 5
-          },
-          "WS": {
-            "value": 3
-          },
-          "S": {
-            "value": 6
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 1
-          }
         }
       },
       "Melee Weapon§Helbrute—Helbrute hammer": {
@@ -13692,20 +13631,6 @@
         }
       },
       "Ranged Weapon§Helbrute—Missile launcher": {
-        "assets": {
-          "traits": [
-            "__inherited__",
-            "__inherited__"
-          ]
-        },
-        "removed": {
-          "assets": {
-            "traits": [
-              "Ranged Weapon§Helbrute—Missile launcher – frag",
-              "Ranged Weapon§Helbrute—Missile launcher – krak"
-            ]
-          }
-        },
         "aspects": {
           "Label": "Missile launcher"
         },
@@ -14069,7 +13994,7 @@
         },
         "assets": {
           "traits": [
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             "Ability§Diseased Malice",
             "Ability§Froth-spattered Frenzy"
           ]
@@ -14220,7 +14145,7 @@
         },
         "assets": {
           "traits": [
-            "Ability§Nurgle’s Gift (aura)",
+            "Ability§Nurgle’s Gift (Aura)",
             "Ability§Lethal Ichor",
             {
               "item": "Ability§Deadly Demise",
@@ -14387,50 +14312,6 @@
       "Ranged Weapon§Chaos Land Raider—Combi-weapon": {
         "aspects": {
           "Label": "Combi-weapon"
-        },
-        "stats": {
-          "Range": {
-            "value": 24
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 4
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "infantry"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            }
-          ]
         }
       },
       "Ranged Weapon§Chaos Land Raider—Twin heavy bolter": {
@@ -14475,231 +14356,31 @@
       "Ranged Weapon§Chaos Predator Annihilator—Combi-weapon": {
         "aspects": {
           "Label": "Combi-weapon"
-        },
-        "stats": {
-          "Range": {
-            "value": 24
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 4
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "infantry"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            }
-          ]
         }
       },
       "Ranged Weapon§Chaos Predator Annihilator—Lascannon": {
         "aspects": {
           "Label": "Lascannon"
-        },
-        "stats": {
-          "Range": {
-            "value": 48
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 12
-          },
-          "AP": {
-            "value": -3
-          },
-          "D": {
-            "format": "D6",
-            "value": 1
-          }
         }
       },
       "Ranged Weapon§Chaos Predator Destructor—Combi-weapon": {
         "aspects": {
           "Label": "Combi-weapon"
-        },
-        "stats": {
-          "Range": {
-            "value": 24
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 4
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "infantry"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            }
-          ]
         }
       },
       "Ranged Weapon§Chaos Predator Destructor—Lascannon": {
         "aspects": {
           "Label": "Lascannon"
-        },
-        "stats": {
-          "Range": {
-            "value": 48
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 12
-          },
-          "AP": {
-            "value": -3
-          },
-          "D": {
-            "format": "D6",
-            "value": 1
-          }
         }
       },
       "Ranged Weapon§Chaos Rhino—Combi-weapon": {
         "aspects": {
           "Label": "Combi-weapon"
-        },
-        "stats": {
-          "Range": {
-            "value": 24
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 4
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "infantry"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            }
-          ]
         }
       },
       "Ranged Weapon§Chaos Rhino—Havoc launcher": {
         "aspects": {
           "Label": "Havoc launcher"
-        },
-        "stats": {
-          "Range": {
-            "value": 48
-          },
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Blast"
-          ]
         }
       },
       "Ranged Weapon§Daemon Prince Of Nurgle—Infernal cannon": {
@@ -14918,91 +14599,14 @@
           ]
         }
       },
-      "__inherited__": {
-        "aspects": {
-          "Label": "Missile launcher – Krak"
-        },
-        "stats": {
-          "Range": {
-            "value": 48
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 9
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "format": "D6",
-            "value": 0
-          }
-        },
-        "assets": {}
-      },
       "Ranged Weapon§Helbrute—Heavy flamer": {
         "aspects": {
           "Label": "Heavy flamer"
-        },
-        "stats": {
-          "Range": {
-            "value": 12
-          },
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Torrent",
-            "Ability§Ignores Cover"
-          ]
         }
       },
       "Ranged Weapon§Helbrute—Twin lascannon": {
         "aspects": {
           "Label": "Twin lascannon"
-        },
-        "stats": {
-          "Range": {
-            "value": 48
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 12
-          },
-          "AP": {
-            "value": -3
-          },
-          "D": {
-            "format": "D6",
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Twin-linked"
-          ]
         }
       },
       "Ranged Weapon§Helbrute—Plasma cannon": {
@@ -15041,53 +14645,11 @@
       "Melee Weapon§Helbrute—Power scourge": {
         "aspects": {
           "Label": "Power scourge"
-        },
-        "stats": {
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "A": {
-            "value": 8
-          },
-          "WS": {
-            "value": 3
-          },
-          "S": {
-            "value": 7
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 2
-          }
         }
       },
       "Melee Weapon§Helbrute—Helbrute fist": {
         "aspects": {
           "Label": "Helbrute fist"
-        },
-        "stats": {
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "A": {
-            "value": 5
-          },
-          "WS": {
-            "value": 3
-          },
-          "S": {
-            "value": 12
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 3
-          }
         }
       },
       "Ranged Weapon§Icon Bearer—Boltgun": {
@@ -15873,65 +15435,11 @@
       "Ranged Weapon§Kratos—Multi-melta": {
         "aspects": {
           "Label": "Multi-melta"
-        },
-        "stats": {
-          "Range": {
-            "value": 18
-          },
-          "A": {
-            "value": 2
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 10
-          },
-          "AP": {
-            "value": -3
-          },
-          "D": {
-            "format": "D3",
-            "value": 2
-          }
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Melta",
-              "stats": {
-                "x": {
-                  "value": "3"
-                }
-              }
-            }
-          ]
         }
       },
       "Ranged Weapon§Kratos—Lascannon": {
         "aspects": {
           "Label": "Lascannon"
-        },
-        "stats": {
-          "Range": {
-            "value": 48
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 12
-          },
-          "AP": {
-            "value": -3
-          },
-          "D": {
-            "format": "D3",
-            "value": 3
-          }
         }
       },
       "Melee Weapon§Rapier Carrier—Armoured Hull": {
@@ -15978,21 +15486,21 @@
       "Unit§Chaos Thunderhawk": {
         "assets": {
           "traits": [
-            "Ability§Nurgle’s Gift"
+            "Ability§Nurgle’s Gift (Aura)"
           ]
         }
       },
       "Unit§Greater Blight Drone": {
         "assets": {
           "traits": [
-            "Ability§Nurgle’s Gift"
+            "Ability§Nurgle’s Gift (Aura)"
           ]
         }
       },
       "Character§Chaos Lord on Palanquin of Nurgle": {
         "assets": {
           "traits": [
-            "Ability§Nurgle’s Gift"
+            "Ability§Nurgle’s Gift (Aura)"
           ]
         }
       },
@@ -16004,7 +15512,7 @@
         },
         "assets": {
           "traits": [
-            "Ability§Nurgle’s Gift"
+            "Ability§Nurgle’s Gift (Aura)"
           ]
         }
       },
@@ -16016,14 +15524,14 @@
         },
         "assets": {
           "traits": [
-            "Ability§Nurgle’s Gift"
+            "Ability§Nurgle’s Gift (Aura)"
           ]
         }
       },
       "Character§Sorcerer on Palanquin of Nurgle": {
         "assets": {
           "traits": [
-            "Ability§Nurgle’s Gift"
+            "Ability§Nurgle’s Gift (Aura)"
           ]
         }
       },

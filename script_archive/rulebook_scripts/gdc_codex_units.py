@@ -188,12 +188,16 @@ def sync_weapons(U, ds, created_ok=True, inherited_unit=False):
                     continue
                 for pr in profs:
                     k = find_w(pre, en(pr["name"]))
+                    if k == "__inherited__":   # profile lives in a parent book: never write the sentinel
+                        continue
                     if not k:
                         mode = en(pr["name"]).split(" – ", 1)[-1].lower()
                         k = f"{pre}{pk.split('—', 1)[1]} – {mode}"
                         out.append(f"+ {k}")
                     cat[k] = weapon_asset(kind, pr, cat.get(k))
                     prof_keys.append(k)
+                if not prof_keys:   # all profiles inherited: leave the parent alone
+                    continue
                 combat = {"Range", "A", "BS", "WS", "S", "AP", "D"}
                 if combat & set(parent.get("stats") or {}):
                     out.append(f"~ {pk} became multi-profile parent")
@@ -354,7 +358,7 @@ def sync_profile(uk, ds):
 
 # ---------------------------------------------------------------- new units
 def ability_trait(name, desc=None, unit=None):
-    m = re.match(r"(.+?)\s+(\d+\+?\"?|D\d+(?:\+\d+)?)$", name)
+    m = re.match(r"(.+?)\s+(\d+\+?\"?|\d*D\d+(?:\+\d+)?)$", name)
     base, x = (m.group(1), m.group(2)) if m else (name, None)
     if base.lower() == "damaged":
         return {"item": "Ability§Damaged:", "stats": {"x": {"value": f"1-{x} wounds remaining"}}}

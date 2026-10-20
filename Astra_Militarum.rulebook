@@ -4413,7 +4413,7 @@
             },
             "Ability§Infiltrators",
             "Ability§Stealth",
-            "Ability§A Hearty 'Pick Me Up\"",
+            "Ability§A Hearty ‘Pick Me Up’",
             "Ability§Well-stocked Supplies",
             "Ranged Weapon§Provisionally Prepared—Sniper rifle",
             "Melee Weapon§Provisionally Prepared—Close combat weapon"
@@ -49643,6 +49643,10 @@
           },
           "W": {
             "value": 10
+          },
+          "M": {
+            "statType": "term",
+            "value": "-"
           }
         }
       },
@@ -62691,6 +62695,9 @@
       },
       "Ability§Inspiring Hero": {
         "text": "_Aura_\n\nWhile a friendly Astra Militarum unit is within 6\" of this model, you can re-roll Battle-shock and Leadership tests taken for that unit."
+      },
+      "Ability§A Hearty ‘Pick Me Up’": {
+        "text": "While this model is leading a unit, in your Command phase, you can return up to D3 destroyed models to that unit."
       }
     },
     "gameModes": {},

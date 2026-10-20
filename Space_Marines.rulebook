@@ -82198,7 +82198,7 @@
             "visibility": "active"
           },
           "M": {
-            "value": 6
+            "value": 8
           },
           "OC": {
             "value": 3
@@ -83170,24 +83170,6 @@
             "statType": "rank",
             "value": "2 Combi-bolters",
             "visibility": "active"
-          },
-          "M": {
-            "value": 8
-          },
-          "T": {
-            "value": 10
-          },
-          "Sv": {
-            "value": 3
-          },
-          "W": {
-            "value": 14
-          },
-          "Ld": {
-            "value": 6
-          },
-          "OC": {
-            "value": 2
           }
         },
         "keywords": {
@@ -90709,6 +90691,13 @@
               }
             }
           ]
+        },
+        "removed": {
+          "assets": {
+            "traits": [
+              "Ability§Ignores Cover"
+            ]
+          }
         }
       },
       "Melee Weapon§Terrax-pattern Termite—Termite Drill": {
@@ -94171,6 +94160,9 @@
           },
           "S": {
             "value": 10
+          },
+          "Points": {
+            "value": 5
           }
         }
       },
@@ -95584,6 +95576,32 @@
       },
       "Ability§Aggressive Reconnaissance": {
         "text": "In your Shooting phase, this unit’s ranged attacks that target an enemy unit that is not within 6\" of any other enemy units have +1 to wound rolls."
+      },
+      "Melee Weapon§Terrax-pattern Termite—Termite drill": {
+        "assets": {
+          "traits": []
+        },
+        "removed": {
+          "assets": {
+            "traits": [
+              "Ability§Anti-"
+            ]
+          }
+        }
+      },
+      "Ranged Weapon§Terrax-pattern Termite—Terrax melta cutter": {
+        "stats": {
+          "BS": {
+            "value": 3
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D3",
+            "value": 2
+          }
+        }
       }
     },
     "gameModes": {},

@@ -2834,33 +2834,10 @@
         "stats": {
           "Points": {
             "value": 5
-          },
-          "Range": {
-            "value": 24
-          },
-          "A": {
-            "value": 3
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 8
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 2
           }
         },
         "aspects": {
           "Label": "Psycannon"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Psychic"
-          ]
         }
       },
       "Unit§Imperial Rhino": {
@@ -3018,42 +2995,10 @@
         "stats": {
           "Points": {
             "value": 15
-          },
-          "Range": {
-            "value": 18
-          },
-          "A": {
-            "value": 2
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 9
-          },
-          "AP": {
-            "value": -4
-          },
-          "D": {
-            "format": "D6",
-            "value": 0
           }
         },
         "aspects": {
           "Label": "Twin multi-melta"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Twin-linked",
-            {
-              "item": "Ability§Melta",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            }
-          ]
         }
       },
       "Unit§Sisters of Battle Squad": {
@@ -3388,35 +3333,6 @@
       "Ranged Weapon§Vindicare Assassin—Exitus Rifle": {
         "aspects": {
           "Label": "Exitus rifle"
-        },
-        "stats": {
-          "Range": {
-            "value": 48
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 2
-          },
-          "S": {
-            "value": 8
-          },
-          "AP": {
-            "value": -3
-          },
-          "D": {
-            "format": "D3",
-            "value": 3
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Precision",
-            "Ability§Ignores Cover",
-            "Ability§Heavy",
-            "Ability§Devastating Wounds"
-          ]
         }
       },
       "Character§Inquisitor Ostromandeus": {
@@ -3484,88 +3400,16 @@
       "Ranged Weapon§Proteus Kill Team—Assault cannon": {
         "aspects": {
           "Label": "Assault cannon"
-        },
-        "stats": {
-          "Range": {
-            "value": 24
-          },
-          "A": {
-            "value": 6
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 6
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Devastating Wounds"
-          ]
         }
       },
       "Ranged Weapon§Proteus Kill Team—Cyclone missile launcher – frag": {
         "aspects": {
           "Label": "Cyclone missile launcher – frag"
-        },
-        "stats": {
-          "Range": {
-            "value": 36
-          },
-          "A": {
-            "format": "2D6",
-            "value": 0
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 4
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Blast"
-          ]
         }
       },
       "Ranged Weapon§Proteus Kill Team—Cyclone missile launcher – krak": {
         "aspects": {
           "Label": "Cyclone missile launcher – krak"
-        },
-        "stats": {
-          "Range": {
-            "value": 36
-          },
-          "A": {
-            "value": 2
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 9
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "format": "D6",
-            "value": 0
-          }
         }
       },
       "Ranged Weapon§Proteus Kill Team—Cyclone missile launcher": {
@@ -3587,97 +3431,16 @@
       "Ranged Weapon§Proteus Kill Team—Heavy flamer": {
         "aspects": {
           "Label": "Heavy flamer"
-        },
-        "stats": {
-          "Range": {
-            "value": 12
-          },
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
-          ]
         }
       },
       "Ranged Weapon§Proteus Kill Team—Infernus heavy bolter – heavy bolter": {
         "aspects": {
           "Label": "Infernus heavy bolter – heavy bolter"
-        },
-        "stats": {
-          "Range": {
-            "value": 36
-          },
-          "A": {
-            "value": 3
-          },
-          "BS": {
-            "value": 4
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 2
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Heavy",
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            }
-          ]
         }
       },
       "Ranged Weapon§Proteus Kill Team—Infernus heavy bolter – heavy flamer": {
         "aspects": {
           "Label": "Infernus heavy bolter – heavy flamer"
-        },
-        "stats": {
-          "Range": {
-            "value": 12
-          },
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
-          ]
         }
       },
       "Ranged Weapon§Proteus Kill Team—Infernus heavy bolter": {
@@ -3699,115 +3462,16 @@
       "Ranged Weapon§Proteus Kill Team—Long Vigil ranged weapon": {
         "aspects": {
           "Label": "Long Vigil ranged weapon"
-        },
-        "stats": {
-          "Range": {
-            "value": 24
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 4
-          },
-          "S": {
-            "value": 4
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "infantry"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            }
-          ]
         }
       },
       "Ranged Weapon§Proteus Kill Team—Plasma cannon – standard": {
         "aspects": {
           "Label": "Plasma cannon – standard"
-        },
-        "stats": {
-          "Range": {
-            "value": 36
-          },
-          "A": {
-            "format": "D3",
-            "value": 0
-          },
-          "BS": {
-            "value": 4
-          },
-          "S": {
-            "value": 7
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Blast",
-            "Ability§Heavy"
-          ]
         }
       },
       "Ranged Weapon§Proteus Kill Team—Plasma cannon – supercharge": {
         "aspects": {
           "Label": "Plasma cannon – supercharge"
-        },
-        "stats": {
-          "Range": {
-            "value": 36
-          },
-          "A": {
-            "format": "D3",
-            "value": 0
-          },
-          "BS": {
-            "value": 4
-          },
-          "S": {
-            "value": 8
-          },
-          "AP": {
-            "value": -3
-          },
-          "D": {
-            "value": 2
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Blast",
-            "Ability§Hazardous",
-            "Ability§Heavy"
-          ]
         }
       },
       "Ranged Weapon§Proteus Kill Team—Plasma cannon": {
@@ -3829,62 +3493,11 @@
       "Ranged Weapon§Fortis Kill Team (Agents)—Plasma pistol – standard": {
         "aspects": {
           "Label": "Plasma pistol – standard"
-        },
-        "stats": {
-          "Range": {
-            "value": 12
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 7
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Close-quarters"
-          ]
         }
       },
       "Ranged Weapon§Fortis Kill Team (Agents)—Plasma pistol – supercharge": {
         "aspects": {
           "Label": "Plasma pistol – supercharge"
-        },
-        "stats": {
-          "Range": {
-            "value": 12
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 8
-          },
-          "AP": {
-            "value": -3
-          },
-          "D": {
-            "value": 2
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Close-quarters",
-            "Ability§Hazardous"
-          ]
         }
       },
       "Ranged Weapon§Fortis Kill Team (Agents)—Plasma pistol": {
@@ -3906,31 +3519,6 @@
       "Ranged Weapon§Indomitor Kill Team (Agents)—Bolt pistol": {
         "aspects": {
           "Label": "Bolt pistol"
-        },
-        "stats": {
-          "Range": {
-            "value": 12
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 4
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Pistol"
-          ]
         }
       },
       "Ability§Reign of Confusion": {

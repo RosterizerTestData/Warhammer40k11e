@@ -79,6 +79,10 @@ def split():
                     continue
                 if any(n(owner(wk) or "") == n(m.split("§", 1)[1]) for m in holders[1:]):
                     continue   # named for one of this unit's own models
+                others = [s_ for s_, b_ in books.items() if s_ != stem and f'"{wk}"' in json.dumps(b_["rulebook"]["assetCatalog"].get(hk, {}), ensure_ascii=False)]
+                if others:   # another book's override of this holder still names the shared weapon: repointing here would duplicate it
+                    review.append(f"{U}: {hk} keeps {wk} — overridden with it in {others}")
+                    continue
                 new = copy_weapon(wk, U)
                 s = json.dumps(cat[hk], ensure_ascii=False).replace(f'"{wk}"', f'"{new}"')
                 cat[hk] = json.loads(s)
@@ -285,9 +289,10 @@ def sync():
                         if ab["type"] == "Core" else {"text": md(lib.get("description", ""))}
                     CORE_TOUCHED.append(bk) if ab["type"] == "Core" else None
                     log.append(f"  + {bk}{' (core book)' if ab['type'] == 'Core' else ''}")
-                desc = None
-            else:
-                desc = ab["description"] or lib.get("description", "")
+                px = ab["parameter"] if ab["type"] == "Core" else None
+                adds.append({"item": bk, "stats": {"x": {"value": px}}} if px else bk)   # core/faction rules keep their own key
+                continue
+            desc = ab["description"] or lib.get("description", "")
             adds.append(ability_key(full, desc, U))
         if adds:
             t = target(uk)

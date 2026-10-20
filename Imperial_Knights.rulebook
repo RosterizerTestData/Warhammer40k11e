@@ -3067,42 +3067,10 @@
         "stats": {
           "Points": {
             "value": 15
-          },
-          "Range": {
-            "value": 72
-          },
-          "A": {
-            "format": "D6",
-            "value": 3
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 10
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 3
           }
         },
         "aspects": {
           "Label": "Rapid-fire battle cannon"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "D6+3"
-                }
-              }
-            },
-            "Ability§Blast"
-          ]
         }
       },
       "Character§Knight Defender": {
@@ -3378,77 +3346,11 @@
       "Melee Weapon§Canis Rex—Freedom’s Hand – sweep": {
         "aspects": {
           "Label": "Freedom’s Hand – Sweep"
-        },
-        "stats": {
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "A": {
-            "value": 10
-          },
-          "WS": {
-            "value": 2
-          },
-          "S": {
-            "value": 10
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 3
-          }
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            }
-          ]
         }
       },
       "Melee Weapon§Canis Rex—Freedom’s Hand – strike": {
         "aspects": {
           "Label": "Freedom’s Hand – Strike"
-        },
-        "stats": {
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "A": {
-            "value": 5
-          },
-          "WS": {
-            "value": 2
-          },
-          "S": {
-            "value": 20
-          },
-          "AP": {
-            "value": -3
-          },
-          "D": {
-            "value": 9
-          }
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            }
-          ]
         }
       },
       "Melee Weapon§Canis Rex—Freedom’s Hand": {
@@ -3459,68 +3361,6 @@
           "traits": [
             "Melee Weapon§Canis Rex—Freedom’s Hand – strike",
             "Melee Weapon§Canis Rex—Freedom’s Hand – sweep"
-          ]
-        },
-        "keywords": {
-          "Tags": [
-            "Multi-weapon"
-          ]
-        }
-      },
-      "__inherited__": {
-        "aspects": {
-          "Label": "Atrapos lascutter – Low intensity"
-        },
-        "stats": {
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "A": {
-            "value": 10
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 10
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 3
-          },
-          "WS": {
-            "value": 2
-          }
-        },
-        "assets": {}
-      },
-      "Ranged Weapon§Cerastus Knight Atrapos—Atrapos lascutter": {
-        "aspects": {
-          "Label": "Atrapos lascutter"
-        },
-        "assets": {
-          "traits": [
-            "__inherited__",
-            "__inherited__"
-          ]
-        },
-        "keywords": {
-          "Tags": [
-            "Multi-weapon"
-          ]
-        }
-      },
-      "Melee Weapon§Cerastus Knight Atrapos—Atrapos lascutter": {
-        "aspects": {
-          "Label": "Atrapos lascutter"
-        },
-        "assets": {
-          "traits": [
-            "__inherited__",
-            "__inherited__"
           ]
         },
         "keywords": {
@@ -3564,22 +3404,6 @@
               }
             },
             "Ability§Assault"
-          ]
-        }
-      },
-      "Melee Weapon§Cerastus Knight Lancer—Cerastus shock lance": {
-        "aspects": {
-          "Label": "Cerastus shock lance"
-        },
-        "assets": {
-          "traits": [
-            "__inherited__",
-            "__inherited__"
-          ]
-        },
-        "keywords": {
-          "Tags": [
-            "Multi-weapon"
           ]
         }
       },
@@ -3995,312 +3819,56 @@
       "Ranged Weapon§Tech-priest Dominus (Knights)—Phosphor serpenta": {
         "aspects": {
           "Label": "Phosphor serpenta"
-        },
-        "stats": {
-          "Range": {
-            "value": 18
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 2
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Pistol"
-          ]
         }
       },
       "Ranged Weapon§Tech-priest Dominus (Knights)—Macrostubber": {
         "aspects": {
           "Label": "Macrostubber"
-        },
-        "stats": {
-          "Range": {
-            "value": 12
-          },
-          "A": {
-            "value": 5
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 4
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Pistol"
-          ]
         }
       },
       "Ranged Weapon§Tech-priest Dominus (Knights)—Eradication ray – focused": {
         "aspects": {
           "Label": "Eradication ray – focused"
-        },
-        "stats": {
-          "Range": {
-            "value": 12
-          },
-          "A": {
-            "format": "D3",
-            "value": 0
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 6
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 2
-          }
         }
       },
       "Ranged Weapon§Tech-priest Dominus (Knights)—Eradication ray – dissipated": {
         "aspects": {
           "Label": "Eradication ray – dissipated"
-        },
-        "stats": {
-          "Range": {
-            "value": 24
-          },
-          "A": {
-            "format": "D3",
-            "value": 0
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 6
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          }
         }
       },
       "Ranged Weapon§Tech-priest Dominus (Knights)—Volkite blaster": {
         "aspects": {
           "Label": "Volkite blaster"
-        },
-        "stats": {
-          "Range": {
-            "value": 24
-          },
-          "A": {
-            "value": 3
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 2
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Devastating Wounds"
-          ]
         }
       },
       "Melee Weapon§Tech-priest Dominus (Knights)—Omnissian axe": {
         "aspects": {
           "Label": "Omnissian axe"
-        },
-        "stats": {
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "A": {
-            "value": 4
-          },
-          "WS": {
-            "value": 3
-          },
-          "S": {
-            "value": 6
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 2
-          }
         }
       },
       "Ranged Weapon§Tech-priest Manipulus (Knights)—Transonic cannon": {
         "aspects": {
           "Label": "Transonic cannon"
-        },
-        "stats": {
-          "Range": {
-            "value": 12
-          },
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "S": {
-            "value": 4
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 2
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Torrent"
-          ]
         }
       },
       "Ranged Weapon§Tech-priest Manipulus (Knights)—Magnarail lance": {
         "aspects": {
           "Label": "Magnarail lance"
-        },
-        "stats": {
-          "Range": {
-            "value": 36
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 7
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 3
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Heavy"
-          ]
         }
       },
       "Melee Weapon§Tech-priest Manipulus (Knights)—Omnissian staff": {
         "aspects": {
           "Label": "Omnissian staff"
-        },
-        "stats": {
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "A": {
-            "value": 4
-          },
-          "WS": {
-            "value": 3
-          },
-          "S": {
-            "value": 6
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 2
-          }
         }
       },
       "Ranged Weapon§Skitarii Marshal (Knights)—Mechanicus pistol": {
         "aspects": {
           "Label": "Mechanicus pistol"
-        },
-        "stats": {
-          "Range": {
-            "value": 12
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 6
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Pistol"
-          ]
         }
       },
       "Melee Weapon§Skitarii Marshal (Knights)—Control stave": {
         "aspects": {
           "Label": "Control stave"
-        },
-        "stats": {
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "A": {
-            "value": 4
-          },
-          "WS": {
-            "value": 3
-          },
-          "S": {
-            "value": 6
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          }
         }
       },
       "Ranged Weapon§Skitarii Rangers (Knights)—Transuranic arquebus": {

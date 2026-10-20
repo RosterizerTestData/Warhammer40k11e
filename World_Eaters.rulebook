@@ -4314,16 +4314,6 @@
           }
         }
       },
-      "Model§Chaos Spawn": {
-        "stats": {
-          "M": {
-            "value": 10
-          },
-          "OC": {
-            "value": 1
-          }
-        }
-      },
       "Model§Chaos Terminator (WE)": {
         "aspects": {
           "Label": "Chaos Terminator"
@@ -7446,12 +7436,6 @@
           "traits": [
             "Ability§Blessings of Khorne"
           ]
-        },
-        "stats": {
-          "M": {
-            "statType": "term",
-            "value": "-"
-          }
         }
       },
       "Unit§Hell Talon": {
@@ -7464,12 +7448,6 @@
           "traits": [
             "Ability§Blessings of Khorne"
           ]
-        },
-        "stats": {
-          "M": {
-            "statType": "term",
-            "value": "-"
-          }
         }
       },
       "Unit§Jakhals": {
@@ -9038,18 +9016,18 @@
           "traits": [
             "Ability§Twin-linked",
             {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
-            {
               "item": "Ability§Rapid Fire",
               "stats": {
                 "x": {
                   "value": "2"
+                }
+              }
+            },
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
                 }
               }
             }
@@ -9289,18 +9267,18 @@
         "assets": {
           "traits": [
             {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
-            {
               "item": "Ability§Rapid Fire",
               "stats": {
                 "x": {
                   "value": "2"
+                }
+              }
+            },
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
                 }
               }
             }
@@ -9634,18 +9612,18 @@
         "assets": {
           "traits": [
             {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
-            {
               "item": "Ability§Rapid Fire",
               "stats": {
                 "x": {
                   "value": "2"
+                }
+              }
+            },
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
                 }
               }
             }
@@ -9933,6 +9911,7 @@
       "Ranged Weapon§Defiler—Ectoplasma destructor": {
         "assets": {
           "traits": [
+            "Ability§Blast",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -9940,8 +9919,7 @@
                   "value": "2"
                 }
               }
-            },
-            "Ability§Blast"
+            }
           ]
         },
         "stats": {
@@ -10009,6 +9987,7 @@
       "Ranged Weapon§Defiler—Hades battle cannon": {
         "assets": {
           "traits": [
+            "Ability§Blast",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -10016,8 +9995,7 @@
                   "value": "3"
                 }
               }
-            },
-            "Ability§Blast"
+            }
           ]
         },
         "stats": {
@@ -10089,6 +10067,7 @@
       "Ranged Weapon§Defiler—Heavy missile launcher – frag": {
         "assets": {
           "traits": [
+            "Ability§Blast",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -10127,14 +10106,7 @@
       "Ranged Weapon§Defiler—Heavy reaper autocannon": {
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
+            "Ability§Devastating Wounds",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -10143,7 +10115,14 @@
                 }
               }
             },
-            "Ability§Devastating Wounds"
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
           ]
         },
         "stats": {
@@ -10177,18 +10156,18 @@
         "assets": {
           "traits": [
             {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
-            {
               "item": "Ability§Melta",
               "stats": {
                 "x": {
                   "value": "2"
+                }
+              }
+            },
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
                 }
               }
             }
@@ -10467,6 +10446,7 @@
       "Ranged Weapon§Helbrute—Missile launcher – frag": {
         "assets": {
           "traits": [
+            "Ability§Blast",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -10474,8 +10454,7 @@
                   "value": "3"
                 }
               }
-            },
-            "Ability§Blast"
+            }
           ]
         },
         "stats": {
@@ -10545,18 +10524,18 @@
         "assets": {
           "traits": [
             {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
-            {
               "item": "Ability§Melta",
               "stats": {
                 "x": {
                   "value": "2"
+                }
+              }
+            },
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
                 }
               }
             }
@@ -10630,18 +10609,18 @@
           "traits": [
             "Ability§Twin-linked",
             {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
-            {
               "item": "Ability§Rapid Fire",
               "stats": {
                 "x": {
                   "value": "2"
+                }
+              }
+            },
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
                 }
               }
             }
@@ -11272,6 +11251,7 @@
       "Ranged Weapon§Forgefiend—Ectoplasma cannon": {
         "assets": {
           "traits": [
+            "Ability§Blast",
             {
               "item": "Ability§Rapid Fire",
               "stats": {
@@ -11279,8 +11259,7 @@
                   "value": "1"
                 }
               }
-            },
-            "Ability§Blast"
+            }
           ]
         },
         "stats": {
@@ -11692,197 +11671,21 @@
       "Ranged Weapon§Chaos Land Raider—Combi-weapon": {
         "aspects": {
           "Label": "Combi-weapon"
-        },
-        "stats": {
-          "Range": {
-            "value": 24
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 4
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "infantry"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            }
-          ]
         }
       },
       "Ranged Weapon§Chaos Predator Annihilator—Combi-weapon": {
         "aspects": {
           "Label": "Combi-weapon"
-        },
-        "stats": {
-          "Range": {
-            "value": 24
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 4
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "infantry"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            }
-          ]
         }
       },
       "Ranged Weapon§Chaos Predator Destructor—Combi-weapon": {
         "aspects": {
           "Label": "Combi-weapon"
-        },
-        "stats": {
-          "Range": {
-            "value": 24
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 4
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "infantry"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            }
-          ]
         }
       },
       "Ranged Weapon§Chaos Rhino—Combi-weapon": {
         "aspects": {
           "Label": "Combi-weapon"
-        },
-        "stats": {
-          "Range": {
-            "value": 24
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 4
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "infantry"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            }
-          ]
         }
       },
       "Melee Weapon§Daemon Prince of Khorne—Hellforged weapons – sweep": {
@@ -12024,30 +11827,6 @@
       "Ranged Weapon§Helbrute—Heavy flamer": {
         "aspects": {
           "Label": "Heavy flamer"
-        },
-        "stats": {
-          "Range": {
-            "value": 12
-          },
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Torrent",
-            "Ability§Ignores Cover"
-          ]
         }
       },
       "Ranged Weapon§Helbrute—Plasma cannon": {
@@ -12093,30 +11872,6 @@
       "Ranged Weapon§Heldrake—Baleflamer": {
         "aspects": {
           "Label": "Baleflamer"
-        },
-        "stats": {
-          "Range": {
-            "value": 12
-          },
-          "A": {
-            "format": "D6",
-            "value": 3
-          },
-          "S": {
-            "value": 6
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 2
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Torrent",
-            "Ability§Ignores Cover"
-          ]
         }
       },
       "Melee Weapon§Khorne Berzerkers—Chainblade": {
@@ -12377,32 +12132,6 @@
       "Melee Weapon§Maulerfiend—Lasher tendrils": {
         "aspects": {
           "Label": "Lasher tendrils"
-        },
-        "stats": {
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "A": {
-            "value": 6
-          },
-          "WS": {
-            "value": 3
-          },
-          "S": {
-            "value": 7
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Extra Attacks"
-          ]
         }
       },
       "Melee Weapon§Lord on Juggernaut—Bladed horn": {
@@ -12866,65 +12595,11 @@
       "Ranged Weapon§Kratos—Multi-melta": {
         "aspects": {
           "Label": "Multi-melta"
-        },
-        "stats": {
-          "Range": {
-            "value": 18
-          },
-          "A": {
-            "value": 2
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 10
-          },
-          "AP": {
-            "value": -3
-          },
-          "D": {
-            "format": "D3",
-            "value": 2
-          }
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Melta",
-              "stats": {
-                "x": {
-                  "value": "3"
-                }
-              }
-            }
-          ]
         }
       },
       "Ranged Weapon§Kratos—Lascannon": {
         "aspects": {
           "Label": "Lascannon"
-        },
-        "stats": {
-          "Range": {
-            "value": 48
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 12
-          },
-          "AP": {
-            "value": -3
-          },
-          "D": {
-            "format": "D3",
-            "value": 3
-          }
         }
       },
       "Ranged Weapon§Kratos—Combi-weapon – infernus": {
@@ -13054,41 +12729,9 @@
           }
         }
       },
-      "__inherited__": {
-        "aspects": {
-          "Label": "Axe of Khorne – strike"
-        },
-        "stats": {
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "A": {
-            "value": 16
-          },
-          "WS": {
-            "value": 2
-          },
-          "S": {
-            "value": 8
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 1
-          }
-        }
-      },
       "Melee Weapon§Bloodthirster—Axe of Khorne": {
         "aspects": {
           "Label": "Axe of Khorne"
-        },
-        "assets": {
-          "traits": [
-            "__inherited__",
-            "__inherited__"
-          ]
         },
         "keywords": {
           "Tags": [

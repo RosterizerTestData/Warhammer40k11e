@@ -4106,16 +4106,6 @@
           }
         }
       },
-      "Model§Chaos Spawn": {
-        "stats": {
-          "M": {
-            "value": 10
-          },
-          "OC": {
-            "value": 1
-          }
-        }
-      },
       "Model§Chaos Terminator": {
         "stats": {
           "M": {
@@ -7564,66 +7554,16 @@
         "stats": {
           "Points": {
             "value": 15
-          },
-          "Range": {
-            "value": 48
-          },
-          "A": {
-            "value": 4
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 9
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 3
           }
         },
         "aspects": {
           "Label": "Heavy reaper autocannon"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
-            "Ability§Devastating Wounds"
-          ]
         }
       },
       "Ranged Weapon§Defiler—Hades lascannon": {
         "stats": {
           "Points": {
             "value": 15
-          },
-          "Range": {
-            "value": 48
-          },
-          "A": {
-            "value": 2
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 12
-          },
-          "AP": {
-            "value": -3
-          },
-          "D": {
-            "format": "D6",
-            "value": 1
           }
         },
         "aspects": {
@@ -8156,31 +8096,6 @@
       "Ranged Weapon§Sorcerer—Bolt pistol": {
         "aspects": {
           "Label": "Bolt pistol"
-        },
-        "stats": {
-          "Range": {
-            "value": 12
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Pistol"
-          ]
         }
       },
       "Character§Sorcerer (SL)": {
@@ -8268,6 +8183,13 @@
       },
       "Ability§Pact of Excess": {
         "text": "When mustering your army, unless specifically stated otherwise, you cannot select Legions of Excess as your Army Faction."
+      },
+      "Melee Weapon§Defiler—Shearing claws – strike": {
+        "assets": {
+          "traits": [
+            "Ability§Precision"
+          ]
+        }
       }
     },
     "gameModes": {},

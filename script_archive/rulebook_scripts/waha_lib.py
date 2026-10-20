@@ -142,3 +142,47 @@ def mfm_units(stem, factions_txt):
         return set()
     m = yaml.safe_load(open(Path(os.environ["MFM_DIR"]) / "data" / f"{slug}.yaml"))
     return {n(u["name"]) for u in m.get("units") or []}
+
+
+# ------------------------------------------------------------------ value / weapon-keyword parsing (same as gdc_codex_units.py)
+UNKNOWN = set()
+
+def val(s, kind=None):
+    s = str(s).strip().replace('"', "").replace("″", "").replace("–", "-")
+    if s.lower() == "melee":
+        return {"statType": "term", "value": "Melee"}
+    s = s.rstrip("+")
+    if s in ("-", "N/A", ""):
+        return None
+    if re.fullmatch(r"-?\d+", s):
+        return {"value": int(s)}
+    m = re.fullmatch(r"(\d*D\d+)(?:\+(\d+))?", s.upper())
+    if m:
+        return {"format": m.group(1), "value": int(m.group(2) or 0)}
+    return {"statType": "term", "value": s}
+
+CORE_WA = {"assault", "blast", "devastating wounds", "extra attacks", "hazardous", "heavy", "ignores cover", "indirect fire",
+           "lance", "lethal hits", "one shot", "pistol", "precision", "psychic", "torrent", "twin-linked", "close-quarters",
+           "conversion"}
+PARAM_WA = {"rapid fire": "Rapid Fire", "sustained hits": "Sustained Hits", "melta": "Melta", "cleave": "Cleave", "blast": "Blast"}
+WA_ITEMS = {"Ability§" + x.title().replace("-Linked", "-linked").replace("-Quarters", "-quarters") for x in CORE_WA} | \
+           {"Ability§" + v for v in PARAM_WA.values()} | {"Ability§Anti-"}
+
+def weapon_trait(k):
+    k = str(k).strip()
+    cond = None
+    if ":" in k:
+        k, cond = [x.strip() for x in k.split(":", 1)]
+    low = k.lower()
+    m = re.match(r"anti-(.+?)\s+(\d\+)$", low)
+    if m:
+        return {"item": "Ability§Anti-", "stats": {"keyword": {"value": m.group(1)}, "x": {"value": m.group(2) + (f" ({cond})" if cond else "")}}}
+    for p, item in PARAM_WA.items():
+        m = re.match(rf"{p}\s+(\S+)$", low)
+        if m:
+            return {"item": f"Ability§{item}", "stats": {"x": {"value": m.group(1).upper() + (f" ({cond})" if cond else "")}}}
+    if low in CORE_WA:
+        item = "Ability§" + low.title().replace("-Linked", "-linked").replace("-Quarters", "-quarters")
+        return {"item": item, "stats": {"x": {"value": f"({cond})"}}} if cond else item
+    UNKNOWN.add(k); return None
+

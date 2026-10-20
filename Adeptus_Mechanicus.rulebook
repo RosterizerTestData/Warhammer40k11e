@@ -6037,131 +6037,26 @@
       "Melee Weapon§Skitarii Marshal—Control stave": {
         "aspects": {
           "Label": "Control stave"
-        },
-        "stats": {
-          "A": {
-            "value": 4
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 6
-          },
-          "WS": {
-            "value": 3
-          }
         }
       },
       "Melee Weapon§Skitarii Rangers—Alpha combat weapon": {
         "aspects": {
           "Label": "Alpha combat weapon"
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 5
-          },
-          "WS": {
-            "value": 4
-          }
         }
       },
       "Melee Weapon§Skitarii Rangers—Close combat weapon": {
         "aspects": {
           "Label": "Close combat weapon"
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 3
-          },
-          "WS": {
-            "value": 4
-          }
         }
       },
       "Melee Weapon§Skitarii Vanguard—Alpha combat weapon": {
         "aspects": {
           "Label": "Alpha combat weapon"
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 5
-          },
-          "WS": {
-            "value": 4
-          }
         }
       },
       "Melee Weapon§Skitarii Vanguard—Close combat weapon": {
         "aspects": {
           "Label": "Close combat weapon"
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 3
-          },
-          "WS": {
-            "value": 4
-          }
         }
       },
       "Melee Weapon§Skorpius Disintegrator—Armoured hull": {
@@ -6321,27 +6216,6 @@
       "Melee Weapon§Tech-priest Dominus—Omnissian axe": {
         "aspects": {
           "Label": "Omnissian axe"
-        },
-        "stats": {
-          "A": {
-            "value": 4
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 6
-          },
-          "WS": {
-            "value": 3
-          }
         }
       },
       "Melee Weapon§Tech-priest Enginseer—Omnissian axe": {
@@ -6404,27 +6278,6 @@
       "Melee Weapon§Tech-priest Manipulus—Omnissian staff": {
         "aspects": {
           "Label": "Omnissian staff"
-        },
-        "stats": {
-          "A": {
-            "value": 4
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 6
-          },
-          "WS": {
-            "value": 3
-          }
         }
       },
       "Melee Weapon§Technoarcheologist—Servo-arc claw": {
@@ -8348,15 +8201,6 @@
           ]
         },
         "stats": {
-          "Ld": {
-            "value": 7
-          },
-          "M": {
-            "value": 6
-          },
-          "OC": {
-            "value": 2
-          },
           "Ranged Options": {
             "dynamic": true,
             "group": "Loadout",
@@ -8435,15 +8279,6 @@
             "statType": "rank",
             "value": "Radium carbine",
             "visibility": "active"
-          },
-          "Sv": {
-            "value": 4
-          },
-          "T": {
-            "value": 3
-          },
-          "W": {
-            "value": 1
           }
         }
       },
@@ -10874,138 +10709,21 @@
       "Ranged Weapon§Skitarii Marshal—Mechanicus pistol": {
         "aspects": {
           "Label": "Mechanicus pistol"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Pistol",
-            "Ability§Devastating Wounds"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": -1
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 6
-          }
         }
       },
       "Ranged Weapon§Skitarii Rangers—Arc rifle": {
         "aspects": {
           "Label": "Arc rifle"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "vehicle"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": -1
-          },
-          "BS": {
-            "value": 4
-          },
-          "D": {
-            "format": "D3",
-            "value": 0
-          },
-          "Range": {
-            "value": 30
-          },
-          "S": {
-            "value": 8
-          }
         }
       },
       "Ranged Weapon§Skitarii Rangers—Galvanic rifle": {
         "aspects": {
           "Label": "Galvanic rifle"
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": 0
-          },
-          "BS": {
-            "value": 4
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 30
-          },
-          "S": {
-            "value": 4
-          }
         }
       },
       "Ranged Weapon§Skitarii Rangers—Mechanicus pistol": {
         "aspects": {
           "Label": "Mechanicus pistol"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Pistol",
-            "Ability§Devastating Wounds"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": -1
-          },
-          "BS": {
-            "value": 4
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 6
-          }
         }
       },
       "Ranged Weapon§Skitarii Rangers—Plasma caliver": {
@@ -11027,169 +10745,26 @@
       "Ranged Weapon§Skitarii Rangers—Plasma caliver – standard": {
         "aspects": {
           "Label": "Standard"
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 4
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 30
-          },
-          "S": {
-            "value": 7
-          }
         }
       },
       "Ranged Weapon§Skitarii Rangers—Plasma caliver – supercharge": {
         "aspects": {
           "Label": "Supercharge"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Hazardous"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": -3
-          },
-          "BS": {
-            "value": 4
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "value": 30
-          },
-          "S": {
-            "value": 8
-          }
         }
       },
       "Ranged Weapon§Skitarii Rangers—Transuranic arquebus": {
         "aspects": {
           "Label": "Transuranic arquebus"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Precision",
-            "Ability§Heavy"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 4
-          },
-          "D": {
-            "format": "D3",
-            "value": 0
-          },
-          "Range": {
-            "value": 36
-          },
-          "S": {
-            "value": 7
-          }
         }
       },
       "Ranged Weapon§Skitarii Vanguard—Arc rifle": {
         "aspects": {
           "Label": "Arc rifle"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "vehicle"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": -1
-          },
-          "BS": {
-            "value": 4
-          },
-          "D": {
-            "format": "D3",
-            "value": 0
-          },
-          "Range": {
-            "value": 30
-          },
-          "S": {
-            "value": 8
-          }
         }
       },
       "Ranged Weapon§Skitarii Vanguard—Mechanicus pistol": {
         "aspects": {
           "Label": "Mechanicus pistol"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Pistol",
-            "Ability§Devastating Wounds"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": -1
-          },
-          "BS": {
-            "value": 4
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 6
-          }
         }
       },
       "Ranged Weapon§Skitarii Vanguard—Plasma caliver": {
@@ -11211,128 +10786,21 @@
       "Ranged Weapon§Skitarii Vanguard—Plasma caliver – standard": {
         "aspects": {
           "Label": "Standard"
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 4
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 30
-          },
-          "S": {
-            "value": 7
-          }
         }
       },
       "Ranged Weapon§Skitarii Vanguard—Plasma caliver – supercharge": {
         "aspects": {
           "Label": "Supercharge"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Hazardous"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": -3
-          },
-          "BS": {
-            "value": 4
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "value": 30
-          },
-          "S": {
-            "value": 8
-          }
         }
       },
       "Ranged Weapon§Skitarii Vanguard—Radium carbine": {
         "aspects": {
           "Label": "Radium carbine"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "infantry"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": 0
-          },
-          "BS": {
-            "value": 4
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 18
-          },
-          "S": {
-            "value": 3
-          }
         }
       },
       "Ranged Weapon§Skitarii Vanguard—Transuranic arquebus": {
         "aspects": {
           "Label": "Transuranic arquebus"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Precision",
-            "Ability§Heavy"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 4
-          },
-          "D": {
-            "format": "D3",
-            "value": 0
-          },
-          "Range": {
-            "value": 36
-          },
-          "S": {
-            "value": 7
-          }
         }
       },
       "Ranged Weapon§Skorpius Disintegrator—Belleros energy cannon": {
@@ -11737,144 +11205,26 @@
       "Ranged Weapon§Tech-priest Dominus—Eradication ray – dissipated": {
         "aspects": {
           "Label": "Dissipated"
-        },
-        "stats": {
-          "A": {
-            "format": "D3",
-            "value": 0
-          },
-          "AP": {
-            "value": -1
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 24
-          },
-          "S": {
-            "value": 6
-          }
         }
       },
       "Ranged Weapon§Tech-priest Dominus—Eradication ray – focused": {
         "aspects": {
           "Label": "Focused"
-        },
-        "stats": {
-          "A": {
-            "format": "D3",
-            "value": 0
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 6
-          }
         }
       },
       "Ranged Weapon§Tech-priest Dominus—Macrostubber": {
         "aspects": {
           "Label": "Macrostubber"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Pistol"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 5
-          },
-          "AP": {
-            "value": 0
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 4
-          }
         }
       },
       "Ranged Weapon§Tech-priest Dominus—Phosphor serpenta": {
         "aspects": {
           "Label": "Phosphor serpenta"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Pistol",
-            "Ability§Ignores Cover"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": -1
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "value": 18
-          },
-          "S": {
-            "value": 5
-          }
         }
       },
       "Ranged Weapon§Tech-priest Dominus—Volkite blaster": {
         "aspects": {
           "Label": "Volkite blaster"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Devastating Wounds"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": 0
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "value": 24
-          },
-          "S": {
-            "value": 5
-          }
         }
       },
       "Ranged Weapon§Tech-priest Enginseer—Mechanicus pistol": {
@@ -11911,64 +11261,17 @@
       "Ranged Weapon§Tech-priest Manipulus—Magnarail lance": {
         "aspects": {
           "Label": "Magnarail lance"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Heavy"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 3
-          },
-          "Range": {
-            "value": 36
-          },
-          "S": {
-            "value": 7
-          }
         }
       },
       "Ranged Weapon§Tech-priest Manipulus—Transonic cannon": {
         "aspects": {
           "Label": "Transonic cannon"
         },
-        "assets": {
-          "traits": [
-            "Ability§Torrent",
-            "Ability§Devastating Wounds"
-          ]
-        },
         "stats": {
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "AP": {
-            "value": 0
-          },
           "BS": {
             "format": "{t}",
             "statType": "term",
             "value": "N/A"
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 4
           }
         }
       },
@@ -12004,109 +11307,18 @@
         }
       },
       "Ranged Weapon§Terrax-pattern Termite—Combi-bolter": {
-        "stats": {
-          "BS": {
-            "value": 4
-          },
-          "Range": {
-            "value": 24
-          },
-          "A": {
-            "value": 2
-          },
-          "S": {
-            "value": 4
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 1
-          }
-        },
         "aspects": {
           "Label": "Combi-bolter"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            }
-          ]
         }
       },
       "Ranged Weapon§Terrax-pattern Termite—Terrax melta cutter": {
-        "stats": {
-          "BS": {
-            "value": 4
-          },
-          "Range": {
-            "value": 12
-          },
-          "A": {
-            "value": 5
-          },
-          "S": {
-            "value": 9
-          },
-          "AP": {
-            "value": -4
-          },
-          "D": {
-            "format": "D6",
-            "value": 0
-          }
-        },
         "aspects": {
           "Label": "Terrax melta cutter"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Melta",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            }
-          ]
         }
       },
       "Ranged Weapon§Terrax-pattern Termite—Twin volkite charger": {
-        "stats": {
-          "BS": {
-            "value": 4
-          },
-          "Range": {
-            "value": 18
-          },
-          "A": {
-            "value": 2
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 2
-          }
-        },
         "aspects": {
           "Label": "Twin volkite charger"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Twin-linked"
-          ]
         }
       },
       "Ranged Weapon§Thulia Ghuld—Jericho‑class conversion resonator": {
@@ -16925,30 +16137,6 @@
       "Ranged Weapon§Terrax-pattern Termite—Heavy flamer": {
         "aspects": {
           "Label": "Heavy flamer"
-        },
-        "stats": {
-          "Range": {
-            "value": 12
-          },
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
-          ]
         }
       },
       "Ability§Invocation of Machine Vengeance": {
