@@ -169,9 +169,12 @@ def sync_weapons(U, ds, created_ok=True):
                         out.append(f"+ {k}")
                     cat[k] = weapon_asset(kind, pr, cat.get(k))
                     prof_keys.append(k)
-                if "stats" in parent:
+                combat = {"Range", "A", "BS", "WS", "S", "AP", "D"}
+                if combat & set(parent.get("stats") or {}):
                     out.append(f"~ {pk} became multi-profile parent")
-                    parent.pop("stats", None)
+                    parent["stats"] = {k_: v for k_, v in parent["stats"].items() if k_ not in combat}
+                    if not parent["stats"]:
+                        del parent["stats"]
                 parent.setdefault("aspects", {}).setdefault("Label", pk.split("—", 1)[1])
                 parent["assets"] = {"traits": prof_keys}
                 parent.setdefault("keywords", {})["Tags"] = ["Multi-weapon"]
