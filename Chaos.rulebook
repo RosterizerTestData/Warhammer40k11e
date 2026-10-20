@@ -20305,7 +20305,14 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            },
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -20324,7 +20331,7 @@
             "value": -1
           },
           "BS": {
-            "value": 4
+            "value": 3
           },
           "D": {
             "value": 2
@@ -20343,14 +20350,20 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
+            "Ability§Torrent",
+            {
+              "item": "Ability§Blast",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
           ]
         },
         "stats": {
           "A": {
-            "format": "D6",
-            "value": 0
+            "value": 3
           },
           "AP": {
             "value": -1
@@ -20376,9 +20389,7 @@
           "Label": "Lascannon"
         },
         "assets": {
-          "traits": [
-            "Ability§Heavy"
-          ]
+          "traits": []
         },
         "stats": {
           "A": {
@@ -20388,11 +20399,11 @@
             "value": -3
           },
           "BS": {
-            "value": 4
+            "value": 3
           },
           "D": {
-            "format": "D6",
-            "value": 1
+            "format": "D3",
+            "value": 3
           },
           "Range": {
             "value": 48
@@ -20408,12 +20419,11 @@
         },
         "assets": {
           "traits": [
-            "Ability§Heavy",
             {
               "item": "Ability§Melta",
               "stats": {
                 "x": {
-                  "value": "2"
+                  "value": "3"
                 }
               }
             }
@@ -20424,20 +20434,20 @@
             "value": 2
           },
           "AP": {
-            "value": -4
+            "value": -3
           },
           "BS": {
-            "value": 4
+            "value": 3
           },
           "D": {
-            "format": "D6",
-            "value": 0
+            "format": "D3",
+            "value": 2
           },
           "Range": {
             "value": 18
           },
           "S": {
-            "value": 9
+            "value": 10
           }
         }
       },
@@ -20447,6 +20457,15 @@
         },
         "assets": {
           "traits": [
+            "Ability§Twin-linked",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            },
             {
               "item": "Ability§Sustained Hits",
               "stats": {
@@ -20454,8 +20473,7 @@
                   "value": "1"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -20485,15 +20503,21 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
             "Ability§Torrent",
-            "Ability§Twin-linked"
+            "Ability§Twin-linked",
+            {
+              "item": "Ability§Blast",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
           ]
         },
         "stats": {
           "A": {
-            "format": "D6",
-            "value": 0
+            "value": 3
           },
           "AP": {
             "value": -1
@@ -45426,7 +45450,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Falchion—Twin heavy bolter"
+                    "trait": "Ranged Weapon§Adeptus Astartes Armoury—Twin heavy bolter"
                   }
                 ]
               },
@@ -45434,7 +45458,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Falchion—Twin heavy flamer"
+                    "trait": "Ranged Weapon§Adeptus Astartes Armoury—Twin heavy flamer"
                   }
                 ]
               }
@@ -45601,7 +45625,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Fellblade—Twin heavy bolter"
+                    "trait": "Ranged Weapon§Adeptus Astartes Armoury—Twin heavy bolter"
                   }
                 ]
               },
@@ -45609,7 +45633,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Fellblade—Twin heavy flamer"
+                    "trait": "Ranged Weapon§Adeptus Astartes Armoury—Twin heavy flamer"
                   }
                 ]
               }
@@ -45876,10 +45900,10 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Kratos—Heavy bolter"
+                    "trait": "Ranged Weapon§Adeptus Astartes Armoury—Heavy bolter"
                   },
                   {
-                    "trait": "Ranged Weapon§Kratos—Heavy bolter"
+                    "trait": "Ranged Weapon§Adeptus Astartes Armoury—Heavy bolter"
                   }
                 ]
               },
@@ -45887,10 +45911,10 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Kratos—Heavy flamer"
+                    "trait": "Ranged Weapon§Adeptus Astartes Armoury—Heavy flamer"
                   },
                   {
-                    "trait": "Ranged Weapon§Kratos—Heavy flamer"
+                    "trait": "Ranged Weapon§Adeptus Astartes Armoury—Heavy flamer"
                   }
                 ]
               },
@@ -45898,10 +45922,10 @@
                 "order": 2,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Kratos—Lascannon"
+                    "trait": "Ranged Weapon§Adeptus Astartes Armoury—Lascannon"
                   },
                   {
-                    "trait": "Ranged Weapon§Kratos—Lascannon"
+                    "trait": "Ranged Weapon§Adeptus Astartes Armoury—Lascannon"
                   }
                 ]
               },
@@ -46000,7 +46024,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Kratos—Combi-weapon"
+                    "trait": "Ranged Weapon§Adeptus Astartes Armoury—Combi-weapon"
                   }
                 ]
               },
@@ -46016,7 +46040,7 @@
                 "order": 3,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Kratos—Heavy bolter"
+                    "trait": "Ranged Weapon§Adeptus Astartes Armoury—Heavy bolter"
                   }
                 ]
               },
@@ -46024,7 +46048,7 @@
                 "order": 4,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Kratos—Heavy flamer"
+                    "trait": "Ranged Weapon§Adeptus Astartes Armoury—Heavy flamer"
                   }
                 ]
               },
@@ -46032,7 +46056,7 @@
                 "order": 5,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Kratos—Multi-melta"
+                    "trait": "Ranged Weapon§Adeptus Astartes Armoury—Multi-melta"
                   }
                 ]
               },
@@ -46062,10 +46086,10 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Kratos—Heavy bolter"
+                    "trait": "Ranged Weapon§Adeptus Astartes Armoury—Heavy bolter"
                   },
                   {
-                    "trait": "Ranged Weapon§Kratos—Heavy bolter"
+                    "trait": "Ranged Weapon§Adeptus Astartes Armoury—Heavy bolter"
                   }
                 ]
               },
@@ -46095,10 +46119,10 @@
                 "order": 3,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Kratos—Lascannon"
+                    "trait": "Ranged Weapon§Adeptus Astartes Armoury—Lascannon"
                   },
                   {
-                    "trait": "Ranged Weapon§Kratos—Lascannon"
+                    "trait": "Ranged Weapon§Adeptus Astartes Armoury—Lascannon"
                   }
                 ]
               }
@@ -47371,7 +47395,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Relic Contemptor Dreadnought—Heavy flamer"
+                    "trait": "Ranged Weapon§Adeptus Astartes Armoury—Heavy flamer"
                   }
                 ]
               },
@@ -47429,7 +47453,7 @@
                 },
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Relic Contemptor Dreadnought—Heavy flamer"
+                    "trait": "Ranged Weapon§Adeptus Astartes Armoury—Heavy flamer"
                   }
                 ]
               },
@@ -47486,7 +47510,7 @@
                 "order": 3,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Relic Contemptor Dreadnought—Multi-melta"
+                    "trait": "Ranged Weapon§Adeptus Astartes Armoury—Multi-melta"
                   }
                 ]
               },
@@ -47583,7 +47607,7 @@
                 "order": 3,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Relic Contemptor Dreadnought—Multi-melta"
+                    "trait": "Ranged Weapon§Adeptus Astartes Armoury—Multi-melta"
                   }
                 ]
               },
@@ -48302,7 +48326,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Spartan—Twin heavy bolter"
+                    "trait": "Ranged Weapon§Adeptus Astartes Armoury—Twin heavy bolter"
                   }
                 ]
               },
@@ -48310,7 +48334,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Spartan—Twin heavy flamer"
+                    "trait": "Ranged Weapon§Adeptus Astartes Armoury—Twin heavy flamer"
                   }
                 ]
               }
@@ -54347,7 +54371,7 @@
             "value": "Melee"
           },
           "S": {
-            "value": 4
+            "value": 5
           },
           "WS": {
             "value": 3
@@ -54393,353 +54417,6 @@
           },
           "S": {
             "value": 7
-          }
-        }
-      },
-      "Ranged Weapon§Kratos—Combi-weapon": {
-        "aspects": {
-          "Label": "Combi-weapon"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "infantry"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": 0
-          },
-          "BS": {
-            "statType": "term",
-            "value": "4*"
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 24
-          },
-          "S": {
-            "value": 4
-          }
-        }
-      },
-      "Ranged Weapon§Kratos—Heavy bolter": {
-        "aspects": {
-          "Label": "Heavy bolter"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            },
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": -1
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "value": 36
-          },
-          "S": {
-            "value": 5
-          }
-        }
-      },
-      "Ranged Weapon§Kratos—Heavy flamer": {
-        "aspects": {
-          "Label": "Heavy flamer"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Torrent",
-            {
-              "item": "Ability§Blast",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": -1
-          },
-          "BS": {
-            "format": "{t}",
-            "statType": "term",
-            "value": "N/A"
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 5
-          }
-        }
-      },
-      "Ranged Weapon§Kratos—Lascannon": {
-        "aspects": {
-          "Label": "Lascannon"
-        },
-        "assets": {
-          "traits": []
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": -3
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "format": "D3",
-            "value": 3
-          },
-          "Range": {
-            "value": 48
-          },
-          "S": {
-            "value": 12
-          }
-        }
-      },
-      "Ranged Weapon§Kratos—Multi-melta": {
-        "aspects": {
-          "Label": "Multi-melta"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Melta",
-              "stats": {
-                "x": {
-                  "value": "3"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": -3
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "format": "D3",
-            "value": 2
-          },
-          "Range": {
-            "value": 18
-          },
-          "S": {
-            "value": 10
-          }
-        }
-      },
-      "Ranged Weapon§Relic Contemptor Dreadnought—Heavy flamer": {
-        "aspects": {
-          "Label": "Heavy flamer"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
-          ]
-        },
-        "stats": {
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "AP": {
-            "value": -1
-          },
-          "BS": {
-            "format": "{t}",
-            "statType": "term",
-            "value": "N/A"
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 5
-          }
-        }
-      },
-      "Ranged Weapon§Relic Contemptor Dreadnought—Multi-melta": {
-        "aspects": {
-          "Label": "Multi-melta"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Heavy",
-            {
-              "item": "Ability§Melta",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": -4
-          },
-          "BS": {
-            "value": 4
-          },
-          "D": {
-            "format": "D6",
-            "value": 0
-          },
-          "Range": {
-            "value": 18
-          },
-          "S": {
-            "value": 9
-          }
-        }
-      },
-      "Ranged Weapon§Spartan—Twin heavy bolter": {
-        "aspects": {
-          "Label": "Twin heavy bolter"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
-            "Ability§Twin-linked"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": -1
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "value": 36
-          },
-          "S": {
-            "value": 5
-          }
-        }
-      },
-      "Ranged Weapon§Spartan—Twin heavy flamer": {
-        "aspects": {
-          "Label": "Twin heavy flamer"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent",
-            "Ability§Twin-linked"
-          ]
-        },
-        "stats": {
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "AP": {
-            "value": -1
-          },
-          "BS": {
-            "statType": "term",
-            "value": "N/A"
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 5
           }
         }
       }

@@ -1,7 +1,7 @@
 """Bring a faction book in line with the Wahapedia 11e exports (rules content). Run per book, in order:
 
-  1. split   — every weapon a unit uses gets its own "<Kind> Weapon§<Unit>—<Weapon>" asset (de-confusion: armoury /
-               ownerless / other-unit weapons are copied per unit and the unit's references repointed).
+  1. split   — a weapon named for *another* unit gets copied as "<Kind> Weapon§<Unit>—<Weapon>" and the unit's references
+               repointed. Armoury and generic (ownerless) weapons stay shared — they never vary.
   2. export  — writes <out>/<Book>.json in game-datacards shape, then run
                `GDC_DIR=<out> gdc_codex_units.py <Book> <Book>.json --apply` for statlines, weapon profiles/keywords,
                datasheet-level invul/damaged and new units. Missing units are exported only if MFM lists them.
@@ -77,6 +77,8 @@ def split():
             for wk in weapon_refs(cat[hk]):
                 if wk not in res or n(owner(wk) or "") == n(U):
                     continue
+                if owner(wk) is None or "Armoury" in (owner(wk) or ""):
+                    continue   # armoury / generic weapons never vary: the shared key is the indicator (user rule)
                 if any(n(owner(wk) or "") == n(m.split("§", 1)[1]) for m in holders[1:]):
                     continue   # named for one of this unit's own models
                 others = [s_ for s_, b_ in books.items() if s_ != stem and f'"{wk}"' in json.dumps(b_["rulebook"]["assetCatalog"].get(hk, {}), ensure_ascii=False)]

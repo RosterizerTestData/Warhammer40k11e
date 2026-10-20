@@ -8242,13 +8242,13 @@
         "assets": {
           "traits": [
             "Melee Weapon§Indomitor Kill Team—Close combat weapon",
-            "Ranged Weapon§Indomitor Kill Team—Bolt pistol"
+            "Ranged Weapon§Deathwatch Armoury (Agents)—Bolt pistol"
           ]
         },
         "removed": {
           "assets": {
             "traits": [
-              "Ranged Weapon§Indomitor Kill Team—Bolt pistol",
+              "Ranged Weapon§Deathwatch Armoury (Agents)—Bolt pistol",
               "Melee Weapon§Indomitor Kill Team—Close combat weapon"
             ]
           }
@@ -8414,7 +8414,7 @@
       "Model§Kill Team Heavy Intercessor with melta rifle": {
         "assets": {
           "traits": [
-            "Ranged Weapon§Indomitor Kill Team—Bolt pistol",
+            "Ranged Weapon§Deathwatch Armoury—Bolt pistol",
             "Melee Weapon§Indomitor Kill Team—Close combat weapon"
           ]
         },
@@ -15914,6 +15914,28 @@
       },
       "Ability§Purgatus Quarry": {
         "text": "At the start of the first battle round, select up to one enemy unit to be this unit’s **hunted**:\n\n- This unit’s attacks that target this unit’s **hunted** unit can re-roll wound rolls of 1.\n\n- Each time this unit’s **hunted** is destroyed, select up to one enemy unit to be this unit’s **hunted**."
+      },
+      "Ranged Weapon§Deathwatch Armoury (Agents)—Bolt pistol": {
+        "stats": {
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Close-quarters"
+          ]
+        },
+        "removed": {
+          "assets": {
+            "traits": [
+              "Ability§Pistol"
+            ]
+          }
+        }
       }
     },
     "gameModes": {},
