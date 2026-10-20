@@ -369,7 +369,32 @@ def sync():
                     log.append(f"{U} / {hk}: invulnerable {curv}→{inv}")
 
 
-{"split": split, "export": export, "sync": sync}[mode]()
+def sync_attached_to():
+    """reverse direction: units in this book accept every Waha leader/support that can join them (incl. leaders from the parent book)"""
+    attachers = {}
+    for lid, targets in leads.items():
+        for t in targets:
+            attachers.setdefault(t, set()).add(lid)
+    for d in datasheets_for(stem):
+        uk = find_unit(res, d["name"])
+        if not uk:
+            continue
+        for lid in sorted(attachers.get(d["id"], ())):
+            if lid not in ds:
+                continue
+            lk = find_unit(res, ds[lid]["name"])
+            if not lk:
+                continue
+            if lk not in ((res[uk].get("allowed") or {}).get("items") or []):
+                t = target(uk)
+                items = t.setdefault("allowed", {}).setdefault("items", [])
+                if lk not in items:
+                    items.append(lk)
+                    res[uk].setdefault("allowed", {}).setdefault("items", []).append(lk)
+                    log.append(f"{uk.split('§', 1)[1]}: accepts {lk}")
+
+
+{"split": split, "export": export, "sync": lambda: (sync(), sync_attached_to())}[mode]()
 print("\n".join(log))
 print("\n=== REVIEW ===\n" + "\n".join(dict.fromkeys(review)))
 if APPLY and mode != "export":
