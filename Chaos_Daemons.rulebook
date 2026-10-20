@@ -6907,11 +6907,62 @@
       "Ranged Weapon§Chaos Lord (SL)—Plasma pistol – supercharge": {
         "aspects": {
           "Label": "Plasma pistol – supercharge"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol",
+            "Ability§Hazardous"
+          ]
         }
       },
       "Ranged Weapon§Chaos Lord (SL)—Plasma pistol – standard": {
         "aspects": {
           "Label": "Plasma pistol – standard"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
         }
       },
       "Ranged Weapon§Chaos Lord (SL)—Plasma pistol": {
@@ -6933,66 +6984,411 @@
       "Melee Weapon§Chaos Lord (SL)—Power fist": {
         "aspects": {
           "Label": "Power fist"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
         }
       },
       "Melee Weapon§Chaos Lord (SL)—Astartes chainblade": {
         "aspects": {
           "Label": "Astartes chainblade"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 7
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
         }
       },
       "Melee Weapon§Chaos Lord (SL)—Accursed weapon": {
         "aspects": {
           "Label": "Accursed weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
         }
       },
       "Melee Weapon§Chaos Lord (SL)—Daemon hammer": {
         "aspects": {
           "Label": "Daemon hammer"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds"
+          ]
         }
       },
       "Ranged Weapon§Chaos Lord in Terminator Armour (SL)—Combi-bolter": {
         "aspects": {
           "Label": "Combi-bolter"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
         }
       },
       "Ranged Weapon§Chaos Lord in Terminator Armour (SL)—Combi-weapon": {
         "aspects": {
           "Label": "Combi-weapon"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
         }
       },
       "Melee Weapon§Chaos Lord in Terminator Armour (SL)—Chainfist": {
         "aspects": {
           "Label": "Chainfist"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "vehicle"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            }
+          ]
         }
       },
       "Melee Weapon§Chaos Lord in Terminator Armour (SL)—Paired accursed weapons": {
         "aspects": {
           "Label": "Paired accursed weapons"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 7
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
         }
       },
       "Melee Weapon§Chaos Lord in Terminator Armour (SL)—Power fist": {
         "aspects": {
           "Label": "Power fist"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
         }
       },
       "Melee Weapon§Chaos Lord in Terminator Armour (SL)—Exalted weapon": {
         "aspects": {
           "Label": "Exalted weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
         }
       },
       "Ranged Weapon§Chaos Lord with Jump Pack (SL)—Bolt pistol": {
         "aspects": {
           "Label": "Bolt pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
         }
       },
       "Ranged Weapon§Chaos Lord with Jump Pack (SL)—Plasma pistol – standard": {
         "aspects": {
           "Label": "Plasma pistol – standard"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
         }
       },
       "Ranged Weapon§Chaos Lord with Jump Pack (SL)—Plasma pistol – supercharge": {
         "aspects": {
           "Label": "Plasma pistol – supercharge"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol",
+            "Ability§Hazardous"
+          ]
         }
       },
       "Ranged Weapon§Chaos Lord with Jump Pack (SL)—Plasma pistol": {
@@ -7014,16 +7410,84 @@
       "Melee Weapon§Chaos Lord with Jump Pack (SL)—Twin lightning claws": {
         "aspects": {
           "Label": "Twin lightning claws"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
         }
       },
       "Melee Weapon§Chaos Lord with Jump Pack (SL)—Accursed weapon": {
         "aspects": {
           "Label": "Accursed weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
         }
       },
       "Melee Weapon§Chaos Lord with Jump Pack (SL)—Power fist": {
         "aspects": {
           "Label": "Power fist"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
         }
       },
       "Ranged Weapon§Chaos Terminator Squad (SL)—Combi-weapon": {
@@ -7554,11 +8018,56 @@
       "Ranged Weapon§Cultist Firebrand (CK)—Balefire pike": {
         "aspects": {
           "Label": "Balefire pike"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "format": "D6",
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Ignores Cover",
+            "Ability§Torrent"
+          ]
         }
       },
       "Melee Weapon§Cultist Firebrand (CK)—Close combat weapon": {
         "aspects": {
           "Label": "Close combat weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
         }
       },
       "Ranged Weapon§Dark Commune (CK)—Warp Curse – focused witchfire": {
@@ -9935,16 +10444,118 @@
       "Ranged Weapon§Master of Possession (SL)—Bolt pistol": {
         "aspects": {
           "Label": "Bolt pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
         }
       },
       "Ranged Weapon§Master of Possession (SL)—Rite of Possession – witchfire": {
         "aspects": {
           "Label": "Rite of Possession – witchfire"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "psyker"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            },
+            "Ability§Pistol",
+            "Ability§Precision",
+            "Ability§Psychic"
+          ]
         }
       },
       "Ranged Weapon§Master of Possession (SL)—Rite of Possession – focused witchfire": {
         "aspects": {
           "Label": "Rite of Possession – focused witchfire"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "psyker"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            },
+            "Ability§Hazardous",
+            "Ability§Pistol",
+            "Ability§Precision",
+            "Ability§Psychic"
+          ]
         }
       },
       "Ranged Weapon§Master of Possession (SL)—Rite of Possession": {
@@ -9966,6 +10577,44 @@
       "Melee Weapon§Master of Possession (SL)—Staff of possession": {
         "aspects": {
           "Label": "Staff of possession"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "psyker"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            },
+            "Ability§Psychic"
+          ]
         }
       },
       "Melee Weapon§Possessed (SL)—Hideous mutations": {
@@ -10246,21 +10895,105 @@
       "Melee Weapon§Raptors (SL)—Astartes chainsword": {
         "aspects": {
           "Label": "Astartes chainsword"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
         }
       },
       "Melee Weapon§Raptors (SL)—Accursed weapon": {
         "aspects": {
           "Label": "Accursed weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
         }
       },
       "Melee Weapon§Raptors (SL)—Mutations": {
         "aspects": {
           "Label": "Mutations"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
         }
       },
       "Melee Weapon§Raptors (SL)—Heavy melee weapon": {
         "aspects": {
           "Label": "Heavy melee weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
         }
       },
       "Melee Weapon§Raptors (SL)—Close combat weapon": {
@@ -10292,16 +11025,97 @@
       "Ranged Weapon§Sorcerer (SL)—Bolt pistol": {
         "aspects": {
           "Label": "Bolt pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
         }
       },
       "Ranged Weapon§Sorcerer (SL)—Infernal Gaze – focused witchfire": {
         "aspects": {
           "Label": "Infernal Gaze – focused witchfire"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds",
+            "Ability§Hazardous",
+            "Ability§Psychic"
+          ]
         }
       },
       "Ranged Weapon§Sorcerer (SL)—Infernal Gaze – witchfire": {
         "aspects": {
           "Label": "Infernal Gaze – witchfire"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic"
+          ]
         }
       },
       "Ranged Weapon§Sorcerer (SL)—Infernal Gaze": {
@@ -10323,16 +11137,99 @@
       "Melee Weapon§Sorcerer (SL)—Force weapon": {
         "aspects": {
           "Label": "Force weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic"
+          ]
         }
       },
       "Ranged Weapon§Sorcerer in Terminator Armour (SL)—Infernal Gaze – witchfire": {
         "aspects": {
           "Label": "Infernal Gaze – witchfire"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic"
+          ]
         }
       },
       "Ranged Weapon§Sorcerer in Terminator Armour (SL)—Infernal Gaze – focused witchfire": {
         "aspects": {
           "Label": "Infernal Gaze – focused witchfire"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds",
+            "Ability§Hazardous",
+            "Ability§Psychic"
+          ]
         }
       },
       "Ranged Weapon§Sorcerer in Terminator Armour (SL)—Infernal Gaze": {
@@ -10354,16 +11251,119 @@
       "Ranged Weapon§Sorcerer in Terminator Armour (SL)—Combi-bolter": {
         "aspects": {
           "Label": "Combi-bolter"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
         }
       },
       "Ranged Weapon§Sorcerer in Terminator Armour (SL)—Combi-weapon": {
         "aspects": {
           "Label": "Combi-weapon"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
         }
       },
       "Melee Weapon§Sorcerer in Terminator Armour (SL)—Force weapon": {
         "aspects": {
           "Label": "Force weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic"
+          ]
         }
       },
       "Melee Weapon§Warp Talons (SL)—Warp claws": {
@@ -10820,7 +11820,8 @@
           "items": [
             "Character§Chaos Lord on Disc of Tzeentch",
             "Character§Chaos Lord on Palanquin of Nurgle",
-            "Character§Sorcerer on Palanquin of Nurgle"
+            "Character§Sorcerer on Palanquin of Nurgle",
+            "Character§Sorcerer On Disc Of Tzeentch"
           ]
         },
         "keywords": {
@@ -10835,7 +11836,8 @@
           "items": [
             "Character§Chaos Lord on Disc of Tzeentch",
             "Character§Chaos Lord on Palanquin of Nurgle",
-            "Character§Sorcerer on Palanquin of Nurgle"
+            "Character§Sorcerer on Palanquin of Nurgle",
+            "Character§Sorcerer On Disc Of Tzeentch"
           ]
         },
         "keywords": {
@@ -10923,6 +11925,11 @@
             "Undivided",
             "Shadow Legion"
           ]
+        },
+        "allowed": {
+          "items": [
+            "Character§Rogue Psyker"
+          ]
         }
       },
       "Unit§Accursed Cultists (CK)": {
@@ -10943,6 +11950,11 @@
               }
             }
           ]
+        },
+        "allowed": {
+          "items": [
+            "Character§Rogue Psyker"
+          ]
         }
       },
       "Unit§Fellgor Beastmen (CK)": {
@@ -10958,6 +11970,11 @@
           "Keywords": [
             "Undivided",
             "Shadow Legion"
+          ]
+        },
+        "allowed": {
+          "items": [
+            "Character§Renegade Enforcer"
           ]
         }
       },
@@ -11129,6 +12146,3860 @@
               "text": "This model can be attached to the following units:\n\n* Hellflayers"
             }
           ]
+        }
+      },
+      "Ability§Bloody Stampede": {
+        "text": "Each time this model’s unit ends a Charge move, select one enemy unit within Engagement Range of this model and roll one D6: on a 2-3, that enemy unit suffers 1 mortal wound; on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
+      },
+      "Character§Chaos Lord On Juggernaut": {
+        "keywords": {
+          "Faction": [
+            "Chaos Daemons"
+          ],
+          "Source": [
+            "Legends"
+          ],
+          "Keywords": [
+            "Chaos",
+            "Khorne",
+            "Chaos Lord",
+            "Juggernaut",
+            "Undivided",
+            "Shadow Legion",
+            "Mounted",
+            "Character",
+            "Grenades",
+            "Chaos",
+            "Chaos Lord",
+            "Juggernaut",
+            "Undivided",
+            "Shadow Legion",
+            "Mounted",
+            "Character",
+            "Grenades",
+            "Chaos",
+            "Khorne",
+            "Chaos Lord",
+            "Juggernaut",
+            "Undivided",
+            "Shadow Legion",
+            "Grenades",
+            "Mounted",
+            "Character",
+            "Grenades",
+            "Chaos",
+            "Khorne",
+            "Chaos Lord",
+            "Juggernaut",
+            "Undivided",
+            "Shadow Legion",
+            "Mounted",
+            "Character",
+            "Grenades",
+            "Chaos",
+            "Khorne",
+            "Chaos Lord",
+            "Juggernaut",
+            "Undivided",
+            "Shadow Legion",
+            "Mounted",
+            "Character",
+            "Chaos",
+            "Khorne",
+            "Chaos Lord",
+            "Juggernaut",
+            "Undivided",
+            "Shadow Legion",
+            "Mounted",
+            "Character",
+            "Grenades",
+            "Chaos",
+            "Khorne",
+            "Chaos Lord",
+            "Juggernaut",
+            "Undivided",
+            "Shadow Legion",
+            "Mounted",
+            "Character",
+            "Grenades",
+            "Khorne",
+            "Chaos Lord On Juggernaut"
+          ],
+          "Category": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 10
+          },
+          "T": {
+            "value": 6
+          },
+          "Sv": {
+            "value": 2
+          },
+          "W": {
+            "value": 7
+          },
+          "Ld": {
+            "value": 6
+          },
+          "OC": {
+            "value": 2
+          },
+          "Points": {
+            "value": 115
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Dark Pacts",
+            "Ability§Lord of Chaos",
+            "Ability§Bloody Stampede",
+            "Ranged Weapon§Chaos Lord On Juggernaut—Bolt pistol",
+            "Melee Weapon§Chaos Lord On Juggernaut—Astartes chainsword",
+            "Melee Weapon§Chaos Lord On Juggernaut—Bladed horn",
+            "Melee Weapon§Chaos Lord On Juggernaut—Close combat weapon",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Chaos Lord On Juggernaut—Bolt pistol": {
+        "aspects": {
+          "Label": "Bolt pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Chaos Lord On Juggernaut—Combi-bolter": {
+        "aspects": {
+          "Label": "Combi-bolter"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Chaos Lord On Juggernaut—Combi-weapon": {
+        "aspects": {
+          "Label": "Combi-weapon"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Chaos Lord On Juggernaut—Plasma pistol – standard": {
+        "aspects": {
+          "Label": "Plasma pistol – standard"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Chaos Lord On Juggernaut—Plasma pistol – supercharge": {
+        "aspects": {
+          "Label": "Plasma pistol – supercharge"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Hazardous",
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Chaos Lord On Juggernaut—Plasma pistol": {
+        "aspects": {
+          "Label": "Plasma pistol"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Chaos Lord On Juggernaut—Plasma pistol – standard",
+            "Ranged Weapon§Chaos Lord On Juggernaut—Plasma pistol – supercharge"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Melee Weapon§Chaos Lord On Juggernaut—Accursed weapon": {
+        "aspects": {
+          "Label": "Accursed weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Chaos Lord On Juggernaut—Astartes chainsword": {
+        "aspects": {
+          "Label": "Astartes chainsword"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 7
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Chaos Lord On Juggernaut—Bladed horn": {
+        "aspects": {
+          "Label": "Bladed horn"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Extra Attacks",
+            "Ability§Lance"
+          ]
+        }
+      },
+      "Melee Weapon§Chaos Lord On Juggernaut—Close combat weapon": {
+        "aspects": {
+          "Label": "Close combat weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Chaos Lord On Juggernaut—Paired accursed weapons": {
+        "aspects": {
+          "Label": "Paired accursed weapons"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 7
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
+        }
+      },
+      "Melee Weapon§Chaos Lord On Juggernaut—Power fist": {
+        "aspects": {
+          "Label": "Power fist"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ability§Cut Off Their Escape": {
+        "text": "Each time an enemy unit (excluding MONSTERS and VEHICLES) within Engagement Range of this model’s unit is selected to Fall Back, models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests."
+      },
+      "Character§Chaos Lord On Steed Of Slaanesh": {
+        "keywords": {
+          "Faction": [
+            "Chaos Daemons"
+          ],
+          "Source": [
+            "Legends"
+          ],
+          "Keywords": [
+            "Grenades",
+            "Chaos",
+            "Slaanesh",
+            "Chaos Lord",
+            "Steed of Slaanesh",
+            "Undivided",
+            "Shadow Legion",
+            "Mounted",
+            "Character",
+            "Grenades",
+            "Chaos",
+            "Slaanesh",
+            "Chaos Lord",
+            "Steed of Slaanesh",
+            "Undivided",
+            "Shadow Legion",
+            "Mounted",
+            "Character",
+            "Grenades",
+            "Chaos",
+            "Slaanesh",
+            "Chaos Lord",
+            "Steed of Slaanesh",
+            "Undivided",
+            "Mounted",
+            "Character",
+            "Grenades",
+            "Chaos",
+            "Slaanesh",
+            "Chaos Lord",
+            "Steed of Slaanesh",
+            "Undivided",
+            "Shadow Legion",
+            "Mounted",
+            "Character",
+            "Grenades",
+            "Chaos",
+            "Slaanesh",
+            "Chaos Lord",
+            "Steed of Slaanesh",
+            "Undivided",
+            "Shadow Legion",
+            "Mounted",
+            "Character",
+            "Grenades",
+            "Chaos",
+            "Slaanesh",
+            "Chaos Lord",
+            "Steed of Slaanesh",
+            "Undivided",
+            "Shadow Legion",
+            "Mounted",
+            "Character",
+            "Shadow Legion",
+            "Mounted",
+            "Character",
+            "Grenades",
+            "Chaos",
+            "Slaanesh",
+            "Chaos Lord",
+            "Steed of Slaanesh",
+            "Undivided",
+            "Shadow Legion",
+            "Chaos Lord On Steed Of Slaanesh"
+          ],
+          "Category": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 14
+          },
+          "T": {
+            "value": 5
+          },
+          "Sv": {
+            "value": 3
+          },
+          "W": {
+            "value": 6
+          },
+          "Ld": {
+            "value": 6
+          },
+          "OC": {
+            "value": 2
+          },
+          "Points": {
+            "value": 100
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Dark Pacts",
+            "Ability§Lord of Chaos",
+            "Ability§Cut Off Their Escape",
+            "Ranged Weapon§Chaos Lord On Steed Of Slaanesh—Bolt pistol",
+            "Melee Weapon§Chaos Lord On Steed Of Slaanesh—Astartes chainsword",
+            "Melee Weapon§Chaos Lord On Steed Of Slaanesh—Close combat weapon",
+            "Melee Weapon§Chaos Lord On Steed Of Slaanesh—Lashing tongue",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Chaos Lord On Steed Of Slaanesh—Plasma pistol – supercharge": {
+        "aspects": {
+          "Label": "Plasma pistol – supercharge"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Hazardous",
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Chaos Lord On Steed Of Slaanesh—Plasma pistol – standard": {
+        "aspects": {
+          "Label": "Plasma pistol – standard"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Chaos Lord On Steed Of Slaanesh—Plasma pistol": {
+        "aspects": {
+          "Label": "Plasma pistol"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Chaos Lord On Steed Of Slaanesh—Plasma pistol – supercharge",
+            "Ranged Weapon§Chaos Lord On Steed Of Slaanesh—Plasma pistol – standard"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Chaos Lord On Steed Of Slaanesh—Combi-weapon": {
+        "aspects": {
+          "Label": "Combi-weapon"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Chaos Lord On Steed Of Slaanesh—Combi-bolter": {
+        "aspects": {
+          "Label": "Combi-bolter"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Chaos Lord On Steed Of Slaanesh—Bolt pistol": {
+        "aspects": {
+          "Label": "Bolt pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Melee Weapon§Chaos Lord On Steed Of Slaanesh—Accursed weapon": {
+        "aspects": {
+          "Label": "Accursed weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Chaos Lord On Steed Of Slaanesh—Lashing tongue": {
+        "aspects": {
+          "Label": "Lashing tongue"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Extra Attacks",
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Melee Weapon§Chaos Lord On Steed Of Slaanesh—Astartes chainsword": {
+        "aspects": {
+          "Label": "Astartes chainsword"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 7
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Chaos Lord On Steed Of Slaanesh—Close combat weapon": {
+        "aspects": {
+          "Label": "Close combat weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Chaos Lord On Steed Of Slaanesh—Paired accursed weapons": {
+        "aspects": {
+          "Label": "Paired accursed weapons"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 7
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
+        }
+      },
+      "Melee Weapon§Chaos Lord On Steed Of Slaanesh—Power fist": {
+        "aspects": {
+          "Label": "Power fist"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ability§Enforcer": {
+        "text": "This model’s unit is eligible to declare a charge in a turn in which it Fell Back."
+      },
+      "Character§Renegade Enforcer": {
+        "keywords": {
+          "Faction": [
+            "Chaos Daemons"
+          ],
+          "Source": [
+            "Legends"
+          ],
+          "Keywords": [
+            "Character",
+            "Renegade Enforcer",
+            "Undivided",
+            "Grenades",
+            "Shadow Legion",
+            "Infantry",
+            "Chaos",
+            "Damned",
+            "Grenades",
+            "Character",
+            "Renegade Enforcer",
+            "Undivided",
+            "Shadow Legion",
+            "Infantry",
+            "Chaos",
+            "Damned",
+            "Shadow Legion",
+            "Character",
+            "Renegade Enforcer",
+            "Undivided",
+            "Shadow Legion",
+            "Infantry",
+            "Chaos",
+            "Damned",
+            "Renegade Enforcer",
+            "Damned",
+            "Undivided",
+            "Damned",
+            "Grenades",
+            "Character",
+            "Chaos",
+            "Infantry",
+            "Shadow Legion",
+            "Undivided",
+            "Renegade Enforcer",
+            "Character",
+            "Grenades",
+            "Damned",
+            "Chaos",
+            "Infantry",
+            "Undivided",
+            "Shadow Legion",
+            "Infantry",
+            "Grenades",
+            "Renegade Enforcer",
+            "Character",
+            "Chaos",
+            "Grenades"
+          ],
+          "Category": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 6
+          },
+          "T": {
+            "value": 3
+          },
+          "Sv": {
+            "value": 5
+          },
+          "W": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 6
+          },
+          "OC": {
+            "value": 1
+          },
+          "Points": {
+            "value": 65
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Renegade Heavy Weapons Squad\n\n* Traitor Guardsmen Squad"
+            },
+            "Ability§Dark Pacts",
+            "Ability§Brutal Example",
+            "Ability§Enforcer",
+            "Ranged Weapon§Renegade Enforcer—Enforcer pistol",
+            "Melee Weapon§Renegade Enforcer—Enforcer melee weapon",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Renegade Enforcer—Enforcer pistol": {
+        "aspects": {
+          "Label": "Enforcer pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Renegade Enforcer—Lasgun": {
+        "aspects": {
+          "Label": "Lasgun"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Renegade Enforcer—Shotgun": {
+        "aspects": {
+          "Label": "Shotgun"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault"
+          ]
+        }
+      },
+      "Ranged Weapon§Renegade Enforcer—Autogun": {
+        "aspects": {
+          "Label": "Autogun"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Melee Weapon§Renegade Enforcer—Enforcer melee weapon": {
+        "aspects": {
+          "Label": "Enforcer melee weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Renegade Enforcer—Power fist": {
+        "aspects": {
+          "Label": "Power fist"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Melee Weapon§Renegade Enforcer—Power weapon": {
+        "aspects": {
+          "Label": "Power weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ability§Cursed Wardings (Psychic)": {
+        "text": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks."
+      },
+      "Ability§Psychic Barrier (Psychic)": {
+        "text": "At the start of your opponent’s Shooting phase, you can roll one D6: on a 1, this PSYKER’s unit suffers D3 mortal wounds; on a 2+, until the end of the phase, models in this PSYKER’s unit have a 4+ invulnerable save."
+      },
+      "Character§Rogue Psyker": {
+        "keywords": {
+          "Faction": [
+            "Chaos Daemons"
+          ],
+          "Source": [
+            "Legends"
+          ],
+          "Keywords": [
+            "Psyker",
+            "Chaos",
+            "Damned",
+            "Rogue Psyker",
+            "Undivided",
+            "Shadow Legion",
+            "Infantry",
+            "Character",
+            "Psyker",
+            "Chaos",
+            "Damned",
+            "Rogue Psyker",
+            "Undivided",
+            "Shadow Legion",
+            "Infantry",
+            "Character",
+            "Psyker",
+            "Chaos",
+            "Damned",
+            "Rogue Psyker",
+            "Undivided",
+            "Shadow Legion",
+            "Infantry",
+            "Character",
+            "Psyker",
+            "Chaos",
+            "Damned",
+            "Rogue Psyker",
+            "Undivided",
+            "Shadow Legion",
+            "Infantry",
+            "Character",
+            "Psyker",
+            "Chaos",
+            "Damned",
+            "Rogue Psyker",
+            "Undivided",
+            "Shadow Legion",
+            "Infantry",
+            "Character",
+            "Psyker",
+            "Chaos",
+            "Damned",
+            "Rogue Psyker",
+            "Undivided",
+            "Shadow Legion",
+            "Infantry",
+            "Character"
+          ],
+          "Category": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 6
+          },
+          "T": {
+            "value": 3
+          },
+          "Sv": {
+            "value": 5
+          },
+          "W": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 7
+          },
+          "OC": {
+            "value": 1
+          },
+          "Points": {
+            "value": 60
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Accursed Cultists\n\n* Cultist Mob\n\n* Cultist Mob with Firearms\n\n* Negavolt Cultists"
+            },
+            "Ability§Dark Pacts",
+            "Ability§Cursed Wardings (Psychic)",
+            "Ability§Psychic Barrier (Psychic)",
+            "Ranged Weapon§Rogue Psyker—Laspistol",
+            "Ranged Weapon§Rogue Psyker—Psychic Strike",
+            "Melee Weapon§Rogue Psyker—Chaos stave"
+          ]
+        }
+      },
+      "Ranged Weapon§Rogue Psyker—Psychic Strike – witchfire": {
+        "aspects": {
+          "Label": "Psychic Strike – witchfire"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast",
+            "Ability§Devastating Wounds",
+            "Ability§Psychic"
+          ]
+        }
+      },
+      "Ranged Weapon§Rogue Psyker—Psychic Strike – focused witchfire": {
+        "aspects": {
+          "Label": "Psychic Strike – focused witchfire"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "format": "D6",
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast",
+            "Ability§Devastating Wounds",
+            "Ability§Hazardous",
+            "Ability§Psychic"
+          ]
+        }
+      },
+      "Ranged Weapon§Rogue Psyker—Psychic Strike": {
+        "aspects": {
+          "Label": "Psychic Strike"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Rogue Psyker—Psychic Strike – witchfire",
+            "Ranged Weapon§Rogue Psyker—Psychic Strike – focused witchfire"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Rogue Psyker—Laspistol": {
+        "aspects": {
+          "Label": "Laspistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Melee Weapon§Rogue Psyker—Chaos stave": {
+        "aspects": {
+          "Label": "Chaos stave"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 1
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic"
+          ]
+        }
+      },
+      "Infantry/Mounted§Cultist Mob with Firearms": {
+        "keywords": {
+          "Faction": [
+            "Chaos Daemons"
+          ],
+          "Source": [
+            "Legends"
+          ],
+          "Keywords": [
+            "Infantry",
+            "Battleline",
+            "Grenades",
+            "Chaos",
+            "Damned",
+            "Cultist Mob with Firearms",
+            "Undivided",
+            "Shadow Legion",
+            "Infantry",
+            "Battleline",
+            "Grenades",
+            "Chaos",
+            "Grenades",
+            "Grenades",
+            "Chaos",
+            "Shadow Legion",
+            "Damned",
+            "Cultist Mob with Firearms",
+            "Undivided",
+            "Shadow Legion",
+            "Infantry",
+            "Battleline",
+            "Grenades",
+            "Chaos",
+            "Damned",
+            "Cultist Mob with Firearms",
+            "Undivided",
+            "Infantry",
+            "Battleline",
+            "Chaos",
+            "Damned",
+            "Damned",
+            "Cultist Mob with Firearms",
+            "Undivided",
+            "Shadow Legion",
+            "Cultist Mob with Firearms",
+            "Undivided",
+            "Shadow Legion",
+            "Infantry",
+            "Battleline",
+            "Grenades",
+            "Chaos",
+            "Damned",
+            "Cultist Mob with Firearms",
+            "Undivided",
+            "Shadow Legion",
+            "Infantry",
+            "Battleline"
+          ],
+          "Category": [
+            "Infantry"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 6
+          },
+          "T": {
+            "value": 3
+          },
+          "Sv": {
+            "value": 6
+          },
+          "W": {
+            "value": 1
+          },
+          "Ld": {
+            "value": 7
+          },
+          "OC": {
+            "value": 1
+          },
+          "Points": {
+            "value": 50
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Dark Pacts",
+            "Ability§For the Dark Gods",
+            "Ranged Weapon§Cultist Mob with Firearms—Autopistol",
+            "Melee Weapon§Cultist Mob with Firearms—Brutal assault weapon"
+          ]
+        },
+        "aspects": {
+          "Type": "game piece"
+        },
+        "allowed": {
+          "items": [
+            "Character§Rogue Psyker",
+            "Character§Cultist Firebrand (CK)",
+            "Character§Cultist Firebrand (CK)",
+            "Character§Dark Commune (CK)",
+            "Character§Dark Commune (CK)",
+            "Character§Dark Apostle (SL)",
+            "Character§Dark Apostle (SL)"
+          ]
+        }
+      },
+      "Ranged Weapon§Cultist Mob with Firearms—Bolt pistol": {
+        "aspects": {
+          "Label": "Bolt pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Cultist Mob with Firearms—Grenade launcher – krak": {
+        "aspects": {
+          "Label": "Grenade launcher – krak"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          }
+        }
+      },
+      "Ranged Weapon§Cultist Mob with Firearms—Flamer": {
+        "aspects": {
+          "Label": "Flamer"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Ignores Cover",
+            "Ability§Torrent"
+          ]
+        }
+      },
+      "Ranged Weapon§Cultist Mob with Firearms—Heavy stubber": {
+        "aspects": {
+          "Label": "Heavy stubber"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 5
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "3"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Cultist Mob with Firearms—Grenade launcher – frag": {
+        "aspects": {
+          "Label": "Grenade launcher – frag"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "format": "D3",
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Cultist Mob with Firearms—Autopistol": {
+        "aspects": {
+          "Label": "Autopistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Cultist Mob with Firearms—Autogun": {
+        "aspects": {
+          "Label": "Autogun"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Melee Weapon§Cultist Mob with Firearms—Close combat weapon": {
+        "aspects": {
+          "Label": "Close combat weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 1
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Cultist Mob with Firearms—Brutal assault weapon": {
+        "aspects": {
+          "Label": "Brutal assault weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ability§Voltagheist Field": {
+        "text": "Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound."
+      },
+      "Infantry/Mounted§Negavolt Cultists": {
+        "keywords": {
+          "Faction": [
+            "Chaos Daemons"
+          ],
+          "Source": [
+            "Legends"
+          ],
+          "Keywords": [
+            "Shadow Legion",
+            "Undivided",
+            "Damned",
+            "Damned",
+            "Chaos",
+            "Infantry",
+            "Negavolt Cultists",
+            "Shadow Legion",
+            "Undivided",
+            "Negavolt Cultists",
+            "Damned",
+            "Chaos",
+            "Infantry",
+            "Shadow Legion",
+            "Undivided",
+            "Negavolt Cultists",
+            "Chaos",
+            "Infantry",
+            "Shadow Legion",
+            "Undivided",
+            "Negavolt Cultists",
+            "Damned",
+            "Chaos",
+            "Infantry"
+          ],
+          "Category": [
+            "Infantry"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 6
+          },
+          "T": {
+            "value": 3
+          },
+          "Sv": {
+            "value": 7
+          },
+          "W": {
+            "value": 1
+          },
+          "Ld": {
+            "value": 7
+          },
+          "OC": {
+            "value": 1
+          },
+          "Points": {
+            "value": 55
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Feel No Pain",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            },
+            "Ability§Dark Pacts",
+            "Ability§Voltagheist Field",
+            "Melee Weapon§Negavolt Cultists—Electro-goads",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "Type": "game piece"
+        },
+        "allowed": {
+          "items": [
+            "Character§Rogue Psyker"
+          ]
+        }
+      },
+      "Melee Weapon§Negavolt Cultists—Electro-goads": {
+        "aspects": {
+          "Label": "Electro-goads"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ability§Covering Fire": {
+        "text": "Each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+."
+      },
+      "Infantry/Mounted§Renegade Heavy Weapons Squad": {
+        "keywords": {
+          "Faction": [
+            "Chaos Daemons"
+          ],
+          "Source": [
+            "Legends"
+          ],
+          "Keywords": [
+            "Infantry",
+            "Chaos",
+            "Damned",
+            "Grenades",
+            "Renegade Heavy Weapons Squad",
+            "Undivided",
+            "Infantry",
+            "Chaos",
+            "Damned",
+            "Grenades",
+            "Renegade Heavy Weapons Squad",
+            "Undivided",
+            "Shadow Legion",
+            "Infantry",
+            "Chaos",
+            "Damned",
+            "Grenades",
+            "Renegade Heavy Weapons Squad",
+            "Undivided",
+            "Shadow Legion",
+            "Infantry",
+            "Shadow Legion",
+            "Infantry",
+            "Chaos",
+            "Damned",
+            "Grenades",
+            "Renegade Heavy Weapons Squad",
+            "Grenades",
+            "Undivided",
+            "Shadow Legion",
+            "Chaos",
+            "Damned",
+            "Renegade Heavy Weapons Squad",
+            "Undivided",
+            "Shadow Legion"
+          ],
+          "Category": [
+            "Infantry"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 6
+          },
+          "T": {
+            "value": 3
+          },
+          "Sv": {
+            "value": 5
+          },
+          "W": {
+            "value": 2
+          },
+          "Ld": {
+            "value": 7
+          },
+          "OC": {
+            "value": 2
+          },
+          "Points": {
+            "value": 75
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Dark Pacts",
+            "Ability§Covering Fire",
+            "Ranged Weapon§Renegade Heavy Weapons Squad—Renegade firearm",
+            "Ranged Weapon§Renegade Heavy Weapons Squad—Heavy stubber",
+            "Melee Weapon§Renegade Heavy Weapons Squad—Close combat weapons"
+          ]
+        },
+        "aspects": {
+          "Type": "game piece"
+        },
+        "allowed": {
+          "items": [
+            "Character§Renegade Enforcer"
+          ]
+        }
+      },
+      "Ranged Weapon§Renegade Heavy Weapons Squad—Missile launcher – frag": {
+        "aspects": {
+          "Label": "Missile launcher – frag"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 5
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast",
+            "Ability§Heavy"
+          ]
+        }
+      },
+      "Ranged Weapon§Renegade Heavy Weapons Squad—Renegade firearm": {
+        "aspects": {
+          "Label": "Renegade firearm"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Renegade Heavy Weapons Squad—Mortar": {
+        "aspects": {
+          "Label": "Mortar"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 5
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast",
+            "Ability§Heavy",
+            "Ability§Indirect Fire"
+          ]
+        }
+      },
+      "Ranged Weapon§Renegade Heavy Weapons Squad—Missile launcher – krak": {
+        "aspects": {
+          "Label": "Missile launcher – krak"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 5
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy"
+          ]
+        }
+      },
+      "Ranged Weapon§Renegade Heavy Weapons Squad—Lascannon": {
+        "aspects": {
+          "Label": "Lascannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 5
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy"
+          ]
+        }
+      },
+      "Ranged Weapon§Renegade Heavy Weapons Squad—Heavy stubber": {
+        "aspects": {
+          "Label": "Heavy stubber"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 5
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "3"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Renegade Heavy Weapons Squad—Heavy bolter": {
+        "aspects": {
+          "Label": "Heavy bolter"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 5
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy",
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Renegade Heavy Weapons Squad—Autocannon": {
+        "aspects": {
+          "Label": "Autocannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 5
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy"
+          ]
+        }
+      },
+      "Melee Weapon§Renegade Heavy Weapons Squad—Close combat weapons": {
+        "aspects": {
+          "Label": "Close combat weapons"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ability§Beastmaster": {
+        "text": "While this unit contains an Ogryn Pack Master model, you can re-roll Charge rolls made for this unit, and each time a Chaos Mauler Hound model in this unit makes an attack, re-roll a Hit roll of 1."
+      },
+      "Unit§Renegade Ogryn Beast Handler": {
+        "keywords": {
+          "Faction": [
+            "Chaos Daemons"
+          ],
+          "Source": [
+            "Legends"
+          ],
+          "Keywords": [
+            "Shadow Legion",
+            "Renegade Ogryn Beast Handler",
+            "Undivided",
+            "Beasts",
+            "Chaos",
+            "Damned",
+            "Renegade Ogryn Beast Handler",
+            "Undivided",
+            "Chaos",
+            "Damned",
+            "Renegade Ogryn Beast Handler",
+            "Undivided",
+            "Shadow Legion",
+            "Shadow Legion",
+            "Beasts",
+            "Chaos",
+            "Damned",
+            "Renegade Ogryn Beast Handler",
+            "Undivided",
+            "Shadow Legion",
+            "Beasts",
+            "Beasts",
+            "Chaos",
+            "Damned"
+          ],
+          "Category": [
+            "Infantry"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 6
+          },
+          "T": {
+            "value": 6
+          },
+          "Sv": {
+            "value": 5
+          },
+          "W": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 7
+          },
+          "OC": {
+            "value": 1
+          },
+          "Points": {
+            "value": 40
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Dark Pacts",
+            "Ability§Beastmaster",
+            "Melee Weapon§Renegade Ogryn Beast Handler—Mauler goad and ripper claw"
+          ]
+        },
+        "aspects": {
+          "Type": "game piece"
+        }
+      },
+      "Melee Weapon§Renegade Ogryn Beast Handler—Befouled claws and fangs": {
+        "aspects": {
+          "Label": "Befouled claws and fangs"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Renegade Ogryn Beast Handler—Mauler goad and ripper claw": {
+        "aspects": {
+          "Label": "Mauler goad and ripper claw"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ability§Ogryn Combat Stimms": {
+        "text": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
+      },
+      "Infantry/Mounted§Renegade Ogryn Brutes": {
+        "keywords": {
+          "Faction": [
+            "Chaos Daemons"
+          ],
+          "Source": [
+            "Legends"
+          ],
+          "Keywords": [
+            "Undivided",
+            "Renegade Ogryn Brutes",
+            "Damned",
+            "Chaos",
+            "Infantry",
+            "Shadow Legion",
+            "Undivided",
+            "Renegade Ogryn Brutes",
+            "Damned",
+            "Infantry",
+            "Shadow Legion",
+            "Undivided",
+            "Renegade Ogryn Brutes",
+            "Damned",
+            "Chaos",
+            "Infantry",
+            "Shadow Legion",
+            "Undivided",
+            "Renegade Ogryn Brutes",
+            "Damned",
+            "Chaos",
+            "Infantry",
+            "Chaos",
+            "Shadow Legion"
+          ],
+          "Category": [
+            "Infantry"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 6
+          },
+          "T": {
+            "value": 6
+          },
+          "Sv": {
+            "value": 5
+          },
+          "W": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 7
+          },
+          "OC": {
+            "value": 1
+          },
+          "Points": {
+            "value": 95
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Dark Pacts",
+            "Ability§Ogryn Combat Stimms",
+            "Melee Weapon§Renegade Ogryn Brutes—Ogryn weapon"
+          ]
+        },
+        "aspects": {
+          "Type": "game piece"
+        }
+      },
+      "Melee Weapon§Renegade Ogryn Brutes—Ogryn power drill": {
+        "aspects": {
+          "Label": "Ogryn power drill"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Melee Weapon§Renegade Ogryn Brutes—Ogryn weapon": {
+        "aspects": {
+          "Label": "Ogryn weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ability§Wall of Muscle": {
+        "text": "Each time an attack is allocated to a model in this unit, subtract 1 from the Damage characteristic of that attack."
+      },
+      "Infantry/Mounted§Renegade Plague Ogryns": {
+        "keywords": {
+          "Faction": [
+            "Chaos Daemons"
+          ],
+          "Source": [
+            "Legends"
+          ],
+          "Keywords": [
+            "Damned",
+            "Chaos",
+            "Infantry",
+            "Shadow Legion",
+            "Undivided",
+            "Nurgle",
+            "Undivided",
+            "Infantry",
+            "Shadow Legion",
+            "Infantry",
+            "Nurgle",
+            "Renegade Plague Ogryns",
+            "Nurgle",
+            "Chaos",
+            "Damned",
+            "Shadow Legion",
+            "Renegade Plague Ogryns",
+            "Undivided",
+            "Shadow Legion",
+            "Infantry",
+            "Chaos",
+            "Damned",
+            "Renegade Plague Ogryns",
+            "Nurgle",
+            "Renegade Plague Ogryns",
+            "Undivided",
+            "Shadow Legion",
+            "Chaos",
+            "Damned",
+            "Nurgle",
+            "Renegade Plague Ogryns",
+            "Undivided",
+            "Infantry",
+            "Chaos",
+            "Damned"
+          ],
+          "Category": [
+            "Infantry"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 5
+          },
+          "T": {
+            "value": 7
+          },
+          "Sv": {
+            "value": 5
+          },
+          "W": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 7
+          },
+          "OC": {
+            "value": 1
+          },
+          "Points": {
+            "value": 95
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Feel No Pain",
+              "stats": {
+                "x": {
+                  "value": "6+"
+                }
+              }
+            },
+            "Ability§Dark Pacts",
+            "Ability§Wall of Muscle",
+            "Melee Weapon§Renegade Plague Ogryns—Ogryn plague claws"
+          ]
+        },
+        "aspects": {
+          "Type": "game piece"
+        }
+      },
+      "Melee Weapon§Renegade Plague Ogryns—Ogryn plague claws": {
+        "aspects": {
+          "Label": "Ogryn plague claws"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Ability§Flames of Change (Psychic)": {
+        "text": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability."
+      },
+      "Ability§Altered Reality (Psychic)": {
+        "text": "Once per battle round, after a Hit roll, a Wound roll or a saving throw is made for this model, you can change the result of that roll to a 6."
+      },
+      "Character§Sorcerer On Disc Of Tzeentch": {
+        "keywords": {
+          "Faction": [
+            "Chaos Daemons"
+          ],
+          "Source": [
+            "Legends"
+          ],
+          "Keywords": [
+            "Chaos",
+            "Psyker",
+            "Tzeentch",
+            "Fly",
+            "Sorcerer",
+            "Character",
+            "Disc of Tzeentch",
+            "Undivided",
+            "Shadow Legion",
+            "Infantry",
+            "Character",
+            "Grenades",
+            "Chaos",
+            "Psyker",
+            "Tzeentch",
+            "Fly",
+            "Sorcerer",
+            "Disc of Tzeentch",
+            "Shadow Legion",
+            "Grenades",
+            "Character",
+            "Undivided",
+            "Undivided",
+            "Character",
+            "Infantry",
+            "Character",
+            "Grenades",
+            "Grenades",
+            "Chaos",
+            "Psyker",
+            "Tzeentch",
+            "Fly",
+            "Sorcerer",
+            "Disc of Tzeentch",
+            "Psyker",
+            "Shadow Legion",
+            "Infantry",
+            "Grenades",
+            "Chaos",
+            "Tzeentch",
+            "Fly",
+            "Sorcerer",
+            "Disc of Tzeentch",
+            "Undivided",
+            "Shadow Legion",
+            "Infantry",
+            "Character",
+            "Grenades",
+            "Chaos",
+            "Psyker",
+            "Tzeentch",
+            "Fly",
+            "Sorcerer",
+            "Disc of Tzeentch",
+            "Undivided",
+            "Shadow Legion",
+            "Infantry",
+            "Character",
+            "Grenades",
+            "Chaos",
+            "Psyker",
+            "Tzeentch",
+            "Fly",
+            "Sorcerer",
+            "Disc of Tzeentch",
+            "Undivided",
+            "Shadow Legion",
+            "Infantry",
+            "Character",
+            "Grenades",
+            "Chaos",
+            "Psyker",
+            "Tzeentch",
+            "Fly",
+            "Sorcerer",
+            "Disc of Tzeentch",
+            "Undivided",
+            "Shadow Legion",
+            "Infantry",
+            "Fly",
+            "Chaos",
+            "Psyker",
+            "Tzeentch",
+            "Fly",
+            "Sorcerer",
+            "Disc of Tzeentch",
+            "Undivided",
+            "Shadow Legion",
+            "Infantry",
+            "Grenades",
+            "Chaos",
+            "Psyker",
+            "Tzeentch",
+            "Sorcerer",
+            "Disc of Tzeentch",
+            "Undivided",
+            "Shadow Legion",
+            "Infantry",
+            "Character",
+            "Sorcerer On Disc Of Tzeentch"
+          ],
+          "Category": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 12
+          },
+          "T": {
+            "value": 4
+          },
+          "Sv": {
+            "value": 3
+          },
+          "W": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 6
+          },
+          "OC": {
+            "value": 1
+          },
+          "Points": {
+            "value": 80
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Chosen\n\n* Legionaries"
+            },
+            "Ability§Dark Pacts",
+            "Ability§Flames of Change (Psychic)",
+            "Ability§Altered Reality (Psychic)",
+            "Ranged Weapon§Sorcerer On Disc Of Tzeentch—Bolt pistol",
+            "Ranged Weapon§Sorcerer On Disc Of Tzeentch—Infernal Gaze",
+            "Melee Weapon§Sorcerer On Disc Of Tzeentch—Force weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Sorcerer On Disc Of Tzeentch—Combi-weapon": {
+        "aspects": {
+          "Label": "Combi-weapon"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Sorcerer On Disc Of Tzeentch—Infernal Gaze – witchfire": {
+        "aspects": {
+          "Label": "Infernal Gaze – witchfire"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic"
+          ]
+        }
+      },
+      "Ranged Weapon§Sorcerer On Disc Of Tzeentch—Infernal Gaze – focused witchfire": {
+        "aspects": {
+          "Label": "Infernal Gaze – focused witchfire"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds",
+            "Ability§Hazardous",
+            "Ability§Psychic"
+          ]
+        }
+      },
+      "Ranged Weapon§Sorcerer On Disc Of Tzeentch—Infernal Gaze": {
+        "aspects": {
+          "Label": "Infernal Gaze"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Sorcerer On Disc Of Tzeentch—Infernal Gaze – witchfire",
+            "Ranged Weapon§Sorcerer On Disc Of Tzeentch—Infernal Gaze – focused witchfire"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Sorcerer On Disc Of Tzeentch—Bolt pistol": {
+        "aspects": {
+          "Label": "Bolt pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Sorcerer On Disc Of Tzeentch—Plasma pistol – standard": {
+        "aspects": {
+          "Label": "Plasma pistol – standard"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Sorcerer On Disc Of Tzeentch—Combi-bolter": {
+        "aspects": {
+          "Label": "Combi-bolter"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Sorcerer On Disc Of Tzeentch—Plasma pistol – supercharge": {
+        "aspects": {
+          "Label": "Plasma pistol – supercharge"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Hazardous",
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Melee Weapon§Sorcerer On Disc Of Tzeentch—Astartes chainsword": {
+        "aspects": {
+          "Label": "Astartes chainsword"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Sorcerer On Disc Of Tzeentch—Force weapon": {
+        "aspects": {
+          "Label": "Force weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic"
+          ]
+        }
+      },
+      "Melee Weapon§Sorcerer On Disc Of Tzeentch—Power fist": {
+        "aspects": {
+          "Label": "Power fist"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Melee Weapon§Sorcerer On Disc Of Tzeentch—Accursed weapon": {
+        "aspects": {
+          "Label": "Accursed weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ability§Dark Favour (Psychic)": {
+        "text": "While this model is leading a unit, models in that unit have a 4+ invulnerable save."
+      },
+      "Ability§Infernal Speed": {
+        "text": "While this model is leading a unit, change the Move characteristic of models in that unit to 14\"."
+      },
+      "Character§Sorcerer On Steed Of Slaanesh": {
+        "keywords": {
+          "Faction": [
+            "Chaos Daemons"
+          ],
+          "Source": [
+            "Legends"
+          ],
+          "Keywords": [
+            "Mounted",
+            "Shadow Legion",
+            "Undivided",
+            "Steed of Slaanesh",
+            "Sorcerer",
+            "Steed of Slaanesh",
+            "Undivided",
+            "Shadow Legion",
+            "Mounted",
+            "Character",
+            "Grenades",
+            "Chaos",
+            "Chaos",
+            "Slaanesh",
+            "Sorcerer",
+            "Steed of Slaanesh",
+            "Undivided",
+            "Shadow Legion",
+            "Sorcerer",
+            "Slaanesh",
+            "Chaos",
+            "Grenades",
+            "Character",
+            "Mounted",
+            "Chaos",
+            "Character",
+            "Mounted",
+            "Grenades",
+            "Slaanesh",
+            "Shadow Legion",
+            "Undivided",
+            "Steed of Slaanesh",
+            "Sorcerer",
+            "Slaanesh",
+            "Chaos",
+            "Grenades",
+            "Slaanesh",
+            "Sorcerer",
+            "Steed of Slaanesh",
+            "Undivided",
+            "Shadow Legion",
+            "Mounted",
+            "Character",
+            "Grenades",
+            "Chaos",
+            "Slaanesh",
+            "Sorcerer",
+            "Steed of Slaanesh",
+            "Undivided",
+            "Shadow Legion",
+            "Grenades",
+            "Mounted",
+            "Character",
+            "Grenades",
+            "Chaos",
+            "Slaanesh",
+            "Sorcerer",
+            "Steed of Slaanesh",
+            "Undivided",
+            "Shadow Legion",
+            "Character",
+            "Mounted",
+            "Character",
+            "Sorcerer On Steed Of Slaanesh"
+          ],
+          "Category": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 14
+          },
+          "T": {
+            "value": 5
+          },
+          "Sv": {
+            "value": 3
+          },
+          "W": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 6
+          },
+          "OC": {
+            "value": 2
+          },
+          "Points": {
+            "value": 85
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Dark Pacts",
+            "Ability§Dark Favour (Psychic)",
+            "Ability§Infernal Speed",
+            "Ranged Weapon§Sorcerer On Steed Of Slaanesh—Bolt pistol",
+            "Melee Weapon§Sorcerer On Steed Of Slaanesh—Force weapon",
+            "Melee Weapon§Sorcerer On Steed Of Slaanesh—Lashing tongue"
+          ]
+        }
+      },
+      "Ranged Weapon§Sorcerer On Steed Of Slaanesh—Plasma pistol – supercharge": {
+        "aspects": {
+          "Label": "Plasma pistol – supercharge"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Hazardous",
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Sorcerer On Steed Of Slaanesh—Infernal Gaze – focused witchfire": {
+        "aspects": {
+          "Label": "Infernal Gaze – focused witchfire"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds",
+            "Ability§Hazardous",
+            "Ability§Psychic"
+          ]
+        }
+      },
+      "Ranged Weapon§Sorcerer On Steed Of Slaanesh—Combi-bolter": {
+        "aspects": {
+          "Label": "Combi-bolter"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Sorcerer On Steed Of Slaanesh—Combi-weapon": {
+        "aspects": {
+          "Label": "Combi-weapon"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Sorcerer On Steed Of Slaanesh—Bolt pistol": {
+        "aspects": {
+          "Label": "Bolt pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Sorcerer On Steed Of Slaanesh—Infernal Gaze – witchfire": {
+        "aspects": {
+          "Label": "Infernal Gaze – witchfire"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic"
+          ]
+        }
+      },
+      "Ranged Weapon§Sorcerer On Steed Of Slaanesh—Plasma pistol – standard": {
+        "aspects": {
+          "Label": "Plasma pistol – standard"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Melee Weapon§Sorcerer On Steed Of Slaanesh—Accursed weapon": {
+        "aspects": {
+          "Label": "Accursed weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Sorcerer On Steed Of Slaanesh—Astartes chainsword": {
+        "aspects": {
+          "Label": "Astartes chainsword"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Sorcerer On Steed Of Slaanesh—Force weapon": {
+        "aspects": {
+          "Label": "Force weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Psychic"
+          ]
+        }
+      },
+      "Melee Weapon§Sorcerer On Steed Of Slaanesh—Lashing tongue": {
+        "aspects": {
+          "Label": "Lashing tongue"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Extra Attacks",
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Melee Weapon§Sorcerer On Steed Of Slaanesh—Power fist": {
+        "aspects": {
+          "Label": "Power fist"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
         }
       }
     },

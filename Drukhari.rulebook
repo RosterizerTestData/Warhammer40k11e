@@ -15742,6 +15742,2672 @@
             "Frame"
           ]
         }
+      },
+      "Ability§Reavers of the Void": {
+        "text": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack is within range of an objective marker, you can re-roll the Hit roll instead."
+      },
+      "Unit§Corsair Voidreavers": {
+        "keywords": {
+          "Faction": [
+            "Drukhari"
+          ],
+          "Source": [
+            "Legends"
+          ],
+          "Keywords": [
+            "Infantry",
+            "Battleline",
+            "Aeldari",
+            "Anhrathe",
+            "Corsair Voidreavers",
+            "Grenades"
+          ],
+          "Category": [
+            "Infantry"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 7
+          },
+          "T": {
+            "value": 3
+          },
+          "Sv": {
+            "value": 4
+          },
+          "W": {
+            "value": 1
+          },
+          "Ld": {
+            "value": 7
+          },
+          "OC": {
+            "value": 2
+          },
+          "Points": {
+            "value": 65
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "7\""
+                }
+              }
+            },
+            "Ability§Battle Focus",
+            "Ability§Reavers of the Void",
+            "Ranged Weapon§Corsair Voidreavers—Shuriken pistol",
+            "Melee Weapon§Corsair Voidreavers—Power sword",
+            "Melee Weapon§Corsair Voidreavers—Close combat weapon"
+          ]
+        },
+        "aspects": {
+          "Type": "game piece"
+        },
+        "allowed": {
+          "items": [
+            "Character§Kharseth",
+            "Character§Prince Yriel"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Voidreavers—Shuriken pistol": {
+        "aspects": {
+          "Label": "Shuriken pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault",
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Voidreavers—Shredder": {
+        "aspects": {
+          "Label": "Shredder"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault",
+            "Ability§Torrent"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Voidreavers—Shuriken rifle": {
+        "aspects": {
+          "Label": "Shuriken rifle"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Voidreavers—Wraithcannon": {
+        "aspects": {
+          "Label": "Wraithcannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 14
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Corsair Voidreavers—Blaster": {
+        "aspects": {
+          "Label": "Blaster"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Voidreavers—Neuro disruptor": {
+        "aspects": {
+          "Label": "Neuro disruptor"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            },
+            "Ability§Assault",
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Voidreavers—Shuriken cannon": {
+        "aspects": {
+          "Label": "Shuriken cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Melee Weapon§Corsair Voidreavers—Close combat weapon": {
+        "aspects": {
+          "Label": "Close combat weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Corsair Voidreavers—Power sword": {
+        "aspects": {
+          "Label": "Power sword"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ability§Piratical Raiders": {
+        "text": "At the start of the battle, select one unit from your opponent’s army. Weapons equipped by models in this unit have the [LETHAL HITS] and [PRECISION] abilities while targeting that unit."
+      },
+      "Unit§Corsair Voidscarred": {
+        "keywords": {
+          "Faction": [
+            "Drukhari"
+          ],
+          "Source": [
+            "Legends"
+          ],
+          "Keywords": [
+            "Corsair Voidscarred"
+          ],
+          "Category": [
+            "Infantry"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 7
+          },
+          "T": {
+            "value": 3
+          },
+          "Sv": {
+            "value": 4
+          },
+          "W": {
+            "value": 1
+          },
+          "Ld": {
+            "value": 7
+          },
+          "OC": {
+            "value": 1
+          },
+          "Points": {
+            "value": 70
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "7\""
+                }
+              }
+            },
+            "Ability§Battle Focus",
+            "Ability§Piratical Raiders",
+            "Ranged Weapon§Corsair Voidscarred—Shuriken pistol",
+            "Melee Weapon§Corsair Voidscarred—Power sword",
+            "Melee Weapon§Corsair Voidscarred—Close combat weapon"
+          ]
+        },
+        "aspects": {
+          "Type": "game piece"
+        },
+        "allowed": {
+          "items": [
+            "Character§Kharseth",
+            "Character§Prince Yriel"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Voidscarred—Blaster": {
+        "aspects": {
+          "Label": "Blaster"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Voidscarred—Executioner": {
+        "aspects": {
+          "Label": "Executioner"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            },
+            "Ability§Psychic"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Voidscarred—Fusion pistol": {
+        "aspects": {
+          "Label": "Fusion pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 6
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault",
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            },
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Voidscarred—Long rifle": {
+        "aspects": {
+          "Label": "Long rifle"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy",
+            "Ability§Precision"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Voidscarred—Neuro disruptor": {
+        "aspects": {
+          "Label": "Neuro disruptor"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            },
+            "Ability§Assault",
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Voidscarred—Shuriken pistol": {
+        "aspects": {
+          "Label": "Shuriken pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault",
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Voidscarred—Shuriken rifle": {
+        "aspects": {
+          "Label": "Shuriken rifle"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Voidscarred—Wraithcannon": {
+        "aspects": {
+          "Label": "Wraithcannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 14
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Corsair Voidscarred—Shredder": {
+        "aspects": {
+          "Label": "Shredder"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault",
+            "Ability§Torrent"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Voidscarred—Shuriken cannon": {
+        "aspects": {
+          "Label": "Shuriken cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Melee Weapon§Corsair Voidscarred—Witch staff": {
+        "aspects": {
+          "Label": "Witch staff"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            },
+            "Ability§Psychic"
+          ]
+        }
+      },
+      "Melee Weapon§Corsair Voidscarred—Close combat weapon": {
+        "aspects": {
+          "Label": "Close combat weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Corsair Voidscarred—Paired Hekatarii blades": {
+        "aspects": {
+          "Label": "Paired Hekatarii blades"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
+        }
+      },
+      "Melee Weapon§Corsair Voidscarred—Power sword": {
+        "aspects": {
+          "Label": "Power sword"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ability§Reckless Abandon": {
+        "text": "You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that **stratagem** this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that **stratagem** on other units this phase."
+      },
+      "Unit§Corsair Cloud Dancer Band": {
+        "keywords": {
+          "Faction": [
+            "Drukhari"
+          ],
+          "Source": [
+            "Legends"
+          ],
+          "Keywords": [
+            "Mounted",
+            "Grenades",
+            "Anhrathe",
+            "Aeldari",
+            "Corsair Cloud Dancer Band"
+          ],
+          "Category": [
+            "Mounted"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 14
+          },
+          "T": {
+            "value": 4
+          },
+          "Sv": {
+            "value": 3
+          },
+          "W": {
+            "value": 2
+          },
+          "Ld": {
+            "value": 6
+          },
+          "OC": {
+            "value": 2
+          },
+          "Points": {
+            "value": 125
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "7\""
+                }
+              }
+            },
+            "Ability§Reckless Abandon",
+            "Ranged Weapon§Corsair Cloud Dancer Band—Brace of pistols",
+            "Ranged Weapon§Corsair Cloud Dancer Band—Twin shuriken catapult",
+            "Melee Weapon§Corsair Cloud Dancer Band—Close combat weapon"
+          ]
+        },
+        "aspects": {
+          "Type": "game piece"
+        }
+      },
+      "Ranged Weapon§Corsair Cloud Dancer Band—Brace of pistols": {
+        "aspects": {
+          "Label": "Brace of pistols"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault",
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Cloud Dancer Band—Dark lance": {
+        "aspects": {
+          "Label": "Dark lance"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Corsair Cloud Dancer Band—Dissonance cannon": {
+        "aspects": {
+          "Label": "Dissonance cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Cloud Dancer Band—Dissonance pistol": {
+        "aspects": {
+          "Label": "Dissonance pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds",
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Cloud Dancer Band—Scatter laser": {
+        "aspects": {
+          "Label": "Scatter laser"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 6
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Corsair Cloud Dancer Band—Shuriken cannon": {
+        "aspects": {
+          "Label": "Shuriken cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Cloud Dancer Band—Splinter cannon": {
+        "aspects": {
+          "Label": "Splinter cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            },
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Cloud Dancer Band—Twin shuriken catapult": {
+        "aspects": {
+          "Label": "Twin shuriken catapult"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault",
+            "Ability§Twin-linked"
+          ]
+        }
+      },
+      "Melee Weapon§Corsair Cloud Dancer Band—Close combat weapon": {
+        "aspects": {
+          "Label": "Close combat weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Corsair Cloud Dancer Band—Void sabre": {
+        "aspects": {
+          "Label": "Void sabre"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ability§Reaver Band": {
+        "text": "In your opponent's Movement phase, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\"."
+      },
+      "Unit§Corsair Reaver Band": {
+        "keywords": {
+          "Faction": [
+            "Drukhari"
+          ],
+          "Source": [
+            "Legends"
+          ],
+          "Keywords": [
+            "Anhrathe",
+            "Grenades",
+            "Infantry",
+            "Corsair Reaver Band",
+            "Aeldari"
+          ],
+          "Category": [
+            "Infantry"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 7
+          },
+          "T": {
+            "value": 3
+          },
+          "Sv": {
+            "value": 5
+          },
+          "W": {
+            "value": 3
+          },
+          "Ld": {
+            "value": 6
+          },
+          "OC": {
+            "value": 2
+          },
+          "Points": {
+            "value": 125
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Reaver Band",
+            "Ranged Weapon§Corsair Reaver Band—Brace of pistols",
+            "Ranged Weapon§Corsair Reaver Band—Corsair firearm",
+            "Melee Weapon§Corsair Reaver Band—Close combat weapon"
+          ]
+        },
+        "aspects": {
+          "Type": "game piece"
+        }
+      },
+      "Ranged Weapon§Corsair Reaver Band—Shuriken cannon": {
+        "aspects": {
+          "Label": "Shuriken cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Reaver Band—Fusion gun": {
+        "aspects": {
+          "Label": "Fusion gun"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault",
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Reaver Band—Dissonance pistol": {
+        "aspects": {
+          "Label": "Dissonance pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds",
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Reaver Band—Dark lance": {
+        "aspects": {
+          "Label": "Dark lance"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Reaver Band—Corsair firearm": {
+        "aspects": {
+          "Label": "Corsair firearm"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 4
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault",
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Reaver Band—Brace of pistols": {
+        "aspects": {
+          "Label": "Brace of pistols"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault",
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Reaver Band—Blaster": {
+        "aspects": {
+          "Label": "Blaster"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Reaver Band—Aeldari missile launcher – sunburst": {
+        "aspects": {
+          "Label": "Aeldari missile launcher – sunburst"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Reaver Band—Aeldari missile launcher – starshot ": {
+        "aspects": {
+          "Label": "Aeldari missile launcher – starshot "
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          }
+        }
+      },
+      "Ranged Weapon§Corsair Reaver Band—Aeldari missile launcher": {
+        "aspects": {
+          "Label": "Aeldari missile launcher"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Corsair Reaver Band—Aeldari missile launcher – sunburst",
+            "Ranged Weapon§Corsair Reaver Band—Aeldari missile launcher – starshot "
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Reaver Band—Flamer": {
+        "aspects": {
+          "Label": "Flamer"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault",
+            "Ability§Ignores Cover",
+            "Ability§Torrent"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Reaver Band—Shredder": {
+        "aspects": {
+          "Label": "Shredder"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault",
+            "Ability§Torrent"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Reaver Band—Splinter cannon": {
+        "aspects": {
+          "Label": "Splinter cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            },
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Melee Weapon§Corsair Reaver Band—Spar-glaive": {
+        "aspects": {
+          "Label": "Spar-glaive"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Corsair Reaver Band—Void sabre": {
+        "aspects": {
+          "Label": "Void sabre"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Corsair Reaver Band—Close combat weapon": {
+        "aspects": {
+          "Label": "Close combat weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ability§Aethersense (Psychic)": {
+        "text": "Enemy units that are set up on the battlefield from Reserves cannot be set up within 12\" of this model."
+      },
+      "Ability§Fury of the Void (Psychic)": {
+        "text": "In your Shooting phase, after this model’s unit has shot, select one enemy unit hit by one or more attacks made with this model’s Dread of the Deep Void. Until the end of the turn, that unit is riven. Each time an AELDARI model from your army makes an attack that targets a riven unit, add 1 to the Strength characteristic of that attack."
+      },
+      "Character§Kharseth": {
+        "keywords": {
+          "Faction": [
+            "Drukhari"
+          ],
+          "Source": [
+            "Legends"
+          ],
+          "Keywords": [
+            "Kharseth",
+            "Anhrathe",
+            "Psyker",
+            "Epic Hero",
+            "Character",
+            "Infantry",
+            "Aeldari"
+          ],
+          "Category": [
+            "Epic Hero"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 7
+          },
+          "T": {
+            "value": 3
+          },
+          "Sv": {
+            "value": 6
+          },
+          "W": {
+            "value": 4
+          },
+          "Ld": {
+            "value": 6
+          },
+          "OC": {
+            "value": 1
+          },
+          "Points": {
+            "value": 80
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Corsair Voidreavers\n\n* Corsair Voidscarred"
+            },
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "7\""
+                }
+              }
+            },
+            "Ability§Battle Focus",
+            "Ability§Aethersense (Psychic)",
+            "Ability§Fury of the Void (Psychic)",
+            "Ranged Weapon§Kharseth—Dread of the Deep Void",
+            "Melee Weapon§Kharseth—Waystave",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Kharseth—Dread of the Deep Void": {
+        "aspects": {
+          "Label": "Dread of the Deep Void"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "format": "D6",
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            },
+            "Ability§Blast",
+            "Ability§Hazardous",
+            "Ability§Ignores Cover",
+            "Ability§Psychic"
+          ]
+        }
+      },
+      "Melee Weapon§Kharseth—Waystave": {
+        "aspects": {
+          "Label": "Waystave"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            },
+            "Ability§Psychic"
+          ]
+        }
+      },
+      "Ability§Piratical Hero": {
+        "text": "While this model is leading a unit, each time a model in that unit makes an attack, that attack has the [SUSTAINED HITS 1] ability and add 1 to the Hit roll."
+      },
+      "Ability§Prince of Corsairs": {
+        "text": "After both players have deployed their armies, if this unit is on the battlefield (or any Transport it is embarked within is on the battlefield), select up to three AELDARI units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+      },
+      "Character§Prince Yriel": {
+        "keywords": {
+          "Faction": [
+            "Drukhari"
+          ],
+          "Source": [
+            "Legends"
+          ],
+          "Keywords": [
+            "Prince Yriel",
+            "Infantry",
+            "Aeldari",
+            "Character",
+            "Epic Hero",
+            "Anhrathe"
+          ],
+          "Category": [
+            "Epic Hero"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 7
+          },
+          "T": {
+            "value": 3
+          },
+          "Sv": {
+            "value": 3
+          },
+          "W": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 6
+          },
+          "OC": {
+            "value": 1
+          },
+          "Points": {
+            "value": 95
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Corsair Voidreavers\n\n* Corsair Voidscarred"
+            },
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "7\""
+                }
+              }
+            },
+            "Ability§Battle Focus",
+            "Ability§Piratical Hero",
+            "Ability§Prince of Corsairs",
+            "Ranged Weapon§Prince Yriel—Eye of Wrath",
+            "Ranged Weapon§Prince Yriel—Shuriken pistol",
+            "Melee Weapon§Prince Yriel—Spear of Twilight",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Prince Yriel—Eye of Wrath": {
+        "aspects": {
+          "Label": "Eye of Wrath"
+        },
+        "stats": {
+          "Range": {
+            "value": 6
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault",
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Prince Yriel—Shuriken pistol": {
+        "aspects": {
+          "Label": "Shuriken pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault",
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Melee Weapon§Prince Yriel—Spear of Twilight": {
+        "aspects": {
+          "Label": "Spear of Twilight"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lance"
+          ]
+        }
+      },
+      "Ability§Raid and Run": {
+        "text": "At the end of the Fight phase, if this unit was eligible to fight this phase, and is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D3+3\". Otherwise, if this unit was eligible to fight this phase, this unit can make a Fall Back move of up to D3+3\"."
+      },
+      "Unit§Corsair Skyreavers": {
+        "keywords": {
+          "Faction": [
+            "Drukhari"
+          ],
+          "Source": [
+            "Legends"
+          ],
+          "Keywords": [
+            "Aeldari",
+            "Anhrathe",
+            "Jump Pack",
+            "Fly",
+            "Corsair Skyreavers",
+            "Grenades",
+            "Infantry"
+          ],
+          "Category": [
+            "Infantry"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 12
+          },
+          "T": {
+            "value": 3
+          },
+          "Sv": {
+            "value": 5
+          },
+          "W": {
+            "value": 1
+          },
+          "Ld": {
+            "value": 7
+          },
+          "OC": {
+            "value": 1
+          },
+          "Points": {
+            "value": 75
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Deep Strike",
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "7\""
+                }
+              }
+            },
+            "Ability§Battle Focus",
+            "Ability§Raid and Run",
+            "Ranged Weapon§Corsair Skyreavers—Shuriken pistol",
+            "Melee Weapon§Corsair Skyreavers—Corsair blade"
+          ]
+        },
+        "aspects": {
+          "Type": "game piece"
+        }
+      },
+      "Ranged Weapon§Corsair Skyreavers—Blast pistol": {
+        "aspects": {
+          "Label": "Blast pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 6
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D3",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault",
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Skyreavers—Fusion gun": {
+        "aspects": {
+          "Label": "Fusion gun"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault",
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Skyreavers—Neuro disruptor": {
+        "aspects": {
+          "Label": "Neuro disruptor"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            },
+            "Ability§Assault",
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Skyreavers—Shuriken pistol": {
+        "aspects": {
+          "Label": "Shuriken pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault",
+            "Ability§Pistol"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Skyreavers—Flamer": {
+        "aspects": {
+          "Label": "Flamer"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault",
+            "Ability§Ignores Cover",
+            "Ability§Torrent"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Skyreavers—Shredder": {
+        "aspects": {
+          "Label": "Shredder"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault",
+            "Ability§Torrent"
+          ]
+        }
+      },
+      "Ranged Weapon§Corsair Skyreavers—Blaster": {
+        "aspects": {
+          "Label": "Blaster"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault"
+          ]
+        }
+      },
+      "Melee Weapon§Corsair Skyreavers—Corsair blade": {
+        "aspects": {
+          "Label": "Corsair blade"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Melee Weapon§Corsair Skyreavers—Close combat weapon": {
+        "aspects": {
+          "Label": "Close combat weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
+      },
+      "Ability§Hallucinogen Grenades": {
+        "text": "At the start of your opponent’s Shooting phase, this unit can use this ability. If it does, select one Aeldari Infantry unit from your army visible to and within 36\" of this unit: until the end of the phase, that unit has the Stealth ability."
+      },
+      "Unit§Starfangs": {
+        "keywords": {
+          "Faction": [
+            "Drukhari"
+          ],
+          "Source": [
+            "Legends"
+          ],
+          "Keywords": [
+            "Aeldari",
+            "Anhrathe",
+            "Fly",
+            "Grenades",
+            "Starfangs",
+            "Smoke",
+            "Vehicle"
+          ],
+          "Category": [
+            "Vehicle"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 14
+          },
+          "T": {
+            "value": 6
+          },
+          "Sv": {
+            "value": 3
+          },
+          "W": {
+            "value": 6
+          },
+          "Ld": {
+            "value": 7
+          },
+          "OC": {
+            "value": 2
+          },
+          "Points": {
+            "value": 70
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            {
+              "item": "Ability§Scouts",
+              "stats": {
+                "x": {
+                  "value": "7\""
+                }
+              }
+            },
+            "Ability§Battle Focus",
+            "Ability§Hallucinogen Grenades",
+            "Ranged Weapon§Starfangs—Disintegrator cannon",
+            "Ranged Weapon§Starfangs—Starfang grenade launcher",
+            "Melee Weapon§Starfangs—Wraithbone hull"
+          ]
+        },
+        "aspects": {
+          "Type": "game piece"
+        }
+      },
+      "Ranged Weapon§Starfangs—Starfang grenade launcher": {
+        "aspects": {
+          "Label": "Starfang grenade launcher"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "format": "D3",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault",
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Starfangs—Disintegrator cannon": {
+        "aspects": {
+          "Label": "Disintegrator cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Assault"
+          ]
+        }
+      },
+      "Melee Weapon§Starfangs—Wraithbone hull": {
+        "aspects": {
+          "Label": "Wraithbone hull"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
       }
     },
     "gameModes": {},

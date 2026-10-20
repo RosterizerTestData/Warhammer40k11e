@@ -122,7 +122,10 @@ def find_unit(cat, name):
     if k:
         return k
     cands = [x for x in cat if x.split("§")[0] in UNITCLS and n(re.sub(r"\s*\(.*?\)\s*$", "", x.split("§", 1)[1])) == n(name)]
-    return cands[0] if len(cands) == 1 else None
+    if len(cands) == 1:
+        return cands[0]
+    plural = [x for x in cat if x.split("§")[0] in UNITCLS and n(x.split("§", 1)[1]).rstrip("s") == n(name).rstrip("s")]   # Sentry Pylon(s)
+    return plural[0] if len(plural) == 1 else None
 
 
 def item(t):

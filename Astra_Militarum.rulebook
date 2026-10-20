@@ -9051,7 +9051,8 @@
             "Character§Ursula Creed",
             "Character§Commissar Yarrick",
             "Character§Commissar Graves on Foot",
-            "Character§Hell's Last"
+            "Character§Hell's Last",
+            "Character§Ciaphas Cain"
           ]
         },
         "assets": {
@@ -9554,7 +9555,8 @@
             "Character§Catachan Command Squad",
             "Character§Commissar Yarrick",
             "Character§Commissar Graves on Foot",
-            "Character§‘iron Hand’ Straken"
+            "Character§‘iron Hand’ Straken",
+            "Character§Ciaphas Cain"
           ]
         },
         "assets": {
@@ -9865,7 +9867,8 @@
             "Character§Ministorum Priest",
             "Character§Krieg Command Squad",
             "Character§Commissar Yarrick",
-            "Character§Commissar Graves on Foot"
+            "Character§Commissar Graves on Foot",
+            "Character§Ciaphas Cain"
           ]
         },
         "assets": {
@@ -11423,7 +11426,8 @@
             "Character§Ministorum Priest",
             "Character§Ursula Creed",
             "Character§Commissar Yarrick",
-            "Character§Commissar Graves on Foot"
+            "Character§Commissar Graves on Foot",
+            "Character§Ciaphas Cain"
           ]
         },
         "assets": {
@@ -12732,7 +12736,8 @@
             "Character§Primaris Psyker",
             "Character§Ministorum Priest",
             "Character§Commissar Yarrick",
-            "Character§Commissar Graves on Foot"
+            "Character§Commissar Graves on Foot",
+            "Character§Ciaphas Cain"
           ]
         },
         "assets": {
@@ -25968,8 +25973,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Catachan Heavy Weapons Squad—Missile launcher – krak",
-            "Ranged Weapon§Catachan Heavy Weapons Squad—Missile launcher – frag"
+            "Ranged Weapon§Cadian Recon Squad—Missile launcher – frag",
+            "Ranged Weapon§Cadian Recon Squad—Missile launcher – krak"
           ]
         },
         "keywords": {
@@ -26080,8 +26085,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Krieg Command Squad—Plasma pistol – standard",
-            "Ranged Weapon§Krieg Command Squad—Plasma pistol – supercharge"
+            "Ranged Weapon§Catachan Command Squad—Plasma pistol – standard",
+            "Ranged Weapon§Catachan Command Squad—Plasma pistol – supercharge"
           ]
         },
         "keywords": {
@@ -61913,6 +61918,181 @@
       },
       "Ability§A Hearty ‘Pick Me Up’": {
         "text": "While this model is leading a unit, in your Command phase, you can return up to D3 destroyed models to that unit."
+      },
+      "Ability§Hero of the Imperium (Aura)": {
+        "text": "While a friendly ASTRA MILITARUM unit is within 6\" of this model, that unit can re-roll battle-shock rolls."
+      },
+      "Ability§Trapped by Excuses": {
+        "text": "In the Deploy Armies step, you must set this unit up on the battlefield or embarked within a TRANSPORT unit that is set up on the battlefield. Abilities that allow you to redeploy a unit or place a unit in strategic reserves cannot affect this unit or a TRANSPORT unit this unit is embarked within."
+      },
+      "Ability§Psychic Blank": {
+        "text": "This model has Feel No Pain 4+ against psychic attacks and mortal wounds."
+      },
+      "Ability§Unparalleled Luck": {
+        "text": "_Once per battle, per army_\n\nAt the start of a phase, you can use this ability. If you do, this model has 2+ InSv."
+      },
+      "Character§Ciaphas Cain": {
+        "keywords": {
+          "Faction": [
+            "Astra Militarum"
+          ],
+          "Source": [
+            "Legends"
+          ],
+          "Keywords": [
+            "Officer",
+            "Character",
+            "Commissar",
+            "Epic Hero",
+            "Imperium",
+            "Infantry",
+            "Ciaphas Cain"
+          ],
+          "Category": [
+            "Epic Hero"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 6
+          },
+          "T": {
+            "value": 3
+          },
+          "Sv": {
+            "value": 4
+          },
+          "W": {
+            "value": 5
+          },
+          "Ld": {
+            "value": 6
+          },
+          "OC": {
+            "value": 3
+          },
+          "Points": {
+            "value": 70
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Cadian Shock Troops\n\n* Catachan Jungle Fighters\n\n* Death Korps Of Krieg\n\n* Kasrkin\n\n* Tempestus Scions"
+            },
+            "Ability§Stealth",
+            "Ability§Voice of Command",
+            "Ability§Hero of the Imperium (Aura)",
+            "Ability§Trapped by Excuses",
+            "Ability§Psychic Blank",
+            "Ability§Unparalleled Luck",
+            "Ranged Weapon§Ciaphas Cain—Laspistols",
+            "Ranged Weapon§Ciaphas Cain—Meltagun",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Ciaphas Cain—Laspistols": {
+        "aspects": {
+          "Label": "Laspistols"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Precision"
+          ]
+        }
+      },
+      "Ranged Weapon§Ciaphas Cain—Meltagun": {
+        "aspects": {
+          "Label": "Meltagun"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Melee Weapon§Ciaphas Cain—Chainsword and Gun But": {
+        "aspects": {
+          "Label": "Chainsword and Gun But"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        }
       }
     },
     "gameModes": {},

@@ -9891,6 +9891,31 @@
       "Ranged Weapon§Rotigus—Streams of brackish filth": {
         "aspects": {
           "Label": "Streams of brackish filth"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "format": "2D6",
+            "value": 0
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds",
+            "Ability§Ignores Cover",
+            "Ability§Torrent"
+          ]
         }
       },
       "Ranged Weapon§Tallyman—Plasma pistol": {
@@ -13594,6 +13619,27 @@
         },
         "aspects": {
           "Label": "Close combat weapon"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
         }
       },
       "Melee Weapon§Helbrute—Helbrute hammer": {
@@ -14312,6 +14358,50 @@
       "Ranged Weapon§Chaos Land Raider—Combi-weapon": {
         "aspects": {
           "Label": "Combi-weapon"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
         }
       },
       "Ranged Weapon§Chaos Land Raider—Twin heavy bolter": {
@@ -14356,31 +14446,231 @@
       "Ranged Weapon§Chaos Predator Annihilator—Combi-weapon": {
         "aspects": {
           "Label": "Combi-weapon"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
         }
       },
       "Ranged Weapon§Chaos Predator Annihilator—Lascannon": {
         "aspects": {
           "Label": "Lascannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          }
         }
       },
       "Ranged Weapon§Chaos Predator Destructor—Combi-weapon": {
         "aspects": {
           "Label": "Combi-weapon"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
         }
       },
       "Ranged Weapon§Chaos Predator Destructor—Lascannon": {
         "aspects": {
           "Label": "Lascannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          }
         }
       },
       "Ranged Weapon§Chaos Rhino—Combi-weapon": {
         "aspects": {
           "Label": "Combi-weapon"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
         }
       },
       "Ranged Weapon§Chaos Rhino—Havoc launcher": {
         "aspects": {
           "Label": "Havoc launcher"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
         }
       },
       "Ranged Weapon§Daemon Prince Of Nurgle—Infernal cannon": {
@@ -14602,11 +14892,61 @@
       "Ranged Weapon§Helbrute—Heavy flamer": {
         "aspects": {
           "Label": "Heavy flamer"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Ignores Cover",
+            "Ability§Torrent"
+          ]
         }
       },
       "Ranged Weapon§Helbrute—Twin lascannon": {
         "aspects": {
           "Label": "Twin lascannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
         }
       },
       "Ranged Weapon§Helbrute—Plasma cannon": {
@@ -14645,11 +14985,53 @@
       "Melee Weapon§Helbrute—Power scourge": {
         "aspects": {
           "Label": "Power scourge"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 8
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
         }
       },
       "Melee Weapon§Helbrute—Helbrute fist": {
         "aspects": {
           "Label": "Helbrute fist"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
         }
       },
       "Ranged Weapon§Icon Bearer—Boltgun": {
@@ -15435,11 +15817,65 @@
       "Ranged Weapon§Kratos—Multi-melta": {
         "aspects": {
           "Label": "Multi-melta"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D3",
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "3"
+                }
+              }
+            }
+          ]
         }
       },
       "Ranged Weapon§Kratos—Lascannon": {
         "aspects": {
           "Label": "Lascannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D3",
+            "value": 3
+          }
         }
       },
       "Melee Weapon§Rapier Carrier—Armoured Hull": {
@@ -15656,6 +16092,252 @@
                 }
               }
             }
+          ]
+        }
+      },
+      "Vehicle§Myphitic Blight-hauler": {
+        "keywords": {
+          "Faction": [
+            "Death Guard"
+          ],
+          "Source": [
+            "Legends"
+          ],
+          "Keywords": [
+            "Myphitic Blight-hauler",
+            "Nurgle",
+            "Smoke",
+            "Daemon",
+            "Vehicle",
+            "Chaos"
+          ],
+          "Category": [
+            "Vehicle"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 10
+          },
+          "T": {
+            "value": 9
+          },
+          "Sv": {
+            "value": 3
+          },
+          "W": {
+            "value": 10
+          },
+          "Ld": {
+            "value": 6
+          },
+          "OC": {
+            "value": 3
+          },
+          "Points": {
+            "value": 95
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D3"
+                }
+              }
+            },
+            "Ability§Nurgle’s Gift (Aura)",
+            "Ability§Tank Hunters",
+            "Ranged Weapon§Myphitic Blight-hauler—Bile spurt",
+            "Ranged Weapon§Myphitic Blight-hauler—Missile launcher",
+            "Ranged Weapon§Myphitic Blight-hauler—Multi-melta",
+            "Melee Weapon§Myphitic Blight-hauler—Gnashing maw",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "Type": "game piece"
+        }
+      },
+      "Ranged Weapon§Myphitic Blight-hauler—Bile spurt": {
+        "aspects": {
+          "Label": "Bile spurt"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Ranged Weapon§Myphitic Blight-hauler—Missile launcher – frag": {
+        "aspects": {
+          "Label": "Missile launcher – frag"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Myphitic Blight-hauler—Missile launcher – krak": {
+        "aspects": {
+          "Label": "Missile launcher – krak"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          }
+        }
+      },
+      "Ranged Weapon§Myphitic Blight-hauler—Missile launcher": {
+        "aspects": {
+          "Label": "Missile launcher"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Myphitic Blight-hauler—Missile launcher – frag",
+            "Ranged Weapon§Myphitic Blight-hauler—Missile launcher – krak"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Myphitic Blight-hauler—Multi-melta": {
+        "aspects": {
+          "Label": "Multi-melta"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 9
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            },
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Melee Weapon§Myphitic Blight-hauler—Gnashing maw": {
+        "aspects": {
+          "Label": "Gnashing maw"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lethal Hits"
           ]
         }
       }

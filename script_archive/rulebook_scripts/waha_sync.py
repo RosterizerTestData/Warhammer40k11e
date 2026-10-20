@@ -117,16 +117,17 @@ def copy_weapon(wk, U):
 
 # ================================================================== 2. export
 def export():
+    OUT.mkdir(parents=True, exist_ok=True)
     have_mfm = mfm_units(stem, FACTIONS_TXT)
-    out = []
+    out, legends = [], []
     for d in datasheets_for(stem):
         uk = find_unit(res, d["name"])
-        if not uk:
-            if is_legends(d) or n(d["name"]) not in have_mfm:
-                review.append(f"not built (absent from MFM{' / Legends' if is_legends(d) else ''}): {d['name']}")
-                continue
+        if not uk and (is_legends(d) or n(d["name"]) not in have_mfm):
+            legends.append(d["name"])   # exists but isn't current: built as Legends (user rule)
         out.append(to_gdc(d))
-    OUT.mkdir(parents=True, exist_ok=True)
+    if legends:
+        json.dump(legends, open(OUT / f"{stem}.legends.json", "w"), ensure_ascii=False)
+        log.append(f"to build as Legends: {legends}")
     json.dump({"name": fac.get(datasheets_for(stem)[0]["faction_id"]) if datasheets_for(stem) else stem,
                "datasheets": out, "enhancements": [], "stratagems": [], "detachments": [], "rules": {}},
               open(OUT / f"{stem}.json", "w"), ensure_ascii=False, indent=1)
@@ -376,6 +377,18 @@ def sync():
                     log.append(f"{U} / {hk}: invulnerable {curv}→{inv}")
 
 
+def mark_legends():
+    """after the builder: units built from the export's Legends list get Source Legends"""
+    f = OUT / f"{stem}.legends.json"
+    if not f.exists():
+        return
+    for name in json.load(open(f)):
+        uk = find_unit(cat, name)
+        if uk and "Legends" not in ((cat[uk].get("keywords") or {}).get("Source") or []):
+            cat[uk].setdefault("keywords", {})["Source"] = ["Legends"]
+            log.append(f"{uk}: Source → Legends")
+
+
 def sync_attached_to():
     """reverse direction: units in this book accept every Waha leader/support that can join them (incl. leaders from the parent book)"""
     attachers = {}
@@ -401,7 +414,7 @@ def sync_attached_to():
                     log.append(f"{uk.split('§', 1)[1]}: accepts {lk}")
 
 
-{"split": split, "export": export, "sync": lambda: (sync(), sync_attached_to())}[mode]()
+{"split": split, "export": export, "legends": mark_legends, "sync": lambda: (sync(), sync_attached_to())}[mode]()
 print("\n".join(log))
 print("\n=== REVIEW ===\n" + "\n".join(dict.fromkeys(review)))
 if APPLY and mode != "export":

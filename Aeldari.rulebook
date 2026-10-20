@@ -43494,6 +43494,285 @@
       },
       "Ability§Drakolithe": {
         "text": "_Once per battle, per token_\n\nWhen an enemy unit ends a move within 8\" of this unit, if this unit is unengaged or if that enemy unit ended that move **engaged** with this unit, you can use this ability. If you do, roll one D6:\n\n- On a 3+, that enemy unit suffers 1 mortal wound.\n\n_Place one Drakolithe token next to the unit for each Drakolithe the unit is equipped with, removing one each time this ability is used._"
+      },
+      "Unit§Vypers": {
+        "keywords": {
+          "Faction": [
+            "Aeldari"
+          ],
+          "Source": [
+            "Legends"
+          ],
+          "Keywords": [
+            "Vypers",
+            "Fly",
+            "Aeldari",
+            "Vehicle"
+          ],
+          "Category": [
+            "Vehicle"
+          ]
+        },
+        "stats": {
+          "M": {
+            "value": 14
+          },
+          "T": {
+            "value": 6
+          },
+          "Sv": {
+            "value": 3
+          },
+          "W": {
+            "value": 6
+          },
+          "Ld": {
+            "value": 7
+          },
+          "OC": {
+            "value": 2
+          },
+          "Points": {
+            "value": 75
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Battle Focus",
+            "Ability§Harassment Fire",
+            "Ranged Weapon§Vypers—Shuriken cannon",
+            "Ranged Weapon§Vypers—Bright lance",
+            "Melee Weapon§Vypers—Wraithbone hull"
+          ]
+        },
+        "aspects": {
+          "Type": "game piece"
+        }
+      },
+      "Ranged Weapon§Vypers—Bright lance": {
+        "aspects": {
+          "Label": "Bright lance"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Vypers—Missile launcher – starshot": {
+        "aspects": {
+          "Label": "Missile launcher – starshot"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          }
+        }
+      },
+      "Ranged Weapon§Vypers—Missile launcher – sunburst": {
+        "aspects": {
+          "Label": "Missile launcher – sunburst"
+        },
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        }
+      },
+      "Ranged Weapon§Vypers—Missile launcher": {
+        "aspects": {
+          "Label": "Missile launcher"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Vypers—Missile launcher – starshot",
+            "Ranged Weapon§Vypers—Missile launcher – sunburst"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Vypers—Scatter laser": {
+        "aspects": {
+          "Label": "Scatter laser"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 6
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Vypers—Shuriken cannon": {
+        "aspects": {
+          "Label": "Shuriken cannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Lethal Hits"
+          ]
+        }
+      },
+      "Ranged Weapon§Vypers—Starcannon": {
+        "aspects": {
+          "Label": "Starcannon"
+        },
+        "stats": {
+          "Range": {
+            "value": 36
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 2
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Melee Weapon§Vypers—Wraithbone hull": {
+        "aspects": {
+          "Label": "Wraithbone hull"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        }
       }
     },
     "gameModes": {},
