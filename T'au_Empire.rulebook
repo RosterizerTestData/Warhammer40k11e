@@ -28197,170 +28197,6 @@
           ]
         }
       },
-      "Ranged Weapon§The Twin Lance—Fusion eliminator – Ranged": {
-        "aspects": {
-          "Label": "Fusion eliminator – Ranged"
-        },
-        "stats": {
-          "Range": {
-            "value": 18
-          },
-          "A": {
-            "value": 2
-          },
-          "BS": {
-            "value": 2
-          },
-          "S": {
-            "value": 10
-          },
-          "AP": {
-            "value": -4
-          },
-          "D": {
-            "format": "D6",
-            "value": 0
-          }
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Melta",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            }
-          ]
-        }
-      },
-      "Ranged Weapon§The Twin Lance—XV pulse pistol – Ranged": {
-        "aspects": {
-          "Label": "XV pulse pistol – Ranged"
-        },
-        "stats": {
-          "Range": {
-            "value": 12
-          },
-          "A": {
-            "value": 2
-          },
-          "BS": {
-            "value": 2
-          },
-          "S": {
-            "value": 6
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 2
-          }
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            }
-          ]
-        }
-      },
-      "Melee Weapon§The Twin Lance—Fusion eliminator – Melee": {
-        "aspects": {
-          "Label": "Fusion eliminator – Melee"
-        },
-        "stats": {
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "A": {
-            "value": 1
-          },
-          "WS": {
-            "value": 4
-          },
-          "S": {
-            "value": 10
-          },
-          "AP": {
-            "value": -4
-          },
-          "D": {
-            "format": "D6",
-            "value": 2
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Extra Attacks"
-          ]
-        }
-      },
-      "Melee Weapon§The Twin Lance—Ion scattercannon – Melee": {
-        "aspects": {
-          "Label": "Ion scattercannon – Melee"
-        },
-        "stats": {
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "A": {
-            "value": 3
-          },
-          "WS": {
-            "value": 4
-          },
-          "S": {
-            "value": 7
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 2
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Extra Attacks"
-          ]
-        }
-      },
-      "Melee Weapon§The Twin Lance—XV pulse pistol – Melee": {
-        "aspects": {
-          "Label": "XV pulse pistol – Melee"
-        },
-        "stats": {
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "A": {
-            "value": 4
-          },
-          "WS": {
-            "value": 3
-          },
-          "S": {
-            "value": 6
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 2
-          }
-        }
-      },
       "Ranged Weapon§Tiger Shark—Swiftstrike railgun": {
         "aspects": {
           "Label": "Swiftstrike railgun"
@@ -30061,6 +29897,14 @@
           "OC": {
             "value": 2
           }
+        },
+        "assets": {
+          "traits": [
+            "Weapon§The Twin Lance—Fusion eliminator",
+            "Weapon§The Twin Lance—XV pulse pistol",
+            "Ranged Weapon§The Twin Lance—Shardstorm burst system",
+            "Ranged Weapon§The Twin Lance—Twin pulse blaster"
+          ]
         }
       },
       "Model§Ri’Locai": {
@@ -30093,6 +29937,15 @@
           "OC": {
             "value": 2
           }
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§The Twin Lance—Ion scattercannon",
+            "Melee Weapon§The Twin Lance—Ion scattercannon",
+            "Weapon§The Twin Lance—XV pulse pistol",
+            "Ranged Weapon§The Twin Lance—Shardstorm burst system",
+            "Ranged Weapon§The Twin Lance—Twin pulse blaster"
+          ]
         }
       }
     },
