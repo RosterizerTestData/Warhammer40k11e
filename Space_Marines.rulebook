@@ -1,6 +1,6 @@
 {
   "name": "Space Marines 11e",
-  "revision": "11.0.4",
+  "revision": "11.1.2",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -3813,14 +3813,6 @@
           ]
         },
         "text": "At the start of the Fight phase, each enemy unit within Engagement Range of this unit must take a Battle‑shock test."
-      },
-      "Ability§Termite Assault": {
-        "keywords": {
-          "Keywords": [
-            "Other"
-          ]
-        },
-        "text": "This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model can disembark after it has been set up on the battlefield, and if they do they must be set up more than 9″ away from all enemy models."
       },
       "Ability§Terror Troops (Aura)": {
         "keywords": {
@@ -22029,12 +22021,12 @@
         "allowed": {
           "items": [
             "Character§Captain Titus",
-            "Unit§Assault Intercessor Squad",
-            "Unit§Assault Squad",
-            "Unit§Bladeguard Veteran Squad",
-            "Unit§Intercessor Squad",
-            "Unit§Sternguard Veteran Squad",
-            "Unit§Vanguard Veteran Squad"
+            "Infantry/Mounted§Assault Intercessor Squad",
+            "Infantry/Mounted§Assault Squad",
+            "Infantry/Mounted§Bladeguard Veteran Squad",
+            "Infantry/Mounted§Intercessor Squad",
+            "Infantry/Mounted§Sternguard Veteran Squad",
+            "Infantry/Mounted§Vanguard Veteran Squad"
           ]
         },
         "assets": {
@@ -30613,48 +30605,6 @@
           },
           "S": {
             "value": 8
-          },
-          "WS": {
-            "value": 4
-          }
-        }
-      },
-      "Melee Weapon§Terrax-pattern Termite—Termite drill": {
-        "aspects": {
-          "Label": "Termite drill"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "vehicle"
-                },
-                "x": {
-                  "value": "3+"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 6
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "statType": "term",
-            "value": "D3+3"
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 14
           },
           "WS": {
             "value": 4
@@ -67444,145 +67394,6 @@
           }
         }
       },
-      "Ranged Weapon§Terrax-pattern Termite—Combi-bolter": {
-        "aspects": {
-          "Label": "Combi-bolter"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": 0
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 24
-          },
-          "S": {
-            "value": 4
-          }
-        }
-      },
-      "Ranged Weapon§Terrax-pattern Termite—Heavy flamer": {
-        "aspects": {
-          "Label": "Heavy flamer"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Torrent",
-            "Ability§Ignores Cover"
-          ]
-        },
-        "stats": {
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "AP": {
-            "value": -1
-          },
-          "BS": {
-            "statType": "term",
-            "value": "N/A"
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 5
-          }
-        }
-      },
-      "Ranged Weapon§Terrax-pattern Termite—Terrax melta cutter": {
-        "aspects": {
-          "Label": "Terrax melta cutter"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Melta",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 5
-          },
-          "AP": {
-            "value": -4
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "format": "D6",
-            "value": 0
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 9
-          }
-        }
-      },
-      "Ranged Weapon§Terrax-pattern Termite—Twin volkite charger": {
-        "aspects": {
-          "Label": "Twin volkite charger"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Twin-linked"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": 0
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "value": 18
-          },
-          "S": {
-            "value": 5
-          }
-        }
-      },
       "Ranged Weapon§Thunderfire Cannon—Bolt pistol": {
         "aspects": {
           "Label": "Bolt pistol"
@@ -85865,122 +85676,6 @@
           }
         }
       },
-      "Vehicle§Terrax-pattern Termite": {
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Deadly Demise",
-              "stats": {
-                "x": {
-                  "value": "D3"
-                }
-              }
-            },
-            "Ability§Deep Strike",
-            "Ability§Oath of Moment",
-            "Ability§Termite Assault",
-            {
-              "item": "Ability§Damaged:",
-              "stats": {
-                "x": {
-                  "value": "1-5 wounds remaining"
-                }
-              }
-            },
-            {
-              "item": "Ability§Transport",
-              "text": "This model has a transport capacity of 12 Adeptus Astartes Infantry models. It cannot transport Jump Pack, Wulfen, Phobos, Gravis, Centurion, Terminator, Obliterator, Possessed or Tacticus models (excluding Tacticus Character models that began the battle attached to a non-Tacticus unit)."
-            },
-            "Ranged Weapon§Terrax-pattern Termite—Terrax melta cutter",
-            "Melee Weapon§Terrax-pattern Termite—Termite drill"
-          ]
-        },
-        "keywords": {
-          "Faction": [
-            "Adeptus Astartes"
-          ],
-          "Source": [
-            "Legends"
-          ],
-          "Keywords": [
-            "Vehicle",
-            "Imperium",
-            "Transport",
-            "Dedicated Transport",
-            "Terrax-pattern Termite"
-          ],
-          "Category": [
-            "Vehicle—Dedicated Transport"
-          ]
-        },
-        "stats": {
-          "Ld": {
-            "value": 6
-          },
-          "Loadout": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "2 Combi-bolters": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Terrax-pattern Termite—Combi-bolter"
-                  },
-                  {
-                    "trait": "Ranged Weapon§Terrax-pattern Termite—Combi-bolter"
-                  }
-                ]
-              },
-              "2 Heavy flamers": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Terrax-pattern Termite—Heavy flamer"
-                  },
-                  {
-                    "trait": "Ranged Weapon§Terrax-pattern Termite—Heavy flamer"
-                  }
-                ]
-              },
-              "2 Twin volkite chargers": {
-                "order": 2,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Terrax-pattern Termite—Twin volkite charger"
-                  },
-                  {
-                    "trait": "Ranged Weapon§Terrax-pattern Termite—Twin volkite charger"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "2 Combi-bolters",
-            "visibility": "active"
-          },
-          "M": {
-            "value": 8
-          },
-          "OC": {
-            "value": 2
-          },
-          "Points": {
-            "value": 200
-          },
-          "Sv": {
-            "value": 3
-          },
-          "T": {
-            "value": 10
-          },
-          "W": {
-            "value": 14
-          }
-        },
-        "text": ""
-      },
       "Vehicle§Thunderfire Cannon": {
         "aspects": {
           "Type": "conceptual"
@@ -87467,6 +87162,147 @@
           "traits": [
             "Melee Weapon§Roboute Guilliman—Hand of Dominion",
             "Ranged Weapon§Roboute Guilliman—Hand of Dominion"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Vehicle§Terrax-pattern Termite": {
+        "assets": {
+          "traits": [
+            "Ability§Oath of Moment",
+            {
+              "item": "Ability§Transport",
+              "text": "This model has a transport capacity of 12 Adeptus Astartes Infantry models. It cannot transport Jump Pack, Wulfen, Phobos, Gravis, Centurion, Terminator, Obliterator, Possessed or Tacticus models (excluding Tacticus Character models that began the battle attached to a non-Tacticus unit)."
+            }
+          ]
+        },
+        "stats": {
+          "Loadout": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "2 Combi-bolters": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Terrax-pattern Termite—Combi-bolter"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Terrax-pattern Termite—Combi-bolter"
+                  }
+                ]
+              },
+              "2 Heavy flamers": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Terrax-pattern Termite—Heavy flamer"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Terrax-pattern Termite—Heavy flamer"
+                  }
+                ]
+              },
+              "2 Twin volkite chargers": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Terrax-pattern Termite—Twin volkite charger"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Terrax-pattern Termite—Twin volkite charger"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "2 Combi-bolters",
+            "visibility": "active"
+          }
+        },
+        "keywords": {
+          "Faction": [
+            "Adeptus Astartes"
+          ]
+        },
+        "removed": {
+          "text": ""
+        }
+      },
+      "Ranged Weapon§Venerable Dreadnought—Heavy plasma cannon – standard": {
+        "aspects": {
+          "Label": "Standard"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 9
+          }
+        }
+      },
+      "Ranged Weapon§Venerable Dreadnought—Heavy plasma cannon – supercharge": {
+        "aspects": {
+          "Label": "Supercharge"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast",
+            "Ability§Hazardous"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 10
+          }
+        }
+      },
+      "Ranged Weapon§Venerable Dreadnought—Heavy plasma cannon": {
+        "aspects": {
+          "Label": "Heavy plasma cannon"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Venerable Dreadnought—Heavy plasma cannon – standard",
+            "Ranged Weapon§Venerable Dreadnought—Heavy plasma cannon – supercharge"
           ]
         },
         "keywords": {

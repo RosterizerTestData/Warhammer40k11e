@@ -1,6 +1,6 @@
 {
   "name": "Chaos 11e",
-  "revision": "11.1.1",
+  "revision": "11.1.2",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -40261,7 +40261,7 @@
           }
         }
       },
-      "Unit§Gellerpox Infected": {
+      "Infantry/Mounted§Gellerpox Infected": {
         "allowed": {
           "items": [
             "Model§Nightmare Hulk w Belly-Flamer"
@@ -44352,6 +44352,7 @@
           "Type": "game piece"
         },
         "assets": {
+          "included": [],
           "traits": [
             {
               "item": "Ability§Deadly Demise",
@@ -44361,7 +44362,6 @@
                 }
               }
             },
-            "Ability§Dark Pacts",
             "Ability§Assault Ramp",
             {
               "item": "Ability§Damaged:",
@@ -44376,15 +44376,12 @@
               "text": "This model has a transport capacity of 12 Heretic Astartes Infantry models (excluding Obliterator and Jump Pack models). Each Possessed, Mutilator and Terminator model takes up the space of 2 models."
             },
             "Ranged Weapon§Chaos Land Raider—Soulshatter lascannon",
+            "Ranged Weapon§Chaos Land Raider—Soulshatter lascannon",
             "Ranged Weapon§Chaos Land Raider—Twin heavy bolter",
-            "Melee Weapon§Chaos Land Raider—Armoured tracks",
-            "Ranged Weapon§Chaos Land Raider—Soulshatter lascannon"
+            "Melee Weapon§Chaos Land Raider—Armoured tracks"
           ]
         },
         "keywords": {
-          "Faction": [
-            "Heretic Astartes"
-          ],
           "Source": [
             "10th Edition Codex"
           ],
@@ -44493,7 +44490,6 @@
                 }
               }
             },
-            "Ability§Dark Pacts",
             "Ability§Annihilator",
             {
               "item": "Ability§Damaged:",
@@ -44508,9 +44504,6 @@
           ]
         },
         "keywords": {
-          "Faction": [
-            "Heretic Astartes"
-          ],
           "Source": [
             "10th Edition Codex"
           ],
@@ -44653,7 +44646,6 @@
                 }
               }
             },
-            "Ability§Dark Pacts",
             "Ability§Destructor",
             {
               "item": "Ability§Damaged:",
@@ -44668,9 +44660,6 @@
           ]
         },
         "keywords": {
-          "Faction": [
-            "Heretic Astartes"
-          ],
           "Source": [
             "10th Edition Codex"
           ],
@@ -44804,6 +44793,7 @@
           "Type": "game piece"
         },
         "assets": {
+          "included": [],
           "traits": [
             {
               "item": "Ability§Deadly Demise",
@@ -44813,7 +44803,6 @@
                 }
               }
             },
-            "Ability§Dark Pacts",
             "Ability§Self Repair",
             {
               "item": "Ability§Transport",
@@ -44831,9 +44820,6 @@
           ]
         },
         "keywords": {
-          "Faction": [
-            "Heretic Astartes"
-          ],
           "Source": [
             "10th Edition Codex"
           ],
@@ -48896,6 +48882,3693 @@
             "Multi-weapon"
           ]
         }
+      },
+      "Melee Weapon§Chaos Rhino—Armoured tracks": {
+        "aspects": {
+          "Label": "Armoured tracks"
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 6
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Rhino—Combi-bolter": {
+        "aspects": {
+          "Label": "Combi-bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Rhino—Combi-weapon": {
+        "aspects": {
+          "Label": "Combi-weapon"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Rhino—Havoc launcher": {
+        "aspects": {
+          "Label": "Havoc launcher"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Melee Weapon§Chaos Land Raider—Armoured tracks": {
+        "aspects": {
+          "Label": "Armoured tracks"
+        },
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 8
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Land Raider—Combi-bolter": {
+        "aspects": {
+          "Label": "Combi-bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Land Raider—Combi-weapon": {
+        "aspects": {
+          "Label": "Combi-weapon"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Land Raider—Havoc launcher": {
+        "aspects": {
+          "Label": "Havoc launcher"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Land Raider—Soulshatter lascannon": {
+        "aspects": {
+          "Label": "Soulshatter lascannon"
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 12
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Land Raider—Twin heavy bolter": {
+        "aspects": {
+          "Label": "Twin heavy bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Twin-linked"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ability§Self Repair": {
+        "keywords": {
+          "Keywords": [
+            "Other"
+          ]
+        },
+        "text": "At the start of your Command phase, this model regains 1 lost wound."
+      },
+      "Melee Weapon§Chaos Predator Annihilator—Armoured tracks": {
+        "aspects": {
+          "Label": "Armoured tracks"
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 6
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Predator Annihilator—Combi-bolter": {
+        "aspects": {
+          "Label": "Combi-bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Predator Annihilator—Combi-weapon": {
+        "aspects": {
+          "Label": "Combi-weapon"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Predator Annihilator—Havoc launcher": {
+        "aspects": {
+          "Label": "Havoc launcher"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Predator Annihilator—Heavy bolter": {
+        "aspects": {
+          "Label": "Heavy bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Predator Annihilator—Lascannon": {
+        "aspects": {
+          "Label": "Lascannon"
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 12
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Predator Annihilator—Predator twin lascannon": {
+        "aspects": {
+          "Label": "Predator twin lascannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 14
+          }
+        }
+      },
+      "Ability§Annihilator": {
+        "keywords": {
+          "Keywords": [
+            "Other"
+          ]
+        },
+        "text": "Each time a ranged attack made by this model is allocated to a Monster or Vehicle model, you can re‑roll the Damage roll."
+      },
+      "Melee Weapon§Chaos Predator Destructor—Armoured tracks": {
+        "aspects": {
+          "Label": "Armoured tracks"
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 6
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Predator Destructor—Combi-bolter": {
+        "aspects": {
+          "Label": "Combi-bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Predator Destructor—Combi-weapon": {
+        "aspects": {
+          "Label": "Combi-weapon"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Predator Destructor—Havoc launcher": {
+        "aspects": {
+          "Label": "Havoc launcher"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Predator Destructor—Heavy bolter": {
+        "aspects": {
+          "Label": "Heavy bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Predator Destructor—Lascannon": {
+        "aspects": {
+          "Label": "Lascannon"
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 12
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Predator Destructor—Predator autocannon": {
+        "aspects": {
+          "Label": "Predator autocannon"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 9
+          }
+        }
+      },
+      "Ability§Destructor": {
+        "keywords": {
+          "Keywords": [
+            "Other"
+          ]
+        },
+        "text": "Each time a ranged attack made by this model targets an enemy Infantry unit, improve the Armour Penetration characteristic of that attack by 1."
+      },
+      "Vehicle§Chaos Vindicator": {
+        "aspects": {
+          "Type": "game piece"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D3"
+                }
+              }
+            },
+            "Ability§Siege Shield",
+            {
+              "item": "Ability§Damaged:",
+              "stats": {
+                "x": {
+                  "value": "1-4 wounds remaining"
+                }
+              }
+            },
+            "Ranged Weapon§Chaos Vindicator—Demolisher cannon",
+            "Melee Weapon§Chaos Vindicator—Armoured tracks"
+          ]
+        },
+        "keywords": {
+          "Source": [
+            "10th Edition Codex"
+          ],
+          "Keywords": [
+            "Vehicle",
+            "Smoke",
+            "Chaos",
+            "Vindicator"
+          ],
+          "Category": [
+            "Vehicle"
+          ]
+        },
+        "stats": {
+          "Combi Option": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Combi-bolter": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Vindicator—Combi-bolter"
+                  }
+                ]
+              },
+              "Combi-weapon": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Vindicator—Combi-weapon"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "active"
+          },
+          "Havoc Launcher": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "✓": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Vindicator—Havoc launcher"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "normal"
+          },
+          "Ld": {
+            "value": 6
+          },
+          "M": {
+            "value": 9
+          },
+          "OC": {
+            "value": 3
+          },
+          "Points": {
+            "value": 195
+          },
+          "Sv": {
+            "value": 2
+          },
+          "T": {
+            "value": 11
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          },
+          "W": {
+            "value": 11
+          }
+        }
+      },
+      "Melee Weapon§Chaos Vindicator—Armoured tracks": {
+        "aspects": {
+          "Label": "Armoured tracks"
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 6
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Vindicator—Combi-bolter": {
+        "aspects": {
+          "Label": "Combi-bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Vindicator—Combi-weapon": {
+        "aspects": {
+          "Label": "Combi-weapon"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Vindicator—Demolisher cannon": {
+        "aspects": {
+          "Label": "Demolisher cannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 3
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 14
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Vindicator—Havoc launcher": {
+        "aspects": {
+          "Label": "Havoc launcher"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ability§Siege Shield": {
+        "keywords": {
+          "Keywords": [
+            "Other"
+          ]
+        },
+        "text": "When making ranged attacks with its demolisher cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units."
+      },
+      "Vehicle§Defiler": {
+        "aspects": {
+          "Type": "game piece"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D3"
+                }
+              }
+            },
+            "Ability§Scuttling Walker (Defiler)",
+            {
+              "item": "Ability§Damaged:",
+              "stats": {
+                "x": {
+                  "value": "1-6 wounds remaining"
+                }
+              }
+            },
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            },
+            "Melee Weapon§Defiler—Shearing claws",
+            "Ability§Daemonforge"
+          ]
+        },
+        "keywords": {
+          "Source": [
+            "10th Edition Codex"
+          ],
+          "Keywords": [
+            "Vehicle",
+            "Walker",
+            "Chaos",
+            "Daemon",
+            "Defiler"
+          ],
+          "Category": [
+            "Vehicle—Walker"
+          ]
+        },
+        "rules": {
+          "A model cannot be equipped with more than one electroscourge": {
+            "evals": [
+              {
+                "actionable": true,
+                "max": 1,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "tracked",
+                    "ecmax"
+                  ]
+                ]
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          }
+        },
+        "stats": {
+          "Ld": {
+            "value": 6
+          },
+          "Loadout 1": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "Hades battle cannon": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Defiler—Hades battle cannon"
+                  }
+                ]
+              },
+              "Ectoplasma destructor": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Defiler—Ectoplasma destructor"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "Hades battle cannon",
+            "visibility": "active"
+          },
+          "Loadout 2": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "2 Excruciator cannons": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Defiler—Excruciator cannon"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Defiler—Excruciator cannon"
+                  }
+                ]
+              },
+              "2 Magma cutters": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Defiler—Magma cutters"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Defiler—Magma cutters"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "2 Excruciator cannons",
+            "visibility": "normal"
+          },
+          "Loadout 3": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "Heavy baleflamer": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Defiler—Heavy baleflamer"
+                  }
+                ]
+              },
+              "Hades lascannon": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Defiler—Hades lascannon"
+                  }
+                ]
+              },
+              "Heavy reaper autocannon": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Defiler—Heavy reaper autocannon"
+                  }
+                ]
+              },
+              "Electroscourge": {
+                "order": 3,
+                "tracking": {
+                  "ecmax": 1
+                },
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Defiler—Electroscourge"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "Heavy baleflamer",
+            "visibility": "normal"
+          },
+          "Loadout 4": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "Heavy missile launcher": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Defiler—Heavy missile launcher"
+                  }
+                ]
+              },
+              "Hades lascannon": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Defiler—Hades lascannon"
+                  }
+                ]
+              },
+              "Heavy reaper autocannon": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Defiler—Heavy reaper autocannon"
+                  }
+                ]
+              },
+              "Electroscourge": {
+                "order": 3,
+                "tracking": {
+                  "ecmax": 1
+                },
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Defiler—Electroscourge"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "Heavy missile launcher",
+            "visibility": "normal"
+          },
+          "M": {
+            "value": 12
+          },
+          "OC": {
+            "value": 5
+          },
+          "Points": {
+            "value": 330
+          },
+          "Sv": {
+            "value": 3
+          },
+          "T": {
+            "value": 11
+          },
+          "unitDiscount": {
+            "value": 30
+          },
+          "unitDiscountThreshold": {
+            "value": 2
+          },
+          "W": {
+            "value": 18
+          }
+        }
+      },
+      "Melee Weapon§Defiler—Electroscourge": {
+        "aspects": {
+          "Label": "Electroscourge"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Extra Attacks",
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 12
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Defiler—Shearing claws": {
+        "aspects": {
+          "Label": "Shearing claws"
+        },
+        "assets": {
+          "traits": [
+            "Melee Weapon§Defiler—Shearing claws – strike",
+            "Melee Weapon§Defiler—Shearing claws – sweep"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        },
+        "removed": {
+          "stats": {}
+        },
+        "stats": {
+          "A": {},
+          "AP": {},
+          "D": {
+            "format": "D6"
+          },
+          "Range": {
+            "value": null
+          },
+          "S": {},
+          "WS": {}
+        }
+      },
+      "Melee Weapon§Defiler—Shearing claws – strike": {
+        "aspects": {
+          "Label": "Strike"
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        },
+        "removed": {
+          "stats": {}
+        },
+        "stats": {
+          "A": {
+            "value": 5
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          },
+          "Range": {
+            "value": "Melee"
+          },
+          "S": {
+            "value": 16
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Defiler—Shearing claws – sweep": {
+        "aspects": {
+          "Label": "Sweep"
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        },
+        "removed": {
+          "stats": {}
+        },
+        "stats": {
+          "A": {
+            "value": 10
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": "Melee"
+          },
+          "S": {
+            "value": 6
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Defiler—Ectoplasma destructor": {
+        "aspects": {
+          "Label": "Ectoplasma destructor"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 12
+          }
+        }
+      },
+      "Ranged Weapon§Defiler—Excruciator cannon": {
+        "aspects": {
+          "Label": "Excruciator cannon"
+        },
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 6
+          }
+        }
+      },
+      "Ranged Weapon§Defiler—Hades battle cannon": {
+        "aspects": {
+          "Label": "Hades battle cannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 10
+          }
+        }
+      },
+      "Ranged Weapon§Defiler—Hades lascannon": {
+        "aspects": {
+          "Label": "Hades lascannon"
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 12
+          }
+        }
+      },
+      "Ranged Weapon§Defiler—Heavy baleflamer": {
+        "aspects": {
+          "Label": "Heavy baleflamer"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Ignores Cover",
+            "Ability§Torrent"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 3
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "format": "{t}",
+            "statType": "term",
+            "value": "N/A"
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 7
+          }
+        }
+      },
+      "Ranged Weapon§Defiler—Heavy missile launcher": {
+        "aspects": {
+          "Label": "Heavy missile launcher"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Defiler—Heavy missile launcher – krak",
+            "Ranged Weapon§Defiler—Heavy missile launcher – frag"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Defiler—Heavy missile launcher – frag": {
+        "aspects": {
+          "Label": "Frag"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "2D6",
+            "value": 0
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Defiler—Heavy missile launcher – krak": {
+        "aspects": {
+          "Label": "Krak"
+        },
+        "assets": {
+          "traits": []
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 10
+          }
+        }
+      },
+      "Ranged Weapon§Defiler—Heavy reaper autocannon": {
+        "aspects": {
+          "Label": "Heavy reaper autocannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 9
+          }
+        }
+      },
+      "Ranged Weapon§Defiler—Magma cutters": {
+        "aspects": {
+          "Label": "Magma cutters"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -4
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 9
+          }
+        }
+      },
+      "Ability§Daemonforge": {
+        "text": "Each time this unit makes a Dark Pact, until the end of the phase, each time this model makes an attack, re-roll a Wound roll of 1. In addition, once per battle, when this unit makes a Dark Pact, before making the resulting Leadership test, you can declare it will overcharge its daemonforge. If it does:\n\n■ If the resulting Leadership test is failed, this model suffers 3 mortal wounds instead of D3 mortal wounds.\n\n■ Until the end of the phase, each time this model makes an attack, you can re-roll the Wound roll."
+      },
+      "Ability§Scuttling Walker (Defiler)": {
+        "aspects": {
+          "Label": "Scuttling Walker"
+        },
+        "text": "Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding Titanic models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
+      },
+      "Vehicle§Helbrute": {
+        "aspects": {
+          "Type": "game piece"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Dark Ascension (aura)",
+            "Ability§Devoted to Destruction",
+            "Melee Weapon§Helbrute—Close combat weapon"
+          ]
+        },
+        "keywords": {
+          "Source": [
+            "10th Edition Codex"
+          ],
+          "Keywords": [
+            "Vehicle",
+            "Walker",
+            "Chaos",
+            "Helbrute"
+          ],
+          "Category": [
+            "Vehicle—Walker"
+          ]
+        },
+        "rules": {
+          "Maximum 1 Combi-Bolter or Heavy Flamer per Helbrute Fist": {
+            "evals": [
+              {
+                "actionable": false,
+                "equation": {
+                  "operator": "T/O",
+                  "value": 1
+                },
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "tracked",
+                    "fist"
+                  ]
+                ]
+              },
+              {
+                "actionable": true,
+                "max": [
+                  "{this}",
+                  "evals",
+                  "0",
+                  "result",
+                  "integer"
+                ],
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "tracked",
+                    "special"
+                  ]
+                ]
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
+          },
+          "MoreAttacksif2Fists": {
+            "actions": [
+              {
+                "actionType": "modify",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "assets",
+                    "classification",
+                    "Melee Weapon",
+                    "stats",
+                    "A",
+                    "value"
+                  ]
+                ],
+                "value": 2
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Loadout 1",
+                    "value"
+                  ]
+                ],
+                "value": "Helbrute fist"
+              },
+              {
+                "actionable": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Loadout 2",
+                    "value"
+                  ]
+                ],
+                "value": "Helbrute fist"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        },
+        "stats": {
+          "1 per Helbrute fist": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "1 Combi-bolter": {
+                "order": 1,
+                "tracking": {
+                  "special": 1
+                },
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Helbrute—Combi-bolter"
+                  }
+                ]
+              },
+              "2 Combi-bolters": {
+                "order": 2,
+                "tracking": {
+                  "special": 2
+                },
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Helbrute—Combi-bolter"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Helbrute—Combi-bolter"
+                  }
+                ]
+              },
+              "1 Heavy flamer": {
+                "order": 3,
+                "tracking": {
+                  "special": 1
+                },
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Helbrute—Heavy flamer"
+                  }
+                ]
+              },
+              "2 Heavy flamer": {
+                "order": 4,
+                "tracking": {
+                  "special": 2
+                },
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Helbrute—Heavy flamer"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Helbrute—Heavy flamer"
+                  }
+                ]
+              },
+              "Heavy flamer & Combi-bolter": {
+                "order": 5,
+                "tracking": {
+                  "special": 2
+                },
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Helbrute—Heavy flamer"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Helbrute—Combi-bolter"
+                  }
+                ]
+              }
+            },
+            "statOrder": 2,
+            "statType": "rank",
+            "value": "-",
+            "visibility": "normal"
+          },
+          "Ld": {
+            "value": 6
+          },
+          "Loadout 1": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "Multi-melta": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Helbrute—Multi-melta"
+                  }
+                ]
+              },
+              "Helbrute plasma cannon": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Helbrute—Helbrute plasma cannon"
+                  }
+                ]
+              },
+              "Twin autocannon": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Helbrute—Twin autocannon"
+                  }
+                ]
+              },
+              "Twin heavy bolter": {
+                "order": 3,
+                "tracking": {},
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Helbrute—Twin heavy bolter"
+                  }
+                ]
+              },
+              "Twin lascannon": {
+                "order": 4,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Helbrute—Twin lascannon"
+                  }
+                ]
+              },
+              "Helbrute fist": {
+                "order": 5,
+                "tracking": {
+                  "fist": 1
+                },
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Helbrute—Helbrute fist"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "Multi-melta",
+            "visibility": "active"
+          },
+          "Loadout 2": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "Missile launcher": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Helbrute—Missile launcher"
+                  }
+                ]
+              },
+              "Helbrute fist": {
+                "order": 1,
+                "tracking": {
+                  "fist": 1
+                },
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Helbrute—Helbrute fist"
+                  }
+                ]
+              },
+              "Helbrute hammer": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Helbrute—Helbrute hammer"
+                  }
+                ]
+              },
+              "Power scourge": {
+                "order": 3,
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Helbrute—Power scourge"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "Missile launcher",
+            "visibility": "normal"
+          },
+          "M": {
+            "value": 6
+          },
+          "OC": {
+            "value": 3
+          },
+          "Points": {
+            "value": 130
+          },
+          "Sv": {
+            "value": 2
+          },
+          "T": {
+            "value": 9
+          },
+          "W": {
+            "value": 8
+          }
+        }
+      },
+      "Melee Weapon§Helbrute—Close combat weapon": {
+        "aspects": {
+          "Label": "Close combat weapon"
+        },
+        "rules": {
+          "Moreattacksdoesnotapplytoccw": {
+            "actions": [
+              {
+                "actionType": "modify",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "A",
+                    "value"
+                  ]
+                ],
+                "value": -2
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "stats",
+                    "Loadout 1",
+                    "value"
+                  ]
+                ],
+                "value": "Helbrute fist"
+              },
+              {
+                "actionable": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{parent}",
+                    "stats",
+                    "Loadout 2",
+                    "value"
+                  ]
+                ],
+                "value": "Helbrute fist"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        },
+        "stats": {
+          "A": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 6
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Helbrute—Helbrute fist": {
+        "aspects": {
+          "Label": "Helbrute fist"
+        },
+        "stats": {
+          "A": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 12
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Helbrute—Helbrute hammer": {
+        "aspects": {
+          "Label": "Helbrute hammer"
+        },
+        "stats": {
+          "A": {
+            "value": 5
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 14
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Melee Weapon§Helbrute—Power scourge": {
+        "aspects": {
+          "Label": "Power scourge"
+        },
+        "stats": {
+          "A": {
+            "value": 8
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 7
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Helbrute—Combi-bolter": {
+        "aspects": {
+          "Label": "Combi-bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Helbrute—Heavy flamer": {
+        "aspects": {
+          "Label": "Heavy flamer"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Ignores Cover",
+            "Ability§Torrent"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "format": "{t}",
+            "statType": "term",
+            "value": "N/A"
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Helbrute—Helbrute plasma cannon": {
+        "aspects": {
+          "Label": "Helbrute plasma cannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast",
+            "Ability§Hazardous"
+          ]
+        },
+        "stats": {
+          "A": {
+            "statType": "term",
+            "value": "D3"
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 8
+          }
+        }
+      },
+      "Ranged Weapon§Helbrute—Missile launcher": {
+        "aspects": {
+          "Label": "Missile launcher"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Helbrute—Missile launcher – frag",
+            "Ranged Weapon§Helbrute—Missile launcher – krak"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Helbrute—Missile launcher – frag": {
+        "aspects": {
+          "Label": "Frag"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Helbrute—Missile launcher – krak": {
+        "aspects": {
+          "Label": "Krak"
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 9
+          }
+        }
+      },
+      "Ranged Weapon§Helbrute—Multi-melta": {
+        "aspects": {
+          "Label": "Multi-melta"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -4
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          },
+          "Range": {
+            "value": 18
+          },
+          "S": {
+            "value": 9
+          }
+        }
+      },
+      "Ranged Weapon§Helbrute—Twin autocannon": {
+        "aspects": {
+          "Label": "Twin autocannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 9
+          }
+        }
+      },
+      "Ranged Weapon§Helbrute—Twin heavy bolter": {
+        "aspects": {
+          "Label": "Twin heavy bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Twin-linked"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Helbrute—Twin lascannon": {
+        "aspects": {
+          "Label": "Twin lascannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 12
+          }
+        }
+      },
+      "Ability§Devoted to Destruction": {
+        "keywords": {
+          "Keywords": [
+            "Other"
+          ]
+        },
+        "text": "If this model is equipped with melee weapons in addition to its close combat weapon, add 2 to the Attacks characteristic of those two weapons."
+      },
+      "Ability§Dark Ascension (aura)": {
+        "keywords": {
+          "Keywords": [
+            "Other"
+          ]
+        },
+        "text": "While a friendly Heretic Astartes unit is within 6″ of this model, each time that unit makes a Dark Pact, until the end of the phase, its weapons gain both abilities conferred by that pact (instead of only one)."
+      },
+      "Vehicle§Heldrake": {
+        "aspects": {
+          "Type": "game piece"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D3"
+                }
+              }
+            },
+            "Ability§Hover",
+            "Ability§Airborne Predator",
+            {
+              "item": "Ability§Damaged:",
+              "stats": {
+                "x": {
+                  "value": "1-4 wounds remaining"
+                }
+              }
+            },
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            },
+            "Melee Weapon§Heldrake—Heldrake claws"
+          ]
+        },
+        "keywords": {
+          "Source": [
+            "10th Edition Codex"
+          ],
+          "Keywords": [
+            "Vehicle",
+            "Fly",
+            "Aircraft",
+            "Chaos",
+            "Daemon",
+            "Heldrake"
+          ],
+          "Category": [
+            "Vehicle"
+          ]
+        },
+        "stats": {
+          "Ld": {
+            "value": 6
+          },
+          "M": {
+            "value": 12
+          },
+          "OC": {
+            "value": 0
+          },
+          "Points": {
+            "value": 175
+          },
+          "Ranged Option": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "Hades autocannon": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Heldrake—Hades autocannon"
+                  }
+                ]
+              },
+              "Baleflamer": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Heldrake—Baleflamer"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "Hades autocannon",
+            "visibility": "active"
+          },
+          "Sv": {
+            "value": 3
+          },
+          "T": {
+            "value": 9
+          },
+          "W": {
+            "value": 12
+          }
+        }
+      },
+      "Melee Weapon§Heldrake—Heldrake claws": {
+        "aspects": {
+          "Label": "Heldrake claws"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "fly"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            },
+            "Ability§Devastating Wounds"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 7
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Heldrake—Baleflamer": {
+        "aspects": {
+          "Label": "Baleflamer"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Ignores Cover",
+            "Ability§Torrent"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "format": "{t}",
+            "statType": "term",
+            "value": "N/A"
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 6
+          }
+        }
+      },
+      "Ranged Weapon§Heldrake—Hades autocannon": {
+        "aspects": {
+          "Label": "Hades autocannon"
+        },
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 8
+          }
+        }
+      },
+      "Ability§Airborne Predator": {
+        "keywords": {
+          "Keywords": [
+            "Other"
+          ]
+        },
+        "text": "Each time this model makes an attack that targets a unit that can Fly, add 1 to the Hit roll."
+      },
+      "Vehicle§Maulerfiend": {
+        "aspects": {
+          "Type": "game piece"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D3"
+                }
+              }
+            },
+            "Ability§Siege Crawler",
+            {
+              "item": "Ability§Damaged:",
+              "stats": {
+                "x": {
+                  "value": "1-4 wounds remaining"
+                }
+              }
+            },
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            },
+            "Melee Weapon§Maulerfiend—Maulerfiend fists"
+          ]
+        },
+        "keywords": {
+          "Source": [
+            "10th Edition Codex"
+          ],
+          "Keywords": [
+            "Vehicle",
+            "Walker",
+            "Chaos",
+            "Daemon",
+            "Maulerfiend"
+          ],
+          "Category": [
+            "Vehicle—Walker"
+          ]
+        },
+        "stats": {
+          "Ld": {
+            "value": 6
+          },
+          "Loadout Option": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "Lasher tendrils": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Maulerfiend—Lasher tendrils"
+                  }
+                ]
+              },
+              "2 Magma cutters": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Maulerfiend—Magma cutters"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Maulerfiend—Magma cutters"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "Lasher tendrils",
+            "visibility": "active"
+          },
+          "M": {
+            "value": 10
+          },
+          "OC": {
+            "value": 3
+          },
+          "Points": {
+            "value": 130
+          },
+          "Sv": {
+            "value": 3
+          },
+          "T": {
+            "value": 10
+          },
+          "W": {
+            "value": 12
+          }
+        }
+      },
+      "Melee Weapon§Maulerfiend—Lasher tendrils": {
+        "aspects": {
+          "Label": "Lasher tendrils"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Extra Attacks"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 7
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Maulerfiend—Maulerfiend fists": {
+        "aspects": {
+          "Label": "Maulerfiend fists"
+        },
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 14
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Maulerfiend—Magma cutters": {
+        "aspects": {
+          "Label": "Magma cutters"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -4
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          },
+          "Range": {
+            "value": 6
+          },
+          "S": {
+            "value": 9
+          }
+        }
+      },
+      "Ability§Siege Crawler": {
+        "keywords": {
+          "Keywords": [
+            "Other"
+          ]
+        },
+        "text": "You can ignore any or all modifiers to its Move characteristic and to Advance and Charge rolls made for it."
+      },
+      "Vehicle§Forgefiend": {
+        "aspects": {
+          "Type": "game piece"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D3"
+                }
+              }
+            },
+            "Ability§Daemonic Ordnance",
+            {
+              "item": "Ability§Damaged:",
+              "stats": {
+                "x": {
+                  "value": "1-4 wounds remaining"
+                }
+              }
+            },
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "Source": [
+            "10th Edition Codex"
+          ],
+          "Keywords": [
+            "Vehicle",
+            "Walker",
+            "Chaos",
+            "Daemon",
+            "Forgefiend"
+          ],
+          "Category": [
+            "Vehicle—Walker"
+          ]
+        },
+        "stats": {
+          "Cannon Option": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "2 Hades autocannons": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Forgefiend—Hades autocannon"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Forgefiend—Hades autocannon"
+                  }
+                ]
+              },
+              "2 Ectoplasma cannons": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Forgefiend—Ectoplasma cannon"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Forgefiend—Ectoplasma cannon"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "2 Hades autocannons",
+            "visibility": "active"
+          },
+          "Jaw Option": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "Forgefiend jaws": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Forgefiend—Forgefiend jaws"
+                  }
+                ]
+              },
+              "Ectoplasma cannon & Armoured limbs": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Forgefiend—Ectoplasma cannon"
+                  },
+                  {
+                    "trait": "Melee Weapon§Forgefiend—Armoured limbs"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "Forgefiend jaws",
+            "visibility": "active"
+          },
+          "Ld": {
+            "value": 6
+          },
+          "M": {
+            "value": 8
+          },
+          "OC": {
+            "value": 3
+          },
+          "Points": {
+            "value": 170
+          },
+          "Sv": {
+            "value": 3
+          },
+          "T": {
+            "value": 10
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          },
+          "W": {
+            "value": 12
+          }
+        }
+      },
+      "Melee Weapon§Forgefiend—Armoured limbs": {
+        "aspects": {
+          "Label": "Armoured limbs"
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 6
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Forgefiend—Forgefiend jaws": {
+        "aspects": {
+          "Label": "Forgefiend jaws"
+        },
+        "stats": {
+          "A": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 7
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Forgefiend—Ectoplasma cannon": {
+        "aspects": {
+          "Label": "Ectoplasma cannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast"
+          ]
+        },
+        "stats": {
+          "A": {
+            "statType": "term",
+            "value": "D3"
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 10
+          }
+        }
+      },
+      "Ranged Weapon§Forgefiend—Hades autocannon": {
+        "aspects": {
+          "Label": "Hades autocannon"
+        },
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 8
+          }
+        }
+      },
+      "Ability§Daemonic Ordnance": {
+        "keywords": {
+          "Keywords": [
+            "Other"
+          ]
+        },
+        "text": "Each time this model is selected to shoot, it can use this ability. If it does, until the end of the phase, its ranged weapons have the [DEVASTATING WOUNDS] and [HAZARDOUS] abilities."
+      },
+      "Infantry/Mounted§Chaos Spawn": {
+        "allowed": {
+          "items": [
+            "Model§Chaos Spawn"
+          ]
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Feel No Pain",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            },
+            "Ability§Mind-breaking Mutations (Aura)",
+            {
+              "item": "Model§Chaos Spawn",
+              "quantity": 2
+            }
+          ]
+        },
+        "keywords": {
+          "Source": [
+            "10th Edition Codex"
+          ],
+          "Keywords": [
+            "Beast",
+            "Chaos",
+            "Chaos Spawn"
+          ],
+          "Category": [
+            "Beast"
+          ]
+        },
+        "stats": {
+          "Chaos Spawn": {
+            "max": 2,
+            "min": 2,
+            "statType": "numeric",
+            "tracked": true,
+            "value": 0,
+            "visibility": "hidden"
+          },
+          "model1stTally": {
+            "value": 2
+          },
+          "modelKey": {
+            "value": "Model§Chaos Spawn"
+          },
+          "Models": {
+            "max": 2,
+            "min": 2,
+            "value": 2
+          },
+          "Points": {
+            "value": 60
+          }
+        }
+      },
+      "Melee Weapon§Chaos Spawn—Hideous mutations": {
+        "aspects": {
+          "Label": "Hideous mutations"
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 2
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 5
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Ability§Mind-breaking Mutations (Aura)": {
+        "keywords": {
+          "Keywords": [
+            "Other"
+          ]
+        },
+        "text": "While an enemy unit (excluding VEHICLE units) is within 3″ of this unit, subtract 1 from the Objective Control characteristic of models in that enemy unit."
+      },
+      "Model§Chaos Spawn": {
+        "assets": {
+          "traits": [
+            "Melee Weapon§Chaos Spawn—Hideous mutations"
+          ]
+        },
+        "stats": {
+          "Ld": {
+            "value": 7
+          },
+          "M": {
+            "value": 8
+          },
+          "OC": {
+            "value": 0
+          },
+          "Sv": {
+            "value": 4
+          },
+          "T": {
+            "value": 5
+          },
+          "W": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Heretic Astartes Armoury—Heavy bolter": {
+        "aspects": {
+          "Label": "Heavy bolter"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy",
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Heretic Astartes Armoury—Lascannon": {
+        "aspects": {
+          "Label": "Lascannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "format": "D6",
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 12
+          }
+        }
+      },
+      "Ranged Weapon§Heretic Astartes Armoury—Missile launcher": {
+        "aspects": {
+          "Label": "Missile launcher"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Heretic Astartes Armoury—Missile launcher – frag",
+            "Ranged Weapon§Heretic Astartes Armoury—Missile launcher – krak"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Heretic Astartes Armoury—Missile launcher – krak": {
+        "aspects": {
+          "Label": "Krak"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 9
+          }
+        }
+      },
+      "Ranged Weapon§Heretic Astartes Armoury—Missile launcher – frag": {
+        "aspects": {
+          "Label": "Frag"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blast",
+            "Ability§Heavy"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Deimos Predator—Storm bolter": {
+        "aspects": {
+          "Label": "Storm bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Deimos Predator—Hunter-killer missile": {
+        "aspects": {
+          "Label": "Hunter-killer missile"
+        },
+        "assets": {
+          "traits": [
+            "Ability§One Shot"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 2
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 14
+          }
+        }
+      },
+      "Wargear§Explorator Augury Web": {
+        "text": "Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12″ of this bearer, but the bearer must halve its Transport Capacity."
       }
     },
     "gameModes": {},

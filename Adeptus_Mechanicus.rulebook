@@ -1,6 +1,6 @@
 {
   "name": "Adeptus Mechanicus 11e",
-  "revision": "11.0.4",
+  "revision": "11.1.2",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -717,14 +717,6 @@
           ]
         },
         "text": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9″ of this unit, if this unit is not within Engagement Range of one or more enemy units, it can do one of the following: \n\n*  Make a Normal move of up to D6″. \n\n*  Make a Normal move of up to 6″, provided every model in this unit ends that move wholly within 6″ of one or more friendly Adeptus Mechanicus Battleline units."
-      },
-      "Ability§Termite Assault": {
-        "keywords": {
-          "Keywords": [
-            "Other"
-          ]
-        },
-        "text": "This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model can disembark after it has been set up on the battlefield, and if they do they must be set up more than 9″ away from all enemy models."
       },
       "Ability§Titan Guard": {
         "keywords": {
@@ -5947,48 +5939,6 @@
           },
           "S": {
             "value": 8
-          },
-          "WS": {
-            "value": 4
-          }
-        }
-      },
-      "Melee Weapon§Terrax-pattern Termite—Termite drill": {
-        "aspects": {
-          "Label": "Termite drill"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "vehicle"
-                },
-                "x": {
-                  "value": "3+"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 6
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "statType": "term",
-            "value": "D3+3"
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 14
           },
           "WS": {
             "value": 4
@@ -11495,141 +11445,23 @@
         }
       },
       "Ranged Weapon§Terrax-pattern Termite—Combi-bolter": {
-        "aspects": {
-          "Label": "Combi-bolter"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            }
-          ]
-        },
         "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": 0
-          },
           "BS": {
             "value": 4
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 24
-          },
-          "S": {
-            "value": 4
-          }
-        }
-      },
-      "Ranged Weapon§Terrax-pattern Termite—Heavy flamer": {
-        "aspects": {
-          "Label": "Heavy flamer"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
-          ]
-        },
-        "stats": {
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "AP": {
-            "value": -1
-          },
-          "BS": {
-            "statType": "term",
-            "value": "N/A"
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 5
           }
         }
       },
       "Ranged Weapon§Terrax-pattern Termite—Terrax melta cutter": {
-        "aspects": {
-          "Label": "Terrax melta cutter"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Melta",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            }
-          ]
-        },
         "stats": {
-          "A": {
-            "value": 5
-          },
-          "AP": {
-            "value": -4
-          },
           "BS": {
             "value": 4
-          },
-          "D": {
-            "format": "D6",
-            "value": 0
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 9
           }
         }
       },
       "Ranged Weapon§Terrax-pattern Termite—Twin volkite charger": {
-        "aspects": {
-          "Label": "Twin volkite charger"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Twin-linked"
-          ]
-        },
         "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": 0
-          },
           "BS": {
             "value": 4
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "value": 18
-          },
-          "S": {
-            "value": 5
           }
         }
       },
@@ -15926,70 +15758,57 @@
           }
         }
       },
-      "Unit§Terrax-pattern Termite": {
+      "Wargear§Broad Spectrum Data-tether": {
+        "text": "Each time you select the bearer as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
+      },
+      "Wargear§Chaff Launcher": {
+        "text": "The bearer has the Smoke keyword."
+      },
+      "Wargear§Command Uplink": {
+        "text": "Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
+      },
+      "Wargear§Control Stave": {
+        "text": "The bearer’s unit can still be selected as the target of a Stratagem while Battle-shocked."
+      },
+      "Wargear§Enhanced Data-tether": {
+        "text": "Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
+      },
+      "Wargear§Omnispex": {
+        "text": "Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability."
+      },
+      "Wargear§Onager Dunecrawler - Broad Spectrum Data-tether": {
+        "text": "The bearer loses the Smoke keyword, but each time you target the bearer with a Stratagem, roll one D6: on a 5+, you gain 1CP"
+      },
+      "Wargear§Smoke Launchers": {
+        "text": "The bearer has the Smoke keyword."
+      },
+      "Weapon§Corpuscarii Electro-priests—Electrostatic gauntlets": {
         "aspects": {
-          "Type": "game piece"
+          "Label": "Electrostatic gauntlets"
         },
         "assets": {
           "traits": [
-            {
-              "item": "Ability§Deadly Demise",
-              "stats": {
-                "x": {
-                  "value": "D3"
-                }
-              }
-            },
-            "Ability§Deep Strike",
-            "Ability§Doctrina Imperatives",
-            "Ability§Termite Assault",
-            {
-              "item": "Ability§Damaged:",
-              "stats": {
-                "x": {
-                  "value": "1-5 wounds remaining"
-                }
-              }
-            },
-            {
-              "item": "Ability§Transport",
-              "text": "This model has a transport capacity of 12 Adeptus Mechanicus Infantry models. It cannot transport Jump Pack or Kataphron models."
-            },
-            "Ranged Weapon§Terrax-pattern Termite—Terrax melta cutter",
-            "Melee Weapon§Terrax-pattern Termite—Termite drill"
+            "Melee Weapon§Corpuscarii Electro-priests—Electrostatic gauntlets",
+            "Ranged Weapon§Corpuscarii Electro-priests—Electrostatic gauntlets"
           ]
         },
         "keywords": {
-          "Faction": [
-            "Adeptus Mechanicus"
-          ],
-          "Source": [
-            "Legends"
-          ],
-          "Keywords": [
-            "Vehicle",
-            "Imperium",
-            "Transport",
-            "Dedicated Transport",
-            "Terrax-pattern Termite"
-          ],
-          "Category": [
-            "Vehicle—Dedicated Transport"
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Vehicle§Terrax-pattern Termite": {
+        "assets": {
+          "traits": [
+            "Ability§Doctrina Imperatives",
+            {
+              "item": "Ability§Transport",
+              "text": "This model has a transport capacity of 12 Adeptus Mechanicus Infantry models. It cannot transport Jump Pack or Kataphron models."
+            }
           ]
         },
         "stats": {
-          "Ld": {
-            "value": 6
-          },
-          "M": {
-            "value": 8
-          },
-          "OC": {
-            "value": 2
-          },
-          "Points": {
-            "value": 200
-          },
           "Ranged Options": {
             "dynamic": true,
             "group": "Loadout",
@@ -16032,56 +15851,15 @@
             "statType": "rank",
             "value": "2 Combi-bolters",
             "visibility": "active"
-          },
-          "Sv": {
-            "value": 3
-          },
-          "T": {
-            "value": 10
-          },
-          "W": {
-            "value": 14
           }
-        }
-      },
-      "Wargear§Broad Spectrum Data-tether": {
-        "text": "Each time you select the bearer as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
-      },
-      "Wargear§Chaff Launcher": {
-        "text": "The bearer has the Smoke keyword."
-      },
-      "Wargear§Command Uplink": {
-        "text": "Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
-      },
-      "Wargear§Control Stave": {
-        "text": "The bearer’s unit can still be selected as the target of a Stratagem while Battle-shocked."
-      },
-      "Wargear§Enhanced Data-tether": {
-        "text": "Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
-      },
-      "Wargear§Omnispex": {
-        "text": "Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability."
-      },
-      "Wargear§Onager Dunecrawler - Broad Spectrum Data-tether": {
-        "text": "The bearer loses the Smoke keyword, but each time you target the bearer with a Stratagem, roll one D6: on a 5+, you gain 1CP"
-      },
-      "Wargear§Smoke Launchers": {
-        "text": "The bearer has the Smoke keyword."
-      },
-      "Weapon§Corpuscarii Electro-priests—Electrostatic gauntlets": {
-        "aspects": {
-          "Label": "Electrostatic gauntlets"
-        },
-        "assets": {
-          "traits": [
-            "Melee Weapon§Corpuscarii Electro-priests—Electrostatic gauntlets",
-            "Ranged Weapon§Corpuscarii Electro-priests—Electrostatic gauntlets"
-          ]
         },
         "keywords": {
-          "Tags": [
-            "Multi-weapon"
+          "Faction": [
+            "Adeptus Mechanicus"
           ]
+        },
+        "aspects": {
+          "Type": "game piece"
         }
       }
     },

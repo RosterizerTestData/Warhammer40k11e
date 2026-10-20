@@ -1,6 +1,6 @@
 {
   "name": "Thousand Sons 11e",
-  "revision": "11.1.1",
+  "revision": "11.1.2",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -430,12 +430,10 @@
         "text": "Each time you target this unit with the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ when resolving that Stratagem. For each of those attacks that targets an enemy unit within 9\" of one or more Thousands Sons Psyker units from your army, a hit is scored on an unmodified Hit roll of 4+ instead."
       },
       "Ability§Devoted to Destruction": {
-        "keywords": {
-          "Keywords": [
-            "Other"
-          ]
-        },
-        "text": "If this model is equipped with two melee weapons in addition to its close combat weapon, add 2 to the Attacks characteristic of those two weapons."
+        "text": "If this model is equipped with two melee weapons in addition to its close combat weapon, add 2 to the Attacks characteristic of those two weapons.",
+        "removed": {
+          "text": ""
+        }
       },
       "Ability§Empyric Guidance (psychic)": {
         "keywords": {
@@ -618,30 +616,8 @@
         },
         "text": "If your army includes this model, after both players have deployed their armies, you can select up to three **Thousand Sons** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
       },
-      "Ability§Scuttling Walker (Defiler)": {
-        "aspects": {
-          "Label": "Scuttling Walker"
-        },
-        "text": "Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding Titanic models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
-      },
-      "Ability§Self Repair": {
-        "keywords": {
-          "Keywords": [
-            "Other"
-          ]
-        },
-        "text": "At the start of your Command phase, this model regains 1 lost wound."
-      },
       "Ability§Servile Pawns": {
         "text": "While this model is within 3\" of one or more friendly **Thousand Sons Infantry** units, this model has the Lone Operative ability."
-      },
-      "Ability§Siege Shield": {
-        "keywords": {
-          "Keywords": [
-            "Other"
-          ]
-        },
-        "text": "When making ranged attacks with its demolisher cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units."
       },
       "Ability§Snarling Protector": {
         "keywords": {
@@ -3398,143 +3374,6 @@
           }
         }
       },
-      "Melee Weapon§Defiler—Electroscourge": {
-        "aspects": {
-          "Label": "Electroscourge"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Extra Attacks",
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 5
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 12
-          },
-          "WS": {
-            "value": 3
-          }
-        }
-      },
-      "Melee Weapon§Defiler—Shearing claws": {
-        "aspects": {
-          "Label": "Shearing claws"
-        },
-        "assets": {
-          "traits": [
-            "Melee Weapon§Defiler—Shearing claws – strike",
-            "Melee Weapon§Defiler—Shearing claws – sweep"
-          ]
-        },
-        "keywords": {
-          "Tags": [
-            "Multi-weapon"
-          ]
-        },
-        "removed": {
-          "stats": {}
-        },
-        "stats": {
-          "A": {},
-          "AP": {},
-          "D": {
-            "format": "D6"
-          },
-          "Range": {
-            "value": null
-          },
-          "S": {},
-          "WS": {}
-        }
-      },
-      "Melee Weapon§Defiler—Shearing claws – strike": {
-        "aspects": {
-          "Label": "Strike"
-        },
-        "keywords": {
-          "Tags": [
-            "Multi-weapon"
-          ]
-        },
-        "removed": {
-          "stats": {}
-        },
-        "stats": {
-          "A": {
-            "value": 5
-          },
-          "AP": {
-            "value": -3
-          },
-          "D": {
-            "format": "D6",
-            "value": 1
-          },
-          "Range": {
-            "value": "Melee"
-          },
-          "S": {
-            "value": 16
-          },
-          "WS": {
-            "value": 3
-          }
-        }
-      },
-      "Melee Weapon§Defiler—Shearing claws – sweep": {
-        "aspects": {
-          "Label": "Sweep"
-        },
-        "keywords": {
-          "Tags": [
-            "Multi-weapon"
-          ]
-        },
-        "removed": {
-          "stats": {}
-        },
-        "stats": {
-          "A": {
-            "value": 10
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": "Melee"
-          },
-          "S": {
-            "value": 6
-          },
-          "WS": {
-            "value": 3
-          }
-        }
-      },
       "Melee Weapon§Exalted Sorcerer on Disc of Tzeentch—Force weapon": {
         "aspects": {
           "Label": "Force weapon"
@@ -3982,33 +3821,6 @@
           }
         }
       },
-      "Melee Weapon§Thousand Sons Chaos Spawn—Hideous mutations": {
-        "aspects": {
-          "Label": "Hideous mutations"
-        },
-        "stats": {
-          "A": {
-            "format": "D6",
-            "value": 2
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 5
-          },
-          "WS": {
-            "value": 4
-          }
-        }
-      },
       "Melee Weapon§Thousand Sons Cultists—Brutal assault weapon": {
         "aspects": {
           "Label": "Brutal assault weapon"
@@ -4195,367 +4007,6 @@
           }
         }
       },
-      "Melee Weapon§Thousand Sons Forgefiend—Forgefiend claws": {
-        "aspects": {
-          "Label": "Forgefiend claws"
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 6
-          },
-          "WS": {
-            "value": 3
-          }
-        }
-      },
-      "Melee Weapon§Thousand Sons Forgefiend—Forgefiend jaws": {
-        "aspects": {
-          "Label": "Forgefiend jaws"
-        },
-        "stats": {
-          "A": {
-            "value": 5
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 7
-          },
-          "WS": {
-            "value": 3
-          }
-        }
-      },
-      "Melee Weapon§Thousand Sons Helbrute—Close combat weapon": {
-        "aspects": {
-          "Label": "Close combat weapon"
-        },
-        "stats": {
-          "A": {
-            "value": 5
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 6
-          },
-          "WS": {
-            "value": 3
-          }
-        }
-      },
-      "Melee Weapon§Thousand Sons Helbrute—Helbrute fist": {
-        "aspects": {
-          "Label": "Helbrute fist"
-        },
-        "stats": {
-          "A": {
-            "value": 5
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 3
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 12
-          },
-          "WS": {
-            "value": 3
-          }
-        }
-      },
-      "Melee Weapon§Thousand Sons Helbrute—Helbrute hammer": {
-        "aspects": {
-          "Label": "Helbrute hammer"
-        },
-        "stats": {
-          "A": {
-            "value": 5
-          },
-          "AP": {
-            "value": -3
-          },
-          "D": {
-            "format": "D6",
-            "value": 1
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 14
-          },
-          "WS": {
-            "value": 4
-          }
-        }
-      },
-      "Melee Weapon§Thousand Sons Helbrute—Power scourge": {
-        "aspects": {
-          "Label": "Power scourge"
-        },
-        "stats": {
-          "A": {
-            "value": 8
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 7
-          },
-          "WS": {
-            "value": 3
-          }
-        }
-      },
-      "Melee Weapon§Thousand Sons Heldrake—Heldrake claws": {
-        "aspects": {
-          "Label": "Heldrake claws"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "fly"
-                },
-                "x": {
-                  "value": "2+"
-                }
-              }
-            },
-            "Ability§Devastating Wounds"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 5
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 7
-          },
-          "WS": {
-            "value": 3
-          }
-        }
-      },
-      "Melee Weapon§Thousand Sons Land Raider—Armoured tracks": {
-        "aspects": {
-          "Label": "Armoured tracks"
-        },
-        "stats": {
-          "A": {
-            "value": 6
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 8
-          },
-          "WS": {
-            "value": 4
-          }
-        }
-      },
-      "Melee Weapon§Thousand Sons Maulerfiend—Lasher tendrils": {
-        "aspects": {
-          "Label": "Lasher tendrils"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Extra Attacks"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 6
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 7
-          },
-          "WS": {
-            "value": 3
-          }
-        }
-      },
-      "Melee Weapon§Thousand Sons Maulerfiend—Maulerfiend fists": {
-        "aspects": {
-          "Label": "Maulerfiend fists"
-        },
-        "stats": {
-          "A": {
-            "value": 6
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "format": "D6",
-            "value": 1
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 14
-          },
-          "WS": {
-            "value": 3
-          }
-        }
-      },
-      "Melee Weapon§Thousand Sons Predator Annihilator—Armoured tracks": {
-        "aspects": {
-          "Label": "Armoured tracks"
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 6
-          },
-          "WS": {
-            "value": 4
-          }
-        }
-      },
-      "Melee Weapon§Thousand Sons Predator Destructor—Armoured tracks": {
-        "aspects": {
-          "Label": "Armoured tracks"
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 6
-          },
-          "WS": {
-            "value": 4
-          }
-        }
-      },
-      "Melee Weapon§Thousand Sons Rhino—Armoured tracks": {
-        "aspects": {
-          "Label": "Armoured tracks"
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 6
-          },
-          "WS": {
-            "value": 4
-          }
-        }
-      },
       "Melee Weapon§Thousand Sons Sorcerer in Terminator Armour—Force weapon": {
         "aspects": {
           "Label": "Force weapon"
@@ -4643,32 +4094,6 @@
           },
           "WS": {
             "value": 3
-          }
-        }
-      },
-      "Melee Weapon§Thousand Sons Vindicator—Armoured tracks": {
-        "aspects": {
-          "Label": "Armoured tracks"
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 6
-          },
-          "WS": {
-            "value": 4
           }
         }
       },
@@ -5002,29 +4427,9 @@
         }
       },
       "Model§Chaos Spawn": {
-        "assets": {
-          "traits": [
-            "Melee Weapon§Thousand Sons Chaos Spawn—Hideous mutations"
-          ]
-        },
         "stats": {
-          "Ld": {
-            "value": 7
-          },
-          "M": {
-            "value": 8
-          },
           "OC": {
             "value": 1
-          },
-          "Sv": {
-            "value": 4
-          },
-          "T": {
-            "value": 5
-          },
-          "W": {
-            "value": 4
           }
         }
       },
@@ -5796,305 +5201,6 @@
           },
           "S": {
             "value": 6
-          }
-        }
-      },
-      "Ranged Weapon§Defiler—Ectoplasma destructor": {
-        "aspects": {
-          "Label": "Ectoplasma destructor"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Blast"
-          ]
-        },
-        "stats": {
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "AP": {
-            "value": -3
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 3
-          },
-          "Range": {
-            "value": 36
-          },
-          "S": {
-            "value": 12
-          }
-        }
-      },
-      "Ranged Weapon§Defiler—Excruciator cannon": {
-        "aspects": {
-          "Label": "Excruciator cannon"
-        },
-        "stats": {
-          "A": {
-            "value": 6
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "value": 36
-          },
-          "S": {
-            "value": 6
-          }
-        }
-      },
-      "Ranged Weapon§Defiler—Hades battle cannon": {
-        "aspects": {
-          "Label": "Hades battle cannon"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Blast"
-          ]
-        },
-        "stats": {
-          "A": {
-            "format": "D6",
-            "value": 3
-          },
-          "AP": {
-            "value": -1
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 3
-          },
-          "Range": {
-            "value": 48
-          },
-          "S": {
-            "value": 10
-          }
-        }
-      },
-      "Ranged Weapon§Defiler—Hades lascannon": {
-        "aspects": {
-          "Label": "Hades lascannon"
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": -3
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "format": "D6",
-            "value": 1
-          },
-          "Range": {
-            "value": 48
-          },
-          "S": {
-            "value": 12
-          }
-        }
-      },
-      "Ranged Weapon§Defiler—Heavy baleflamer": {
-        "aspects": {
-          "Label": "Heavy baleflamer"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
-          ]
-        },
-        "stats": {
-          "A": {
-            "format": "D6",
-            "value": 3
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "format": "{t}",
-            "statType": "term",
-            "value": "N/A"
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 7
-          }
-        }
-      },
-      "Ranged Weapon§Defiler—Heavy missile launcher": {
-        "aspects": {
-          "Label": "Heavy missile launcher"
-        },
-        "assets": {
-          "traits": [
-            "Ranged Weapon§Defiler—Heavy missile launcher – krak",
-            "Ranged Weapon§Defiler—Heavy missile launcher – frag"
-          ]
-        },
-        "keywords": {
-          "Tags": [
-            "Multi-weapon"
-          ]
-        }
-      },
-      "Ranged Weapon§Defiler—Heavy missile launcher – frag": {
-        "aspects": {
-          "Label": "Frag"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Blast"
-          ]
-        },
-        "stats": {
-          "A": {
-            "format": "2D6",
-            "value": 0
-          },
-          "AP": {
-            "value": -1
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 48
-          },
-          "S": {
-            "value": 5
-          }
-        }
-      },
-      "Ranged Weapon§Defiler—Heavy missile launcher – krak": {
-        "aspects": {
-          "Label": "Krak"
-        },
-        "assets": {
-          "traits": []
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "format": "D6",
-            "value": 1
-          },
-          "Range": {
-            "value": 48
-          },
-          "S": {
-            "value": 10
-          }
-        }
-      },
-      "Ranged Weapon§Defiler—Heavy reaper autocannon": {
-        "aspects": {
-          "Label": "Heavy reaper autocannon"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 4
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 3
-          },
-          "Range": {
-            "value": 48
-          },
-          "S": {
-            "value": 9
-          }
-        }
-      },
-      "Ranged Weapon§Defiler—Pyraflux magma cutters": {
-        "aspects": {
-          "Label": "Pyraflux magma cutters"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Melta",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": -4
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "format": "D6",
-            "value": 0
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 10
           }
         }
       },
@@ -7313,1198 +6419,6 @@
           }
         }
       },
-      "Ranged Weapon§Thousand Sons Forgefiend—Ectoplasma cannon": {
-        "aspects": {
-          "Label": "Ectoplasma cannon"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Blast"
-          ]
-        },
-        "stats": {
-          "A": {
-            "statType": "term",
-            "value": "D3"
-          },
-          "AP": {
-            "value": -3
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 3
-          },
-          "Range": {
-            "value": 36
-          },
-          "S": {
-            "value": 10
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Forgefiend—Hades autocannon": {
-        "aspects": {
-          "Label": "Hades autocannon"
-        },
-        "stats": {
-          "A": {
-            "value": 6
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "value": 36
-          },
-          "S": {
-            "value": 8
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Helbrute—Heavy flamer": {
-        "aspects": {
-          "Label": "Heavy flamer"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
-          ]
-        },
-        "stats": {
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "format": "{t}",
-            "statType": "term",
-            "value": "N/A"
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 5
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Helbrute—Helbrute plasma cannon": {
-        "aspects": {
-          "Label": "Helbrute plasma cannon"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Blast",
-            "Ability§Hazardous"
-          ]
-        },
-        "stats": {
-          "A": {
-            "statType": "term",
-            "value": "D3"
-          },
-          "AP": {
-            "value": -3
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 3
-          },
-          "Range": {
-            "value": 36
-          },
-          "S": {
-            "value": 8
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Helbrute—Inferno combi-bolter": {
-        "aspects": {
-          "Label": "Inferno combi-bolter"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 24
-          },
-          "S": {
-            "value": 4
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Helbrute—Missile launcher": {
-        "aspects": {
-          "Label": "Missile launcher"
-        },
-        "assets": {
-          "traits": [
-            "Ranged Weapon§Thousand Sons Helbrute—Missile launcher – frag",
-            "Ranged Weapon§Thousand Sons Helbrute—Missile launcher – krak"
-          ]
-        },
-        "keywords": {
-          "Tags": [
-            "Multi-weapon"
-          ]
-        }
-      },
-      "Ranged Weapon§Thousand Sons Helbrute—Missile launcher – frag": {
-        "aspects": {
-          "Label": "Frag"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Blast"
-          ]
-        },
-        "stats": {
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "AP": {
-            "value": 0
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 48
-          },
-          "S": {
-            "value": 4
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Helbrute—Missile launcher – krak": {
-        "aspects": {
-          "Label": "Krak"
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "format": "D6",
-            "value": 0
-          },
-          "Range": {
-            "value": 48
-          },
-          "S": {
-            "value": 9
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Helbrute—Multi-melta": {
-        "aspects": {
-          "Label": "Multi-melta"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Melta",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": -4
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "format": "D6",
-            "value": 0
-          },
-          "Range": {
-            "value": 18
-          },
-          "S": {
-            "value": 9
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Helbrute—Twin autocannon": {
-        "aspects": {
-          "Label": "Twin autocannon"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Twin-linked"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 3
-          },
-          "Range": {
-            "value": 48
-          },
-          "S": {
-            "value": 9
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Helbrute—Twin inferno heavy bolter": {
-        "aspects": {
-          "Label": "Twin inferno heavy bolter"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
-            "Ability§Twin-linked"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "value": 36
-          },
-          "S": {
-            "value": 5
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Helbrute—Twin lascannon": {
-        "aspects": {
-          "Label": "Twin lascannon"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Twin-linked"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": -3
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "format": "D6",
-            "value": 1
-          },
-          "Range": {
-            "value": 48
-          },
-          "S": {
-            "value": 12
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Heldrake—Baleflamer": {
-        "aspects": {
-          "Label": "Baleflamer"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
-          ]
-        },
-        "stats": {
-          "A": {
-            "format": "D6",
-            "value": 3
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "format": "{t}",
-            "statType": "term",
-            "value": "N/A"
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 6
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Heldrake—Hades autocannon": {
-        "aspects": {
-          "Label": "Hades autocannon"
-        },
-        "stats": {
-          "A": {
-            "value": 6
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "value": 36
-          },
-          "S": {
-            "value": 8
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Land Raider—Havoc launcher": {
-        "aspects": {
-          "Label": "Havoc launcher"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Blast"
-          ]
-        },
-        "stats": {
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "AP": {
-            "value": 0
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 48
-          },
-          "S": {
-            "value": 5
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Land Raider—Inferno combi-bolter": {
-        "aspects": {
-          "Label": "Inferno combi-bolter"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 24
-          },
-          "S": {
-            "value": 4
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Land Raider—Inferno combi-weapon": {
-        "aspects": {
-          "Label": "Inferno combi-weapon"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "infantry"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 4
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 24
-          },
-          "S": {
-            "value": 4
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Land Raider—Soulshatter lascannon": {
-        "aspects": {
-          "Label": "Soulshatter lascannon"
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": -3
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "format": "D6",
-            "value": 1
-          },
-          "Range": {
-            "value": 48
-          },
-          "S": {
-            "value": 12
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Land Raider—Twin inferno heavy bolter": {
-        "aspects": {
-          "Label": "Twin inferno heavy bolter"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
-            "Ability§Twin-linked"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "value": 36
-          },
-          "S": {
-            "value": 5
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Maulerfiend—Magma cutter": {
-        "aspects": {
-          "Label": "Magma cutter"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Melta",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": -4
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "format": "D6",
-            "value": 0
-          },
-          "Range": {
-            "value": 6
-          },
-          "S": {
-            "value": 9
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Predator Annihilator—Havoc launcher": {
-        "aspects": {
-          "Label": "Havoc launcher"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Blast"
-          ]
-        },
-        "stats": {
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "AP": {
-            "value": 0
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 48
-          },
-          "S": {
-            "value": 5
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Predator Annihilator—Inferno combi-bolter": {
-        "aspects": {
-          "Label": "Inferno combi-bolter"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 24
-          },
-          "S": {
-            "value": 4
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Predator Annihilator—Inferno combi-weapon": {
-        "aspects": {
-          "Label": "Inferno combi-weapon"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "infantry"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 4
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 24
-          },
-          "S": {
-            "value": 4
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Predator Annihilator—Inferno heavy bolter": {
-        "aspects": {
-          "Label": "Inferno heavy bolter"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "value": 36
-          },
-          "S": {
-            "value": 5
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Predator Annihilator—Lascannon": {
-        "aspects": {
-          "Label": "Lascannon"
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": -3
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "format": "D6",
-            "value": 1
-          },
-          "Range": {
-            "value": 48
-          },
-          "S": {
-            "value": 12
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Predator Annihilator—Predator twin lascannon": {
-        "aspects": {
-          "Label": "Predator twin lascannon"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Twin-linked"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": -3
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "format": "D6",
-            "value": 1
-          },
-          "Range": {
-            "value": 48
-          },
-          "S": {
-            "value": 14
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Predator Destructor—Havoc launcher": {
-        "aspects": {
-          "Label": "Havoc launcher"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Blast"
-          ]
-        },
-        "stats": {
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "AP": {
-            "value": 0
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 48
-          },
-          "S": {
-            "value": 5
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Predator Destructor—Inferno combi-bolter": {
-        "aspects": {
-          "Label": "Inferno combi-bolter"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 24
-          },
-          "S": {
-            "value": 4
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Predator Destructor—Inferno combi-weapon": {
-        "aspects": {
-          "Label": "Inferno combi-weapon"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "infantry"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 4
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 24
-          },
-          "S": {
-            "value": 4
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Predator Destructor—Inferno heavy bolter": {
-        "aspects": {
-          "Label": "Inferno heavy bolter"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "value": 36
-          },
-          "S": {
-            "value": 5
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Predator Destructor—Lascannon": {
-        "aspects": {
-          "Label": "Lascannon"
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": -3
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "format": "D6",
-            "value": 1
-          },
-          "Range": {
-            "value": 48
-          },
-          "S": {
-            "value": 12
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Predator Destructor—Predator autocannon": {
-        "aspects": {
-          "Label": "Predator autocannon"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 4
-          },
-          "AP": {
-            "value": -1
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 3
-          },
-          "Range": {
-            "value": 48
-          },
-          "S": {
-            "value": 9
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Rhino—Havoc launcher": {
-        "aspects": {
-          "Label": "Havoc launcher"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Blast"
-          ]
-        },
-        "stats": {
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "AP": {
-            "value": 0
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 48
-          },
-          "S": {
-            "value": 5
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Rhino—Inferno combi-bolter": {
-        "aspects": {
-          "Label": "Inferno combi-bolter"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 24
-          },
-          "S": {
-            "value": 4
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Rhino—Inferno combi-weapon": {
-        "aspects": {
-          "Label": "Inferno combi-weapon"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "infantry"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 4
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 24
-          },
-          "S": {
-            "value": 4
-          }
-        }
-      },
       "Ranged Weapon§Thousand Sons Sorcerer in Terminator Armour—Coruscating Flames": {
         "aspects": {
           "Label": "Coruscating Flames"
@@ -8709,155 +6623,6 @@
           },
           "S": {
             "value": 5
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Vindicator—Demolisher cannon": {
-        "aspects": {
-          "Label": "Demolisher cannon"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Blast"
-          ]
-        },
-        "stats": {
-          "A": {
-            "format": "D6",
-            "value": 3
-          },
-          "AP": {
-            "value": -3
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "format": "D6",
-            "value": 0
-          },
-          "Range": {
-            "value": 24
-          },
-          "S": {
-            "value": 14
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Vindicator—Havoc launcher": {
-        "aspects": {
-          "Label": "Havoc launcher"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Blast"
-          ]
-        },
-        "stats": {
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "AP": {
-            "value": 0
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 48
-          },
-          "S": {
-            "value": 5
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Vindicator—Inferno combi-bolter": {
-        "aspects": {
-          "Label": "Inferno combi-bolter"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 24
-          },
-          "S": {
-            "value": 4
-          }
-        }
-      },
-      "Ranged Weapon§Thousand Sons Vindicator—Inferno combi-weapon": {
-        "aspects": {
-          "Label": "Inferno combi-weapon"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "infantry"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 4
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 24
-          },
-          "S": {
-            "value": 4
           }
         }
       },
@@ -10147,28 +7912,6 @@
           }
         }
       },
-      "Unit§Chaos Spawn": {
-        "stats": {
-          "Points": {
-            "value": 65
-          }
-        },
-        "text": "WARNING: this unit was not in 10e and needs importing.\n\n**Regenerating Monstrosities**\nAt the start of each player’s Command phase, one model in this unit regains up to 3 lost wounds."
-      },
-      "Unit§Chaos Vindicator": {
-        "stats": {
-          "Points": {
-            "value": 195
-          },
-          "unitDiscount": {
-            "value": 10
-          },
-          "unitDiscountThreshold": {
-            "value": 3
-          }
-        },
-        "text": "WARNING: this unit was not in 10e and needs importing.\n\n**Siege Shield**\nWhen making ranged attacks with its demolisher cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units."
-      },
       "Unit§Daemon Prince Of Tzeentch": {
         "stats": {
           "Points": {
@@ -10190,267 +7933,6 @@
           }
         },
         "text": "WARNING: this unit was not in 10e and needs importing.\n\n**Hunter of Souls**\nEach time this model makes an attack that targets a **CHARACTER** unit, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1 (if that attack targets a **PSYKER CHARACTER** unit, you can re‑roll the Hit roll and you can re‑roll the Wound roll instead). Each time this model destroys a **CHARACTER** unit, this model regains up to D3 lost wounds (if that **CHARACTER** unit was a **PSYKER** unit, this model regains up to 3 lost wounds instead).\n\n**Aetherstride**\nIn your Movement phase, when this model is set up on the battlefield using the Deep Strike ability, it can perform an aetherstride. If it does:\n■ It can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units.\n■ Until the end of the turn, its Dark Blessing has the **[SUSTAINED HITS D3]** ability.\n■ Until the end of the turn, it is not eligible to declare a charge."
-      },
-      "Unit§Defiler": {
-        "aspects": {
-          "Type": "game piece"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Deadly Demise",
-              "stats": {
-                "x": {
-                  "value": "D3"
-                }
-              }
-            },
-            "Ability§Scuttling Walker (Defiler)",
-            {
-              "item": "Ability§Damaged:",
-              "stats": {
-                "x": {
-                  "value": "1-6 wounds remaining"
-                }
-              }
-            },
-            {
-              "item": "Ability§Invulnerable",
-              "stats": {
-                "x": {
-                  "value": "5+"
-                }
-              }
-            },
-            "Melee Weapon§Defiler—Shearing claws",
-            "Ability§Destroyer of Futures",
-            {
-              "item": "Ability§Feel No Pain",
-              "stats": {
-                "x": {
-                  "value": "6+"
-                }
-              }
-            }
-          ]
-        },
-        "keywords": {
-          "Faction": [
-            "Thousand Sons"
-          ],
-          "Source": [
-            "10th Edition Codex"
-          ],
-          "Keywords": [
-            "Chaos",
-            "Daemon",
-            "Defiler",
-            "Tzeentch",
-            "Vehicle",
-            "Walker"
-          ],
-          "Category": [
-            "Vehicle—Walker"
-          ]
-        },
-        "rules": {
-          "A model cannot be equipped with more than one electroscourge": {
-            "evals": [
-              {
-                "actionable": true,
-                "max": 1,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "tracked",
-                    "ecmax"
-                  ]
-                ]
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "error"
-          }
-        },
-        "stats": {
-          "Ld": {
-            "value": 6
-          },
-          "Loadout 1": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "Hades battle cannon": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Defiler—Hades battle cannon"
-                  }
-                ]
-              },
-              "Ectoplasma destructor": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Defiler—Ectoplasma destructor"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "Hades battle cannon",
-            "visibility": "active"
-          },
-          "Loadout 2": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "2 Excruciator cannons": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Defiler—Excruciator cannon"
-                  },
-                  {
-                    "trait": "Ranged Weapon§Defiler—Excruciator cannon"
-                  }
-                ]
-              },
-              "2 Pyraflux magma cutters": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Defiler—Pyraflux magma cutters"
-                  },
-                  {
-                    "trait": "Ranged Weapon§Defiler—Pyraflux magma cutters"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "2 Excruciator cannons",
-            "visibility": "normal"
-          },
-          "Loadout 3": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "Heavy baleflamer": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Defiler—Heavy baleflamer"
-                  }
-                ]
-              },
-              "Hades lascannon": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Defiler—Hades lascannon"
-                  }
-                ]
-              },
-              "Heavy reaper autocannon": {
-                "order": 2,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Defiler—Heavy reaper autocannon"
-                  }
-                ]
-              },
-              "Electroscourge": {
-                "order": 3,
-                "tracking": {
-                  "ecmax": 1
-                },
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Defiler—Electroscourge"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "Heavy baleflamer",
-            "visibility": "normal"
-          },
-          "Loadout 4": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "Heavy missile launcher": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Defiler—Heavy missile launcher"
-                  }
-                ]
-              },
-              "Hades lascannon": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Defiler—Hades lascannon"
-                  }
-                ]
-              },
-              "Heavy reaper autocannon": {
-                "order": 2,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Defiler—Heavy reaper autocannon"
-                  }
-                ]
-              },
-              "Electroscourge": {
-                "order": 3,
-                "tracking": {
-                  "ecmax": 1
-                },
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Defiler—Electroscourge"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "Heavy missile launcher",
-            "visibility": "normal"
-          },
-          "M": {
-            "value": 12
-          },
-          "OC": {
-            "value": 5
-          },
-          "Points": {
-            "value": 320
-          },
-          "Sv": {
-            "value": 3
-          },
-          "T": {
-            "value": 11
-          },
-          "unitDiscount": {
-            "value": 30
-          },
-          "unitDiscountThreshold": {
-            "value": 2
-          },
-          "W": {
-            "value": 18
-          }
-        }
       },
       "Unit§Flamers": {
         "assets": {
@@ -10490,36 +7972,6 @@
           }
         }
       },
-      "Unit§Forgefiend": {
-        "stats": {
-          "Points": {
-            "value": 145
-          },
-          "unitDiscount": {
-            "value": 10
-          },
-          "unitDiscountThreshold": {
-            "value": 3
-          }
-        },
-        "text": "WARNING: this unit was not in 10e and needs importing.\n\n**Blazing Salvoes**\nIn your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
-      },
-      "Unit§Helbrute": {
-        "stats": {
-          "Points": {
-            "value": 110
-          }
-        },
-        "text": "WARNING: this unit was not in 10e and needs importing.\n\n**Terrifying Assault**\nIn your Shooting phase and the Fight phase, after this model has shot or fought, select one enemy unit hit by one or more of those attacks. That unit must take a Battle‑shock test, subtracting 1 from that test if it is within 9\" of one or more **THOUSAND SONS PSYKER** units from your army.\n\n**Devoted to Destruction**\nIf this model is equipped with two melee weapons in addition to its close combat weapon, add 2 to the Attacks characteristic of those two weapons."
-      },
-      "Unit§Heldrake": {
-        "stats": {
-          "Points": {
-            "value": 175
-          }
-        },
-        "text": "WARNING: this unit was not in 10e and needs importing.\n\n**Flame-wreathed**\nEach time this model ends a Normal move, you can select one enemy unit it moved over during that move. Until the end of the turn, models in that unit cannot have the Benefit of Cover."
-      },
       "Unit§Hell Blade": {
         "keywords": {
           "Keywords": [
@@ -10533,20 +7985,6 @@
             "Tzeentch"
           ]
         }
-      },
-      "Unit§Maulerfiend": {
-        "stats": {
-          "Points": {
-            "value": 130
-          },
-          "unitDiscount": {
-            "value": 10
-          },
-          "unitDiscountThreshold": {
-            "value": 3
-          }
-        },
-        "text": "WARNING: this unit was not in 10e and needs importing.\n\n**Snarling Protector**\n- You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n\n- That use is -1 CP.\n\n- That use does not prevent any uses of that **stratagem** on other units this phase.\n\n- When this unit **declares a charge**, If a friendly engaged **PSYKER** unit is within 12\" of this unit, you can use this part of this ability. If you do:\n\n- This unit can re-roll that **charge roll**.\n\n- This unit __must__ end that **charge move engaged** with an enemy unit **engaged** with that friendly **PSYKER** unit."
       },
       "Unit§Mutalith Vortex Beast": {
         "aspects": {
@@ -11134,83 +8572,6 @@
           }
         }
       },
-      "Unit§Thousand Sons Chaos Spawn": {
-        "allowed": {
-          "items": [
-            "Model§Chaos Spawn"
-          ]
-        },
-        "aspects": {
-          "Label": "Chaos Spawn"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Feel No Pain",
-              "stats": {
-                "x": {
-                  "value": "5+"
-                }
-              }
-            },
-            "Ability§Regenerating Monstrosities",
-            {
-              "item": "Ability§Invulnerable",
-              "stats": {
-                "x": {
-                  "value": "5+"
-                }
-              }
-            },
-            {
-              "item": "Model§Chaos Spawn",
-              "quantity": 2
-            }
-          ]
-        },
-        "keywords": {
-          "Faction": [
-            "Thousand Sons"
-          ],
-          "Source": [
-            "10th Edition Codex"
-          ],
-          "Keywords": [
-            "Beast",
-            "Chaos",
-            "Mutant",
-            "Spawn",
-            "Tzeentch"
-          ],
-          "Category": [
-            "Beast"
-          ]
-        },
-        "stats": {
-          "Chaos Spawn": {
-            "max": 2,
-            "min": 2,
-            "statType": "numeric",
-            "tracked": true,
-            "value": 0,
-            "visibility": "hidden"
-          },
-          "model1stTally": {
-            "value": 2
-          },
-          "modelKey": {
-            "value": "Model§Chaos Spawn"
-          },
-          "Models": {
-            "max": 2,
-            "min": 2,
-            "value": 2
-          },
-          "Points": {
-            "value": 65
-          }
-        }
-      },
       "Unit§Thousand Sons Cultists": {
         "allowed": {
           "items": [
@@ -11414,1333 +8775,6 @@
             "tracked": true,
             "value": 0,
             "visibility": "hidden"
-          }
-        }
-      },
-      "Unit§Thousand Sons Forgefiend": {
-        "aspects": {
-          "Label": "Forgefiend",
-          "Type": "game piece"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Deadly Demise",
-              "stats": {
-                "x": {
-                  "value": "D3"
-                }
-              }
-            },
-            "Ability§Blazing Salvoes",
-            {
-              "item": "Ability§Damaged:",
-              "stats": {
-                "x": {
-                  "value": "1-4 wounds remaining"
-                }
-              }
-            },
-            {
-              "item": "Ability§Invulnerable",
-              "stats": {
-                "x": {
-                  "value": "5+"
-                }
-              }
-            }
-          ]
-        },
-        "keywords": {
-          "Faction": [
-            "Thousand Sons"
-          ],
-          "Source": [
-            "10th Edition Codex"
-          ],
-          "Keywords": [
-            "Vehicle",
-            "Walker",
-            "Daemon",
-            "Chaos",
-            "Tzeentch",
-            "Forgefiend"
-          ],
-          "Category": [
-            "Vehicle—Walker"
-          ]
-        },
-        "stats": {
-          "Cannons": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "2 Hades autocannons": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Forgefiend—Hades autocannon"
-                  },
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Forgefiend—Hades autocannon"
-                  }
-                ]
-              },
-              "2 ectoplasma cannons": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Forgefiend—Ectoplasma cannon"
-                  },
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Forgefiend—Ectoplasma cannon"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "2 Hades autocannons",
-            "visibility": "active"
-          },
-          "Jaws/claws": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "Forgefiend jaws": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Thousand Sons Forgefiend—Forgefiend jaws"
-                  }
-                ]
-              },
-              "Ectoplasma cannon and claws": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Thousand Sons Forgefiend—Forgefiend claws"
-                  },
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Forgefiend—Ectoplasma cannon"
-                  }
-                ]
-              }
-            },
-            "statOrder": 2,
-            "statType": "rank",
-            "value": "Forgefiend jaws",
-            "visibility": "normal"
-          },
-          "Ld": {
-            "value": 6
-          },
-          "M": {
-            "value": 8
-          },
-          "OC": {
-            "value": 3
-          },
-          "Points": {
-            "value": 130
-          },
-          "Sv": {
-            "value": 3
-          },
-          "T": {
-            "value": 10
-          },
-          "W": {
-            "value": 12
-          }
-        }
-      },
-      "Unit§Thousand Sons Helbrute": {
-        "aspects": {
-          "Label": "Helbrute",
-          "Type": "game piece"
-        },
-        "assets": {
-          "included": [],
-          "traits": [
-            {
-              "item": "Ability§Deadly Demise",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
-            "Ability§Terrifying Assault (Helbrute)",
-            "Ability§Devoted to Destruction",
-            {
-              "item": "Ability§Invulnerable",
-              "stats": {
-                "x": {
-                  "value": "5+"
-                }
-              }
-            },
-            "Melee Weapon§Thousand Sons Helbrute—Close combat weapon"
-          ]
-        },
-        "keywords": {
-          "Faction": [
-            "Thousand Sons"
-          ],
-          "Source": [
-            "10th Edition Codex"
-          ],
-          "Keywords": [
-            "Vehicle",
-            "Walker",
-            "Chaos",
-            "Tzeentch",
-            "Helbrute"
-          ],
-          "Category": [
-            "Vehicle—Walker"
-          ]
-        },
-        "rules": {
-          "Helbrute Fists": {
-            "actions": [
-              {
-                "actionType": "modify",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "traits",
-                    "classification",
-                    "Melee Weapon",
-                    "stats",
-                    "A",
-                    "value"
-                  ],
-                  [
-                    "{self}",
-                    "traits",
-                    "classIdentity",
-                    "Weapon",
-                    "traits",
-                    "classification",
-                    "Melee Weapon",
-                    "stats",
-                    "A",
-                    "value"
-                  ]
-                ],
-                "value": 2
-              }
-            ],
-            "evals": [
-              {
-                "actionable": true,
-                "min": 2,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "tracked",
-                    "hbfist"
-                  ]
-                ]
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "pass",
-            "order": 90
-          }
-        },
-        "stats": {
-          "Ld": {
-            "value": 6
-          },
-          "M": {
-            "value": 8
-          },
-          "OC": {
-            "value": 3
-          },
-          "Points": {
-            "value": 110
-          },
-          "Sv": {
-            "value": 2
-          },
-          "T": {
-            "value": 9
-          },
-          "W": {
-            "value": 8
-          },
-          "Weapon 1": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "Multi-melta": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Helbrute—Multi-melta"
-                  }
-                ]
-              },
-              "Helbrute plasma cannon": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Helbrute—Helbrute plasma cannon"
-                  }
-                ]
-              },
-              "Twin autocannon": {
-                "order": 2,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Helbrute—Twin autocannon"
-                  }
-                ]
-              },
-              "Twin inferno heavy bolter": {
-                "order": 3,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Helbrute—Twin inferno heavy bolter"
-                  }
-                ]
-              },
-              "Twin lascannon": {
-                "order": 4,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Helbrute—Twin lascannon"
-                  }
-                ]
-              },
-              "Helbrute fist": {
-                "order": 5,
-                "tracking": {
-                  "hbfist": 1
-                },
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Thousand Sons Helbrute—Helbrute fist"
-                  }
-                ]
-              },
-              "Helbrute fist with inferno combi-bolter": {
-                "order": 6,
-                "tracking": {
-                  "hbfist": 1
-                },
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Thousand Sons Helbrute—Helbrute fist"
-                  },
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Helbrute—Inferno combi-bolter"
-                  }
-                ]
-              },
-              "Helbrute fist with heavy flamer": {
-                "order": 7,
-                "tracking": {
-                  "hbfist": 1
-                },
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Thousand Sons Helbrute—Helbrute fist"
-                  },
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Helbrute—Heavy flamer"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "Multi-melta",
-            "visibility": "active"
-          },
-          "Weapon 2": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "Missile launcher": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Helbrute—Missile launcher"
-                  }
-                ]
-              },
-              "Helbrute hammer": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Thousand Sons Helbrute—Helbrute hammer"
-                  }
-                ]
-              },
-              "Power scourge": {
-                "order": 2,
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Thousand Sons Helbrute—Power scourge"
-                  }
-                ]
-              },
-              "Helbrute fist": {
-                "order": 3,
-                "tracking": {
-                  "hbfist": 1
-                },
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Thousand Sons Helbrute—Helbrute fist"
-                  }
-                ]
-              },
-              "Helbrute fist with inferno combi-bolter": {
-                "order": 4,
-                "tracking": {
-                  "hbfist": 1
-                },
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Thousand Sons Helbrute—Helbrute fist"
-                  },
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Helbrute—Inferno combi-bolter"
-                  }
-                ]
-              },
-              "Helbrute fist with heavy flamer": {
-                "order": 5,
-                "tracking": {
-                  "hbfist": 1
-                },
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Thousand Sons Helbrute—Helbrute fist"
-                  },
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Helbrute—Heavy flamer"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "Missile launcher",
-            "visibility": "active"
-          }
-        },
-        "text": ""
-      },
-      "Unit§Thousand Sons Heldrake": {
-        "aspects": {
-          "Label": "Chaos Heldrake",
-          "Type": "game piece"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Deadly Demise",
-              "stats": {
-                "x": {
-                  "value": "D3"
-                }
-              }
-            },
-            "Ability§Hover",
-            "Ability§Flame-wreathed",
-            {
-              "item": "Ability§Damaged:",
-              "stats": {
-                "x": {
-                  "value": "1-4 wounds remaining"
-                }
-              }
-            },
-            {
-              "item": "Ability§Invulnerable",
-              "stats": {
-                "x": {
-                  "value": "5+"
-                }
-              }
-            },
-            "Melee Weapon§Thousand Sons Heldrake—Heldrake claws"
-          ]
-        },
-        "keywords": {
-          "Faction": [
-            "Thousand Sons"
-          ],
-          "Source": [
-            "10th Edition Codex"
-          ],
-          "Keywords": [
-            "Vehicle",
-            "Aircraft",
-            "Fly",
-            "Daemon",
-            "Chaos",
-            "Tzeentch",
-            "Heldrake"
-          ],
-          "Category": [
-            "Vehicle"
-          ]
-        },
-        "stats": {
-          "Ld": {
-            "value": 6
-          },
-          "M": {
-            "statType": "term",
-            "value": "20+"
-          },
-          "OC": {
-            "value": 0
-          },
-          "Points": {
-            "value": 215
-          },
-          "Ranged": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "Hades autocannon": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Heldrake—Hades autocannon"
-                  }
-                ]
-              },
-              "Baleflamer": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Heldrake—Baleflamer"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "Hades autocannon",
-            "visibility": "active"
-          },
-          "Sv": {
-            "value": 3
-          },
-          "T": {
-            "value": 9
-          },
-          "W": {
-            "value": 12
-          }
-        }
-      },
-      "Unit§Thousand Sons Land Raider": {
-        "aspects": {
-          "Label": "Chaos Land Raider",
-          "Type": "game piece"
-        },
-        "assets": {
-          "included": [],
-          "traits": [
-            {
-              "item": "Ability§Deadly Demise",
-              "stats": {
-                "x": {
-                  "value": "D6"
-                }
-              }
-            },
-            "Ability§Assault Ramp",
-            {
-              "item": "Ability§Damaged:",
-              "stats": {
-                "x": {
-                  "value": "1-5 wounds remaining"
-                }
-              }
-            },
-            {
-              "item": "Ability§Transport",
-              "text": "This model has a transport capacity of 14 Thousand Sons Infantry models. Each Terminator model takes up the space of 2 models."
-            },
-            "Ranged Weapon§Thousand Sons Land Raider—Soulshatter lascannon",
-            "Ranged Weapon§Thousand Sons Land Raider—Soulshatter lascannon",
-            "Melee Weapon§Thousand Sons Land Raider—Armoured tracks",
-            "Ranged Weapon§Thousand Sons Land Raider—Twin inferno heavy bolter"
-          ]
-        },
-        "keywords": {
-          "Faction": [
-            "Thousand Sons"
-          ],
-          "Source": [
-            "10th Edition Index"
-          ],
-          "Keywords": [
-            "Vehicle",
-            "Transport",
-            "Smoke",
-            "Chaos",
-            "Tzeentch",
-            "Land Raider"
-          ],
-          "Category": [
-            "Vehicle"
-          ]
-        },
-        "stats": {
-          "Additional": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "-": {
-                "order": 0
-              },
-              "Inferno combi-bolter": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Land Raider—Inferno combi-bolter"
-                  }
-                ]
-              },
-              "Inferno combi-weapon": {
-                "order": 2,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Land Raider—Inferno combi-weapon"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "-",
-            "visibility": "active"
-          },
-          "Havoc launcher": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "-": {
-                "order": 0
-              },
-              "✓": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Land Raider—Havoc launcher"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "-",
-            "visibility": "normal"
-          },
-          "Ld": {
-            "value": 6
-          },
-          "M": {
-            "value": 10
-          },
-          "OC": {
-            "value": 5
-          },
-          "Points": {
-            "value": 220
-          },
-          "Sv": {
-            "value": 2
-          },
-          "T": {
-            "value": 12
-          },
-          "W": {
-            "value": 16
-          }
-        }
-      },
-      "Unit§Thousand Sons Maulerfiend": {
-        "aspects": {
-          "Label": "Maulerfiend",
-          "Type": "game piece"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Deadly Demise",
-              "stats": {
-                "x": {
-                  "value": "D3"
-                }
-              }
-            },
-            "Ability§Snarling Protector",
-            {
-              "item": "Ability§Damaged:",
-              "stats": {
-                "x": {
-                  "value": "1-4 wounds remaining"
-                }
-              }
-            },
-            {
-              "item": "Ability§Invulnerable",
-              "stats": {
-                "x": {
-                  "value": "5+"
-                }
-              }
-            },
-            "Melee Weapon§Thousand Sons Maulerfiend—Maulerfiend fists"
-          ]
-        },
-        "keywords": {
-          "Faction": [
-            "Thousand Sons"
-          ],
-          "Source": [
-            "10th Edition Codex"
-          ],
-          "Keywords": [
-            "Vehicle",
-            "Walker",
-            "Daemon",
-            "Chaos",
-            "Tzeentch",
-            "Maulerfiend"
-          ],
-          "Category": [
-            "Vehicle—Walker"
-          ]
-        },
-        "stats": {
-          "Ld": {
-            "value": 6
-          },
-          "M": {
-            "value": 10
-          },
-          "OC": {
-            "value": 3
-          },
-          "Option": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "Lasher tendrils": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Melee Weapon§Thousand Sons Maulerfiend—Lasher tendrils"
-                  }
-                ]
-              },
-              "2 magma cutters": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Maulerfiend—Magma cutter"
-                  },
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Maulerfiend—Magma cutter"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "Lasher tendrils",
-            "visibility": "active"
-          },
-          "Points": {
-            "value": 120
-          },
-          "Sv": {
-            "value": 3
-          },
-          "T": {
-            "value": 10
-          },
-          "W": {
-            "value": 12
-          }
-        }
-      },
-      "Unit§Thousand Sons Predator Annihilator": {
-        "aspects": {
-          "Label": "Chaos Predator Annihilator",
-          "Type": "game piece"
-        },
-        "assets": {
-          "included": [],
-          "traits": [
-            {
-              "item": "Ability§Deadly Demise",
-              "stats": {
-                "x": {
-                  "value": "D3"
-                }
-              }
-            },
-            "Ability§Ensorcelled Annihilation",
-            {
-              "item": "Ability§Damaged:",
-              "stats": {
-                "x": {
-                  "value": "1-4 wounds remaining"
-                }
-              }
-            },
-            "Ranged Weapon§Thousand Sons Predator Annihilator—Predator twin lascannon",
-            "Melee Weapon§Thousand Sons Predator Annihilator—Armoured tracks"
-          ]
-        },
-        "keywords": {
-          "Faction": [
-            "Thousand Sons"
-          ],
-          "Source": [
-            "10th Edition Codex"
-          ],
-          "Keywords": [
-            "Vehicle",
-            "Smoke",
-            "Chaos",
-            "Tzeentch",
-            "Predator Annihilator"
-          ],
-          "Category": [
-            "Vehicle"
-          ]
-        },
-        "stats": {
-          "Additional": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "-": {
-                "order": 0
-              },
-              "Inferno combi-bolter": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Predator Annihilator—Inferno combi-bolter"
-                  }
-                ]
-              },
-              "Inferno combi-weapon": {
-                "order": 2,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Predator Annihilator—Inferno combi-weapon"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "-",
-            "visibility": "active"
-          },
-          "Havoc launcher": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "-": {
-                "order": 0
-              },
-              "✓": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Predator Annihilator—Havoc launcher"
-                  }
-                ]
-              }
-            },
-            "statOrder": 3,
-            "statType": "rank",
-            "value": "-",
-            "visibility": "normal"
-          },
-          "Ld": {
-            "value": 6
-          },
-          "M": {
-            "value": 10
-          },
-          "OC": {
-            "value": 3
-          },
-          "Points": {
-            "value": 130
-          },
-          "Sponsons": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "-": {
-                "order": 0
-              },
-              "2 lascannons": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Predator Annihilator—Lascannon"
-                  },
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Predator Annihilator—Lascannon"
-                  }
-                ]
-              },
-              "2 inferno heavy bolters": {
-                "order": 2,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Predator Annihilator—Inferno heavy bolter"
-                  },
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Land Raider—Twin inferno heavy bolter"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "-",
-            "visibility": "active"
-          },
-          "Sv": {
-            "value": 3
-          },
-          "T": {
-            "value": 10
-          },
-          "W": {
-            "value": 11
-          }
-        }
-      },
-      "Unit§Thousand Sons Predator Destructor": {
-        "aspects": {
-          "Label": "Chaos Predator Destructor",
-          "Type": "game piece"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Deadly Demise",
-              "stats": {
-                "x": {
-                  "value": "D3"
-                }
-              }
-            },
-            "Ability§Ensorcelled Destruction",
-            {
-              "item": "Ability§Damaged:",
-              "stats": {
-                "x": {
-                  "value": "1-4 wounds remaining"
-                }
-              }
-            },
-            "Ranged Weapon§Thousand Sons Predator Destructor—Predator autocannon",
-            "Melee Weapon§Thousand Sons Predator Destructor—Armoured tracks"
-          ]
-        },
-        "keywords": {
-          "Faction": [
-            "Thousand Sons"
-          ],
-          "Source": [
-            "10th Edition Codex"
-          ],
-          "Keywords": [
-            "Vehicle",
-            "Smoke",
-            "Chaos",
-            "Tzeentch",
-            "Predator Destructor"
-          ],
-          "Category": [
-            "Vehicle"
-          ]
-        },
-        "stats": {
-          "Additional": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "-": {
-                "order": 0
-              },
-              "Inferno combi-bolter": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Predator Destructor—Inferno combi-bolter"
-                  }
-                ]
-              },
-              "Inferno combi-weapon": {
-                "order": 2,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Predator Destructor—Inferno combi-weapon"
-                  }
-                ]
-              }
-            },
-            "statOrder": 2,
-            "statType": "rank",
-            "value": "-",
-            "visibility": "active"
-          },
-          "Havoc launcher": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "-": {
-                "order": 0
-              },
-              "✓": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Predator Destructor—Havoc launcher"
-                  }
-                ]
-              }
-            },
-            "statOrder": 3,
-            "statType": "rank",
-            "value": "-",
-            "visibility": "normal"
-          },
-          "Ld": {
-            "value": 6
-          },
-          "M": {
-            "value": 10
-          },
-          "OC": {
-            "value": 3
-          },
-          "Points": {
-            "value": 130
-          },
-          "Sponsons": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "-": {
-                "order": 0
-              },
-              "2 lascannons": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Predator Destructor—Lascannon"
-                  },
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Predator Destructor—Lascannon"
-                  }
-                ]
-              },
-              "2 inferno heavy bolters": {
-                "order": 2,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Predator Destructor—Inferno heavy bolter"
-                  },
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Predator Destructor—Inferno heavy bolter"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "-",
-            "visibility": "active"
-          },
-          "Sv": {
-            "value": 3
-          },
-          "T": {
-            "value": 10
-          },
-          "W": {
-            "value": 11
-          }
-        }
-      },
-      "Unit§Thousand Sons Rhino": {
-        "aspects": {
-          "Label": "Chaos Rhino",
-          "Type": "game piece"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Deadly Demise",
-              "stats": {
-                "x": {
-                  "value": "D3"
-                }
-              }
-            },
-            {
-              "item": "Ability§Transport",
-              "text": "This model has a transport capacity of 12 Thousand Sons Infantry models (excluding Terminator models)."
-            },
-            "Ranged Weapon§Thousand Sons Rhino—Inferno combi-bolter",
-            "Melee Weapon§Thousand Sons Rhino—Armoured tracks",
-            "Ability§Sorcerous Support",
-            {
-              "item": "Ability§Firing Deck",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            }
-          ]
-        },
-        "keywords": {
-          "Faction": [
-            "Thousand Sons"
-          ],
-          "Source": [
-            "10th Edition Codex"
-          ],
-          "Keywords": [
-            "Chaos",
-            "Dedicated Transport",
-            "Rhino",
-            "Smoke",
-            "Transport",
-            "Tzeentch",
-            "Vehicle"
-          ],
-          "Category": [
-            "Vehicle—Dedicated Transport"
-          ]
-        },
-        "stats": {
-          "Additional": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "-": {
-                "order": 0
-              },
-              "Inferno combi-bolter": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Rhino—Inferno combi-bolter"
-                  }
-                ]
-              },
-              "Inferno combi-weapon": {
-                "order": 2,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Rhino—Inferno combi-weapon"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "-",
-            "visibility": "active"
-          },
-          "Havoc launcher": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "-": {
-                "order": 0
-              },
-              "✓": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Rhino—Havoc launcher"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "-",
-            "visibility": "normal"
-          },
-          "Ld": {
-            "value": 6
-          },
-          "M": {
-            "value": 12
-          },
-          "OC": {
-            "value": 2
-          },
-          "Points": {
-            "value": 90
-          },
-          "Sv": {
-            "value": 3
-          },
-          "T": {
-            "value": 9
-          },
-          "W": {
-            "value": 10
-          }
-        }
-      },
-      "Unit§Thousand Sons Vindicator": {
-        "aspects": {
-          "Label": "Chaos Vindicator",
-          "Type": "game piece"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Deadly Demise",
-              "stats": {
-                "x": {
-                  "value": "D3"
-                }
-              }
-            },
-            "Ability§Siege Shield",
-            {
-              "item": "Ability§Damaged:",
-              "stats": {
-                "x": {
-                  "value": "1-4 wounds remaining"
-                }
-              }
-            },
-            "Ranged Weapon§Thousand Sons Vindicator—Demolisher cannon",
-            "Melee Weapon§Thousand Sons Vindicator—Armoured tracks"
-          ]
-        },
-        "keywords": {
-          "Faction": [
-            "Thousand Sons"
-          ],
-          "Source": [
-            "10th Edition Codex"
-          ],
-          "Keywords": [
-            "Vehicle",
-            "Smoke",
-            "Chaos",
-            "Tzeentch",
-            "Vindicator"
-          ],
-          "Category": [
-            "Vehicle"
-          ]
-        },
-        "stats": {
-          "Additional": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "-": {
-                "order": 0
-              },
-              "Inferno combi-bolter": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Vindicator—Inferno combi-bolter"
-                  }
-                ]
-              },
-              "Inferno combi-weapon": {
-                "order": 2,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Vindicator—Inferno combi-weapon"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "-",
-            "visibility": "active"
-          },
-          "Havoc launcher": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "-": {
-                "order": 0
-              },
-              "✓": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Thousand Sons Vindicator—Havoc launcher"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "-",
-            "visibility": "normal"
-          },
-          "Ld": {
-            "value": 6
-          },
-          "M": {
-            "value": 9
-          },
-          "OC": {
-            "value": 3
-          },
-          "Points": {
-            "value": 185
-          },
-          "Sv": {
-            "value": 2
-          },
-          "T": {
-            "value": 11
-          },
-          "W": {
-            "value": 11
           }
         }
       },
@@ -13066,6 +9100,1899 @@
       },
       "Wargear§Icon of Flame": {
         "text": "Ranged weapons equipped by models in the bearer's unit (excluding Characters) have the [IGNORES COVER] ability."
+      },
+      "Ranged Weapon§Chaos Rhino—Inferno combi-bolter": {
+        "aspects": {
+          "Label": "Inferno combi-bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Rhino—Inferno combi-weapon": {
+        "aspects": {
+          "Label": "Inferno combi-weapon"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Vehicle§Chaos Rhino": {
+        "stats": {
+          "Additional": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Inferno combi-bolter": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Rhino—Inferno combi-bolter"
+                  }
+                ]
+              },
+              "Inferno combi-weapon": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Rhino—Inferno combi-weapon"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "active"
+          },
+          "Havoc launcher": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "✓": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Rhino—Havoc launcher"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "normal"
+          },
+          "Points": {
+            "value": 90
+          }
+        },
+        "keywords": {
+          "Faction": [
+            "Thousand Sons"
+          ],
+          "Keywords": [
+            "Tzeentch"
+          ]
+        },
+        "aspects": {
+          "Label": "Chaos Rhino"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Transport",
+              "text": "This model has a transport capacity of 12 Thousand Sons Infantry models (excluding Terminator models)."
+            },
+            "Ranged Weapon§Chaos Rhino—Inferno combi-bolter",
+            "Ability§Sorcerous Support"
+          ]
+        },
+        "removed": {
+          "stats": {
+            "Loadout Options 1": {},
+            "Loadout Options 2": {}
+          },
+          "assets": {
+            "traits": [
+              "Ability§Self Repair",
+              "Ability§Transport"
+            ]
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Land Raider—Inferno combi-bolter": {
+        "aspects": {
+          "Label": "Inferno combi-bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Land Raider—Inferno combi-weapon": {
+        "aspects": {
+          "Label": "Inferno combi-weapon"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Land Raider—Twin inferno heavy bolter": {
+        "aspects": {
+          "Label": "Twin inferno heavy bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Twin-linked"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Vehicle§Chaos Land Raider": {
+        "stats": {
+          "Additional": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Inferno combi-bolter": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Land Raider—Inferno combi-bolter"
+                  }
+                ]
+              },
+              "Inferno combi-weapon": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Land Raider—Inferno combi-weapon"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "active"
+          },
+          "Havoc launcher": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "✓": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Land Raider—Havoc launcher"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "normal"
+          },
+          "Points": {
+            "value": 220
+          }
+        },
+        "keywords": {
+          "Faction": [
+            "Thousand Sons"
+          ],
+          "Keywords": [
+            "Tzeentch"
+          ],
+          "Source": [
+            "10th Edition Index"
+          ]
+        },
+        "aspects": {
+          "Label": "Chaos Land Raider"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Transport",
+              "text": "This model has a transport capacity of 14 Thousand Sons Infantry models. Each Terminator model takes up the space of 2 models."
+            },
+            "Ranged Weapon§Chaos Land Raider—Twin inferno heavy bolter"
+          ]
+        },
+        "removed": {
+          "stats": {
+            "Combi Option": {},
+            "Havoc Launcher": {},
+            "unitDiscount": {},
+            "unitDiscountThreshold": {}
+          },
+          "keywords": {
+            "Source": [
+              "10th Edition Codex"
+            ]
+          },
+          "assets": {
+            "traits": [
+              "Ability§Transport",
+              "Ranged Weapon§Chaos Land Raider—Twin heavy bolter"
+            ]
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Predator Annihilator—Inferno combi-bolter": {
+        "aspects": {
+          "Label": "Inferno combi-bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Predator Annihilator—Inferno combi-weapon": {
+        "aspects": {
+          "Label": "Inferno combi-weapon"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Predator Annihilator—Inferno heavy bolter": {
+        "aspects": {
+          "Label": "Inferno heavy bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Vehicle§Chaos Predator Annihilator": {
+        "stats": {
+          "Additional": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Inferno combi-bolter": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Predator Annihilator—Inferno combi-bolter"
+                  }
+                ]
+              },
+              "Inferno combi-weapon": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Predator Annihilator—Inferno combi-weapon"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "active"
+          },
+          "Havoc launcher": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "✓": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Predator Annihilator—Havoc launcher"
+                  }
+                ]
+              }
+            },
+            "statOrder": 3,
+            "statType": "rank",
+            "value": "-",
+            "visibility": "normal"
+          },
+          "Points": {
+            "value": 130
+          },
+          "Sponsons": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "2 lascannons": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Predator Annihilator—Lascannon"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Chaos Predator Annihilator—Lascannon"
+                  }
+                ]
+              },
+              "2 inferno heavy bolters": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Predator Annihilator—Inferno heavy bolter"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Chaos Land Raider—Twin inferno heavy bolter"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "active"
+          }
+        },
+        "keywords": {
+          "Faction": [
+            "Thousand Sons"
+          ],
+          "Keywords": [
+            "Tzeentch"
+          ]
+        },
+        "aspects": {
+          "Label": "Chaos Predator Annihilator"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Ensorcelled Annihilation"
+          ]
+        },
+        "removed": {
+          "stats": {
+            "Combi Option": {},
+            "Havoc Launcher": {},
+            "Side Weapons": {},
+            "unitDiscount": {},
+            "unitDiscountThreshold": {}
+          },
+          "assets": {
+            "traits": [
+              "Ability§Annihilator"
+            ]
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Predator Destructor—Inferno combi-bolter": {
+        "aspects": {
+          "Label": "Inferno combi-bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Predator Destructor—Inferno combi-weapon": {
+        "aspects": {
+          "Label": "Inferno combi-weapon"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Predator Destructor—Inferno heavy bolter": {
+        "aspects": {
+          "Label": "Inferno heavy bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Vehicle§Chaos Predator Destructor": {
+        "stats": {
+          "Additional": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Inferno combi-bolter": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Predator Destructor—Inferno combi-bolter"
+                  }
+                ]
+              },
+              "Inferno combi-weapon": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Predator Destructor—Inferno combi-weapon"
+                  }
+                ]
+              }
+            },
+            "statOrder": 2,
+            "statType": "rank",
+            "value": "-",
+            "visibility": "active"
+          },
+          "Havoc launcher": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "✓": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Predator Destructor—Havoc launcher"
+                  }
+                ]
+              }
+            },
+            "statOrder": 3,
+            "statType": "rank",
+            "value": "-",
+            "visibility": "normal"
+          },
+          "Points": {
+            "value": 130
+          },
+          "Sponsons": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "2 lascannons": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Predator Destructor—Lascannon"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Chaos Predator Destructor—Lascannon"
+                  }
+                ]
+              },
+              "2 inferno heavy bolters": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Predator Destructor—Inferno heavy bolter"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Chaos Predator Destructor—Inferno heavy bolter"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "active"
+          }
+        },
+        "keywords": {
+          "Faction": [
+            "Thousand Sons"
+          ],
+          "Keywords": [
+            "Tzeentch"
+          ]
+        },
+        "aspects": {
+          "Label": "Chaos Predator Destructor"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Ensorcelled Destruction"
+          ]
+        },
+        "removed": {
+          "stats": {
+            "Combi Option": {},
+            "Havoc Launcher": {},
+            "Side Weapons": {},
+            "unitDiscount": {},
+            "unitDiscountThreshold": {}
+          },
+          "assets": {
+            "traits": [
+              "Ability§Destructor"
+            ]
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Vindicator—Inferno combi-bolter": {
+        "aspects": {
+          "Label": "Inferno combi-bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Chaos Vindicator—Inferno combi-weapon": {
+        "aspects": {
+          "Label": "Inferno combi-weapon"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "infantry"
+                },
+                "x": {
+                  "value": "4+"
+                }
+              }
+            },
+            "Ability§Devastating Wounds",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Vehicle§Chaos Vindicator": {
+        "stats": {
+          "Additional": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "Inferno combi-bolter": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Vindicator—Inferno combi-bolter"
+                  }
+                ]
+              },
+              "Inferno combi-weapon": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Vindicator—Inferno combi-weapon"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "active"
+          },
+          "Havoc launcher": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "✓": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Chaos Vindicator—Havoc launcher"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "normal"
+          }
+        },
+        "keywords": {
+          "Faction": [
+            "Thousand Sons"
+          ],
+          "Keywords": [
+            "Tzeentch"
+          ]
+        },
+        "aspects": {
+          "Label": "Chaos Vindicator"
+        },
+        "removed": {
+          "stats": {
+            "Combi Option": {},
+            "Havoc Launcher": {},
+            "unitDiscount": {},
+            "unitDiscountThreshold": {}
+          }
+        }
+      },
+      "Ranged Weapon§Defiler—Excruciator cannon": {
+        "stats": {
+          "AP": {
+            "value": -2
+          }
+        }
+      },
+      "Ranged Weapon§Defiler—Heavy reaper autocannon": {
+        "stats": {
+          "AP": {
+            "value": -2
+          }
+        }
+      },
+      "Ranged Weapon§Defiler—Pyraflux magma cutters": {
+        "aspects": {
+          "Label": "Pyraflux magma cutters"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -4
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 10
+          }
+        }
+      },
+      "Vehicle§Defiler": {
+        "stats": {
+          "Loadout 2": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "2 Excruciator cannons": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Defiler—Excruciator cannon"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Defiler—Excruciator cannon"
+                  }
+                ]
+              },
+              "2 Pyraflux magma cutters": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Defiler—Pyraflux magma cutters"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Defiler—Pyraflux magma cutters"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "2 Excruciator cannons",
+            "visibility": "normal"
+          },
+          "Points": {
+            "value": 320
+          }
+        },
+        "keywords": {
+          "Faction": [
+            "Thousand Sons"
+          ],
+          "Keywords": [
+            "Tzeentch"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Destroyer of Futures",
+            {
+              "item": "Ability§Feel No Pain",
+              "stats": {
+                "x": {
+                  "value": "6+"
+                }
+              }
+            }
+          ]
+        },
+        "removed": {
+          "stats": {
+            "Loadout 2": {}
+          },
+          "assets": {
+            "traits": [
+              "Ability§Daemonforge"
+            ]
+          }
+        }
+      },
+      "Melee Weapon§Helbrute—Close combat weapon": {
+        "removed": {
+          "rules": {
+            "Moreattacksdoesnotapplytoccw": {}
+          }
+        }
+      },
+      "Ranged Weapon§Helbrute—Heavy flamer": {
+        "stats": {
+          "AP": {
+            "value": -2
+          }
+        }
+      },
+      "Ranged Weapon§Helbrute—Inferno combi-bolter": {
+        "aspects": {
+          "Label": "Inferno combi-bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Helbrute—Missile launcher": {
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Helbrute—Missile launcher – frag",
+            "Ranged Weapon§Helbrute—Missile launcher – krak"
+          ]
+        },
+        "removed": {
+          "assets": {
+            "traits": [
+              "Ranged Weapon§Helbrute—Missile launcher – frag",
+              "Ranged Weapon§Helbrute—Missile launcher – krak"
+            ]
+          }
+        }
+      },
+      "Ranged Weapon§Helbrute—Twin autocannon": {
+        "stats": {
+          "AP": {
+            "value": -2
+          }
+        }
+      },
+      "Ranged Weapon§Helbrute—Twin inferno heavy bolter": {
+        "aspects": {
+          "Label": "Twin inferno heavy bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            "Ability§Twin-linked"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Vehicle§Helbrute": {
+        "stats": {
+          "M": {
+            "value": 8
+          },
+          "Points": {
+            "value": 110
+          },
+          "Weapon 1": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "Multi-melta": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Helbrute—Multi-melta"
+                  }
+                ]
+              },
+              "Helbrute plasma cannon": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Helbrute—Helbrute plasma cannon"
+                  }
+                ]
+              },
+              "Twin autocannon": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Helbrute—Twin autocannon"
+                  }
+                ]
+              },
+              "Twin inferno heavy bolter": {
+                "order": 3,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Helbrute—Twin inferno heavy bolter"
+                  }
+                ]
+              },
+              "Twin lascannon": {
+                "order": 4,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Helbrute—Twin lascannon"
+                  }
+                ]
+              },
+              "Helbrute fist": {
+                "order": 5,
+                "tracking": {
+                  "hbfist": 1
+                },
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Helbrute—Helbrute fist"
+                  }
+                ]
+              },
+              "Helbrute fist with inferno combi-bolter": {
+                "order": 6,
+                "tracking": {
+                  "hbfist": 1
+                },
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Helbrute—Helbrute fist"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Helbrute—Inferno combi-bolter"
+                  }
+                ]
+              },
+              "Helbrute fist with heavy flamer": {
+                "order": 7,
+                "tracking": {
+                  "hbfist": 1
+                },
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Helbrute—Helbrute fist"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Helbrute—Heavy flamer"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "Multi-melta",
+            "visibility": "active"
+          },
+          "Weapon 2": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "Missile launcher": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Helbrute—Missile launcher"
+                  }
+                ]
+              },
+              "Helbrute hammer": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Helbrute—Helbrute hammer"
+                  }
+                ]
+              },
+              "Power scourge": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Helbrute—Power scourge"
+                  }
+                ]
+              },
+              "Helbrute fist": {
+                "order": 3,
+                "tracking": {
+                  "hbfist": 1
+                },
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Helbrute—Helbrute fist"
+                  }
+                ]
+              },
+              "Helbrute fist with inferno combi-bolter": {
+                "order": 4,
+                "tracking": {
+                  "hbfist": 1
+                },
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Helbrute—Helbrute fist"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Helbrute—Inferno combi-bolter"
+                  }
+                ]
+              },
+              "Helbrute fist with heavy flamer": {
+                "order": 5,
+                "tracking": {
+                  "hbfist": 1
+                },
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Helbrute—Helbrute fist"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Helbrute—Heavy flamer"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "Missile launcher",
+            "visibility": "active"
+          }
+        },
+        "keywords": {
+          "Faction": [
+            "Thousand Sons"
+          ],
+          "Keywords": [
+            "Tzeentch"
+          ]
+        },
+        "aspects": {
+          "Label": "Helbrute"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Terrifying Assault (Helbrute)",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            }
+          ]
+        },
+        "rules": {
+          "Helbrute Fists": {
+            "actions": [
+              {
+                "actionType": "modify",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "traits",
+                    "classification",
+                    "Melee Weapon",
+                    "stats",
+                    "A",
+                    "value"
+                  ],
+                  [
+                    "{self}",
+                    "traits",
+                    "classIdentity",
+                    "Weapon",
+                    "traits",
+                    "classification",
+                    "Melee Weapon",
+                    "stats",
+                    "A",
+                    "value"
+                  ]
+                ],
+                "value": 2
+              }
+            ],
+            "evals": [
+              {
+                "actionable": true,
+                "min": 2,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "tracked",
+                    "hbfist"
+                  ]
+                ]
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 90
+          }
+        },
+        "removed": {
+          "stats": {
+            "1 per Helbrute fist": {},
+            "Loadout 1": {},
+            "Loadout 2": {}
+          },
+          "text": "",
+          "assets": {
+            "traits": [
+              "Ability§Dark Ascension (aura)"
+            ]
+          },
+          "rules": {
+            "Maximum 1 Combi-Bolter or Heavy Flamer per Helbrute Fist": {},
+            "MoreAttacksif2Fists": {}
+          }
+        }
+      },
+      "Ranged Weapon§Heldrake—Baleflamer": {
+        "stats": {
+          "AP": {
+            "value": -2
+          }
+        }
+      },
+      "Ranged Weapon§Heldrake—Hades autocannon": {
+        "stats": {
+          "AP": {
+            "value": -2
+          }
+        }
+      },
+      "Vehicle§Heldrake": {
+        "stats": {
+          "Ranged": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "Hades autocannon": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Heldrake—Hades autocannon"
+                  }
+                ]
+              },
+              "Baleflamer": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Heldrake—Baleflamer"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "Hades autocannon",
+            "visibility": "active"
+          }
+        },
+        "keywords": {
+          "Faction": [
+            "Thousand Sons"
+          ],
+          "Keywords": [
+            "Tzeentch"
+          ]
+        },
+        "aspects": {
+          "Label": "Chaos Heldrake"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Flame-wreathed"
+          ]
+        },
+        "removed": {
+          "stats": {
+            "Ranged Option": {}
+          },
+          "assets": {
+            "traits": [
+              "Ability§Airborne Predator"
+            ]
+          }
+        }
+      },
+      "Ranged Weapon§Maulerfiend—Magma cutter": {
+        "aspects": {
+          "Label": "Magma cutter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -4
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          },
+          "Range": {
+            "value": 6
+          },
+          "S": {
+            "value": 9
+          }
+        }
+      },
+      "Vehicle§Maulerfiend": {
+        "stats": {
+          "Option": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "Lasher tendrils": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Maulerfiend—Lasher tendrils"
+                  }
+                ]
+              },
+              "2 magma cutters": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Maulerfiend—Magma cutter"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Maulerfiend—Magma cutter"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "Lasher tendrils",
+            "visibility": "active"
+          }
+        },
+        "keywords": {
+          "Faction": [
+            "Thousand Sons"
+          ],
+          "Keywords": [
+            "Tzeentch"
+          ]
+        },
+        "aspects": {
+          "Label": "Maulerfiend"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Snarling Protector"
+          ]
+        },
+        "removed": {
+          "stats": {
+            "Loadout Option": {}
+          },
+          "assets": {
+            "traits": [
+              "Ability§Siege Crawler"
+            ]
+          }
+        }
+      },
+      "Melee Weapon§Forgefiend—Forgefiend claws": {
+        "aspects": {
+          "Label": "Forgefiend claws"
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 6
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Forgefiend—Hades autocannon": {
+        "stats": {
+          "AP": {
+            "value": -2
+          }
+        }
+      },
+      "Vehicle§Forgefiend": {
+        "stats": {
+          "Cannons": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "2 Hades autocannons": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Forgefiend—Hades autocannon"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Forgefiend—Hades autocannon"
+                  }
+                ]
+              },
+              "2 ectoplasma cannons": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Forgefiend—Ectoplasma cannon"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Forgefiend—Ectoplasma cannon"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "2 Hades autocannons",
+            "visibility": "active"
+          },
+          "Jaws/claws": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "Forgefiend jaws": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Forgefiend—Forgefiend jaws"
+                  }
+                ]
+              },
+              "Ectoplasma cannon and claws": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Melee Weapon§Forgefiend—Forgefiend claws"
+                  },
+                  {
+                    "trait": "Ranged Weapon§Forgefiend—Ectoplasma cannon"
+                  }
+                ]
+              }
+            },
+            "statOrder": 2,
+            "statType": "rank",
+            "value": "Forgefiend jaws",
+            "visibility": "normal"
+          },
+          "Points": {
+            "value": 145
+          }
+        },
+        "keywords": {
+          "Faction": [
+            "Thousand Sons"
+          ],
+          "Keywords": [
+            "Tzeentch"
+          ]
+        },
+        "aspects": {
+          "Label": "Forgefiend"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Blazing Salvoes"
+          ]
+        },
+        "removed": {
+          "stats": {
+            "Cannon Option": {},
+            "Jaw Option": {},
+            "unitDiscount": {},
+            "unitDiscountThreshold": {}
+          },
+          "assets": {
+            "traits": [
+              "Ability§Daemonic Ordnance"
+            ]
+          }
+        }
+      },
+      "Infantry/Mounted§Chaos Spawn": {
+        "stats": {
+          "Points": {
+            "value": 65
+          }
+        },
+        "keywords": {
+          "Faction": [
+            "Thousand Sons"
+          ],
+          "Keywords": [
+            "Mutant",
+            "Spawn",
+            "Tzeentch"
+          ]
+        },
+        "aspects": {
+          "Label": "Chaos Spawn"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Regenerating Monstrosities",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            }
+          ]
+        },
+        "removed": {
+          "keywords": {
+            "Keywords": [
+              "Chaos Spawn"
+            ]
+          },
+          "assets": {
+            "traits": [
+              "Ability§Mind-breaking Mutations (Aura)"
+            ]
+          }
+        }
       }
     },
     "gameModes": {},

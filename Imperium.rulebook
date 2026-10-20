@@ -1,6 +1,6 @@
 {
   "name": "Imperium 11e",
-  "revision": "11.1.1",
+  "revision": "11.1.2",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -41599,6 +41599,259 @@
             "Multi-weapon"
           ]
         }
+      },
+      "Melee Weapon§Terrax-pattern Termite—Termite drill": {
+        "aspects": {
+          "Label": "Termite drill"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "vehicle"
+                },
+                "x": {
+                  "value": "3+"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "statType": "term",
+            "value": "D3+3"
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 14
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Terrax-pattern Termite—Combi-bolter": {
+        "aspects": {
+          "Label": "Combi-bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Terrax-pattern Termite—Heavy flamer": {
+        "aspects": {
+          "Label": "Heavy flamer"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "statType": "term",
+            "value": "N/A"
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Terrax-pattern Termite—Terrax melta cutter": {
+        "aspects": {
+          "Label": "Terrax melta cutter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 5
+          },
+          "AP": {
+            "value": -4
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 9
+          }
+        }
+      },
+      "Ranged Weapon§Terrax-pattern Termite—Twin volkite charger": {
+        "aspects": {
+          "Label": "Twin volkite charger"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds",
+            "Ability§Twin-linked"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 18
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Vehicle§Terrax-pattern Termite": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D3"
+                }
+              }
+            },
+            "Ability§Deep Strike",
+            "Ability§Termite Assault",
+            {
+              "item": "Ability§Damaged:",
+              "stats": {
+                "x": {
+                  "value": "1-5 wounds remaining"
+                }
+              }
+            },
+            "Ranged Weapon§Terrax-pattern Termite—Terrax melta cutter",
+            "Melee Weapon§Terrax-pattern Termite—Termite drill"
+          ]
+        },
+        "keywords": {
+          "Source": [
+            "Legends"
+          ],
+          "Keywords": [
+            "Vehicle",
+            "Imperium",
+            "Transport",
+            "Dedicated Transport",
+            "Terrax-pattern Termite"
+          ],
+          "Category": [
+            "Vehicle—Dedicated Transport"
+          ]
+        },
+        "stats": {
+          "Ld": {
+            "value": 6
+          },
+          "M": {
+            "value": 8
+          },
+          "OC": {
+            "value": 2
+          },
+          "Points": {
+            "value": 200
+          },
+          "Sv": {
+            "value": 3
+          },
+          "T": {
+            "value": 10
+          },
+          "W": {
+            "value": 14
+          }
+        }
+      },
+      "Ability§Termite Assault": {
+        "keywords": {
+          "Keywords": [
+            "Other"
+          ]
+        },
+        "text": "This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model can disembark after it has been set up on the battlefield, and if they do they must be set up more than 9″ away from all enemy models."
       }
     },
     "gameModes": {},
