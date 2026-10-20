@@ -727,84 +727,6 @@
             "failState": "pass",
             "order": 25
           },
-          "nosolarWalkerStat": {
-            "actions": [
-              {
-                "actionType": "set",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Solar Spearhead Character Walker",
-                    "visibility"
-                  ]
-                ],
-                "value": "hidden"
-              },
-              {
-                "actionType": "remove",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Solar Spearhead Character Walker",
-                    "ranks"
-                  ]
-                ],
-                "value": "✓"
-              }
-            ],
-            "evals": [
-              {
-                "actionable": true,
-                "contains": true,
-                "not": true,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "keywords",
-                    "Keywords"
-                  ]
-                ],
-                "value": "Walker"
-              },
-              {
-                "actionable": true,
-                "contains": true,
-                "not": true,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "keywords",
-                    "Faction"
-                  ]
-                ],
-                "value": "Adeptus Custodes"
-              },
-              {
-                "actionable": true,
-                "not": true,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{roster}",
-                    "stats",
-                    "Detachment",
-                    "value"
-                  ]
-                ],
-                "value": "Solar Spearhead",
-                "contains": true
-              }
-            ],
-            "evaluate": "OR",
-            "failState": "pass",
-            "order": 220
-          },
           "notAllowCustodesBattleScars": {
             "actions": [
               {
@@ -927,278 +849,9 @@
             ],
             "evaluate": "AND",
             "failState": "pass"
-          },
-          "solarBuff": {
-            "actions": [
-              {
-                "actionType": "modify",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "M",
-                    "value"
-                  ]
-                ],
-                "value": 2
-              }
-            ],
-            "evals": [
-              {
-                "actionable": true,
-                "contains": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "keywords",
-                    "Keywords"
-                  ]
-                ],
-                "value": "Walker"
-              },
-              {
-                "actionable": true,
-                "contains": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "keywords",
-                    "Faction"
-                  ]
-                ],
-                "value": "Adeptus Custodes"
-              },
-              {
-                "actionable": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{roster}",
-                    "stats",
-                    "Detachment",
-                    "value"
-                  ]
-                ],
-                "value": "Solar Spearhead",
-                "contains": true
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "pass",
-            "order": 90
-          },
-          "solarCharacter": {
-            "actions": [
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "keywords",
-                    "Keywords"
-                  ]
-                ],
-                "value": "Character"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "constraints",
-                    "any"
-                  ]
-                ],
-                "value": [
-                  "{roster}",
-                  "stats",
-                  "Detachment",
-                  "value"
-                ]
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "allowed",
-                    "classifications"
-                  ]
-                ],
-                "value": "Enhancement"
-              }
-            ],
-            "evals": [
-              {
-                "actionable": true,
-                "equation": {
-                  "operator": "T*O",
-                  "value": 1
-                },
-                "min": 1,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "tracked",
-                    "characterwalker"
-                  ]
-                ]
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "pass",
-            "order": 10
-          },
-          "solarWalkerStat": {
-            "actions": [
-              {
-                "actionType": "set",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Solar Spearhead Character Walker",
-                    "visibility"
-                  ]
-                ],
-                "value": "normal"
-              }
-            ],
-            "evals": [
-              {
-                "actionable": true,
-                "contains": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "keywords",
-                    "Keywords"
-                  ]
-                ],
-                "value": "Walker"
-              },
-              {
-                "actionable": true,
-                "contains": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "keywords",
-                    "Faction"
-                  ]
-                ],
-                "value": "Adeptus Custodes"
-              },
-              {
-                "actionable": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{roster}",
-                    "stats",
-                    "Detachment",
-                    "value"
-                  ]
-                ],
-                "value": "Solar Spearhead",
-                "contains": true
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "pass",
-            "order": 220
-          },
-          "solarWalkerWarlordOption": {
-            "actions": [
-              {
-                "actionType": "set",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Warlord",
-                    "visibility"
-                  ]
-                ],
-                "value": "hidden"
-              }
-            ],
-            "evals": [
-              {
-                "actionable": true,
-                "not": true,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Solar Spearhead Character Walker",
-                    "value"
-                  ]
-                ],
-                "value": "✓"
-              },
-              {
-                "actionable": true,
-                "contains": true,
-                "not": true,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "keywords",
-                    "Keywords"
-                  ]
-                ],
-                "value": "Character"
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "pass"
           }
         },
         "stats": {
-          "characterwalker": {
-            "statType": "numeric",
-            "tracked": true,
-            "value": 0,
-            "visibility": "hidden"
-          },
-          "Solar Spearhead Character Walker": {
-            "dynamic": true,
-            "ranks": {
-              "-": {
-                "order": 0
-              },
-              "✓": {
-                "order": 1,
-                "tracking": {
-                  "characterwalker": 1
-                }
-              }
-            },
-            "statType": "rank",
-            "value": "-",
-            "visibility": "hidden"
-          },
           "Warlord": {
             "dynamic": true,
             "ranks": {
@@ -2838,27 +2491,6 @@
             "evals": [],
             "evaluate": "AND",
             "failState": "pass"
-          },
-          "removeSameTagDetachments": {
-            "actions": [
-              {
-                "actionType": "remove",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "stats",
-                    "Detachment",
-                    "ranks"
-                  ]
-                ],
-                "value": "Tharanatoi Hammerblow"
-              }
-            ],
-            "evals": [],
-            "evaluate": "AND",
-            "failState": "pass",
-            "order": 10
           }
         },
         "stats": {
@@ -2881,27 +2513,6 @@
         },
         "text": "**MORITOI ANCIENTS**\n\n- While a friendly **ADEPTUS CUSTODES DREADNOUGHT** unit is at **starting strength**, that unit has +2 **OC**.\n\n- While a friendly **ADEPTUS CUSTODES DREADNOUGHT** unit is below **starting strength**, that unit’s attacks can re-roll **hit rolls** of 1.\n\n- While a friendly **ADEPTUS CUSTODES DREADNOUGHT** unit is **below half-strength**, that unit’s attacks can:\n\n-  Re-roll **hit rolls** of 1.\n\n-  Re-roll **wound rolls** of 1.",
         "rules": {
-          "removeSameTagDetachments": {
-            "actions": [
-              {
-                "actionType": "remove",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "stats",
-                    "Detachment",
-                    "ranks"
-                  ]
-                ],
-                "value": "Solar Spearhead"
-              }
-            ],
-            "evals": [],
-            "evaluate": "AND",
-            "failState": "pass",
-            "order": 10
-          },
           "assignStratagems": {
             "actions": [
               {
@@ -3040,517 +2651,7 @@
         },
         "text": "**SILENT SISTERHOOD**\n\n- When mustering your army, you can select a friendly **ANATHEMA PSYKANA CHARACTER** model to be your **WARLORD**.\n\n- Friendly **PROSECUTOR SQUAD** units have **BATTLELINE**.\n\n- Friendly **ANATHEMA PSYKANA** units have the following ability:\n\n**Creeping Dread (Aura):** In the Battle-shock step of your opponent’s Command phase, each enemy unit within 12\" of this unit that is a **PSYKER** unit/below **starting strength** makes a **battle-shock roll**, with -1 to that **battle-shock roll**."
       },
-      "Detachment§Shield Host": {
-        "keywords": {
-          "Role": [
-            "Purge The Foe"
-          ],
-          "Source": [
-            "Legends"
-          ]
-        },
-        "rules": {
-          "assignStratagems": {
-            "actions": [
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Arcane Genetic Alchemy"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Multipotentiality"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Avenge the Fallen"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Vigililance Eternal"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Unwavering Sentinels"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Archeotech Munitions"
-              }
-            ],
-            "evals": [],
-            "evaluate": "AND",
-            "failState": "pass"
-          }
-        },
-        "stats": {
-          "Detachment Points": {
-            "value": 2
-          }
-        },
-        "text": "**Martial Mastery**\n\nAt the start of the battle round, you can select one of the bullet points below. If you do, until the start of the next battle round, that bullet point’s effects apply.\n\n\n*  Each time an **Adeptus Custodes** model from your army with the Martial Ka’tah ability makes a melee attack, a succesful unmodified Hit roll of 5+ scores a Critical Hit.\n\n*  Improve the Armour Penetration characteristic of melee weapons equipped by **Adeptus Custodes** models from your army with the Martial Ka’tah ability by 1."
-      },
-      "Detachment§Silent Hunters": {
-        "keywords": {
-          "Role": [
-            "Reconnaissance"
-          ],
-          "Source": [
-            "Legends"
-          ]
-        },
-        "stats": {
-          "Detachment Points": {
-            "value": 1
-          }
-        },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Skin-crawling Disorientation**\n- When a friendly **Anathema Psykana** unit is selected to make an **advance move**, that **advance move** does not prevent that unit from being **eligible to start an action**.\n\n- Friendly **Anathema Psykana** units have the following ability:\n\n**Ceaseless Vigilance:** In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **nulled**: \n\n- While a unit is **nulled**, that unit has +3\" **detection range**."
-      },
-      "Detachment§Solar Spearhead": {
-        "keywords": {
-          "Role": [
-            "Take And Hold"
-          ],
-          "Source": [
-            "Legends"
-          ]
-        },
-        "rules": {
-          "assignStratagems": {
-            "actions": [
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Flawless Construction"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Unstoppable"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Emperor's Vengeance"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Relentless Persecution"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Wrathful Advance"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Punishment Inescapable"
-              }
-            ],
-            "evals": [],
-            "evaluate": "AND",
-            "failState": "pass"
-          },
-          "removeSameTagDetachments": {
-            "actions": [
-              {
-                "actionType": "remove",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "stats",
-                    "Detachment",
-                    "ranks"
-                  ]
-                ],
-                "value": "Might Of The Moritoi"
-              }
-            ],
-            "evals": [],
-            "evaluate": "AND",
-            "failState": "pass",
-            "order": 10
-          }
-        },
-        "stats": {
-          "Detachment Points": {
-            "value": 2
-          }
-        },
-        "text": "AURIC ARMOUR\n\n■ While an Adeptus Custodes Vehicle\nunit from your army is at Starting\nStrength, unless that unit is an\nAircraft or it is Battle‑shocked, add 2\nto the Objective Control characteristic\nof models in that unit.\n\n■ While an Adeptus Custodes Vehicle\nunit from your army is below Starting\nStrength, each time a model in that\nunit makes an attack, re‑roll a Hit roll\nof 1.\n\n■ While an Adeptus Custodes Vehicle\nunit from your army is Below\nHalf‑strength, each time a model in\nthat unit makes an attack, re‑roll a Hit\nroll of 1 and re‑roll a Wound roll of 1.\n\nMORITOI ANCIENTS\n\nAdd 2\" to the Move characteristic of\nmodels in Adeptus Custodes Walker units\nfrom your army and add 1 to Advance\nand Charge rolls made for such units.\n\nKEYWORDS\n\nIn the Muster Armies step, you can select\nup to 2 Adeptus Custodes Walker models\nfrom your army. The selected units gain\nthe Character keyword.\n[Designer’s Note: This means that\nthe selected models can be given\nEnhancements and one of them can be\nselected as your Warlord.]"
-      },
-      "Detachment§Talons of the Emperor": {
-        "keywords": {
-          "Role": [
-            "Take And Hold",
-            "Priority Assets"
-          ],
-          "Source": [
-            "Legends"
-          ]
-        },
-        "rules": {
-          "assignStratagems": {
-            "actions": [
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Emperor’s Executioners"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Empyric Severance"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Hunt as One"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Shield of Honour"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Taloned Pincer"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Talons Interlocked"
-              }
-            ],
-            "evals": [],
-            "evaluate": "AND",
-            "failState": "pass"
-          }
-        },
-        "stats": {
-          "Detachment Points": {
-            "value": 3
-          }
-        },
-        "text": "**REVERED COMPANIONS**\n\n- ANATHEMA PSYKANA units from your army\ngain the following the ability:\n\n**Null Aegis (Aura):**\n\nWhile an ADEPTUS CUSTODES unit is within 6″ of this unit, models in that unit have the Feel No Pain 5+ ability against Psychic Attacks and mortal wounds.\n\n- All other ADEPTUS CUSTODES units from\nyour army gain the following ability:\n\n**Deadly Unity (Aura):**\n\nWhile an ANATHEMA PSYKANA unit is within 6″ of this unit, each time a model in that ANATHEMA PSYKANA unit makes an attack, add 1 to the Hit roll."
-      },
-      "Detachment§Tharanatoi Hammerblow": {
-        "keywords": {
-          "Role": [
-            "Disruption"
-          ],
-          "Source": [
-            "Legends"
-          ]
-        },
-        "stats": {
-          "Detachment Points": {
-            "value": 1
-          }
-        },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**The Hammer Falls**\nIf a friendly **Adeptus Custodes Terminator** unit made an **ingress move** this turn, that unit can re‑roll **charge rolls**.\nThis **detachment** has the **LIONS** tag and cannot be taken with another **LIONS** **detachment**.",
-        "rules": {
-          "removeSameTagDetachments": {
-            "actions": [
-              {
-                "actionType": "remove",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "stats",
-                    "Detachment",
-                    "ranks"
-                  ]
-                ],
-                "value": "Lions of the Emperor"
-              }
-            ],
-            "evals": [],
-            "evaluate": "AND",
-            "failState": "pass",
-            "order": 10
-          }
-        }
-      },
       "Endeavour§Endeavour": {},
-      "Enhancement§Adamantine Talisman": {
-        "keywords": {
-          "Keywords": [
-            "Solar Spearhead"
-          ]
-        },
-        "rules": {
-          "apply": {
-            "actions": [
-              {
-                "actionType": "modify",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{parent}",
-                    "assets",
-                    "classification",
-                    "Melee Weapon",
-                    "stats",
-                    "S",
-                    "value"
-                  ],
-                  [
-                    "{parent}",
-                    "assets",
-                    "classIdentity",
-                    "Weapon",
-                    "assets",
-                    "classification",
-                    "Melee Weapon",
-                    "stats",
-                    "S",
-                    "value"
-                  ]
-                ],
-                "value": 1
-              },
-              {
-                "actionType": "modify",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{parent}",
-                    "assets",
-                    "classification",
-                    "Melee Weapon",
-                    "stats",
-                    "A",
-                    "value"
-                  ],
-                  [
-                    "{parent}",
-                    "assets",
-                    "classIdentity",
-                    "Weapon",
-                    "assets",
-                    "classification",
-                    "Melee Weapon",
-                    "stats",
-                    "A",
-                    "value"
-                  ]
-                ],
-                "value": 1
-              },
-              {
-                "actionType": "modify",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{parent}",
-                    "assets",
-                    "classification",
-                    "Melee Weapon",
-                    "stats",
-                    "D",
-                    "value"
-                  ],
-                  [
-                    "{parent}",
-                    "assets",
-                    "classIdentity",
-                    "Weapon",
-                    "assets",
-                    "classification",
-                    "Melee Weapon",
-                    "stats",
-                    "D",
-                    "value"
-                  ]
-                ],
-                "value": 1
-              }
-            ],
-            "evals": [],
-            "evaluate": "AND",
-            "failState": "pass"
-          }
-        },
-        "stats": {
-          "Points": {
-            "value": 25
-          }
-        },
-        "text": "Adeptus Custodes model only. Improve the Attacks,\nStrength and Damage characteristics of melee\nweapons equipped by the bearer by 1."
-      },
       "Enhancement§Admonimortis": {
         "keywords": {
           "Keywords": [
@@ -3678,60 +2779,6 @@
         },
         "text": "**Shield‑Captain** model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 3, and improve the Armour Penetration and Damage characteristics of those weapons by 1"
       },
-      "Enhancement§Aegis Projector": {
-        "keywords": {
-          "Keywords": [
-            "Talons of the Emperor"
-          ]
-        },
-        "stats": {
-          "Points": {
-            "value": 20
-          }
-        },
-        "text": "ADEPTUS CUSTODES model only. Once per turn, the first time a saving throw is failed for the bearer’s unit, change the Damage characteristic of that attack to 0."
-      },
-      "Enhancement§Augury Uplink": {
-        "keywords": {
-          "Keywords": [
-            "Solar Spearhead"
-          ]
-        },
-        "rules": {
-          "apply": {
-            "actions": [
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{parent}",
-                    "traits"
-                  ]
-                ],
-                "value": {
-                  "item": "Ability§Feel No Pain",
-                  "stats": {
-                    "x": {
-                      "value": "5+"
-                    }
-                  }
-                }
-              }
-            ],
-            "evals": [],
-            "evaluate": "AND",
-            "failState": "pass",
-            "order": 50
-          }
-        },
-        "stats": {
-          "Points": {
-            "value": 35
-          }
-        },
-        "text": "Adeptus Custodes model only. The bearer has the\nFeel No Pain 5+ ability."
-      },
       "Enhancement§Auramite Sarcophagus (Upgrade)": {
         "keywords": {
           "Keywords": [
@@ -3757,75 +2804,6 @@
         "aspects": {
           "Unique": false
         }
-      },
-      "Enhancement§Auric Mantle": {
-        "keywords": {
-          "Keywords": [
-            "Shield Host"
-          ]
-        },
-        "rules": {
-          "apply": {
-            "actions": [
-              {
-                "actionType": "modify",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{parent}",
-                    "stats",
-                    "W",
-                    "value"
-                  ]
-                ],
-                "value": 2
-              }
-            ],
-            "evals": [],
-            "evaluate": "AND",
-            "failState": "pass"
-          },
-          "Shield-captain or Blade Champion model only.": {
-            "evals": [
-              {
-                "actionable": true,
-                "contains": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{parent}",
-                    "keywords",
-                    "Keywords"
-                  ]
-                ],
-                "value": "Shield-captain"
-              },
-              {
-                "actionable": true,
-                "contains": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{parent}",
-                    "keywords",
-                    "Keywords"
-                  ]
-                ],
-                "value": "Blade Champion"
-              }
-            ],
-            "evaluate": "OR",
-            "failState": "error"
-          }
-        },
-        "stats": {
-          "Points": {
-            "value": 15
-          }
-        },
-        "text": "**Shield-Captain** or **Blade Champion** model only. Add 2 to the bearer’s Wounds characteristic."
       },
       "Enhancement§Blade Imperator": {
         "keywords": {
@@ -3874,45 +2852,6 @@
           }
         },
         "text": "**ADEPTUS CUSTODES** model only. When both players have deployed their armies, you can redeploy up to three friendly **ADEPTUS CUSTODES** units. When doing so, you can set those units up in **strategic reserves**, regardless of how many units are already in **strategic reserves**."
-      },
-      "Enhancement§Champion of the Imperium": {
-        "keywords": {
-          "Keywords": [
-            "Talons of the Emperor"
-          ]
-        },
-        "stats": {
-          "Points": {
-            "value": 25
-          }
-        },
-        "text": "**ADEPTUS CUSTODES** model only. The range of the bearer’s Null Aegis or Deadly Unity ability is increased to 9\"."
-      },
-      "Enhancement§Efficient Aggression": {
-        "keywords": {
-          "Keywords": [
-            "Tharanatoi Hammerblow"
-          ]
-        },
-        "stats": {
-          "Points": {
-            "value": 25
-          }
-        },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Adeptus Custodes Terminator** model only. (Once per turn, per army) In your opponent’s Shooting phase, when an enemy unit has shot, if this unit lost a wound as a result of those attacks, this unit can make a **surge move** of up to D6+1\"."
-      },
-      "Enhancement§Encircling Hunter": {
-        "keywords": {
-          "Keywords": [
-            "Silent Hunters"
-          ]
-        },
-        "stats": {
-          "Points": {
-            "value": 15
-          }
-        },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Anathema Psykana** model only. When both players have deployed their armies, you can redeploy up to three friendly **Anathema Psykana Infantry** units. When doing so, you can set those units up in **strategic reserves**, regardless of how many units are already in **strategic reserves**."
       },
       "Enhancement§Enhanced Voidsheen Cloak": {
         "keywords": {
@@ -4082,54 +3021,6 @@
         },
         "text": "**ADEPTUS CUSTODES** model only. This model’s melee attacks have **[DEVASTATING WOUNDS]**."
       },
-      "Enhancement§Gift of Terran Artifice": {
-        "keywords": {
-          "Keywords": [
-            "Talons of the Emperor"
-          ]
-        },
-        "stats": {
-          "Points": {
-            "value": 15
-          }
-        },
-        "text": "**ADEPTUS CUSTODES** model only. Each time the bearer makes a melee attack, add 1 to the Wound roll."
-      },
-      "Enhancement§Honoured Fallen": {
-        "keywords": {
-          "Keywords": [
-            "Solar Spearhead"
-          ]
-        },
-        "rules": {
-          "Vehicle model only.": {
-            "evals": [
-              {
-                "actionable": true,
-                "contains": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{parent}",
-                    "keywords",
-                    "Keywords"
-                  ]
-                ],
-                "value": "Vehicle"
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "error"
-          }
-        },
-        "stats": {
-          "Points": {
-            "value": 15
-          }
-        },
-        "text": "Adeptus Custodes Vehicle model only. While a\nfriendly Adeptus Custodes Infantry or Adeptus\nCustodes Mounted unit is within 6\" of the bearer, each\ntime a model in that unit makes an attack, re‑roll a\nHit roll of 1."
-      },
       "Enhancement§Huntress’ Eye": {
         "keywords": {
           "Keywords": [
@@ -4274,19 +3165,6 @@
         },
         "text": "**Adeptus Custodes** model only. The bearer’s unit is eligible to shoot and/or declare a charge in a turn in which it Fell Back. Once per battle, when an enemy unit ends a Normal, Advance or Fall Back move within 9″ of the bearer, if the bearer’s unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6″."
       },
-      "Enhancement§Mnemo-locked Shrine Cipher": {
-        "keywords": {
-          "Keywords": [
-            "Tharanatoi Hammerblow"
-          ]
-        },
-        "stats": {
-          "Points": {
-            "value": 25
-          }
-        },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Adeptus Custodes Terminator** model only. In your first Movement phase, this unit can make an **ingress move**."
-      },
       "Enhancement§Oblivion Knight": {
         "keywords": {
           "Keywords": [
@@ -4321,55 +3199,6 @@
           }
         },
         "text": "**ANATHEMA PSYKANA** model only. This unit’s attacks have: \n\n- +1 to **hit rolls**.\n\n- __Or:__ If this unit targets a **PSYKER**/**battle-shocked** unit, +1 to **hit rolls** and **wound rolls**."
-      },
-      "Enhancement§Panoptispex": {
-        "keywords": {
-          "Keywords": [
-            "Shield Host"
-          ]
-        },
-        "rules": {
-          "Shield-Captain or Blade Champion model only.": {
-            "evals": [
-              {
-                "actionable": true,
-                "contains": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{parent}",
-                    "keywords",
-                    "Keywords"
-                  ]
-                ],
-                "value": "Shield-captain"
-              },
-              {
-                "actionable": true,
-                "contains": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{parent}",
-                    "keywords",
-                    "Keywords"
-                  ]
-                ],
-                "value": "Blade Champion"
-              }
-            ],
-            "evaluate": "OR",
-            "failState": "error"
-          }
-        },
-        "stats": {
-          "Points": {
-            "value": 5
-          }
-        },
-        "text": "**Shield-Captain** or **Blade Champion** model only. While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability."
       },
       "Enhancement§Praesidius": {
         "keywords": {
@@ -4415,32 +3244,6 @@
           }
         },
         "text": "**Adeptus Custodes** model only. The bearer has the Lone Operative and Stealth abilities."
-      },
-      "Enhancement§Psyk-out Grenades (Upgrade)": {
-        "keywords": {
-          "Keywords": [
-            "Silent Hunters"
-          ],
-          "Tags": [
-            "Upgrade"
-          ]
-        },
-        "stats": {
-          "Points": {
-            "value": 10
-          }
-        },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Anathema Psykana** unit only.\n\n- This unit has **Explosives**.\n\n- When you target this unit with the **Explosives stratagem**, if you select an enemy **Psyker** unit, you can re-roll rolls to determine whether that enemy unit suffers a **mortal wound**.",
-        "removed": {
-          "keywords": {
-            "Tags": [
-              "Character Only"
-            ]
-          }
-        },
-        "aspects": {
-          "Unique": false
-        }
       },
       "Enhancement§Radiant Mantle": {
         "keywords": {
@@ -4702,55 +3505,6 @@
           }
         },
         "text": "**Adeptus Custodes** model only. Add 2 to the Attacks characteristic of the bearer’s melee weapons. Once per battle, at the start of any Command phase, triple the bearer’s Objective Control characteristic until the end of the turn."
-      },
-      "Enhancement§Veteran of the Kataphraktoi": {
-        "keywords": {
-          "Keywords": [
-            "Solar Spearhead"
-          ]
-        },
-        "rules": {
-          "Infantry or Mounted model only.": {
-            "evals": [
-              {
-                "actionable": true,
-                "contains": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{parent}",
-                    "keywords",
-                    "Keywords"
-                  ]
-                ],
-                "value": "Infantry"
-              },
-              {
-                "actionable": true,
-                "contains": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{parent}",
-                    "keywords",
-                    "Keywords"
-                  ]
-                ],
-                "value": "Mounted"
-              }
-            ],
-            "evaluate": "OR",
-            "failState": "error"
-          }
-        },
-        "stats": {
-          "Points": {
-            "value": 10
-          }
-        },
-        "text": "**Adeptus Custodes Infantry** or **Adeptus Custodes\nMounted** model only. In your Command phase, select\none **Adeptus Custodes Vehicle** or **Adeptus Custodes\nMounted** unit within 6\" of the bearer. Until the start\nof your next Command phase, that unit is eligible to\nshoot in a turn in which it Fell Back."
       },
       "Magisterium Lex Ultima§Endeavour": {
         "stats": {
@@ -9324,25 +8078,6 @@
       },
       "Roster§Roster": {
         "rules": {
-          "Only 2 Character Walkers for Solar": {
-            "evals": [
-              {
-                "actionable": true,
-                "max": 2,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "tracked",
-                    "characterwalker"
-                  ]
-                ]
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "error"
-          },
           "Your Crusade force can only have one Artefact of the Vaults at any time.": {
             "evals": [
               {
@@ -9361,107 +8096,11 @@
             ],
             "evaluate": "AND",
             "failState": "error"
-          },
-          "hideLegendsDetachments (Adeptus_Custodes)": {
-            "evals": [
-              {
-                "actionable": true,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Legends",
-                    "value"
-                  ]
-                ],
-                "value": "-"
-              }
-            ],
-            "actions": [
-              {
-                "actionType": "remove",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Detachment",
-                    "ranks"
-                  ]
-                ],
-                "value": "Shield Host"
-              },
-              {
-                "actionType": "remove",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Detachment",
-                    "ranks"
-                  ]
-                ],
-                "value": "Silent Hunters"
-              },
-              {
-                "actionType": "remove",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Detachment",
-                    "ranks"
-                  ]
-                ],
-                "value": "Solar Spearhead"
-              },
-              {
-                "actionType": "remove",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Detachment",
-                    "ranks"
-                  ]
-                ],
-                "value": "Talons of the Emperor"
-              },
-              {
-                "actionType": "remove",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{self}",
-                    "stats",
-                    "Detachment",
-                    "ranks"
-                  ]
-                ],
-                "value": "Tharanatoi Hammerblow"
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "pass",
-            "order": 9
           }
         },
         "stats": {
           "Detachment": {
             "ranks": {
-              "Shield Host": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Detachment§Shield Host"
-                  }
-                ]
-              },
               "Auric Champions": {
                 "order": 2,
                 "traits": [
@@ -9470,27 +8109,11 @@
                   }
                 ]
               },
-              "Talons of the Emperor": {
-                "order": 3,
-                "traits": [
-                  {
-                    "trait": "Detachment§Talons of the Emperor"
-                  }
-                ]
-              },
               "Null Maiden Vigil": {
                 "order": 4,
                 "traits": [
                   {
                     "trait": "Detachment§Null Maiden Vigil"
-                  }
-                ]
-              },
-              "Solar Spearhead": {
-                "order": 5,
-                "traits": [
-                  {
-                    "trait": "Detachment§Solar Spearhead"
                   }
                 ]
               },
@@ -9507,22 +8130,6 @@
                 "traits": [
                   {
                     "trait": "Detachment§Might Of The Moritoi"
-                  }
-                ]
-              },
-              "Silent Hunters": {
-                "order": 8,
-                "traits": [
-                  {
-                    "trait": "Detachment§Silent Hunters"
-                  }
-                ]
-              },
-              "Tharanatoi Hammerblow": {
-                "order": 9,
-                "traits": [
-                  {
-                    "trait": "Detachment§Tharanatoi Hammerblow"
                   }
                 ]
               },
@@ -9599,7 +8206,7 @@
                 ]
               }
             },
-            "value": "Shield Host"
+            "value": "Auric Champions"
           },
           "Faction": {
             "dynamic": false,
@@ -9659,46 +8266,6 @@
         },
         "text": "**WHEN:** Fight phase, when a friendly **VIGILATOR SQUAD** unit is **selected to fight**.\n\n**TARGET:** That **VIGILATOR SQUAD** unit.\n\n**EFFECT:** Your unit’s attacks have: \n\n- **[SUSTAINED HITS 1]**\n\n- __Or:__ **[LETHAL HITS]**."
       },
-      "Stratagem§Arcane Genetic Alchemy": {
-        "keywords": {
-          "Keywords": [
-            "Adeptus Custodes",
-            "Shield Host"
-          ],
-          "Phase": [
-            "Any"
-          ],
-          "Category": [
-            "Battle Tactic"
-          ],
-          "Turn": [
-            "Opponent’s",
-            "Yours"
-          ]
-        },
-        "stats": {
-          "Command Cost": {}
-        },
-        "text": "**WHEN**: Any phase, just after a mortal wound has been allocated to an **Adeptus Custodes** model from your ability (excluding **Anathema Psykana** models).\n\n**TARGET**: That **Adeptus Custodes** model’s unit.\n\n**EFFECT**: Until the end of the phase, models in your unit have the Feel No Pain +4 ability against mortal wounds."
-      },
-      "Stratagem§Archeotech Munitions": {
-        "keywords": {
-          "Keywords": [
-            "Adeptus Custodes",
-            "Shield Host"
-          ],
-          "Phase": [
-            "Shooting"
-          ],
-          "Category": [
-            "Wargear"
-          ],
-          "Turn": [
-            "Yours"
-          ]
-        },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One **Adeptus Custodes** unit from your army (excluding **Anathema Psykana** units) that has not been selected to shoot this phase.\n\n**EFFECT**: Select either the [LETHAL HITS] or [SUSTAINED HITS 1] ability. Until the end of the phase, ranged weapons equipped by models in your unit have the selected ability."
-      },
       "Stratagem§Avenge the Fallen": {
         "keywords": {
           "Keywords": [
@@ -9717,87 +8284,6 @@
           ]
         },
         "text": "**WHEN:** Fight phase, when a friendly **TRUSTED SENTINEL** unit that is below **starting strength** is **selected to fight**.\n\n**TARGET:** That **TRUSTED SENTINEL** unit.\n\n**EFFECT:** Your unit’s melee attacks (excluding those made by **CHARACTER** models) have +2 **A**."
-      },
-      "Stratagem§Emperor’s Executioners": {
-        "keywords": {
-          "Category": [
-            "Battle Tactic"
-          ],
-          "Turn": [
-            "Opponent’s",
-            "Yours"
-          ],
-          "Phase": [
-            "Fight"
-          ],
-          "Keywords": [
-            "Adeptus Custodes",
-            "Talons of the Emperor"
-          ]
-        },
-        "stats": {
-          "Command Cost": {
-            "value": 2
-          }
-        },
-        "text": "**WHEN**: Start of the Fight phase.\n\n**TARGET**: Up to two **ADEPTUS CUSTODES** units from your army.\n\n**EFFECT:** Until the end of the phase, each time a model in one of your units targets an enemy unit that is below its Starting Strength, add 1 to the Wound roll.\n\n**RESTRICTIONS**: You can only select two units if one (and only one) of them is an **ANATHEMA PSYKANA** unit and both are within 6″ of each other."
-      },
-      "Stratagem§Emperor's Vengeance": {
-        "keywords": {
-          "Keywords": [
-            "Solar Spearhead"
-          ],
-          "Category": [
-            "Battle Tactic"
-          ],
-          "Turn": [
-            "Opponent’s",
-            "Yours"
-          ],
-          "Phase": [
-            "Fight"
-          ]
-        },
-        "text": "**WHEN**: Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One Adeptus Custodes unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if your unit has the Walker keyword. On a 4+, do not remove it from play; The destroyed model can fight after the attacking unit has finished making its attacks (when doing so, it is assumed to have 1 wound remaining), and is then removed from play."
-      },
-      "Stratagem§Empyric Severance": {
-        "keywords": {
-          "Category": [
-            "Battle Tactic"
-          ],
-          "Turn": [
-            "Opponent’s",
-            "Yours"
-          ],
-          "Phase": [
-            "Fight",
-            "Shooting"
-          ],
-          "Keywords": [
-            "Adeptus Custodes",
-            "Talons of the Emperor"
-          ]
-        },
-        "text": "**WHEN**: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One **ADEPTUS CUSTODES** unit from your army that was selected as the target of one or more of the attacking unit’s attacks, and one friendly **ANATHEMA PSYKANA** unit within 6″ of that **ADEPTUS CUSTODES** unit.\n\n**EFFECT**: Until the end of the phase, your unit has the Feel No Pain 4+ ability against Psychic attacks and mortal wounds."
-      },
-      "Stratagem§Flawless Construction": {
-        "keywords": {
-          "Category": [
-            "Battle Tactic"
-          ],
-          "Keywords": [
-            "Solar Spearhead"
-          ],
-          "Turn": [
-            "Opponent’s",
-            "Yours"
-          ],
-          "Phase": [
-            "Fight",
-            "Shooting"
-          ]
-        },
-        "text": "**WHEN**: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One Adeptus Custodes Vehicle unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT**: Until the end of the phase, each time an attack targets a model in your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll."
       },
       "Stratagem§Gilded Champion": {
         "keywords": {
@@ -9818,24 +8304,6 @@
         },
         "text": "**WHEN:** Any phase, when a friendly **ADEPTUS CUSTODES CHARACTER** model has used a (Once per battle, per unit) datasheet ability.\n\n**TARGET:** That **ADEPTUS CUSTODES CHARACTER** model.\n\n**EFFECT:** Your model can use that (Once per battle, per unit) datasheet ability one additional time, but not in the same phase.\n\n**RESTRICTIONS:** You cannot use this **stratagem** on the same **ADEPTUS CUSTODES CHARACTER** model more than once per battle."
       },
-      "Stratagem§Hunt as One": {
-        "keywords": {
-          "Keywords": [
-            "Adeptus Custodes",
-            "Talons of the Emperor"
-          ],
-          "Category": [
-            "Strategic Ploy"
-          ],
-          "Turn": [
-            "Yours"
-          ],
-          "Phase": [
-            "Movement"
-          ]
-        },
-        "text": "**WHEN**: Start of your Movement phase.\n\n**TARGET**: Up to two **ADEPTUS CUSTODES** units from your army.\n\n**EFFECT**: Until the end of the turn, your units are eligible to shoot and/or declare a charge in a turn in which they Fell Back.\n\n**RESTRICTIONS**: You can only select two units if one (and only one) of them is an **ANATHEMA PSYKANA** unit and both are within 6″ of each other."
-      },
       "Stratagem§Manoeuvre And Fire": {
         "keywords": {
           "Keywords": [
@@ -9853,24 +8321,6 @@
           ]
         },
         "text": "**WHEN:** Your Movement phase, when a friendly **ADEPTUS CUSTODES** unit is selected to make a **fall-back move**.\n\n**TARGET:** That **ADEPTUS CUSTODES** unit.\n\n**EFFECT:** That move does not prevent your unit from being **eligible to shoot/declare a charge**."
-      },
-      "Stratagem§Multipotentiality": {
-        "keywords": {
-          "Phase": [
-            "Movement"
-          ],
-          "Keywords": [
-            "Adeptus Custodes",
-            "Shield Host"
-          ],
-          "Category": [
-            "Strategic Ploy"
-          ],
-          "Turn": [
-            "Yours"
-          ]
-        },
-        "text": "**WHEN**: Your Movement phase.\n\n**TARGET**: One **Adeptus Custodes** unit from your army Fell Back this phase.\n\n**EFFECT**: Until the end of your turn, that unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
       },
       "Stratagem§Psy-Chaff Volley": {
         "keywords": {
@@ -9890,23 +8340,6 @@
         },
         "text": "**WHEN:** Your Shooting phase, when a friendly **PROSECUTOR SQUAD** unit has shot.\n\n**TARGET:** That **PROSECUTOR SQUAD** unit.\n\n**EFFECT:** Select one enemy unit hit by those attacks. That unit is **prosecuted** until the end of the turn:\n\n- Attacks that target a **prosecuted** unit have +1 **AP**."
       },
-      "Stratagem§Punishment Inescapable": {
-        "keywords": {
-          "Keywords": [
-            "Solar Spearhead"
-          ],
-          "Category": [
-            "Strategic Ploy"
-          ],
-          "Turn": [
-            "Yours"
-          ],
-          "Phase": [
-            "Shooting"
-          ]
-        },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: One Adeptus Custodes unit from your army that has not been selected to shoot this phase.\n\n**EFFECT**: Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability, and until the end of the phase, each time a model in your unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic Skill characteristic and/or any or all modifiers to the Hit roll."
-      },
       "Stratagem§Purgation Sweep": {
         "keywords": {
           "Category": [
@@ -9924,23 +8357,6 @@
           ]
         },
         "text": "**WHEN:** Your Shooting phase, when a friendly **WITCHSEEKER SQUAD** unit is **selected to shoot**.\n\n**TARGET:** That **WITCHSEEKER SQUAD** unit.\n\n**EFFECT:** Your unit’s **[TORRENT]** attacks have:\n\n- +1 **A**.\n\n- __Or:__ If those attacks target a **PSYKER**/**battle shocked** unit, +2 **A**."
-      },
-      "Stratagem§Relentless Persecution": {
-        "keywords": {
-          "Keywords": [
-            "Solar Spearhead"
-          ],
-          "Category": [
-            "Strategic Ploy"
-          ],
-          "Turn": [
-            "Yours"
-          ],
-          "Phase": [
-            "Movement"
-          ]
-        },
-        "text": "**WHEN**: Your Movement phase, just after an Adeptus Custodes Vehicle unit from your army Advances.\n\n**TARGET**: That Adeptus Custodes Vehicle unit.\n\n**EFFECT**: Until the end of the turn, your unit is eligible to shoot in a turn in which it Advanced. If your unit has the Walker keyword, until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced instead."
       },
       "Stratagem§Shield of Honour": {
         "keywords": {
@@ -9979,42 +8395,6 @@
         },
         "text": "**WHEN:** Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly **unengaged** **TRUSTED SENTINEL** unit.\n\n**TARGET:** That **TRUSTED SENTINEL** unit.\n\n**EFFECT:** Your unit can make a **normal move** of up to D3+3\"."
       },
-      "Stratagem§Taloned Pincer": {
-        "keywords": {
-          "Category": [
-            "Battle Tactic"
-          ],
-          "Turn": [
-            "Opponent’s"
-          ],
-          "Phase": [
-            "Movement"
-          ],
-          "Keywords": [
-            "Adeptus Custodes",
-            "Talons of the Emperor"
-          ]
-        },
-        "text": "**WHEN**: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\n**TARGET**: Up to two **ADEPTUS CUSTODES** units from your army that are within 9″ of that enemy unit..\n\n**EFFECT**: Your units can make a Normal move of up to 5″.\n\n**RESTRICTIONS**: You cannot select units that are within Engagement Range of one or more enemy units. You can only select two units if one (and only one) of them is an **ANATHEMA PSYKANA** unit and both are within 6″ of each other."
-      },
-      "Stratagem§Talons Interlocked": {
-        "keywords": {
-          "Category": [
-            "Battle Tactic"
-          ],
-          "Keywords": [
-            "Adeptus Custodes",
-            "Talons of the Emperor"
-          ],
-          "Turn": [
-            "Yours"
-          ],
-          "Phase": [
-            "Shooting"
-          ]
-        },
-        "text": "**WHEN**: Your Shooting phase.\n\n**TARGET**: Up to two **ADEPTUS CUSTODES INFANTRY** units from your army, and one enemy unit that is an eligible target for all of those units.\n\n**EFFECT**: Until the end of the phase, your units can only target that enemy unit, but each time a model in one of your units makes a ranged attack, improve the Strength and Armour Penetration characteristics. of that attack by 1.\n\n**RESTRICTIONS**: You can only select two units if one (and only one) of them is an **ANATHEMA PSYKANA** unit and both are within 6″ of each other."
-      },
       "Stratagem§Unleash The Lions": {
         "keywords": {
           "Keywords": [
@@ -10032,45 +8412,6 @@
           ]
         },
         "text": "**WHEN:** Your Command phase.\n\n**TARGET:** One friendly **ADEPTUS CUSTODES TERMINATOR** unit that has 2+ models.\n\n**EFFECT:** Your unit is split into separate units, each containing __one__ model. These new units each have a **starting strength** of 1."
-      },
-      "Stratagem§Unstoppable": {
-        "keywords": {
-          "Category": [
-            "Strategic Ploy"
-          ],
-          "Keywords": [
-            "Solar Spearhead"
-          ],
-          "Turn": [
-            "Yours"
-          ],
-          "Phase": [
-            "Movement"
-          ]
-        },
-        "text": "**WHEN**: Start of your Movement phase.\n\n**TARGET**: One Adeptus Custodes Vehicle or Adeptus Custodes Mounted unit from your army.\n\n**EFFECT**: Until the end of the phase, models in your unit can move horizontally through models and terrain features."
-      },
-      "Stratagem§Unwavering Sentinels": {
-        "keywords": {
-          "Keywords": [
-            "Adeptus Custodes",
-            "Shield Host"
-          ],
-          "Phase": [
-            "Fight"
-          ],
-          "Category": [
-            "Strategic Ploy"
-          ],
-          "Turn": [
-            "Opponent’s",
-            "Yours"
-          ]
-        },
-        "stats": {
-          "Command Cost": {}
-        },
-        "text": "**WHEN**: Fight phase, just after an enemy unit has selected its targets.\n\n**TARGET**: One **Adeptus Custodes Infantry** unit from your army (excluding **Anathema Psykana** units) that is within range of an objective marker you control and that was selected as the target of one or more of the attacking unit’s attacks.\n\n**EFFECT**: Until the end of the phase, each time a melee attack targets your unit, subtract 1 from the Hit roll."
       },
       "Stratagem§Vigil Unending": {
         "keywords": {
@@ -10096,42 +8437,6 @@
           }
         },
         "text": "**WHEN:** Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly **ADEPTUS CUSTODES TERMINATOR** unit.\n\n**TARGET:** That **ADEPTUS CUSTODES TERMINATOR** unit.\n\n**EFFECT:** Attacks that target your unit have -1 **D** until that enemy unit has attacked."
-      },
-      "Stratagem§Vigililance Eternal": {
-        "keywords": {
-          "Keywords": [
-            "Adeptus Custodes",
-            "Shield Host"
-          ],
-          "Phase": [
-            "Command"
-          ],
-          "Category": [
-            "Strategic Ploy"
-          ],
-          "Turn": [
-            "Yours"
-          ]
-        },
-        "text": "**WHEN**: Your Movement phase.\n\n**TARGET**: One **Adeptus Custodes Battleline** unit from your army (excluding **Anathema Psykana** units) within range of an objective marker you control.\n\n**EFFECT**: That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
-      },
-      "Stratagem§Wrathful Advance": {
-        "keywords": {
-          "Keywords": [
-            "Solar Spearhead"
-          ],
-          "Category": [
-            "Battle Tactic"
-          ],
-          "Turn": [
-            "Opponent’s",
-            "Yours"
-          ],
-          "Phase": [
-            "Fight"
-          ]
-        },
-        "text": "**WHEN**: Fight phase, just before an Adeptus\nCustodes unit from your army Piles In.\n\n**TARGET**: That Adeptus Custodes unit.\n\n**EFFECT**: Until the end of the phase, each time a model in your unit makes a Pile‑in move, it can move up to D3+3\" instead of up to 3\"."
       },
       "Unit§Agamatus Custodians": {
         "allowed": {

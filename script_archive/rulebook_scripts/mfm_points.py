@@ -314,6 +314,9 @@ for slug, b in SLUG_TO_FILE.items():
             if set_target(b, dk, mut, "detachment"):
                 log.append(f"{b} {dk}: DP {det.get('dp')} Role {roles}")
         for e in det.get("enhancements") or []:
+            if not dks:  # detachment not in Rz: its enhancements must not price same-named ones elsewhere
+                absent["enhancement"].append(f"{b}: {e['name']} ({det['name']})")
+                continue
             if len(enh_prices[norm(strip_paren(e["name"]))]) > 1:
                 continue
             ek = next((x for x in keys if x.startswith("Enhancement§") and norm(x[12:]) == norm(e["name"])), None) \
