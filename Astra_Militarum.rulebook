@@ -3832,46 +3832,7 @@
         }
       },
       "Character§Ministorum Priest": {
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Cadian Shock Troops\n\n* Catachan Jungle Fighters\n\n* Death Korps Grenadier Squad\n\n* Death Korps Of Krieg\n\n* Kasrkin\n\n* Krieg Combat Engineers\n\n* Tempestus Scions"
-            },
-            "Ability§War Hymns",
-            "Ability§Holy Piety",
-            {
-              "item": "Ability§Invulnerable",
-              "stats": {
-                "x": {
-                  "value": "4+"
-                }
-              }
-            }
-          ]
-        },
-        "keywords": {
-          "Faction": [
-            "Astra Militarum"
-          ],
-          "Source": [
-            "10th Edition Codex"
-          ],
-          "Keywords": [
-            "Infantry",
-            "Character",
-            "Imperium",
-            "Grenades",
-            "Ministorum Priest"
-          ],
-          "Category": [
-            "Character"
-          ]
-        },
         "stats": {
-          "Ld": {
-            "value": 7
-          },
           "Loadout Options": {
             "dynamic": true,
             "group": "Loadout",
@@ -3901,24 +3862,27 @@
             "value": "Zealot’s vindictor",
             "visibility": "active"
           },
-          "M": {
-            "value": 6
-          },
-          "OC": {
-            "value": 1
-          },
           "Points": {
             "value": 35
-          },
-          "Sv": {
-            "value": 6
-          },
-          "T": {
-            "value": 3
-          },
-          "W": {
-            "value": 3
           }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Cadian Shock Troops\n\n* Catachan Jungle Fighters\n\n* Death Korps Grenadier Squad\n\n* Death Korps Of Krieg\n\n* Kasrkin\n\n* Krieg Combat Engineers\n\n* Tempestus Scions"
+            },
+            "Ability§War Hymns",
+            "Ability§Holy Piety"
+          ]
+        },
+        "keywords": {
+          "Faction": [
+            "Astra Militarum"
+          ],
+          "Keywords": [
+            "Grenades"
+          ]
         }
       },
       "Character§Nork Deddog": {
@@ -4906,67 +4870,29 @@
         }
       },
       "Character§Tech-Priest Enginseer": {
+        "stats": {
+          "Points": {
+            "value": 45
+          }
+        },
         "assets": {
           "traits": [
             {
               "item": "Ability§Leader",
               "text": "This model can be attached to the following units:\n\n* Cadian Shock Troops\n\n* Catachan Jungle Fighters\n\n* Death Korps Grenadier Squad\n\n* Death Korps Of Krieg\n\n* Kasrkin\n\n* Krieg Combat Engineers"
             },
-            "Ability§Enginseer",
-            "Ability§Omnissiah’s Blessing",
             "Ability§Vengeance for the Omnissiah",
-            {
-              "item": "Ability§Invulnerable",
-              "stats": {
-                "x": {
-                  "value": "5+"
-                }
-              }
-            },
             "Ranged Weapon§Tech-Priest Enginseer—Archeotech pistol",
-            "Melee Weapon§Tech-Priest Enginseer—Enginseer axe",
-            "Melee Weapon§Tech-Priest Enginseer—Servo-arm"
+            "Melee Weapon§Tech-Priest Enginseer—Enginseer axe"
           ]
         },
         "keywords": {
           "Faction": [
             "Astra Militarum"
           ],
-          "Source": [
-            "10th Edition Codex"
-          ],
           "Keywords": [
-            "Character",
-            "Imperium",
-            "Infantry",
             "Tech-Priest Enginseer"
-          ],
-          "Category": [
-            "Character"
           ]
-        },
-        "stats": {
-          "Ld": {
-            "value": 7
-          },
-          "M": {
-            "value": 6
-          },
-          "OC": {
-            "value": 1
-          },
-          "Points": {
-            "value": 45
-          },
-          "Sv": {
-            "value": 3
-          },
-          "T": {
-            "value": 4
-          },
-          "W": {
-            "value": 3
-          }
         }
       },
       "Character§Ursula Creed": {
@@ -16587,32 +16513,6 @@
           }
         }
       },
-      "Melee Weapon§Ministorum Priest—Power weapon": {
-        "aspects": {
-          "Label": "Power weapon"
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 4
-          },
-          "WS": {
-            "value": 3
-          }
-        }
-      },
       "Melee Weapon§Minotaur—Armoured tracks": {
         "aspects": {
           "Label": "Armoured tracks"
@@ -17866,63 +17766,6 @@
           },
           "D": {
             "value": 1
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 6
-          },
-          "WS": {
-            "value": 4
-          }
-        }
-      },
-      "Melee Weapon§Tech-Priest Enginseer—Enginseer axe": {
-        "aspects": {
-          "Label": "Enginseer axe"
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 6
-          },
-          "WS": {
-            "value": 4
-          }
-        }
-      },
-      "Melee Weapon§Tech-Priest Enginseer—Servo-arm": {
-        "aspects": {
-          "Label": "Servo-arm"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Extra Attacks"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 2
           },
           "Range": {
             "statType": "term",
@@ -41742,36 +41585,6 @@
           }
         }
       },
-      "Ranged Weapon§Ministorum Priest—Holy pistol": {
-        "aspects": {
-          "Label": "Holy pistol"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Pistol"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": 0
-          },
-          "BS": {
-            "value": 4
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 4
-          }
-        }
-      },
       "Ranged Weapon§Minotaur—Minotaur twin earthshaker cannon": {
         "aspects": {
           "Label": "Minotaur twin earthshaker cannon"
@@ -46280,37 +46093,6 @@
           },
           "S": {
             "value": 9
-          }
-        }
-      },
-      "Ranged Weapon§Tech-Priest Enginseer—Archeotech pistol": {
-        "aspects": {
-          "Label": "Archeotech pistol"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Pistol"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": 0
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 6
           }
         }
       },
@@ -60490,61 +60272,6 @@
           }
         }
       },
-      "Ranged Weapon§Ministorum Priest—Zealot’s vindictor – Ranged": {
-        "aspects": {
-          "Label": "Zealot’s vindictor – Ranged"
-        },
-        "stats": {
-          "Range": {
-            "value": 12
-          },
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Torrent",
-            "Ability§Ignores Cover"
-          ]
-        }
-      },
-      "Melee Weapon§Ministorum Priest—Zealot’s vindictor – Melee": {
-        "aspects": {
-          "Label": "Zealot’s vindictor – Melee"
-        },
-        "stats": {
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "A": {
-            "value": 3
-          },
-          "WS": {
-            "value": 4
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 2
-          }
-        }
-      },
       "Ranged Weapon§Ogryn Bodyguard—Ripper gun – Ranged": {
         "aspects": {
           "Label": "Ripper gun – Ranged"
@@ -60697,34 +60424,10 @@
         }
       },
       "Ranged Weapon§Tech-Priest Enginseer—Mechanicus pistol": {
-        "aspects": {
-          "Label": "Mechanicus pistol"
-        },
         "stats": {
-          "Range": {
-            "value": 12
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 6
-          },
           "AP": {
             "value": 0
-          },
-          "D": {
-            "value": 1
           }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Pistol",
-            "Ability§Devastating Wounds"
-          ]
         }
       },
       "Ranged Weapon§Tempestus Scions—Plasma pistol – standard": {
@@ -60811,82 +60514,6 @@
           "D": {
             "value": 1
           }
-        }
-      },
-      "Melee Weapon§Ministorum Priest—Zealot's vindicator": {
-        "aspects": {
-          "Label": "Melee"
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 5
-          },
-          "WS": {
-            "value": 4
-          }
-        }
-      },
-      "Ranged Weapon§Ministorum Priest—Zealot's vindicator": {
-        "aspects": {
-          "Label": "Ranged"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
-          ]
-        },
-        "stats": {
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "AP": {
-            "value": 0
-          },
-          "BS": {
-            "format": "{t}",
-            "statType": "term",
-            "value": "N/A"
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 5
-          }
-        }
-      },
-      "Weapon§Ministorum Priest—Zealot's vindicator": {
-        "aspects": {
-          "Label": "Zealot's vindicator"
-        },
-        "assets": {
-          "traits": [
-            "Melee Weapon§Ministorum Priest—Zealot's vindicator",
-            "Ranged Weapon§Ministorum Priest—Zealot's vindicator"
-          ]
-        },
-        "keywords": {
-          "Tags": [
-            "Multi-weapon"
-          ]
         }
       },
       "Ranged Weapon§Platoon Command Squad—Plasma pistol – standard": {
@@ -61826,56 +61453,11 @@
       "Ranged Weapon§Ministorum Priest—Zealot’s vindictor": {
         "aspects": {
           "Label": "Zealot’s vindictor"
-        },
-        "stats": {
-          "Range": {
-            "value": 12
-          },
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
-          ]
         }
       },
       "Melee Weapon§Ministorum Priest—Zealot’s vindictor": {
         "aspects": {
           "Label": "Zealot’s vindictor"
-        },
-        "stats": {
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "A": {
-            "value": 3
-          },
-          "WS": {
-            "value": 4
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 2
-          }
         }
       },
       "Melee Weapon§Provisionally Prepared—Close combat weapons": {

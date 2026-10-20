@@ -255,17 +255,6 @@
       "Ability§Stimulated by Pain": {
         "text": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
       },
-      "Ability§Terrifying Crescendo": {
-        "keywords": {
-          "Keywords": [
-            "Other"
-          ]
-        },
-        "text": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next Shooting phase, each time a Battle-shock or Leadership test is taken for that enemy unit, subtract 1 from that test."
-      },
-      "Ability§Thrill Seekers": {
-        "text": "If your Army Faction is Emperor’s Children, this unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back, but when doing so:\n\n- It cannot target a unit it was within Engagement Range of at the start of the turn.\n\n- It cannot target a unit that was the target of another unit’s charge or attack this phase."
-      },
       "Ability§Warped Interference (Psychic)": {
         "text": "While this model is leading a unit, each time a ranged attack targets that unit, models in it have the Benefit of Cover against that attack."
       },
@@ -972,54 +961,26 @@
             },
             "Ability§Thrill Seekers",
             "Ranged Weapon§Sorcerer—Bolt pistol",
-            "Melee Weapon§Sorcerer—Force weapon",
             "Ranged Weapon§Sorcerer—Agonising Energies",
             "Ability§Warped Interference (Psychic)",
             "Ability§Wracking Agonies (Psychic)"
           ]
         },
+        "stats": {
+          "M": {
+            "value": 7
+          },
+          "Points": {
+            "value": 55
+          }
+        },
         "keywords": {
           "Keywords": [
-            "Chaos",
-            "Character",
-            "Grenades",
-            "Infantry",
-            "Psyker",
-            "Slaanesh",
-            "Sorcerer"
-          ],
-          "Category": [
-            "Character"
-          ],
-          "Source": [
-            "10th Edition Codex"
+            "Slaanesh"
           ],
           "Faction": [
             "Emperor’s Children"
           ]
-        },
-        "stats": {
-          "Ld": {
-            "value": 6
-          },
-          "M": {
-            "value": 7
-          },
-          "OC": {
-            "value": 1
-          },
-          "Points": {
-            "value": 55
-          },
-          "Sv": {
-            "value": 3
-          },
-          "T": {
-            "value": 5
-          },
-          "W": {
-            "value": 4
-          }
         }
       },
       "Detachment§Carnival of Excess": {
@@ -3944,58 +3905,6 @@
           }
         }
       },
-      "Melee Weapon§Noise Marines—Close combat weapon": {
-        "aspects": {
-          "Label": "Close combat weapon"
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 5
-          },
-          "WS": {
-            "value": 3
-          }
-        }
-      },
-      "Melee Weapon§Noise Marines—Power sword": {
-        "aspects": {
-          "Label": "Power sword"
-        },
-        "stats": {
-          "A": {
-            "value": 4
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 5
-          },
-          "WS": {
-            "value": 3
-          }
-        }
-      },
       "Melee Weapon§Sorcerer(EC)—Force weapon": {
         "aspects": {
           "Label": "Force weapon"
@@ -4135,63 +4044,6 @@
           }
         }
       },
-      "Model§Disharmonist": {
-        "assets": {
-          "traits": [
-            "Melee Weapon§Noise Marines—Close combat weapon"
-          ]
-        },
-        "stats": {
-          "Ld": {
-            "value": 6
-          },
-          "Loadout Options": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "Sonic Blaster": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Noise Marines—Sonic blaster"
-                  }
-                ]
-              },
-              "Screamer Pistol and Power sword": {
-                "order": 1,
-                "tracking": {},
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Noise Marines—Screamer pistol"
-                  },
-                  {
-                    "trait": "Melee Weapon§Noise Marines—Power sword"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "Sonic Blaster",
-            "visibility": "active"
-          },
-          "M": {
-            "value": 6
-          },
-          "OC": {
-            "value": 1
-          },
-          "Sv": {
-            "value": 3
-          },
-          "T": {
-            "value": 5
-          },
-          "W": {
-            "value": 3
-          }
-        }
-      },
       "Model§Flawless Blade": {
         "assets": {
           "traits": [
@@ -4270,62 +4122,6 @@
           },
           "W": {
             "value": 2
-          }
-        }
-      },
-      "Model§Noise Marine": {
-        "assets": {
-          "traits": [
-            "Melee Weapon§Noise Marines—Close combat weapon"
-          ]
-        },
-        "stats": {
-          "Ld": {
-            "value": 6
-          },
-          "Loadout Options": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "Sonic Blaster": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Noise Marines—Sonic blaster"
-                  }
-                ]
-              },
-              "Blastmaster": {
-                "order": 1,
-                "tracking": {
-                  "blast": 1
-                },
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Noise Marines—Blastmaster"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "Sonic Blaster",
-            "visibility": "active"
-          },
-          "M": {
-            "value": 6
-          },
-          "OC": {
-            "value": 1
-          },
-          "Sv": {
-            "value": 3
-          },
-          "T": {
-            "value": 5
-          },
-          "W": {
-            "value": 3
           }
         }
       },
@@ -4977,222 +4773,13 @@
         }
       },
       "Ranged Weapon§Noise Marines—Blastmaster": {
-        "assets": {
-          "traits": [
-            "Ranged Weapon§Noise Marines—Blastmaster – Single frequency",
-            "Ranged Weapon§Noise Marines—Blastmaster – Varied frequency"
-          ]
-        },
-        "keywords": {
-          "Tags": [
-            "Multi-weapon"
-          ]
-        },
         "aspects": {
           "Label": "Blastmaster"
-        }
-      },
-      "Ranged Weapon§Noise Marines—Blastmaster – Single frequency": {
-        "aspects": {
-          "Label": "Single frequency"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Ignores Cover"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 3
-          },
-          "Range": {
-            "value": 18
-          },
-          "S": {
-            "value": 10
-          }
-        }
-      },
-      "Ranged Weapon§Noise Marines—Blastmaster – Varied frequency": {
-        "aspects": {
-          "Label": "Varied frequency"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Ignores Cover"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 6
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 18
-          },
-          "S": {
-            "value": 6
-          }
-        }
-      },
-      "Ranged Weapon§Noise Marines—Screamer pistol": {
-        "aspects": {
-          "Label": "Screamer pistol"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Pistol",
-            "Ability§Ignores Cover"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": -1
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 5
-          }
-        }
-      },
-      "Ranged Weapon§Noise Marines—Sonic blaster": {
-        "aspects": {
-          "Label": "Sonic blaster"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Ignores Cover"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": -1
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "value": 18
-          },
-          "S": {
-            "value": 5
-          }
-        }
-      },
-      "Ranged Weapon§Sorcerer—Agonising Energies": {
-        "assets": {
-          "traits": [
-            "Ranged Weapon§Sorcerer—Agonising Energies – witchfire",
-            "Ranged Weapon§Sorcerer—Agonising Energies – focused witchfire"
-          ]
         },
         "keywords": {
           "Tags": [
             "Multi-weapon"
           ]
-        },
-        "aspects": {
-          "Label": "Agonising Energies"
-        }
-      },
-      "Ranged Weapon§Sorcerer—Agonising Energies – focused witchfire": {
-        "aspects": {
-          "Label": "focused witchfire"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Psychic",
-            "Ability§Hazardous",
-            "Ability§Devastating Wounds"
-          ]
-        },
-        "stats": {
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "format": "D3",
-            "value": 0
-          },
-          "Range": {
-            "value": 18
-          },
-          "S": {
-            "value": 6
-          }
-        }
-      },
-      "Ranged Weapon§Sorcerer—Agonising Energies – witchfire": {
-        "aspects": {
-          "Label": "witchfire"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Psychic"
-          ]
-        },
-        "stats": {
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "AP": {
-            "value": -1
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "format": "D3",
-            "value": 0
-          },
-          "Range": {
-            "value": 18
-          },
-          "S": {
-            "value": 5
-          }
         }
       },
       "Ranged Weapon§Tormentors—Bolt pistol": {
@@ -6599,44 +6186,6 @@
             "Character§Lord Kakophonist"
           ]
         },
-        "assets": {
-          "traits": [
-            "Ability§Deep Strike",
-            {
-              "item": "Ability§Invulnerable",
-              "stats": {
-                "x": {
-                  "value": "4+"
-                }
-              }
-            },
-            "Model§Terminator Champion",
-            {
-              "item": "Model§Chaos Terminator",
-              "quantity": 4
-            },
-            "Ability§Thrill Seekers",
-            "Ability§Lethal Obsession"
-          ]
-        },
-        "keywords": {
-          "Keywords": [
-            "Chaos",
-            "Infantry",
-            "Slaanesh",
-            "Terminator",
-            "Terminator Squad"
-          ],
-          "Faction": [
-            "Emperor’s Children"
-          ],
-          "Source": [
-            "10th Edition Codex"
-          ],
-          "Category": [
-            "Infantry"
-          ]
-        },
         "rules": {
           "1 in 5 models can have a chainfist": {
             "evals": [
@@ -6770,9 +6319,6 @@
             "value": 0,
             "visibility": "hidden"
           },
-          "model1stTally": {
-            "value": 5
-          },
           "modelKey": {
             "value": "Model§Chaos Terminator"
           },
@@ -6787,6 +6333,25 @@
           "Points": {
             "value": 155
           }
+        },
+        "assets": {
+          "traits": [
+            "Model§Terminator Champion",
+            {
+              "item": "Model§Chaos Terminator",
+              "quantity": 4
+            },
+            "Ability§Thrill Seekers",
+            "Ability§Lethal Obsession"
+          ]
+        },
+        "keywords": {
+          "Keywords": [
+            "Slaanesh"
+          ],
+          "Faction": [
+            "Emperor’s Children"
+          ]
         }
       },
       "Unit§Daemonettes": {
@@ -7040,86 +6605,14 @@
           }
         }
       },
-      "Unit§Noise Marines": {
+      "Infantry/Mounted§Noise Marines": {
         "allowed": {
           "items": [
-            "Model§Noise Marine",
             "Character§Lord Kakophonist",
             "Character§Sorcerer"
           ]
         },
-        "assets": {
-          "traits": [
-            "Ability§Terrifying Crescendo",
-            "Model§Disharmonist",
-            {
-              "item": "Model§Noise Marine",
-              "quantity": 5
-            },
-            "Ability§Thrill Seekers"
-          ]
-        },
-        "keywords": {
-          "Category": [
-            "Infantry"
-          ],
-          "Faction": [
-            "Emperor’s Children"
-          ],
-          "Source": [
-            "10th Edition Codex"
-          ],
-          "Keywords": [
-            "Chaos",
-            "Infantry",
-            "Noise Marines",
-            "Slaanesh"
-          ]
-        },
-        "rules": {
-          "Up to 2 Noise Marines can replace their Sonic blasters for Blastmasters": {
-            "evals": [
-              {
-                "actionable": true,
-                "max": 2,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "tracked",
-                    "blast"
-                  ]
-                ]
-              }
-            ],
-            "evaluate": "AND",
-            "failState": "error"
-          }
-        },
         "stats": {
-          "model1stTally": {
-            "value": 6
-          },
-          "modelKey": {
-            "value": "Model§Noise Marine"
-          },
-          "Models": {
-            "increment": {
-              "value": 5
-            },
-            "max": 6,
-            "min": 6,
-            "value": 6
-          },
-          "Noise Marine": {
-            "max": 5,
-            "min": 5,
-            "statType": "numeric",
-            "tracked": true,
-            "value": 0,
-            "visibility": "hidden"
-          },
           "Points": {
             "value": 175
           },
@@ -7130,7 +6623,11 @@
             "value": 3
           }
         },
-        "text": ""
+        "keywords": {
+          "Faction": [
+            "Emperor’s Children"
+          ]
+        }
       },
       "Unit§Seekers": {
         "keywords": {
@@ -7712,59 +7209,7 @@
           ]
         }
       },
-      "Ranged Weapon§Chaos Terminators—Heavy flamer": {
-        "aspects": {
-          "Label": "Heavy flamer"
-        },
-        "stats": {
-          "Range": {
-            "value": 12
-          },
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Torrent",
-            "Ability§Ignores Cover"
-          ]
-        }
-      },
       "Ranged Weapon§Chaos Terminators—Combi-bolter": {
-        "aspects": {
-          "Label": "Combi-bolter"
-        },
-        "stats": {
-          "Range": {
-            "value": 24
-          },
-          "A": {
-            "value": 2
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          }
-        },
         "assets": {
           "traits": [
             {
@@ -7776,217 +7221,25 @@
               }
             }
           ]
-        }
-      },
-      "Ranged Weapon§Chaos Terminators—Combi-weapon": {
-        "aspects": {
-          "Label": "Combi-weapon"
         },
         "stats": {
-          "Range": {
-            "value": 24
-          },
-          "A": {
-            "value": 1
-          },
           "BS": {
-            "value": 4
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
+            "value": 3
           }
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "infantry"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            }
-          ]
         }
       },
       "Ranged Weapon§Chaos Terminators—Reaper autocannon": {
-        "aspects": {
-          "Label": "Reaper autocannon"
-        },
         "stats": {
-          "Range": {
-            "value": 36
-          },
-          "A": {
-            "value": 4
-          },
           "BS": {
             "value": 3
-          },
-          "S": {
-            "value": 7
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
-            "Ability§Devastating Wounds"
-          ]
-        }
-      },
-      "Melee Weapon§Chaos Terminators—Power fist": {
-        "aspects": {
-          "Label": "Power fist"
-        },
-        "stats": {
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "A": {
-            "value": 3
-          },
-          "WS": {
-            "value": 3
-          },
-          "S": {
-            "value": 8
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 2
           }
         }
       },
       "Melee Weapon§Chaos Terminators—Chainfist": {
-        "aspects": {
-          "Label": "Chainfist"
-        },
         "stats": {
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "A": {
-            "value": 3
-          },
-          "WS": {
-            "value": 4
-          },
-          "S": {
-            "value": 8
-          },
           "AP": {
             "value": -2
-          },
-          "D": {
-            "value": 2
           }
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "vehicle"
-                },
-                "x": {
-                  "value": "3+"
-                }
-              }
-            }
-          ]
-        }
-      },
-      "Melee Weapon§Chaos Terminators—Accursed weapon": {
-        "aspects": {
-          "Label": "Accursed weapon"
-        },
-        "stats": {
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "A": {
-            "value": 4
-          },
-          "WS": {
-            "value": 3
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 1
-          }
-        }
-      },
-      "Melee Weapon§Chaos Terminators—Paired accursed weapons": {
-        "aspects": {
-          "Label": "Paired accursed weapons"
-        },
-        "stats": {
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "A": {
-            "value": 5
-          },
-          "WS": {
-            "value": 3
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Twin-linked"
-          ]
         }
       },
       "Melee Weapon§Daemon Prince of Slaanesh—Hellforged weapons – strike": {

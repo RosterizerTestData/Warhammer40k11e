@@ -2025,47 +2025,7 @@
         }
       },
       "Character§Ministorum Priest": {
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Leader",
-              "text": "This model can be attached to the following units:\n\n* Arco-flagellants\n\n* Battle Sisters Squad\n\n* Celestian Insidiants\n\n* Crusaders\n\n* Dominion Squad\n\n* Sanctifiers\n\n* Sisters Novitiate Squad"
-            },
-            "Ability§Acts of Faith",
-            "Ability§Righteous Smiting",
-            "Ability§Zealot",
-            {
-              "item": "Ability§Invulnerable",
-              "stats": {
-                "x": {
-                  "value": "4+"
-                }
-              }
-            }
-          ]
-        },
-        "keywords": {
-          "Faction": [
-            "Adepta Sororitas"
-          ],
-          "Source": [
-            "10th Edition Codex"
-          ],
-          "Keywords": [
-            "Character",
-            "Imperium",
-            "Infantry",
-            "Ministorum Priest",
-            "Penitent"
-          ],
-          "Category": [
-            "Character"
-          ]
-        },
         "stats": {
-          "Ld": {
-            "value": 7
-          },
           "Loadout Options": {
             "dynamic": true,
             "group": "Loadout",
@@ -2102,24 +2062,28 @@
             "value": "Zealot’s vindictor",
             "visibility": "active"
           },
-          "M": {
-            "value": 6
-          },
-          "OC": {
-            "value": 1
-          },
           "Points": {
             "value": 50
-          },
-          "Sv": {
-            "value": 6
-          },
-          "T": {
-            "value": 3
-          },
-          "W": {
-            "value": 3
           }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Leader",
+              "text": "This model can be attached to the following units:\n\n* Arco-flagellants\n\n* Battle Sisters Squad\n\n* Celestian Insidiants\n\n* Crusaders\n\n* Dominion Squad\n\n* Sanctifiers\n\n* Sisters Novitiate Squad"
+            },
+            "Ability§Acts of Faith",
+            "Ability§Righteous Smiting",
+            "Ability§Zealot"
+          ]
+        },
+        "keywords": {
+          "Faction": [
+            "Adepta Sororitas"
+          ],
+          "Keywords": [
+            "Penitent"
+          ]
         }
       },
       "Character§Morvenn Vahl": {
@@ -5577,56 +5541,9 @@
           }
         }
       },
-      "Melee Weapon§Ministorum Priest—Power weapon": {
-        "aspects": {
-          "Label": "Power weapon"
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 4
-          },
-          "WS": {
-            "value": 3
-          }
-        }
-      },
       "Melee Weapon§Ministorum Priest—Zealot’s vindictor": {
         "aspects": {
           "Label": "Melee"
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 5
-          },
-          "WS": {
-            "value": 4
-          }
         }
       },
       "Melee Weapon§Mortifiers—Penitent buzz-blade": {
@@ -11455,67 +11372,15 @@
           }
         }
       },
-      "Ranged Weapon§Ministorum Priest—Holy pistol": {
-        "aspects": {
-          "Label": "Holy pistol"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Pistol"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": 0
-          },
-          "BS": {
-            "value": 4
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 4
-          }
-        }
-      },
       "Ranged Weapon§Ministorum Priest—Zealot’s vindictor": {
         "aspects": {
           "Label": "Ranged"
         },
-        "assets": {
-          "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
-          ]
-        },
         "stats": {
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "AP": {
-            "value": 0
-          },
           "BS": {
             "format": "{t}",
             "statType": "term",
             "value": "N/A"
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 5
           }
         }
       },
@@ -16856,22 +16721,6 @@
       "Wargear§Simulacrum Imperialis": {
         "text": "At the end of your Command phase, for each objective marker you control that has one or more units from your army with this ability within range of it, roll one D6: on a 4+, you gain 1 Miracle dice showing a value equal to that result."
       },
-      "Weapon§Ministorum Priest—Zealot’s vindictor": {
-        "aspects": {
-          "Label": "Zealot’s vindictor"
-        },
-        "assets": {
-          "traits": [
-            "Melee Weapon§Ministorum Priest—Zealot’s vindictor",
-            "Ranged Weapon§Ministorum Priest—Zealot’s vindictor"
-          ]
-        },
-        "keywords": {
-          "Tags": [
-            "Multi-weapon"
-          ]
-        }
-      },
       "Weapon§Saint Celestine—The Ardent Blade": {
         "aspects": {
           "Label": "The Ardent Blade"
@@ -17145,61 +16994,6 @@
             "Ability§Pistol",
             "Ability§Hazardous"
           ]
-        }
-      },
-      "Ranged Weapon§Ministorum Priest—Zealot’s vindictor – Ranged": {
-        "aspects": {
-          "Label": "Zealot’s vindictor – Ranged"
-        },
-        "stats": {
-          "Range": {
-            "value": 12
-          },
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Torrent",
-            "Ability§Ignores Cover"
-          ]
-        }
-      },
-      "Melee Weapon§Ministorum Priest—Zealot’s vindictor – Melee": {
-        "aspects": {
-          "Label": "Zealot’s vindictor – Melee"
-        },
-        "stats": {
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "A": {
-            "value": 3
-          },
-          "WS": {
-            "value": 4
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 2
-          }
         }
       },
       "Melee Weapon§Penitent Engines—Twin penitent flail": {

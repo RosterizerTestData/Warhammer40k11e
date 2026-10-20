@@ -43847,6 +43847,3635 @@
             "Multi-weapon"
           ]
         }
+      },
+      "Melee Weapon§Land Raider—Armoured tracks": {
+        "aspects": {
+          "Label": "Armoured tracks"
+        },
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 8
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Land Raider—Godhammer lascannon": {
+        "aspects": {
+          "Label": "Godhammer lascannon"
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 3
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 12
+          }
+        }
+      },
+      "Ranged Weapon§Land Raider—Hunter-killer missile": {
+        "aspects": {
+          "Label": "Hunter-killer missile"
+        },
+        "assets": {
+          "traits": [
+            "Ability§One Shot"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 2
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 14
+          }
+        }
+      },
+      "Ranged Weapon§Land Raider—Multi-melta": {
+        "aspects": {
+          "Label": "Multi-melta"
+        },
+        "assets": {},
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "Range": {
+            "value": 18
+          }
+        }
+      },
+      "Ranged Weapon§Land Raider—Storm bolter": {
+        "aspects": {
+          "Label": "Storm bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Land Raider—Twin heavy bolter": {
+        "aspects": {
+          "Label": "Twin heavy bolter"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Vehicle§Land Raider": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D6"
+                }
+              }
+            },
+            "Ability§Assault Ramp",
+            "Ranged Weapon§Land Raider—Twin heavy bolter",
+            "Ranged Weapon§Land Raider—Godhammer lascannon",
+            "Ranged Weapon§Land Raider—Godhammer lascannon",
+            "Melee Weapon§Land Raider—Armoured tracks"
+          ]
+        },
+        "keywords": {
+          "Source": [
+            "10th Edition Codex"
+          ],
+          "Keywords": [
+            "Vehicle",
+            "Smoke",
+            "Transport",
+            "Imperium",
+            "Land Raider",
+            "Frame"
+          ],
+          "Category": [
+            "Vehicle"
+          ]
+        },
+        "stats": {
+          "Ld": {
+            "value": 6
+          },
+          "M": {
+            "value": 10
+          },
+          "Multi-melta": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "✓": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Land Raider—Multi-melta"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "active"
+          },
+          "OC": {
+            "value": 5
+          },
+          "Storm bolter": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "✓": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Land Raider—Storm bolter"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "active"
+          },
+          "Sv": {
+            "value": 2
+          },
+          "T": {
+            "value": 12
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          },
+          "W": {
+            "value": 16
+          }
+        }
+      },
+      "Melee Weapon§Land Raider Crusader—Armoured tracks": {
+        "aspects": {
+          "Label": "Armoured tracks"
+        },
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 8
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Land Raider Crusader—Hunter-killer missile": {
+        "aspects": {
+          "Label": "Hunter-killer missile"
+        },
+        "assets": {
+          "traits": [
+            "Ability§One Shot"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 2
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 14
+          }
+        }
+      },
+      "Ranged Weapon§Land Raider Crusader—Hurricane bolter": {
+        "aspects": {
+          "Label": "Hurricane bolter"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "6"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Land Raider Crusader—Multi-melta": {
+        "aspects": {
+          "Label": "Multi-melta"
+        },
+        "assets": {},
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "Range": {
+            "value": 18
+          }
+        }
+      },
+      "Ranged Weapon§Land Raider Crusader—Storm bolter": {
+        "aspects": {
+          "Label": "Storm bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Land Raider Crusader—Twin assault cannon": {
+        "aspects": {
+          "Label": "Twin assault cannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 6
+          }
+        }
+      },
+      "Vehicle§Land Raider Crusader": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D6"
+                }
+              }
+            },
+            "Ability§Assault Ramp",
+            "Ranged Weapon§Land Raider Crusader—Hurricane bolter",
+            "Ranged Weapon§Land Raider Crusader—Hurricane bolter",
+            "Ranged Weapon§Land Raider Crusader—Twin assault cannon",
+            "Melee Weapon§Land Raider Crusader—Armoured tracks"
+          ]
+        },
+        "keywords": {
+          "Source": [
+            "10th Edition Codex"
+          ],
+          "Keywords": [
+            "Grenades",
+            "Imperium",
+            "Land Raider",
+            "Smoke",
+            "Transport",
+            "Vehicle",
+            "Frame"
+          ],
+          "Category": [
+            "Vehicle"
+          ]
+        },
+        "stats": {
+          "Hunter-killer": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "✓": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Land Raider Crusader—Hunter-killer missile"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "active"
+          },
+          "Ld": {
+            "value": 6
+          },
+          "M": {
+            "value": 12
+          },
+          "Multi-melta": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "✓": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Land Raider Crusader—Multi-melta"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "active"
+          },
+          "OC": {
+            "value": 5
+          },
+          "Storm bolter": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "✓": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Land Raider Crusader—Storm bolter"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "active"
+          },
+          "Sv": {
+            "value": 2
+          },
+          "T": {
+            "value": 12
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          },
+          "W": {
+            "value": 16
+          }
+        }
+      },
+      "Melee Weapon§Land Raider Redeemer—Armoured tracks": {
+        "aspects": {
+          "Label": "Armoured tracks"
+        },
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 8
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Land Raider Redeemer—Flamestorm cannon": {
+        "aspects": {
+          "Label": "Flamestorm cannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Torrent"
+          ]
+        },
+        "stats": {
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "format": "{t}",
+            "statType": "term",
+            "value": "N/A"
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 6
+          }
+        }
+      },
+      "Ranged Weapon§Land Raider Redeemer—Hunter-killer missile": {
+        "aspects": {
+          "Label": "Hunter-killer missile"
+        },
+        "assets": {
+          "traits": [
+            "Ability§One Shot"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 2
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 14
+          }
+        }
+      },
+      "Ranged Weapon§Land Raider Redeemer—Multi-melta": {
+        "aspects": {
+          "Label": "Multi-melta"
+        },
+        "assets": {},
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "Range": {
+            "value": 18
+          }
+        }
+      },
+      "Ranged Weapon§Land Raider Redeemer—Storm bolter": {
+        "aspects": {
+          "Label": "Storm bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Land Raider Redeemer—Twin assault cannon": {
+        "aspects": {
+          "Label": "Twin assault cannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 6
+          }
+        }
+      },
+      "Vehicle§Land Raider Redeemer": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D6"
+                }
+              }
+            },
+            "Ability§Assault Ramp",
+            "Ranged Weapon§Land Raider Redeemer—Flamestorm cannon",
+            "Ranged Weapon§Land Raider Redeemer—Flamestorm cannon",
+            "Ranged Weapon§Land Raider Redeemer—Twin assault cannon",
+            "Melee Weapon§Land Raider Redeemer—Armoured tracks"
+          ]
+        },
+        "keywords": {
+          "Source": [
+            "10th Edition Codex"
+          ],
+          "Keywords": [
+            "Grenades",
+            "Imperium",
+            "Land Raider",
+            "Smoke",
+            "Transport",
+            "Vehicle",
+            "Frame"
+          ],
+          "Category": [
+            "Vehicle"
+          ]
+        },
+        "stats": {
+          "Hunter-killer": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "✓": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Land Raider Redeemer—Hunter-killer missile"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "active"
+          },
+          "Ld": {
+            "value": 6
+          },
+          "M": {
+            "value": 12
+          },
+          "Multi-melta": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "✓": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Land Raider Redeemer—Multi-melta"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "active"
+          },
+          "OC": {
+            "value": 5
+          },
+          "Storm bolter": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "✓": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Land Raider Redeemer—Storm bolter"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "active"
+          },
+          "Sv": {
+            "value": 2
+          },
+          "T": {
+            "value": 12
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 3
+          },
+          "W": {
+            "value": 16
+          }
+        }
+      },
+      "Character§Ministorum Priest": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "Source": [
+            "10th Edition Codex"
+          ],
+          "Keywords": [
+            "Infantry",
+            "Character",
+            "Imperium",
+            "Ministorum Priest"
+          ],
+          "Category": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "Ld": {
+            "value": 7
+          },
+          "M": {
+            "value": 6
+          },
+          "OC": {
+            "value": 1
+          },
+          "Sv": {
+            "value": 6
+          },
+          "T": {
+            "value": 3
+          },
+          "W": {
+            "value": 3
+          },
+          "Points": {
+            "value": 40
+          }
+        }
+      },
+      "Melee Weapon§Ministorum Priest—Power weapon": {
+        "aspects": {
+          "Label": "Power weapon"
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 4
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Ministorum Priest—Zealot's vindicator": {
+        "aspects": {
+          "Label": "Melee"
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 5
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Melee Weapon§Ministorum Priest—Zealot’s vindictor": {
+        "aspects": {},
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Melee Weapon§Ministorum Priest—Zealot’s vindictor – Melee": {
+        "aspects": {
+          "Label": "Zealot’s vindictor – Melee"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 3
+          },
+          "WS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          }
+        }
+      },
+      "Ranged Weapon§Ministorum Priest—Holy pistol": {
+        "aspects": {
+          "Label": "Holy pistol"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Ministorum Priest—Zealot's vindicator": {
+        "aspects": {
+          "Label": "Ranged"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Ignores Cover",
+            "Ability§Torrent"
+          ]
+        },
+        "stats": {
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "format": "{t}",
+            "statType": "term",
+            "value": "N/A"
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Ministorum Priest—Zealot’s vindictor": {
+        "aspects": {},
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Ignores Cover",
+            "Ability§Torrent"
+          ]
+        }
+      },
+      "Ranged Weapon§Ministorum Priest—Zealot’s vindictor – Ranged": {
+        "aspects": {
+          "Label": "Zealot’s vindictor – Ranged"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "format": "D6",
+            "value": 0
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Torrent",
+            "Ability§Ignores Cover"
+          ]
+        }
+      },
+      "Weapon§Ministorum Priest—Zealot's vindicator": {
+        "aspects": {
+          "Label": "Zealot's vindicator"
+        },
+        "assets": {
+          "traits": [
+            "Melee Weapon§Ministorum Priest—Zealot's vindicator",
+            "Ranged Weapon§Ministorum Priest—Zealot's vindicator"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Weapon§Ministorum Priest—Zealot’s vindictor": {
+        "aspects": {
+          "Label": "Zealot’s vindictor"
+        },
+        "assets": {
+          "traits": [
+            "Melee Weapon§Ministorum Priest—Zealot’s vindictor",
+            "Ranged Weapon§Ministorum Priest—Zealot’s vindictor"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Melee Weapon§Razorback—Armoured tracks": {
+        "aspects": {
+          "Label": "Armoured tracks"
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 6
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Razorback—Hunter-killer missile": {
+        "aspects": {
+          "Label": "Hunter-killer missile"
+        },
+        "assets": {
+          "traits": [
+            "Ability§One Shot"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 2
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 14
+          }
+        }
+      },
+      "Ranged Weapon§Razorback—Storm bolter": {
+        "aspects": {
+          "Label": "Storm bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Razorback—Twin assault cannon": {
+        "aspects": {
+          "Label": "Twin assault cannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds",
+            "Ability§Twin-linked"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 6
+          }
+        }
+      },
+      "Ranged Weapon§Razorback—Twin heavy bolter": {
+        "aspects": {
+          "Label": "Twin heavy bolter"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Razorback—Twin lascannon": {
+        "aspects": {
+          "Label": "Twin lascannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 3
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 12
+          }
+        }
+      },
+      "Vehicle§Razorback": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D3"
+                }
+              }
+            },
+            "Melee Weapon§Razorback—Armoured tracks"
+          ]
+        },
+        "keywords": {
+          "Source": [
+            "10th Edition Codex"
+          ],
+          "Keywords": [
+            "Vehicle",
+            "Smoke",
+            "Transport",
+            "Dedicated Transport",
+            "Imperium",
+            "Razorback",
+            "Frame"
+          ],
+          "Category": [
+            "Vehicle—Dedicated Transport"
+          ]
+        },
+        "stats": {
+          "Ld": {
+            "value": 6
+          },
+          "M": {
+            "value": 12
+          },
+          "OC": {
+            "value": 2
+          },
+          "Sv": {
+            "value": 3
+          },
+          "T": {
+            "value": 9
+          },
+          "W": {
+            "value": 10
+          }
+        }
+      },
+      "Melee Weapon§Rhino—Armoured tracks": {
+        "aspects": {
+          "Label": "Armoured tracks"
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 6
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Rhino—Hunter-killer missile": {
+        "aspects": {
+          "Label": "Hunter-killer missile"
+        },
+        "assets": {
+          "traits": [
+            "Ability§One Shot"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 2
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 14
+          }
+        }
+      },
+      "Ranged Weapon§Rhino—Storm bolter": {
+        "aspects": {
+          "Label": "Storm bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Vehicle§Rhino": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D3"
+                }
+              }
+            },
+            {
+              "item": "Ability§Firing Deck",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            },
+            "Ranged Weapon§Rhino—Storm bolter",
+            "Melee Weapon§Rhino—Armoured tracks"
+          ]
+        },
+        "keywords": {
+          "Source": [
+            "10th Edition Codex"
+          ],
+          "Keywords": [
+            "Vehicle",
+            "Smoke",
+            "Transport",
+            "Dedicated Transport",
+            "Imperium",
+            "Rhino",
+            "Frame"
+          ],
+          "Category": [
+            "Vehicle—Dedicated Transport"
+          ]
+        },
+        "stats": {
+          "Hunter-killer": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "-": {
+                "order": 0
+              },
+              "✓": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Rhino—Hunter-killer missile"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "-",
+            "visibility": "active"
+          },
+          "Ld": {
+            "value": 6
+          },
+          "M": {
+            "value": 12
+          },
+          "OC": {
+            "value": 2
+          },
+          "Points": {
+            "value": 80
+          },
+          "Sv": {
+            "value": 3
+          },
+          "T": {
+            "value": 9
+          },
+          "W": {
+            "value": 10
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 4
+          }
+        }
+      },
+      "Melee Weapon§Servitors—Servitor’s servo-arm": {
+        "aspects": {
+          "Label": "Servitor’s servo-arm"
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "WS": {
+            "value": 5
+          }
+        }
+      },
+      "Melee Weapon§Servitors—Servitor’s tools": {
+        "aspects": {
+          "Label": "Servitor’s tools"
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 3
+          },
+          "WS": {
+            "value": 5
+          }
+        }
+      },
+      "Model§Servitor": {
+        "stats": {
+          "Ld": {
+            "value": 8
+          },
+          "M": {
+            "value": 6
+          },
+          "OC": {
+            "value": 0
+          },
+          "Sv": {
+            "value": 4
+          },
+          "W": {
+            "value": 1
+          }
+        }
+      },
+      "Ranged Weapon§Servitors—Heavy bolter": {
+        "aspects": {
+          "Label": "Heavy bolter"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy",
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Servitors—Multi-melta": {
+        "aspects": {
+          "Label": "Multi-melta"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy",
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -4
+          },
+          "D": {
+            "format": "D6",
+            "value": 0
+          },
+          "Range": {
+            "value": 18
+          },
+          "S": {
+            "value": 9
+          }
+        }
+      },
+      "Ranged Weapon§Servitors—Plasma cannon": {
+        "aspects": {
+          "Label": "Plasma cannon"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Servitors—Plasma cannon – standard",
+            "Ranged Weapon§Servitors—Plasma cannon – supercharge"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Servitors—Plasma cannon – standard": {
+        "aspects": {
+          "Label": "Standard"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy",
+            "Ability§Blast"
+          ]
+        },
+        "stats": {
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 7
+          }
+        }
+      },
+      "Ranged Weapon§Servitors—Plasma cannon – supercharge": {
+        "aspects": {
+          "Label": "Supercharge"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Heavy",
+            "Ability§Blast",
+            "Ability§Hazardous"
+          ]
+        },
+        "stats": {
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 8
+          }
+        }
+      },
+      "Unit§Servitors": {
+        "allowed": {
+          "items": [
+            "Model§Servitor",
+            "Character§Tech-priest Enginseer"
+          ]
+        },
+        "assets": {
+          "traits": [
+            "Ability§Mindlock",
+            "Ability§Servitor Retinue",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "6+"
+                }
+              }
+            },
+            {
+              "item": "Model§Servitor",
+              "quantity": 4
+            }
+          ]
+        },
+        "keywords": {
+          "Source": [
+            "Legends"
+          ],
+          "Keywords": [
+            "Infantry",
+            "Imperium",
+            "Servitors"
+          ],
+          "Category": [
+            "Infantry"
+          ]
+        },
+        "rules": {},
+        "stats": {
+          "model1stTally": {
+            "value": 4
+          },
+          "modelKey": {
+            "value": "Model§Servitor"
+          },
+          "Models": {
+            "max": 4,
+            "min": 4,
+            "value": 4
+          },
+          "Servitor": {
+            "max": 4,
+            "min": 4,
+            "statType": "numeric",
+            "tracked": true,
+            "value": 0,
+            "visibility": "hidden"
+          }
+        }
+      },
+      "Melee Weapon§Stormhawk Interceptor—Armoured hull": {
+        "aspects": {
+          "Label": "Armoured hull"
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 6
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Stormhawk Interceptor—Icarus stormcannon": {
+        "aspects": {
+          "Label": "Icarus stormcannon"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "fly"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 7
+          }
+        }
+      },
+      "Ranged Weapon§Stormhawk Interceptor—Las-talon": {
+        "aspects": {
+          "Label": "Las-talon"
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 10
+          }
+        }
+      },
+      "Ranged Weapon§Stormhawk Interceptor—Skyhammer missile launcher": {
+        "aspects": {
+          "Label": "Skyhammer missile launcher"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "fly"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 8
+          }
+        }
+      },
+      "Ranged Weapon§Stormhawk Interceptor—Twin assault cannon": {
+        "aspects": {
+          "Label": "Twin assault cannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 6
+          }
+        }
+      },
+      "Ranged Weapon§Stormhawk Interceptor—Twin heavy bolter": {
+        "aspects": {
+          "Label": "Twin heavy bolter"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Stormhawk Interceptor—Typhoon missile launcher": {
+        "aspects": {
+          "Label": "Typhoon missile launcher"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Stormhawk Interceptor—Typhoon missile launcher – krak",
+            "Ranged Weapon§Stormhawk Interceptor—Typhoon missile launcher – frag"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Stormhawk Interceptor—Typhoon missile launcher – frag": {
+        "aspects": {
+          "Label": "Frag"
+        },
+        "assets": {},
+        "stats": {
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Stormhawk Interceptor—Typhoon missile launcher – krak": {
+        "aspects": {
+          "Label": "Krak"
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 3
+          },
+          "Range": {
+            "value": 48
+          }
+        }
+      },
+      "Vehicle§Stormhawk Interceptor": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D3"
+                }
+              }
+            },
+            "Ability§Interceptor",
+            "Ranged Weapon§Stormhawk Interceptor—Twin assault cannon",
+            "Melee Weapon§Stormhawk Interceptor—Armoured hull"
+          ]
+        },
+        "keywords": {
+          "Source": [
+            "10th Edition Codex"
+          ],
+          "Keywords": [
+            "Vehicle",
+            "Fly",
+            "Aircraft",
+            "Imperium",
+            "Smoke",
+            "Stormhawk Interceptor"
+          ],
+          "Category": [
+            "Vehicle"
+          ]
+        },
+        "stats": {
+          "Ld": {
+            "value": 6
+          },
+          "M": {
+            "statType": "term",
+            "value": "-"
+          },
+          "OC": {
+            "value": 0
+          },
+          "Sv": {
+            "value": 3
+          },
+          "T": {
+            "value": 9
+          },
+          "W": {
+            "value": 10
+          }
+        }
+      },
+      "Melee Weapon§Stormraven Gunship—Armoured hull": {
+        "aspects": {
+          "Label": "Armoured hull"
+        },
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 8
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Stormraven Gunship—Hurricane bolter": {
+        "aspects": {
+          "Label": "Hurricane bolter"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "6"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Stormraven Gunship—Stormstrike missile launcher": {
+        "aspects": {
+          "Label": "Stormstrike missile launcher"
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 10
+          }
+        }
+      },
+      "Ranged Weapon§Stormraven Gunship—Twin assault cannon": {
+        "aspects": {
+          "Label": "Twin assault cannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 6
+          }
+        }
+      },
+      "Ranged Weapon§Stormraven Gunship—Twin heavy bolter": {
+        "aspects": {
+          "Label": "Twin heavy bolter"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Stormraven Gunship—Twin heavy plasma cannon": {
+        "aspects": {
+          "Label": "Twin heavy plasma cannon"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Stormraven Gunship—Twin heavy plasma cannon – standard",
+            "Ranged Weapon§Stormraven Gunship—Twin heavy plasma cannon – supercharge"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Stormraven Gunship—Twin heavy plasma cannon – standard": {
+        "aspects": {
+          "Label": "Standard"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          }
+        }
+      },
+      "Ranged Weapon§Stormraven Gunship—Twin heavy plasma cannon – supercharge": {
+        "aspects": {
+          "Label": "Supercharge"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            "Ability§Hazardous"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "value": 36
+          }
+        }
+      },
+      "Ranged Weapon§Stormraven Gunship—Twin lascannon": {
+        "aspects": {
+          "Label": "Twin lascannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 3
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 12
+          }
+        }
+      },
+      "Ranged Weapon§Stormraven Gunship—Twin multi-melta": {
+        "aspects": {
+          "Label": "Twin multi-melta"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "Range": {
+            "value": 18
+          }
+        }
+      },
+      "Ranged Weapon§Stormraven Gunship—Typhoon missile launcher": {
+        "aspects": {
+          "Label": "Typhoon missile launcher"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Stormraven Gunship—Typhoon missile launcher – frag",
+            "Ranged Weapon§Stormraven Gunship—Typhoon missile launcher – krak"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Stormraven Gunship—Typhoon missile launcher – frag": {
+        "aspects": {
+          "Label": "Frag"
+        },
+        "assets": {},
+        "stats": {
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Stormraven Gunship—Typhoon missile launcher – krak": {
+        "aspects": {
+          "Label": "Krak"
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 3
+          },
+          "Range": {
+            "value": 48
+          }
+        }
+      },
+      "Vehicle§Stormraven Gunship": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D6"
+                }
+              }
+            },
+            "Ability§Hover",
+            "Ability§Armoured Resilience",
+            {
+              "item": "Ability§Damaged:",
+              "stats": {
+                "x": {
+                  "value": "1-5 wounds remaining"
+                }
+              }
+            },
+            "Ranged Weapon§Stormraven Gunship—Stormstrike missile launcher",
+            "Ranged Weapon§Stormraven Gunship—Stormstrike missile launcher",
+            "Melee Weapon§Stormraven Gunship—Armoured hull"
+          ]
+        },
+        "keywords": {
+          "Source": [
+            "10th Edition Codex"
+          ],
+          "Keywords": [
+            "Vehicle",
+            "Fly",
+            "Aircraft",
+            "Transport",
+            "Imperium",
+            "Stormraven Gunship"
+          ],
+          "Category": [
+            "Vehicle"
+          ]
+        },
+        "stats": {
+          "Ld": {
+            "value": 6
+          },
+          "Loadout 1": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "label": "Loadout",
+            "ranks": {
+              "Twin assault cannon": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Stormraven Gunship—Twin assault cannon"
+                  }
+                ]
+              },
+              "Twin heavy plasma cannon": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Stormraven Gunship—Twin heavy plasma cannon"
+                  }
+                ]
+              },
+              "Twin lascannon": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Stormraven Gunship—Twin lascannon"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "Twin assault cannon",
+            "visibility": "active"
+          },
+          "Loadout 2": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "label": "Loadout",
+            "ranks": {
+              "Typhoon missile launcher": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Stormraven Gunship—Typhoon missile launcher"
+                  }
+                ]
+              },
+              "Twin heavy bolter": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Stormraven Gunship—Twin heavy bolter"
+                  }
+                ]
+              },
+              "Twin multi-melta": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Stormraven Gunship—Twin multi-melta"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "Typhoon missile launcher",
+            "visibility": "active"
+          },
+          "M": {
+            "value": 14
+          },
+          "OC": {
+            "value": 0
+          },
+          "Points": {
+            "value": 300
+          },
+          "Sv": {
+            "value": 3
+          },
+          "T": {
+            "value": 10
+          },
+          "unitDiscount": {
+            "value": 20
+          },
+          "unitDiscountThreshold": {
+            "value": 2
+          },
+          "W": {
+            "value": 14
+          }
+        }
+      },
+      "Melee Weapon§Stormtalon Gunship—Armoured hull": {
+        "aspects": {
+          "Label": "Armoured hull"
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 6
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Stormtalon Gunship—Skyhammer missile launcher": {
+        "aspects": {
+          "Label": "Skyhammer missile launcher"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Anti-",
+              "stats": {
+                "keyword": {
+                  "value": "fly"
+                },
+                "x": {
+                  "value": "2+"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 8
+          }
+        }
+      },
+      "Ranged Weapon§Stormtalon Gunship—Twin assault cannon": {
+        "aspects": {
+          "Label": "Twin assault cannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 6
+          }
+        }
+      },
+      "Ranged Weapon§Stormtalon Gunship—Twin heavy bolter": {
+        "aspects": {
+          "Label": "Twin heavy bolter"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Stormtalon Gunship—Twin lascannon": {
+        "aspects": {
+          "Label": "Twin lascannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 3
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 12
+          }
+        }
+      },
+      "Ranged Weapon§Stormtalon Gunship—Typhoon missile launcher": {
+        "aspects": {
+          "Label": "Typhoon missile launcher"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Stormtalon Gunship—Typhoon missile launcher – frag",
+            "Ranged Weapon§Stormtalon Gunship—Typhoon missile launcher – krak"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Stormtalon Gunship—Typhoon missile launcher – frag": {
+        "aspects": {
+          "Label": "Frag"
+        },
+        "assets": {},
+        "stats": {
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Stormtalon Gunship—Typhoon missile launcher – krak": {
+        "aspects": {
+          "Label": "Krak"
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 3
+          },
+          "Range": {
+            "value": 48
+          }
+        }
+      },
+      "Vehicle§Stormtalon Gunship": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "D3"
+                }
+              }
+            },
+            "Ability§Strafing Run",
+            "Ranged Weapon§Stormtalon Gunship—Twin assault cannon",
+            "Melee Weapon§Stormtalon Gunship—Armoured hull"
+          ]
+        },
+        "keywords": {
+          "Source": [
+            "10th Edition Codex"
+          ],
+          "Keywords": [
+            "Vehicle",
+            "Fly",
+            "Aircraft",
+            "Imperium",
+            "Stormtalon Gunship"
+          ],
+          "Category": [
+            "Vehicle"
+          ]
+        },
+        "stats": {
+          "Ld": {
+            "value": 6
+          },
+          "Loadout": {
+            "dynamic": true,
+            "group": "Loadout",
+            "groupOrder": 2,
+            "ranks": {
+              "Skyhammer missile launcher": {
+                "order": 0,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Stormtalon Gunship—Skyhammer missile launcher"
+                  }
+                ]
+              },
+              "Twin heavy bolter": {
+                "order": 1,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Stormtalon Gunship—Twin heavy bolter"
+                  }
+                ]
+              },
+              "Twin lascannon": {
+                "order": 2,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Stormtalon Gunship—Twin lascannon"
+                  }
+                ]
+              },
+              "Typhoon missile launcher": {
+                "order": 3,
+                "traits": [
+                  {
+                    "trait": "Ranged Weapon§Stormtalon Gunship—Typhoon missile launcher"
+                  }
+                ]
+              }
+            },
+            "statType": "rank",
+            "value": "Skyhammer missile launcher",
+            "visibility": "active"
+          },
+          "M": {
+            "statType": "term",
+            "value": "-"
+          },
+          "OC": {
+            "value": 0
+          },
+          "Sv": {
+            "value": 3
+          },
+          "W": {
+            "value": 10
+          }
+        }
+      },
+      "Character§Tech-Priest Enginseer": {
+        "assets": {
+          "traits": [
+            "Ability§Enginseer",
+            "Ability§Omnissiah’s Blessing",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "5+"
+                }
+              }
+            },
+            "Melee Weapon§Tech-Priest Enginseer—Servo-arm"
+          ]
+        },
+        "keywords": {
+          "Source": [
+            "10th Edition Codex"
+          ],
+          "Keywords": [
+            "Character",
+            "Imperium",
+            "Infantry"
+          ],
+          "Category": [
+            "Character"
+          ]
+        },
+        "stats": {
+          "Ld": {
+            "value": 7
+          },
+          "M": {
+            "value": 6
+          },
+          "OC": {
+            "value": 1
+          },
+          "Sv": {
+            "value": 3
+          },
+          "T": {
+            "value": 4
+          },
+          "W": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Tech-Priest Enginseer—Enginseer axe": {
+        "aspects": {
+          "Label": "Enginseer axe"
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 6
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Melee Weapon§Tech-Priest Enginseer—Omnissian axe": {
+        "aspects": {
+          "Label": "Omnissian axe"
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 6
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Melee Weapon§Tech-Priest Enginseer—Servo-arm": {
+        "aspects": {
+          "Label": "Servo-arm"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Extra Attacks"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 6
+          },
+          "WS": {
+            "value": 4
+          }
+        }
+      },
+      "Ranged Weapon§Tech-Priest Enginseer—Archeotech pistol": {
+        "aspects": {
+          "Label": "Archeotech pistol"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds",
+            "Ability§Pistol"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": 0
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 6
+          }
+        }
+      },
+      "Ranged Weapon§Tech-Priest Enginseer—Mechanicus pistol": {
+        "aspects": {
+          "Label": "Mechanicus pistol"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 6
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Pistol",
+            "Ability§Devastating Wounds"
+          ]
+        }
+      },
+      "Melee Weapon§Venerable Dreadnought—Armoured feet": {
+        "aspects": {
+          "Label": "Armoured feet"
+        },
+        "stats": {
+          "A": {
+            "value": 5
+          },
+          "AP": {
+            "value": 0
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 6
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Venerable Dreadnought—Dreadnought Fist": {
+        "aspects": {
+          "Label": "Dreadnought Fist"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 5
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 12
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        }
+      },
+      "Melee Weapon§Venerable Dreadnought—Dreadnought combat weapon": {
+        "aspects": {
+          "Label": "Dreadnought combat weapon"
+        },
+        "stats": {
+          "A": {
+            "value": 5
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "S": {
+            "value": 12
+          },
+          "WS": {
+            "value": 3
+          }
+        }
+      },
+      "Ranged Weapon§Venerable Dreadnought—Assault cannon": {
+        "aspects": {
+          "Label": "Assault cannon"
+        },
+        "assets": {},
+        "stats": {
+          "A": {
+            "value": 6
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 6
+          }
+        }
+      },
+      "Ranged Weapon§Venerable Dreadnought—Dreadnought inferno cannon": {
+        "aspects": {
+          "Label": "Dreadnought inferno cannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Torrent",
+            {
+              "item": "Ability§Blast",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 7
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "statType": "term",
+            "value": "N/A"
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 6
+          }
+        }
+      },
+      "Ranged Weapon§Venerable Dreadnought—Heavy flamer": {
+        "aspects": {
+          "Label": "Heavy flamer"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Torrent"
+          ]
+        },
+        "stats": {
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Venerable Dreadnought—Heavy plasma cannon": {
+        "aspects": {
+          "Label": "Heavy plasma cannon"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Venerable Dreadnought—Heavy plasma cannon – standard",
+            "Ranged Weapon§Venerable Dreadnought—Heavy plasma cannon – supercharge"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
+          ]
+        }
+      },
+      "Ranged Weapon§Venerable Dreadnought—Heavy plasma cannon – standard": {
+        "aspects": {
+          "Label": "Standard"
+        },
+        "assets": {},
+        "stats": {
+          "AP": {
+            "value": -2
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          }
+        }
+      },
+      "Ranged Weapon§Venerable Dreadnought—Heavy plasma cannon – supercharge": {
+        "aspects": {
+          "Label": "Supercharge"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Hazardous"
+          ]
+        },
+        "stats": {
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "value": 36
+          }
+        }
+      },
+      "Ranged Weapon§Venerable Dreadnought—Missile launcher – frag": {
+        "aspects": {},
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {}
+      },
+      "Ranged Weapon§Venerable Dreadnought—Missile launcher – krak": {
+        "aspects": {},
+        "stats": {
+          "Range": {
+            "value": 48
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "AP": {
+            "value": -2
+          }
+        }
+      },
+      "Ranged Weapon§Venerable Dreadnought—Multi-melta": {
+        "aspects": {
+          "Label": "Multi-melta"
+        },
+        "assets": {},
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "Range": {
+            "value": 18
+          }
+        }
+      },
+      "Ranged Weapon§Venerable Dreadnought—Storm bolter": {
+        "aspects": {
+          "Label": "Storm bolter"
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 24
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Venerable Dreadnought—Twin autocannon": {
+        "aspects": {
+          "Label": "Twin autocannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 2
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 3
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 9
+          }
+        }
+      },
+      "Ranged Weapon§Venerable Dreadnought—Twin heavy bolter": {
+        "aspects": {
+          "Label": "Twin heavy bolter"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            {
+              "item": "Ability§Sustained Hits",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            },
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "value": 3
+          },
+          "D": {
+            "value": 2
+          },
+          "Range": {
+            "value": 36
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Venerable Dreadnought—Twin heavy flamer": {
+        "aspects": {
+          "Label": "Twin heavy flamer"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked",
+            "Ability§Torrent",
+            {
+              "item": "Ability§Blast",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 3
+          },
+          "AP": {
+            "value": -1
+          },
+          "BS": {
+            "statType": "term",
+            "value": "N/A"
+          },
+          "D": {
+            "value": 1
+          },
+          "Range": {
+            "value": 12
+          },
+          "S": {
+            "value": 5
+          }
+        }
+      },
+      "Ranged Weapon§Venerable Dreadnought—Twin lascannon": {
+        "aspects": {
+          "Label": "Twin lascannon"
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
+        },
+        "stats": {
+          "A": {
+            "value": 1
+          },
+          "AP": {
+            "value": -3
+          },
+          "BS": {
+            "value": 3
+          },
+          "Range": {
+            "value": 48
+          },
+          "S": {
+            "value": 12
+          }
+        }
+      },
+      "Vehicle§Venerable Dreadnought": {
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Deadly Demise",
+              "stats": {
+                "x": {
+                  "value": "1"
+                }
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "Source": [],
+          "Keywords": [
+            "Vehicle",
+            "Walker",
+            "Smoke",
+            "Imperium"
+          ],
+          "Category": []
+        },
+        "stats": {
+          "Ld": {
+            "value": 6
+          },
+          "OC": {
+            "value": 3
+          },
+          "Sv": {
+            "value": 2
+          },
+          "T": {
+            "value": 9
+          },
+          "W": {
+            "value": 8
+          }
+        }
+      },
+      "Ability§Armoured Resilience": {
+        "keywords": {
+          "Keywords": [
+            "Other"
+          ]
+        },
+        "text": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
+      },
+      "Ability§Assault Ramp": {
+        "keywords": {
+          "Keywords": [
+            "Other"
+          ]
+        },
+        "text": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+      },
+      "Ability§Interceptor": {
+        "keywords": {
+          "Keywords": [
+            "Other"
+          ]
+        },
+        "text": "Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll."
+      },
+      "Ability§Strafing Run": {
+        "keywords": {
+          "Keywords": [
+            "Other"
+          ]
+        },
+        "text": "Each time this model makes a ranged attack that targets a unit that cannot Fly, add 1 to the Hit roll."
       }
     },
     "gameModes": {},

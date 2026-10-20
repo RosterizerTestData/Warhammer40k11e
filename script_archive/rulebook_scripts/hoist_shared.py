@@ -20,7 +20,7 @@ hub, names = args[0], args[1:]
 books = {p.stem: json.load(open(p)) for p in RZ.glob("*.rulebook")}
 hub_name = books[hub]["name"].strip()
 consumers = [s for s, b in books.items() if any(d["name"].strip() == hub_name for d in b.get("dependencies") or [])]
-UNITCLS = ("Character", "Vehicle", "Infantry/Mounted", "Unit")   # preference order
+UNITCLS = ("Vehicle", "Infantry/Mounted", "Character", "Unit")   # preference order: specific classes, never flatten to Unit§
 n = lambda s: re.sub(r"[^a-z0-9]", "", s.lower().replace("’", "'"))
 log, review, touched = [], [], set()
 
@@ -33,7 +33,8 @@ for U in names:
     copies = {s: k for s in consumers for k in cat(s) if k.split("§")[0] in UNITCLS and n(k.split("§", 1)[1]) == n(U)}
     if len(copies) < 2:
         review.append(f"{U}: only in {list(copies)} — nothing to hoist"); continue
-    cls = next(c for c in UNITCLS if any(k.split("§")[0] == c for k in copies.values()))
+    classes = [k.split("§")[0] for k in copies.values()]
+    cls = max(UNITCLS, key=lambda c: (classes.count(c), -UNITCLS.index(c)))   # majority class, ties to the more specific
     HK = f"{cls}§{U}"
     if HK in cat(hub):
         review.append(f"{U}: {HK} already in {hub}"); continue

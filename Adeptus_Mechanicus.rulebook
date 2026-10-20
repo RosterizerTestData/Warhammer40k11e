@@ -686,14 +686,6 @@
         },
         "text": "While a friendly Adeptus Mechanicus unit is within 6″ of this model, each time a ranged attack targets that unit, that unit has the Benefit of Cover against that attack."
       },
-      "Ability§Strafing Run": {
-        "keywords": {
-          "Keywords": [
-            "Other"
-          ]
-        },
-        "text": "Each time this model makes a ranged attack that targets a unit that cannot Fly, add 1 to the Hit roll."
-      },
       "Ability§Supreme Commander": {
         "keywords": {
           "Keywords": [
@@ -1605,27 +1597,21 @@
           ]
         }
       },
-      "Character§Tech-priest Enginseer": {
+      "Character§Tech-Priest Enginseer": {
+        "stats": {
+          "Points": {
+            "value": 55
+          }
+        },
         "assets": {
           "traits": [
             {
               "item": "Ability§Leader",
               "text": "This model can be attached to the following units:\n\n* Corpuscarii Electro-priests\n\n* Fulgurite Electro-priests\n\n* Hastarii Exterminators\n\n* Hastarii Fusiliers\n\n* Kataphron Breachers\n\n* Kataphron Destroyers\n\n* Secutarii Hoplites\n\n* Secutarii Peltasts\n\n* Servitor Battleclade\n\n* Skitarii Rangers\n\n* Skitarii Vanguard"
             },
-            "Ability§Enginseer",
-            "Ability§Omnissiah’s Blessing",
             "Ability§Vengeance For the Omnissiah",
-            {
-              "item": "Ability§Invulnerable",
-              "stats": {
-                "x": {
-                  "value": "5+"
-                }
-              }
-            },
-            "Ranged Weapon§Tech-priest Enginseer—Mechanicus pistol",
-            "Melee Weapon§Tech-priest Enginseer—Omnissian axe",
-            "Melee Weapon§Tech-priest Enginseer—Servo-arm",
+            "Ranged Weapon§Tech-Priest Enginseer—Mechanicus pistol",
+            "Melee Weapon§Tech-Priest Enginseer—Omnissian axe",
             "Ability§Doctrina Imperatives"
           ]
         },
@@ -1633,43 +1619,11 @@
           "Faction": [
             "Adeptus Mechanicus"
           ],
-          "Source": [
-            "10th Edition Codex"
-          ],
           "Keywords": [
-            "Character",
             "Cult Mechanicus",
             "Enginseer",
-            "Imperium",
-            "Infantry",
             "Tech-Priest"
-          ],
-          "Category": [
-            "Character"
           ]
-        },
-        "stats": {
-          "Ld": {
-            "value": 7
-          },
-          "M": {
-            "value": 6
-          },
-          "OC": {
-            "value": 1
-          },
-          "Points": {
-            "value": 55
-          },
-          "Sv": {
-            "value": 3
-          },
-          "T": {
-            "value": 4
-          },
-          "W": {
-            "value": 3
-          }
         }
       },
       "Character§Tech-priest Manipulus": {
@@ -5802,54 +5756,9 @@
         }
       },
       "Melee Weapon§Servitors—Servitor’s servo-arm": {
-        "aspects": {
-          "Label": "Servitor’s servo-arm"
-        },
         "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 3
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
           "S": {
             "value": 8
-          },
-          "WS": {
-            "value": 5
-          }
-        }
-      },
-      "Melee Weapon§Servitors—Servitor’s tools": {
-        "aspects": {
-          "Label": "Servitor’s tools"
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 3
-          },
-          "WS": {
-            "value": 5
           }
         }
       },
@@ -6216,63 +6125,6 @@
       "Melee Weapon§Tech-priest Dominus—Omnissian axe": {
         "aspects": {
           "Label": "Omnissian axe"
-        }
-      },
-      "Melee Weapon§Tech-priest Enginseer—Omnissian axe": {
-        "aspects": {
-          "Label": "Omnissian axe"
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 6
-          },
-          "WS": {
-            "value": 4
-          }
-        }
-      },
-      "Melee Weapon§Tech-priest Enginseer—Servo-arm": {
-        "aspects": {
-          "Label": "Servo-arm"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Extra Attacks"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 6
-          },
-          "WS": {
-            "value": 4
-          }
         }
       },
       "Melee Weapon§Tech-priest Manipulus—Omnissian staff": {
@@ -7596,23 +7448,8 @@
       },
       "Model§Servitor": {
         "stats": {
-          "Ld": {
-            "value": 8
-          },
-          "M": {
-            "value": 6
-          },
-          "OC": {
-            "value": 0
-          },
-          "Sv": {
-            "value": 4
-          },
           "T": {
             "value": 3
-          },
-          "W": {
-            "value": 1
           },
           "Weapon Options": {
             "dynamic": true,
@@ -10435,160 +10272,38 @@
         }
       },
       "Ranged Weapon§Servitors—Heavy bolter": {
-        "aspects": {
-          "Label": "Heavy bolter"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Heavy",
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            }
-          ]
-        },
         "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": -1
-          },
           "BS": {
             "value": 6
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "value": 36
-          },
-          "S": {
-            "value": 5
           }
         }
       },
       "Ranged Weapon§Servitors—Multi-melta": {
-        "aspects": {
-          "Label": "Multi-melta"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Heavy",
-            {
-              "item": "Ability§Melta",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            }
-          ]
-        },
         "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": -4
-          },
           "BS": {
             "value": 6
-          },
-          "D": {
-            "format": "D6",
-            "value": 0
-          },
-          "Range": {
-            "value": 18
-          },
-          "S": {
-            "value": 9
           }
         }
       },
-      "Ranged Weapon§Servitors—Plasma cannon": {
-        "aspects": {
-          "Label": "Plasma cannon"
-        },
-        "assets": {
-          "traits": [
-            "Ranged Weapon§Servitors—Plasma cannon – standard",
-            "Ranged Weapon§Servitors—Plasma cannon – supercharge"
-          ]
-        },
-        "keywords": {
-          "Tags": [
-            "Multi-weapon"
-          ]
-        }
-      },
       "Ranged Weapon§Servitors—Plasma cannon – standard": {
-        "aspects": {
-          "Label": "Standard"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Heavy",
-            "Ability§Blast"
-          ]
-        },
         "stats": {
           "A": {
             "statType": "term",
             "value": "D3"
           },
-          "AP": {
-            "value": -2
-          },
           "BS": {
             "value": 6
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 36
-          },
-          "S": {
-            "value": 7
           }
         }
       },
       "Ranged Weapon§Servitors—Plasma cannon – supercharge": {
-        "aspects": {
-          "Label": "Supercharge"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Heavy",
-            "Ability§Blast",
-            "Ability§Hazardous"
-          ]
-        },
         "stats": {
           "A": {
             "statType": "term",
             "value": "D3"
           },
-          "AP": {
-            "value": -3
-          },
           "BS": {
             "value": 6
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "value": 36
-          },
-          "S": {
-            "value": 8
           }
         }
       },
@@ -11173,34 +10888,10 @@
           "Label": "Volkite blaster"
         }
       },
-      "Ranged Weapon§Tech-priest Enginseer—Mechanicus pistol": {
-        "aspects": {
-          "Label": "Mechanicus pistol"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Pistol",
-            "Ability§Devastating Wounds"
-          ]
-        },
+      "Ranged Weapon§Tech-Priest Enginseer—Mechanicus pistol": {
         "stats": {
-          "A": {
-            "value": 1
-          },
           "AP": {
             "value": -1
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 6
           }
         }
       },
@@ -12633,7 +12324,7 @@
           "items": [
             "Model§Corpuscarii Electro-Priest",
             "Character§Tech-priest Dominus",
-            "Character§Tech-priest Enginseer",
+            "Character§Tech-Priest Enginseer",
             "Character§Tech-priest Manipulus",
             "Character§Technoarcheologist"
           ]
@@ -12722,7 +12413,7 @@
           "items": [
             "Model§Fulgurite Electro-Priest",
             "Character§Tech-priest Dominus",
-            "Character§Tech-priest Enginseer",
+            "Character§Tech-Priest Enginseer",
             "Character§Tech-priest Manipulus",
             "Character§Technoarcheologist"
           ]
@@ -12812,7 +12503,7 @@
             "Model§Hastarii Exterminator",
             "Character§Skitarii Marshal",
             "Character§Tech-priest Dominus",
-            "Character§Tech-priest Enginseer",
+            "Character§Tech-Priest Enginseer",
             "Character§Technoarcheologist",
             "Character§Tech-priest Manipulus"
           ]
@@ -12893,7 +12584,7 @@
           "items": [
             "Character§Skitarii Marshal",
             "Character§Tech-priest Dominus",
-            "Character§Tech-priest Enginseer",
+            "Character§Tech-Priest Enginseer",
             "Character§Technoarcheologist",
             "Character§Tech-priest Manipulus",
             "Model§Hastarii Fusilier"
@@ -13167,7 +12858,7 @@
           "items": [
             "Model§Kataphron Breacher",
             "Character§Tech-priest Dominus",
-            "Character§Tech-priest Enginseer",
+            "Character§Tech-Priest Enginseer",
             "Character§Tech-priest Manipulus",
             "Character§Technoarcheologist"
           ]
@@ -13248,7 +12939,7 @@
           "items": [
             "Model§Kataphron Destroyer",
             "Character§Tech-priest Dominus",
-            "Character§Tech-priest Enginseer",
+            "Character§Tech-Priest Enginseer",
             "Character§Tech-priest Manipulus",
             "Character§Technoarcheologist"
           ]
@@ -13746,7 +13437,7 @@
             "Model§Secutarii Hoplites",
             "Character§Skitarii Marshal",
             "Character§Tech-priest Dominus",
-            "Character§Tech-priest Enginseer",
+            "Character§Tech-Priest Enginseer",
             "Character§Tech-priest Manipulus",
             "Character§Technoarcheologist"
           ]
@@ -13850,7 +13541,7 @@
             "Model§Secutarii Peltasts",
             "Character§Skitarii Marshal",
             "Character§Tech-priest Dominus",
-            "Character§Tech-priest Enginseer",
+            "Character§Tech-Priest Enginseer",
             "Character§Tech-priest Manipulus",
             "Character§Technoarcheologist"
           ]
@@ -14376,7 +14067,7 @@
           "items": [
             "Model§Combat Servitor",
             "Character§Tech-priest Dominus",
-            "Character§Tech-priest Enginseer",
+            "Character§Tech-Priest Enginseer",
             "Character§Tech-priest Manipulus",
             "Character§Technoarcheologist"
           ]
@@ -14494,46 +14185,10 @@
         }
       },
       "Unit§Servitors": {
-        "allowed": {
-          "items": [
-            "Model§Servitor",
-            "Character§Tech-priest Enginseer"
-          ]
-        },
-        "assets": {
-          "traits": [
-            "Ability§Doctrina Imperatives",
-            "Ability§Mindlock",
-            "Ability§Servitor Retinue",
-            {
-              "item": "Ability§Invulnerable",
-              "stats": {
-                "x": {
-                  "value": "6+"
-                }
-              }
-            },
-            {
-              "item": "Model§Servitor",
-              "quantity": 4
-            }
-          ]
-        },
-        "keywords": {
-          "Faction": [
-            "Adeptus Mechanicus"
-          ],
-          "Source": [
-            "Legends"
-          ],
-          "Keywords": [
-            "Infantry",
-            "Imperium",
-            "Servitors"
-          ],
-          "Category": [
-            "Infantry"
-          ]
+        "stats": {
+          "Points": {
+            "value": 50
+          }
         },
         "rules": {
           "Maximum 2 Heavy Weapons": {
@@ -14556,29 +14211,15 @@
             "failState": "error"
           }
         },
-        "stats": {
-          "model1stTally": {
-            "value": 4
-          },
-          "modelKey": {
-            "value": "Model§Servitor"
-          },
-          "Models": {
-            "max": 4,
-            "min": 4,
-            "value": 4
-          },
-          "Points": {
-            "value": 50
-          },
-          "Servitor": {
-            "max": 4,
-            "min": 4,
-            "statType": "numeric",
-            "tracked": true,
-            "value": 0,
-            "visibility": "hidden"
-          }
+        "assets": {
+          "traits": [
+            "Ability§Doctrina Imperatives"
+          ]
+        },
+        "keywords": {
+          "Faction": [
+            "Adeptus Mechanicus"
+          ]
         }
       },
       "Unit§Sicarian Infiltrators": {
@@ -14761,7 +14402,7 @@
             "Model§Skitarii Ranger",
             "Character§Skitarii Marshal",
             "Character§Tech-priest Dominus",
-            "Character§Tech-priest Enginseer",
+            "Character§Tech-Priest Enginseer",
             "Character§Tech-priest Manipulus",
             "Character§Technoarcheologist"
           ]
@@ -14984,7 +14625,7 @@
             "Model§Skitarii Vanguard",
             "Character§Skitarii Marshal",
             "Character§Tech-priest Dominus",
-            "Character§Tech-priest Enginseer",
+            "Character§Tech-Priest Enginseer",
             "Character§Tech-priest Manipulus",
             "Character§Technoarcheologist"
           ]

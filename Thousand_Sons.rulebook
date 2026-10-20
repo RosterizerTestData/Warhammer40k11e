@@ -358,14 +358,6 @@
         },
         "text": "In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
       },
-      "Ability§Bringers of Change": {
-        "keywords": {
-          "Keywords": [
-            "Other"
-          ]
-        },
-        "text": "Each time a model in this unit makes a ranged attack, re-roll a Wound roll of 1. If the target of that attack is within range of an objective marker you do not control, you can re-roll the Wound roll instead."
-      },
       "Ability§Cabal of Sorcerers": {
         "keywords": {
           "Tags": [],
@@ -1471,9 +1463,6 @@
         }
       },
       "Character§Sorcerer": {
-        "aspects": {
-          "Label": "Sorcerer"
-        },
         "assets": {
           "traits": [
             {
@@ -1492,39 +1481,15 @@
             "Ability§Cabal of Sorcerers",
             "Ability§Twisted Sorceries (Psychic)",
             "Ranged Weapon§Sorcerer—Pandaemonic Delusion",
-            "Melee Weapon§Sorcerer—Force weapon",
             "Ranged Weapon§Sorcerer—Inferno bolt pistol"
           ]
         },
-        "keywords": {
-          "Faction": [
-            "Thousand Sons"
-          ],
-          "Source": [
-            "10th Edition Codex"
-          ],
-          "Keywords": [
-            "Infantry",
-            "Character",
-            "Psyker",
-            "Grenades",
-            "Chaos",
-            "Tzeentch",
-            "Sorcerer"
-          ],
-          "Category": [
-            "Character"
-          ]
+        "aspects": {
+          "Label": "Sorcerer"
         },
         "stats": {
-          "Ld": {
-            "value": 6
-          },
           "M": {
             "value": 6
-          },
-          "OC": {
-            "value": 1
           },
           "Points": {
             "value": 110
@@ -1551,91 +1516,41 @@
             "value": "-",
             "visibility": "normal"
           },
-          "Sv": {
-            "value": 3
-          },
-          "T": {
-            "value": 5
-          },
-          "W": {
-            "value": 4
-          },
           "unitDiscount": {
             "value": 10
           },
           "unitDiscountThreshold": {
             "value": 3
           }
+        },
+        "keywords": {
+          "Keywords": [
+            "Tzeentch"
+          ],
+          "Faction": [
+            "Thousand Sons"
+          ]
         }
       },
       "Character§Sorcerer in Terminator Armour": {
-        "aspects": {
-          "Label": "Sorcerer in Terminator Armour"
-        },
         "assets": {
-          "included": [],
           "traits": [
             {
               "item": "Ability§Leader",
               "text": "This model can be attached to the following units:\n\n* Scarab Occult Terminators"
             },
-            "Ability§Deep Strike",
             "Ability§Empyric Guidance (psychic)",
             "Ability§Marked By Fate (psychic)",
-            {
-              "item": "Ability§Invulnerable",
-              "stats": {
-                "x": {
-                  "value": "4+"
-                }
-              }
-            },
             "Ability§Cabal of Sorcerers",
-            "Melee Weapon§Sorcerer in Terminator Armour—Force weapon",
             "Ranged Weapon§Sorcerer in Terminator Armour—Coruscating Flames"
           ]
         },
-        "keywords": {
-          "Faction": [
-            "Thousand Sons"
-          ],
-          "Source": [
-            "10th Edition Codex"
-          ],
-          "Keywords": [
-            "Infantry",
-            "Character",
-            "Psyker",
-            "Terminator",
-            "Chaos",
-            "Tzeentch",
-            "Sorcerer"
-          ],
-          "Category": [
-            "Character"
-          ]
+        "aspects": {
+          "Label": "Sorcerer in Terminator Armour"
         },
         "stats": {
-          "Ld": {
-            "value": 6
-          },
-          "M": {
-            "value": 5
-          },
-          "OC": {
-            "value": 1
-          },
           "Points": {
             "value": 120
-          },
-          "Sv": {
-            "value": 2
-          },
-          "T": {
-            "value": 6
-          },
-          "W": {
-            "value": 5
           },
           "Weapon": {
             "dynamic": true,
@@ -1669,6 +1584,15 @@
           "unitDiscountThreshold": {
             "value": 3
           }
+        },
+        "keywords": {
+          "Keywords": [
+            "Tzeentch",
+            "Sorcerer"
+          ],
+          "Faction": [
+            "Thousand Sons"
+          ]
         }
       },
       "Character§Tzaangor Shaman": {
@@ -4502,64 +4426,6 @@
           }
         }
       },
-      "Melee Weapon§Rubric Marines—Close combat weapon": {
-        "aspects": {
-          "Label": "Close combat weapon"
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 5
-          },
-          "WS": {
-            "value": 3
-          }
-        }
-      },
-      "Melee Weapon§Rubric Marines—Force weapon": {
-        "aspects": {
-          "Label": "Force weapon"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Psychic"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "format": "D3",
-            "value": 0
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 6
-          },
-          "WS": {
-            "value": 3
-          }
-        }
-      },
       "Melee Weapon§Scarab Occult Terminators—Force weapon": {
         "aspects": {
           "Label": "Force weapon"
@@ -4893,32 +4759,6 @@
           "Label": "Force weapon"
         }
       },
-      "Melee Weapon§Sorcerer—Prosperine khopesh": {
-        "aspects": {
-          "Label": "Prosperine khopesh"
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "S": {
-            "value": 5
-          },
-          "WS": {
-            "value": 3
-          }
-        }
-      },
       "Melee Weapon§Tzaangor Enlightened—Chainsword": {
         "aspects": {
           "Label": "Chainsword"
@@ -5089,74 +4929,6 @@
           },
           "WS": {
             "value": 4
-          }
-        }
-      },
-      "Model§Aspiring Sorcerer": {
-        "assets": {
-          "included": [],
-          "traits": [
-            "Ranged Weapon§Rubric Marines—Malefic Curse",
-            "Melee Weapon§Rubric Marines—Force weapon",
-            {
-              "item": "Ability§Invulnerable",
-              "stats": {
-                "x": {
-                  "value": "5+"
-                }
-              }
-            }
-          ]
-        },
-        "keywords": {
-          "Keywords": [
-            "Psyker"
-          ]
-        },
-        "stats": {
-          "Ld": {
-            "value": 6
-          },
-          "M": {
-            "value": 6
-          },
-          "OC": {
-            "value": 2
-          },
-          "Pistol": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "Inferno bolt pistol": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Rubric Marines—Inferno bolt pistol"
-                  }
-                ]
-              },
-              "Warpflame pistol": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Rubric Marines—Warpflame pistol"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "Inferno bolt pistol",
-            "visibility": "active"
-          },
-          "Sv": {
-            "value": 3
-          },
-          "T": {
-            "value": 5
-          },
-          "W": {
-            "value": 3
           }
         }
       },
@@ -5383,102 +5155,6 @@
         "stats": {
           "Ld": {
             "value": 8
-          }
-        }
-      },
-      "Model§Rubric Marine": {
-        "assets": {
-          "traits": [
-            "Melee Weapon§Rubric Marines—Close combat weapon",
-            {
-              "item": "Ability§Invulnerable",
-              "stats": {
-                "x": {
-                  "value": "5+"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "Gun": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "Inferno boltgun": {
-                "order": 0,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Rubric Marines—Inferno boltgun"
-                  }
-                ]
-              },
-              "Soulreaper cannon": {
-                "order": 1,
-                "tracking": {
-                  "SoulreaperCannons": 1
-                },
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Rubric Marines—Soulreaper cannon"
-                  }
-                ]
-              },
-              "Warpflamer": {
-                "order": 2,
-                "traits": [
-                  {
-                    "trait": "Ranged Weapon§Rubric Marines—Warpflamer"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "Inferno boltgun",
-            "visibility": "active"
-          },
-          "Icon of flame": {
-            "dynamic": true,
-            "group": "Loadout",
-            "groupOrder": 2,
-            "ranks": {
-              "-": {
-                "order": 0
-              },
-              "✓": {
-                "order": 1,
-                "tracking": {
-                  "IconsOfFlame": 1
-                },
-                "traits": [
-                  {
-                    "trait": "Wargear§Icon of Flame"
-                  }
-                ]
-              }
-            },
-            "statType": "rank",
-            "value": "-",
-            "visibility": "normal"
-          },
-          "Ld": {
-            "value": 7
-          },
-          "M": {
-            "value": 6
-          },
-          "OC": {
-            "value": 2
-          },
-          "Sv": {
-            "value": 3
-          },
-          "T": {
-            "value": 5
-          },
-          "W": {
-            "value": 2
           }
         }
       },
@@ -6494,202 +6170,6 @@
           }
         }
       },
-      "Ranged Weapon§Rubric Marines—Inferno bolt pistol": {
-        "aspects": {
-          "Label": "Inferno bolt pistol"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Pistol"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 5
-          }
-        }
-      },
-      "Ranged Weapon§Rubric Marines—Inferno boltgun": {
-        "aspects": {
-          "Label": "Inferno boltgun"
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 24
-          },
-          "S": {
-            "value": 5
-          }
-        }
-      },
-      "Ranged Weapon§Rubric Marines—Malefic Curse": {
-        "aspects": {
-          "Label": "Malefic Curse"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Psychic",
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "infantry"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": -3
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 24
-          },
-          "S": {
-            "value": 4
-          }
-        }
-      },
-      "Ranged Weapon§Rubric Marines—Soulreaper cannon": {
-        "aspects": {
-          "Label": "Soulreaper cannon"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Devastating Wounds"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 6
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 24
-          },
-          "S": {
-            "value": 6
-          }
-        }
-      },
-      "Ranged Weapon§Rubric Marines—Warpflame pistol": {
-        "aspects": {
-          "Label": "Warpflame pistol"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Torrent",
-            "Ability§Pistol",
-            "Ability§Ignores Cover"
-          ]
-        },
-        "stats": {
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "AP": {
-            "value": -1
-          },
-          "BS": {
-            "format": "{t}",
-            "statType": "term",
-            "value": "N/A"
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 3
-          }
-        }
-      },
-      "Ranged Weapon§Rubric Marines—Warpflamer": {
-        "aspects": {
-          "Label": "Warpflamer"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Torrent",
-            "Ability§Ignores Cover"
-          ]
-        },
-        "stats": {
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "AP": {
-            "value": -1
-          },
-          "BS": {
-            "format": "{t}",
-            "statType": "term",
-            "value": "N/A"
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 4
-          }
-        }
-      },
       "Ranged Weapon§Scarab Occult Terminators—Heavy warpflamer": {
         "aspects": {
           "Label": "Heavy warpflamer"
@@ -7277,213 +6757,6 @@
           },
           "D": {
             "value": 2
-          },
-          "Range": {
-            "value": 24
-          },
-          "S": {
-            "value": 5
-          }
-        }
-      },
-      "Ranged Weapon§Sorcerer in Terminator Armour—Coruscating Flames": {
-        "aspects": {
-          "Label": "Coruscating Flames"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "monster"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            },
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "vehicle"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            "Ability§Psychic"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 3
-          },
-          "AP": {
-            "value": -3
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 2
-          },
-          "Range": {
-            "value": 18
-          },
-          "S": {
-            "value": 4
-          }
-        }
-      },
-      "Ranged Weapon§Sorcerer in Terminator Armour—Inferno combi-bolter": {
-        "aspects": {
-          "Label": "Inferno combi-bolter"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "2"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 2
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 24
-          },
-          "S": {
-            "value": 5
-          }
-        }
-      },
-      "Ranged Weapon§Sorcerer in Terminator Armour—Inferno combi-weapon": {
-        "aspects": {
-          "Label": "Inferno combi-weapon"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "infantry"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            }
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 4
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 24
-          },
-          "S": {
-            "value": 5
-          }
-        }
-      },
-      "Ranged Weapon§Sorcerer—Inferno bolt pistol": {
-        "aspects": {
-          "Label": "Inferno bolt pistol"
-        },
-        "assets": {
-          "traits": [
-            "Ability§Pistol"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 1
-          },
-          "AP": {
-            "value": -2
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 1
-          },
-          "Range": {
-            "value": 12
-          },
-          "S": {
-            "value": 5
-          }
-        }
-      },
-      "Ranged Weapon§Sorcerer—Pandaemonic Delusion": {
-        "aspects": {
-          "Label": "Pandaemonic Delusion"
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Sustained Hits",
-              "stats": {
-                "x": {
-                  "value": "3"
-                }
-              }
-            },
-            "Ability§Psychic"
-          ]
-        },
-        "stats": {
-          "A": {
-            "value": 6
-          },
-          "AP": {
-            "value": -1
-          },
-          "BS": {
-            "value": 3
-          },
-          "D": {
-            "value": 1
           },
           "Range": {
             "value": 24
@@ -8878,34 +8151,29 @@
           }
         }
       },
-      "Unit§Rubric Marines": {
+      "Infantry/Mounted§Rubric Marines": {
         "allowed": {
           "items": [
-            "Model§Rubric Marine",
             "Character§Ahriman (on Foot)",
-            "Character§Ahriman",
-            "Character§Exalted Sorcerer",
-            "Character§Exalted Sorcerer on Disc of Tzeentch",
-            "Character§Infernal Master",
             "Character§Sorcerer"
           ]
         },
+        "stats": {
+          "model2ndCost": {
+            "value": 220
+          },
+          "Points": {
+            "value": 125
+          },
+          "unitDiscount": {
+            "value": 10
+          },
+          "unitDiscountThreshold": {
+            "value": 4
+          }
+        },
         "assets": {
           "traits": [
-            "Ability§Bringers of Change",
-            {
-              "item": "Ability§Invulnerable",
-              "stats": {
-                "x": {
-                  "value": "5+"
-                }
-              }
-            },
-            "Model§Aspiring Sorcerer",
-            {
-              "item": "Model§Rubric Marine",
-              "quantity": 4
-            },
             {
               "item": "Ability§Cabal of Sorcerers",
               "stats": {
@@ -8917,129 +8185,12 @@
           ]
         },
         "keywords": {
+          "Keywords": [
+            "Rubricae"
+          ],
           "Faction": [
             "Thousand Sons"
-          ],
-          "Source": [
-            "10th Edition Codex"
-          ],
-          "Keywords": [
-            "Battleline",
-            "Chaos",
-            "Infantry",
-            "Rubric Marines",
-            "Rubricae",
-            "Tzeentch"
-          ],
-          "Category": [
-            "Battleline"
           ]
-        },
-        "rules": {
-          "Maximum 1 icon of flame.": {
-            "evals": [
-              {
-                "actionable": true,
-                "min": 1,
-                "not": true,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "tracked",
-                    "IconsOfFlame"
-                  ]
-                ]
-              },
-              {
-                "actionable": true,
-                "max": 1,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "tracked",
-                    "IconsOfFlame"
-                  ]
-                ]
-              }
-            ],
-            "evaluate": "OR",
-            "failState": "error"
-          },
-          "Maximum 1 soulreaper cannon.": {
-            "evals": [
-              {
-                "actionable": true,
-                "min": 1,
-                "not": true,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "tracked",
-                    "SoulreaperCannons"
-                  ]
-                ]
-              },
-              {
-                "actionable": true,
-                "max": 1,
-                "not": false,
-                "operator": "AND",
-                "paths": [
-                  [
-                    "{self}",
-                    "tracked",
-                    "SoulreaperCannons"
-                  ]
-                ]
-              }
-            ],
-            "evaluate": "OR",
-            "failState": "error"
-          }
-        },
-        "stats": {
-          "model1stTally": {
-            "value": 5
-          },
-          "model2ndCost": {
-            "value": 220
-          },
-          "model2ndTally": {
-            "value": 10
-          },
-          "modelKey": {
-            "value": "Model§Rubric Marine"
-          },
-          "Models": {
-            "increment": {
-              "value": 5
-            },
-            "max": 10,
-            "min": 5,
-            "value": 5,
-            "visibility": "normal"
-          },
-          "Points": {
-            "value": 125
-          },
-          "Rubric Marine": {
-            "max": 9,
-            "min": 4,
-            "statType": "numeric",
-            "tracked": true,
-            "value": 0,
-            "visibility": "hidden"
-          },
-          "unitDiscount": {
-            "value": 10
-          },
-          "unitDiscountThreshold": {
-            "value": 4
-          }
         }
       },
       "Unit§Scarab Occult Terminators": {
@@ -12500,59 +11651,6 @@
       "Melee Weapon§Maulerfiend—Lasher tendrils": {
         "aspects": {
           "Label": "Lasher tendrils"
-        }
-      },
-      "Ranged Weapon§Sorcerer in Terminator Armour—Gaze of Hate": {
-        "aspects": {
-          "Label": "Gaze of Hate"
-        },
-        "stats": {
-          "Range": {
-            "value": 18
-          },
-          "A": {
-            "value": 3
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 4
-          },
-          "AP": {
-            "value": -3
-          },
-          "D": {
-            "value": 2
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Psychic",
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "vehicle"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            },
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "monster"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            }
-          ]
         }
       },
       "Melee Weapon§Tzaangor Shaman—Force stave": {
