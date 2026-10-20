@@ -1,6 +1,6 @@
 {
   "name": "Black Templars 11e",
-  "revision": "11.1.3",
+  "revision": "11.1.5",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -1715,7 +1715,10 @@
       "Enhancement§Fervent Exemplars (Upgrade)": {
         "keywords": {
           "Keywords": [
-            "Marshal'S Household"
+            "Marshal's Household"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -1723,7 +1726,17 @@
             "value": 10
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Sword Brethren squad** unit only. This unit has +1 to **charge rolls**."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Sword Brethren squad** unit only. This unit has +1 to **charge rolls**.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Guiding Omens": {
         "keywords": {
@@ -1789,7 +1802,7 @@
       "Enhancement§Incendiary Animus": {
         "keywords": {
           "Keywords": [
-            "Companions Of Vehemence"
+            "Companions of Vehemence"
           ]
         },
         "rules": {
@@ -1838,7 +1851,10 @@
       "Enhancement§Inheritors of Sigismund (Upgrade)": {
         "keywords": {
           "Keywords": [
-            "Marshal'S Household"
+            "Marshal's Household"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -1846,7 +1862,17 @@
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Sword Brethren squad** unit only. This unit has **Fights First**."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Sword Brethren squad** unit only. This unit has **Fights First**.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Master of Machine War": {
         "keywords": {
@@ -1864,7 +1890,7 @@
       "Enhancement§Merciless Denunciation": {
         "keywords": {
           "Keywords": [
-            "Companions Of Vehemence"
+            "Companions of Vehemence"
           ]
         },
         "rules": {
@@ -1913,7 +1939,7 @@
       "Enhancement§Oathbound Exemplar": {
         "keywords": {
           "Keywords": [
-            "Companions Of Vehemence"
+            "Companions of Vehemence"
           ]
         },
         "rules": {
@@ -2401,7 +2427,7 @@
       "Enhancement§Zealous Vanguard": {
         "keywords": {
           "Keywords": [
-            "Companions Of Vehemence"
+            "Companions of Vehemence"
           ]
         },
         "rules": {

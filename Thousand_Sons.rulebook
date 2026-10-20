@@ -1,6 +1,6 @@
 {
   "name": "Thousand Sons 11e",
-  "revision": "11.1.4",
+  "revision": "11.1.5",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -2599,7 +2599,7 @@
       "Enhancement§Diabolic Savant": {
         "keywords": {
           "Keywords": [
-            "Changehost Of Deceit"
+            "Changehost of Deceit"
           ]
         },
         "rules": {
@@ -2683,7 +2683,7 @@
       "Enhancement§Duplicitous Malediction": {
         "keywords": {
           "Keywords": [
-            "Changehost Of Deceit"
+            "Changehost of Deceit"
           ]
         },
         "rules": {
@@ -2930,7 +2930,7 @@
       "Enhancement§Nethershriek Mind-Eater": {
         "keywords": {
           "Keywords": [
-            "Changehost Of Deceit"
+            "Changehost of Deceit"
           ]
         },
         "rules": {
@@ -3169,6 +3169,9 @@
         "keywords": {
           "Keywords": [
             "Servants Of Change"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -3176,12 +3179,22 @@
             "value": 10
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Spawn** unit only. This unit’s melee attacks have:\n\n- +1 **AP**.\n\n- **[Cleave 1]**."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Spawn** unit only. This unit’s melee attacks have:\n\n- +1 **AP**.\n\n- **[Cleave 1]**.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Tome of True Names": {
         "keywords": {
           "Keywords": [
-            "Changehost Of Deceit"
+            "Changehost of Deceit"
           ]
         },
         "rules": {
@@ -6980,7 +6993,9 @@
                   "maxDamned": 250,
                   "maxLegions": 500,
                   "maxPoints": 1000,
-                  "maxDP": 3
+                  "maxDP": 2,
+                  "maxUnits": 2,
+                  "maxEnhancements": 2
                 }
               },
               "Strike Force": {
@@ -6991,7 +7006,9 @@
                   "maxDamned": 500,
                   "maxLegions": 1000,
                   "maxPoints": 2000,
-                  "maxDP": 4
+                  "maxDP": 3,
+                  "maxUnits": 3,
+                  "maxEnhancements": 4
                 }
               }
             }

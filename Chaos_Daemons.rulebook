@@ -1,6 +1,6 @@
 {
   "name": "Chaos Daemons 11e",
-  "revision": "11.1.4",
+  "revision": "11.1.5",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -1838,6 +1838,9 @@
         "keywords": {
           "Keywords": [
             "Cavalcade Of Chaos"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -1845,12 +1848,22 @@
             "value": 10
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Legiones Daemonica Mounted** unit only. This unit has +1\" **M**."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Legiones Daemonica Mounted** unit only. This unit has +1\" **M**.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Avatar of Perfection": {
         "keywords": {
           "Keywords": [
-            "Legion Of Excess"
+            "Legion of Excess"
           ]
         },
         "rules": {
@@ -1900,6 +1913,9 @@
         "keywords": {
           "Keywords": [
             "Warptide"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -1907,7 +1923,17 @@
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Legiones Daemonica Battleline** unit only. This unit’s attacks have +1 **S**."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Legiones Daemonica Battleline** unit only. This unit’s attacks have +1 **S**.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Brazenmaw": {
         "keywords": {
@@ -1982,7 +2008,7 @@
       "Enhancement§Dreaming Crown": {
         "keywords": {
           "Keywords": [
-            "Legion Of Excess"
+            "Legion of Excess"
           ]
         },
         "rules": {
@@ -2065,7 +2091,7 @@
       "Enhancement§False Majesty": {
         "keywords": {
           "Keywords": [
-            "Legion Of Excess"
+            "Legion of Excess"
           ]
         },
         "rules": {
@@ -2568,7 +2594,7 @@
       "Enhancement§Soul Glutton": {
         "keywords": {
           "Keywords": [
-            "Legion Of Excess"
+            "Legion of Excess"
           ]
         },
         "rules": {
@@ -2618,6 +2644,9 @@
         "keywords": {
           "Keywords": [
             "Warptide"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -2625,12 +2654,25 @@
             "value": 10
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Legiones Daemonica Battleline** unit only. When you target this unit with the **Heroic Intervention/Fire Overwatch stratagem**, that use is ‑1 CP."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Legiones Daemonica Battleline** unit only. When you target this unit with the **Heroic Intervention/Fire Overwatch stratagem**, that use is ‑1 CP.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Soul-shattering Charge (Upgrade)": {
         "keywords": {
           "Keywords": [
             "Cavalcade Of Chaos"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -2638,7 +2680,17 @@
             "value": 10
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Legiones Daemonica Mounted** unit only. When this unit is **selected to fight**, if this unit made a **charge move** this turn, you can use this ability. If you do, when determining which models in this unit can fight, friendly models that are within 3\" of enemy units **engaged** with this unit can target those enemy units."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Legiones Daemonica Mounted** unit only. When this unit is **selected to fight**, if this unit made a **charge move** this turn, you can use this ability. If you do, when determining which models in this unit can fight, friendly models that are within 3\" of enemy units **engaged** with this unit can target those enemy units.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Soulstealer": {
         "keywords": {
@@ -2679,6 +2731,9 @@
         "keywords": {
           "Keywords": [
             "Lords Of The Warp"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -2686,7 +2741,17 @@
             "value": 10
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Legiones Daemonica Character** model only (excluding **Monster** units). This model has +2 **W**."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Legiones Daemonica Character** model only (excluding **Monster** units). This model has +2 **W**.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§The Endless Gift": {
         "keywords": {
@@ -3909,7 +3974,9 @@
                   "maxDamned": 250,
                   "maxHeretic": 500,
                   "maxPoints": 1000,
-                  "maxDP": 3
+                  "maxDP": 2,
+                  "maxUnits": 2,
+                  "maxEnhancements": 2
                 }
               },
               "Strike Force": {
@@ -3920,7 +3987,9 @@
                   "maxDamned": 500,
                   "maxHeretic": 1000,
                   "maxPoints": 2000,
-                  "maxDP": 4
+                  "maxDP": 3,
+                  "maxUnits": 3,
+                  "maxEnhancements": 4
                 }
               }
             }

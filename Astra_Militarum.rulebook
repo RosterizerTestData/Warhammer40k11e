@@ -1,6 +1,6 @@
 {
   "name": "Astra Militarum 11e",
-  "revision": "11.1.4",
+  "revision": "11.1.5",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -6427,7 +6427,7 @@
       "Enhancement§Calm Under Fire": {
         "keywords": {
           "Keywords": [
-            "Hammer Of The Emperor"
+            "Hammer of the Emperor"
           ]
         },
         "rules": {
@@ -6785,6 +6785,9 @@
         "keywords": {
           "Keywords": [
             "Abhuman Auxiliaries"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -6792,7 +6795,17 @@
             "value": 10
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Commissar** model only. This model has **Feel No Pain 4+**."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Commissar** model only. This model has **Feel No Pain 4+**.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Exemplary Officer": {
         "keywords": {
@@ -6954,7 +6967,8 @@
         },
         "keywords": {
           "Keywords": [
-            "Combined Arms"
+            "Combined Arms",
+            "Armoured Infantry"
           ]
         },
         "rules": {
@@ -6982,6 +6996,12 @@
         "stats": {
           "Points": {
             "value": 15
+          },
+          "Points Mod": {
+            "value": 10
+          },
+          "Detachment Trigger": {
+            "value": "Armoured Infantry"
           }
         },
         "text": "**OFFICER** model only. After both players have deployed their armies, if the bearer's unit (or any **TRANSPORT** it is embarked within) is on the battlefield, select up to two units with the **REGIMENT** or **SQUADRON** keywords from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
@@ -7074,7 +7094,7 @@
       "Enhancement§Indomitable Steed": {
         "keywords": {
           "Keywords": [
-            "Hammer Of The Emperor"
+            "Hammer of the Emperor"
           ]
         },
         "rules": {
@@ -7304,6 +7324,9 @@
         "keywords": {
           "Keywords": [
             "Designation Force"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -7311,7 +7334,17 @@
             "value": 10
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Scout Sentinel** unit only. This unit has **Infiltrators**."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Scout Sentinel** unit only. This unit has **Infiltrators**.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Master Manoeuvrist": {
         "keywords": {
@@ -7541,6 +7574,9 @@
         "keywords": {
           "Keywords": [
             "Designation Force"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -7548,12 +7584,22 @@
             "value": 10
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Astra Militarum Infantry Platoon** unit only. In your first Movement phase, this unit can make an **ingress move**."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Astra Militarum Infantry Platoon** unit only. In your first Movement phase, this unit can make an **ingress move**.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Regimental Banner": {
         "keywords": {
           "Keywords": [
-            "Hammer Of The Emperor"
+            "Hammer of the Emperor"
           ]
         },
         "rules": {
@@ -7694,6 +7740,9 @@
         "keywords": {
           "Keywords": [
             "Abhuman Auxiliaries"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -7701,7 +7750,17 @@
             "value": 10
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Ratlings** unit only. When this unit is **selected to shoot**, enemy units have +6\" **detection range** until this unit has shot."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Ratlings** unit only. When this unit is **selected to shoot**, enemy units have +6\" **detection range** until this unit has shot.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Shroud Projector": {
         "rules": {
@@ -8212,7 +8271,7 @@
       "Enhancement§Veteran Crew": {
         "keywords": {
           "Keywords": [
-            "Hammer Of The Emperor"
+            "Hammer of the Emperor"
           ]
         },
         "rules": {

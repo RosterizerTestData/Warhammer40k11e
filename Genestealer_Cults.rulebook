@@ -1,6 +1,6 @@
 {
   "name": "Genestealer Cults 11e",
-  "revision": "11.1.4",
+  "revision": "11.1.5",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -3006,7 +3006,7 @@
       "Enhancement§A Chink In Their Armour": {
         "keywords": {
           "Keywords": [
-            "Host Of Ascension"
+            "Host of Ascension"
           ]
         },
         "stats": {
@@ -3117,7 +3117,7 @@
       "Enhancement§Assassination Edict": {
         "keywords": {
           "Keywords": [
-            "Host Of Ascension"
+            "Host of Ascension"
           ]
         },
         "stats": {
@@ -3409,6 +3409,9 @@
         "keywords": {
           "Keywords": [
             "Xenocult Masses"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -3416,7 +3419,17 @@
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Neophyte Hybrids** unit only. This unit has -3\" **detection range**."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Neophyte Hybrids** unit only. This unit has -3\" **detection range**.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Enraptured Damnation": {
         "keywords": {
@@ -3700,6 +3713,9 @@
         "keywords": {
           "Keywords": [
             "Purestrain Broodswarm"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -3707,7 +3723,17 @@
             "value": 30
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Purestrain Genestealers** unit only. This unit has:\n\n- +1 **T**.\n\n- 4+ **Sv**.\n\n- This unit’s melee attacks have +1 **S**."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Purestrain Genestealers** unit only. This unit has:\n\n- +1 **T**.\n\n- 4+ **Sv**.\n\n- This unit’s melee attacks have +1 **S**.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Martial Espionage": {
         "keywords": {
@@ -3810,7 +3836,7 @@
       "Enhancement§Our Time is Nigh": {
         "keywords": {
           "Keywords": [
-            "Host Of Ascension"
+            "Host of Ascension"
           ]
         },
         "stats": {
@@ -3909,7 +3935,7 @@
       "Enhancement§Prowling Agitant": {
         "keywords": {
           "Keywords": [
-            "Host Of Ascension"
+            "Host of Ascension"
           ]
         },
         "stats": {
@@ -8385,7 +8411,9 @@
                   "maxNids": 500,
                   "maxPoints": 1000,
                   "maxRequisitioned": 1,
-                  "maxDP": 3
+                  "maxDP": 2,
+                  "maxUnits": 2,
+                  "maxEnhancements": 2
                 }
               },
               "Strike Force": {
@@ -8398,7 +8426,9 @@
                   "maxNids": 1000,
                   "maxPoints": 2000,
                   "maxRequisitioned": 1,
-                  "maxDP": 4
+                  "maxDP": 3,
+                  "maxUnits": 3,
+                  "maxEnhancements": 4
                 }
               }
             }

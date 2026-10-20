@@ -1,6 +1,6 @@
 {
   "name": "Orks 11e",
-  "revision": "11.1.4",
+  "revision": "11.1.5",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -5220,7 +5220,10 @@
       "Enhancement§Boarding Ramps (Upgrade)": {
         "keywords": {
           "Keywords": [
-            "Rollin' Deff"
+            "Rollin’ Deff"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "rules": {
@@ -5250,7 +5253,17 @@
             "value": 10
           }
         },
-        "text": "**Wagon** unit only. When a unit embarked within this unit is selected to make a **disembark move**, that unit has +1 to **charge rolls** until the end of the turn."
+        "text": "**Wagon** unit only. When a unit embarked within this unit is selected to make a **disembark move**, that unit has +1 to **charge rolls** until the end of the turn.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Brutal But Kunnin’": {
         "keywords": {
@@ -5553,6 +5566,9 @@
         "keywords": {
           "Keywords": [
             "More Dakka!"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "rules": {
@@ -5567,7 +5583,7 @@
                   [
                     "{parent}",
                     "keywords",
-                    "Keywords"
+                    "Faction"
                   ]
                 ],
                 "value": "Orks"
@@ -5596,12 +5612,22 @@
             "value": 15
           }
         },
-        "text": "**Orks Infantry** unit only. This unit’s ranged attacks have:\n\n- **[Rapid Fire 1]**.\n\n- __Or:__ If that attack already has **[Rapid Fire]**, +1 to the value of that **[Rapid Fire]** (e.g. **[Rapid Fire 1]** becomes **[Rapid Fire 2]**)."
+        "text": "**Orks Infantry** unit only. This unit’s ranged attacks have:\n\n- **[Rapid Fire 1]**.\n\n- __Or:__ If that attack already has **[Rapid Fire]**, +1 to the value of that **[Rapid Fire]** (e.g. **[Rapid Fire 1]** becomes **[Rapid Fire 2]**).",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Fasta Than Yooz": {
         "keywords": {
           "Keywords": [
-            "Kult Of Speed"
+            "Kult of Speed"
           ]
         },
         "rules": {
@@ -6186,7 +6212,7 @@
                   [
                     "{parent}",
                     "keywords",
-                    "Keywords"
+                    "Faction"
                   ]
                 ],
                 "value": "Orks"
@@ -6362,7 +6388,7 @@
                   [
                     "{parent}",
                     "keywords",
-                    "Keywords"
+                    "Faction"
                   ]
                 ],
                 "value": "Orks"
@@ -6560,6 +6586,9 @@
         "keywords": {
           "Keywords": [
             "Dread Mob"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "rules": {
@@ -6611,12 +6640,22 @@
             "value": 10
           }
         },
-        "text": "**MEK** model only. Models in the bearer’s unit have the Stealth ability."
+        "text": "**MEK** model only. Models in the bearer’s unit have the Stealth ability.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Speed Makes Right": {
         "keywords": {
           "Keywords": [
-            "Kult Of Speed"
+            "Kult of Speed"
           ]
         },
         "stats": {
@@ -6629,7 +6668,7 @@
       "Enhancement§Squig-hide Tyres": {
         "keywords": {
           "Keywords": [
-            "Kult Of Speed"
+            "Kult of Speed"
           ]
         },
         "rules": {
@@ -6825,7 +6864,10 @@
       "Enhancement§Targetin’ Gizmos (Upgrade)": {
         "keywords": {
           "Keywords": [
-            "Rollin' Deff"
+            "Rollin’ Deff"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "rules": {
@@ -6855,7 +6897,17 @@
             "value": 25
           }
         },
-        "text": "**Wagon** unit only. While a **Big Mek** model is embarked within this unit:\n\n- This unit’s ranged attacks have **[Ignores Cover]**.\n\n- If the Waaagh! is active for this unit, this unit’s ranged attacks have **[Sustained Hits 1]**."
+        "text": "**Wagon** unit only. While a **Big Mek** model is embarked within this unit:\n\n- This unit’s ranged attacks have **[Ignores Cover]**.\n\n- If the Waaagh! is active for this unit, this unit’s ranged attacks have **[Sustained Hits 1]**.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Targetin’ Squigs": {
         "stats": {
@@ -6973,7 +7025,7 @@
       "Enhancement§Wazblasta": {
         "keywords": {
           "Keywords": [
-            "Kult Of Speed"
+            "Kult of Speed"
           ]
         },
         "rules": {

@@ -1,6 +1,6 @@
 {
   "name": "Adeptus Custodes 11e",
-  "revision": "11.1.4",
+  "revision": "11.1.5",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -3506,7 +3506,7 @@
       "Enhancement§Admonimortis": {
         "keywords": {
           "Keywords": [
-            "Lions Of The Emperor"
+            "Lions of the Emperor"
           ]
         },
         "rules": {
@@ -3633,7 +3633,7 @@
       "Enhancement§Aegis Projector": {
         "keywords": {
           "Keywords": [
-            "Talons Of The Emperor"
+            "Talons of the Emperor"
           ]
         },
         "stats": {
@@ -3688,6 +3688,9 @@
         "keywords": {
           "Keywords": [
             "Might Of The Moritoi"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -3695,7 +3698,17 @@
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Adeptus Custodes Walker** unit only. When you target this unit with the **Crushing Impact stratagem**, that use is -1 **CP**."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Adeptus Custodes Walker** unit only. When you target this unit with the **Crushing Impact stratagem**, that use is -1 **CP**.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Auric Mantle": {
         "keywords": {
@@ -3817,7 +3830,7 @@
       "Enhancement§Champion of the Imperium": {
         "keywords": {
           "Keywords": [
-            "Talons Of The Emperor"
+            "Talons of the Emperor"
           ]
         },
         "stats": {
@@ -3891,7 +3904,7 @@
       "Enhancement§Fierce Conqueror": {
         "keywords": {
           "Keywords": [
-            "Lions Of The Emperor"
+            "Lions of the Emperor"
           ]
         },
         "rules": {
@@ -4024,7 +4037,7 @@
       "Enhancement§Gift of Terran Artifice": {
         "keywords": {
           "Keywords": [
-            "Talons Of The Emperor"
+            "Talons of the Emperor"
           ]
         },
         "stats": {
@@ -4144,6 +4157,9 @@
         "keywords": {
           "Keywords": [
             "Might Of The Moritoi"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -4151,7 +4167,17 @@
             "value": 25
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Adeptus Custodes Walker** unit only. This unit’s attacks can:\n\n- Re‑roll **hit rolls** of 1.\n\n- Re‑roll **wound rolls** of 1."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Adeptus Custodes Walker** unit only. This unit’s attacks can:\n\n- Re‑roll **hit rolls** of 1.\n\n- Re‑roll **wound rolls** of 1.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Martial Philosopher": {
         "keywords": {
@@ -4266,7 +4292,7 @@
       "Enhancement§Praesidius": {
         "keywords": {
           "Keywords": [
-            "Lions Of The Emperor"
+            "Lions of the Emperor"
           ]
         },
         "rules": {
@@ -4312,6 +4338,9 @@
         "keywords": {
           "Keywords": [
             "Silent Hunters"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -4319,12 +4348,22 @@
             "value": 10
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Anathema Psykana** unit only.\n\n- This unit has **Explosives**.\n\n- When you target this unit with the **Explosives stratagem**, if you select an enemy **Psyker** unit, you can re-roll rolls to determine whether that enemy unit suffers a **mortal wound**."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Anathema Psykana** unit only.\n\n- This unit has **Explosives**.\n\n- When you target this unit with the **Explosives stratagem**, if you select an enemy **Psyker** unit, you can re-roll rolls to determine whether that enemy unit suffers a **mortal wound**.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Radiant Mantle": {
         "keywords": {
           "Keywords": [
-            "Talons Of The Emperor"
+            "Talons of the Emperor"
           ]
         },
         "stats": {
@@ -4463,7 +4502,7 @@
       "Enhancement§Superior Creation": {
         "keywords": {
           "Keywords": [
-            "Lions Of The Emperor"
+            "Lions of the Emperor"
           ]
         },
         "rules": {

@@ -1,6 +1,6 @@
 {
   "name": "Aeldari 11e",
-  "revision": "11.1.4",
+  "revision": "11.1.5",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -6897,6 +6897,9 @@
         "keywords": {
           "Keywords": [
             "Path Of The Outcast"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -6904,12 +6907,22 @@
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Rangers/Shroud Runners** unit only. This unit’s ranged attacks that target a **CHARACTER** unit have +1 **AP**."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Rangers/Shroud Runners** unit only. This unit’s ranged attacks that target a **CHARACTER** unit have +1 **AP**.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Borrowed Vigour": {
         "keywords": {
           "Keywords": [
-            "Devoted Of Ynnead"
+            "Devoted of Ynnead"
           ]
         },
         "rules": {
@@ -7003,6 +7016,9 @@
         "keywords": {
           "Keywords": [
             "Path Of The Outcast"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -7010,7 +7026,17 @@
             "value": 10
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Rangers** unit only. This unit’s ranged attacks do not prevent this unit from being **hidden**."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Rangers** unit only. This unit’s ranged attacks do not prevent this unit from being **hidden**.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Cegorach's Coil": {
         "keywords": {
@@ -7050,7 +7076,7 @@
       "Enhancement§Cegorach’s Coil": {
         "keywords": {
           "Keywords": [
-            "Ghosts Of The Webway"
+            "Ghosts of the Webway"
           ]
         },
         "stats": {
@@ -7223,7 +7249,7 @@
       "Enhancement§Fanged Leer": {
         "keywords": {
           "Keywords": [
-            "Serpent’S Brood"
+            "Serpent’s Brood"
           ]
         },
         "rules": {
@@ -7333,7 +7359,7 @@
       "Enhancement§Gaze of Ynnead": {
         "keywords": {
           "Keywords": [
-            "Devoted Of Ynnead"
+            "Devoted of Ynnead"
           ]
         },
         "rules": {
@@ -7537,7 +7563,7 @@
       "Enhancement§Key of Ghosts": {
         "keywords": {
           "Keywords": [
-            "Serpent’S Brood"
+            "Serpent’s Brood"
           ]
         },
         "rules": {
@@ -7750,7 +7776,7 @@
       "Enhancement§Mask of Secrets": {
         "keywords": {
           "Keywords": [
-            "Ghosts Of The Webway"
+            "Ghosts of the Webway"
           ]
         },
         "rules": {
@@ -7834,7 +7860,8 @@
       "Enhancement§Mistweave": {
         "keywords": {
           "Keywords": [
-            "Ghosts Of The Webway"
+            "Ghosts of the Webway",
+            "Fateful Performance"
           ]
         },
         "rules": {
@@ -7907,6 +7934,12 @@
         "stats": {
           "Points": {
             "value": 15
+          },
+          "Points Mod": {
+            "value": 5
+          },
+          "Detachment Trigger": {
+            "value": "Fateful Performance"
           }
         },
         "text": "SHADOWSEER model only. While the bearer is leading a unit, models in that unit have the Infiltrators ability."
@@ -7914,7 +7947,7 @@
       "Enhancement§Morbid Might": {
         "keywords": {
           "Keywords": [
-            "Devoted Of Ynnead"
+            "Devoted of Ynnead"
           ]
         },
         "rules": {
@@ -7984,7 +8017,7 @@
       "Enhancement§Murder’s Jest": {
         "keywords": {
           "Keywords": [
-            "Ghosts Of The Webway"
+            "Ghosts of the Webway"
           ]
         },
         "stats": {
@@ -8290,6 +8323,9 @@
         "keywords": {
           "Keywords": [
             "Twilight Flickers"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -8297,12 +8333,22 @@
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Troupe** unit only. This unit has **Fights First**."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Troupe** unit only. This unit has **Fights First**.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Shedskin Raiment": {
         "keywords": {
           "Keywords": [
-            "Serpent’S Brood"
+            "Serpent’s Brood"
           ]
         },
         "rules": {
@@ -8508,7 +8554,7 @@
       "Enhancement§Storm of Whispers": {
         "keywords": {
           "Keywords": [
-            "Devoted Of Ynnead"
+            "Devoted of Ynnead"
           ]
         },
         "rules": {
@@ -8689,7 +8735,7 @@
       "Enhancement§Weavers' Wail": {
         "keywords": {
           "Keywords": [
-            "Serpent’S Brood"
+            "Serpent’s Brood"
           ]
         },
         "rules": {

@@ -1,6 +1,6 @@
 {
   "name": "Drukhari 11e",
-  "revision": "11.1.4",
+  "revision": "11.1.5",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -1939,7 +1939,7 @@
       "Enhancement§Archraider": {
         "keywords": {
           "Keywords": [
-            "Reaper’S Wager"
+            "Reaper’s Wager"
           ]
         },
         "rules": {
@@ -1988,7 +1988,7 @@
       "Enhancement§Chronoshard": {
         "keywords": {
           "Keywords": [
-            "Spectacle Of Spite"
+            "Spectacle of Spite"
           ]
         },
         "rules": {
@@ -2023,7 +2023,7 @@
       "Enhancement§Conductor of Torment": {
         "keywords": {
           "Keywords": [
-            "Reaper’S Wager"
+            "Reaper’s Wager"
           ]
         },
         "rules": {
@@ -2140,6 +2140,9 @@
         "keywords": {
           "Keywords": [
             "Tools Of Torment"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -2147,7 +2150,17 @@
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**CRONOS/TALOS** unit only. This unit has 5+ **InSv**."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**CRONOS/TALOS** unit only. This unit has 5+ **InSv**.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Eye of Spite": {
         "keywords": {
@@ -2748,7 +2761,7 @@
       "Enhancement§Morghenna’s Curse": {
         "keywords": {
           "Keywords": [
-            "Spectacle Of Spite"
+            "Spectacle of Spite"
           ]
         },
         "stats": {
@@ -2796,7 +2809,8 @@
       "Enhancement§Periapt of Torments": {
         "keywords": {
           "Keywords": [
-            "Spectacle Of Spite"
+            "Spectacle of Spite",
+            "Exhibition Of Slaughter"
           ]
         },
         "rules": {
@@ -2824,6 +2838,12 @@
         "stats": {
           "Points": {
             "value": 25
+          },
+          "Points Mod": {
+            "value": -5
+          },
+          "Detachment Trigger": {
+            "value": "Exhibition Of Slaughter"
           }
         },
         "text": "Succubus model only. Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer's unit."
@@ -2866,7 +2886,7 @@
       "Enhancement§Pharmacophex": {
         "keywords": {
           "Keywords": [
-            "Spectacle Of Spite"
+            "Spectacle of Spite"
           ]
         },
         "rules": {
@@ -2976,7 +2996,7 @@
       "Enhancement§Reaper’s Cowl": {
         "keywords": {
           "Keywords": [
-            "Reaper’S Wager"
+            "Reaper’s Wager"
           ]
         },
         "stats": {
@@ -3059,7 +3079,8 @@
       "Enhancement§Towering Arrogance": {
         "keywords": {
           "Keywords": [
-            "Kabalite Cartel"
+            "Kabalite Cartel",
+            "Kabalite Agonysts"
           ]
         },
         "rules": {
@@ -3085,6 +3106,12 @@
         "stats": {
           "Points": {
             "value": 20
+          },
+          "Points Mod": {
+            "value": -5
+          },
+          "Detachment Trigger": {
+            "value": "Kabalite Agonysts"
           }
         },
         "text": "Archon model only. While the bearer is leading a unit, improve the Leadership and Objective Control characteristics of models in that unit by 1."
@@ -3125,7 +3152,7 @@
       "Enhancement§Webway Walker": {
         "keywords": {
           "Keywords": [
-            "Reaper’S Wager"
+            "Reaper’s Wager"
           ]
         },
         "rules": {
@@ -10556,7 +10583,9 @@
                   "MaxHarlequinPoints": 250,
                   "maxPoints": 1000,
                   "MaxReaperHarlequinPoints": 500,
-                  "maxDP": 3
+                  "maxDP": 2,
+                  "maxUnits": 2,
+                  "maxEnhancements": 2
                 }
               },
               "Strike Force": {
@@ -10565,7 +10594,9 @@
                   "MaxHarlequinPoints": 500,
                   "maxPoints": 2000,
                   "MaxReaperHarlequinPoints": 1000,
-                  "maxDP": 4
+                  "maxDP": 3,
+                  "maxUnits": 3,
+                  "maxEnhancements": 4
                 }
               }
             }

@@ -1,6 +1,6 @@
 {
   "name": "Death Guard 11e",
-  "revision": "11.1.4",
+  "revision": "11.1.5",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -3509,7 +3509,7 @@
       "Enhancement§Bilemaw Blight": {
         "keywords": {
           "Keywords": [
-            "Mortarion’S Hammer"
+            "Mortarion’s Hammer"
           ]
         },
         "rules": {
@@ -3544,7 +3544,7 @@
       "Enhancement§Cornucophagus": {
         "keywords": {
           "Keywords": [
-            "Champions Of Contagion"
+            "Champions of Contagion"
           ]
         },
         "rules": {
@@ -3714,7 +3714,7 @@
       "Enhancement§Eye of Affliction": {
         "keywords": {
           "Keywords": [
-            "Mortarion’S Hammer"
+            "Mortarion’s Hammer"
           ]
         },
         "stats": {
@@ -3727,7 +3727,7 @@
       "Enhancement§Face of Death": {
         "keywords": {
           "Keywords": [
-            "Death Lord’S Chosen"
+            "Death Lord’s Chosen"
           ]
         },
         "rules": {
@@ -3833,7 +3833,7 @@
       "Enhancement§Final Ingredient": {
         "keywords": {
           "Keywords": [
-            "Champions Of Contagion"
+            "Champions of Contagion"
           ]
         },
         "rules": {
@@ -3950,7 +3950,7 @@
       "Enhancement§Helm of The Fly King": {
         "keywords": {
           "Keywords": [
-            "Death Lord’S Chosen"
+            "Death Lord’s Chosen"
           ]
         },
         "rules": {
@@ -4023,12 +4023,30 @@
             "value": 20
           }
         },
-        "text": "**Death Guard Infantry** model only. Each time a model in the bearer’s unit makes an attack that targets a unit that is within Contagion Range of one or more **Death Guard** units from your army, re‑roll a Wound roll of 1."
+        "text": "**Death Guard Infantry** model only. Each time a model in the bearer’s unit makes an attack that targets a unit that is within Contagion Range of one or more **Death Guard** units from your army, re‑roll a Wound roll of 1.",
+        "keywords": {
+          "Tags": [
+            "Upgrade"
+          ]
+        },
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Insectile Murmuration (Upgrade)": {
         "keywords": {
           "Keywords": [
             "Flyblown Host"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -4036,12 +4054,25 @@
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Plague Marines** unit only. When this unit’s attacks target a unit within **Contagion Range** of a friendly unit, those attacks can re‑roll **wound rolls** of 1."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Plague Marines** unit only. When this unit’s attacks target a unit within **Contagion Range** of a friendly unit, those attacks can re‑roll **wound rolls** of 1.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Lancet of the Worldsore (Upgrade)": {
         "keywords": {
           "Keywords": [
             "Contagion Engines"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -4049,7 +4080,17 @@
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\nFriendly **Helbrute/Myphitic Blight‑Hauler** unit only. This unit has **Mobile**."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\nFriendly **Helbrute/Myphitic Blight‑Hauler** unit only. This unit has **Mobile**.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Lord of the Walking Pox": {
         "keywords": {
@@ -4067,7 +4108,7 @@
       "Enhancement§Needle of Nurgle": {
         "keywords": {
           "Keywords": [
-            "Champions Of Contagion"
+            "Champions of Contagion"
           ]
         },
         "rules": {
@@ -4103,6 +4144,9 @@
         "keywords": {
           "Keywords": [
             "Contagion Engines"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -4110,7 +4154,17 @@
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Contagion Engine** unit only. When this unit has fought, one model in this unit **heals** D3 wounds."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Contagion Engine** unit only. When this unit has fought, one model in this unit **heals** D3 wounds.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Plagueveil": {
         "rules": {
@@ -4140,12 +4194,30 @@
             "value": 25
           }
         },
-        "text": "**Death Guard Infantry** model only. While the bearer’s unit is within range of one or more objective markers that you control, that unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
+        "text": "**Death Guard Infantry** model only. While the bearer’s unit is within range of one or more objective markers that you control, that unit can only be selected as the target of a ranged attack if the attacking model is within 18\".",
+        "keywords": {
+          "Tags": [
+            "Upgrade"
+          ]
+        },
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Plagueveil (Upgrade)": {
         "keywords": {
           "Keywords": [
             "Flyblown Host"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -4153,7 +4225,17 @@
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Plague Marines** unit only. This unit has -3\" **detection range**."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Plague Marines** unit only. This unit has -3\" **detection range**.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Rejuvenating Swarm": {
         "keywords": {
@@ -4234,7 +4316,7 @@
       "Enhancement§Shriekworm Familiar": {
         "keywords": {
           "Keywords": [
-            "Mortarion’S Hammer"
+            "Mortarion’s Hammer"
           ]
         },
         "stats": {
@@ -4295,7 +4377,7 @@
       "Enhancement§Tendrilous Emissions": {
         "keywords": {
           "Keywords": [
-            "Mortarion’S Hammer"
+            "Mortarion’s Hammer"
           ]
         },
         "rules": {
@@ -4365,7 +4447,7 @@
       "Enhancement§Vile Vigour": {
         "keywords": {
           "Keywords": [
-            "Death Lord’S Chosen"
+            "Death Lord’s Chosen"
           ]
         },
         "rules": {
@@ -4400,7 +4482,7 @@
       "Enhancement§Visions of Virulence": {
         "keywords": {
           "Keywords": [
-            "Champions Of Contagion"
+            "Champions of Contagion"
           ]
         },
         "rules": {
@@ -4435,7 +4517,7 @@
       "Enhancement§Warprot Talisman": {
         "keywords": {
           "Keywords": [
-            "Death Lord’S Chosen"
+            "Death Lord’s Chosen"
           ]
         },
         "rules": {
@@ -9797,7 +9879,9 @@
                   "maxDamned": 250,
                   "maxPlague": 500,
                   "maxPoints": 1000,
-                  "maxDP": 3
+                  "maxDP": 2,
+                  "maxUnits": 2,
+                  "maxEnhancements": 2
                 }
               },
               "Strike Force": {
@@ -9808,7 +9892,9 @@
                   "maxDamned": 500,
                   "maxPlague": 1000,
                   "maxPoints": 2000,
-                  "maxDP": 4
+                  "maxDP": 3,
+                  "maxUnits": 3,
+                  "maxEnhancements": 4
                 }
               }
             }

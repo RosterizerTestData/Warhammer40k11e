@@ -1,6 +1,6 @@
 {
   "name": "Adepta Sororitas 11e",
-  "revision": "11.1.4",
+  "revision": "11.1.5",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -3017,7 +3017,7 @@
       "Enhancement§Blade of Saint Ellynor": {
         "keywords": {
           "Keywords": [
-            "Army Of Faith"
+            "Army of Faith"
           ]
         },
         "rules": {
@@ -3197,7 +3197,7 @@
       "Enhancement§Divine Aspect": {
         "keywords": {
           "Keywords": [
-            "Army Of Faith"
+            "Army of Faith"
           ]
         },
         "stats": {
@@ -3210,7 +3210,7 @@
       "Enhancement§Eyes of the Oracle": {
         "keywords": {
           "Keywords": [
-            "Champions Of Faith"
+            "Champions of Faith"
           ]
         },
         "rules": {
@@ -3274,7 +3274,7 @@
       "Enhancement§Fire and Fury": {
         "keywords": {
           "Keywords": [
-            "Bringers Of Flame"
+            "Bringers of Flame"
           ]
         },
         "stats": {
@@ -3288,6 +3288,9 @@
         "keywords": {
           "Keywords": [
             "Sanctified Orators"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -3295,12 +3298,22 @@
             "value": 25
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Adepta Sororitas Character** unit only (excluding **Penitent** units). (Once per turn, per unit) At the start of a phase, you can use this ability. If you do, select one of the abilities below:\n\n- **Rite of Revelation:** While this unit is shooting, enemy units have +6\" **detection range**.\n\n- **Sermon of Intolerance:** This unit’s **battle‑shock rolls** automatically succeed.\n\n- **Catechism of Raging Fervour:** This unit has +1\" **M**.\n\n- **Psalm of Righteous Smiting:** This unit’s attacks have +1 **S**.\n\n- **Chorus of Repudiation:** Attacks that target this unit with a **S** greater than this unit’s **T** have ‑1 to **wound rolls**."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Adepta Sororitas Character** unit only (excluding **Penitent** units). (Once per turn, per unit) At the start of a phase, you can use this ability. If you do, select one of the abilities below:\n\n- **Rite of Revelation:** While this unit is shooting, enemy units have +6\" **detection range**.\n\n- **Sermon of Intolerance:** This unit’s **battle‑shock rolls** automatically succeed.\n\n- **Catechism of Raging Fervour:** This unit has +1\" **M**.\n\n- **Psalm of Righteous Smiting:** This unit’s attacks have +1 **S**.\n\n- **Chorus of Repudiation:** Attacks that target this unit with a **S** greater than this unit’s **T** have ‑1 to **wound rolls**.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Iron Surplice of Saint Istalela": {
         "keywords": {
           "Keywords": [
-            "Bringers Of Flame"
+            "Bringers of Flame"
           ]
         },
         "rules": {
@@ -3387,7 +3400,7 @@
       "Enhancement§Litanies of Faith": {
         "keywords": {
           "Keywords": [
-            "Army Of Faith"
+            "Army of Faith"
           ]
         },
         "rules": {
@@ -3501,7 +3514,7 @@
       "Enhancement§Manual of Saint Griselda": {
         "keywords": {
           "Keywords": [
-            "Bringers Of Flame"
+            "Bringers of Flame"
           ]
         },
         "stats": {
@@ -3514,7 +3527,7 @@
       "Enhancement§Mark of Devotion": {
         "keywords": {
           "Keywords": [
-            "Champions Of Faith"
+            "Champions of Faith"
           ]
         },
         "rules": {
@@ -3633,7 +3646,7 @@
       "Enhancement§Righteous Rage": {
         "keywords": {
           "Keywords": [
-            "Bringers Of Flame"
+            "Bringers of Flame"
           ]
         },
         "stats": {
@@ -3662,7 +3675,7 @@
       "Enhancement§Sanctified Amulet": {
         "keywords": {
           "Keywords": [
-            "Champions Of Faith"
+            "Champions of Faith"
           ]
         },
         "stats": {
@@ -3676,6 +3689,9 @@
         "keywords": {
           "Keywords": [
             "Chorus Of Condemnation"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -3683,7 +3699,17 @@
             "value": 10
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Exorcist** unit only. This unit can re‑roll rolls to determine the **A** of a weapon."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Exorcist** unit only. This unit can re‑roll rolls to determine the **A** of a weapon.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Through Suffering, Strength": {
         "keywords": {
@@ -3791,7 +3817,7 @@
       "Enhancement§Triptych of Judgement": {
         "keywords": {
           "Keywords": [
-            "Champions Of Faith"
+            "Champions of Faith"
           ]
         },
         "stats": {
@@ -3804,7 +3830,7 @@
       "Enhancement§Triptych of the Macharian Crusade": {
         "keywords": {
           "Keywords": [
-            "Army Of Faith"
+            "Army of Faith"
           ]
         },
         "stats": {
@@ -3853,6 +3879,9 @@
         "keywords": {
           "Keywords": [
             "Sacred Champions"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -3860,7 +3889,17 @@
             "value": 20
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Celestian Sacresants** unit only. This unit has +1 **OC**."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Celestian Sacresants** unit only. This unit has +1 **OC**.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Melee Weapon§Aestred Thurga and Agathae Dolan—Blade of Vigil": {
         "aspects": {

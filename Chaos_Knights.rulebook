@@ -1,6 +1,6 @@
 {
   "name": "Chaos Knights 11e",
-  "revision": "11.1.4",
+  "revision": "11.1.5",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -1355,7 +1355,7 @@
       "Enhancement§Blade of Celerity": {
         "keywords": {
           "Keywords": [
-            "Lords Of Dread"
+            "Lords of Dread"
           ]
         },
         "rules": {
@@ -1438,7 +1438,7 @@
       "Enhancement§Blessing of the Dark Master": {
         "keywords": {
           "Keywords": [
-            "Lords Of Dread"
+            "Lords of Dread"
           ]
         },
         "rules": {
@@ -1812,7 +1812,7 @@
       "Enhancement§Mirror of Fates": {
         "keywords": {
           "Keywords": [
-            "Lords Of Dread"
+            "Lords of Dread"
           ]
         },
         "stats": {
@@ -2087,7 +2087,7 @@
       "Enhancement§Putrid Carapace": {
         "keywords": {
           "Keywords": [
-            "Lords Of Dread"
+            "Lords of Dread"
           ]
         },
         "stats": {
@@ -2101,6 +2101,9 @@
         "keywords": {
           "Keywords": [
             "Hunting Warpack"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -2108,12 +2111,25 @@
             "value": 10
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Executioner** unit only. This unit’s ranged attacks have **[Ignores Cover]**."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Executioner** unit only. This unit’s ranged attacks have **[Ignores Cover]**.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Soul-spoor Auspicator (Upgrade)": {
         "keywords": {
           "Keywords": [
             "Hunting Warpack"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -2121,12 +2137,22 @@
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Huntsman** unit only. This unit’s ranged attacks have +6\" **R**."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Huntsman** unit only. This unit’s ranged attacks have +6\" **R**.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Throne Mechanicum of Skulls": {
         "keywords": {
           "Keywords": [
-            "Lords Of Dread"
+            "Lords of Dread"
           ]
         },
         "stats": {
@@ -2252,7 +2278,7 @@
       "Enhancement§Warp-borne Stalker": {
         "keywords": {
           "Keywords": [
-            "Lords Of Dread"
+            "Lords of Dread"
           ]
         },
         "rules": {

@@ -1,6 +1,6 @@
 {
   "name": "Adeptus Mechanicus 11e",
-  "revision": "11.1.3",
+  "revision": "11.1.5",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -3342,7 +3342,7 @@
       "Enhancement§Data-blessed Autosermon": {
         "keywords": {
           "Keywords": [
-            "Data-Psalm Conclave"
+            "Data-psalm Conclave"
           ]
         },
         "rules": {
@@ -3721,7 +3721,7 @@
       "Enhancement§Mantle of the Gnosticarch": {
         "keywords": {
           "Keywords": [
-            "Data-Psalm Conclave"
+            "Data-psalm Conclave"
           ]
         },
         "rules": {
@@ -3824,7 +3824,7 @@
       "Enhancement§Mechanicus Locum": {
         "keywords": {
           "Keywords": [
-            "Data-Psalm Conclave"
+            "Data-psalm Conclave"
           ]
         },
         "rules": {
@@ -4104,6 +4104,9 @@
         "keywords": {
           "Keywords": [
             "Cohort Acquisitus"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -4111,12 +4114,22 @@
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Serberys Raiders** unit only. This unit has **Lone Operative 15\"**."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Serberys Raiders** unit only. This unit has **Lone Operative 15\"**.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Temporcopia": {
         "keywords": {
           "Keywords": [
-            "Data-Psalm Conclave"
+            "Data-psalm Conclave"
           ]
         },
         "rules": {

@@ -1,6 +1,6 @@
 {
   "name": "Chaos 11e",
-  "revision": "11.1.4",
+  "revision": "11.1.5",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -36532,7 +36532,9 @@
                   "maxDaemons": 250,
                   "maxDamned": 250,
                   "maxPoints": 1000,
-                  "maxDP": 3
+                  "maxDP": 2,
+                  "maxUnits": 2,
+                  "maxEnhancements": 2
                 }
               },
               "Strike Force": {
@@ -36542,7 +36544,9 @@
                   "maxDaemons": 500,
                   "maxDamned": 500,
                   "maxPoints": 2000,
-                  "maxDP": 3
+                  "maxDP": 3,
+                  "maxUnits": 3,
+                  "maxEnhancements": 4
                 }
               }
             }

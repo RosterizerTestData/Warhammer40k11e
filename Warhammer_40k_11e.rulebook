@@ -1,6 +1,6 @@
 {
   "name": "40k 11e",
-  "revision": "11.1.4",
+  "revision": "11.1.5",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -2508,7 +2508,8 @@
         "keywords": {
           "Keywords": [],
           "Tags": [
-            "anyEnhancement"
+            "anyEnhancement",
+            "Character Only"
           ]
         },
         "rules": {
@@ -2580,6 +2581,165 @@
             ],
             "evaluate": "AND",
             "failState": "warning"
+          },
+          "applyDetachmentPointsMod": {
+            "evals": [
+              {
+                "actionable": true,
+                "not": true,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Points Mod",
+                    "value"
+                  ]
+                ],
+                "value": 0
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{roster}",
+                    "stats",
+                    "Detachment",
+                    "value"
+                  ]
+                ],
+                "value": [
+                  "{self}",
+                  "stats",
+                  "Detachment Trigger",
+                  "value"
+                ]
+              }
+            ],
+            "actions": [
+              {
+                "actionType": "modify",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Points",
+                    "value"
+                  ]
+                ],
+                "value": [
+                  "{self}",
+                  "stats",
+                  "Points Mod",
+                  "value"
+                ]
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass"
+          },
+          "upgradesCountOnce": {
+            "evals": [
+              {
+                "actionable": false,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "designation"
+                  ]
+                ]
+              },
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "keywords",
+                    "Tags"
+                  ]
+                ],
+                "value": "Upgrade"
+              },
+              {
+                "actionable": false,
+                "equation": {
+                  "operator": "O/T",
+                  "value": 1
+                },
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{roster}",
+                    "tally",
+                    "{0string}"
+                  ]
+                ]
+              }
+            ],
+            "actions": [
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Enhancements",
+                    "value"
+                  ]
+                ],
+                "value": [
+                  "{this}",
+                  "evals",
+                  "2",
+                  "result",
+                  "float"
+                ]
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 50
+          },
+          "No more than 3 of the same Upgrade.": {
+            "evals": [
+              {
+                "actionable": false,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "designation"
+                  ]
+                ]
+              },
+              {
+                "actionable": true,
+                "max": 3,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{roster}",
+                    "tally",
+                    "{0string}"
+                  ]
+                ]
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "error"
           }
         },
         "stats": {
@@ -2590,6 +2750,22 @@
             "tracked": true,
             "value": 0,
             "visibility": "normal"
+          },
+          "Points Mod": {
+            "statType": "numeric",
+            "value": 0,
+            "visibility": "hidden"
+          },
+          "Detachment Trigger": {
+            "statType": "term",
+            "value": "",
+            "visibility": "hidden"
+          },
+          "Enhancements": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": 1,
+            "visibility": "hidden"
           }
         }
       },
@@ -5876,7 +6052,12 @@
                     "value"
                   ]
                 ],
-                "value": 3
+                "value": [
+                  "{self}",
+                  "stats",
+                  "maxQty",
+                  "value"
+                ]
               }
             ],
             "evals": [
@@ -6635,6 +6816,179 @@
             ],
             "evaluate": "AND",
             "failState": "warning"
+          },
+          "setUnitLimit": {
+            "evals": [
+              {
+                "actionable": true,
+                "min": 1,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{roster}",
+                    "tracked",
+                    "maxUnits"
+                  ]
+                ]
+              }
+            ],
+            "actions": [
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "maxQty",
+                    "value"
+                  ]
+                ],
+                "value": [
+                  "{roster}",
+                  "tracked",
+                  "maxUnits"
+                ]
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 4
+          },
+          "epicHeroLimit": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Epic Hero"
+              }
+            ],
+            "actions": [
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "maxQty",
+                    "value"
+                  ]
+                ],
+                "value": 1
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 6
+          },
+          "nonCharacterUpgrades": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": true,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Character"
+              }
+            ],
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "constraints",
+                    "none"
+                  ]
+                ],
+                "value": "Character Only"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "constraints",
+                    "any"
+                  ]
+                ],
+                "value": [
+                  "{roster}",
+                  "stats",
+                  "Detachment",
+                  "value"
+                ]
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass"
+          },
+          "nonCharacterUpgradesAllowList": {
+            "evals": [
+              {
+                "actionable": true,
+                "contains": true,
+                "not": true,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "keywords",
+                    "Keywords"
+                  ]
+                ],
+                "value": "Character"
+              },
+              {
+                "actionable": true,
+                "min": 1,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "allowed",
+                    "items"
+                  ]
+                ]
+              }
+            ],
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "allowed",
+                    "classifications"
+                  ]
+                ],
+                "value": "Enhancement"
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass"
           }
         },
         "stats": {
@@ -6903,6 +7257,13 @@
             "statType": "numeric",
             "value": null,
             "visibility": "normal"
+          },
+          "Enhancement": {
+            "max": 1,
+            "statType": "numeric",
+            "tracked": true,
+            "value": 0,
+            "visibility": "hidden"
           }
         }
       },
@@ -12996,6 +13357,40 @@
                   "tracked",
                   "maxDP"
                 ]
+              },
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Enhancements",
+                    "max"
+                  ]
+                ],
+                "value": [
+                  "{self}",
+                  "tracked",
+                  "maxEnhancements"
+                ]
+              },
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Enhancement Count",
+                    "max"
+                  ]
+                ],
+                "value": [
+                  "{self}",
+                  "tracked",
+                  "maxEnhancements"
+                ]
               }
             ],
             "evals": [
@@ -13221,6 +13616,101 @@
             ],
             "evaluate": "AND",
             "failState": "pass"
+          },
+          "incursionSingle3DPDetachment": {
+            "evals": [
+              {
+                "actionable": true,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Battle Size",
+                    "value"
+                  ]
+                ],
+                "value": "Incursion"
+              },
+              {
+                "actionable": true,
+                "max": 1,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Detachment",
+                    "value"
+                  ]
+                ]
+              }
+            ],
+            "actions": [
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Detachment Points",
+                    "max"
+                  ]
+                ],
+                "value": 3
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 3
+          },
+          "roundEnhancementCount": {
+            "evals": [
+              {
+                "actionable": true,
+                "equation": {
+                  "operator": "T+O",
+                  "value": 0.5
+                },
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Enhancements",
+                    "value"
+                  ]
+                ]
+              }
+            ],
+            "actions": [
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "Enhancement Count",
+                    "value"
+                  ]
+                ],
+                "value": [
+                  "{this}",
+                  "evals",
+                  "0",
+                  "result",
+                  "integer"
+                ]
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 60
           }
         },
         "stats": {
@@ -13273,21 +13763,26 @@
               "custom": {
                 "order": 0,
                 "tracking": {
-                  "maxDP": 3
+                  "maxDP": 3,
+                  "maxUnits": 3
                 }
               },
               "Incursion": {
                 "order": 1,
                 "tracking": {
-                  "maxDP": 3,
-                  "maxPoints": 1000
+                  "maxDP": 2,
+                  "maxPoints": 1000,
+                  "maxUnits": 2,
+                  "maxEnhancements": 2
                 }
               },
               "Strike Force": {
                 "order": 2,
                 "tracking": {
-                  "maxDP": 4,
-                  "maxPoints": 2000
+                  "maxDP": 3,
+                  "maxPoints": 2000,
+                  "maxUnits": 3,
+                  "maxEnhancements": 4
                 }
               }
             },
@@ -13353,13 +13848,6 @@
             "tracked": true,
             "value": 0,
             "visibility": "normal"
-          },
-          "Enhancement": {
-            "max": 3,
-            "statType": "numeric",
-            "tracked": true,
-            "value": 0,
-            "visibility": "hidden"
           },
           "Faction": {
             "dynamic": true,
@@ -13477,6 +13965,25 @@
             "tracked": true,
             "value": 5,
             "visibility": "hidden"
+          },
+          "Enhancements": {
+            "group": "Cost",
+            "groupOrder": 0,
+            "label": "Enhancements",
+            "statOrder": 3,
+            "statType": "numeric",
+            "tracked": true,
+            "value": 0,
+            "visibility": "hidden"
+          },
+          "Enhancement Count": {
+            "group": "Cost",
+            "groupOrder": 0,
+            "label": "Enhancements",
+            "statOrder": 3,
+            "statType": "numeric",
+            "value": 0,
+            "visibility": "normal"
           }
         },
         "text": "### Creating Your 40k Roster\n\n*This message will disappear after you add your first unit.*\n\n1. Adjust overall roster settings at the top 👆\n2. Add units from the inventory on the right 👉 (*If using a narrow screen, swipe OR click the lower-right button to access the inventory*)\n3. Edit units by modifying their statline or individual models.\n   * Model count is often controlled by a single \"Models\" stat.\n   * Simple upgrades can be done using dropdown menus in the unit.\n   * For more complex loadouts requiring single-model adjustments, do one of the following:\n      * Add a new model from the inventory\n      * Split apart a stack of models using the provided button:&nbsp;<i class=\"mdi mdi-vector-arrange-below ng-star-inserted\"></i>\n\n      This will create separate models for loadout-editing while maintaining the overall model quantity."

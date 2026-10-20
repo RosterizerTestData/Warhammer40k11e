@@ -1,6 +1,6 @@
 {
   "name": "Imperial Knights 11e",
-  "revision": "11.1.4",
+  "revision": "11.1.5",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -976,6 +976,9 @@
         "keywords": {
           "Keywords": [
             "Throne-Bonded Outriders"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -983,7 +986,17 @@
             "value": 10
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Armiger** unit only. When you target this unit with the **Fire Overwatch/Heroic Intervention stratagem**, that use is ‑1 **CP**."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Armiger** unit only. When you target this unit with the **Fire Overwatch/Heroic Intervention stratagem**, that use is ‑1 **CP**.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Archeotech Autoloaders": {
         "keywords": {
@@ -1347,6 +1360,9 @@
         "keywords": {
           "Keywords": [
             "Throne-Bonded Outriders"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -1354,7 +1370,17 @@
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Armiger** unit only. This unit has **Mobile**."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Armiger** unit only. This unit has **Mobile**.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Herald of Triumph": {
         "keywords": {

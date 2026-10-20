@@ -1,6 +1,6 @@
 {
   "name": "T'au Empire 11e",
-  "revision": "11.1.4",
+  "revision": "11.1.5",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -5054,7 +5054,7 @@
       "Enhancement§Coordinated Exploitation": {
         "keywords": {
           "Keywords": [
-            "Mont’Ka"
+            "Mont’ka"
           ]
         },
         "rules": {
@@ -5167,7 +5167,7 @@
       "Enhancement§Exemplar of the Mont’ka": {
         "keywords": {
           "Keywords": [
-            "Mont’Ka"
+            "Mont’ka"
           ]
         },
         "stats": {
@@ -5775,7 +5775,7 @@
       "Enhancement§Strategic Conqueror": {
         "keywords": {
           "Keywords": [
-            "Mont’Ka"
+            "Mont’ka"
           ]
         },
         "stats": {
@@ -5788,7 +5788,7 @@
       "Enhancement§Strike Swiftly": {
         "keywords": {
           "Keywords": [
-            "Mont’Ka"
+            "Mont’ka"
           ]
         },
         "stats": {
@@ -26731,6 +26731,9 @@
         "keywords": {
           "Keywords": [
             "Advanced Acquisition Cadre"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -26738,12 +26741,25 @@
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Stealth Battlesuits** unit only. This unit has -3\" **detection range**."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Stealth Battlesuits** unit only. This unit has -3\" **detection range**.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       },
       "Enhancement§Unmasking Suite (Upgrade)": {
         "keywords": {
           "Keywords": [
             "Advanced Acquisition Cadre"
+          ],
+          "Tags": [
+            "Upgrade"
           ]
         },
         "stats": {
@@ -26751,7 +26767,17 @@
             "value": 15
           }
         },
-        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Ghostkeel Battlesuit**/**Pathfinder Team**/**Stealth Battlesuits** unit only. When this unit is **selected to shoot**, you can select one enemy unit within 24\" of this unit. That enemy unit has +9\" **detection range** until this unit has shot."
+        "text": "WARNING: this enhancement was not in 10e and needs importing.\n\n**Ghostkeel Battlesuit**/**Pathfinder Team**/**Stealth Battlesuits** unit only. When this unit is **selected to shoot**, you can select one enemy unit within 24\" of this unit. That enemy unit has +9\" **detection range** until this unit has shot.",
+        "removed": {
+          "keywords": {
+            "Tags": [
+              "Character Only"
+            ]
+          }
+        },
+        "aspects": {
+          "Unique": false
+        }
       }
     },
     "gameModes": {},
