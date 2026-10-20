@@ -68,6 +68,7 @@ def view_keys(b):
     return ks
 
 log, problems, conflicts = [], [], []
+CLAIMED = set()
 stats = Counter()
 same = lambda a, b: canon_unordered_traits(a) == canon_unordered_traits(b)
 
@@ -159,6 +160,15 @@ def find_unit_fallback(b, name, keys):
     own = [k for k in cat[b] if k.partition("§")[0] in UP and norm(k.partition("§")[2]).startswith(n + " ")]
     return own[0] if len(own) == 1 else None
 
+import difflib
+def fuzzy(name, cands, prefix_len=0, cutoff=0.8, margin=0.2):
+    """unique near-identical match on normalised names (typos, small spelling variants)"""
+    nn = norm(name)
+    scored = sorted(((difflib.SequenceMatcher(None, nn, norm(c[prefix_len:])).ratio(), c) for c in cands), reverse=True)
+    if scored and scored[0][0] >= cutoff and (len(scored) == 1 or scored[0][0] - scored[1][0] >= margin):
+        return scored[0][1]
+    return None
+
 def find_unit(b, name, keys):
     cands = [f"{cl}§{name}" for cl in UP]
     for k in cands:
@@ -168,7 +178,14 @@ def find_unit(b, name, keys):
     hits = [k for k in keys if k.partition("§")[0] in UP and norm(k.partition("§")[2]) == n]
     if b == "Titanicus_Traitoris" and not hits and name.startswith("Chaos "):
         return find_unit(b, name[6:], keys)
-    return hits[0] if hits else find_unit_fallback(b, name, keys)
+    hit = hits[0] if hits else find_unit_fallback(b, name, keys)
+    if not hit:
+        units = [k for k in keys if k.partition("§")[0] in UP and norm(k.partition("§")[2]) not in CLAIMED]
+        hit = fuzzy(name, [k.partition("§")[2] for k in units])
+        if hit:
+            hit = next(k for k in units if k.partition("§")[2] == hit)
+            conflicts.append(f"{b}: fuzzy name match MFM '{name}' -> {hit}")
+    return hit
 
 absent = defaultdict(list)
 for slug, b in SLUG_TO_FILE.items():
@@ -177,6 +194,8 @@ for slug, b in SLUG_TO_FILE.items():
         continue
     m = yaml.safe_load(open(yml))
     keys = sorted(view_keys(b))
+    CLAIMED = {norm(u["name"]) for u in m.get("units") or []} | {norm(d_["name"]) for d_ in m.get("detachments") or []} | \
+              {norm(strip_paren(e["name"])) for d_ in m.get("detachments") or [] for e in d_.get("enhancements") or []}
     # units: one entry per name — prefer the faction's own (ungrouped) entry; skip true conflicts
     by = defaultdict(list)
     for mu in m.get("units") or []:
@@ -264,6 +283,10 @@ for slug, b in SLUG_TO_FILE.items():
         if len(dks) > 1:
             conflicts.append(f"{b}: duplicate detachment assets {dks} — both updated")
         if not dks:
+            fz = fuzzy(det["name"], [x for x in keys if x.startswith("Detachment§") and norm(x[11:]) not in CLAIMED], 11)
+            if fz:
+                dks = [fz]; conflicts.append(f"{b}: fuzzy name match MFM '{det['name']}' -> {fz}")
+        if not dks:
             absent["detachment"].append(f"{b}: {det['name']}")
         for dk in dks:
             roles = [o.title() for o in det.get("objectives") or []]
@@ -280,6 +303,10 @@ for slug, b in SLUG_TO_FILE.items():
                 continue
             ek = next((x for x in keys if x.startswith("Enhancement§") and norm(x[12:]) == norm(e["name"])), None) \
                 or next((x for x in keys if x.startswith("Enhancement§") and norm(strip_paren(x[12:])) == norm(strip_paren(e["name"]))), None)
+            if not ek:
+                ek = fuzzy(strip_paren(e["name"]), [x for x in keys if x.startswith("Enhancement§") and norm(strip_paren(x[12:])) not in CLAIMED], 12)
+                if ek:
+                    conflicts.append(f"{b}: fuzzy name match MFM '{e['name']}' -> {ek}")
             if not ek:
                 absent["enhancement"].append(f"{b}: {e['name']} ({det['name']})")
                 continue

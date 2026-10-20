@@ -1,6 +1,6 @@
 {
   "name": "40k 11e",
-  "revision": "11.1.5",
+  "revision": "11.1.11",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -13219,7 +13219,8 @@
             "evals": [
               {
                 "actionable": true,
-                "not": true,
+                "min": 1,
+                "not": false,
                 "operator": "AND",
                 "paths": [
                   [
@@ -13228,9 +13229,7 @@
                     "Detachment",
                     "value"
                   ]
-                ],
-                "value": "-",
-                "contains": true
+                ]
               }
             ],
             "evaluate": "AND",

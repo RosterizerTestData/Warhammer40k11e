@@ -56,11 +56,19 @@ faction = en(faction)
 ranks = cat["Roster§Roster"]["stats"]["Detachment"].setdefault("ranks", {})
 log, review = [], []
 
+import difflib
 def find_key(prefix, name):
     k = key(strip_up(name))
     hits = [x for x in cat if x.startswith(prefix) and key(strip_up(x[len(prefix):])) == k]
     exact = [x for x in hits if x[len(prefix):] == name]
-    return (exact or hits or [None])[0]
+    if exact or hits:
+        return (exact or hits)[0]
+    norm_ = lambda s: re.sub(r"[^a-z0-9]", "", key(strip_up(s)))
+    scored = sorted(((difflib.SequenceMatcher(None, norm_(name), norm_(x[len(prefix):])).ratio(), x) for x in cat if x.startswith(prefix)), reverse=True)
+    if scored and scored[0][0] >= 0.8 and (len(scored) == 1 or scored[0][0] - scored[1][0] >= 0.2):
+        review.append(f"fuzzy name match GDC '{name}' -> {scored[0][1]}")
+        return scored[0][1]
+    return None
 
 # ---------------------------------------------------------------- detachments
 gdc_dets = {en(x["name"]): x for x in g["detachments"]}
@@ -221,17 +229,35 @@ for e in g.get("enhancements") or []:
 # ---------------------------------------------------------------- stale content
 live_dets = set(rank_name.values())
 book_dets = set(ranks)
-for r in [r for r in ranks if r not in live_dets]:
+_names = {json.load(open(p_))["name"].strip(): p_ for p_ in RZ.glob("*.rulebook")}
+def _dep_ranks(doc):
+    out = set()
+    for dep in doc.get("dependencies", []):
+        dd = json.load(open(_names[dep["name"].strip()]))
+        out |= _dep_ranks(dd)
+        out |= set((dd["rulebook"]["assetCatalog"].get("Roster§Roster", {}).get("stats", {}).get("Detachment", {}).get("ranks") or {}))
+    return out
+inherited_dets = _dep_ranks(d)
+retired = []
+for r in [r for r in ranks if r not in live_dets and r not in inherited_dets]:
     asset = next((t["trait"] for t in ranks[r].get("traits", []) if isinstance(t.get("trait"), str)), None)
-    del ranks[r]
     if asset and asset in cat:
-        del cat[asset]
-    log.append(f"- stale detachment {r} (rank + {asset})")
+        cat[asset].setdefault("keywords", {})["Source"] = ["Legends"]
+    retired.append(r)
+    log.append(f"~ retired detachment {r} -> Legends")
+if retired or any(f"hideLegendsDetachments ({book})" == x for x in cat["Roster§Roster"].get("rules", {})):
+    prev = [a["value"] for a in cat["Roster§Roster"].get("rules", {}).get(f"hideLegendsDetachments ({book})", {}).get("actions", [])]
+    names = sorted(set(prev + retired) & set(ranks))
+    cat["Roster§Roster"].setdefault("rules", {})[f"hideLegendsDetachments ({book})"] = {
+        "evals": [{"actionable": True, "not": False, "operator": "AND", "paths": [["{self}", "stats", "Legends", "value"]], "value": "-"}],
+        "actions": [{"actionType": "remove", "iterations": 1, "paths": [["{self}", "stats", "Detachment", "ranks"]], "value": nm} for nm in names],
+        "evaluate": "AND", "failState": "pass", "order": 9}
+legends_dets = {r for r in ranks if (cat.get(next((t["trait"] for t in ranks[r].get("traits", []) if isinstance(t.get("trait"), str)), ""), {}).get("keywords") or {}).get("Source") == ["Legends"]}
 gdc_enh = {key(strip_up(en(e["name"]))) for e in g.get("enhancements") or []}
 for k_ in [k_ for k_ in cat if k_.startswith("Enhancement§") and key(strip_up(k_[12:])) not in gdc_enh]:
     dets = (cat[k_].get("keywords") or {}).get("Keywords") or []
-    if not dets or all(dt not in live_dets for dt in dets):
-        del cat[k_]; log.append(f"- stale enhancement {k_} {dets}")
+    if not dets:
+        del cat[k_]; log.append(f"- orphan enhancement {k_} (no detachment)")
 wired = {act["value"] for a in cat.values() if isinstance(a, dict) for r in (a.get("rules") or {}).values()
          for act in r.get("actions", []) if isinstance(act.get("value"), str) and act["value"].startswith("Stratagem§")}
 for k_ in [k_ for k_ in cat if k_.startswith("Stratagem§") and k_ not in wired

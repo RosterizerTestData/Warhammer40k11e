@@ -1,6 +1,6 @@
 {
   "name": "Agents of the Imperium 11e",
-  "revision": "11.1.4",
+  "revision": "11.1.11",
   "game": "Warhammer 40k",
   "genre": "sci-fi",
   "publisher": "Games Workshop",
@@ -394,198 +394,6 @@
           }
         }
       },
-      "Detachment§Alien Hunters": {
-        "rules": {
-          "assignStratagem": {
-            "actions": [
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Armour of Contempt"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Dragonfire Rounds"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Hellfire Rounds"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Kraken Rounds"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Adaptive Tactics"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Rapid Tactical Relocation"
-              }
-            ],
-            "evals": [],
-            "evaluate": "AND",
-            "failState": "pass"
-          }
-        },
-        "text": "At the start of your Command phase, you can select one of the Mission Tactics listed below. Until the start of your next Command phase, that Mission Tactic is active and its effects apply to all \nDEATHWATCH units from your army. Each Mission Tactic can only be selected once per battle.\n\n**FUROR TACTICS**\n\nWhile this Mission Tactic is active, weapons equipped by DEATHWATCH units from your army have the [SUSTAINED HITS 1] ability.\n\n**MALLEUS TACTICS**\n\nWhile this Mission Tactic is active, weapons equipped by DEATHWATCH units from your army have the [LETHAL HITS] ability.\n\n**PURGATUS TACTICS**\n\nWhile this Mission Tactic is active, each time a DEATHWATCH model from your army makes an attack, on a Critical Wound, that attack has the [PRECISION] ability."
-      },
-      "Detachment§Daemon Hunters": {
-        "rules": {
-          "assignStratagems": {
-            "actions": [
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Truesilver Armour"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Ritual of Warding"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Rites of Exorcism"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Psybolt Ammunition"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Steel Heart"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{roster}",
-                    "traits",
-                    "item",
-                    "Stratagems§Stratagems",
-                    "traits"
-                  ]
-                ],
-                "value": "Stratagem§Hexagrammic Wards"
-              }
-            ],
-            "evals": [],
-            "evaluate": "AND",
-            "failState": "pass"
-          }
-        },
-        "text": "**DESTROY THE DAEMONIC**\n\nEach time an INQUISITOR, INQUISITORIAL\nyour AGENTS or ORDO MALLEUS model from army makes an attack, re-roll a Hit roll of 1 and, if the target of that attack is a DAEMON unit, re-roll a Wound roll of 1 as well."
-      },
       "Detachment§Imperialis Fleet": {
         "keywords": {
           "Role": [
@@ -693,45 +501,6 @@
         "text": "**AT ALL COSTS**\n\nAt the start of your Command phase, you\ncan select one of the following to apply:\n\n**Eliminate At All Costs**\n\nSelect one enemy unit on the\nbattlefield. Until the start of your\nnext Command phase, each time an\nAGENTS OF THE IMPERIUM model from your\narmy makes an attack that targets that\nenemy unit, add 1 to the Hit roll.\n\n**Acquire At All Costs**\n\nSelect one objective marker on the\nbattlefield. Until the start of your\nnext Command phase, while an\nAGENTS OF THE IMPERIUM unit from your\narmy is within range of that objective\nmarker, improve the Leadership and\nObjective Control characteristics of\nmodels in that unit by 1 and models in\nthat unit have a 5+ invulnerable save."
       },
       "Detachment§Ordo Hereticus, Purgation Force": {
-        "keywords": {
-          "Role": [
-            "Take And Hold"
-          ]
-        },
-        "stats": {
-          "Detachment Points": {
-            "value": 2
-          }
-        },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Root out Heresy**\nRanged weapons equipped by **ADEPTUS ARBITES**, **INQUISITOR**, **INQUISITORIAL AGENTS** and **ORDO HERETICUS** models from your army have the **[IGNORES COVER]** ability.\n\nEach time an **ADEPTUS ARBITES**, **INQUISITOR**, **INQUISITORIAL AGENTS** or **ORDO HERETICUS** model from your army makes an attack that targets a Chaos unit containing 5 or more models, that attack has the **[SUSTAINED HITS 1]** ability."
-      },
-      "Detachment§Ordo Malleus, Daemon Hunters": {
-        "keywords": {
-          "Role": [
-            "Priority Assets"
-          ]
-        },
-        "stats": {
-          "Detachment Points": {
-            "value": 2
-          }
-        },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Destroy the Daemonic**\nEach time an **INQUISITOR**, **INQUISITORIAL AGENTS** or **ORDO MALLEUS** model from your army makes an attack, re‐roll a Hit roll of 1 and, if the target of that attack is a **DAEMON** unit, re‐roll a Wound roll of 1 as well."
-      },
-      "Detachment§Ordo Xenos, Alien Hunters": {
-        "keywords": {
-          "Role": [
-            "Purge The Foe"
-          ]
-        },
-        "stats": {
-          "Detachment Points": {
-            "value": 2
-          }
-        },
-        "text": "WARNING: this detachment was not in 10e and needs importing.\n\n**Deathwatch Mission Tactics**\nAt the start of your Command phase, you can select one of the Mission Tactics listed below. Until the start of your next Command phase, that Mission Tactic is active and its effects apply to all **DEATHWATCH** units from your army. Each Mission Tactic can only be selected once per battle.\n\nWhile this Mission Tactic is active, weapons equipped by **DEATHWATCH** units from your army have the **[SUSTAINED HITS 1]** ability.\n\nWhile this Mission Tactic is active, weapons equipped by **DEATHWATCH** units from your army have the **[LETHAL HITS]** ability.\n\nWhile this Mission Tactic is active, each time a **DEATHWATCH** model from your army makes an attack, on a Critical Wound, that attack has the **[PRECISION]** ability."
-      },
-      "Detachment§Purgation Force": {
         "rules": {
           "assignStratagems": {
             "actions": [
@@ -825,7 +594,229 @@
             "failState": "pass"
           }
         },
-        "text": "**ROOT OUT HERESY**\n\nADEPTUS ARBITES, INQUISITOR, INQUISITORIAL AGENTS and ORDO HERETICUS models from your army have the [IGNORES COVER] ability. \n\nEach time an ADEPTUS ARBITES, INQUISITOR, INQUISITORIAL AGENTS or ORDO HERETICUS model from your army makes an attack that targets a CHAOS unit containing 5 or more models, that attack has the [SUSTAINED HITS 1] ability."
+        "text": "**Root out Heresy**\nRanged weapons equipped by **ADEPTUS ARBITES**, **INQUISITOR**, **INQUISITORIAL AGENTS** and **ORDO HERETICUS** models from your army have the **[IGNORES COVER]** ability.\n\nEach time an **ADEPTUS ARBITES**, **INQUISITOR**, **INQUISITORIAL AGENTS** or **ORDO HERETICUS** model from your army makes an attack that targets a Chaos unit containing 5 or more models, that attack has the **[SUSTAINED HITS 1]** ability.",
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
+        "keywords": {
+          "Role": [
+            "Take And Hold"
+          ]
+        }
+      },
+      "Detachment§Ordo Malleus, Daemon Hunters": {
+        "rules": {
+          "assignStratagems": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Truesilver Armour"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Ritual of Warding"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Rites of Exorcism"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Psybolt Ammunition"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Steel Heart"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Hexagrammic Wards"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        },
+        "text": "**Destroy the Daemonic**\nEach time an **INQUISITOR**, **INQUISITORIAL AGENTS** or **ORDO MALLEUS** model from your army makes an attack, re‐roll a Hit roll of 1 and, if the target of that attack is a **DAEMON** unit, re‐roll a Wound roll of 1 as well.",
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
+        "keywords": {
+          "Role": [
+            "Priority Assets"
+          ]
+        }
+      },
+      "Detachment§Ordo Xenos, Alien Hunters": {
+        "rules": {
+          "assignStratagem": {
+            "actions": [
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Armour of Contempt"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Dragonfire Rounds"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Hellfire Rounds"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Kraken Rounds"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Adaptive Tactics"
+              },
+              {
+                "actionType": "add",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{roster}",
+                    "traits",
+                    "item",
+                    "Stratagems§Stratagems",
+                    "traits"
+                  ]
+                ],
+                "value": "Stratagem§Rapid Tactical Relocation"
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass"
+          }
+        },
+        "text": "**Deathwatch Mission Tactics**\nAt the start of your Command phase, you can select one of the Mission Tactics listed below. Until the start of your next Command phase, that Mission Tactic is active and its effects apply to all **DEATHWATCH** units from your army. Each Mission Tactic can only be selected once per battle.\n\nWhile this Mission Tactic is active, weapons equipped by **DEATHWATCH** units from your army have the **[SUSTAINED HITS 1]** ability.\n\nWhile this Mission Tactic is active, weapons equipped by **DEATHWATCH** units from your army have the **[LETHAL HITS]** ability.\n\nWhile this Mission Tactic is active, each time a **DEATHWATCH** model from your army makes an attack, on a Critical Wound, that attack has the **[PRECISION]** ability.",
+        "stats": {
+          "Detachment Points": {
+            "value": 2
+          }
+        },
+        "keywords": {
+          "Role": [
+            "Purge The Foe"
+          ]
+        }
       },
       "Detachment§Veiled Blade Elimination Force": {
         "keywords": {
@@ -1815,30 +1806,6 @@
         "stats": {
           "Detachment": {
             "ranks": {
-              "Alien Hunters": {
-                "order": 1,
-                "traits": [
-                  {
-                    "trait": "Detachment§Alien Hunters"
-                  }
-                ]
-              },
-              "Purgation Force": {
-                "order": 2,
-                "traits": [
-                  {
-                    "trait": "Detachment§Purgation Force"
-                  }
-                ]
-              },
-              "Daemon Hunters": {
-                "order": 3,
-                "traits": [
-                  {
-                    "trait": "Detachment§Daemon Hunters"
-                  }
-                ]
-              },
               "Imperialis Fleet": {
                 "order": 4,
                 "traits": [
@@ -1899,7 +1866,7 @@
           ],
           "Keywords": [
             "Agents of the Imperium",
-            "Alien Hunters"
+            "Ordo Xenos, Alien Hunters"
           ],
           "Turn": [
             "Yours"
@@ -1914,7 +1881,7 @@
         "keywords": {
           "Keywords": [
             "Agents of the Imperium",
-            "Alien Hunters"
+            "Ordo Xenos, Alien Hunters"
           ],
           "Category": [
             "Battle Tactic"
@@ -1962,7 +1929,7 @@
         "keywords": {
           "Keywords": [
             "Agents of the Imperium",
-            "Purgation Force"
+            "Ordo Hereticus, Purgation Force"
           ],
           "Category": [
             "Battle Tactic"
@@ -2002,7 +1969,7 @@
           ],
           "Keywords": [
             "Agents of the Imperium",
-            "Alien Hunters"
+            "Ordo Xenos, Alien Hunters"
           ],
           "Turn": [
             "Yours"
@@ -2046,7 +2013,7 @@
         "keywords": {
           "Keywords": [
             "Agents of the Imperium",
-            "Purgation Force"
+            "Ordo Hereticus, Purgation Force"
           ],
           "Category": [
             "Strategic Ploy"
@@ -2064,7 +2031,7 @@
         "keywords": {
           "Keywords": [
             "Agents of the Imperium",
-            "Purgation Force"
+            "Ordo Hereticus, Purgation Force"
           ],
           "Category": [
             "Epic Deed"
@@ -2087,7 +2054,7 @@
         "keywords": {
           "Keywords": [
             "Agents of the Imperium",
-            "Alien Hunters"
+            "Ordo Xenos, Alien Hunters"
           ],
           "Category": [
             "Wargear"
@@ -2108,7 +2075,7 @@
           ],
           "Keywords": [
             "Agents of the Imperium",
-            "Daemon Hunters"
+            "Ordo Malleus, Daemon Hunters"
           ],
           "Turn": [
             "Opponent’s"
@@ -2134,7 +2101,7 @@
         "keywords": {
           "Keywords": [
             "Agents of the Imperium",
-            "Purgation Force"
+            "Ordo Hereticus, Purgation Force"
           ],
           "Category": [
             "Strategic Ploy"
@@ -2157,7 +2124,7 @@
           ],
           "Keywords": [
             "Agents of the Imperium",
-            "Alien Hunters"
+            "Ordo Xenos, Alien Hunters"
           ],
           "Turn": [
             "Yours"
@@ -2172,7 +2139,7 @@
         "keywords": {
           "Keywords": [
             "Agents of the Imperium",
-            "Purgation Force"
+            "Ordo Hereticus, Purgation Force"
           ],
           "Category": [
             "Strategic Ploy"
@@ -2233,7 +2200,7 @@
           ],
           "Keywords": [
             "Agents of the Imperium",
-            "Daemon Hunters"
+            "Ordo Malleus, Daemon Hunters"
           ],
           "Turn": [
             "Yours"
@@ -2251,7 +2218,7 @@
           ],
           "Keywords": [
             "Agents of the Imperium",
-            "Alien Hunters"
+            "Ordo Xenos, Alien Hunters"
           ],
           "Turn": [
             "Opponent’s"
@@ -2269,7 +2236,7 @@
           ],
           "Keywords": [
             "Agents of the Imperium",
-            "Daemon Hunters"
+            "Ordo Malleus, Daemon Hunters"
           ],
           "Turn": [
             "Opponent’s",
@@ -2289,7 +2256,7 @@
           ],
           "Keywords": [
             "Agents of the Imperium",
-            "Daemon Hunters"
+            "Ordo Malleus, Daemon Hunters"
           ],
           "Turn": [
             "Opponent’s",
@@ -2328,7 +2295,7 @@
           ],
           "Keywords": [
             "Agents of the Imperium",
-            "Daemon Hunters"
+            "Ordo Malleus, Daemon Hunters"
           ],
           "Turn": [
             "Yours"
@@ -2343,7 +2310,7 @@
         "keywords": {
           "Keywords": [
             "Agents of the Imperium",
-            "Purgation Force"
+            "Ordo Hereticus, Purgation Force"
           ],
           "Category": [
             "Wargear"
@@ -2364,7 +2331,7 @@
         "keywords": {
           "Keywords": [
             "Agents of the Imperium",
-            "Daemon Hunters"
+            "Ordo Malleus, Daemon Hunters"
           ],
           "Category": [
             "Wargear"

@@ -114,7 +114,14 @@ def find(prefix, name):
     return next((x for x in cat if x.startswith(prefix) and n(x[len(prefix):]) == k), None)
 
 def unit_key(name):
-    return next((x for x in cat if x.split("§")[0] in UNITCLS and n(x.split("§", 1)[1]) == n(name)), None)
+    k = next((x for x in cat if x.split("§")[0] in UNITCLS and n(x.split("§", 1)[1]) == n(name)), None)
+    if k:
+        return k
+    suff = [x for x in cat if x.split("§")[0] in UNITCLS and "(" in x and n(re.sub(r"\s*\(.*?\)\s*$", "", x.split("§", 1)[1])) == n(name)]
+    return suff[0] if len(suff) == 1 else None
+
+def inherited(name):
+    return next((x for x in DEP_CAT if x.split("§")[0] in UNITCLS and n(x.split("§", 1)[1]) == n(name)), None)
 
 STATS = (("M", "m"), ("T", "t"), ("Sv", "sv"), ("W", "w"), ("Ld", "ld"), ("OC", "oc"))
 def set_statline(asset, row):
@@ -143,12 +150,16 @@ def referenced(U):
             out.setdefault((k.split("§")[0], n(k.split("—", 1)[1])), k)
     return out
 
-def sync_weapons(U, ds, created_ok=True):
+def sync_weapons(U, ds, created_ok=True, inherited_unit=False):
     out = []
     refs = referenced(U)
     def find_w(pre, name):
         kind = pre.split("§")[0]
         k = find(pre, name) or refs.get((kind, n(name)))
+        if not k and inherited_unit:
+            dk = next((x for x in DEP_CAT if x.startswith(pre) and n(x[len(pre):]) == n(name)), None)
+            if dk:
+                return "__inherited__"
         if k and not k.startswith(pre):          # shared weapon (e.g. an armoury): note conflicting codex profiles
             SHARED_SEEN.setdefault(k, set())
         return k
@@ -161,6 +172,8 @@ def sync_weapons(U, ds, created_ok=True):
                 pk = find_w(pre, base_name) or find(f"Weapon§{U}—", base_name) or pre + base_name
                 parent = cat.get(pk, {})
                 prof_keys = []
+                if inherited_unit and find_w(pre, base_name) == "__inherited__":
+                    continue
                 for pr in profs:
                     k = find_w(pre, en(pr["name"]))
                     if not k:
@@ -184,6 +197,8 @@ def sync_weapons(U, ds, created_ok=True):
             elif profs:
                 pr = profs[0]
                 k = find_w(pre, en(pr["name"]))
+                if k == "__inherited__":
+                    continue
                 if not k:
                     k = pre + en(pr["name"])
                     out.append(f"+ {k}")
@@ -200,6 +215,12 @@ faction = en(g.get("name"))
 missing = []
 for ds in g["datasheets"]:
     name = en(ds["name"]); uk = unit_key(name)
+    ik = inherited(name)
+    if ik and (not uk or uk == ik):
+        for line in sync_weapons(ik.split("§", 1)[1], ds, inherited_unit=True):
+            log.append(f"  {line} (option for inherited {ik})")
+        review.append(f"{ik}: chapter datasheet variant of an inherited unit — only new weapon options created; wire in loadout pass")
+        continue
     if not uk:
         missing.append(ds); continue
     U = uk.split("§", 1)[1]; a = cat[uk]
