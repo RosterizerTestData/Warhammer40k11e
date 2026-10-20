@@ -190,6 +190,10 @@ def sync_weapons(U, ds, created_ok=True, inherited_unit=False):
                     k = find_w(pre, en(pr["name"]))
                     if k == "__inherited__":   # profile lives in a parent book: never write the sentinel
                         continue
+                    if k == pk:   # base profile shares the weapon's name: it gets its own sub-weapon, never the parent itself
+                        k = f"{pk} – standard"
+                        if k not in cat:
+                            out.append(f"+ {k}")
                     if not k:
                         mode = en(pr["name"]).split(" – ", 1)[-1].lower()
                         k = f"{pre}{pk.split('—', 1)[1]} – {mode}"

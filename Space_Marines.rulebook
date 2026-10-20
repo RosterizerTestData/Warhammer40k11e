@@ -24483,7 +24483,7 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Marneus Calgar—Gauntlets of Ultramar",
+            "Melee Weapon§Marneus Calgar—Gauntlets of Ultramar – standard",
             "Melee Weapon§Marneus Calgar—Gauntlets of Ultramar – overhead smash"
           ]
         },
@@ -46840,7 +46840,7 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Eradicator Squad with melta rifles—Melta rifle",
+            "Ranged Weapon§Eradicator Squad with melta rifles—Melta rifle – standard",
             "Ranged Weapon§Eradicator Squad with melta rifles—Melta rifle – hunter"
           ]
         },
@@ -46856,7 +46856,7 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Eradicator Squad with melta rifles—Multi-melta",
+            "Ranged Weapon§Eradicator Squad with melta rifles—Multi-melta – standard",
             "Ranged Weapon§Eradicator Squad with melta rifles—Multi-melta – hunter"
           ]
         },
@@ -89023,8 +89023,8 @@
         },
         "assets": {
           "traits": [
-            "Ability§Twin-linked",
-            "Ability§Extra Attacks"
+            "Ability§Extra Attacks",
+            "Ability§Twin-linked"
           ]
         }
       },
@@ -93058,6 +93058,113 @@
             "format": "D3",
             "value": 2
           }
+        }
+      },
+      "Melee Weapon§Marneus Calgar—Gauntlets of Ultramar – standard": {
+        "aspects": {
+          "Label": "Gauntlets of Ultramar – standard"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 6
+          },
+          "WS": {
+            "value": 2
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Twin-linked"
+          ]
+        }
+      },
+      "Ranged Weapon§Eradicator Squad with melta rifles—Melta rifle – standard": {
+        "aspects": {
+          "Label": "Melta rifle – standard"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D3",
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Eradicator Squad with melta rifles—Multi-melta – standard": {
+        "aspects": {
+          "Label": "Multi-melta – standard"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D3",
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "3"
+                }
+              }
+            }
+          ]
         }
       }
     },

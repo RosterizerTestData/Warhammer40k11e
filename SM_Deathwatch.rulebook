@@ -12632,7 +12632,7 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Indomitor Kill Team—Flamestorm gauntlets",
+            "Ranged Weapon§Indomitor Kill Team—Flamestorm gauntlets – standard",
             "Ranged Weapon§Indomitor Kill Team—Flamestorm gauntlets – close quarters"
           ]
         },
@@ -12764,7 +12764,7 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Indomitor Kill Team—Melta rifle",
+            "Ranged Weapon§Indomitor Kill Team—Melta rifle – standard",
             "Ranged Weapon§Indomitor Kill Team—Melta rifle – hunter"
           ]
         },
@@ -12787,7 +12787,7 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Indomitor Kill Team—Multi-melta",
+            "Ranged Weapon§Indomitor Kill Team—Multi-melta – standard",
             "Ranged Weapon§Indomitor Kill Team—Multi-melta – hunter"
           ]
         },
@@ -12810,8 +12810,8 @@
         },
         "assets": {
           "traits": [
-            "Ranged Weapon§Talonstrike Kill Team—Plasma exterminators – standard",
-            "Ranged Weapon§Talonstrike Kill Team—Plasma exterminators – supercharge"
+            "Ranged Weapon§Indomitor Kill Team—Plasma exterminators – standard",
+            "Ranged Weapon§Indomitor Kill Team—Plasma exterminators – supercharge"
           ]
         },
         "keywords": {
@@ -15433,9 +15433,9 @@
         },
         "assets": {
           "traits": [
+            "Ability§Close-quarters",
             "Ability§Twin-linked",
-            "Ability§Torrent",
-            "Ability§Close-quarters"
+            "Ability§Torrent"
           ]
         }
       },
@@ -15935,6 +15935,118 @@
               "Ability§Pistol"
             ]
           }
+        }
+      },
+      "Ranged Weapon§Indomitor Kill Team—Flamestorm gauntlets – standard": {
+        "aspects": {
+          "Label": "Flamestorm gauntlets – standard"
+        },
+        "stats": {
+          "Range": {
+            "value": 12
+          },
+          "A": {
+            "value": 3
+          },
+          "S": {
+            "value": 4
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Blast",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            },
+            "Ability§Torrent",
+            "Ability§Twin-linked"
+          ]
+        }
+      },
+      "Ranged Weapon§Indomitor Kill Team—Melta rifle – standard": {
+        "aspects": {
+          "Label": "Melta rifle – standard"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 1
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D3",
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "Ranged Weapon§Indomitor Kill Team—Multi-melta – standard": {
+        "aspects": {
+          "Label": "Multi-melta – standard"
+        },
+        "stats": {
+          "Range": {
+            "value": 18
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 3
+          },
+          "S": {
+            "value": 10
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "format": "D3",
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Melta",
+              "stats": {
+                "x": {
+                  "value": "3"
+                }
+              }
+            }
+          ]
         }
       }
     },

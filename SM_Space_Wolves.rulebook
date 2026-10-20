@@ -21673,7 +21673,7 @@
         },
         "assets": {
           "traits": [
-            "Melee Weapon§Wulfen with Storm Shields—Thunder Hammer",
+            "Melee Weapon§Wulfen with Storm Shields—Thunder Hammer – standard",
             "Melee Weapon§Wulfen with Storm Shields—Thunder Hammer – hunter"
           ]
         },
@@ -22697,6 +22697,37 @@
         "assets": {
           "traits": [
             "Ability§Fervour of the Ancients"
+          ]
+        }
+      },
+      "Melee Weapon§Wulfen with Storm Shields—Thunder Hammer – standard": {
+        "aspects": {
+          "Label": "Thunder Hammer – standard"
+        },
+        "stats": {
+          "Range": {
+            "statType": "term",
+            "value": "Melee"
+          },
+          "A": {
+            "value": 2
+          },
+          "WS": {
+            "value": 3
+          },
+          "S": {
+            "value": 8
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Devastating Wounds"
           ]
         }
       }
