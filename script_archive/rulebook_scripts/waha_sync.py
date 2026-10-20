@@ -122,6 +122,11 @@ def export():
     out, legends = [], []
     for d in datasheets_for(stem):
         uk = find_unit(res, d["name"])
+        if not uk:
+            elsewhere = [s_ for s_, b_ in books.items() if s_ != stem and find_unit(b_["rulebook"]["assetCatalog"], d["name"])]
+            if elsewhere:   # another faction's unit Waha lists here (allies, e.g. renegades for Knights/Daemons): not ours to build
+                review.append(f"not built — exists in {elsewhere}: {d['name']}")
+                continue
         if not uk and (is_legends(d) or n(d["name"]) not in have_mfm):
             legends.append(d["name"])   # exists but isn't current: built as Legends (user rule)
         out.append(to_gdc(d))
@@ -178,7 +183,7 @@ def to_gdc(d):
     loadout = html(d.get("loadout"))
     attach = [{"type": "support" if d.get("is_support") == "true" else "leader", "target": ds[x]["name"]} for x in sorted(leads.get(did, ())) if x in ds]
     return {"name": E(d["name"]), "factions": [fac.get(d["faction_id"], "")],
-            "keywords": [E(k["keyword"]) for k in kws[did] if k["is_faction_keyword"] != "true" and not k["model"]],
+            "keywords": [E(k) for k in dict.fromkeys(k["keyword"] for k in kws[did] if k["is_faction_keyword"] != "true" and not k["model"])],
             "stats": [{"name": E(r["name"]), "m": r["M"], "t": r["T"], "sv": r["Sv"], "w": r["W"], "ld": r["Ld"], "oc": r["OC"]} for r in rows],
             "rangedWeapons": weapons["Ranged"], "meleeWeapons": weapons["Melee"], "abilities": ab,
             "composition": [E(comp_txt + "\r" + loadout)], "attachesTo": attach,
