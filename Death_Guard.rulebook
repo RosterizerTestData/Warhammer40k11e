@@ -7412,24 +7412,6 @@
             "statType": "rank",
             "value": "-",
             "visibility": "active"
-          },
-          "Ld": {
-            "value": 6
-          },
-          "M": {
-            "value": 9
-          },
-          "OC": {
-            "value": 1
-          },
-          "Sv": {
-            "value": 3
-          },
-          "T": {
-            "value": 6
-          },
-          "W": {
-            "value": 3
           }
         }
       },
@@ -7470,24 +7452,6 @@
             "statType": "rank",
             "value": "-",
             "visibility": "active"
-          },
-          "Ld": {
-            "value": 6
-          },
-          "M": {
-            "value": 9
-          },
-          "OC": {
-            "value": 1
-          },
-          "Sv": {
-            "value": 3
-          },
-          "T": {
-            "value": 6
-          },
-          "W": {
-            "value": 3
           }
         }
       },
@@ -9891,31 +9855,6 @@
       "Ranged Weapon§Rotigus—Streams of brackish filth": {
         "aspects": {
           "Label": "Streams of brackish filth"
-        },
-        "stats": {
-          "Range": {
-            "value": 12
-          },
-          "A": {
-            "format": "2D6",
-            "value": 0
-          },
-          "S": {
-            "value": 8
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Devastating Wounds",
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
-          ]
         }
       },
       "Ranged Weapon§Tallyman—Plasma pistol": {
@@ -13619,27 +13558,6 @@
         },
         "aspects": {
           "Label": "Close combat weapon"
-        },
-        "stats": {
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "A": {
-            "value": 5
-          },
-          "WS": {
-            "value": 3
-          },
-          "S": {
-            "value": 6
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 1
-          }
         }
       },
       "Melee Weapon§Helbrute—Helbrute hammer": {
@@ -14358,50 +14276,6 @@
       "Ranged Weapon§Chaos Land Raider—Combi-weapon": {
         "aspects": {
           "Label": "Combi-weapon"
-        },
-        "stats": {
-          "Range": {
-            "value": 24
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 4
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "infantry"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            }
-          ]
         }
       },
       "Ranged Weapon§Chaos Land Raider—Twin heavy bolter": {
@@ -14446,231 +14320,31 @@
       "Ranged Weapon§Chaos Predator Annihilator—Combi-weapon": {
         "aspects": {
           "Label": "Combi-weapon"
-        },
-        "stats": {
-          "Range": {
-            "value": 24
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 4
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "infantry"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            }
-          ]
         }
       },
       "Ranged Weapon§Chaos Predator Annihilator—Lascannon": {
         "aspects": {
           "Label": "Lascannon"
-        },
-        "stats": {
-          "Range": {
-            "value": 48
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 12
-          },
-          "AP": {
-            "value": -3
-          },
-          "D": {
-            "format": "D6",
-            "value": 1
-          }
         }
       },
       "Ranged Weapon§Chaos Predator Destructor—Combi-weapon": {
         "aspects": {
           "Label": "Combi-weapon"
-        },
-        "stats": {
-          "Range": {
-            "value": 24
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 4
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "infantry"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            }
-          ]
         }
       },
       "Ranged Weapon§Chaos Predator Destructor—Lascannon": {
         "aspects": {
           "Label": "Lascannon"
-        },
-        "stats": {
-          "Range": {
-            "value": 48
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 12
-          },
-          "AP": {
-            "value": -3
-          },
-          "D": {
-            "format": "D6",
-            "value": 1
-          }
         }
       },
       "Ranged Weapon§Chaos Rhino—Combi-weapon": {
         "aspects": {
           "Label": "Combi-weapon"
-        },
-        "stats": {
-          "Range": {
-            "value": 24
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 4
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            {
-              "item": "Ability§Anti-",
-              "stats": {
-                "keyword": {
-                  "value": "infantry"
-                },
-                "x": {
-                  "value": "4+"
-                }
-              }
-            },
-            "Ability§Devastating Wounds",
-            {
-              "item": "Ability§Rapid Fire",
-              "stats": {
-                "x": {
-                  "value": "1"
-                }
-              }
-            }
-          ]
         }
       },
       "Ranged Weapon§Chaos Rhino—Havoc launcher": {
         "aspects": {
           "Label": "Havoc launcher"
-        },
-        "stats": {
-          "Range": {
-            "value": 48
-          },
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": 0
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Blast"
-          ]
         }
       },
       "Ranged Weapon§Daemon Prince Of Nurgle—Infernal cannon": {
@@ -14892,61 +14566,11 @@
       "Ranged Weapon§Helbrute—Heavy flamer": {
         "aspects": {
           "Label": "Heavy flamer"
-        },
-        "stats": {
-          "Range": {
-            "value": 12
-          },
-          "A": {
-            "format": "D6",
-            "value": 0
-          },
-          "S": {
-            "value": 5
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent"
-          ]
         }
       },
       "Ranged Weapon§Helbrute—Twin lascannon": {
         "aspects": {
           "Label": "Twin lascannon"
-        },
-        "stats": {
-          "Range": {
-            "value": 48
-          },
-          "A": {
-            "value": 1
-          },
-          "BS": {
-            "value": 3
-          },
-          "S": {
-            "value": 12
-          },
-          "AP": {
-            "value": -3
-          },
-          "D": {
-            "format": "D6",
-            "value": 1
-          }
-        },
-        "assets": {
-          "traits": [
-            "Ability§Twin-linked"
-          ]
         }
       },
       "Ranged Weapon§Helbrute—Plasma cannon": {
@@ -14985,53 +14609,11 @@
       "Melee Weapon§Helbrute—Power scourge": {
         "aspects": {
           "Label": "Power scourge"
-        },
-        "stats": {
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "A": {
-            "value": 8
-          },
-          "WS": {
-            "value": 3
-          },
-          "S": {
-            "value": 7
-          },
-          "AP": {
-            "value": -1
-          },
-          "D": {
-            "value": 2
-          }
         }
       },
       "Melee Weapon§Helbrute—Helbrute fist": {
         "aspects": {
           "Label": "Helbrute fist"
-        },
-        "stats": {
-          "Range": {
-            "statType": "term",
-            "value": "Melee"
-          },
-          "A": {
-            "value": 5
-          },
-          "WS": {
-            "value": 3
-          },
-          "S": {
-            "value": 12
-          },
-          "AP": {
-            "value": -2
-          },
-          "D": {
-            "value": 3
-          }
         }
       },
       "Ranged Weapon§Icon Bearer—Boltgun": {

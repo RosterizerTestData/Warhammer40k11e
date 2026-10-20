@@ -25,6 +25,17 @@ log, review = [], []
 STATS = ("M", "T", "Sv", "W", "Ld", "OC")
 
 
+def render(v):
+    """display value of a stat: "D3+1" is stored as format D3 / value 1; Melee and "-" are terms"""
+    if not v:
+        return None
+    if v.get("format"):
+        return v["format"] + (f"+{v['value']}" if v.get("value") else "")
+    return str(v.get("value"))
+
+
+
+
 def chain(stem):
     out = []
     for h in deps[stem]:
@@ -108,29 +119,27 @@ for stem in sorted(books):
         holders = [h for h in [uk] + mods if (res[h].get("stats") or {}).get("T")]
         rows = models[d["id"]]
         for r in rows:
-            if len(rows) == 1 and len(holders) == 1:
-                hk = holders[0]
+            if len(rows) == 1:
+                # one statline for the whole unit: models sharing the unit's common statline carry it; outliers
+                # (jump-pack variants, a pilot model) and anything far from the row are left alone
+                line = lambda h: tuple(render((res[h].get("stats") or {}).get(s)) for s in STATS)
+                common = Counter(line(h) for h in holders).most_common(1)[0][0] if holders else None
+                want = stat_desire(r)["stats"]
+                near = lambda h: sum(render((res[h].get("stats") or {}).get(s)) != render(v) for s, v in want.items()) <= 2
+                targets = [h for h in holders if line(h) == common and near(h)]
             else:
                 hk = next((h for h in holders if n(h.split("§", 1)[1]) == n(r["name"]) or n((res[h].get("aspects") or {}).get("Label")) == n(r["name"])), None)
-            if not hk:
-                continue
-            hb = base_book(stem, hk)
-            if hb and hb != stem and hb in HUBS:
+                targets = [hk] if hk else []
+            for hk in targets:
+                hb = base_book(stem, hk)
+                if not (hb and hb != stem and hb in HUBS):
+                    continue
                 w_ = stat_desire(r)
                 prev = desire[(hb, hk)].get(stem)
                 if prev and json.dumps(prev, sort_keys=True) != json.dumps(w_, sort_keys=True):
                     review.append(f"{stem}: {hk} is shared by units wanting different values ({d['name']}) — first kept")
                     continue
                 desire[(hb, hk)][stem] = w_
-
-def render(v):
-    """display value of a stat: "D3+1" is stored as format D3 / value 1; Melee and "-" are terms"""
-    if not v:
-        return None
-    if v.get("format"):
-        return v["format"] + (f"+{v['value']}" if v.get("value") else "")
-    return str(v.get("value"))
-
 
 def canon(x):
     return json.dumps({"stats": {s: render(v) for s, v in x["stats"].items()}, "kw": x["kw"]}, sort_keys=True)
