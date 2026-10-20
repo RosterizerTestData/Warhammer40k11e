@@ -4636,6 +4636,42 @@
             ],
             "evaluate": "AND",
             "failState": "error"
+          },
+          "apply": {
+            "actions": [
+              {
+                "actionType": "modify",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{parent}",
+                    "assets",
+                    "classification",
+                    "Melee Weapon",
+                    "stats",
+                    "D",
+                    "value"
+                  ],
+                  [
+                    "{parent}",
+                    "assets",
+                    "classIdentity",
+                    "Weapon",
+                    "assets",
+                    "classification",
+                    "Melee Weapon",
+                    "stats",
+                    "D",
+                    "value"
+                  ]
+                ],
+                "value": 1
+              }
+            ],
+            "evals": [],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 50
           }
         }
       },
@@ -4715,62 +4751,6 @@
           ]
         },
         "rules": {
-          "apply": {
-            "actions": [
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{parent}",
-                    "assets",
-                    "classification",
-                    "Ranged Weapon",
-                    "traits"
-                  ],
-                  [
-                    "{parent}",
-                    "assets",
-                    "classIdentity",
-                    "Weapon",
-                    "assets",
-                    "classification",
-                    "Ranged Weapon",
-                    "traits"
-                  ]
-                ],
-                "value": "Ability§Devastating Wounds"
-              },
-              {
-                "actionType": "add",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{parent}",
-                    "assets",
-                    "classification",
-                    "Ranged Weapon",
-                    "traits"
-                  ],
-                  [
-                    "{parent}",
-                    "assets",
-                    "classIdentity",
-                    "Weapon",
-                    "assets",
-                    "classification",
-                    "Ranged Weapon",
-                    "traits"
-                  ]
-                ],
-                "value": "Ability§Hazardous"
-              }
-            ],
-            "evals": [],
-            "evaluate": "AND",
-            "failState": "pass",
-            "order": 90
-          },
           "WARBOSS model only.": {
             "evals": [
               {
@@ -4797,7 +4777,12 @@
             "value": 20
           }
         },
-        "text": "**WARBOSS** model only. This model has the following weapon:"
+        "text": "**WARBOSS** model only. This model has the following weapon:",
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Brute Bosses—Da Gobshot Thunderbuss"
+          ]
+        }
       },
       "Enhancement§Fasta Than Yooz": {
         "keywords": {
@@ -5208,43 +5193,7 @@
           ]
         },
         "rules": {
-          "apply": {
-            "actions": [
-              {
-                "actionType": "modify",
-                "iterations": 1,
-                "paths": [
-                  [
-                    "{parent}",
-                    "assets",
-                    "classification",
-                    "Melee Weapon",
-                    "stats",
-                    "D",
-                    "value"
-                  ],
-                  [
-                    "{parent}",
-                    "assets",
-                    "classIdentity",
-                    "Weapon",
-                    "assets",
-                    "classification",
-                    "Melee Weapon",
-                    "stats",
-                    "D",
-                    "value"
-                  ]
-                ],
-                "value": 1
-              }
-            ],
-            "evals": [],
-            "evaluate": "AND",
-            "failState": "pass",
-            "order": 999
-          },
-          "Beast Snagga model only.": {
+          "WARBOSS model only.": {
             "evals": [
               {
                 "actionable": true,
@@ -5258,10 +5207,10 @@
                     "Keywords"
                   ]
                 ],
-                "value": "Beast Snagga"
+                "value": "Warboss"
               }
             ],
-            "evaluate": "OR",
+            "evaluate": "AND",
             "failState": "error"
           }
         },
@@ -30704,7 +30653,7 @@
         }
       },
       "Detachment§Brute Bosses": {
-        "text": "WARNING: stratagems for this detachment are missing from game-datacards and BSData; add them from the codex.\n\n**’ARD AS NAILS**\n\nWhen a friendly **WARBOSS** model is **destroyed**, if this unit has not been **selected to fight** this phase, roll one D6, with +1 to the roll if your unit is **riled up**: \n\n- On a 3+, do not remove this **WARBOSS** model from the battlefield. When this unit has fought, or at the end of the phase (whichever comes first), this **WARBOSS** model is removed from the battlefield.",
+        "text": "**’ARD AS NAILS**\n\nWhen a friendly **WARBOSS** model is **destroyed**, if this unit has not been **selected to fight** this phase, roll one D6, with +1 to the roll if your unit is **riled up**: \n\n- On a 3+, do not remove this **WARBOSS** model from the battlefield. When this unit has fought, or at the end of the phase (whichever comes first), this **WARBOSS** model is removed from the battlefield.",
         "stats": {
           "Detachment Points": {
             "value": 1
@@ -31004,7 +30953,7 @@
         }
       },
       "Detachment§Wurrband": {
-        "text": "WARNING: stratagems for this detachment are missing from game-datacards and BSData; add them from the codex.\n\n**POWERS OF DA WAAAGH!**\n\nFriendly **ORKS PSYKER** models’ **[PSYCHIC]** attacks have: \n\n- +1 **S**.\n- +1 **S** for every 5 models in this unit (or embarked within this model).\nFriendly **ORKS PSYKER** models have the following **psychic abilities**:\n\n**Roar of Mork (psychic level 1):** In your Movement phase, if this unit is not **battle-shocked**, you can make a **psychic roll** for this unit by rolling one D6. If you do: \n\n- On a 1, this unit is **battle-shocked**.\n- Select one enemy unit (excluding **MONSTER/VEHICLE** units) within 12\" of this unit. That enemy unit makes a **battle-shock roll**, with -1 from that **battle-shock roll** for every 10 models in this unit.\n\n**Visions of Violence (psychic level 1):** At the start of the Fight phase, if this unit is not **battle-shocked**, you can make a **psychic roll** for this unit by rolling one D6. If you do: \n\n- On a 1, this unit is **battle-shocked**.\n- This unit has **Fights First**.",
+        "text": "**POWERS OF DA WAAAGH!**\n\nFriendly **ORKS PSYKER** models’ **[PSYCHIC]** attacks have: \n\n- +1 **S**.\n- +1 **S** for every 5 models in this unit (or embarked within this model).\nFriendly **ORKS PSYKER** models have the following **psychic abilities**:\n\n**Roar of Mork (psychic level 1):** In your Movement phase, if this unit is not **battle-shocked**, you can make a **psychic roll** for this unit by rolling one D6. If you do: \n\n- On a 1, this unit is **battle-shocked**.\n- Select one enemy unit (excluding **MONSTER/VEHICLE** units) within 12\" of this unit. That enemy unit makes a **battle-shock roll**, with -1 from that **battle-shock roll** for every 10 models in this unit.\n\n**Visions of Violence (psychic level 1):** At the start of the Fight phase, if this unit is not **battle-shocked**, you can make a **psychic roll** for this unit by rolling one D6. If you do: \n\n- On a 1, this unit is **battle-shocked**.\n- This unit has **Fights First**.",
         "stats": {
           "Detachment Points": {
             "value": 1
@@ -31025,7 +30974,7 @@
         }
       },
       "Detachment§Madcap Meks": {
-        "text": "WARNING: stratagems for this detachment are missing from game-datacards and BSData; add them from the codex.\n\n**UNPREDICTABLE GENIUS**\n\nIn your Shooting phase, when all of a friendly **BIG MEK/MEK GUNZ/MORKANAUT/WAZBOM BLASTAJET** unit's ranged attacks target a single enemy unit, roll one D6:\n\nUnpredictable Genius\nD6\nResult\n1\n**Dat's Weird:** The target unit has 4+ **InSv** until your unit has shot.\n2‑3\n**Hop Splat:** Select one other enemy unit within 3\" of the target. That unit suffers D3 **mortal wounds**.\n4\n**Seekerz:** Those attacks have +1 to **hit rolls**. \n5\n**Lifted:** The target unit has **FLY**, and cannot have the **benefit of cover**, until your unit has shot.\n6\n**Runtified:** The target unit has -1 **T** until your unit has shot.",
+        "text": "**UNPREDICTABLE GENIUS**\n\nIn your Shooting phase, when all of a friendly **BIG MEK/MEK GUNZ/MORKANAUT/WAZBOM BLASTAJET** unit's ranged attacks target a single enemy unit, roll one D6:\n\nUnpredictable Genius\nD6\nResult\n1\n**Dat's Weird:** The target unit has 4+ **InSv** until your unit has shot.\n2‑3\n**Hop Splat:** Select one other enemy unit within 3\" of the target. That unit suffers D3 **mortal wounds**.\n4\n**Seekerz:** Those attacks have +1 to **hit rolls**. \n5\n**Lifted:** The target unit has **FLY**, and cannot have the **benefit of cover**, until your unit has shot.\n6\n**Runtified:** The target unit has -1 **T** until your unit has shot.",
         "stats": {
           "Detachment Points": {
             "value": 1
@@ -31699,6 +31648,11 @@
             "evaluate": "AND",
             "failState": "error"
           }
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Wurrband—Da Krunch"
+          ]
         }
       },
       "Enhancement§Cybork Boosta": {
@@ -32096,6 +32050,11 @@
             "evaluate": "AND",
             "failState": "error"
           }
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Wurrband—'Eadbanger"
+          ]
         }
       },
       "Enhancement§Ferocious Show-off": {
@@ -39480,6 +39439,225 @@
       },
       "Ability§Full Throttle (Wazdakka Gutsmek)": {
         "text": "**Turbo Engine:** When this unit is selected to make an **advance**/**fall-back move**, that move does not prevent this unit from being **eligible to declare a charge**.\n\n**Shokk Attack Engine:** In your Command phase, if this unit is **unengaged**, you can place this unit in **strategic reserves**.\n\n**Pulse Jet:** In your Movement phase, when this unit is **selected to move**, if this unit is **unengaged**, this unit can make a **pulse jet move** (pg 121)."
+      },
+      "Ranged Weapon§Brute Bosses—Da Gobshot Thunderbuss": {
+        "aspects": {
+          "Label": "Da Gobshot Thunderbuss"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 6
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 7
+          },
+          "AP": {
+            "value": -2
+          },
+          "D": {
+            "value": 2
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Lethal Hits",
+              "stats": {
+                "x": {
+                  "value": "(non-MONSTER/VEHICLE)"
+                }
+              }
+            },
+            {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "6"
+                }
+              }
+            }
+          ]
+        },
+        "rules": {
+          "noEnhancementNameTally": {
+            "actions": [
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "tally",
+                    "{0string}"
+                  ]
+                ],
+                "value": 0
+              }
+            ],
+            "evals": [
+              {
+                "actionable": false,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "designation"
+                  ]
+                ]
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 201
+          }
+        }
+      },
+      "Ranged Weapon§Wurrband—Da Krunch": {
+        "aspects": {
+          "Label": "Da Krunch"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 3
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 5
+          },
+          "AP": {
+            "value": -1
+          },
+          "D": {
+            "value": 1
+          }
+        },
+        "assets": {
+          "traits": [
+            {
+              "item": "Ability§Blast",
+              "stats": {
+                "x": {
+                  "value": "3"
+                }
+              }
+            },
+            "Ability§Hazardous",
+            "Ability§Lethal Hits",
+            "Ability§Psychic"
+          ]
+        },
+        "rules": {
+          "noEnhancementNameTally": {
+            "actions": [
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "tally",
+                    "{0string}"
+                  ]
+                ],
+                "value": 0
+              }
+            ],
+            "evals": [
+              {
+                "actionable": false,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "designation"
+                  ]
+                ]
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 201
+          }
+        }
+      },
+      "Ranged Weapon§Wurrband—'Eadbanger": {
+        "aspects": {
+          "Label": "'Eadbanger"
+        },
+        "stats": {
+          "Range": {
+            "value": 24
+          },
+          "A": {
+            "value": 2
+          },
+          "BS": {
+            "value": 4
+          },
+          "S": {
+            "value": 6
+          },
+          "AP": {
+            "value": -3
+          },
+          "D": {
+            "value": 3
+          }
+        },
+        "assets": {
+          "traits": [
+            "Ability§Hazardous",
+            "Ability§Precision",
+            "Ability§Psychic"
+          ]
+        },
+        "rules": {
+          "noEnhancementNameTally": {
+            "actions": [
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "tally",
+                    "{0string}"
+                  ]
+                ],
+                "value": 0
+              }
+            ],
+            "evals": [
+              {
+                "actionable": false,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "designation"
+                  ]
+                ]
+              }
+            ],
+            "evaluate": "AND",
+            "failState": "pass",
+            "order": 201
+          }
+        }
       }
     },
     "gameModes": {},
