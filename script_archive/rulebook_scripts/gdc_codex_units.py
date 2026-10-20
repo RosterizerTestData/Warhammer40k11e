@@ -307,7 +307,7 @@ def sync_profile(uk, ds):
                 log.append(f"~ {uk}: invulnerable note '{info}'")
         elif on_models("Ability§Invulnerable"):
             olds = {((t.get("stats") or {}).get("x") or {}).get("value") for t in on_models("Ability§Invulnerable") if isinstance(t, dict)}
-            if olds != {inv}:
+            if inv not in olds:   # GDC carries one value per datasheet; per-model saves (e.g. Wardens of Ultramar) legitimately differ
                 review.append(f"{uk}: model-level invulnerable {sorted(map(str, olds))} vs GDC {inv}{' (' + info + ')' if info else ''}")
         else:
             t = {"item": "Ability§Invulnerable", "stats": {"x": {"value": inv}}}
