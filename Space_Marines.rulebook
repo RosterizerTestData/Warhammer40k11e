@@ -38084,14 +38084,22 @@
         "assets": {
           "traits": [
             {
+              "item": "Ability§Rapid Fire",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            },
+            "Ability§Twin-linked",
+            {
               "item": "Ability§Sustained Hits",
               "stats": {
                 "x": {
                   "value": "1"
                 }
               }
-            },
-            "Ability§Twin-linked"
+            }
           ]
         },
         "stats": {
@@ -38121,15 +38129,21 @@
         },
         "assets": {
           "traits": [
-            "Ability§Ignores Cover",
-            "Ability§Torrent",
-            "Ability§Twin-linked"
+            {
+              "item": "Ability§Blast",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            },
+            "Ability§Twin-linked",
+            "Ability§Torrent"
           ]
         },
         "stats": {
           "A": {
-            "format": "D6",
-            "value": 0
+            "value": 3
           },
           "AP": {
             "value": -1
@@ -73188,7 +73202,7 @@
             "value": "-"
           },
           "OC": {
-            "value": 2
+            "value": 0
           },
           "Points": {
             "value": 70
@@ -82223,7 +82237,7 @@
             "visibility": "active"
           },
           "M": {
-            "value": 8
+            "value": 6
           },
           "OC": {
             "value": 3
@@ -90706,7 +90720,6 @@
         },
         "assets": {
           "traits": [
-            "Ability§Torrent",
             {
               "item": "Ability§Blast",
               "stats": {
@@ -90714,7 +90727,8 @@
                   "value": "2"
                 }
               }
-            }
+            },
+            "Ability§Torrent"
           ]
         },
         "removed": {

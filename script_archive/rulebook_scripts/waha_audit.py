@@ -113,7 +113,10 @@ def find_unit(cat, name):
     if k:
         return k
     cands = [x for x in cat if x.split("§")[0] in UNITCLS and n(re.sub(r"\s*\(.*?\)\s*$", "", x.split("§", 1)[1])) == n(name)]
-    return cands[0] if len(cands) == 1 else None
+    if len(cands) == 1:
+        return cands[0]
+    plural = [x for x in cat if x.split("§")[0] in UNITCLS and n(x.split("§", 1)[1]).rstrip("s") == n(name).rstrip("s")]
+    return plural[0] if len(plural) == 1 else None
 
 
 def item(t):
@@ -183,7 +186,7 @@ def rz_wk_tokens(a):
             for part in str(kw).split("/"):
                 out.add(n(f"anti{part}{x}"))
         elif x and not str(x).startswith("("):
-            out.add(n(f"{base}{x}"))
+            out.add(n(f"{base}{re.sub(r'\s*\(.*\)$', '', str(x))}"))
         else:
             out.add(n(base))
     return out
@@ -203,6 +206,8 @@ for did, d in ds.items():
     cat = resolved(stem)
     uk = find_unit(cat, d["name"])
     if not uk:
+        if any(find_unit(raw[s]["rulebook"]["assetCatalog"], d["name"]) for s in raw if s != stem):
+            continue   # another faction's unit fielded as an ally (e.g. renegades for Knights/Daemons)
         R[stem]["unit missing" + (" (Legends)" if legends else "")].append(d["name"])
         continue
     a = cat[uk]
@@ -232,7 +237,7 @@ for did, d in ds.items():
             if wv is not None and wv != (rv or 0):
                 diffs.append(f"{s} {rv}→{wv}")
         if diffs:
-            R[stem]["statline"].append(f"{d['name']} / {r['name']}: {', '.join(diffs)}")
+            R[stem]["statline"].append(f"{d['name']} / {r['name']}: {', '.join(diffs)}  [{hk}]")
         winv = num(r["inv_sv"]) if r["inv_sv"] not in ("", "-") else None
         rinv = inv_of(h) or (inv_of(a) if hk != uk else None)
         if winv != rinv:
@@ -256,6 +261,8 @@ for did, d in ds.items():
                      and n(x.split("§", 1)[1].split("—")[0]) == n(uk.split("§", 1)[1])]
             R[stem]["weapon unwired" if loose else "weapon absent"].append(f"{d['name']}: {wn}")
             continue
+        if sval(cat[k], "A") is None and f"{k} – standard" in cat:   # parent: the base profile is its "– standard" sub-weapon
+            k = f"{k} – standard"
         wa = cat[k]
         diffs = []
         for s, col in (("Range", "range"), ("A", "A"), ("S", "S"), ("AP", "AP"), ("D", "D")):
@@ -271,10 +278,10 @@ for did, d in ds.items():
         if wv != rv and not (wv is None and rv in (None, 0)):
             diffs.append(f"{sk} {rv}→{wv}")
         if diffs:
-            R[stem]["weapon profile"].append(f"{d['name']}: {wn}: {', '.join(diffs)}")
+            R[stem]["weapon profile"].append(f"{d['name']}: {wn}: {', '.join(diffs)}  [{k}]")
         wt, rt = wk_tokens(g.get("description")), rz_wk_tokens(wa)
         if wt - rt:
-            R[stem]["weapon keywords"].append(f"{d['name']}: {wn}: missing {sorted(wt - rt)}" + (f", extra {sorted(rt - wt)}" if rt - wt else ""))
+            R[stem]["weapon keywords"].append(f"{d['name']}: {wn}: missing {sorted(wt - rt)}" + (f", extra {sorted(rt - wt)}" if rt - wt else "") + f"  [{k}]")
     # keywords
     wkw = {n(k["keyword"]) for k in kws[did] if k["is_faction_keyword"] != "true" and not k["model"]}
     rkw = {n(x) for x in ((a.get("keywords") or {}).get("Keywords") or [])}

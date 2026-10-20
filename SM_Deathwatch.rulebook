@@ -8329,7 +8329,7 @@
                 "order": 0,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Indomitor Kill Team—Assault bolters"
+                    "trait": "Ranged Weapon§Talonstrike Kill Team—Assault bolters"
                   }
                 ]
               },
@@ -8337,7 +8337,7 @@
                 "order": 1,
                 "traits": [
                   {
-                    "trait": "Ranged Weapon§Indomitor Kill Team—Plasma exterminators"
+                    "trait": "Ranged Weapon§Talonstrike Kill Team—Plasma exterminators"
                   }
                 ]
               }
@@ -8824,7 +8824,7 @@
             "value": 3
           },
           "T": {
-            "value": 4
+            "value": 5
           },
           "W": {
             "value": 2
@@ -10391,7 +10391,7 @@
         },
         "assets": {
           "traits": [
-            "Ability§Pistol"
+            "Ability§Close-quarters"
           ]
         },
         "stats": {
@@ -10399,7 +10399,7 @@
             "value": 1
           },
           "AP": {
-            "value": 0
+            "value": -1
           },
           "BS": {
             "value": 3
@@ -10411,7 +10411,7 @@
             "value": 12
           },
           "S": {
-            "value": 4
+            "value": 5
           }
         }
       },
@@ -13359,6 +13359,7 @@
         },
         "assets": {
           "traits": [
+            "Ability§Assault",
             "Ability§Twin-linked",
             {
               "item": "Ability§Sustained Hits",
@@ -13368,8 +13369,7 @@
                 }
               }
             },
-            "Ability§Close-quarters",
-            "Ability§Assault"
+            "Ability§Close-quarters"
           ]
         },
         "stats": {
@@ -15755,8 +15755,8 @@
         "assets": {
           "traits": [
             "Ability§Twin-linked",
-            "Ability§Close-quarters",
-            "Ability§Assault"
+            "Ability§Assault",
+            "Ability§Close-quarters"
           ]
         }
       },
@@ -15786,10 +15786,10 @@
         },
         "assets": {
           "traits": [
-            "Ability§Twin-linked",
-            "Ability§Hazardous",
             "Ability§Close-quarters",
-            "Ability§Assault"
+            "Ability§Assault",
+            "Ability§Hazardous",
+            "Ability§Twin-linked"
           ]
         }
       },
@@ -16046,6 +16046,22 @@
                 }
               }
             }
+          ]
+        }
+      },
+      "Ranged Weapon§Talonstrike Kill Team—Plasma exterminators": {
+        "aspects": {
+          "Label": "Plasma exterminators"
+        },
+        "assets": {
+          "traits": [
+            "Ranged Weapon§Talonstrike Kill Team—Plasma exterminators – standard",
+            "Ranged Weapon§Talonstrike Kill Team—Plasma exterminators – supercharge"
+          ]
+        },
+        "keywords": {
+          "Tags": [
+            "Multi-weapon"
           ]
         }
       }

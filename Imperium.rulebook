@@ -3465,7 +3465,15 @@
             },
             "Ability§Invulnerable",
             "Ranged Weapon§Jokaero Weaponsmith—Jokaero weapons",
-            "Melee Weapon§Jokaero Weaponsmith—Close combat weapon"
+            "Melee Weapon§Jokaero Weaponsmith—Close combat weapon",
+            {
+              "item": "Ability§Invulnerable",
+              "stats": {
+                "x": {
+                  "value": "4+"
+                }
+              }
+            }
           ]
         },
         "keywords": {
@@ -41781,14 +41789,20 @@
         },
         "assets": {
           "traits": [
-            "Ability§Torrent",
-            "Ability§Ignores Cover"
+            {
+              "item": "Ability§Blast",
+              "stats": {
+                "x": {
+                  "value": "2"
+                }
+              }
+            },
+            "Ability§Torrent"
           ]
         },
         "stats": {
           "A": {
-            "format": "D6",
-            "value": 0
+            "value": 3
           },
           "AP": {
             "value": -1

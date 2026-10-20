@@ -19,6 +19,8 @@ log, review, touched = [], [], set()
 
 
 def shared(k):
+    if "Weapon§" not in k:
+        return False
     nm = k.split("§", 1)[1]
     return "—" not in nm or "Armoury" in nm.split("—", 1)[0]
 
@@ -103,6 +105,51 @@ def copy_into(home, key, U, profiles):
     return new
 
 
+def users():
+    """(shared key) -> [(stem, unit, profile)] for every unit Waha gives a profile for"""
+    out = {}
+    for stem in sorted(books):
+        if stem == CORE or not datasheets_for(stem):
+            continue
+        res = resolved(books, stem)
+        for d in datasheets_for(stem):
+            uk = find_unit(res, d["name"])
+            if not uk:
+                continue
+            blob = json.dumps(res[uk], ensure_ascii=False)
+            hs = [uk] + [m for m in dict.fromkeys(re.findall(r'"(Model§[^"]+)"', blob)) if m in res]
+            keys = {w for h in hs for w in re.findall(WEAPON, json.dumps(res[h], ensure_ascii=False)) if w in res and shared(w)}
+            keys |= {item(t) for k in list(keys) for t in (res[k].get("assets") or {}).get("traits", []) if item(t) in res and shared(item(t))}
+            for k in keys:
+                g = next((g for g in gear[d["id"]] if g["type"] in ("Ranged", "Melee") and n(g["name"]) == n(wname(k)) and
+                          (g["type"] + " Weapon") == k.split("§")[0]), None)
+                if g:
+                    out.setdefault(k, []).append((stem, uk, desire(g)))
+    return out
+
+
+# 1. a shared weapon takes the profile most of its users want (an out-of-date armoury entry gets updated, not split)
+for k, lst in sorted(users().items()):
+    sig = lambda p: json.dumps({"s": {x: render(v) for x, v in p[0].items()}, "k": sorted(json.dumps(t, sort_keys=True) for t in p[1])}, sort_keys=True)
+    votes = {}
+    for _, _, p in lst:
+        votes.setdefault(sig(p), []).append(p)
+    top = max(votes.values(), key=len)
+    if len(top) * 2 <= len(lst):
+        continue   # no clear majority: leave the shared profile, split the differing units below
+    st, kw = top[0]
+    for home in [s for s in books if k in books[s]["rulebook"]["assetCatalog"]]:   # every book defining the key (SM and the Chaos hub both hold some armoury keys)
+        a = books[home]["rulebook"]["assetCatalog"][k]
+        if not (a.get("stats") or {}) and not home in ("Chaos", "Imperium") and any(k in books[h]["rulebook"]["assetCatalog"] for h in ("Chaos", "Imperium")):
+            continue   # a stat-less override of a hub asset
+        if not same(a, st, kw) and (a.get("stats") or {}).get("A") is not None:
+            a.setdefault("stats", {}).update(st)
+            keep = [t for t in (a.get("assets") or {}).get("traits", []) if item(t) not in WA_ITEMS]
+            a.setdefault("assets", {})["traits"] = keep + kw
+            touched.add(home)
+            log.append(f"{home}: {k} updated to the profile {len(top)}/{len(lst)} of its users have")
+
+# 2. units that still differ get their own weapon
 for stem in sorted(books):
     if stem == CORE or not datasheets_for(stem):
         continue
